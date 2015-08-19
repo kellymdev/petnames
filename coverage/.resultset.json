@@ -1,0 +1,16 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/Kel/Documents/dev/git/petnames/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/Kel/Documents/dev/git/petnames/app/models/name.rb": [
+        1,
+        1,
+        null
+      ]
+    },
+    "timestamp": 1439956367
+  }
+}

@@ -14,8 +14,8 @@ RSpec.describe Name, type: :model do
       expect(name).to have_and_belong_to_many(:meanings)
     end
 
-    it "has and belongs to many genders" do
-      expect(name).to have_and_belong_to_many(:genders)
+    it "belongs to a gender" do
+      expect(name).to belong_to(:gender)
     end
   end
 

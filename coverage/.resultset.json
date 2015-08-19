@@ -5,12 +5,21 @@
         1,
         null
       ],
+      "/Users/Kel/Documents/dev/git/petnames/app/models/meaning.rb": [
+        1,
+        1,
+        null,
+        1,
+        null
+      ],
       "/Users/Kel/Documents/dev/git/petnames/app/models/name.rb": [
         1,
+        1,
+        null,
         1,
         null
       ]
     },
-    "timestamp": 1439956367
+    "timestamp": 1439957226
   }
 }

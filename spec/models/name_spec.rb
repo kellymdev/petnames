@@ -9,7 +9,14 @@ RSpec.describe Name, type: :model do
     end
   end
 
+  context "relationships" do
+    it "has many meanings" do
+      expect(name).to have_many(:meanings)
+    end
+  end
+
   after do
     Name.destroy_all
+    Meaning.destroy_all
   end
 end

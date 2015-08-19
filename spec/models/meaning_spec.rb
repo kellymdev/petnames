@@ -13,6 +13,10 @@ RSpec.describe Meaning, type: :model do
     it "belongs to a name" do
       expect(meaning).to belong_to(:name)
     end
+
+    it "belongs to a language" do
+      expect(meaning).to belong_to(:language)
+    end
   end
 
   after do

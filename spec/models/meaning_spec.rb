@@ -10,8 +10,8 @@ RSpec.describe Meaning, type: :model do
   end
 
   context "relationships" do
-    it "belongs to a name" do
-      expect(meaning).to belong_to(:name)
+    it "has and belongs to many names" do
+      expect(meaning).to have_and_belong_to_many(:names)
     end
 
     it "belongs to a language" do

@@ -1,5 +1,5 @@
 # Genders
-Gender.create(
+Gender.create([
                 {
                   name: "Female",
                   abbreviation: "F"
@@ -8,10 +8,10 @@ Gender.create(
                   name: "Male",
                   abbreviation: "M"
                 }
-              )
+              ])
 
 # Languages
-Language.create(
+Language.create([
                   { name: "Akan" },
                   { name: "Akposso" },
                   { name: "Algonquian-Wakashian" },
@@ -68,4 +68,7 @@ Language.create(
                   { name: "Xhosa" },
                   { name: "Yiddish" },
                   { name: "Yoruba" }
-                )
+                ])
+
+# sky = Meaning.create(description: "Meaning 'the sky'")
+

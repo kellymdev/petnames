@@ -10,8 +10,8 @@ RSpec.describe Name, type: :model do
   end
 
   context "relationships" do
-    it "has many meanings" do
-      expect(name).to have_many(:meanings)
+    it "has and belongs to many meanings" do
+      expect(name).to have_and_belong_to_many(:meanings)
     end
 
     it "has and belongs to many genders" do

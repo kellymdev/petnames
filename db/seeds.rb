@@ -1465,8 +1465,99 @@ names_to_create = ([
                       [ { name: "Everest", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'belief'" },
+                      [ { name: "Faith", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'happy'", language_id: latin.id },
+                      [ { name: "Felice", gender_id: both.id },
+                        { name: "Felicia", gender_id: female.id },
+                        { name: "Felicity", gender_id: female.id },
+                        { name: "Felix", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'supreme man'", language_id: scots_gaelic.id },
+                      [ { name: "Fergus", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "After the flowerless plant with feathery green leaves", language_id: english.id },
+                      [ { name: "Fern", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Spanish and Italian form of Ferdinand, meaning 'bold journey'", language_id: ancient_german.id },
+                      [ { name: "Fernando", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "From the Latin ferrum meaning 'iron'", language_id: latin.id },
+                      [ { name: "Ferris" } ]
+                    ],
+                    [
+                      { description: "Move restlessly", language_id: english.id },
+                      [ { name: "Fidget", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Josephine, meaning 'the Lord's addition'", language_id: hebrew.id },
+                      [ { name: "Fifi", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Filip, meaning 'horse lover'", language_id: greek.id },
+                      [ { name: "Fil", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'fair'", language_id: irish_gaelic.id },
+                      [ { name: "Fin", gender_id: male.id },
+                        { name: "Finn", gender_id: male.id },
+                        { name: "Fynn", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'pure hero'", language_id: scots_gaelic.id },
+                      [ { name: "Finley", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'fair'", language_id: gaelic.id },
+                      [ { name: "Fiona", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Angry or excited feeling" },
+                      [ { name: "Fire", gender_id: both.id },
+                        { name: "Fyre", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Person who catches fish" },
+                      [ { name: "Fisher" } ]
+                    ],
+                    [
+                      { description: "Meaning 'son of the king'" },
+                      [ { name: "Fitz", gender_id: male.id },
+                        { name: "Fitzroy", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning give off bubbles, hiss or splutter", language_id: english.id },
+                      [ { name: "Fizz", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Become bright red", language_id: english.id },
+                      [ { name: "Flame", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Move rapidly", language_id: english.id },
+                      [ { name: "Flash", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'yellow'", language_id: roman.id },
                       [ { name: "Flavia" } ]
+                    ],
+                    [
+                      { description: "Meaning 'arrow maker'", language_id: old_french.id },
+                      [ { name: "Fletcher", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'flourishing' or 'flower'", language_id: latin.id },
+                      [ { name: "Flo", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'flower'", language_id: latin.id },
+                      [ { name: "Flora", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'grey-haired'", language_id: welsh.id },
@@ -1474,9 +1565,79 @@ names_to_create = ([
                         { name: "Floydd", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning soft mass of fibres or down", language_id: english.id },
+                      [ { name: "Fluff", gender_id: both.id },
+                        { name: "Fluffy", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'son of the red-haired man'", language_id: gaelic.id },
+                      [ { name: "Flynn", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Trees and undergrowth covering a large area", language_id: english.id },
+                      [ { name: "Forest" },
+                        { name: "Forrest" } ]
+                    ],
+                    [
+                      { description: "Meaning like a fox" },
+                      [ { name: "Foxy", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'free'" },
+                      [ { name: "Francesca", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'a Frenchman'", language_id: ancient_german.id },
+                      [ { name: "Frances", gender_id: both.id },
+                        { name: "Francis", gender_id: both.id },
+                        { name: "Frank", gender_id: both.id },
+                        { name: "Franki", gender_id: both.id },
+                        { name: "Frankie", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Light brown spots on the skin", language_id: english.id },
+                      [ { name: "Freckles", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'peaceful ruler'", language_id: ancient_german.id },
+                      [ { name: "Fred", gender_id: both.id },
+                        { name: "Freda", gender_id: female.id },
+                        { name: "Freddie", gender_id: male.id },
+                        { name: "Freddy", gender_id: male.id },
+                        { name: "Frederic", gender_id: male.id },
+                        { name: "Frederick", gender_id: male.id },
+                        { name: "Frederik", gender_id: male.id },
+                        { name: "Freida", gender_id: female.id },
+                        { name: "Frieda", gender_id: female.id },
+                        { name: "Frits", gender_id: male.id },
+                        { name: "Fritz", gender_id: male.id },
+                        { name: "Fritzie", gender_id: male.id },
+                        { name: "Fritzy", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'lady'", language_id: old_norse.id },
+                      [ { name: "Freia", gender_id: female.id },
+                        { name: "Frejya", gender_id: female.id },
+                        { name: "Freya", gender_id: female.id },
+                        { name: "Freyja", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Abbreviation of San Francisco" },
+                      [ { name: "Frisco", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "White or grey-haired" },
                       [ { name: "Frostie", gender_id: both.id },
                         { name: "Frosty", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Soft candy made of milk, sugar and butter", language_id: english.id },
+                      [ { name: "Fudge", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Fluff, fluffy or frizzy thing", language_id: english.id },
+                      [ { name: "Fuzz", gender_id: both.id },
+                        { name: "Fuzzy", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'greatest'", language_id: mongolian.id },
@@ -1912,6 +2073,14 @@ names_to_link = ([
                     [ "Elmo" ]
                   ],
                   [
+                    { description: "Meaning 'one from Finland'", language_id: old_norse.id },
+                    [ "Fin", "Finn", "Fynn" ]
+                  ],
+                  [
+                    { description: "Bright red colour", language_id: english.id },
+                    [ "Flame" ]
+                  ],
+                  [
                     { description: "Covered with frost" },
                     [ "Frostie", "Frosty" ]
                   ],
@@ -1977,6 +2146,10 @@ meanings_to_link = ([
                       [
                         { description: "Meaning 'baby'" },
                         [ "Babe", "Bubba" ]
+                      ],
+                      [
+                        { description: "Meaning 'free'" },
+                        [ "Frank" ]
                       ],
                       [
                         { description: "Nickname of Rosemary, meaning 'mist of the sea'", language_id: latin.id },

@@ -1139,14 +1139,223 @@ names_to_create = ([
                       [ { name: "Cybil", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Based on the common English word, meaning 'cheerful'", language_id: english.id },
+                      [ { name: "Daisie", gender_id: female.id },
+                        { name: "Daisy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'ally'", language_id: english.id },
+                      [ { name: "Dakota", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'valley-dweller'" },
+                      [ { name: "Dale", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'house in the valley'", language_id: old_english.id },
+                      [ { name: "Dallas", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'tamer' ", language_id: greek.id },
+                      [ { name: "Damian", gender_id: male.id },
+                        { name: "Damien", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'judge'", language_id: hebrew.id },
+                      [ { name: "Dan", gender_id: both.id },
+                        { name: "Dana", gender_id: both.id },
+                        { name: "Danna", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'enduring'", language_id: italian.id },
+                      [ { name: "Dante", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'laurel'", language_id: greek.id },
+                      [ { name: "Daphne", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'dark man'", language_id: gaelic.id },
+                      [ { name: "Darcey", gender_id: both.id },
+                        { name: "Darcy", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'darling'", language_id: english.id },
+                      [ { name: "Darla", gender_id: female.id },
+                        { name: "Darleen", gender_id: female.id },
+                        { name: "Darlene", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of David, meaning 'beloved'", language_id: hebrew.id },
+                      [ { name: "Dave", gender_id: male.id },
+                        { name: "Davey", gender_id: male.id },
+                        { name: "Davie", gender_id: male.id },
+                        { name: "Davy", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'beloved'", language_id: hebrew.id },
+                      [ { name: "David", gender_id: both.id },
+                        { name: "Dawsen", gender_id: male.id },
+                        { name: "Dawson", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Impress with skill or beauty" },
+                      [ { name: "Dazzle" } ]
+                    ],
+                    [
+                      { description: "Meaning 'noble'", language_id: old_english.id },
+                      [ { name: "Dee", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'delicate'", language_id: hebrew.id },
+                      [ { name: "Delilah", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'door'", language_id: greek.id },
+                      [ { name: "Delta", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'one from south Munster'", language_id: gaelic.id },
+                      [ { name: "Desmond", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'fortunate'", language_id: latin.id },
+                      [ { name: "Dexter", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Spanish form of James, meaning 'one who trips up another and takes his place'" , language_id: spanish.id },
+                      [ { name: "Diego", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Oil burning engine" },
+                      [ { name: "Diesel" } ]
+                    ],
+                    [
                       { description: "Meaning 'son of the sea'", language_id: welsh.id },
                       [ { name: "Dillan", gender_id: both.id },
                         { name: "Dillon", gender_id: both.id },
                         { name: "Dylan", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'judgment'", language_id: hebrew.id },
+                      [ { name: "Dina", gender_id: female.id },
+                        { name: "Dinah", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'attractively small and neat'" },
+                      [ { name: "Dinki", gender_id: both.id },
+                        { name: "Dinky", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning repeat" },
+                      [ { name: "Ditto", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning divine" },
+                      [ { name: "Diva", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Region of the United States, also known as the Old South" },
+                      [ { name: "Dixie", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'Richard's son'", language_id: english.id },
+                      [ { name: "Dixon", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Giddy, dazed" },
+                      [ { name: "Dizzy" } ]
+                    ],
+                    [
+                      { description: "Meaning disc jockey, radio announcer" },
+                      [ { name: "DJ" } ]
+                    ],
+                    [
+                      { description: "Meaning doctor" },
+                      [ { name: "Doc" } ]
+                    ],
+                    [
+                      { description: "Person who moves quickly" },
+                      [ { name: "Dodger" } ]
+                    ],
+                    [
+                      { description: "Meaning 'sweet and soft'" },
+                      [ { name: "Dolce", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'gift of God'", language_id: greek.id },
+                      [ { name: "Dolli", gender_id: female.id },
+                        { name: "Dollie", gender_id: female.id },
+                        { name: "Dolly", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'Lord'", language_id: latin.id },
+                      [ { name: "Domino", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Donald, meaning 'world ruler'", language_id: gaelic.id },
+                      [ { name: "Don", gender_id: male.id },
+                        { name: "Donnie", gender_id: male.id },
+                        { name: "Donny", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'gift'", language_id: latin.id },
+                      [ { name: "Donatella", gender_id: female.id },
+                        { name: "Dora", gender_id: female.id },
+                        { name: "Doris", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'lady of the house'", language_id: latin.id },
+                      [ { name: "Donna", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Small round mark" },
+                      [ { name: "Dot", gender_id: both.id },
+                        { name: "Dots", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'dark stranger'", language_id: gaelic.id },
+                      [ { name: "Dougal", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'dark river'", language_id: scots_gaelic.id },
                       [ { name: "Douglas", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Based on the common English word" },
+                      [ { name: "Drake", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Series of scenes in a sleeping person's mind" },
+                      [ { name: "Dream", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'manly'", language_id: greek.id },
+                      [ { name: "Drew", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Woman with the rank of duke" },
+                      [ { name: "Duchess", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Fellow" },
+                      [ { name: "Dude", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'woods of Dudda'", language_id: old_english.id },
+                      [ { name: "Dudley", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'leader'", language_id: latin.id },
+                      [ { name: "Duke", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Nickname for Dustin, meaning 'Thor's stone'", language_id: old_norse.id },
+                      [ { name: "Dusty", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'power'" },
+                      [ { name: "Dyna" } ]
                     ],
                     [
                       { description: "Meaning 'stone'", language_id: hebrew.id },
@@ -1530,6 +1739,42 @@ names_to_link = ([
                   [
                     { description: "Break into small fragments" },
                     [ "Crumble" ]
+                  ],
+                  [
+                    { description: "Valley" },
+                    [ "Dale" ]
+                  ],
+                  [
+                    { description: "Meaning 'black pearl'", language_id: arabic.id },
+                    [ "Dana", "Danna" ]
+                  ],
+                  [
+                    { description: "A Germanic expression identifying the bearer as a native of Denmark (a Dane)" },
+                    [ "Dana", "Danna" ]
+                  ],
+                  [
+                    { description: "Nymph who was transformed into a Laurel tree in Greek mythology" },
+                    [ "Daphne" ]
+                  ],
+                  [
+                    { description: "Meaning 'from Arcy'", language_id: french.id },
+                    [ "Darcey", "Darcy" ]
+                  ],
+                  [
+                    { description: "Meaning 'dark'", language_id: welsh.id },
+                    [ "Dee" ]
+                  ],
+                  [
+                    { description: "Small flat piece of wood or plastic, coloured black with white spots" },
+                    [ "Domino" ]
+                  ],
+                  [
+                    { description: "Ruler of certain small states" },
+                    [ "Duke" ]
+                  ],
+                  [
+                    { description: "Covered in dust" },
+                    [ "Dusty" ]
                   ],
                   [
                     { description: "Covered with frost" },

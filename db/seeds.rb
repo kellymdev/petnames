@@ -63,8 +63,63 @@ yoruba = Language.create(name: "Yoruba")
 
 names_to_create = ([
                     [
+                      { description: "Meaning 'exalted father'", language_id: hebrew.id },
+                      [ { name: "Abagail", gender_id: female.id },
+                        { name: "Abigail", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Abigail, meaning 'exalted father'", language_id: hebrew.id },
+                      [ { name: "Abbey", gender_id: female.id },
+                        { name: "Abbie", gender_id: female.id },
+                        { name: "Abby", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'the best', 'unity', 'noble', 'expert'" },
+                      [ { name: "Ace", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Hero in Greek mythology", language_id: greek.id },
+                      [ { name: "Achilles", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Adelaide, meaning 'exalted nature'", language_id: ancient_german.id },
+                      [ { name: "Addie", gender_id: both.id },
+                        { name: "Addy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'red earth'", language_id: hebrew.id },
+                      [ { name: "Addison", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'from the city of Adria, in Northern Italy'", language_id: latin.id },
+                      [ { name: "Adrian", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'flame'", language_id: gaelic.id },
+                      [ { name: "Aedan", gender_id: both.id },
+                        { name: "Aidan", gender_id: both.id },
+                        { name: "Aiden", gender_id: both.id },
+                        { name: "Aydan", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'eagle'" },
+                      [ { name: "Ajax", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'thicket clearers'", language_id: choctaw.id },
                       [ { name: "Alabama", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Albert, meaning 'exalted, shining with fame'", language_id: ancient_german.id },
+                      [ { name: "Albie", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Alexander, meaning 'protector of men'", language_id: greek.id },
+                      [ { name: "Alex", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'protector of men'", language_id: greek.id },
+                      [ { name: "Alexander", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'elf counsel'", language_id: ancient_german.id },
@@ -79,11 +134,39 @@ names_to_create = ([
                     [
                       { description: "Meaning 'exalted nature'", language_id: old_french.id },
                       [ { name: "Alice", gender_id: female.id },
-                        { name: "Alisha", gender_id: female.id } ]
+                        { name: "Alisha", gender_id: female.id },
+                        { name: "Alison", gender_id: female.id },
+                        { name: "Allison", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'protector of men'", language_id: gaelic.id },
+                      [ { name: "Alister", gender_id: male.id },
+                        { name: "Allister", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'sprightly', 'cheerful'", language_id: italian.id },
                       [ { name: "Allegra", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'precious'", language_id: ancient_german.id },
+                      [ { name: "Allen", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Albert (meaning 'exalted, shining with fame') or Alexander (meaning 'protector of men') and Alice or Alison (meaning 'exalted nature')" },
+                      [ { name: "Alley", gender_id: both.id },
+                        { name: "Allie", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Alice or Alison, meaning 'exalted nature'" },
+                      [ { name: "Ally", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'beginning'", language_id: greek.id },
+                      [ { name: "Alpha", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'magical friend'", language_id: old_english.id },
+                      [ { name: "Alvin", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'the sky'", language_id: sanskrit.id },
@@ -91,12 +174,137 @@ names_to_create = ([
                         { name: "Ambyr", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'work'", language_id: ancient_german.id },
+                      [ { name: "Amelia", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'friend'", language_id: french.id },
+                      [ { name: "Ami", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'beloved'", language_id: french.id },
+                      [ { name: "Amie", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'manly'", language_id: greek.id },
+                      [ { name: "Andre", gender_id: both.id },
+                        { name: "Andrea", gender_id: both.id },
+                        { name: "Andrew", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Andrew, meaning 'manly'", language_id: greek.id },
+                      [ { name: "Andy", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'messenger from God'", language_id: greek.id },
+                      [ { name: "Angel", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'unique choice'", language_id: gaelic.id },
+                      [ { name: "Angus", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'favoured grace'", language_id: hebrew.id },
+                      [ { name: "Ann", gender_id: female.id },
+                        { name: "Anna", gender_id: female.id },
+                        { name: "Annie", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Combination of Anna and Belle, meaning 'beautiful', 'loveable', 'graceful'" },
+                      [ { name: "Annabelle", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'foam'", language_id: greek.id },
+                      [ { name: "Aphrodite", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "God of the sun in Greek mythology", language_id: greek.id },
+                       [ { name: "Apollo", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "After the fruit", language_id: english.id },
+                      [ { name: "Apple", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'genuine and brave'", language_id: ancient_german.id },
+                      [ { name: "Archie", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'God's lioness'", language_id: hebrew.id },
+                      [ { name: "Ariel", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'powerful eagle'", language_id: ancient_german.id },
+                      [ { name: "Arnold", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Greek goddess of the moon and goddess of the hunt" },
+                      [ { name: "Artemis", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'muse'", language_id: welsh.id },
+                      [ { name: "Arwen", gender_id: female.id },
+                        { name: "Arwyn", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Black powder remaining after a fire" },
+                      [ { name: "Ash", gender_id: both.id },
+                        { name: "Ashes", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'life' or 'beautiful'", language_id: arabic.id },
+                      [ { name: "Asha", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'ash grove'", language_id: old_english.id },
+                      [ { name: "Ashlee", gender_id: both.id },
+                        { name: "Ashleigh", gender_id: both.id },
+                        { name: "Ashley", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Continent" },
+                      [ { name: "Asia", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Type of poplar tree" },
+                      [ { name: "Aspen", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'star'", language_id: latin.id },
+                      [ { name: "Astra", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'beautiful goddess or divine power'", language_id: old_norse.id },
                       [ { name: "Astrid", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'wise'", language_id: greek.id },
+                      [ { name: "Athena", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'noble strength'", language_id: old_english.id },
+                      [ { name: "Audrey", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'dawn'", language_id: latin.id },
+                      [ { name: "Aurora", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'revered'", language_id: latin.id },
+                      [ { name: "Austin", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "The fall season", language_id: english.id },
+                      [ { name: "Autumn", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'life'", language_id: hebrew.id },
                       [ { name: "Ava", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'Father is peace'", language_id: hebrew.id },
+                      [ { name: "Axel", gender_id: male.id },
+                        { name: "Axl", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'light purplish blue' or 'blue sky'", language_id: spanish.id },
@@ -438,6 +646,14 @@ end
 
 names_to_link = ([
                   [
+                    { description: "Nickname of Addison, meaning 'red earth'", language_id: hebrew.id },
+                    [ "Addie", "Addy" ]
+                  ],
+                  [
+                    { description: "Nickname of Adam, meaning 'red earth'", language_id: hebrew.id },
+                    [ "Addie" ]
+                  ],
+                  [
                     { description: "Meaning 'wise man'", language_id: old_english.id },
                     [ "Alfred" ]
                   ],
@@ -448,6 +664,22 @@ names_to_link = ([
                   [
                     { description: "Precious stone" },
                     [ "Amber", "Ambyr" ]
+                  ],
+                  [
+                    { description: "Alternative spelling of Amy, meaning 'beloved one'", language_id: old_french.id },
+                    [ "Ami" ]
+                  ],
+                  [
+                    { description: "Goddess of love" },
+                    [ "Aphrodite" ]
+                  ],
+                  [
+                    { description: "Meaning 'hope'", language_id: hindi.id },
+                    [ "Asha" ]
+                  ],
+                  [
+                    { description: "Roman goddess of the dawn" },
+                    [ "Aurora" ]
                   ],
                   [
                     { description: "Meaning 'sky' or 'heaven'", language_id: akposso.id },

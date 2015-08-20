@@ -4,62 +4,62 @@ female = Gender.create(name: "Female", abbreviation: "F")
 male = Gender.create(name: "Male", abbreviation: "M")
 
 # Languages
-#                   { name: "Akan" },
+akan = Language.create(name: "Akan")
 akposso = Language.create(name: "Akposso")
-#                   { name: "Algonquian-Wakashian" },
+algonquian_wakashian = Language.create(name: "Algonquian-Wakashian")
 american = Language.create(name: "American")
 ancient_celtic = Language.create(name: "Ancient Celtic")
 ancient_german = Language.create(name: "Ancient German")
 arabic = Language.create(name: "Arabic")
 aramaic = Language.create(name: "Aramaic")
-#                   { name: "Burmese" },
+archaic = Language.create(name: "Archaic")
+burmese = Language.create(name: "Burmese")
 celtic = Language.create(name: "Celtic")
 chinese = Language.create(name: "Chinese")
 choctaw = Language.create(name: "Choctaw")
 czech = Language.create(name: "Czech")
-#                   { name: "Dutch" },
+dutch = Language.create(name: "Dutch")
 english = Language.create(name: "English")
-#                   { name: "Farsi" },
 french = Language.create(name: "French")
 gaelic = Language.create(name: "Gaelic")
-#                   { name: "German" },
+german = Language.create(name: "German")
 greek = Language.create(name: "Greek")
-#                   { name: "Hawaiian" },
+hawaiian = Language.create(name: "Hawaiian")
 hebrew = Language.create(name: "Hebrew")
 hindi = Language.create(name: "Hindi")
-#                   { name: "Igbo" },
+igbo = Language.create(name: "Igbo")
 indian = Language.create(name: "Indian")
 irish_gaelic = Language.create(name: "Irish Gaelic")
-#                   { name: "Iroquoian" },
+iroquoian = Language.create(name: "Iroquoian")
 italian = Language.create(name: "Italian")
 japanese = Language.create(name: "Japanese")
-#                   { name: "Khmer" },
+khmer = Language.create(name: "Khmer")
 latin = Language.create(name: "Latin")
 middle_english = Language.create(name: "Middle English")
-#                   { name: "Mongolian" },
-#                   { name: "Norman French" },
-#                   { name: "Norse" },
-#                   { name: "Norwegian" },
+mongolian = Language.create(name: "Mongolian")
+norman_french = Language.create(name: "Norman French")
+norse = Language.create(name: "Norse")
+norwegian = Language.create(name: "Norwegian")
 old_english = Language.create(name: "Old English")
 old_french = Language.create(name: "Old French")
 old_norse = Language.create(name: "Old Norse")
-#                   { name: "Old Welsh" },
+old_welsh = Language.create(name: "Old Welsh")
 persian = Language.create(name: "Persian")
-#                   { name: "Phoenician" },
+phoenician = Language.create(name: "Phoenician")
 roman = Language.create(name: "Roman")
-#                   { name: "Russian" },
+russian = Language.create(name: "Russian")
 sanskrit = Language.create(name: "Sanskrit")
 scots_gaelic = Language.create(name: "Scots Gaelic")
-#                   { name: "Siouan" },
+siouan = Language.create(name: "Siouan")
 slavic = Language.create(name: "Slavic")
 spanish = Language.create(name: "Spanish")
-#                   { name: "Swahili" },
-#                   { name: "Vietnamese" },
+swahili = Language.create(name: "Swahili")
+vietnamese = Language.create(name: "Vietnamese")
 welsh = Language.create(name: "Welsh")
-#                   { name: "West African" },
-#                   { name: "Xhosa" },
+west_african = Language.create(name: "West African")
+xhosa = Language.create(name: "Xhosa")
 yiddish = Language.create(name: "Yiddish")
-#                   { name: "Yoruba" }
+yoruba = Language.create(name: "Yoruba")
 
 names_to_create = ([
                     [
@@ -148,6 +148,23 @@ names_to_create = ([
                       [ { name: "Burns", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'transporter'", language_id: norman_french.id },
+                      [ { name: "Cartier", gender_id: both.id },
+                        { name: "Carter", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'warm'", language_id: hebrew.id },
+                      [ { name: "Cham", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'powerful'", language_id: algonquian_wakashian.id },
+                      [ { name: "Chicago", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'power of Chi'", language_id: igbo.id },
+                      [ { name: "Chike", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'son of the sea'", language_id: welsh.id },
                       [ { name: "Dillan", gender_id: both.id },
                         { name: "Dillon", gender_id: both.id },
@@ -180,9 +197,26 @@ names_to_create = ([
                         { name: "Frosty", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'greatest'", language_id: mongolian.id },
+                      [ { name: "Genghis", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'gold'", language_id: yiddish.id },
                       [ { name: "Goldie", gender_id: female.id },
                         { name: "Goldy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning ‘cat’", language_id: archaic.id },
+                      [ { name: "Graymalkin" },
+                        { name: "Greymalkin" } ]
+                    ],
+                    [
+                      { description: "Meaning 'white-haired one'", language_id: old_welsh.id },
+                      [ { name: "Gwendolyn" } ]
+                    ],
+                    [
+                      { description: "Meaning 'a flower'", language_id: hawaiian.id },
+                      [ { name: "Haiku", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'tumeric'", language_id: indian.id },
@@ -196,6 +230,18 @@ names_to_create = ([
                         { name: "Hallie", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'friend of the god Melkar'", language_id: phoenician.id },
+                      [ { name: "Hamilcar", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'maker of rivers'", language_id: iroquoian.id },
+                      [ { name: "Hiawatha", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'hill dweller'", language_id: norwegian.id },
+                       [ { name: "Hoagy", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Deep blue dye" },
                       [ { name: "Indigo", gender_id: both.id } ]
                     ],
@@ -204,8 +250,20 @@ names_to_create = ([
                       [ { name: "Jay", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'crow'", language_id: siouan.id },
+                      [ { name: "Kangi", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'boy born on Friday'", language_id: akan.id },
+                      [ { name: "Kofi", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'sky', 'emptiness' or 'the void', depending on the tone used in saying this name", language_id: chinese.id },
                       [ { name: "Kong", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'cat'", language_id: russian.id },
+                      [ { name: "Koshka" } ]
                     ],
                     [
                       { description: "Meaning 'grey'", language_id: greek.id },
@@ -214,6 +272,10 @@ names_to_create = ([
                     [
                       { description: "Meaning 'grey'", language_id: celtic.id },
                       [ { name: "Lloyd" } ]
+                    ],
+                    [
+                      { description: "Meaning 'man'", language_id: sanskrit.id },
+                      [ { name: "Manu", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'from the sea'", language_id: latin.id },
@@ -237,8 +299,16 @@ names_to_create = ([
                       [ { name: "Murphy", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'emerald'", language_id: burmese.id },
+                      [ { name: "Mya", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Hard silvery white metal" },
                       [ { name: "Nickel" } ]
+                    ],
+                    [
+                      { description: "Meaning 'holy'", language_id: norse.id },
+                      [ { name: "Olga" } ]
                     ],
                     [
                       { description: "Trailing plant with blue or white flowers" },
@@ -259,6 +329,10 @@ names_to_create = ([
                         { name: "Romy", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'rose field'", language_id: dutch.id },
+                      [ { name: "Roosevelt", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'mist of the sea'", language_id: latin.id },
                       [ { name: "Rosemary", gender_id: female.id } ]
                     ],
@@ -268,6 +342,14 @@ names_to_create = ([
                         { name: "Rosi", gender_id: female.id },
                         { name: "Rosie", gender_id: female.id },
                         { name: "Rosy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Folasade, meaning 'honour bestores a crown'", language_id: yoruba.id },
+                      [ { name: "Sade", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'like a kitten'", language_id: swahili.id },
+                      [ { name: "Sanura" } ]
                     ],
                     [
                       { description: "Blue precious stone" },
@@ -305,12 +387,24 @@ names_to_create = ([
                       [ { name: "Tupelo" } ]
                     ],
                     [
+                      { description: "Meaning 'golden'", language_id: khmer.id },
+                      [ { name: "Vanna", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "A blue-white star in the constellation Lyra" },
                       [ { name: "Vega" } ]
                     ],
                     [
+                      { description: "Meaning 'determined protector'", language_id: german.id },
+                      [ { name: "Velma", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Small streak of smoke" },
                       [ { name: "Wisp" } ]
+                    ],
+                    [
+                      { description: "Meaning 'fruitful'", language_id: xhosa.id },
+                      [ { name: "Qhama", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'snow', 'good fortune' or 'heritage' ", language_id: japanese.id },
@@ -368,6 +462,10 @@ names_to_link = ([
                     [ "Burns" ]
                   ],
                   [
+                    { description: "Meaning 'hardworking person'", language_id: vietnamese.id },
+                    [ "Cham" ]
+                  ],
+                  [
                     { description: "Covered with frost" },
                     [ "Frostie", "Frosty" ]
                   ],
@@ -378,6 +476,10 @@ names_to_link = ([
                   [
                     { description: "Meaning 'joy'" },
                     [ "Lloyd" ]
+                  ],
+                  [
+                    { description: "Meaning 'second-born child'", language_id: west_african.id },
+                    [ "Manu" ]
                   ],
                   [
                     { description: "Heavy silver liquid metal" },
@@ -398,6 +500,14 @@ names_to_link = ([
                   [
                     { description: "Black or grey visible vapour given off by a burning substance" },
                     [ "Smoke" ]
+                  ],
+                  [
+                    { description: "Alternate form of Vanessa, Meaning 'to be'", language_id: latin.id },
+                    [ "Vanna" ]
+                  ],
+                  [
+                    { description: "Meaning 'youth'", language_id: gaelic.id },
+                    [ "Vanna" ]
                   ],
                   [
                     { description: "An open plain" },

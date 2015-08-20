@@ -271,7 +271,9 @@ names_to_create = ([
                     ],
                     [
                       { description: "Meaning 'star'", language_id: latin.id },
-                      [ { name: "Astra", gender_id: female.id } ]
+                      [ { name: "Astra", gender_id: female.id },
+                        { name: "Estee", gender_id: female.id },
+                        { name: "Estelle", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'beautiful goddess or divine power'", language_id: old_norse.id },
@@ -299,7 +301,9 @@ names_to_create = ([
                     ],
                     [
                       { description: "Meaning 'life'", language_id: hebrew.id },
-                      [ { name: "Ava", gender_id: both.id } ]
+                      [ { name: "Ava", gender_id: both.id },
+                        { name: "Eva", gender_id: female.id },
+                        { name: "Eve", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'Father is peace'", language_id: hebrew.id },
@@ -458,7 +462,8 @@ names_to_create = ([
                         { name: "Betty", gender_id: female.id },
                         { name: "Biffy", gender_id: female.id },
                         { name: "Bifi", gender_id: female.id },
-                        { name: "Buffy", gender_id: female.id } ]
+                        { name: "Buffy", gender_id: female.id },
+                        { name: "Elsie", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'white'", language_id: italian.id },
@@ -1366,6 +1371,100 @@ names_to_create = ([
                       [ { name: "Ebenezer", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Hard black wood from a tropical tree" },
+                      [ { name: "Ebony", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'reflected sound'", language_id: greek.id },
+                      [ { name: "Echo", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Edgar, meaning 'wealthy spear'", language_id: ancient_german.id },
+                      [ { name: "Ed", gender_id: male.id },
+                        { name: "Eddi", gender_id: male.id },
+                        { name: "Eddie", gender_id: male.id },
+                        { name: "Eddy", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'wealthy spear'", language_id: ancient_german.id },
+                      [ { name: "Edgar", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'wealth protector'", language_id: old_english.id },
+                      [ { name: "Edward", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname for Ellen, meaning 'sun ray'" },
+                      [ { name: "Ele", gender_id: female.id },
+                        { name: "Elle", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'high'", language_id: hebrew.id },
+                      [ { name: "Eli", gender_id: both.id },
+                        { name: "Elie", gender_id: both.id },
+                        { name: "Ely", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'God is Lord'", language_id: greek.id },
+                      [ { name: "Eliot", gender_id: male.id },
+                        { name: "Elliot", gender_id: male.id },
+                        { name: "Elliott", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'goddess'", language_id: hebrew.id },
+                      [ { name: "Ella", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'entire'", language_id: ancient_german.id },
+                      [ { name: "Elli", gender_id: female.id },
+                        { name: "Ellie", gender_id: female.id },
+                        { name: "Elly", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'amiable', 'likeable'" },
+                      [ { name: "Elmo", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'God's promise'", language_id: hebrew.id },
+                      [ { name: "Elsa", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'all wise'" },
+                      [ { name: "Elvis", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'eager'", language_id: latin.id },
+                      [ { name: "Emily", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'universal'", language_id: ancient_german.id },
+                      [ { name: "Ema", gender_id: female.id },
+                        { name: "Emma", gender_id: female.id },
+                        { name: "Emmet", gender_id: male.id },
+                        { name: "Emmett", gender_id: male.id },
+                        { name: "Emmie", gender_id: female.id },
+                        { name: "Emmy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Ernest, meaning 'fight to the finish'", language_id: ancient_german.id },
+                      [ { name: "Erni", gender_id: male.id },
+                        { name: "Ernie", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'myrtle tree'", language_id: persian.id },
+                      [ { name: "Ester", gender_id: female.id },
+                        { name: "Esther", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "From an Ancient German name whose meaning has been lost" },
+                      [ { name: "Evelyn", gender_id: both.id },
+                        { name: "Evelyne", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "The highest mountain in the world" },
+                      [ { name: "Everest", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'yellow'", language_id: roman.id },
                       [ { name: "Flavia" } ]
                     ],
@@ -1775,6 +1874,42 @@ names_to_link = ([
                   [
                     { description: "Covered in dust" },
                     [ "Dusty" ]
+                  ],
+                  [
+                    { description: "Close imitation" },
+                    [ "Echo" ]
+                  ],
+                  [
+                    { description: "Nickname of Edmund, meaning 'wealthy guard'" },
+                    [ "Ed", "Eddi", "Eddie", "Eddy" ]
+                  ],
+                  [
+                    { description: "Nickname of Edward, meaning 'wealth protector'", language_id: old_english.id },
+                    [ "Ed", "Eddi", "Eddie", "Eddy" ]
+                  ],
+                  [
+                    { description: "Nickname of Edwin, meaning 'fortunate friend'", language_id: ancient_german.id },
+                    [ "Ed", "Eddi", "Eddie", "Eddy" ]
+                  ],
+                  [
+                    { description: "Swirling patch of water or air" },
+                    [ "Eddy" ]
+                  ],
+                  [
+                    { description: "Meaning 'entire'", language_id: ancient_german.id },
+                    [ "Ella" ]
+                  ],
+                  [
+                    { description: "Meaning 'foreigner'", language_id: norman_french.id },
+                    [ "Ella" ]
+                  ],
+                  [
+                    { description: "Meaning 'she'", language_id: french.id },
+                    [ "Elle" ]
+                  ],
+                  [
+                    { description: "Meaning 'helmet of God'", language_id: english.id },
+                    [ "Elmo" ]
                   ],
                   [
                     { description: "Covered with frost" },

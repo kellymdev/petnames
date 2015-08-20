@@ -704,21 +704,439 @@ names_to_create = ([
                         { name: "Buttons", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'head of hair'", language_id: latin.id },
+                      [ { name: "Caesar", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'lovely'", language_id: greek.id },
+                      [ { name: "Cali", gender_id: female.id },
+                        { name: "Calista", gender_id: female.id },
+                        { name: "Callie", gender_id: female.id },
+                        { name: "Callista", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'bald'", language_id: latin.id },
+                      [ { name: "Calven", gender_id: male.id },
+                        { name: "Calvin", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Indian song" },
+                      [ { name: "Calypso", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'assistant to the priest'", language_id: latin.id },
+                      [ { name: "Camilla", gender_id: female.id },
+                        { name: "Camille", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'clarity'", language_id: latin.id },
+                      [ { name: "Candace", gender_id: female.id },
+                        { name: "Candice", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'wolf cub'", language_id: gaelic.id },
+                      [ { name: "Cannon", gender_id: male.id },
+                        { name: "Canon", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Frothy coffee" },
+                      [ { name: "Cappuccino" } ]
+                    ],
+                    [
+                      { description: "Leader of a group or sports team" },
+                      [ { name: "Captain", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Brown syrup made from heated sugar", language_id: english.id },
+                      [ { name: "Caramel" } ]
+                    ],
+                    [
+                      { description: "Meaning 'freeholder'", language_id: ancient_german.id },
+                      [ { name: "Carl", gender_id: both.id },
+                        { name: "Carlie", gender_id: female.id },
+                        { name: "Carlos", gender_id: both.id },
+                        { name: "Carly", gender_id: female.id },
+                        { name: "Caryl", gender_id: both.id },
+                        { name: "Carol", gender_id: both.id },
+                        { name: "Carole", gender_id: both.id },
+                        { name: "Caroline", gender_id: female.id },
+                        { name: "Carroll", gender_id: both.id },
+                        { name: "Charles", gender_id: both.id },
+                        { name: "Charlotte", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'orchard'", language_id: hebrew.id },
+                      [ { name: "Carmel", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'transporter'", language_id: norman_french.id },
                       [ { name: "Cartier", gender_id: both.id },
                         { name: "Carter", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'alert'", language_id: irish_gaelic.id },
+                      [ { name: "Casey", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'maker of wood chests'", language_id: norman_french.id },
+                      [ { name: "Cash", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Very fine soft wool" },
+                      [ { name: "Cashmere" } ]
+                    ],
+                    [
+                      { description: "Meaning 'treasure holder'", language_id: persian.id },
+                      [ { name: "Caspar", gender_id: male.id },
+                        { name: "Casper", gender_id: male.id },
+                        { name: "Caspur", gender_id: male.id },
+                        { name: "Caspurr", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Cassius, from a Latin expression whose meaning has been lost" },
+                      [ { name: "Cass", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "From a Greek expression whose meaning has been lost" },
+                      [ { name: "Cassandra", gender_id: female.id },
+                        { name: "Cassi", gender_id: female.id },
+                        { name: "Cassia", gender_id: female.id },
+                        { name: "Cassie", gender_id: female.id },
+                        { name: "Cassy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'curly-headed'", language_id: gaelic.id },
+                      [ { name: "Cassidy", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "From a Latin expression whose meaning has been lost" },
+                      [ { name: "Cassius", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Pickled roe of a sturgeon or other large fish" },
+                      [ { name: "Caviar" } ]
+                    ],
+                    [
+                      { description: "Meaning 'heavenly'", language_id: latin.id },
+                      [ { name: "Celeste", gender_id: female.id },
+                        { name: "Celestina", gender_id: female.id },
+                        { name: "Celine", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'holly’", language_id: welsh.id },
+                      [ { name: "Celyn", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'warm'", language_id: hebrew.id },
                       [ { name: "Cham", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'champion'", language_id: english.id },
+                      [ { name: "Champ", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Pale straw colour" },
+                      [ { name: "Champagne", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'opportunity, risk'", language_id: norman_french.id },
+                      [ { name: "Chance", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'disorder'", language_id: english.id },
+                      [ { name: "Chaos", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Charles, meaning 'freeholder'", language_id: ancient_german.id },
+                      [ { name: "Charlee", gender_id: both.id },
+                        { name: "Charley", gender_id: both.id },
+                        { name: "Charli", gender_id: both.id},
+                        { name: "Charlie", gender_id: both.id },
+                        { name: "Charly", gender_id: both.id },
+                        { name: "Chip", gender_id: male.id },
+                        { name: "Chuck", gender_id: male.id },
+                        { name: "Chucky", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Follow, in order to catch", language_id: english.id },
+                      [ { name: "Chase", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Pattern of squares or crossing lines", language_id: english.id },
+                      [ { name: "Checkers", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Large African wildcat which can run at speeds of 110kph" },
+                      [ { name: "Cheetah" } ]
+                    ],
+                    [
+                      { description: "Meaning 'chalk port'", language_id: old_english.id },
+                      [ { name: "Chelsea", gender_id: female.id },
+                        { name: "Chelsie", gender_id: female.id },
+                        { name: "Chessie", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'legionary camp'", language_id: latin.id },
+                      [ { name: "Chester", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'knight'", language_id: french.id },
+                      [ { name: "Chevalier", gender_id: male.id },
+                        { name: "Chevy", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "A tribal name" },
+                      [ { name: "Cheyenne" } ]
+                    ],
+                    [
                       { description: "Meaning 'powerful'", language_id: algonquian_wakashian.id },
                       [ { name: "Chicago", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'a Frenchman'", language_id: ancient_german.id },
+                      [ { name: "Chico", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Leader, ruler", language_id: english.id },
+                      [ { name: "Chief", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'power of Chi'", language_id: igbo.id },
                       [ { name: "Chike", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Small peppers used in cooking" },
+                      [ { name: "Chili", gender_id: both.id },
+                        { name: "Chilli", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Fine, earthern-ware porcelain" },
+                      [ { name: "China", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'capable' or 'honest' depending on the character used", language_id: chinese.id },
+                      [ { name: "Ching", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'blooming'", language_id: greek.id },
+                      [ { name: "Chloe", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'chocolate'" },
+                      [ { name: "Choco" } ]
+                    ],
+                    [
+                      { description: "Nickname of Christina and Christine, meaning 'Christ's follower'" },
+                      [ { name: "Chrissie", gender_id: female.id },
+                        { name: "Chrissy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Christian, Christopher, Christina and Christine, meaning 'Christ's follower'" },
+                      [ { name: "Christie", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "From the Greek krustallos meaning 'ice'", language_id: greek.id },
+                      [ { name: "Chrystal", gender_id: female.id },
+                        { name: "Crystal", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Sauce-like mixture of fruit or vegetables used as a spread on meat", language_id: english.id },
+                      [ { name: "Chutney" } ]
+                    ],
+                    [
+                      { description: "Meaning 'ashes'", language_id: french.id },
+                      [ { name: "Cinder" },
+                        { name: "Cinders" } ]
+                    ],
+                    [
+                      { description: "Meaning 'from Mount Kynthos'", language_id: greek.id },
+                      [ { name: "Cindy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Spice made from the bark of a South-east Asian tree" },
+                      [ { name: "Cinnamon", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'brilliant'", language_id: latin.id },
+                      [ { name: "Claire", gender_id: both.id },
+                        { name: "Clara", gender_id: female.id },
+                        { name: "Clare", gender_id: both.id },
+                        { name: "Clarinda", gender_id: female.id },
+                        { name: "Clarisa", gender_id: female.id },
+                        { name: "Clarissa", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'red-haired fighter'", language_id: irish_gaelic.id },
+                      [ { name: "Clancey", gender_id: male.id },
+                        { name: "Clancy", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'priest'", language_id: old_english.id },
+                      [ { name: "Clark", gender_id: male.id },
+                        { name: "Clarke", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'lame'", language_id: latin.id },
+                      [ { name: "Claude", gender_id: male.id },
+                        { name: "Claudia", gender_id: female.id },
+                        { name: "Claudius", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Pointed nails on an animal’s foot" },
+                      [ { name: "Claws" } ]
+                    ],
+                    [
+                      { description: "Meaning 'merciful'", language_id: latin.id },
+                      [ { name: "Clementine", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'renown'", language_id: greek.id },
+                      [ { name: "Cleo", language_id: both.id } ]
+                    ],
+                    [
+                      { description: "Plant with three-lobed leaves" },
+                      [ { name: "Clover" } ]
+                    ],
+                    [
+                      { description: "From the name of a river in Scotland" },
+                      [ { name: "Clyde", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Hard black mineral used for burning as a fuel" },
+                      [ { name: "Coal", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'victorious people'", language_id: french.id },
+                      [ { name: "Coco", gender_id: female.id },
+                        { name: "Colette", gender_id: female.id },
+                        { name: "Collette", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "After the hot chocolate drink, or chocolate color" },
+                      [ { name: "Cocoa", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "White-fleshed, nut of a tropical palm" },
+                      [ { name: "Coconut", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'helper'", language_id: irish_gaelic.id },
+                      [ { name: "Cody", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Bean-like seeds of a tropical plant which are ground to make a drink" },
+                      [ { name: "Coffee", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Brown carbonated drink" },
+                      [ { name: "Cola" } ]
+                    ],
+                    [
+                      { description: "Meaning 'coal village'", language_id: ancient_german.id },
+                      [ { name: "Colby", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'dark-complexioned'", language_id: old_english.id },
+                      [ { name: "Cole", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'victorious people'", language_id: greek.id },
+                      [ { name: "Colin", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Heavenly body with a luminous tail" },
+                      [ { name: "Comet", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'lover of hounds'", language_id: irish_gaelic.id },
+                      [ { name: "Conner", gender_id: male.id },
+                        { name: "Connor", gender_id: male.id },
+                        { name: "Conor", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Sweet biscuit" },
+                      [ { name: "Cookie", gender_id: both.id },
+                        { name: "Cookies", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'barrel maker'", language_id: english.id },
+                      [ { name: "Cooper", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Reddish-brown metal" },
+                      [ { name: "Copper", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'maiden' or 'hummingbird'", language_id: greek.id },
+                      [ { name: "Cora", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'fate, destiny, luck or chance'", language_id: hebrew.id },
+                      [ { name: "Coral", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'hard-hearted'", language_id: latin.id },
+                      [ { name: "Cornelius", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'crown'", language_id: latin.id },
+                      [ { name: "Corona", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "From an Old Norse name whose meaning has been lost" },
+                      [ { name: "Corey", gender_id: both.id },
+                        { name: "Cory", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'domain of Curtius'", language_id: norman_french.id },
+                      [ { name: "Courteney", gender_id: both.id },
+                        { name: "Courtney", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Thin dry biscuit" },
+                      [ { name: "Cracker", gender_id: both.id },
+                        { name: "Crackers", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Fatty part of milk" },
+                      [ { name: "Cream", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'cream'", language_id: french.id },
+                      [ { name: "Creme" } ]
+                    ],
+                    [
+                      { description: "After the insect that produces a chirping noise" },
+                      [ { name: "Cricket", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Travel at a moderate speed" },
+                      [ { name: "Cruise", gender_id: both.id },
+                        { name: "Cruiser", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Dessert with crunchy oat topping" },
+                      [ { name: "Crumble" } ]
+                    ],
+                    [
+                      { description: "Meaning 'cross'", language_id: latin.id },
+                      [ { name: "Cruz", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Hug lovingly" },
+                      [ { name: "Cuddles", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Small single serve cake" },
+                      [ { name: "Cupcake", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "In a spiral shape" },
+                      [ { name: "Curly", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Alternative spelling of Sybil, meaning 'prophetess'", language_id: greek.id },
+                      [ { name: "Cybil", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'son of the sea'", language_id: welsh.id },
@@ -1066,8 +1484,52 @@ names_to_link = ([
                     [ "Buzz" ]
                   ],
                   [
+                    { description: "From the Anglo-Saxon carle meaning 'male'" },
+                    [ "Carl" ]
+                  ],
+                  [
+                    { description: "Meaning 'money'", language_id: english.id },
+                    [ "Cash" ]
+                  ],
+                  [
                     { description: "Meaning 'hardworking person'", language_id: vietnamese.id },
                     [ "Cham" ]
+                  ],
+                  [
+                    { description: "Unplanned occurrence", language_id: english.id },
+                    [ "Chance" ]
+                  ],
+                  [
+                    { description: "Meaning 'a man'" },
+                    [ "Charles" ]
+                  ],
+                  [
+                    { description: "Glass-like mineral" },
+                    [ "Chrystal", "Crystal" ]
+                  ],
+                  [
+                    { description: "Piece of partly burnt coal or wood" },
+                    [ "Cinder", "Cinders" ]
+                  ],
+                  [
+                    { description: "Meaning 'cinders'" },
+                    [ "Cindy" ]
+                  ],
+                  [
+                    { description: "Meaning 'famous'" },
+                    [ "Cleo" ]
+                  ],
+                  [
+                    { description: "Alternative spelling for Cocoa" },
+                    [ "Coco" ]
+                  ],
+                  [
+                    { description: "Meaning 'brilliant'" },
+                    [ "Colby" ]
+                  ],
+                  [
+                    { description: "Break into small fragments" },
+                    [ "Crumble" ]
                   ],
                   [
                     { description: "Covered with frost" },

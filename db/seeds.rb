@@ -312,17 +312,227 @@ names_to_create = ([
                         { name: "Azurine", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'baby'" },
+                      [ { name: "Baba", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname for Barbara, meaning 'foreigner’", language_id: greek.id },
+                      [ { name: "Babe", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Young child or animal" },
+                      [ { name: "Baby", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "After the animal" },
+                      [ { name: "Badger", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'bailiff' or 'administrative officer'", language_id: old_english.id },
+                      [ { name: "Bailey", gender_id: both.id },
+                        { name: "Bayley", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Tropical Indonesian island" },
+                      [ { name: "Bali" } ]
+                    ],
+                    [
+                      { description: "Giant tropical grass with hollow stems" },
+                      [ { name: "Bamboo" } ]
+                    ],
+                    [
+                      { description: "A robber" },
+                      [ { name: "Bandit"} ]
+                    ],
+                    [
+                      { description: "Meaning 'birch tree clearing'", language_id: old_english.id },
+                      [ { name: "Barclay", gender_id: male.id },
+                        { name: "Barkley", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Species of cereal grass, Seed or grain from the cereal grass" },
+                      [ { name: "Barley" } ]
+                    ],
+                    [
                       { description: "Meaning 'consolation's son'", language_id: aramaic.id },
                       [ { name: "Barnee", gender_id: male.id },
                         { name: "Barney", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Bartholomew (meaning 'son of Talmai'), Barton (meaning 'barley settlement') and Bertram (meaning 'bright raven')" },
+                      [ { name: "Bart", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'royal'", language_id: greek.id },
+                      [ { name: "Basil", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Nocturnal flying animal with a mouse like body" },
+                      [ { name: "Bat" } ]
+                    ],
+                    [
+                      { description: "Meaning 'a baker'", language_id: old_english.id },
+                      [ { name: "Baxter", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Edible smooth kidney-shaped seeds of a plant" },
+                      [ { name: "Bean" },
+                        { name: "Beans" } ]
+                    ],
+                    [
+                      { description: "Large heavy animal with thick fur" },
+                      [ { name: "Bear" } ]
+                    ],
+                    [
+                      { description: "Meaning 'voyager'", language_id: latin.id },
+                      [ { name: "Beatrice", gender_id: female.id },
+                        { name: "Beatrix", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'handsome'", language_id: french.id },
+                      [ { name: "Beau", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'baby'", gender_id: french.id },
+                      [ { name: "Bebe", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Rebecca, meaning 'to bind'", language_id: hebrew.id },
+                      [ { name: "Becca", gender_id: female.id },
+                        { name: "Becky", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Cup-shaped metal instrument which makes a ringing sound" },
+                      [ { name: "Bell", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'beautiful'", language_id: italian.id },
+                      [ { name: "Bella", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'friend'" },
+                      [ { name: "Bellamy" } ]
+                    ],
+                    [
+                      { description: "Meaning 'beautiful'", language_id: french.id },
+                      [ { name: "Belle", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'son'", language_id: hebrew.id },
+                      [ { name: "Ben", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'son of my right hand'", language_id: hebrew.id },
+                      [ { name: "Benjamin", gender_id: male.id },
+                        { name: "Bennie", gender_id: both.id },
+                        { name: "Benny", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Benjamin, meaning 'son of my right hand'", language_id: hebrew.id },
+                      [ { name: "Benji", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'son of Benjamin'" },
+                      [ { name: "Benson", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'grass clearing'", language_id: old_english.id },
+                      [ { name: "Bentley", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Bernard, meaning 'strong bear'", language_id: ancient_german.id },
+                      [ { name: "Bernie", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Small round juicy fruit without a stone" },
+                      [ { name: "Berri", gender_id: both.id },
+                        { name: "Berry", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Albert (meaning 'exalted', 'shining with fame') and Robert (meaning 'shining with fame')" },
+                      [ { name: "Bert", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Elizabeth, meaning 'God's promise'", language_id: hebrew.id },
+                      [ { name: "Betsy", gender_id: female.id },
+                        { name: "Betty", gender_id: female.id },
+                        { name: "Biffy", gender_id: female.id },
+                        { name: "Bifi", gender_id: female.id },
+                        { name: "Buffy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'white'", language_id: italian.id },
+                      [ { name: "Bianca", gender_id: female.id },
+                        { name: "Bianco", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "From biddibid, meaning 'small'" },
+                      [ { name: "Biddy" } ]
+                    ],
+                    [
+                      { description: "Meaning 'jewel'", language_id: french.id },
+                      [ { name: "Bijou", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of William, meaning 'determined protector'", language_id: ancient_german.id },
+                      [ { name: "Bill", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Nickname of William or Williamina, meaning 'determined protector'", language_id: ancient_german.id },
+                      [ { name: "Billi", gender_id: both.id },
+                        { name: "Billie", gender_id: both.id },
+                        { name: "Billy", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'small', 'little'" },
+                      [ { name: "Bitti", gender_id: both.id },
+                        { name: "Bitty", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'black'" },
+                      [ { name: "Blackie", gender_id: both.id },
+                        { name: "Blacky", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Gambling game" },
+                      [ { name: "Blackjack"} ]
+                    ],
+                    [
+                      { description: "Meaning 'knife', 'sword'" },
+                      [ { name: "Blade" } ]
+                    ],
+                    [
+                      { description: "Meaning 'black'", language_id: old_english.id },
+                      [ { name: "Blake", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'white'", language_id: spanish.id },
+                      [ { name: "Blanca", gender_id: female.id },
+                        { name: "Blanco", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'white'", language_id: czech.id },
                       [ { name: "Blanka", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Bright flame or fire" },
+                      [ { name: "Blaze", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'blue'", language_id: french.id },
                       [ { name: "Bleu", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "To attack suddenly" },
+                      [ { name: "Blitz", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'white'" },
+                      [ { name: "Blondie", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'flower-like'" },
+                      [ { name: "Blossom", gender_id: female.id } ]
                     ],
                     [
                       { description: "Colour like a cloud-less sky" },
@@ -339,21 +549,159 @@ names_to_create = ([
                       [ { name: "Blueberry", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'precious'" },
+                      [ { name: "Bo", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Robert, meaning 'shining with fame'", language_id: ancient_german.id },
+                      [ { name: "Bob", gender_id: male.id },
+                        { name: "Bobbi", gender_id: both.id },
+                        { name: "Bobbie", gender_id: both.id },
+                        { name: "Bobby", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'orchard'", language_id: ancient_german.id },
+                      [ { name: "Bogart", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'good girl'", language_id: french.id },
+                      [ { name: "Bonnie", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Trees that are developed into miniatures" },
+                      [ { name: "Bonsai" } ]
+                    ],
+                    [
+                      { description: "Meaning 'surprise'" },
+                      [ { name: "Boo", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'dance'" },
+                      [ { name: "Boogie", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'suddenly prosperous or successful'" },
+                      [ { name: "Boomer" } ]
+                    ],
+                    [
+                      { description: "Sturdy shoes" },
+                      [ { name: "Boots", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'glorious battle'", language_id: slavic.id },
                       [ { name: "Boris", gender_id: male.id },
                         { name: "Borris", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Loops in a ribbon" },
+                      [ { name: "Bow" },
+                        { name: "Bowe" } ]
+                    ],
+                    [
+                      { description: "Meaning 'male child'", language_id: english.id },
+                      [ { name: "Boy", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Strong alcoholic spirit distilled from wine" },
+                      [ { name: "Brandi", gender_id: female.id },
+                        { name: "Brandie", gender_id: female.id },
+                        { name: "Brandy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'broom-covered hill'", language_id: old_english.id },
+                      [ { name: "Brandon", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'light wind'" },
+                      [ { name: "Breeze" } ]
                     ],
                     [
                       { description: "Meaning 'exalted and high-minded'", language_id: ancient_celtic.id },
                       [ { name: "Brian", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'from Brittany, in Northern France' or 'from Great Britain'" },
+                      [ { name: "Britney", gender_id: female.id },
+                        { name: "Brittany", gender_id: female.id },
+                        { name: "Brittney", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'badger'", language_id: old_english.id },
+                      [ { name: "Brock", gender_id: male.id },
+                        { name: "Brockie", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning ‘ditch’", language_id: irish_gaelic.id },
+                      [ { name: "Brodie", gender_id: both.id },
+                        { name: "Brody", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Combination of the names Brooke (meaning 'small stream') and Lynn (meaning 'ruddy complexion')" },
+                      [ { name: "Brooklyn", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "From a Norman French expression whose meaning has been lost" },
+                      [ { name: "Bruce", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'brown-haired'", language_id: ancient_german.id },
+                      [ { name: "Bruno", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'brother'", language_id: american.id },
                       [ { name: "Bubba", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Balls of liquid enclosing gas", language_id: english.id },
+                      [ { name: "Bubble", gender_id: both.id },
+                        { name: "Bubbles", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'direct'" },
+                      [ { name: "Buck", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Buck, meaning 'direct'" },
+                      [ { name: "Bucky", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'brother' or 'friend", language_id: english.id },
+                      [ { name: "Bud", gender_id: male.id },
+                        { name: "Buddy", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Large bee" },
+                      [ { name: "Bumblebee" } ]
+                    ],
+                    [
+                      { description: "Nickname of Bernice, meaning 'bringer of victory'", language_id: greek.id },
+                      [ { name: "Bunny", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'stream'", language_id: middle_english.id },
                       [ { name: "Burns", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Based on the common English word" },
+                      [ { name: "Buster", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'Fortified settlement'", language_id: old_english.id },
+                      [ { name: "Butch", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Fatty yellow food substance made from cream", language_id: english.id },
+                      [ { name: "Butter", gender_id: both.id },
+                        { name: "Butters", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Humming sound", language_id: english.id },
+                      [ { name: "Buzz", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Discs or knobs sewn onto a garment", language_id: english.id },
+                      [ { name: "Button", gender_id: both.id },
+                        { name: "Buttons", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'transporter'", language_id: norman_french.id },
@@ -686,12 +1034,36 @@ names_to_link = ([
                     [ "Ava" ]
                   ],
                   [
-                    { description: "Meaning 'baby'" },
-                    [ "Bubba" ]
+                    { description: "Nickname of Barbara (meaning 'foreigner') or Beatrice and Beatrix (meaning 'voyager')" },
+                    [ "Bebe" ]
+                  ],
+                  [
+                    { description: "Meaning 'beautiful'", language_id: old_french.id },
+                    [ "Bella" ]
+                  ],
+                  [
+                    { description: "Nickname of Belinda, meaning 'crafty'", language_id: ancient_german.id },
+                    [ "Belle" ]
+                  ],
+                  [
+                    { description: "Nickname of Berenice (meaning 'bringer of victory'), Bernadette and Bernadine (meaning 'strong bear')" },
+                    [ "Bernie" ]
+                  ],
+                  [
+                    { description: "After the character Puss in Boots" },
+                    [ "Boots" ]
+                  ],
+                  [
+                    { description: "Rabbit", language_id: english.id },
+                    [ "Bunny" ]
                   ],
                   [
                     { description: "Meaning 'blaze or glow with fire'" },
                     [ "Burns" ]
+                  ],
+                  [
+                    { description: "Excitement", language_id: english.id },
+                    [ "Buzz" ]
                   ],
                   [
                     { description: "Meaning 'hardworking person'", language_id: vietnamese.id },
@@ -760,6 +1132,10 @@ names_to_link.each do |value|
 end
 
 meanings_to_link = ([
+                      [
+                        { description: "Meaning 'baby'" },
+                        [ "Babe", "Bubba" ]
+                      ],
                       [
                         { description: "Nickname of Rosemary, meaning 'mist of the sea'", language_id: latin.id },
                         [ "Rosey", "Rosi", "Rosie", "Rosy" ]

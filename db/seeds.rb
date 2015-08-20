@@ -293,7 +293,8 @@ names_to_create = ([
                     ],
                     [
                       { description: "Meaning 'revered'", language_id: latin.id },
-                      [ { name: "Austin", gender_id: both.id } ]
+                      [ { name: "Austin", gender_id: both.id },
+                        { name: "Gus", gender_id: male.id } ]
                     ],
                     [
                       { description: "The fall season", language_id: english.id },
@@ -1640,8 +1641,70 @@ names_to_create = ([
                         { name: "Fuzzy", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning pledge" },
+                      [ { name: "Gage" } ]
+                    ],
+                    [
+                      { description: "Meaning 'person from Galilee'", language_id: greek.id },
+                      [ { name: "Galileo", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Type of bird" },
+                      [ { name: "Gannet", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'triangular field'", language_id: old_english.id },
+                      [ { name: "Garfield", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'harmless'", language_id: welsh.id },
+                      [ { name: "Garth", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'spear'", language_id: ancient_german.id },
+                      [ { name: "Garey", gender_id: both.id },
+                        { name: "Garrie", gender_id: both.id },
+                        { name: "Garry", gender_id: both.id },
+                        { name: "Gary", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'kitten'", language_id: spanish.id },
+                      [ { name: "Gatito" } ]
+                    ],
+                    [
                       { description: "Meaning 'greatest'", language_id: mongolian.id },
                       [ { name: "Genghis", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'farmer'", language_id: greek.id },
+                      [ { name: "George", gender_id: both.id },
+                        { name: "Georgia", gender_id: female.id },
+                        { name: "Georgina", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'Gilbert's son'", language_id: english.id },
+                      [ { name: "Gibson", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'bright promise'", language_id: old_french.id },
+                      [ { name: "Gilbert", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'small goat'", language_id: greek.id },
+                      [ { name: "Giles", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'garden'", language_id: hebrew.id },
+                      [ { name: "Gina", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Reddish-yellow colour", language_id: english.id },
+                      [ { name: "Ginger", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Short version of Ginger, Reddish-yellow colour", language_id: english.id },
+                      [ { name: "Gingi", gender_id: both.id },
+                        { name: "Gingie", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'gold'", language_id: yiddish.id },
@@ -1649,13 +1712,60 @@ names_to_create = ([
                         { name: "Goldy", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'large fortification'", language_id: gaelic.id },
+                      [ { name: "Gordi", gender_id: male.id },
+                        { name: "Gordie", gender_id: male.id },
+                        { name: "Gordy", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Flimsy delicate material", language_id: english.id },
+                      [ { name: "Gossamer" } ]
+                    ],
+                    [
+                      { description: "Meaning 'love and protection of God, unmerited favor'", language_id: english.id },
+                      [ { name: "Grace", gender_id: female.id },
+                        { name: "Gracia", gender_id: female.id },
+                        { name: "Grecia", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Grace, meaning 'love and protection of God'", language_id: english.id },
+                      [ { name: "Gracey", gender_id: female.id },
+                        { name: "Graci", gender_id: female.id },
+                        { name: "Gracie", gender_id: female.id },
+                        { name: "Gracy", gender_id: female.id },
+                        { name: "Grayce", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning ‘cat’", language_id: archaic.id },
                       [ { name: "Graymalkin" },
                         { name: "Greymalkin" } ]
                     ],
                     [
+                      { description: "Meaning 'son of a judge'", language_id: english.id },
+                      [ { name: "Grayson", gender_id: male.id },
+                        { name: "Greyson", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Margareta, meaning 'pearl'", language_id: greek.id },
+                      [ { name: "Greta", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'prince'", language_id: welsh.id },
+                      [ { name: "Griffin", gender_id: male.id },
+                        { name: "Griffith", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'pure and yielding, whitewave'", language_id: welsh.id },
+                      [ { name: "Guinevere", gender_id: female.id },
+                        { name: "Guinivere", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'white-haired one'", language_id: old_welsh.id },
                       [ { name: "Gwendolyn" } ]
+                    ],
+                    [
+                      { description: "Meaning 'traveller'" },
+                      [ { name: "Gypsy", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'a flower'", language_id: hawaiian.id },
@@ -2083,6 +2193,10 @@ names_to_link = ([
                   [
                     { description: "Covered with frost" },
                     [ "Frostie", "Frosty" ]
+                  ],
+                  [
+                    { description: "Meaning 'staff of the gods'", language_id: ancient_german.id },
+                    [ "Gus" ]
                   ],
                   [
                     { description: "Blue crested bird" },

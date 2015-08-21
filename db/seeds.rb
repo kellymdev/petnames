@@ -796,7 +796,8 @@ names_to_create = ([
                       [ { name: "Caspar", gender_id: male.id },
                         { name: "Casper", gender_id: male.id },
                         { name: "Caspur", gender_id: male.id },
-                        { name: "Caspurr", gender_id: male.id } ]
+                        { name: "Caspurr", gender_id: male.id },
+                        { name: "Jasper", gender_id: male.id } ]
                     ],
                     [
                       { description: "Nickname of Cassius, from a Latin expression whose meaning has been lost" },
@@ -1679,6 +1680,11 @@ names_to_create = ([
                       [ { name: "Gatito" } ]
                     ],
                     [
+                      { description: "Meaning 'gem'", language_id: latin.id },
+                      [ { name: "Gemma", gender_id: female.id },
+                        { name: "Jemma", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'greatest'", language_id: mongolian.id },
                       [ { name: "Genghis", gender_id: male.id } ]
                     ],
@@ -1973,7 +1979,25 @@ names_to_create = ([
                     ],
                     [
                       { description: "Meaning 'God's grace'", language_id: hebrew.id },
-                      [ { name: "Ivan", gender_id: male.id } ]
+                      [ { name: "Ivan", gender_id: male.id },
+                        { name: "Jack", gender_id: both.id },
+                        { name: "Jackson", gender_id: male.id },
+                        { name: "Jaine", gender_id: female.id },
+                        { name: "Jak", gender_id: both.id },
+                        { name: "Jandi", gender_id: female.id },
+                        { name: "Jane", gender_id: female.id },
+                        { name: "Janel", gender_id: female.id },
+                        { name: "Janell", gender_id: female.id },
+                        { name: "Janelle", gender_id: female.id },
+                        { name: "Jannah", gender_id: female.id },
+                        { name: "Jannel", gender_id: female.id },
+                        { name: "Jannell", gender_id: female.id },
+                        { name: "Jannelle", gender_id: female.id },
+                        { name: "Janus", gender_id: female.id },
+                        { name: "Jaxon", gender_id: male.id },
+                        { name: "Jayne", gender_id: female.id },
+                        { name: "Jeanelle", gender_id: female.id },
+                        { name: "Jock", gender_id: male.id } ]
                     ],
                     [
                       { description: "Climbing evergreen shrub", language_id: english.id },
@@ -1987,8 +2011,204 @@ names_to_create = ([
                         { name: "Izzy", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Nickname of Jack, meaning 'God's grace'", language_id: hebrew.id },
+                      [ { name: "Jacki", gender_id: both.id },
+                        { name: "Jackie", gender_id: both.id },
+                        { name: "Jacky", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'heel'", language_id: hebrew.id },
+                      [ { name: "Jacob", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Jacqueline, meaning 'one who trips up another and takes her place'", language_id: hebrew.id },
+                      [ { name: "Jacqui", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Green semi-precious stone" },
+                      [ { name: "Jade" } ]
+                    ],
+                    [
+                      { description: "A peddler" },
+                      [ { name: "Jagger" } ]
+                    ],
+                    [
+                      { description: "Meaning 'one who trips up another and takes his place'", language_id: hebrew.id },
+                      [ { name: "Jaimie", gender_id: both.id },
+                        { name: "James", gender_id: both.id },
+                        { name: "Jamey", gender_id: both.id },
+                        { name: "Jamie", gender_id: both.id },
+                        { name: "Jaymie", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Jacob, meaning 'heel'", language_id: hebrew.id },
+                      [ { name: "Jake", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'sweet and amiable'", language_id: english.id },
+                      [ { name: "Jasmin", gender_id: female.id },
+                        { name: "Jasmine", gender_id: female.id },
+                        { name: "Jazmin", gender_id: female.id },
+                        { name: "Jazmine", gender_id: female.id },
+                        { name: "Jazzmin", gender_id: female.id },
+                        { name: "Jazzmine", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Coffee" },
+                      [ { name: "Java", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'happy'", language_id: latin.id },
                       [ { name: "Jay", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Type of music with a strong rhythm", language_id: english.id },
+                      [ { name: "Jaz", gender_id: both.id },
+                        { name: "Jazz", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'stylish'", language_id: english.id },
+                      [ { name: "Jazzie", gender_id: both.id },
+                        { name: "Jazzy", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Derived from the French 'Jeanne', meaning 'God's grace'", language_id: hebrew.id },
+                      [ { name: "Jean", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Jean, meaning 'God's grace'", language_id: hebrew.id },
+                      [ { name: "Jeanie", gender_id: female.id },
+                        { name: "Jeannie", gender_id: female.id },
+                        { name: "Jeany", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'dove'", language_id: hebrew.id },
+                      [ { name: "Jemima", gender_id: female.id },
+                        { name: "Jemimah", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Jennifer, meaning 'pure and yielding, white wave'", language_id: welsh.id },
+                      [ { name: "Jenee", gender_id: female.id },
+                        { name: "Jenni", gender_id: female.id },
+                        { name: "Jennie", gender_id: female.id },
+                        { name: "Jenny", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'paradise'", language_id: arabic.id },
+                      [ { name: "Jenna", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'exalted' or 'holy'", language_id: greek.id },
+                      [ { name: "Jerri", gender_id: both.id },
+                        { name: "Jerry", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'wealthy'" },
+                      [ { name: "Jess" } ]
+                    ],
+                    [
+                      { description: "Meaning 'gift'", language_id: hebrew.id },
+                      [ { name: "Jesse", gender_id: both.id },
+                        { name: "Jessi", gender_id: female.id },
+                        { name: "Jessie", gender_id: both.id },
+                        { name: "Jessy", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Glossy black colour", language_id: english.id },
+                      [ { name: "Jet", gender_id: both.id },
+                        { name: "Jett", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'a gem'", language_id: english.id },
+                      [ { name: "Jewel", gender_id: both.id },
+                        { name: "Jewell", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'Lord Baal'", language_id: phoenician.id },
+                      [ { name: "Jezebel", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'youthful'", language_id: latin.id },
+                      [ { name: "Jill", gender_id: female.id },
+                        { name: "Jillian", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'favoured'" },
+                      [ { name: "Jim" } ]
+                    ],
+                    [
+                      { description: "Nickname of James (meaning 'one who trips up another and takes his place')" },
+                      [ { name: "Jimi", gender_id: both.id },
+                        { name: "Jimmi", gender_id: both.id },
+                        { name: "Jimmie", gender_id: both.id },
+                        { name: "Jimmy", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'addition'", language_id: hebrew.id },
+                      [ { name: "Jo", gender_id: both.id },
+                        { name: "Jodee", gender_id: female.id },
+                        { name: "Jodi", gender_id: both.id },
+                        { name: "Jodie", gender_id: both.id },
+                        { name: "Jody", gender_id: both.id },
+                        { name: "Joe", gender_id: both.id },
+                        { name: "Jojo", gender_id: both.id },
+                        { name: "Josefina", gender_id: female.id },
+                        { name: "Joseph", gender_id: both.id },
+                        { name: "Josephine", gender_id: female.id },
+                        { name: "Josie", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Joseph, meaning 'addition'", language_id: hebrew.id },
+                      [ { name: "Joey", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'gift of God'", language_id: hebrew.id },
+                      [ { name: "Johnathan", gender_id: male.id },
+                        { name: "Jonathan", gender_id: male.id },
+                        { name: "Jonathen", gender_id: male.id },
+                        { name: "Jonathon", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Nickname of John, meaning 'God's grace'", language_id: hebrew.id },
+                      [ { name: "Johnnie", gender_id: both.id },
+                        { name: "Johnny", gender_id: both.id },
+                        { name: "Jonny", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'dove'" },
+                      [ { name: "Jonah" } ]
+                    ],
+                    [
+                      { description: "Meaning 'addition'", language_id: spanish.id },
+                      [ { name: "Jose", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'God is my salvation'", language_id: hebrew.id },
+                      [ { name: "Josh", gender_id: male.id },
+                        { name: "Joshua", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'God has been gracious'" },
+                      [ { name: "Juan" } ]
+                    ],
+                    [
+                      { description: "Meaning 'Jove's descendant'", language_id: latin.id },
+                      [ { name: "Julee", gender_id: both.id },
+                        { name: "Juli", gender_id: both.id },
+                        { name: "Julia", gender_id: female.id },
+                        { name: "Julie", gender_id: both.id },
+                        { name: "Jullie", gender_id: both.id },
+                        { name: "Juliet", gender_id: female.id },
+                        { name: "Juliett", gender_id: female.id },
+                        { name: "Juliette", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Younger in age", language_id: english.id },
+                      [ { name: "Junior", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Fairness", language_id: english.id },
+                      [ { name: "Justice", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'crow'", language_id: siouan.id },
@@ -2415,8 +2635,40 @@ names_to_link = ([
                     [ "Izy", "Izzi", "Izzie", "Izzy" ]
                   ],
                   [
+                    { description: "Playing card next below queen" },
+                    [ "Jack" ]
+                  ],
+                  [
+                    { description: "Meaning 'son of Jack'" },
+                    [ "Jackson", "Jaxon" ]
+                  ],
+                  [
+                    { description: "Meaning 'favoured'" },
+                    [ "Jacob" ]
+                  ],
+                  [
+                    { description: "Australian slang for 'all right'" },
+                    [ "Jake" ]
+                  ],
+                  [
+                    { description: "Red or reddish-brown semi-precious stone", language_id: english.id },
+                    [ "Jasper" ]
+                  ],
+                  [
                     { description: "Blue crested bird" },
                     [ "Jay" ]
+                  ],
+                  [
+                    { description: "Meaning 'exalted' or 'holy'", language_id: hebrew.id },
+                    [ "Jerri", "Jerry" ]
+                  ],
+                  [
+                    { description: "Precious stone cut or set as an ornament", language_id: english.id },
+                    [ "Jewel" ]
+                  ],
+                  [
+                    { description: "Nickname of Judith, meaning 'Jewish woman'", language_id: hebrew.id },
+                    [ "Jodi", "Jodie", "Jody" ]
                   ],
                   [
                     { description: "Meaning 'joy'" },
@@ -2480,6 +2732,10 @@ meanings_to_link = ([
                       [
                         { description: "Meaning 'free'" },
                         [ "Frank" ]
+                      ],
+                      [
+                        { description: "Nickname of Jacqueline, meaning 'one who trips up another and takes her place'", language_id: hebrew.id },
+                        [ "Jacki", "Jackie", "Jacky" ]
                       ],
                       [
                         { description: "Nickname of Rosemary, meaning 'mist of the sea'", language_id: latin.id },

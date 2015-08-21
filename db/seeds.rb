@@ -714,6 +714,11 @@ names_to_create = ([
                       [ { name: "Caesar", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'devotion'", language_id: hebrew.id },
+                      [ { name: "Caleb", gender_id: male.id },
+                        { name: "Kaleb", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'lovely'", language_id: greek.id },
                       [ { name: "Cali", gender_id: female.id },
                         { name: "Calista", gender_id: female.id },
@@ -753,6 +758,11 @@ names_to_create = ([
                       [ { name: "Captain", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'beloved'", language_id: latin.id },
+                      [ { name: "Cara", gender_id: female.id },
+                        { name: "Kara", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Brown syrup made from heated sugar", language_id: english.id },
                       [ { name: "Caramel" } ]
                     ],
@@ -781,7 +791,8 @@ names_to_create = ([
                     ],
                     [
                       { description: "Meaning 'alert'", language_id: irish_gaelic.id },
-                      [ { name: "Casey", gender_id: both.id } ]
+                      [ { name: "Casey", gender_id: both.id },
+                        { name: "Kasey", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'maker of wood chests'", language_id: norman_french.id },
@@ -797,7 +808,9 @@ names_to_create = ([
                         { name: "Casper", gender_id: male.id },
                         { name: "Caspur", gender_id: male.id },
                         { name: "Caspurr", gender_id: male.id },
-                        { name: "Jasper", gender_id: male.id } ]
+                        { name: "Jasper", gender_id: male.id },
+                        { name: "Kasper", gender_id: male.id },
+                        { name: "Khazper", gender_id: male.id } ]
                     ],
                     [
                       { description: "Nickname of Cassius, from a Latin expression whose meaning has been lost" },
@@ -926,7 +939,8 @@ names_to_create = ([
                     ],
                     [
                       { description: "Meaning 'blooming'", language_id: greek.id },
-                      [ { name: "Chloe", gender_id: female.id } ]
+                      [ { name: "Chloe", gender_id: female.id },
+                        { name: "Khloe", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'chocolate'" },
@@ -949,6 +963,11 @@ names_to_create = ([
                     [
                       { description: "Sauce-like mixture of fruit or vegetables used as a spread on meat", language_id: english.id },
                       [ { name: "Chutney" } ]
+                    ],
+                    [
+                      { description: "Meaning 'black'", language_id: gaelic.id },
+                      [ { name: "Ciara", gender_id: female.id },
+                        { name: "Kiara", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'ashes'", language_id: french.id },
@@ -2211,12 +2230,157 @@ names_to_create = ([
                       [ { name: "Justice", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'head of hair'", language_id: latin.id },
+                      [ { name: "Kaiser", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'exacting'" },
+                      [ { name: "Kane" } ]
+                    ],
+                    [
                       { description: "Meaning 'crow'", language_id: siouan.id },
                       [ { name: "Kangi", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'fate'", language_id: sanskrit.id },
+                      [ { name: "Karma", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Katherine, Katrina or Katarina, meaning 'pure'", language_id: greek.id },
+                      [ { name: "Kat", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'pure'", language_id: greek.id },
+                      [ { name: "Katarina", gender_id: female.id },
+                        { name: "Kate", gender_id: female.id },
+                        { name: "Katerina", gender_id: female.id },
+                        { name: "Katharine", gender_id: female.id },
+                        { name: "Katharyn", gender_id: female.id },
+                        { name: "Katherin", gender_id: female.id },
+                        { name: "Katherine", gender_id: female.id },
+                        { name: "Kathryn", gender_id: female.id },
+                        { name: "Katrena", gender_id: female.id },
+                        { name: "Katrina", gender_id: female.id },
+                        { name: "Katryna", gender_id: female.id },
+                        { name: "Kattryna", gender_id: female.id },
+                        { name: "Kittie", gender_id: female.id },
+                        { name: "Kitty", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Katherine and Kathryn, meaning 'pure'", language_id: greek.id },
+                      [ { name: "Katie", gender_id: female.id },
+                        { name: "Katy", gender_id: female.id },
+                        { name: "Kaytee", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'home', 'yew tree' or 'rock'", language_id: japanese.id },
+                      [ { name: "Kaya", gender_id: female.id },
+                        { name: "Kayah", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Alternative spelling for Casey, meaning 'brave'" },
+                      [ { name: "KC", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'alive and well'", language_id: arabic.id },
+                      [ { name: "Keesha", gender_id: female.id },
+                        { name: "Keisha", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'boomerang'" },
+                      [ { name: "Keiley", gender_id: female.id },
+                        { name: "Kylee", gender_id: female.id },
+                        { name: "Kyley", gender_id: female.id },
+                        { name: "Kylie", gender_id: female.id },
+                        { name: "Kyllie", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'strife, war'", language_id: irish_gaelic.id },
+                      [ { name: "Keli", gender_id: both.id },
+                        { name: "Kelie", gender_id: both.id },
+                        { name: "Kelle", gender_id: both.id },
+                        { name: "Kellee", gender_id: both.id },
+                        { name: "Kelli", gender_id: both.id },
+                        { name: "Kelly", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Tomato sauce for hotdogs, fries or burgers", language_id: american.id },
+                      [ { name: "Ketchup", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'handsome beloved'", language_id: irish_gaelic.id },
+                      [ { name: "Keven", gender_id: both.id },
+                        { name: "Kevin", gender_id: both.id },
+                        { name: "Kevyn", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Kiana, from Anna, meaning 'favoured grace'" },
+                      [ { name: "Kia", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "The source of this name is unknown" },
+                      [ { name: "Kiki", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Kimberly, meaning 'Cyneburg's field'", language_id: old_english.id },
+                      [ { name: "Kimi", gender_id: female.id },
+                        { name: "Kimme", gender_id: female.id },
+                        { name: "Kimmi", gender_id: female.id },
+                        { name: "Kimmie", gender_id: female.id },
+                        { name: "Kimmy", gender_id: female.id },
+                        { name: "Kimy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Someone regarded as supreme", language_id: english.id },
+                      [ { name: "King", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Short for Kipper, smoked herring, a type of fish" },
+                      [ { name: "Kip", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Smoked herring, a type of fish" },
+                      [ { name: "Kipper", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'Lord'", language_id: greek.id },
+                      [ { name: "Kira", gender_id: female.id },
+                        { name: "Kyra", gender_id: female.id },
+                        { name: "Kyrah", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'settlement by a church'", language_id: ancient_german.id },
+                      [ { name: "Kirby", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'the amaranth flower'", language_id: sanskrit.id },
+                      [ { name: "Kiri", gender_id: both.id },
+                        { name: "Kirri", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Destiny, fate" },
+                      [ { name: "Kismet" } ]
+                    ],
+                    [
+                      { description: "Brown coloured flightless New Zealand bird" },
+                      [ { name: "Kiwi", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "A large bear found on Kodiak Island, Alaska" },
+                      [ { name: "Kodiak", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'helpful'" },
+                      [ { name: "Kodie", gender_id: male.id },
+                        { name: "Kody", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'boy born on Friday'", language_id: akan.id },
                       [ { name: "Kofi", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'victorious people'", language_id: french.id },
+                      [ { name: "Koko", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'sky', 'emptiness' or 'the void', depending on the tone used in saying this name", language_id: chinese.id },
@@ -2508,7 +2672,7 @@ names_to_link = ([
                   ],
                   [
                     { description: "Alternative spelling for Cocoa" },
-                    [ "Coco" ]
+                    [ "Coco", "Koko" ]
                   ],
                   [
                     { description: "Meaning 'brilliant'" },
@@ -2669,6 +2833,34 @@ names_to_link = ([
                   [
                     { description: "Nickname of Judith, meaning 'Jewish woman'", language_id: hebrew.id },
                     [ "Jodi", "Jodie", "Jody" ]
+                  ],
+                  [
+                    { description: "Emperor" },
+                    [ "Kaiser" ]
+                  ],
+                  [
+                    { description: "Alternative spelling for Cat" },
+                    [ "Kat" ]
+                  ],
+                  [
+                    { description: "Nickname for Kitty Cat" },
+                    [ "KC" ]
+                  ],
+                  [
+                    { description: "Nickname of Kristina, meaning 'Christ's follower'", language_id: latin.id },
+                    [ "Kia" ]
+                  ],
+                  [
+                    { description: "Meaning 'ruler'", language_id: english.id },
+                    [ "King" ]
+                  ],
+                  [
+                    { description: "Another name for cat", language_id: english.id },
+                    [ "Kittie", "Kitty" ]
+                  ],
+                  [
+                    { description: "Furry brown fruit with green flesh", language_id: english.id },
+                    [ "Kiwi" ]
                   ],
                   [
                     { description: "Meaning 'joy'" },

@@ -1768,8 +1768,18 @@ names_to_create = ([
                       [ { name: "Gypsy", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'exalted nature'", language_id: german.id },
+                      [ { name: "Haidee", gender_id: female.id },
+                        { name: "Heidi", gender_id: female.id },
+                        { name: "Hidee", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'a flower'", language_id: hawaiian.id },
                       [ { name: "Haiku", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'hay clearing'", language_id: old_english.id },
+                      [ { name: "Hailey", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'tumeric'", language_id: indian.id },
@@ -1787,12 +1797,143 @@ names_to_create = ([
                       [ { name: "Hamilcar", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'supplanter'" },
+                      [ { name: "Hamish", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'flower'", language_id: japanese.id },
+                      [ { name: "Hana", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'favoured grace'", language_id: hebrew.id },
+                      [ { name: "Hanah", gender_id: female.id },
+                        { name: "Hanna", gender_id: female.id },
+                        { name: "Hannah", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'smiling', 'pleased'", language_id: english.id },
+                      [ { name: "Happy", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'courageous', 'strong'", language_id: english.id },
+                      [ { name: "Hardy", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "In varied colours", language_id: english.id },
+                      [ { name: "Harlequin", gender_id: both.id },
+                        { name: "Harlyquin", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'hare wood'", language_id: old_english.id },
+                      [ { name: "Harleigh", gender_id: both.id },
+                        { name: "Harley", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'home leader'", language_id: ancient_german.id },
+                      [ { name: "Harry", gender_id: male.id },
+                        { name: "Hattie", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'eager for battle'", language_id: celtic.id },
+                      [ { name: "Harvey", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "A nutty-brown colour", language_id: english.id },
+                      [ { name: "Hazel", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'a support or stay'", language_id: greek.id },
+                      [ { name: "Hector", gender_id: male.id },
+                        { name: "Hektor", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'sun ray', 'shining light'", language_id: greek.id },
+                      [ { name: "Helen", gender_id: female.id },
+                        { name: "Helena", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'house' and 'power'", language_id: ancient_german.id },
+                      [ { name: "Henri", gender_id: male.id },
+                        { name: "Henry", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'home ruler'" },
+                      [ { name: "Henrietta", gender_id: female.id },
+                        { name: "Henriette", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Herbert, meaning 'illustrious warrior'", language_id: ancient_german.id },
+                      [ { name: "Herb", gender_id: male.id },
+                        { name: "Herbie", gender_id: male.id },
+                        { name: "Herby", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'illustrious warrior'", language_id: ancient_german.id },
+                      [ { name: "Herbert", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'Hera's glory'", language_id: greek.id },
+                      [ { name: "Hercules", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Someone admired for their great deeds", language_id: english.id },
+                      [ { name: "Hero", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'the myrtle tree' or 'star'", language_id: hebrew.id },
+                      [ { name: "Hester", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'maker of rivers'", language_id: iroquoian.id },
                       [ { name: "Hiawatha", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'cheerful'", language_id: latin.id },
+                      [ { name: "Hilary", gender_id: both.id },
+                        { name: "Hillary", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'hill dweller'", language_id: norwegian.id },
                        [ { name: "Hoagy", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Prickly-leaved evergreen shrub used as a decoration", language_id: english.id },
+                      [ { name: "Holley", gender_id: female.id },
+                        { name: "Holly", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'a pledge'" },
+                      [ { name: "Homer" } ]
+                    ],
+                    [
+                      { description: "Meaning 'sweet', 'sweetie'", language_id: english.id },
+                      [ { name: "Honee", gender_id: female.id },
+                        { name: "Honey", gender_id: female.id },
+                        { name: "Hunny", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Feeling of expectation and desire", language_id: english.id },
+                      [ { name: "Hope", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "One who hops", language_id: english.id },
+                      [ { name: "Hopper", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'worthy'" },
+                      [ { name: "Horatio", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Famous escape artist" },
+                      [ { name: "Houdini", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'soul, mind'", language_id: ancient_german.id },
+                      [ { name: "Hugo", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "One who hunts", language_id: english.id },
+                      [ { name: "Hunter", gender_id: male.id } ]
                     ],
                     [
                       { description: "Deep blue dye" },
@@ -2197,6 +2338,30 @@ names_to_link = ([
                   [
                     { description: "Meaning 'staff of the gods'", language_id: ancient_german.id },
                     [ "Gus" ]
+                  ],
+                  [
+                    { description: "Meaning 'enjoyment'", language_id: arabic.id },
+                    [ "Hana" ]
+                  ],
+                  [
+                    { description: "Nickname for Johana, meaning 'God's grace'", language_id: hebrew.id },
+                    [ "Hana" ]
+                  ],
+                  [
+                    { description: "Meaning 'athletic'" },
+                    [ "Harleigh", "Harley" ]
+                  ],
+                  [
+                    { description: "Man showing great strength and effort" },
+                    [ "Hercules" ]
+                  ],
+                  [
+                    { description: "Home run", language_id: english.id },
+                    [ "Homer" ]
+                  ],
+                  [
+                    { description: "Thick syrup produced by bees from nectar" },
+                    [ "Honey" ]
                   ],
                   [
                     { description: "Blue crested bird" },

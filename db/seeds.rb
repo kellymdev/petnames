@@ -1427,7 +1427,14 @@ names_to_create = ([
                     ],
                     [
                       { description: "Meaning 'God's promise'", language_id: hebrew.id },
-                      [ { name: "Elsa", gender_id: female.id } ]
+                      [ { name: "Elsa", gender_id: female.id },
+                        { name: "Isabel", gender_id: female.id },
+                        { name: "Isabell", gender_id: female.id },
+                        { name: "Isabella", gender_id: female.id },
+                        { name: "Isabelle", gender_id: female.id },
+                        { name: "Izabella", gender_id: female.id },
+                        { name: "Izabelle", gender_id: female.id },
+                        { name: "Isobelle", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'all wise'" },
@@ -1936,8 +1943,48 @@ names_to_create = ([
                       [ { name: "Hunter", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Frozen water", language_id: english.id },
+                      [ { name: "Ice", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'departed glory'" },
+                      [ { name: "Ichabod" } ]
+                    ],
+                    [
+                      { description: "Meaning 'independent'", language_id: english.id },
+                      [ { name: "Indie", gender_id: both.id },
+                        { name: "Indy", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Deep blue dye" },
                       [ { name: "Indigo", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Coloured, marked, covered or smeared with ink", language_id: english.id },
+                      [ { name: "Inky", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'Queen of Isis'" },
+                      [ { name: "Isadora", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Egyptian Goddess" },
+                      [ { name: "Isis", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'God's grace'", language_id: hebrew.id },
+                      [ { name: "Ivan", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Climbing evergreen shrub", language_id: english.id },
+                      [ { name: "Ivy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'gift from Isis'", language_id: greek.id },
+                      [ { name: "Izy", gender_id: female.id },
+                        { name: "Izzi", gender_id: female.id },
+                        { name: "Izzie", gender_id: female.id },
+                        { name: "Izzy", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'happy'", language_id: latin.id },
@@ -2362,6 +2409,10 @@ names_to_link = ([
                   [
                     { description: "Thick syrup produced by bees from nectar" },
                     [ "Honey" ]
+                  ],
+                  [
+                    { description: "Nickname of Isabelle, meaning 'God's promise'", language_id: hebrew.id },
+                    [ "Izy", "Izzi", "Izzie", "Izzy" ]
                   ],
                   [
                     { description: "Blue crested bird" },

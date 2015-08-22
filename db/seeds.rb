@@ -42,6 +42,7 @@ norse = Language.create(name: "Norse")
 norwegian = Language.create(name: "Norwegian")
 old_english = Language.create(name: "Old English")
 old_french = Language.create(name: "Old French")
+old_german = Language.create(name: "Old German")
 old_norse = Language.create(name: "Old Norse")
 old_welsh = Language.create(name: "Old Welsh")
 persian = Language.create(name: "Persian")
@@ -464,7 +465,12 @@ names_to_create = ([
                         { name: "Biffy", gender_id: female.id },
                         { name: "Bifi", gender_id: female.id },
                         { name: "Buffy", gender_id: female.id },
-                        { name: "Elsie", gender_id: female.id } ]
+                        { name: "Elsie", gender_id: female.id },
+                        { name: "Libbi", gender_id: female.id },
+                        { name: "Libby", gender_id: female.id },
+                        { name: "Lizzi", gender_id: female.id },
+                        { name: "Lizzie", gender_id: female.id },
+                        { name: "Lizzy", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'white'", language_id: italian.id },
@@ -1447,14 +1453,18 @@ names_to_create = ([
                     ],
                     [
                       { description: "Meaning 'God's promise'", language_id: hebrew.id },
-                      [ { name: "Elsa", gender_id: female.id },
+                      [ { name: "Elisabeth", gender_id: female.id },
+                        { name: "Elizabeth", gender_id: female.id },
+                        { name: "Elsa", gender_id: female.id },
                         { name: "Isabel", gender_id: female.id },
                         { name: "Isabell", gender_id: female.id },
                         { name: "Isabella", gender_id: female.id },
                         { name: "Isabelle", gender_id: female.id },
                         { name: "Izabella", gender_id: female.id },
                         { name: "Izabelle", gender_id: female.id },
-                        { name: "Isobelle", gender_id: female.id } ]
+                        { name: "Isobelle", gender_id: female.id },
+                        { name: "Lisa", gender_id: female.id },
+                        { name: "Lissette", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'all wise'" },
@@ -1922,7 +1932,9 @@ names_to_create = ([
                     [
                       { description: "Meaning 'cheerful'", language_id: latin.id },
                       [ { name: "Hilary", gender_id: both.id },
-                        { name: "Hillary", gender_id: both.id } ]
+                        { name: "Hillary", gender_id: both.id },
+                        { name: "Larisa", gender_id: female.id },
+                        { name: "Larissa", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'hill dweller'", language_id: norwegian.id },
@@ -2391,12 +2403,228 @@ names_to_create = ([
                       [ { name: "Koshka" } ]
                     ],
                     [
+                      { description: "Meaning 'like lace'", language_id: english.id },
+                      [ { name: "Lacey", gender_id: female.id },
+                        { name: "Lacie", gender_id: female.id },
+                        { name: "Lacy", gender_id: female.id },
+                        { name: "Layce", gender_id: female.id },
+                        { name: "Laycie", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Women of good social position", language_id: english.id },
+                      [ { name: "Lady", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'night beauty'", language_id: arabic.id },
+                      [ { name: "Laila", gender_id: female.id },
+                        { name: "Layla", gender_id: female.id },
+                        { name: "Leila", gender_id: female.id },
+                        { name: "Leilah", gender_id: female.id },
+                        { name: "Lela", gender_id: female.id },
+                        { name: "Lelah", gender_id: female.id },
+                        { name: "Leyla", gender_id: female.id },
+                        { name: "Lila", gender_id: female.id },
+                        { name: "Lilah", gender_id: female.id },
+                        { name: "Lilla", gender_id: female.id },
+                        { name: "Lyla", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'light'" },
+                      [ { name: "Lana", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'a server'" },
+                      [ { name: "Lancelot", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'shining famous one'", language_id: latin.id },
+                      [ { name: "Lara", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'the bay or laurel plant'", language_id: latin.id },
+                      [ { name: "Lari", gender_id: female.id },
+                        { name: "Lauren", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Milky coffee" },
+                      [ { name: "Latte", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'delicate'", language_id: hebrew.id },
+                      [ { name: "Lea", gender_id: female.id },
+                        { name: "Leah", gender_id: female.id },
+                        { name: "Leia", gender_id: female.id },
+                        { name: "Leigha", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'meadow'", language_id: old_english.id },
+                      [ { name: "Lee", gender_id: both.id },
+                        { name: "Leigh", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Story handed down from the past" },
+                      [ { name: "Legend", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Short form of Helena, meaning 'sun ray', 'shining light'", language_id: greek.id },
+                      [ { name: "Leina", gender_id: female.id },
+                        { name: "Lena", gender_id: female.id },
+                        { name: "Leyna", gender_id: female.id },
+                        { name: "Lina", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname for Leonard, meaning 'lion strength'", language_id: old_german.id },
+                      [ { name: "Lennie", gender_id: male.id },
+                        { name: "Lenny", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'lion'", language_id: latin.id },
+                      [ { name: "Leo", gender_id: male.id },
+                        { name: "Leon", gender_id: both.id },
+                        { name: "Leone", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'lion strength'", language_id: old_german.id },
+                      [ { name: "Leonard", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'the king'", language_id: french.id },
+                      [ { name: "Leroy", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'grey'", language_id: greek.id },
                       [ { name: "Leucos" } ]
                     ],
                     [
+                      { description: "Meaning 'well-known'" },
+                      [ { name: "Lewis" } ]
+                    ],
+                    [
+                      { description: "Nickname of Alexandra, meaning 'protector of men'", language_id: greek.id },
+                      [ { name: "Lexi", gender_id: female.id },
+                        { name: "Lexie", gender_id: female.id },
+                        { name: "Lexy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'freedom'", language_id: english.id },
+                      [ { name: "Liberty", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Shortened form of Lillian, meaning 'lily flower'" },
+                      [ { name: "Lil", gender_id: female.id },
+                        { name: "Lill", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Large flowered plant growing from a bulb", language_id: english.id },
+                      [ { name: "Lili", gender_id: female.id },
+                        { name: "Lillee", gender_id: female.id },
+                        { name: "Lillie", gender_id: female.id },
+                        { name: "Lilly", gender_id: female.id },
+                        { name: "Lily", gender_id: female.id },
+                        { name: "Lylli", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'lake colony'", language_id: latin.id },
+                      [ { name: "Lincoln", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'pretty'", language_id: spanish.id },
+                      [ { name: "Linda", gender_id: female.id },
+                        { name: "Lynda", gender_id: female.id },
+                        { name: "Lynnda", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Linda, meaning 'pretty'", language_id: spanish.id },
+                      [ { name: "Lindi", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Linden or Lyndon, meaning 'lime tree hill'", language_id: old_english.id },
+                      [ { name: "Lindy", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'ruddy-complexioned'", language_id: irish_gaelic.id },
+                      [ { name: "Linn", gender_id: both.id },
+                        { name: "Lyn", gender_id: both.id },
+                        { name: "Lynn", gender_id: both.id },
+                        { name: "Lynne", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Known as the 'king of the beasts'", language_id: english.id },
+                      [ { name: "Lion", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'lion-like'" },
+                      [ { name: "Lionel" } ]
+                    ],
+                    [
                       { description: "Meaning 'grey'", language_id: celtic.id },
                       [ { name: "Lloyd" } ]
+                    ],
+                    [
+                      { description: "Meaning 'hollow'", language_id: gaelic.id },
+                      [ { name: "Logan", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "In Norse mythology, the god who constantly created discord and mischief" },
+                      [ { name: "Loki" } ]
+                    ],
+                    [
+                      { description: "Meaning 'sorrow'" },
+                      [ { name: "Lola" } ]
+                    ],
+                    [
+                      { description: "City in Britain" },
+                      [ { name: "London" } ]
+                    ],
+                    [
+                      { description: "Nickname of Louis and Louise, meaning 'famous warrior'", language_id: ancient_german.id },
+                      [ { name: "Louie", gender_id: both.id },
+                        { name: "Luewe", gender_id: both.id },
+                        { name: "Lui", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'famous warrior'", language_id: ancient_german.id },
+                      [ { name: "Louis", gender_id: male.id },
+                        { name: "Louisa", gender_id: female.id },
+                        { name: "Louise", gender_id: female.id },
+                        { name: "Loulou", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'one from Lucania'", language_id: greek.id },
+                      [ { name: "Lucca", gender_id: both.id },
+                        { name: "Luka", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'light bearer'", language_id: latin.id },
+                      [ { name: "Lucifer", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'light'", language_id: latin.id },
+                      [ { name: "Loulou", gender_id: female.id },
+                        { name: "Luci", gender_id: female.id },
+                        { name: "Lucie", gender_id: female.id },
+                        { name: "Lucielle", gender_id: female.id },
+                        { name: "Lucile", gender_id: female.id },
+                        { name: "Lucille", gender_id: female.id },
+                        { name: "Lucy", gender_id: female.id },
+                        { name: "Lulu", gender_id: female.id },
+                        { name: "Lux", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Resulting from good luck", language_id: english.id },
+                      [ { name: "Lucky", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'light'", language_id: greek.id },
+                      [ { name: "Luke", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'moon'", gender_id: italian.id },
+                      [ { name: "Luna" } ]
+                    ],
+                    [
+                      { description: "Wild animal of the cat family", language_id: english.id },
+                      [ { name: "Lynx", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'man'", language_id: sanskrit.id },
@@ -2863,8 +3091,28 @@ names_to_link = ([
                     [ "Kiwi" ]
                   ],
                   [
+                    { description: "Meaning 'from Laurentum'", language_id: latin.id },
+                    [ "Lauren" ]
+                  ],
+                  [
+                    { description: "Meaning 'play'", language_id: sanskrit.id },
+                    [ "Lila", "Lilla" ]
+                  ],
+                  [
+                    { description: "Nickname of Linda, meaning 'pretty'", language_id: spanish.id },
+                    [ "Lindy" ]
+                  ],
+                  [
                     { description: "Meaning 'joy'" },
                     [ "Lloyd" ]
+                  ],
+                  [
+                    { description: "Nickname for Luise and Louise, meaning 'famous warrior'", language_id: ancient_german.id },
+                    [ "Loulou", "Lulu" ]
+                  ],
+                  [
+                    { description: "Meaning 'gem'", language_id: swahili.id },
+                    [ "Loulou", "Lulu" ]
                   ],
                   [
                     { description: "Meaning 'second-born child'", language_id: west_african.id },

@@ -3400,6 +3400,149 @@ names_to_create = ([
                         { name: "Quincy", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Old and torn clothes", language_id: english.id },
+                      [ { name: "Rags", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Someone who attacks to destroy or seize something", language_id: english.id },
+                      [ { name: "Raider", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Atmospheric moisture falling as drops", language_id: english.id },
+                      [ { name: "Rain", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Dried grape", language_id: english.id },
+                      [ { name: "Raisin", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'crafty counsellor'", language_id: ancient_german.id },
+                      [ { name: "Ralph", gender_id: male.id },
+                        { name: "Ralphie", gender_id: male.id },
+                        { name: "Ralphy", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'a forester'" },
+                      [ { name: "Ranger" } ]
+                    ],
+                    [
+                      { description: "Glossy black", language_id: english.id },
+                      [ { name: "Raven", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'advisor, protector'", language_id: ancient_german.id },
+                      [ { name: "Ray", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Person who fights against or refuses allegiance to established conventions", language_id: english.id },
+                      [ { name: "Rebel", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Reddish-brown colour", language_id: english.id },
+                      [ { name: "Red", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'queenly'" },
+                      [ { name: "Reena", gender_id: female.id },
+                        { name: "Reina", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'enthusiasm'", language_id: welsh.id },
+                      [ { name: "Reese", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Reginald, meaning 'ruler's advisor'", language_id: latin.id },
+                      [ { name: "Reggie", gender_id: male.id },
+                        { name: "Reggy", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'rye clearing'", language_id: old_english.id },
+                      [ { name: "Reilly", gender_id: both.id },
+                        { name: "Riley", gender_id: both.id },
+                        { name: "Ryelee", gender_id: both.id },
+                        { name: "Rylee", gender_id: both.id },
+                        { name: "Ryleigh", gender_id: both.id },
+                        { name: "Rylie", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'oarsman'", language_id: latin.id },
+                      [ { name: "Remi", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'here's my son'", language_id: hebrew.id },
+                      [ { name: "Reuben", gender_id: male.id },
+                        { name: "Ruben", gender_id: male.id },
+                        { name: "Rubin", gender_id: male.id },
+                        { name: "Rueben", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'king'", language_id: latin.id },
+                      [ { name: "Rex", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'ring'" },
+                      [ { name: "Ringo", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'river'", language_id: spanish.id },
+                      [ { name: "Rio", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'pearl'", language_id: spanish.id },
+                      [ { name: "Rita", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Natural stream of water entering into an ocean, lake, or another river", language_id: english.id },
+                      [ { name: "River", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'little red-head'", language_id: irish_gaelic.id },
+                      [ { name: "Roan", gender_id: both.id },
+                        { name: "Rowan", gender_id: both.id },
+                        { name: "Rowen", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'shining with fame'", language_id: ancient_german.id },
+                      [ { name: "Robbie", gender_id: both.id },
+                        { name: "Robby", gender_id: both.id },
+                        { name: "Robert", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Brown red breasted bird", language_id: english.id },
+                      [ { name: "Robin", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'rest'", language_id: ancient_german.id },
+                      [ { name: "Rocco", gender_id: male.id },
+                        { name: "Rocko", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Type of modern music with a strong beat", language_id: english.id },
+                      [ { name: "Rock", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "To dart ahead swiftly", language_id: english.id },
+                      [ { name: "Rocket", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'rest'", language_id: ancient_german.id },
+                      [ { name: "Rocky", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'fame'" },
+                      [ { name: "Rodger" },
+                        { name: "Roger" } ]
+                    ],
+                    [
+                      { description: "Meaning 'famed wolf'", language_id: ancient_german.id },
+                      [ { name: "Rollo", gender_id: male.id },
+                        { name: "Rolo", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'pilgrim'" },
+                      [ { name: "Romeo" } ]
+                    ],
+                    [
                       { description: "Nickname of Rosemary, meaning 'mist of the sea'", language_id: latin.id },
                       [ { name: "Romey", gender_id: female.id },
                         { name: "Rommy", gender_id: female.id },
@@ -3408,6 +3551,24 @@ names_to_create = ([
                     [
                       { description: "Meaning 'rose field'", language_id: dutch.id },
                       [ { name: "Roosevelt", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'red king'", language_id: irish_gaelic.id },
+                      [ { name: "Roree" },
+                        { name: "Rory" } ]
+                    ],
+                    [
+                      { description: "Meaning 'rose'" },
+                      [ { name: "Rosa" } ]
+                    ],
+                    [
+                      { description: "Meaning 'deer wood'", language_id: ancient_german.id },
+                      [ { name: "Rosco", gender_id: male.id },
+                        { name: "Roscoe", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Ornamental fragrant flower", language_id: english.id },
+                      [ { name: "Rose", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'mist of the sea'", language_id: latin.id },
@@ -3419,6 +3580,44 @@ names_to_create = ([
                         { name: "Rosi", gender_id: female.id },
                         { name: "Rosie", gender_id: female.id },
                         { name: "Rosy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Rough, disorderly behaviour", language_id: english.id },
+                      [ { name: "Rowdie", gender_id: both.id },
+                        { name: "Rowdy", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Roxane, meaning 'dawn'", language_id: persian.id },
+                      [ { name: "Roxi", gender_id: female.id },
+                        { name: "Roxie", gender_id: female.id },
+                        { name: "Roxy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Red jewel", language_id: english.id },
+                      [ { name: "Rubi", gender_id: female.id },
+                        { name: "Ruby", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Rudolf, meaning 'famed wolf'", language_id: ancient_german.id },
+                      [ { name: "Rudi", gender_id: both.id },
+                        { name: "Rudy", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'famed wolf'", language_id: ancient_german.id },
+                      [ { name: "Rudolf", gender_id: both.id },
+                        { name: "Rudolph", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'red-haired'", language_id: latin.id },
+                      [ { name: "Rufus", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'bright, shining, famous'", language_id: german.id },
+                      [ { name: "Rupert", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Covered in rust, rust-coloured", language_id: english.id },
+                      [ { name: "Rusty", gender_id: both.id } ]
                     ],
                     [
                       { description: "Nickname of Folasade, meaning 'honour bestores a crown'", language_id: yoruba.id },
@@ -3955,6 +4154,22 @@ names_to_link = ([
                     [ "Queen" ]
                   ],
                   [
+                    { description: "Person who looks after national parks", language_id: english.id },
+                    [ "Ranger" ]
+                  ],
+                  [
+                    { description: "Nickname given to red-headed individuals", language_id: english.id },
+                    [ "Red" ]
+                  ],
+                  [
+                    { description: "Meaning 'right'", language_id: sanskrit.id },
+                    [ "Rita" ]
+                  ],
+                  [
+                    { description: "Unsteady", language_id: english.id },
+                    [ "Rocky" ]
+                  ],
+                  [
                     { description: "Alternative spelling for Silver, white precious metal" },
                     [ "Silva" ]
                   ],
@@ -4008,6 +4223,14 @@ meanings_to_link = ([
                       [
                         { description: "Meaning 'small', 'little'" },
                         [ "Peanut" ]
+                      ],
+                      [
+                        { description: "Type of bird" },
+                        [ "Raven" ]
+                      ],
+                      [
+                        { description: "Meaning 'famous'" },
+                        [ "Robin" ]
                       ],
                       [
                         { description: "Nickname of Rosemary, meaning 'mist of the sea'", language_id: latin.id },

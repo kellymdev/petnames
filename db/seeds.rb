@@ -695,7 +695,9 @@ names_to_create = ([
                     ],
                     [
                       { description: "Based on the common English word" },
-                      [ { name: "Buster", gender_id: male.id } ]
+                      [ { name: "Buster", gender_id: male.id },
+                        { name: "Drake", gender_id: male.id },
+                        { name: "Olive", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'Fortified settlement'", language_id: old_english.id },
@@ -823,12 +825,13 @@ names_to_create = ([
                       [ { name: "Cass", gender_id: male.id } ]
                     ],
                     [
-                      { description: "From a Greek expression whose meaning has been lost" },
+                      { description: "From a Greek expression whose meaning has been lost", language_id: greek.id },
                       [ { name: "Cassandra", gender_id: female.id },
                         { name: "Cassi", gender_id: female.id },
                         { name: "Cassia", gender_id: female.id },
                         { name: "Cassie", gender_id: female.id },
-                        { name: "Cassy", gender_id: female.id } ]
+                        { name: "Cassy", gender_id: female.id },
+                        { name: "Orion", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'curly-headed'", language_id: gaelic.id },
@@ -1352,10 +1355,6 @@ names_to_create = ([
                     [
                       { description: "Meaning 'dark river'", language_id: scots_gaelic.id },
                       [ { name: "Douglas", gender_id: both.id } ]
-                    ],
-                    [
-                      { description: "Based on the common English word" },
-                      [ { name: "Drake", gender_id: male.id } ]
                     ],
                     [
                       { description: "Series of scenes in a sleeping person's mind" },
@@ -3120,8 +3119,65 @@ names_to_create = ([
                       [ { name: "Nugget", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'oak-tree clearing'", language_id: old_english.id },
+                      [ { name: "Oakley", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "In Norse mythology, the supreme deity, god of art, culture, war and the dead" },
+                      [ { name: "Odin", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'dog'", language_id: choctaw.id },
+                      [ { name: "Ofi" } ]
+                    ],
+                    [
+                      { description: "Meaning 'eyes'", language_id: spanish.id },
+                      [ { name: "Ojos" } ]
+                    ],
+                    [
                       { description: "Meaning 'holy'", language_id: norse.id },
                       [ { name: "Olga" } ]
+                    ],
+                    [
+                      { description: "Meaning 'olive'", language_id: latin.id },
+                      [ { name: "Oliver", gender_id: male.id },
+                        { name: "Olivia", gender_id: female.id },
+                        { name: "Olli", gender_id: both.id },
+                        { name: "Ollie", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Stone like marble" },
+                      [ { name: "Onyx" } ]
+                    ],
+                    [
+                      { description: "Meaning 'assistance'", language_id: greek.id },
+                      [ { name: "Ophelia", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'fawn'", language_id: hebrew.id },
+                      [ { name: "Oprah", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'spear of the gods'", language_id: old_english.id },
+                      [ { name: "Oscar", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'God's power'", language_id: ancient_german.id },
+                      [ { name: "Oswald", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'wealth'", language_id: ancient_german.id },
+                      [ { name: "Othello", gender_id: male.id },
+                        { name: "Otis", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'strength'" , language_id: hebrew.id },
+                      [ { name: "Oz", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Oscar (meaning 'spear of the gods') and Oswald (meaning 'God's power')" },
+                      [ { name: "Ozzie", gender_id: male.id },
+                        { name: "Ozzy", gender_id: male.id } ]
                     ],
                     [
                       { description: "Trailing plant with blue or white flowers" },
@@ -3637,6 +3693,14 @@ names_to_link = ([
                   [
                     { description: "Five cent coin" },
                     [ "Nickel" ]
+                  ],
+                  [
+                    { description: "Meaning 'olive tree'", language_id: french.id },
+                    [ "Oliver" ]
+                  ],
+                  [
+                    { description: "Prestigious award for movie actors and actresses" },
+                    [ "Oscar" ]
                   ],
                   [
                     { description: "Alternative spelling for Silver, white precious metal" },

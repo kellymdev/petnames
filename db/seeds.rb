@@ -498,7 +498,8 @@ names_to_create = ([
                     [
                       { description: "Meaning 'small', 'little'" },
                       [ { name: "Bitti", gender_id: both.id },
-                        { name: "Bitty", gender_id: both.id } ]
+                        { name: "Bitty", gender_id: both.id },
+                        { name: "Peewee", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'black'" },
@@ -697,7 +698,8 @@ names_to_create = ([
                       { description: "Based on the common English word" },
                       [ { name: "Buster", gender_id: male.id },
                         { name: "Drake", gender_id: male.id },
-                        { name: "Olive", gender_id: female.id } ]
+                        { name: "Olive", gender_id: female.id },
+                        { name: "Piper", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'Fortified settlement'", language_id: old_english.id },
@@ -831,7 +833,9 @@ names_to_create = ([
                         { name: "Cassia", gender_id: female.id },
                         { name: "Cassie", gender_id: female.id },
                         { name: "Cassy", gender_id: female.id },
-                        { name: "Orion", gender_id: male.id } ]
+                        { name: "Orion", gender_id: male.id },
+                        { name: "Paris", gender_id: both.id },
+                        { name: "Persephone", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'curly-headed'", language_id: gaelic.id },
@@ -2768,7 +2772,8 @@ names_to_create = ([
                     ],
                     [
                       { description: "Meaning 'bitter' or 'wished-for child'", language_id: hebrew.id },
-                      [ { name: "Mary", gender_id: both.id } ]
+                      [ { name: "Mary", gender_id: both.id },
+                        { name: "Polly", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'one who works with stone'", language_id: english.id },
@@ -2891,7 +2896,8 @@ names_to_create = ([
                     ],
                     [
                       { description: "Meaning 'small'", language_id: english.id },
-                      [ { name: "Mini", gender_id: both.id } ]
+                      [ { name: "Mini", gender_id: both.id },
+                        { name: "Pip Squeak", gender_id: both.id } ]
                     ],
                     [
                       { description: "Nickname of Wilhelmina, meaning 'determined protector'", language_id: ancient_german.id },
@@ -3180,12 +3186,201 @@ names_to_create = ([
                         { name: "Ozzy", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Nickname of Francisco, meaning 'A Frenchman'", language_id: ancient_german.id },
+                      [ { name: "Paco", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'young servant'", language_id: old_french.id },
+                      [ { name: "Paige", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Breakfast food", language_id: english.id },
+                      [ { name: "Pancake", gender_id: both.id },
+                        { name: "Pancakes", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Bear-like black and white animal native to China" },
+                      [ { name: "Panda", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "A mild red condiment ground from capsicum" },
+                      [ { name: "Paprika", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'princely'" },
+                      [ { name: "Parker" } ]
+                    ],
+                    [
+                      { description: "Piece put on when mending", language_id: english.id },
+                      [ { name: "Patch", gender_id: both.id },
+                        { name: "Patches", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'noble woman'" },
+                      [ { name: "Patti", gender_id: female.id },
+                        { name: "Patty", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Feet of an animal that has claws", language_id: english.id },
+                      [ { name: "Paw", gender_id: both.id },
+                        { name: "Paws", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Short for Puddy Cat" },
+                      [ { name: "PC", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Round juicy fruit with a rough stone", language_id: english.id },
+                      [ { name: "Peach", gender_id: both.id },
+                        { name: "Peaches", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Plant bearing underground pods with two edible brownish seeds", language_id: english.id },
+                      [ { name: "Peanut", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "White gem formed inside the shell of oysters", language_id: english.id },
+                      [ { name: "Pearl", gender_id: female.id },
+                        { name: "Pearle", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Small smooth round stones", language_id: english.id },
+                      [ { name: "Pebble", gender_id: both.id },
+                        { name: "Pebbles", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'a pearl'" },
+                      [ { name: "Peggy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'weaver'", language_id: greek.id },
+                      [ { name: "Penelope", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Penelope, meaning 'weaver'", language_id: greek.id },
+                      [ { name: "Pennee", gender_id: female.id },
+                        { name: "Penney", gender_id: female.id },
+                        { name: "Penni", gender_id: female.id },
+                        { name: "Pennie", gender_id: female.id },
+                        { name: "Penny", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Hot tasting seasoning powder made from the dried berries of certain plants", language_id: english.id },
+                      [ { name: "Pepa", gender_id: both.id },
+                        { name: "Peppa", gender_id: both.id },
+                        { name: "Pepper", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Jose or Joseph, meaning 'the Lord's addition'", language_id: hebrew.id },
+                      [ { name: "Pepe", gender_id: male.id },
+                        { name: "Pepi", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Full of energy, vigorous" },
+                      [ { name: "Peppy", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "From a Latin name whose meaning has been lost", language_id: latin.id },
+                      [ { name: "Percy", gender_id: male.id },
+                        { name: "Persy", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Trailing plant with blue or white flowers" },
                       [ { name: "Periwinkle" } ]
                     ],
                     [
+                      { description: "Meaning 'reliable'" },
+                      [ { name: "Pete", gender_id: male.id },
+                        { name: "Peter", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Ghost" },
+                      [ { name: "Phantom", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'bright'", language_id: greek.id },
+                      [ { name: "Phebe", gender_id: female.id },
+                        { name: "Pheby", gender_id: female.id },
+                        { name: "Phoebe", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'dark red'", language_id: greek.id },
+                      [ { name: "Phoenix", gender_id: female.id },
+                        { name: "Phoenyx", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Plight, mess" },
+                      [ { name: "Pickle", gender_id: both.id },
+                        { name: "Pickles", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Philip or Phillip, meaning 'horse lover'", language_id: greek.id },
+                      [ { name: "Pip", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Person on a ship who robs another ship at sea or raids a coast", language_id: english.id },
+                      [ { name: "Pirate", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "A type of fairy" },
+                      [ { name: "Pixie", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Silver white metal that does not tarnish" },
                       [ { name: "Platinum" } ]
+                    ],
+                    [
+                      { description: "From Hokey Pokey, candy made with golden syrup and baking soda", language_id: english.id },
+                      [ { name: "Pokey", gender_id: both.id },
+                        { name: "Pokie", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Combination of Polly, meaning 'bitter' or 'wished-for child' and Anna, meaning 'grace'", language_id: hebrew.id },
+                      [ { name: "Pollyanna", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Plant with showy flowers and milky juice" },
+                      [ { name: "Poppy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'very smart', 'luxurious'", language_id: english.id },
+                      [ { name: "Posh", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Small furry marsupial", language_id: english.id },
+                      [ { name: "Possum", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Of great value", language_id: english.id },
+                      [ { name: "Precious", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "The greatest or best", language_id: english.id },
+                      [ { name: "Prince", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'noblewoman'", language_id: english.id },
+                      [ { name: "Princess", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'prim, formal and precise'", language_id: english.id },
+                      [ { name: "Prissy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'cautious'", language_id: latin.id },
+                      [ { name: "Prudence", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'mischievous sprite'", language_id: old_norse.id },
+                      [ { name: "Puck", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Short sudden gust of wind", language_id: english.id },
+                      [ { name: "Puff", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Large round orange or grey coloured fruit of a vine", language_id: english.id },
+                      [ { name: "Pumpkin", gender_id: both.id } ]
                     ],
                     [
                       { description: "An old name for mercury" },
@@ -3703,6 +3898,46 @@ names_to_link = ([
                     [ "Oscar" ]
                   ],
                   [
+                    { description: "City in France" },
+                    [ "Paris" ]
+                  ],
+                  [
+                    { description: "Distinct area", language_id: english.id },
+                    [ "Patch", "Patches" ]
+                  ],
+                  [
+                    { description: "Small pie or pastry" },
+                    [ "Patty" ]
+                  ],
+                  [
+                    { description: "Yellowish pink colour", language_id: english.id },
+                    [ "Peach" ]
+                  ],
+                  [
+                    { description: "One cent coin", language_id: american.id },
+                    [ "Penny" ]
+                  ],
+                  [
+                    { description: "Mythological bird that is reborn from its own ashes" },
+                    [ "Phoenix" ]
+                  ],
+                  [
+                    { description: "Short high pitched sound", language_id: english.id },
+                    [ "Pip" ]
+                  ],
+                  [
+                    { description: "Nickname of Puckeridge, from an English expression whose meaning has been lost", language_id: english.id },
+                    [ "Puck" ]
+                  ],
+                  [
+                    { description: "Shell of soft, light pastry filled with whipped cream", language_id: english.id },
+                    [ "Puff" ]
+                  ],
+                  [
+                    { description: "Soft bulging mass of material, full in the middle and gathered in at the edges", language_id: english.id },
+                    [ "Puff" ]
+                  ],
+                  [
                     { description: "Alternative spelling for Silver, white precious metal" },
                     [ "Silva" ]
                   ],
@@ -3752,6 +3987,10 @@ meanings_to_link = ([
                       [
                         { description: "Nickname of Jacqueline, meaning 'one who trips up another and takes her place'", language_id: hebrew.id },
                         [ "Jacki", "Jackie", "Jacky" ]
+                      ],
+                      [
+                        { description: "Meaning 'small', 'little'" },
+                        [ "Peanut" ]
                       ],
                       [
                         { description: "Nickname of Rosemary, meaning 'mist of the sea'", language_id: latin.id },

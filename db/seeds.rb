@@ -3383,8 +3383,21 @@ names_to_create = ([
                       [ { name: "Pumpkin", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Woman regarded as supreme in some way", language_id: english.id },
+                      [ { name: "Queen", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "A journey in search of adventure or treasure", language_id: english.id },
+                      [ { name: "Quest", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "An old name for mercury" },
                       [ { name: "Quicksilver" } ]
+                    ],
+                    [
+                      { description: "Meaning 'Quintus' estate'", language_id: norman_french.id },
+                      [ { name: "Quincey", gender_id: male.id },
+                        { name: "Quincy", gender_id: male.id } ]
                     ],
                     [
                       { description: "Nickname of Rosemary, meaning 'mist of the sea'", language_id: latin.id },
@@ -3936,6 +3949,10 @@ names_to_link = ([
                   [
                     { description: "Soft bulging mass of material, full in the middle and gathered in at the edges", language_id: english.id },
                     [ "Puff" ]
+                  ],
+                  [
+                    { description: "Female cat", language_id: english.id },
+                    [ "Queen" ]
                   ],
                   [
                     { description: "Alternative spelling for Silver, white precious metal" },

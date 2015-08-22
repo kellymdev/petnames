@@ -3032,8 +3032,92 @@ names_to_create = ([
                       [ { name: "Mya", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'good cook'" },
+                      [ { name: "Nahla", gender_id: female.id },
+                        { name: "Nala", gender_id: female.id },
+                        { name: "Nalla", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'favoured grace'", language_id: english.id },
+                      [ { name: "Nancy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'the Lord's birthday'", language_id: latin.id },
+                      [ { name: "Natalie", gender_id: female.id },
+                        { name: "Natasha", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'cat'", language_id: japanese.id },
+                      [ { name: "Neko" } ]
+                    ],
+                    [
+                      { description: "Meaning 'compassion'", language_id: greek.id },
+                      [ { name: "Neli", gender_id: female.id },
+                        { name: "Nelie", gender_id: female.id },
+                        { name: "Nellee", gender_id: female.id },
+                        { name: "Nelli", gender_id: female.id },
+                        { name: "Nellie", gender_id: female.id },
+                        { name: "Nelly", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'champion'", language_id: irish_gaelic.id },
+                      [ { name: "Nelson", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'nobody'", language_id: latin.id },
+                      [ { name: "Nemo" } ]
+                    ],
+                    [
+                      { description: "Meaning 'lustrous'", language_id: gaelic.id },
+                      [ { name: "Nia", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'victorious'" },
+                      [ { name: "Nicholai", gender_id: male.id },
+                        { name: "Nikolai", gender_id: male.id },
+                        { name: "Nikita", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Nicholas, meaning 'victorious people'", language_id: greek.id },
+                      [ { name: "Nick", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Hard silvery white metal" },
                       [ { name: "Nickel" } ]
+                    ],
+                    [
+                      { description: "Nickname of Nicholas, Nicolaas and Nicole, meaning 'victorious people'", language_id: greek.id },
+                      [ { name: "Nico", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'black'", gender_id: latin.id },
+                      [ { name: "Nigel", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'victorious'", language_id: greek.id },
+                      [ { name: "Nikki", gender_id: both.id },
+                        { name: "Nikkie", gender_id: both.id },
+                        { name: "Nikko", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'relief'" },
+                      [ { name: "Noah", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'the standard or model'", language_id: latin.id },
+                      [ { name: "Norma", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'northerner'", language_id: ancient_german.id },
+                      [ { name: "Norman", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Star that suddenly becomes much brighter for a short time" },
+                      [ { name: "Nova", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Rough lump of gold found in the earth" },
+                      [ { name: "Nugget", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'holy'", language_id: norse.id },
@@ -3272,7 +3356,7 @@ names_to_link = ([
                   ],
                   [
                     { description: "Meaning 'famous'" },
-                    [ "Cleo" ]
+                    [ "Cleo", "Nelson" ]
                   ],
                   [
                     { description: "Alternative spelling for Cocoa" },

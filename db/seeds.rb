@@ -2627,8 +2627,117 @@ names_to_create = ([
                       [ { name: "Lynx", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'loveable'", language_id: old_french.id },
+                      [ { name: "Mabel", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'son'", language_id: gaelic.id },
+                      [ { name: "Mac", gender_id: male.id },
+                        { name: "Mack", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Manly creature", language_id: english.id },
+                      [ { name: "Macho", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'weapon'", language_id: old_french.id },
+                      [ { name: "Macy", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Madison and Madeline, meaning 'person from Magdala'", language_id: french.id },
+                      [ { name: "Maddie", gender_id: both.id },
+                        { name: "Maddy", gender_id: both.id },
+                        { name: "Madie", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'person from Magdala'", language_id: french.id },
+                      [ { name: "Maddison", gender_id: both.id },
+                        { name: "Madison", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'person from Magdala'", language_id: hebrew.id },
+                      [ { name: "Madeleine", gender_id: female.id },
+                        { name: "Madeline", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'maiden'" },
+                      [ { name: "Mae" } ]
+                    ],
+                    [
+                      { description: "Nickname of Margaret, meaning 'pearl'", language_id: greek.id },
+                      [ { name: "Maggi", gender_id: female.id },
+                        { name: "Maggie", gender_id: female.id },
+                        { name: "Maggy", gender_id: female.id },
+                        { name: "Maisie", gender_id: female.id },
+                        { name: "Mazie", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Tree with large wax-like white or pink flowers", language_id: english.id },
+                      [ { name: "Magnolia", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'very important, greater or relatively great'", language_id: english.id },
+                      [ { name: "Major", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'smooth brow'", language_id: gaelic.id },
+                      [ { name: "Mal", gender_id: both.id },
+                        { name: "Mel", gender_id: both.id },
+                        { name: "Melvin", gender_id: both.id },
+                        { name: "Melvyn", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'ruler', 'first born'" },
+                      [ { name: "Mali" } ]
+                    ],
+                    [
+                      { description: "Meaning 'God is with us'", language_id: hebrew.id },
+                      [ { name: "Mana", gender_id: female.id },
+                        { name: "Manni", gender_id: male.id },
+                        { name: "Manny", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Amanda, meaning 'one that must be loved'", language_id: latin.id },
+                      [ { name: "Mandee", gender_id: female.id },
+                        { name: "Mandi", gender_id: female.id },
+                        { name: "Mandy", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'man'", language_id: sanskrit.id },
                       [ { name: "Manu", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'bitter'", language_id: hebrew.id },
+                      [ { name: "Mara", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Type of limestone with swirling colours", language_id: english.id },
+                      [ { name: "Marble", gender_id: both.id },
+                        { name: "Marbles", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'warrior'" },
+                      [ { name: "Marco" } ]
+                    ],
+                    [
+                      { description: "Meaning 'pearl'", language_id: greek.id },
+                      [ { name: "Margo", gender_id: female.id },
+                        { name: "Margot", gender_id: female.id },
+                        { name: "Marguerita", gender_id: female.id },
+                        { name: "Marguerite", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'wished-for child'", language_id: hebrew.id },
+                      [ { name: "Maria", gender_id: both.id },
+                        { name: "Maree", gender_id: both.id },
+                        { name: "Marie", gender_id: both.id },
+                        { name: "Marietta", gender_id: both.id },
+                        { name: "Mariska", gender_id: female.id },
+                        { name: "Mia", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Alternate form of Maria, meaning 'wished-for child'", language_id: hebrew.id },
+                      [ { name: "Mariah", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'from the sea'", language_id: latin.id },
@@ -2640,8 +2749,271 @@ names_to_create = ([
                       [ { name: "Marissa" } ]
                     ],
                     [
+                      { description: "Meaning 'driftwood'", language_id: old_english.id },
+                      [ { name: "Marlow", gender_id: male.id },
+                        { name: "Marlowe", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Soft sweet made from sugar, egg white and gelatine", language_id: english.id },
+                      [ { name: "Marshmallow", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'mistress of the house'", language_id: aramaic.id },
+                      [ { name: "Martha", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Martin, meaning 'dedicated to Mars'", language_id: latin.id },
+                      [ { name: "Martie", gender_id: both.id },
+                        { name: "Martti", gender_id: both.id },
+                        { name: "Marty", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'bitter' or 'wished-for child'", language_id: hebrew.id },
+                      [ { name: "Mary", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'one who works with stone'", language_id: english.id },
+                      [ { name: "Mason", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Person with great skill", language_id: english.id },
+                      [ { name: "Master", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'mighty in battle'", language_id: ancient_german.id },
+                      [ { name: "Mathilda", gender_id: female.id },
+                        { name: "Matilda", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Matthew, meaning 'God's gift'", language_id: hebrew.id },
+                      [ { name: "Mattie", gender_id: both.id },
+                        { name: "Matty", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Undisciplined person" },
+                      [ { name: "Maverick", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'the greatest'", language_id: latin.id },
+                      [ { name: "Max", gender_id: both.id },
+                        { name: "Maxi", gender_id: both.id },
+                        { name: "Maxie", gender_id: both.id },
+                        { name: "Maximus", gender_id: male.id },
+                        { name: "Maxine", gender_id: female.id },
+                        { name: "Maxy", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'Mack's stream'", language_id: old_english.id },
+                      [ { name: "Maxwell", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Used to express a wish, possibility or permission", language_id: english.id },
+                      [ { name: "May" } ]
+                    ],
+                    [
+                      { description: "Meaning 'great'", language_id: greek.id },
+                      [ { name: "Maya", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'pearl'", language_id: welsh.id },
+                      [ { name: "Meg", gender_id: female.id },
+                        { name: "Megan", gender_id: female.id },
+                        { name: "Meggie", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'soft and rich'", language_id: english.id },
+                      [ { name: "Mellow", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'mercies'", language_id: spanish.id },
+                      [ { name: "Mercedes", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'commerce'", language_id: latin.id },
                       [ { name: "Mercury", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'sea hill'" },
+                      [ { name: "Merlin" } ]
+                    ],
+                    [
+                      { description: "Meaning 'who is like God'", language_id: hebrew.id },
+                      [ { name: "Micah", gender_id: both.id },
+                        { name: "Michael", gender_id: male.id },
+                        { name: "Michaela", gender_id: female.id },
+                        { name: "Michele", gender_id: female.id },
+                        { name: "Michelle", gender_id: female.id },
+                        { name: "Mickey", gender_id: both.id },
+                        { name: "Micky", gender_id: both.id },
+                        { name: "Miguel", gender_id: male.id },
+                        { name: "Mikaya", gender_id: female.id },
+                        { name: "Mike", gender_id: both.id },
+                        { name: "Mikey", gender_id: both.id },
+                        { name: "Mikie", gender_id: both.id },
+                        { name: "Misha", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Michael or Mickey, meaning 'who is like God'", language_id: hebrew.id },
+                      [ { name: "Mick", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Extremely small thing", language_id: english.id },
+                      [ { name: "Midget", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'soldier'", language_id: latin.id },
+                      [ { name: "Miles", gender_id: male.id },
+                        { name: "Milo", gender_id: male.id },
+                        { name: "Myles", gender_id: male.id },
+                        { name: "Mylo", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Someone who works in a corn or flour mill", language_id: english.id },
+                      [ { name: "Miller", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Camilla (meaning 'assistant to the priest'), Mildred (meaning 'mild strength'), Millicent (meaning 'animal strength'), Emily (meaning ‘eager’)" },
+                      [ { name: "Milley", gender_id: female.id },
+                        { name: "Millie", gender_id: female.id },
+                        { name: "Milly", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Miriam, meaning 'wished-for child'", language_id: hebrew.id },
+                      [ { name: "Mimi", gender_id: female.id },
+                        { name: "Mitsy", gender_id: female.id },
+                        { name: "Mitzi", gender_id: female.id },
+                        { name: "Mitzie", gender_id: female.id },
+                        { name: "Mitzy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'wonderful'", language_id: latin.id },
+                      [ { name: "Mindi", gender_id: female.id },
+                        { name: "Mindy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'small'", language_id: english.id },
+                      [ { name: "Mini", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Wilhelmina, meaning 'determined protector'", language_id: ancient_german.id },
+                      [ { name: "Minni", gender_id: female.id },
+                        { name: "Minnie", gender_id: female.id },
+                        { name: "Minny", gender_id: female.id },
+                        { name: "Myni", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'extraordinary'", language_id: latin.id },
+                      [ { name: "Mirabella", gender_id: female.id },
+                        { name: "Mirabelle", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Misbehaviour", language_id: english.id },
+                      [ { name: "Mischief" } ]
+                    ],
+                    [
+                      { description: "Meaning 'bee' or 'honey'", language_id: greek.id },
+                      [ { name: "Missey", gender_id: female.id },
+                        { name: "Missy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Low-lying water vapour clouds reducing visibility", language_id: english.id },
+                      [ { name: "Mist", gender_id: both.id },
+                        { name: "Myst", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "From an Old English expression whose meaning has been lost", language_id: old_english.id },
+                      [ { name: "Mister", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Mist covered or full of mist", language_id: english.id },
+                      [ { name: "Misti", gender_id: female.id },
+                        { name: "Mistie", gender_id: female.id },
+                        { name: "Misty", gender_id: female.id },
+                        { name: "Mysti", gender_id: female.id },
+                        { name: "Mystie", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'mixture'", language_id: italian.id },
+                      [ { name: "Misto", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Mitchell, meaning 'who resembles God'", language_id: norman_french.id },
+                      [ { name: "Mitch", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Gloves to keep hands warm", language_id: english.id },
+                      [ { name: "Mitten", gender_id: both.id },
+                        { name: "Mittens", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "From Elmo, meaning 'helmet of God'" },
+                      [ { name: "Mo", gender_id: male.id },
+                        { name: "Moe", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Chocolate flavoured coffee" },
+                      [ { name: "Mocca", gender_id: both.id },
+                        { name: "Mocha", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "A food fish of New Zealand" },
+                      [ { name: "Moki", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'bitter' or 'wished for child'", language_id: hebrew.id },
+                      [ { name: "Mollee", gender_id: female.id },
+                        { name: "Mollie", gender_id: female.id },
+                        { name: "Molly", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'dependable'" },
+                      [ { name: "Mona" } ]
+                    ],
+                    [
+                      { description: "Famous painter" },
+                      [ { name: "Monet", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'hill'", language_id: old_french.id },
+                      [ { name: "Monte", gender_id: male.id },
+                        { name: "Monty", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "The largest animal of the deer family", language_id: english.id },
+                      [ { name: "Moose", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'circling sea'", language_id: welsh.id },
+                      [ { name: "Morgan", gender_id: both.id },
+                        { name: "Morgaine", gender_id: both.id },
+                        { name: "Morgen", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'dark complexioned'", language_id: latin.id },
+                      [ { name: "Morris", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'pulled out'", language_id: hebrew.id },
+                      [ { name: "Moses", gender_id: male.id },
+                        { name: "Moss", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Small rodent with a long tail", language_id: english.id },
+                      [ { name: "Mouse", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'like a mouse'", language_id: english.id },
+                      [ { name: "Mousey", gender_id: both.id },
+                        { name: "Mousie", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Frothy creamy dessert, usually chocolate flavoured" },
+                      [ { name: "Mousse", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Light round cake", language_id: english.id },
+                      [ { name: "Muffin", gender_id: both.id },
+                        { name: "Muffins", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'sea'", language_id: gaelic.id },
@@ -2650,6 +3022,10 @@ names_to_create = ([
                     [
                       { description: "Meaning 'sea warrior'", language_id: irish_gaelic.id },
                       [ { name: "Murphy", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'lord and master'", language_id: gaelic.id },
+                      [ { name: "Murray", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'emerald'", language_id: burmese.id },
@@ -3115,12 +3491,64 @@ names_to_link = ([
                     [ "Loulou", "Lulu" ]
                   ],
                   [
+                    { description: "Meaning 'warriors son'" },
+                    [ "Maddison", "Madison" ]
+                  ],
+                  [
+                    { description: "Nickname of Magdalena, meaning 'person from Magdala'", language_id: hebrew.id },
+                    [ "Maggi", "Maggie", "Maggy" ]
+                  ],
+                  [
+                    { description: "Meaning 'blossom'" },
+                    [ "Magnolia" ]
+                  ],
+                  [
                     { description: "Meaning 'second-born child'", language_id: west_african.id },
                     [ "Manu" ]
                   ],
                   [
+                    { description: "Large daisy" },
+                    [ "Marguerite" ]
+                  ],
+                  [
+                    { description: "Meaning sympathy" },
+                    [ "May" ]
+                  ],
+                  [
                     { description: "Heavy silver liquid metal" },
                     [ "Mercury" ]
+                  ],
+                  [
+                    { description: "A type of Falcon" },
+                    [ "Merlin" ]
+                  ],
+                  [
+                    { description: "Meaning 'mine'" },
+                    [ "Mia" ]
+                  ],
+                  [
+                    { description: "Meaning 'determined'" },
+                    [ "Mimi" ]
+                  ],
+                  [
+                    { description: "Russian version of Melissa, meaning ‘bee’ or ‘honey’", language_id: greek.id },
+                    [ "Misha" ]
+                  ],
+                  [
+                    { description: "Meaning 'miss'" },
+                    [ "Missey", "Missy" ]
+                  ],
+                  [
+                    { description: "Nickname of Maurice (meaning 'dark complexioned') and Morris (meaning 'dark complexioned')" },
+                    [ "Moe" ]
+                  ],
+                  [
+                    { description: "Meaning 'lady'", language_id: gaelic.id },
+                    [ "Mollee", "Mollie", "Molly" ]
+                  ],
+                  [
+                    { description: "Small green plant that grows in velvety clusters on rocks, trees and moist ground", language_id: english.id },
+                    [ "Moss" ]
                   ],
                   [
                     { description: "Five cent coin" },

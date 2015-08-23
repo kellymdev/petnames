@@ -2336,7 +2336,8 @@ names_to_create = ([
                     ],
                     [
                       { description: "The source of this name is unknown" },
-                      [ { name: "Kiki", gender_id: female.id } ]
+                      [ { name: "Kiki", gender_id: female.id },
+                        { name: "Vienna", gender_id: female.id } ]
                     ],
                     [
                       { description: "Nickname of Kimberly, meaning 'Cyneburg's field'", language_id: old_english.id },
@@ -3385,6 +3386,10 @@ names_to_create = ([
                       [ { name: "Pumpkin", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'fruitful'", language_id: xhosa.id },
+                      [ { name: "Qhama", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Woman regarded as supreme in some way", language_id: english.id },
                       [ { name: "Queen", gender_id: female.id } ]
                     ],
@@ -4393,12 +4398,35 @@ names_to_create = ([
                       [ { name: "Velma", gender_id: female.id } ]
                     ],
                     [
-                      { description: "Small streak of smoke" },
-                      [ { name: "Wisp" } ]
+                      { description: "Roman goddess of love", language_id: roman.id },
+                      [ { name: "Venus", gender_id: female.id } ]
                     ],
                     [
-                      { description: "Meaning 'fruitful'", language_id: xhosa.id },
-                      [ { name: "Qhama", gender_id: both.id } ]
+                      { description: "Nickname of Victoria, meaning 'victory'", language_id: latin.id },
+                      [ { name: "Vickey", gender_id: female.id },
+                        { name: "Vicki", gender_id: female.id },
+                        { name: "Vickie", gender_id: female.id },
+                        { name: "Vicky", gender_id: female.id },
+                        { name: "Vikie", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'champion'", language_id: latin.id },
+                      [ { name: "Victer", gender_id: both.id },
+                        { name: "Victor", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'prevailing'", language_id: latin.id },
+                      [ { name: "Vincent", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Vincent, meaning 'prevailing'", language_id: latin.id },
+                      [ { name: "Vinni", gender_id: both.id },
+                        { name: "Vinnie", gender_id: both.id },
+                        { name: "Vinny", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Small streak of smoke" },
+                      [ { name: "Wisp" } ]
                     ],
                     [
                       { description: "Meaning 'snow', 'good fortune' or 'heritage' ", language_id: japanese.id },
@@ -4954,6 +4982,10 @@ names_to_link = ([
                   [
                     { description: "An open plain" },
                     [ "Vega" ]
+                  ],
+                  [
+                    { description: "Nickname of Lavinia, from a Latin expression whose meaning has been lost", language_id: latin.id },
+                    [ "Vinni", "Vinnie" ]
                   ],
                   [
                     { description: "Blue colour"},

@@ -2605,13 +2605,8 @@ names_to_create = ([
                         { name: "Luka", gender_id: both.id } ]
                     ],
                     [
-                      { description: "Meaning 'light bearer'", language_id: latin.id },
-                      [ { name: "Lucifer", gender_id: male.id } ]
-                    ],
-                    [
                       { description: "Meaning 'light'", language_id: latin.id },
-                      [ { name: "Loulou", gender_id: female.id },
-                        { name: "Luci", gender_id: female.id },
+                      [ { name: "Luci", gender_id: female.id },
                         { name: "Lucie", gender_id: female.id },
                         { name: "Lucielle", gender_id: female.id },
                         { name: "Lucile", gender_id: female.id },
@@ -2619,6 +2614,10 @@ names_to_create = ([
                         { name: "Lucy", gender_id: female.id },
                         { name: "Lulu", gender_id: female.id },
                         { name: "Lux", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'light bearer'", language_id: latin.id },
+                      [ { name: "Lucifer", gender_id: male.id } ]
                     ],
                     [
                       { description: "Resulting from good luck", language_id: english.id },
@@ -5174,6 +5173,10 @@ meanings_to_link = ([
                       [
                         { description: "Nickname of Jacqueline, meaning 'one who trips up another and takes her place'", language_id: hebrew.id },
                         [ "Jacki", "Jackie", "Jacky" ]
+                      ],
+                      [
+                        { description: "Meaning 'light'", language_id: latin.id },
+                        [ "Loulou" ]
                       ],
                       [
                         { description: "Meaning 'small', 'little'" },

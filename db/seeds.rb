@@ -4359,6 +4359,28 @@ names_to_create = ([
                       [ { name: "Tzarina", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Nickname of Ulrika and Ulrike, meaning 'exalted ruler'", language_id: ancient_german.id },
+                      [ { name: "Ulla", gender_id: female.id },
+                        { name: "Ulli", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'exalted ruler'", language_id: ancient_german.id },
+                      [ { name: "Ulrika", gender_id: female.id },
+                        { name: "Ulrike", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning a 'hater', 'angry'", language_id: greek.id },
+                      [ { name: "Ulysses", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'flax'", language_id: sanskrit.id },
+                      [ { name: "Uma", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'little bear'", language_id: latin.id },
+                      [ { name: "Ursula", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'golden'", language_id: khmer.id },
                       [ { name: "Vanna", gender_id: female.id } ]
                     ],

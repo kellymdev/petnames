@@ -274,7 +274,8 @@ names_to_create = ([
                       { description: "Meaning 'star'", language_id: latin.id },
                       [ { name: "Astra", gender_id: female.id },
                         { name: "Estee", gender_id: female.id },
-                        { name: "Estelle", gender_id: female.id } ]
+                        { name: "Estelle", gender_id: female.id },
+                        { name: "Stella", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'beautiful goddess or divine power'", language_id: old_norse.id },
@@ -4023,10 +4024,6 @@ names_to_create = ([
                       [ { name: "Stardust", gender_id: both.id } ]
                     ],
                     [
-                      { description: "Meaning 'star'", language_id: latin.id },
-                      [ { name: "Stella", gender_id: female.id } ]
-                    ],
-                    [
                       { description: "Meaning 'excellent', 'high quality'" },
                       [ { name: "Sterling" },
                         { name: "Stirling" } ]
@@ -4055,7 +4052,8 @@ names_to_create = ([
                     ],
                     [
                       { description: "Day of the week", language_id: english.id },
-                      [ { name: "Sunday", gender_id: both.id } ]
+                      [ { name: "Sunday", gender_id: both.id },
+                        { name: "Tuesday", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'sunshine'", language_id: english.id },
@@ -4092,8 +4090,273 @@ names_to_create = ([
                       [ { name: "Sweetpea", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'doe'", language_id: aramaic.id },
+                      [ { name: "Tabatha", gender_id: female.id },
+                        { name: "Tabetha", gender_id: female.id },
+                        { name: "Tabitha", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Cat with a light coat covered in darker stripes", language_id: english.id },
+                      [ { name: "Tabbie", gender_id: both.id },
+                        { name: "Tabby", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Sweet chewy candy", language_id: american.id },
+                      [ { name: "Taffy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'jumping water'", language_id: choctaw.id },
+                      [ { name: "Tallula", gender_id: female.id },
+                        { name: "Tallulah", gender_id: female.id },
+                        { name: "Talulla", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Total of a debt or score", language_id: english.id },
+                      [ { name: "Tallie", gender_id: both.id },
+                        { name: "Tally", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Tamara, meaning 'date palm'", language_id: hebrew.id },
+                      [ { name: "Tamie", gender_id: female.id },
+                        { name: "Tammi", gender_id: female.id },
+                        { name: "Tammie", gender_id: female.id },
+                        { name: "Tammy", gender_id: female.id },
+                        { name: "Tamy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Ballroom dance with gliding steps" },
+                      [ { name: "Tango" } ]
+                    ],
+                    [
+                      { description: "Meaning 'star'", language_id: sanskrit.id },
+                      [ { name: "Tara", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Natasha, meaning 'the Lord's birthday'", language_id: latin.id },
+                      [ { name: "Tarsha", gender_id: female.id },
+                        { name: "Tasha", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "A wisp of hay or hair" },
+                      [ { name: "Tate" } ]
+                    ],
+                    [
+                      { description: "Meaning 'to cut'", language_id: norman_french.id },
+                      [ { name: "Taylor", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Initials for 'Top Cat'" },
+                      [ { name: "TC" } ]
+                    ],
+                    [
+                      { description: "Meaning 'wise poet'", language_id: irish_gaelic.id },
+                      [ { name: "Teagan", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Theodore, meaning 'God's gift'", language_id: greek.id },
+                      [ { name: "Ted" } ]
+                    ],
+                    [
+                      {description: "Toy bear", language_id: english.id },
+                      [ { name: "Teddie", gender_id: both.id },
+                        { name: "Teddy", gender_id: both.id },
+                        { name: "Teddy Bear", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'power of the tribe'", language_id: ancient_german.id },
+                      [ { name: "Teri", gender_id: both.id },
+                        { name: "Terri", gender_id: both.id },
+                        { name: "Terrie", gender_id: both.id },
+                        { name: "Terry", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'harvester'" },
+                      [ { name: "Tess" },
+                        { name: "Tessa" } ]
+                    ],
+                    [
+                      { description: "After the US state, Texas" },
+                      [ { name: "Tex", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "From the Greek theos, meaning 'god'", language_id: greek.id },
+                      [ { name: "Theo", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'God's gift'", language_id: greek.id },
+                      [ { name: "Theodore" } ]
+                    ],
+                    [
+                      { description: "Meaning 'twin'", language_id: hebrew.id },
+                      [ { name: "Thomas", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'thunder'", language_id: old_norse.id },
+                      [ { name: "Thor", gender_id: male.id },
+                        { name: "Tor", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Loud noise that accompanies lightning", language_id: english.id },
+                      [ { name: "Thunder", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'aunt'", language_id: spanish.id },
+                      [ { name: "Tia", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Large striped animal of the cat family", language_id: english.id },
+                      [ { name: "Tiger", gender_id: male.id },
+                        { name: "Tyger", gender_id: male.id },
+                        { name: "Tygrr", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Orange lily with dark spots", language_id: english.id },
+                      [ { name: "Tiger Lillie", gender_id: female.id },
+                        { name: "Tiger Lilly", gender_id: female.id },
+                        { name: "Tiger Lily", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Female tiger", language_id: english.id },
+                      [ { name: "Tigress", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Matilda, meaning 'mighty in battle'", language_id: ancient_german.id },
+                      [ { name: "Tillie", gender_id: female.id },
+                        { name: "Tilly", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Timothy, meaning 'God's honour'", language_id: greek.id },
+                      [ { name: "Tim", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'God's honour'", language_id: greek.id },
+                      [ { name: "Timmy", gender_id: male.id },
+                        { name: "Timothy", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'Christ's follower'", language_id: latin.id },
+                      [ { name: "Tina", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'small'", language_id: english.id },
+                      [ { name: "Tini", gender_id: both.id },
+                        { name: "Tiny", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'great size and power'", language_id: english.id },
+                      [ { name: "Titan" } ]
+                    ],
+                    [
+                      { description: "Meaning 'defender'", language_id: latin.id },
+                      [ { name: "Titus", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'God is good'", language_id: hebrew.id },
+                      [ { name: "Tobey", gender_id: male.id },
+                        { name: "Tobi", gender_id: male.id },
+                        { name: "Tobias", gender_id: male.id },
+                        { name: "Tobie", gender_id: male.id },
+                        { name: "Toby", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'fox'", language_id: middle_english.id },
+                      [ { name: "Todd", gender_id: male.id },
+                        { name: "Toddy", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Male cat", language_id: english.id },
+                      [ { name: "Tom", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Thomas, meaning 'twin'", language_id: hebrew.id },
+                      [ { name: "Tommi", gender_id: both.id },
+                        { name: "Tommie", gender_id: both.id },
+                        { name: "Tommy", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Anthony and Antonia, from a Latin name whose meaning has been lost", language_id: latin.id },
+                      [ { name: "Toney", gender_id: both.id },
+                        { name: "Tony", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Antoinette and Antonia, from a Latin name whose meaning has been lost", language_id: latin.id },
+                      [ { name: "Toni", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "US word for 'darling' or 'sweetheart'", language_id: american.id },
+                      [ { name: "Tootsey", gender_id: both.id },
+                        { name: "Tootsie", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'Etruscan woman'", language_id: latin.id },
+                      [ { name: "Tosca", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Beatrix, meaning 'voyager'", language_id: latin.id },
+                      [ { name: "Trixie", gender_id: female.id },
+                        { name: "Trixy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Difficulty, distress, misfortune", language_id: english.id },
+                      [ { name: "Trouble", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'descendant of the foot soldier'", language_id: irish_gaelic.id },
+                      [ { name: "Troy", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Soft chocolate sweet" },
+                      [ { name: "Truffle", gender_id: both.id },
+                        { name: "Truffles", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'cloth maker'" },
+                      [ { name: "Tucker" } ]
+                    ],
+                    [
+                      { description: "Covered in patches of fur", language_id: english.id },
+                      [ { name: "Tufti", gender_id: both.id },
+                        { name: "Tufty", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Tree with small greenish flowers and blue or purple fruit" },
                       [ { name: "Tupelo" } ]
+                    ],
+                    [
+                      { description: "Using a turbine engine", language_id: english.id },
+                      [ { name: "Turbo", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "A region in western Italy" },
+                      [ { name: "Tuscany" } ]
+                    ],
+                    [
+                      { description: "Meaning 'glitter', 'sparkly'", language_id: english.id },
+                      [ { name: "Twink", gender_id: both.id },
+                        { name: "Twinks", gender_id: both.id },
+                        { name: "Twinkles", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Tornado or cyclone", language_id: english.id },
+                      [ { name: "Twister", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Tyler (meaning 'a worker in roof tiles'), Tyrone (meaning 'Owen's county'), Tyson (meaning 'high-spirited')" },
+                      [ { name: "Ty", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'a worker in roof tiles'", language_id: english.id },
+                      [ { name: "Tyla", gender_id: both.id },
+                        { name: "Tylar", gender_id: both.id },
+                        { name: "Tyler", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'fiery'" },
+                      [ { name: "Tyson", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "An empress of Russia", language_id: russian.id },
+                      [ { name: "Tzarina", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'golden'", language_id: khmer.id },
@@ -4651,6 +4914,14 @@ names_to_link = ([
                     [ "Star" ]
                   ],
                   [
+                    { description: "Meaning 'hill'", language_id: gaelic.id },
+                    [ "Tara" ]
+                  ],
+                  [
+                    { description: "Slang for food, dinner", language_id: english.id },
+                    [ "Tucker" ]
+                  ],
+                  [
                     { description: "Alternate form of Vanessa, Meaning 'to be'", language_id: latin.id },
                     [ "Vanna" ]
                   ],
@@ -4708,6 +4979,10 @@ meanings_to_link = ([
                       [
                         { description: "Meaning 'obedient'" },
                         [ "Simon" ]
+                      ],
+                      [
+                        { description: "Nickname of Theodore, meaning 'God's gift'", language_id: greek.id },
+                        [ "Teddie", "Teddy" ]
                       ]
                     ])
 

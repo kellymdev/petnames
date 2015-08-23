@@ -7,6 +7,10 @@ RSpec.describe Name, type: :model do
     it "has a name" do
       expect(name).to validate_presence_of(:name)
     end
+
+    it "has a unique name" do
+      expect(name).to validate_uniqueness_of(:name)
+    end
   end
 
   context "relationships" do

@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :meaning do
-    description "test"
+    description "Meaning 'wealthy'"
   end
 
 end

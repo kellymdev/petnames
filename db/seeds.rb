@@ -1470,7 +1470,10 @@ names_to_create = ([
                         { name: "Izabelle", gender_id: female.id },
                         { name: "Isobelle", gender_id: female.id },
                         { name: "Lisa", gender_id: female.id },
-                        { name: "Lissette", gender_id: female.id } ]
+                        { name: "Lissette", gender_id: female.id },
+                        { name: "Ysabeau", gender_id: female.id },
+                        { name: "Ysabella", gender_id: female.id },
+                        { name: "Yzabelle", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'all wise'" },
@@ -4507,20 +4510,92 @@ names_to_create = ([
                       [ { name: "Woody", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Nickname of Alexander, meaning 'protector of men'", language_id: greek.id },
+                      [ { name: "Xander", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'yellow blonde'", language_id: greek.id },
+                      [ { name: "Xanthe", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'bright'" },
+                      [ { name: "Xavier", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'guest, stranger'", language_id: greek.id },
+                      [ { name: "Xena", gender_id: female.id },
+                        { name: "Xenia", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "An alternative form of Chun, meaning 'spring', 'love', 'life', 'simple', 'pure' or 'honest', depending on the tone and characters associated with the name", language_id: chinese.id },
+                      [ { name: "Xuan", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Yannick, meaning 'God's grace'", language_id: hebrew.id },
+                      [ { name: "Yanni", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Can mean 'answer', 'flower, 'warbler', 'cherry', 'welcome', 'profit', 'jade', 'bright' or 'shining' depending on the tone and character associated with the name", language_id: chinese.id },
+                      [ { name: "Ying", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'snow', 'good fortune' or 'heritage' ", language_id: japanese.id },
                       [ { name: "Yuki", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Zachariah and Zachary, meaning 'Godly'", language_id: hebrew.id },
+                      [ { name: "Zac", gender_id: male.id },
+                        { name: "Zach", gender_id: male.id },
+                        { name: "Zack", gender_id: male.id },
+                        { name: "Zackie", gender_id: male.id },
+                        { name: "Zacky", gender_id: male.id },
+                        { name: "Zak", gender_id: male.id },
+                        { name: "Zakk", gender_id: male.id } ]
                     ],
                     [
                       { description: "Oxide of cobalt" },
                       [ { name: "Zaffre" } ]
                     ],
                     [
+                      { description: "Meaning 'success'", language_id: arabic.id },
+                      [ { name: "Zafira", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'sapphire'", language_id: spanish.id },
                       [ { name: "Zafiro" } ]
                     ],
                     [
+                      { description: "Meaning 'God strengthens'", language_id: hebrew.id },
+                      [ { name: "Zeke", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'dark battle'", language_id: ancient_german.id },
+                      [ { name: "Zelda", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meditation" },
+                      [ { name: "Zen" } ]
+                    ],
+                    [
+                      { description: "Nought", language_id: english.id },
+                      [ { name: "Zero", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'powerful one'", language_id: greek.id },
+                      [ { name: "Zeus", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'zigzag'" },
+                      [ { name: "Ziggy", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Bluish white gem cut from a translucent material" },
                       [ { name: "Zircon" } ]
+                    ],
+                    [
+                      { description: "Meaning 'life'", language_id: greek.id },
+                      [ { name: "Zoe", gender_id: both.id },
+                        { name: "Zoey", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'golden star'", language_id: persian.id },

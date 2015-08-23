@@ -33,6 +33,37 @@ RSpec.describe NamesController, type: :controller do
     end
   end
 
+  describe "get 'names#show'" do
+    before do
+      @language = create(:language)
+      @meaning = create(:meaning, language_id: @language.id)
+      @gender = create(:gender)
+      @name = create(:name, gender_id: @gender.id)
+      @meaning.names.push(@name)
+      get :show, id: @name.id
+    end
+
+    it "returns http status 200" do
+      expect(response.status).to eq(200)
+    end
+
+    it "renders the details for the name as json" do
+      meaning_array = []
+      @name.meanings.each do |meaning|
+        arr = []
+        arr.push(meaning, meaning.language.name)
+        meaning_array.push(arr)
+      end
+
+      expected_data = {
+                        name: @name,
+                        gender: @name.gender,
+                        meanings: meaning_array
+                      }
+      expect(response.body).to eq(expected_data.to_json)
+    end
+  end
+
   after do
     Name.destroy_all
     Meaning.destroy_all

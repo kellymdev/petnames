@@ -2143,8 +2143,8 @@ names_to_create = ([
                         { name: "Jerry", gender_id: both.id } ]
                     ],
                     [
-                      { description: "Meaning 'wealthy'" },
-                      [ { name: "Jess" } ]
+                      { description: "Meaning 'the Lord exists'", language_id: hebrew.id },
+                      [ { name: "Jess", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'gift'", language_id: hebrew.id },

@@ -14,7 +14,7 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2015-08-24T09:15:46+12:00">2015-08-24T09:15:46+12:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2015-08-24T10:03:45+12:00">2015-08-24T10:03:45+12:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -25,15 +25,15 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.09
+         1.17
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>7</b> files in total.
-    <b>22</b> relevant lines. 
-    <span class="green"><b>22</b> lines covered</span> and
+    <b>25</b> relevant lines. 
+    <span class="green"><b>25</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -63,11 +63,11 @@
       <tr>
         <td class="strong"><a href="#aa71ad65b30ac61cfcd7de3cc98948b5767b16dc" class="src_link" title="app/controllers/names_controller.rb">app/controllers/names_controller.rb</a></td>
         <td class="green strong">100.0 %</td>
+        <td>12</td>
         <td>7</td>
-        <td>4</td>
-        <td>4</td>
+        <td>7</td>
         <td>0</td>
-        <td>1.5</td>
+        <td>1.6</td>
       </tr>
       
       <tr>
@@ -133,15 +133,15 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.33
+         1.47
        </span>
     </span> hits/line)
   </h2>
   <a name="Controllers"></a>
   <div>
     <b>2</b> files in total.
-    <b>6</b> relevant lines. 
-    <span class="green"><b>6</b> lines covered</span> and
+    <b>9</b> relevant lines. 
+    <span class="green"><b>9</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -171,11 +171,11 @@
       <tr>
         <td class="strong"><a href="#aa71ad65b30ac61cfcd7de3cc98948b5767b16dc" class="src_link" title="app/controllers/names_controller.rb">app/controllers/names_controller.rb</a></td>
         <td class="green strong">100.0 %</td>
+        <td>12</td>
         <td>7</td>
-        <td>4</td>
-        <td>4</td>
+        <td>7</td>
         <td>0</td>
-        <td>1.5</td>
+        <td>1.6</td>
       </tr>
       
     </tbody>
@@ -444,8 +444,8 @@
     <h3>app/controllers/names_controller.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>4</b> relevant lines. 
-      <span class="green"><b>4</b> lines covered</span> and
+      <b>7</b> relevant lines. 
+      <span class="green"><b>7</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -490,6 +490,36 @@
         </li>
       
         <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def by_letter</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="9">
+          <span class="hits">2</span>
+          
+          <code class="ruby">    names = Name.where(&quot;name LIKE ?&quot;, &quot;#{params[:letter]}%&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="10">
+          <span class="hits">2</span>
+          
+          <code class="ruby">    render json: names</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
           
           
           <code class="ruby">end</code>

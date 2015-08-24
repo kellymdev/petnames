@@ -64,6 +64,31 @@ RSpec.describe NamesController, type: :controller do
     end
   end
 
+  describe "get 'names#random'" do
+    before do
+      @female = create(:gender, name: "Female")
+      @male = create(:gender, name: "Male")
+      @both = create(:gender, name: "Both")
+      @female_name = create(:name, gender_id: @female.id)
+      @male_name = create(:name, gender_id: @male.id)
+      @both_name = create(:name, gender_id: @both.id)
+      get :random
+    end
+
+    it "returns http status 200" do
+      expect(response.status).to eq(200)
+    end
+
+    it "returns a random female name, male name and both name as json" do
+      expected_data = {
+                        female: @female_name,
+                        male: @male_name,
+                        both: @both_name
+                      }
+      expect(response.body).to eq(expected_data.to_json)
+    end
+  end
+
   after do
     Name.destroy_all
     Meaning.destroy_all

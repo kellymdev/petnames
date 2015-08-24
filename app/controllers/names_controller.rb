@@ -18,10 +18,23 @@ class NamesController < ApplicationController
       arr.push(meaning, meaning.language.name)
       meaning_array.push(arr)
     end
+
     render json:  {
                     name: name,
                     gender: name.gender,
                     meanings: meaning_array
+                  }
+  end
+
+  def random
+    female_name = Name.where(gender_id: Gender.where(name: "Female")).sample
+    male_name = Name.where(gender_id: Gender.where(name: "Male")).sample
+    both_name = Name.where(gender_id: Gender.where(name: "Both")).sample
+
+    render json:  {
+                    female: female_name,
+                    male: male_name,
+                    both: both_name
                   }
   end
 end

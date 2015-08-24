@@ -6,7 +6,7 @@ class NamesController < ApplicationController
   end
 
   def by_letter
-    names = Name.where("name LIKE ?", "#{params[:letter]}%")
+    names = Name.where("name LIKE ?", "#{params[:letter]}%").order(:name)
     render json: names
   end
 

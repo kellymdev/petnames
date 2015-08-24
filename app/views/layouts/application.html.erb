@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Petnames</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+  <head>
+    <title>Pet Names</title>
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <%= csrf_meta_tags %>
+  </head>
 
-<%= yield %>
+  <body>
+    <nav>
+      <ul class="alpha-menu">
+        <% ('A'..'Z').to_a.each do |letter| %>
+          <li><a href="/names/alphabetical/<%= letter %>"> <%= letter %></a></li>
+        <% end %>
+      </ul>
+    </nav>
 
-</body>
+    <%= yield %>
+
+  </body>
 </html>

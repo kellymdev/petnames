@@ -58,6 +58,10 @@ describe("NameView", function() {
     it("displays the language for the name", function() {
       expect($('.meaning-list')).toContainText('Gaelic');
     });
+
+    it("displays a link to view all names for that meaning", function() {
+      expect($('.meaning-list')).toContainText('Show all names with this meaning');
+    });
   });
 
   describe("displayRandomNames", function() {

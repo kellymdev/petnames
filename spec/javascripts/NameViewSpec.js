@@ -29,4 +29,32 @@ describe("NameView", function() {
     });
   });
 
+  describe("displayListError", function() {
+    beforeEach(function() {
+      view.displayListError();
+    });
+
+    it("appends an error div to the page", function() {
+      expect($('#content .error')).toBeInDOM();
+    });
+
+    it("displays an error message", function() {
+      expect($('.error')).toContainText('Sorry, we couldn\'t find that name list.');
+    });
+  });
+
+  describe("displayNameError", function() {
+    beforeEach(function() {
+      view.displayNameError();
+    });
+
+    it("appends an error div to the page", function() {
+      expect($('#content .error')).toBeInDOM();
+    });
+
+    it("displays an error message", function() {
+      expect($('.error')).toContainText('Sorry, we couldn\'t find that name.');
+    });
+  });
+
 });

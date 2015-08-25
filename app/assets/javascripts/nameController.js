@@ -4,5 +4,9 @@ function NameController() {
 }
 
 NameController.prototype.nameListRequest = function(url) {
-  this.nameModel.requestNameList(url, this.nameView.displayNameList, this.nameView.displayError);
+  this.nameModel.requestNameList(url, this.nameView.displayNameList, this.nameView.displayListError);
+};
+
+NameController.prototype.nameDetailsRequest = function(url) {
+  this.nameModel.requestNameDetails(url, this.nameView.displayNameDetails, this.nameView.displayNameError);
 };

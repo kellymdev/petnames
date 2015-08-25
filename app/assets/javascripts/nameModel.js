@@ -22,3 +22,14 @@ NameModel.prototype.requestNameDetails = function(url, successFunction, errorFun
     errorFunction();
   });
 };
+
+NameModel.prototype.requestRandomName = function(successFunction, errorFunction) {
+  $.ajax({
+    type: 'get',
+    url: '/names/random'
+  }).done(function(jsonResponse) {
+    successFunction(jsonResponse);
+  }).fail(function() {
+    errorFunction();
+  });
+};

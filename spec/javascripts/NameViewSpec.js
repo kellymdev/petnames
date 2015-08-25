@@ -60,6 +60,29 @@ describe("NameView", function() {
     });
   });
 
+  describe("displayRandomNames", function() {
+    beforeEach(function() {
+      var randomNames = { "female":{"id":1, "name":"Anna"}, "male":{"id":2, "name":"Dave"}, "both":{"id":3, "name":"Jess"} };
+      view.displayRandomNames(randomNames);
+    });
+
+    it("appends a random-names div to the page", function() {
+      expect($('#content .random-names')).toBeInDOM();
+    });
+
+    it("displays a random female name", function() {
+      expect($('.random-names')).toContainText("Female: Anna");
+    });
+
+    it("displays a random male name", function() {
+      expect($('.random-names')).toContainText("Male: Dave");
+    });
+
+    it("displays a random both name", function() {
+      expect($('.random-names')).toContainText("Both: Jess");
+    });
+  });
+
   describe("displayListError", function() {
     beforeEach(function() {
       view.displayListError();

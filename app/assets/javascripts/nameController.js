@@ -10,3 +10,7 @@ NameController.prototype.nameListRequest = function(url) {
 NameController.prototype.nameDetailsRequest = function(url) {
   this.nameModel.requestNameDetails(url, this.nameView.displayNameDetails, this.nameView.displayNameError);
 };
+
+NameController.prototype.randomNameRequest = function() {
+  this.nameModel.requestRandomName(this.nameView.displayRandomNames, this.nameView.displayNameError);
+};

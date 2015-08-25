@@ -41,6 +41,19 @@ NameView.prototype.displayNameDetails = function(data) {
   $('#content').append(nameHtml);
 };
 
+NameView.prototype.displayRandomNames = function(data) {
+  $('#content').html("");
+
+  var nameHtml = '<div class="random-names">' +
+                    '<p>Female: ' + data.female.name + '</p>' +
+                    '<p>Male: ' + data.male.name + '</p>' +
+                    '<p>Both: ' + data.both.name + '</p>' +
+                  '</div>' +
+                  '<div class="random-button"><a href="/">Display more random names</a></div>';
+
+  $('#content').append(nameHtml);
+};
+
 NameView.prototype.displayListError = function() {
   $('#content').html("");
 

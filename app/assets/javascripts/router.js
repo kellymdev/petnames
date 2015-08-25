@@ -13,6 +13,12 @@ $(document).ready(function() {
     nameController.nameDetailsRequest(url);
   });
 
+  $('#content').on('click', '.random-names a', function(e) {
+    e.preventDefault();
+    var url = $(this).attr('href');
+    nameController.nameDetailsRequest(url);
+  });
+
   $('#content').on('click', '.random-button', function(e) {
     e.preventDefault();
     var url = $(this).attr('href');

@@ -34,33 +34,71 @@ RSpec.describe NamesController, type: :controller do
   end
 
   describe "get 'names#show'" do
-    before do
-      @language = create(:language)
-      @meaning = create(:meaning, language_id: @language.id)
-      @gender = create(:gender)
-      @name = create(:name, gender_id: @gender.id)
-      @meaning.names.push(@name)
-      get :show, id: @name.id
-    end
-
-    it "returns http status 200" do
-      expect(response.status).to eq(200)
-    end
-
-    it "renders the details for the name as json" do
-      meaning_array = []
-      @name.meanings.each do |meaning|
-        arr = []
-        arr.push(meaning, meaning.language.name)
-        meaning_array.push(arr)
+    context "the meaning has a language associated with it" do
+      before do
+        @language = create(:language)
+        @meaning = create(:meaning, language_id: @language.id)
+        @gender = create(:gender)
+        @name = create(:name, gender_id: @gender.id)
+        @meaning.names.push(@name)
+        get :show, id: @name.id
       end
 
-      expected_data = {
-                        name: @name,
-                        gender: @name.gender,
-                        meanings: meaning_array
-                      }
-      expect(response.body).to eq(expected_data.to_json)
+      it "returns http status 200" do
+        expect(response.status).to eq(200)
+      end
+
+      it "renders the details for the name as json" do
+        meaning_array = []
+        @name.meanings.each do |meaning|
+          arr = []
+          arr.push(meaning, meaning.language.name)
+          meaning_array.push(arr)
+        end
+
+        expected_data = {
+                          name: @name,
+                          gender: @name.gender,
+                          meanings: meaning_array
+                        }
+        expect(response.body).to eq(expected_data.to_json)
+      end
+    end
+
+    context "the meaning doesn't have a language associated with it" do
+      before do
+        @meaning = create(:meaning)
+        @gender = create(:gender)
+        @name = create(:name, gender_id: @gender.id)
+        @meaning.names.push(@name)
+        get :show, id: @name.id
+      end
+
+      it "returns http status 200" do
+        expect(response.status).to eq(200)
+      end
+
+      it "renders the details for the name as json" do
+        meaning_array = []
+        @name.meanings.each do |meaning|
+          arr = []
+
+          if meaning.language_id != nil
+            arr.push(meaning, meaning.language.name)
+          else
+            arr.push(meaning)
+          end
+
+          meaning_array.push(arr)
+        end
+
+        expected_data = {
+                          name: @name,
+                          gender: @name.gender,
+                          meanings: meaning_array
+                        }
+        expect(response.body).to eq(expected_data.to_json)
+      end
     end
   end
 

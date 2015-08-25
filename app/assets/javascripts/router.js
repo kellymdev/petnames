@@ -7,7 +7,7 @@ $(document).ready(function() {
     nameController.nameListRequest(url);
   });
 
-  $('.name-list a').on('click', function(e) {
+  $('#content').on('click', '.name-list a', function(e) {
     e.preventDefault();
     var url = $(this).attr('href');
     nameController.nameDetailsRequest(url);

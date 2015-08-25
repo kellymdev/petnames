@@ -15,7 +15,13 @@ class NamesController < ApplicationController
     meaning_array = []
     name.meanings.each do |meaning|
       arr = []
-      arr.push(meaning, meaning.language.name)
+
+      if meaning.language_id != nil
+        arr.push(meaning, meaning.language.name)
+      else
+        arr.push(meaning)
+      end
+
       meaning_array.push(arr)
     end
 

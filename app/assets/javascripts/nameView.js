@@ -26,13 +26,13 @@ NameView.prototype.displayNameDetails = function(data) {
   nameHtml += '<ul class="meaning-list">';
 
   data.meanings.forEach(function(meaning) {
-    nameHtml += '<li>' + meaning[0].description;
+    nameHtml += '<li><p>' + meaning[0].description;
 
     if (meaning[1] != null) {
       nameHtml += ' <span class="language">(' + meaning[1] + ')</span>';
     }
 
-    nameHtml += '<a class="all-names-link" href="/meanings/' + meaning[0].id + '"> Display all names with this meaning</a></li>';
+    nameHtml += '</p><p><a class="all-names-link" href="/meanings/' + meaning[0].id + '">Show all names with this meaning</a></p></li>';
   });
 
   nameHtml += '</ul>';
@@ -49,7 +49,7 @@ NameView.prototype.displayRandomNames = function(data) {
                     '<p>Male: <a href="/names/' + data.male.id + '">' + data.male.name + '</a></p>' +
                     '<p>Both: <a href="/names/' + data.both.id + '">' + data.both.name + '</a></p>' +
                   '</div>' +
-                  '<div class="random-button"><a href="/">Display more random names</a></div>';
+                  '<div class="random-button"><a href="/">Show more random names</a></div>';
 
   $('#content').append(nameHtml);
 };

@@ -29,7 +29,7 @@ RSpec.describe NamesController, type: :controller do
     end
 
     it "renders the names for that letter as json" do
-      expect(response.body).to eq(Name.where("name LIKE ?", "A%").to_json)
+      expect(response.body).to eq(Name.where("name LIKE ?", "A%").order(:name).to_json)
     end
   end
 

@@ -32,7 +32,7 @@ NameView.prototype.displayNameDetails = function(data) {
       nameHtml += ' <span class="language">(' + meaning[1] + ')</span>';
     }
 
-    nameHtml += '<a class="all-names" href="/">Display all names with this meaning</a></li>';
+    nameHtml += '<a class="all-names-link" href="/meanings/' + meaning[0].id + '"> Display all names with this meaning</a></li>';
   });
 
   nameHtml += '</ul>';

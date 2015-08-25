@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get '/names/random', to: 'names#random', as: :random_name
 
   resources :names, only: :show
+  resources :meanings, only: :show
 end

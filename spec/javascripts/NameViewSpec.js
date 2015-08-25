@@ -29,6 +29,37 @@ describe("NameView", function() {
     });
   });
 
+  describe("displayNameDetails", function() {
+    beforeEach(function() {
+      var details = {"name":{"id":420,"name":"Desmond","created_at":"2015-08-23T22:38:28.254Z","updated_at":"2015-08-23T22:38:28.254Z","gender_id":3},"gender":{"id":3,"name":"Male","abbreviation":"M","created_at":"2015-08-23T22:38:25.686Z","updated_at":"2015-08-23T22:38:25.686Z"},"meanings":[[{"id":259,"description":"Meaning 'one from south Munster'","created_at":"2015-08-23T22:38:28.251Z","updated_at":"2015-08-23T22:38:28.251Z","language_id":18},"Gaelic"]]};
+      view.displayNameDetails(details);
+    });
+
+    it("appends a name details div to the page", function() {
+      expect($('#content .name-details')).toBeInDOM();
+    });
+
+    it("displays the name", function() {
+      expect($('.name-details')).toContainText('Desmond');
+    });
+
+    it("displays the gender for the name", function() {
+      expect($('.name-details')).toContainText('Male');
+    });
+
+    it("appends a list with the class meaning-list to the page", function() {
+      expect($('.name-details .meaning-list')).toBeInDOM();
+    });
+
+    it("displays the meaning for the name", function() {
+      expect($('.meaning-list')).toContainText('Meaning \'one from south Munster\'');
+    });
+
+    it("displays the language for the name", function() {
+      expect($('.meaning-list')).toContainText('Gaelic');
+    });
+  });
+
   describe("displayListError", function() {
     beforeEach(function() {
       view.displayListError();

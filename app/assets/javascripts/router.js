@@ -1,5 +1,6 @@
 $(document).ready(function() {
   var nameController = new NameController();
+  var meaningController = new MeaningController();
 
   $('nav a').on('click', function(e) {
     e.preventDefault();
@@ -16,7 +17,7 @@ $(document).ready(function() {
   $('#content').on('click', '.all-names-link', function(e) {
     e.preventDefault();
     var url = $(this).attr('href');
-    nameController.meaningDetailsRequest(url);
+    meaningController.meaningDetailsRequest(url);
   });
 
   $('#content').on('click', '.random-names a', function(e) {

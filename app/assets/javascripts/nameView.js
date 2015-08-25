@@ -32,7 +32,7 @@ NameView.prototype.displayNameDetails = function(data) {
       nameHtml += ' <span class="language">(' + meaning[1] + ')</span>';
     }
 
-    nameHtml += '</li>';
+    nameHtml += '<a class="all-names" href="/">Display all names with this meaning</a></li>';
   });
 
   nameHtml += '</ul>';
@@ -45,9 +45,9 @@ NameView.prototype.displayRandomNames = function(data) {
   $('#content').html("");
 
   var nameHtml = '<div class="random-names">' +
-                    '<p>Female: ' + data.female.name + '</p>' +
-                    '<p>Male: ' + data.male.name + '</p>' +
-                    '<p>Both: ' + data.both.name + '</p>' +
+                    '<p>Female: <a href="/names/' + data.female.id + '">' + data.female.name + '</a></p>' +
+                    '<p>Male: <a href="/names/' + data.male.id + '">' + data.male.name + '</a></p>' +
+                    '<p>Both: <a href="/names/' + data.both.id + '">' + data.both.name + '</a></p>' +
                   '</div>' +
                   '<div class="random-button"><a href="/">Display more random names</a></div>';
 

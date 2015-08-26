@@ -3,6 +3,10 @@ function NameView() {
 
 NameView.prototype.displayNameList = function(data) {
   $('#content').html("");
+  $('nav a').removeClass('active');
+
+  var letter = data[0].name[0];
+  $('.' + letter).addClass('active');
 
   var nameList = '<div class="name-list"><ul>';
   data.forEach(function(name) {

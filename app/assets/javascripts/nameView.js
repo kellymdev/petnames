@@ -2,13 +2,14 @@ function NameView() {
 }
 
 NameView.prototype.displayNameList = function(data) {
-  $('#content').html("");
-  $('nav a').removeClass('active');
+  ViewHelper.prototype.clearPageContent();
 
   var letter = data[0].name[0];
   $('.' + letter).addClass('active');
 
-  var nameList = '<div class="name-list"><ul>';
+  var nameList = '<div class="name-list">' +
+                    '<h3>' + letter + ' Pet Names</h3>' +
+                    '<ul>';
   data.forEach(function(name) {
     nameList += '<li><a href="/names/' + name.id + '">' + name.name + '</a></li>';
   });
@@ -18,7 +19,10 @@ NameView.prototype.displayNameList = function(data) {
 };
 
 NameView.prototype.displayNameDetails = function(data) {
-  $('#content').html("");
+  ViewHelper.prototype.clearPageContent();
+
+  var letter = data.name.name[0];
+  $('.' + letter).addClass('active');
 
   var nameHtml = '<div class="name-details">' +
                     '<h3>' + data.name.name + '</h3>';
@@ -46,7 +50,7 @@ NameView.prototype.displayNameDetails = function(data) {
 };
 
 NameView.prototype.displayRandomNames = function(data) {
-  $('#content').html("");
+  ViewHelper.prototype.clearPageContent();
 
   var nameHtml = '<div class="random-names">' +
                     '<p>Female: <a href="/names/' + data.female.id + '">' + data.female.name + '</a></p>' +
@@ -59,7 +63,7 @@ NameView.prototype.displayRandomNames = function(data) {
 };
 
 NameView.prototype.displayListError = function() {
-  $('#content').html("");
+  ViewHelper.prototype.clearPageContent();
 
   var errorHtml = '<div class="error"><p>Sorry, we couldn\'t find that name list.</p></div>';
 
@@ -67,7 +71,7 @@ NameView.prototype.displayListError = function() {
 };
 
 NameView.prototype.displayNameError = function() {
-  $('#content').html("");
+  ViewHelper.prototype.clearPageContent();
 
   var errorHtml = '<div class="error"><p>Sorry, we couldn\'t find that name.</p></div>';
 

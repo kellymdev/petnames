@@ -12,6 +12,23 @@ body {
   font-family: 'Dosis', sans-serif;
 }
 
+#content {
+  max-width: 950px;
+  margin: 0 auto;
+  border: 2px solid #5D7090;
+  border-radius: 3px;
+  padding: 20px;
+}
+
+
+/*------------- Text styles ---------------------*/
+
+h3 {
+  border-bottom: 2px solid #5D7090;
+  padding-bottom: 5px;
+  margin-top: 0;
+}
+
 
 /*------------- Nav styles ----------------------*/
 
@@ -34,6 +51,7 @@ nav {
 
 .alpha-menu li .active {
   background-color: #5D7090;
+  border-radius: 3px;
 }
 
 .alpha-menu a {
@@ -47,4 +65,8 @@ nav {
 .alpha-menu a:visited,
 .alpha-menu a:hover {
   color: #8B8D8B;
+}
+
+.alpha-menu a.active {
+  color: #FFF5ED;
 }

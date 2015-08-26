@@ -2,7 +2,7 @@ function MeaningView() {
 }
 
 MeaningView.prototype.displayMeaningDetails = function(data) {
-  $('#content').html("");
+  ViewHelper.prototype.clearPageContent();
 
   meaningHtml = '<div class="meaning-details">' +
                   '<h3>Names by meaning:</h3>' +
@@ -30,7 +30,7 @@ MeaningView.prototype.displayMeaningDetails = function(data) {
 };
 
 MeaningView.prototype.displayMeaningError = function() {
-  $('#content').html("");
+  ViewHelper.prototype.clearPageContent();
 
   errorHtml = '<div class="error">' +
                 '<p>Sorry, we couldn\'t find that meaning.</p>' +

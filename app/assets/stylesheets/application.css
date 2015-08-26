@@ -1,7 +1,16 @@
 /*
  *= require_tree .
  *= require_self
- */
+*/
+
+
+/*------------- General styles ------------------*/
+
+body {
+  background-color: #FFF5ED;
+  color: #8B8D8B;
+  font-family: 'Dosis', sans-serif;
+}
 
 
 /*------------- Nav styles ----------------------*/
@@ -10,6 +19,7 @@ nav {
   text-align: center;
   margin: 0;
   padding: 0;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 .alpha-menu {
@@ -22,8 +32,19 @@ nav {
   display: inline-block;
 }
 
+.alpha-menu li .active {
+  background-color: #5D7090;
+}
+
 .alpha-menu a {
   font-weight: normal;
   margin: 10px 10px;
   padding: 5px 5px;
+  text-decoration: none;
+}
+
+.alpha-menu a,
+.alpha-menu a:visited,
+.alpha-menu a:hover {
+  color: #8B8D8B;
 }

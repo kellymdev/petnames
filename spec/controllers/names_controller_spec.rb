@@ -29,7 +29,7 @@ RSpec.describe NamesController, type: :controller do
     end
 
     it "renders the names for that letter as json" do
-      expect(response.body).to eq(Name.where("name LIKE ?", "A%").order(:name).to_json)
+      expect(response.body).to eq(Name.where("name LIKE ?", "A%").order(:name).to_json(except: [:created_at, :updated_at]))
     end
   end
 
@@ -52,13 +52,13 @@ RSpec.describe NamesController, type: :controller do
         meaning_array = []
         @name.meanings.each do |meaning|
           arr = []
-          arr.push(meaning, meaning.language.name)
+          arr.push(meaning.as_json(except: [:created_at, :updated_at]), meaning.language.name)
           meaning_array.push(arr)
         end
 
         expected_data = {
-                          name: @name,
-                          gender: @name.gender,
+                          name: @name.as_json(except: [:created_at, :updated_at]),
+                          gender: @name.gender.as_json(except: [:created_at, :updated_at]),
                           meanings: meaning_array
                         }
         expect(response.body).to eq(expected_data.to_json)
@@ -84,17 +84,17 @@ RSpec.describe NamesController, type: :controller do
           arr = []
 
           if meaning.language_id != nil
-            arr.push(meaning, meaning.language.name)
+            arr.push(meaning.as_json(except: [:created_at, :updated_at]), meaning.language.name)
           else
-            arr.push(meaning)
+            arr.push(meaning.as_json(except: [:created_at, :updated_at]))
           end
 
           meaning_array.push(arr)
         end
 
         expected_data = {
-                          name: @name,
-                          gender: @name.gender,
+                          name: @name.as_json(except: [:created_at, :updated_at]),
+                          gender: @name.gender.as_json(except: [:created_at, :updated_at]),
                           meanings: meaning_array
                         }
         expect(response.body).to eq(expected_data.to_json)
@@ -119,9 +119,9 @@ RSpec.describe NamesController, type: :controller do
 
     it "returns a random female name, male name and both name as json" do
       expected_data = {
-                        female: @female_name,
-                        male: @male_name,
-                        both: @both_name
+                        female: @female_name.as_json(except: [:created_at, :updated_at]),
+                        male: @male_name.as_json(except: [:created_at, :updated_at]),
+                        both: @both_name.as_json(except: [:created_at, :updated_at])
                       }
       expect(response.body).to eq(expected_data.to_json)
     end

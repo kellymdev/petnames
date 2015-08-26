@@ -14,7 +14,7 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2015-08-25T16:01:21+12:00">2015-08-25T16:01:21+12:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2015-08-26T15:41:34+12:00">2015-08-26T15:41:34+12:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -568,7 +568,7 @@
         <li class="covered" data-hits="4" data-linenumber="13">
           <span class="hits">4</span>
           
-          <code class="ruby">        arr.push(name, name.gender.name)</code>
+          <code class="ruby">        arr.push(name.as_json(except: [:created_at, :updated_at]), name.gender.name)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="14">
@@ -580,7 +580,7 @@
         <li class="missed" data-hits="0" data-linenumber="15">
           
           
-          <code class="ruby">        arr.push(name)</code>
+          <code class="ruby">        arr.push(name.as_json(except: [:created_at, :updated_at]))</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="16">
@@ -622,13 +622,13 @@
         <li class="never" data-hits="" data-linenumber="22">
           
           
-          <code class="ruby">                    meaning: meaning,</code>
+          <code class="ruby">                    meaning: meaning.as_json(except: [:created_at, :updated_at]),</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="23">
           
           
-          <code class="ruby">                    language: language,</code>
+          <code class="ruby">                    language: language.as_json(except: [:created_at, :updated_at]),</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="24">
@@ -730,7 +730,7 @@
         <li class="covered" data-hits="2" data-linenumber="9">
           <span class="hits">2</span>
           
-          <code class="ruby">    names = Name.where(&quot;name LIKE ?&quot;, &quot;#{params[:letter]}%&quot;).order(:name)</code>
+          <code class="ruby">    names = Name.where(&quot;name LIKE ?&quot;, &quot;#{params[:letter]}%&quot;).order(:name).as_json(except: [:created_at, :updated_at])</code>
         </li>
       
         <li class="covered" data-hits="2" data-linenumber="10">
@@ -796,7 +796,7 @@
         <li class="covered" data-hits="2" data-linenumber="20">
           <span class="hits">2</span>
           
-          <code class="ruby">        arr.push(meaning, meaning.language.name)</code>
+          <code class="ruby">        arr.push(meaning.as_json(except: [:created_at, :updated_at]), meaning.language.name)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="21">
@@ -808,7 +808,7 @@
         <li class="covered" data-hits="2" data-linenumber="22">
           <span class="hits">2</span>
           
-          <code class="ruby">        arr.push(meaning)</code>
+          <code class="ruby">        arr.push(meaning.as_json(except: [:created_at, :updated_at]))</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="23">
@@ -850,13 +850,13 @@
         <li class="never" data-hits="" data-linenumber="29">
           
           
-          <code class="ruby">                    name: name,</code>
+          <code class="ruby">                    name: name.as_json(except: [:created_at, :updated_at]),</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="30">
           
           
-          <code class="ruby">                    gender: name.gender,</code>
+          <code class="ruby">                    gender: name.gender.as_json(except: [:created_at, :updated_at]),</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="31">
@@ -922,19 +922,19 @@
         <li class="never" data-hits="" data-linenumber="41">
           
           
-          <code class="ruby">                    female: female_name,</code>
+          <code class="ruby">                    female: female_name.as_json(except: [:created_at, :updated_at]),</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="42">
           
           
-          <code class="ruby">                    male: male_name,</code>
+          <code class="ruby">                    male: male_name.as_json(except: [:created_at, :updated_at]),</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="43">
           
           
-          <code class="ruby">                    both: both_name</code>
+          <code class="ruby">                    both: both_name.as_json(except: [:created_at, :updated_at])</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="44">

@@ -25,17 +25,17 @@ RSpec.describe MeaningsController, type: :controller do
         arr = []
 
         if name.gender_id != nil
-          arr.push(name, name.gender.name)
+          arr.push(name.as_json(except: [:created_at, :updated_at]), name.gender.name)
         else
-          arr.push(name)
+          arr.push(name.as_json(except: [:created_at, :updated_at]))
         end
 
         names_array.push(arr)
       end
 
       expected_data = {
-                        meaning: @meaning,
-                        language: @meaning.language,
+                        meaning: @meaning.as_json(except: [:created_at, :updated_at]),
+                        language: @meaning.language.as_json(except: [:created_at, :updated_at]),
                         names: names_array
                       }
       expect(response.body).to eq(expected_data.to_json)

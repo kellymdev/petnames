@@ -15,7 +15,7 @@ describe("NameView", function() {
 
   describe("displayNameList", function() {
     beforeEach(function() {
-      var list = [{"id":1,"name":"Abigail","created_at":"2015-08-23T22:38:25.830Z","updated_at":"2015-08-23T22:38:25.830Z","gender_id":2},{"id":2,"name":"Alabama","created_at":"2015-08-23T22:38:25.924Z","updated_at":"2015-08-23T22:38:25.924Z","gender_id":2}];
+      var list = [{"id":1,"name":"Abigail","gender_id":2},{"id":2,"name":"Alabama","gender_id":2}];
       view.displayNameList(list);
     });
 
@@ -31,7 +31,7 @@ describe("NameView", function() {
 
   describe("displayNameDetails", function() {
     beforeEach(function() {
-      var details = {"name":{"id":420,"name":"Desmond","created_at":"2015-08-23T22:38:28.254Z","updated_at":"2015-08-23T22:38:28.254Z","gender_id":3},"gender":{"id":3,"name":"Male","abbreviation":"M","created_at":"2015-08-23T22:38:25.686Z","updated_at":"2015-08-23T22:38:25.686Z"},"meanings":[[{"id":259,"description":"Meaning 'one from south Munster'","created_at":"2015-08-23T22:38:28.251Z","updated_at":"2015-08-23T22:38:28.251Z","language_id":18},"Gaelic"]]};
+      var details = {"name":{"id":420,"name":"Desmond","gender_id":3},"gender":{"id":3,"name":"Male","abbreviation":"M"},"meanings":[[{"id":259,"description":"Meaning 'one from south Munster'","language_id":18},"Gaelic"]]};
       view.displayNameDetails(details);
     });
 

@@ -29,7 +29,7 @@ describe("MeaningView", function() {
 
   describe("displayMeaningDetails", function() {
     beforeEach(function() {
-      var data = {"meaning":{"id":202,"description":"Meaning 'brilliant'","created_at":"2015-08-23T22:38:27.765Z","updated_at":"2015-08-23T22:38:27.765Z","language_id":31},"language":{"id":31,"name":"Latin","created_at":"2015-08-23T22:38:25.737Z","updated_at":"2015-08-23T22:38:25.737Z"},"names":[[{"id":333,"name":"Claire","created_at":"2015-08-23T22:38:27.768Z","updated_at":"2015-08-23T22:38:27.768Z","gender_id":1},"Both"],[{"id":338,"name":"Clarissa","created_at":"2015-08-23T22:38:27.788Z","updated_at":"2015-08-23T22:38:27.788Z","gender_id":2},"Female"]]};
+      var data = {"meaning":{"id":202,"description":"Meaning 'brilliant'","language_id":31},"language":{"id":31,"name":"Latin"},"names":[[{"id":333,"name":"Claire","gender_id":1},"Both"],[{"id":338,"name":"Clarissa","gender_id":2},"Female"]]};
       view.displayMeaningDetails(data);
     });
 

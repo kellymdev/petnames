@@ -15,7 +15,7 @@ describe("NameView", function() {
 
   describe("displayNameList", function() {
     beforeEach(function() {
-      var list = [{"id":1,"name":"Abigail","gender_id":2},{"id":2,"name":"Alabama","gender_id":2}];
+      var list = [{"id":1,"name":"Abigail","gender_id":2,"gender":{"name":"Female"}},{"id":3,"name":"Alabama","gender_id":2,"gender":{"name":"Female"}}];
       view.displayNameList(list);
     });
 

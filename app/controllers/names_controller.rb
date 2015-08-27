@@ -6,7 +6,14 @@ class NamesController < ApplicationController
   end
 
   def by_letter
-    names = Name.where("name LIKE ?", "#{params[:letter]}%").order(:name).as_json(except: [:created_at, :updated_at])
+    names = Name.where("name LIKE ?", "#{params[:letter]}%").order(:name).as_json(
+      except: [:created_at, :updated_at],
+      include: {
+        gender: {
+          only: :name
+        }
+      }
+    )
     render json: names
   end
 

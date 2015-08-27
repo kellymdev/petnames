@@ -11,7 +11,13 @@ NameView.prototype.displayNameList = function(data) {
                     '<h3>' + letter + ' Pet Names</h3>' +
                     '<ul>';
   data.forEach(function(name) {
-    nameList += '<li><a href="/names/' + name.id + '">' + name.name + '</a></li>';
+    if (name.gender_id != null) {
+      nameList += '<li class="' + name.gender.name.toLowerCase() + '">';
+    } else {
+      nameList += '<li>';
+    }
+
+    nameList += '<i class="fa fa-paw"></i> <a href="/names/' + name.id + '">' + name.name + '</a></li>';
   });
 
   nameList += '</ul></div>';
@@ -24,17 +30,22 @@ NameView.prototype.displayNameDetails = function(data) {
   var letter = data.name.name[0];
   $('.' + letter).addClass('active');
 
-  var nameHtml = '<div class="name-details">' +
-                    '<h3>' + data.name.name + '</h3>';
+  var nameHtml = '<div class="name-details';
 
   if (data.name.gender_id != null) {
-    nameHtml += '<p>' + data.gender.name + '</p>';
+    nameHtml += ' ' + data.gender.name.toLowerCase();
+  }
+
+  nameHtml += '"><h3 class="name-field">' + data.name.name + '</h3>';
+
+  if (data.name.gender_id != null) {
+    nameHtml += '<p class="gender">' + data.gender.name + '</p>';
   }
 
   nameHtml += '<ul class="meaning-list">';
 
   data.meanings.forEach(function(meaning) {
-    nameHtml += '<li><p>' + meaning[0].description;
+    nameHtml += '<li><p><i class="fa fa-paw"></i> ' + meaning[0].description;
 
     if (meaning[1] != null) {
       nameHtml += ' <span class="language">(' + meaning[1] + ')</span>';
@@ -43,9 +54,7 @@ NameView.prototype.displayNameDetails = function(data) {
     nameHtml += '</p><p><a class="all-names-link" href="/meanings/' + meaning[0].id + '">Show all names with this meaning</a></p></li>';
   });
 
-  nameHtml += '</ul>';
-
-  nameHtml += '</div>';
+  nameHtml += '</ul></div>';
   $('#content').append(nameHtml);
 };
 

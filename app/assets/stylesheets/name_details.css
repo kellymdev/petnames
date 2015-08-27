@@ -1,0 +1,9 @@
+.name-details.female i,
+.name-details.female .name-field {
+  color: #BB8F9B;
+}
+
+.name-details.male i,
+.name-details.male .name-field {
+  color: #5D7090;
+}

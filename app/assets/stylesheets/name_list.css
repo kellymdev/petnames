@@ -1,0 +1,19 @@
+.name-list ul,
+ul.name-list,
+ul.meaning-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.name-list li,
+.meaning-list li {
+  padding-bottom: 8px;
+}
+
+.name-list li.female i {
+  color: #BB8F9B;
+}
+
+.name-list li.male i {
+  color: #5D7090;
+}

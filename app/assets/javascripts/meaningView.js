@@ -15,7 +15,13 @@ MeaningView.prototype.displayMeaningDetails = function(data) {
   meaningHtml += '<ul class="name-list">';
 
   data.names.forEach(function(name) {
-    meaningHtml += '<li><a href="/names/' + name[0].id + '"">' + name[0].name + '</a>';
+    if (name[0].gender_id != null) {
+      meaningHtml += '<li class="' + name[1].toLowerCase() + '">';
+    } else {
+      meaningHtml += '<li>';
+    }
+
+    meaningHtml += '<i class="fa fa-paw"></i> <a href="/names/' + name[0].id + '"">' + name[0].name + '</a>';
 
     if (name[0].gender_id != null) {
       meaningHtml += ' (' + name[1] + ')';

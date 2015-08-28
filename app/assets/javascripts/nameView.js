@@ -45,13 +45,13 @@ NameView.prototype.displayNameDetails = function(data) {
   nameHtml += '<ul class="meaning-list">';
 
   data.meanings.forEach(function(meaning) {
-    nameHtml += '<li><p><i class="fa fa-paw"></i> ' + meaning[0].description;
+    nameHtml += '<li><i class="fa fa-paw"></i> ' + meaning[0].description;
 
     if (meaning[1] != null) {
       nameHtml += ' <span class="language">(' + meaning[1] + ')</span>';
     }
 
-    nameHtml += '</p><p><a class="all-names-link" href="/meanings/' + meaning[0].id + '">Show all names with this meaning</a></p></li>';
+    nameHtml += ' - <a class="all-names-link" href="/meanings/' + meaning[0].id + '">Show all names with this meaning</a></li>';
   });
 
   nameHtml += '</ul></div>';

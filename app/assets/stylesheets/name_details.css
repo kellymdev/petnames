@@ -3,7 +3,15 @@
   color: #BB8F9B;
 }
 
+.name-details.female .name-field {
+  border-color: #BB8F9B;
+}
+
 .name-details.male i,
 .name-details.male .name-field {
   color: #5D7090;
+}
+
+.name-details.male .name-field {
+  border-color: #5D7090;
 }

@@ -39,6 +39,18 @@ class NamesController < ApplicationController
                   }
   end
 
+  def search
+    term = "%" + params[:query].downcase + "%"
+    name_results = Name.where('lower(name) LIKE ?', term).order(:name).as_json(
+      except: [:created_at, :updated_at],
+      include: { gender: {
+        only: :name
+        }
+      }
+    )
+    render json: name_results
+  end
+
   def random
     female_name = Name.where(gender_id: Gender.where(name: "Female")).sample
     male_name = Name.where(gender_id: Gender.where(name: "Male")).sample

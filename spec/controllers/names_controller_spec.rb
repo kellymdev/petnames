@@ -102,6 +102,30 @@ RSpec.describe NamesController, type: :controller do
     end
   end
 
+  describe "get 'names#search'" do
+    before do
+      @gender = create(:gender)
+      @name = create(:name, gender_id: @gender.id)
+      get :search, query: "Jes"
+    end
+
+    it "returns http status 200" do
+      expect(response.status).to eq(200)
+    end
+
+    it "returns all names that match the search term as json" do
+      expected_data = Name.where('lower(name) LIKE ?', "jes%").order(:name).as_json(
+        except: [:created_at, :updated_at],
+        include: {
+          gender: {
+            only: :name
+          }
+        }
+      )
+      expect(response.body).to eq(expected_data.to_json)
+    end
+  end
+
   describe "get 'names#random'" do
     before do
       @female = create(:gender, name: "Female")

@@ -14,3 +14,7 @@ NameController.prototype.nameDetailsRequest = function(url) {
 NameController.prototype.randomNameRequest = function() {
   this.nameModel.requestRandomName(this.nameView.displayRandomNames, this.nameView.displayNameError);
 };
+
+NameController.prototype.homeMenuRequest = function() {
+  this.nameView.setHomeMenu();
+};

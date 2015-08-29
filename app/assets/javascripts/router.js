@@ -2,7 +2,9 @@ $(document).ready(function() {
   var nameController = new NameController();
   var meaningController = new MeaningController();
 
-  $('nav a').on('click', function(e) {
+  nameController.homeMenuRequest();
+
+  $('nav a.alpha').on('click', function(e) {
     e.preventDefault();
     var url = $(this).attr('href');
     nameController.nameListRequest(url);

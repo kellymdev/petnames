@@ -1,6 +1,11 @@
 function NameView() {
 }
 
+NameView.prototype.setHomeMenu = function() {
+  $('nav a').removeClass('active');
+  $('nav a.home-paw').addClass('active');
+};
+
 NameView.prototype.displayNameList = function(data) {
   ViewHelper.prototype.clearPageContent();
 

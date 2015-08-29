@@ -12,8 +12,9 @@
   <body>
     <nav>
       <ul class="alpha-menu">
+        <li><a class="home-paw" href="/"><i class="fa fa-paw"></i></a></li>
         <% ('A'..'Z').to_a.each do |letter| %>
-          <li><a class="<%= letter %>" href="/names/alphabetical/<%= letter %>"> <%= letter %></a></li>
+          <li><a class="alpha <%= letter %>" href="/names/alphabetical/<%= letter %>"> <%= letter %></a></li>
         <% end %>
       </ul>
     </nav>

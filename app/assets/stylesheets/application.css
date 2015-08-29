@@ -76,3 +76,28 @@ nav {
 .alpha-menu a.active {
   color: #fff5ed;
 }
+
+
+/*------------- Form styles ---------------------*/
+
+form {
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  border: solid 1px #5d7090;
+  border-radius: 3px;
+  padding: 5px;
+  width: 100%;
+  max-width: 300px;
+}
+
+input[type="submit"] {
+  background-color: #bbc8dd;
+  color: #5d7090;
+  border: solid 1px #5d7090;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px #5d7090;
+  margin-left: 10px;
+  padding: 5px 8px;
+}

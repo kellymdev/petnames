@@ -33,3 +33,15 @@ NameModel.prototype.requestRandomName = function(successFunction, errorFunction)
     errorFunction();
   });
 };
+
+NameModel.prototype.requestNameSearch = function(searchTerm, successFunction, errorFunction) {
+  var requestUrl = '/names/search/' + searchTerm;
+  $.ajax({
+    type: 'get',
+    url: requestUrl
+  }).done(function(jsonResponse) {
+    successFunction(jsonResponse);
+  }).fail(function() {
+    errorFunction();
+  });
+};

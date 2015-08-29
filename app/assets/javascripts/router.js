@@ -16,6 +16,12 @@ $(document).ready(function() {
     nameController.nameDetailsRequest(url);
   });
 
+  $('#content').on('submit', '.search-form', function(e) {
+    e.preventDefault();
+    var searchTerm = $('#query').val();
+    nameController.nameSearchRequest(searchTerm);
+  });
+
   $('#content').on('click', '.all-names-link', function(e) {
     e.preventDefault();
     var url = $(this).attr('href');

@@ -83,15 +83,19 @@ NameView.prototype.displaySearchResults = function(data) {
                     '<h3>Search Results</h3>' +
                     '<ul class="name-list">';
 
-  data.forEach(function(name) {
-    if (name.gender_id != null) {
-      resultHtml += '<li class="' + name.gender.name.toLowerCase() + '">';
-    } else {
-      resultHtml += '<li>';
-    }
+  if (data.length === 0) {
+    resultHtml += '<p>Sorry, your search didn\'t return any results.</p>'
+  } else {
+    data.forEach(function(name) {
+      if (name.gender_id != null) {
+        resultHtml += '<li class="' + name.gender.name.toLowerCase() + '">';
+      } else {
+        resultHtml += '<li>';
+      }
 
-    resultHtml += '<i class="fa fa-paw"></i> <a href="/names/' + name.id + '">' + name.name + '</a></li>';
-  });
+      resultHtml += '<i class="fa fa-paw"></i> <a href="/names/' + name.id + '">' + name.name + '</a></li>';
+    });
+  }
 
   resultHtml += '</ul>';
 

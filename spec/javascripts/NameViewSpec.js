@@ -13,6 +13,27 @@ describe("NameView", function() {
     document.body.removeChild(mockPage);
   });
 
+  describe("setHomeMenu", function() {
+    beforeEach(function() {
+      var navHtml = '<nav>' +
+                      '<ul>' +
+                        '<li><a class="home-paw" href="/">Paw</a></li>' +
+                        '<li><a class="alpha A active" href="/">A</a></li>' +
+                      '</ul>' +
+                    '</nav>';
+      $('#content').append(navHtml);
+      view.setHomeMenu();
+    });
+
+    it("adds the class 'active' to the home-paw icon", function() {
+      expect($('nav a.home-paw')).toHaveClass('active');
+    });
+
+    it("removes the class 'active' from the other menu items", function() {
+      expect($('nav a.alpha')).not.toHaveClass('active');
+    });
+  });
+
   describe("displayNameList", function() {
     beforeEach(function() {
       var list = [{"id":1,"name":"Abigail","gender_id":2,"gender":{"name":"Female"}},{"id":3,"name":"Alabama","gender_id":2,"gender":{"name":"Female"}}];

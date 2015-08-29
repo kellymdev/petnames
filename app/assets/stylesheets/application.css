@@ -7,15 +7,15 @@
 /*------------- General styles ------------------*/
 
 body {
-  background-color: #FFF5ED;
-  color: #8B8D8B;
+  background-color: #fff5ed;
+  color: #8b8d8b;
   font-family: 'Dosis', sans-serif;
 }
 
 #content {
   max-width: 950px;
   margin: 0 auto;
-  border: 2px solid #5D7090;
+  border: 2px solid #5d7090;
   border-radius: 3px;
   padding: 20px;
 }
@@ -24,9 +24,15 @@ body {
 /*------------- Text styles ---------------------*/
 
 h3 {
-  border-bottom: 2px solid #5D7090;
+  border-bottom: 2px solid #5d7090;
   padding-bottom: 5px;
   margin-top: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: #babcba;
 }
 
 
@@ -50,7 +56,7 @@ nav {
 }
 
 .alpha-menu li .active {
-  background-color: #5D7090;
+  background-color: #5d7090;
   border-radius: 3px;
 }
 
@@ -64,9 +70,9 @@ nav {
 .alpha-menu a,
 .alpha-menu a:visited,
 .alpha-menu a:hover {
-  color: #8B8D8B;
+  color: #8b8d8b;
 }
 
 .alpha-menu a.active {
-  color: #FFF5ED;
+  color: #fff5ed;
 }

@@ -76,6 +76,28 @@ NameView.prototype.displayRandomNames = function(data) {
   $('#content').append(nameHtml);
 };
 
+NameView.prototype.displaySearchResults = function(data) {
+  ViewHelper.prototype.clearPageContent();
+
+  var resultHtml = '<div class="search-results">' +
+                    '<h3>Search Results</h3>' +
+                    '<ul class="name-list">';
+
+  data.forEach(function(name) {
+    if (name.gender_id != null) {
+      resultHtml += '<li class="' + name.gender.name.toLowerCase() + '">';
+    } else {
+      resultHtml += '<li>';
+    }
+
+    resultHtml += '<i class="fa fa-paw"></i> <a href="/names/' + name.id + '">' + name.name + '</a></li>';
+  });
+
+  resultHtml += '</ul>';
+
+  $('#content').append(resultHtml);
+};
+
 NameView.prototype.displayListError = function() {
   ViewHelper.prototype.clearPageContent();
 

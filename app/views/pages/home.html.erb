@@ -1,8 +1,14 @@
 <div id="content">
   <div class="name-search">
-
-
+    <h3>Search for a Name</h3>
+    <%= form_tag("/names/search", method: "get", class: "search-form") do %>
+      <%= text_field_tag :query %>
+      <%= submit_tag("Search") %>
+    <% end %>
   </div>
 
-  <div class="random-button"><a href="/">Display a Random Name</a></div>
+  <div class="random-button">
+    <h3>Display a Random Name</h3>
+    <p><a href="/">Click to display a Random Name</a></p>
+  </div>
 </div>

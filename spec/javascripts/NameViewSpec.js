@@ -108,6 +108,22 @@ describe("NameView", function() {
     });
   });
 
+  describe("displaySearchResults", function() {
+    beforeEach(function() {
+      var data = [{"id":760,"name":"Jess","gender_id":1,"gender":{"name":"Both"}},{"id":762,"name":"Jessi","gender_id":2,"gender":{"name":"Female"}}]
+      view.displaySearchResults(data);
+    });
+
+    it("appends a search-results div to the page", function() {
+      expect($('#content .search-results')).toBeInDOM();
+    });
+
+    it("displays the names returned by the search", function() {
+      expect($('.search-results')).toContainText("Jess");
+      expect($('.search-results')).toContainText("Jessi");
+    });
+  });
+
   describe("displayListError", function() {
     beforeEach(function() {
       view.displayListError();

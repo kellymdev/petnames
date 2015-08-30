@@ -1,3 +1,4 @@
+p.female,
 .name-details.female i,
 .name-details.female .name-field {
   color: #bb8f9b;
@@ -7,6 +8,7 @@
   border-color: #bb8f9b;
 }
 
+p.male,
 .name-details.male i,
 .name-details.male .name-field {
   color: #5d7090;

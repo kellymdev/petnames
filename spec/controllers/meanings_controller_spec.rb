@@ -41,4 +41,64 @@ RSpec.describe MeaningsController, type: :controller do
       expect(response.body).to eq(expected_data.to_json)
     end
   end
+
+  describe "get '#cat'" do
+    before do
+      @meaning = create(:meaning, means_cat: true)
+      @name = create(:name)
+      @female = create(:gender, name: "Female")
+      @name2 = create(:name, gender_id: @female.id)
+      @meaning.names.push(@name, @name2)
+
+      @meaning2 = create(:meaning, means_cat: true)
+      @name3 = create(:name)
+      @meaning2.names.push(@name3)
+
+      get :cat
+    end
+
+    it "returns http status 200" do
+      expect(response.status).to eq(200)
+    end
+
+    it "renders details for the names meaning cat" do
+      meanings = Meaning.where(means_cat: true).includes(:names)
+
+      names_array = []
+      meanings.each do |meaning|
+        names = meaning.names
+        names.each do |name|
+          arr = []
+
+          if name.gender_id != nil
+            arr.push(name.as_json(
+              except: [:created_at, :updated_at],
+              include: { gender: {
+                    only: :name
+                  }
+                }
+              )
+            )
+          else
+            arr.push(name.as_json(except: [:created_at, :updated_at]))
+          end
+
+          names_array.push(arr)
+        end
+      end
+
+      expected_data = {
+                        names_meaning_cat: names_array
+                      }
+
+      expect(response.body).to eq(expected_data.to_json)
+    end
+  end
+
+  after do
+    Language.destroy_all
+    Meaning.destroy_all
+    Gender.destroy_all
+    Name.destroy_all
+  end
 end

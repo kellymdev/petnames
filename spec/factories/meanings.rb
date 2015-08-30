@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :meaning do
-    description "Meaning 'wealthy'"
+    sequence(:description) { |n| "Meaning 'wealthy#{n}'" }
   end
 
 end

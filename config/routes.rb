@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   get '/names/random', to: 'names#random', as: :random_name
   get '/names/search/:query', to: 'names#search', as: :name_search
 
+  get '/meanings/cat', to: 'meanings#cat', as: :meaning_cat
+
   resources :names, only: :show
   resources :meanings, only: :show
 end

@@ -67,9 +67,10 @@ NameView.prototype.displayRandomNames = function(data) {
   ViewHelper.prototype.clearPageContent();
 
   var nameHtml = '<div class="random-names">' +
-                    '<p>Female: <a href="/names/' + data.female.id + '">' + data.female.name + '</a></p>' +
-                    '<p>Male: <a href="/names/' + data.male.id + '">' + data.male.name + '</a></p>' +
-                    '<p>Both: <a href="/names/' + data.both.id + '">' + data.both.name + '</a></p>' +
+                    '<h3>Random Names</h3>' +
+                    '<p class="female"><i class="fa fa-paw"></i> Female: <a href="/names/' + data.female.id + '">' + data.female.name + '</a></p>' +
+                    '<p class="male"><i class="fa fa-paw"></i> Male: <a href="/names/' + data.male.id + '">' + data.male.name + '</a></p>' +
+                    '<p class="both"><i class="fa fa-paw"></i> Both: <a href="/names/' + data.both.id + '">' + data.both.name + '</a></p>' +
                   '</div>' +
                   '<div class="random-button"><a href="/">Show more random names</a></div>';
 

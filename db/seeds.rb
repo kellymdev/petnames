@@ -231,7 +231,7 @@ names_to_create = ([
                       [ { name: "Archie", gender_id: male.id } ]
                     ],
                     [
-                      { description: "Meaning 'God's lioness'", language_id: hebrew.id },
+                      { description: "Meaning 'God's lioness'", language_id: hebrew.id, means_cat: true },
                       [ { name: "Ariel", gender_id: both.id } ]
                     ],
                     [
@@ -758,7 +758,7 @@ names_to_create = ([
                         { name: "Candice", gender_id: female.id } ]
                     ],
                     [
-                      { description: "Meaning 'wolf cub'", language_id: gaelic.id },
+                      { description: "Meaning 'wolf cub'", language_id: gaelic.id, means_dog: true },
                       [ { name: "Cannon", gender_id: male.id },
                         { name: "Canon", gender_id: male.id } ]
                     ],
@@ -902,7 +902,7 @@ names_to_create = ([
                       [ { name: "Checkers", gender_id: both.id } ]
                     ],
                     [
-                      { description: "Large African wildcat which can run at speeds of 110kph" },
+                      { description: "Large African wildcat which can run at speeds of 110kph", means_cat: true },
                       [ { name: "Cheetah" } ]
                     ],
                     [
@@ -1714,7 +1714,7 @@ names_to_create = ([
                         { name: "Gary", gender_id: both.id } ]
                     ],
                     [
-                      { description: "Meaning 'kitten'", language_id: spanish.id },
+                      { description: "Meaning 'kitten'", language_id: spanish.id, means_cat: true },
                       [ { name: "Gatito" } ]
                     ],
                     [
@@ -1787,7 +1787,7 @@ names_to_create = ([
                         { name: "Grayce", gender_id: female.id } ]
                     ],
                     [
-                      { description: "Meaning ‘cat’", language_id: archaic.id },
+                      { description: "Meaning ‘cat’", language_id: archaic.id, means_cat: true },
                       [ { name: "Graymalkin" },
                         { name: "Greymalkin" } ]
                     ],
@@ -2409,7 +2409,7 @@ names_to_create = ([
                       [ { name: "Kong", gender_id: male.id } ]
                     ],
                     [
-                      { description: "Meaning 'cat'", language_id: russian.id },
+                      { description: "Meaning 'cat'", language_id: russian.id, means_cat: true },
                       [ { name: "Koshka" } ]
                     ],
                     [
@@ -2488,7 +2488,7 @@ names_to_create = ([
                         { name: "Lenny", gender_id: male.id } ]
                     ],
                     [
-                      { description: "Meaning 'lion'", language_id: latin.id },
+                      { description: "Meaning 'lion'", language_id: latin.id, means_cat: true },
                       [ { name: "Leo", gender_id: male.id },
                         { name: "Leon", gender_id: both.id },
                         { name: "Leone", gender_id: both.id } ]
@@ -2632,7 +2632,7 @@ names_to_create = ([
                       [ { name: "Luna" } ]
                     ],
                     [
-                      { description: "Wild animal of the cat family", language_id: english.id },
+                      { description: "Wild animal of the cat family", language_id: english.id, means_cat: true },
                       [ { name: "Lynx", gender_id: both.id } ]
                     ],
                     [
@@ -3058,7 +3058,7 @@ names_to_create = ([
                         { name: "Natasha", gender_id: female.id } ]
                     ],
                     [
-                      { description: "Meaning 'cat'", language_id: japanese.id },
+                      { description: "Meaning 'cat'", language_id: japanese.id, means_cat: true },
                       [ { name: "Neko" } ]
                     ],
                     [
@@ -3139,7 +3139,7 @@ names_to_create = ([
                       [ { name: "Odin", gender_id: male.id } ]
                     ],
                     [
-                      { description: "Meaning 'dog'", language_id: choctaw.id },
+                      { description: "Meaning 'dog'", language_id: choctaw.id, means_dog: true },
                       [ { name: "Ofi" } ]
                     ],
                     [
@@ -3232,7 +3232,7 @@ names_to_create = ([
                         { name: "Paws", gender_id: both.id } ]
                     ],
                     [
-                      { description: "Short for Puddy Cat" },
+                      { description: "Short for Puddy Cat", means_cat: true },
                       [ { name: "PC", gender_id: both.id } ]
                     ],
                     [
@@ -3544,9 +3544,11 @@ names_to_create = ([
                         { name: "Roger" } ]
                     ],
                     [
-                      { description: "Meaning 'famed wolf'", language_id: ancient_german.id },
+                      { description: "Meaning 'famed wolf'", language_id: ancient_german.id, means_dog: true },
                       [ { name: "Rollo", gender_id: male.id },
-                        { name: "Rolo", gender_id: male.id } ]
+                        { name: "Rolo", gender_id: male.id },
+                        { name: "Rudolf", gender_id: both.id },
+                        { name: "Rudolph", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'pilgrim'" },
@@ -3608,14 +3610,9 @@ names_to_create = ([
                         { name: "Ruby", gender_id: female.id } ]
                     ],
                     [
-                      { description: "Nickname of Rudolf, meaning 'famed wolf'", language_id: ancient_german.id },
+                      { description: "Nickname of Rudolf, meaning 'famed wolf'", language_id: ancient_german.id, means_dog: true },
                       [ { name: "Rudi", gender_id: both.id },
                         { name: "Rudy", gender_id: both.id } ]
-                    ],
-                    [
-                      { description: "Meaning 'famed wolf'", language_id: ancient_german.id },
-                      [ { name: "Rudolf", gender_id: both.id },
-                        { name: "Rudolph", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'red-haired'", language_id: latin.id },
@@ -3676,7 +3673,7 @@ names_to_create = ([
                       [ { name: "Sandy", gender_id: both.id } ]
                     ],
                     [
-                      { description: "Meaning 'like a kitten'", language_id: swahili.id },
+                      { description: "Meaning 'like a kitten'", language_id: swahili.id, means_cat: true },
                       [ { name: "Sanura" } ]
                     ],
                     [
@@ -3845,7 +3842,7 @@ names_to_create = ([
                         { name: "Sylvia", gender_id: female.id } ]
                     ],
                     [
-                      { description: "Meaning 'lion'", language_id: swahili.id },
+                      { description: "Meaning 'lion'", language_id: swahili.id, means_cat: true },
                       [ { name: "Simba", gender_id: male.id },
                         { name: "Symba", gender_id: male.id } ]
                     ],
@@ -4154,7 +4151,7 @@ names_to_create = ([
                       [ { name: "Taylor", gender_id: both.id } ]
                     ],
                     [
-                      { description: "Initials for 'Top Cat'" },
+                      { description: "Initials for 'Top Cat'", means_cat: true },
                       [ { name: "TC" } ]
                     ],
                     [
@@ -4213,7 +4210,7 @@ names_to_create = ([
                       [ { name: "Tia", gender_id: female.id } ]
                     ],
                     [
-                      { description: "Large striped animal of the cat family", language_id: english.id },
+                      { description: "Large striped animal of the cat family", language_id: english.id, means_cat: true },
                       [ { name: "Tiger", gender_id: male.id },
                         { name: "Tyger", gender_id: male.id },
                         { name: "Tygrr", gender_id: male.id } ]
@@ -4225,7 +4222,7 @@ names_to_create = ([
                         { name: "Tiger Lily", gender_id: female.id } ]
                     ],
                     [
-                      { description: "Female tiger", language_id: english.id },
+                      { description: "Female tiger", language_id: english.id, means_cat: true },
                       [ { name: "Tigress", gender_id: female.id } ]
                     ],
                     [
@@ -4273,7 +4270,7 @@ names_to_create = ([
                         { name: "Toddy", gender_id: male.id } ]
                     ],
                     [
-                      { description: "Male cat", language_id: english.id },
+                      { description: "Male cat", language_id: english.id, means_cat: true },
                       [ { name: "Tom", gender_id: male.id } ]
                     ],
                     [
@@ -4603,7 +4600,7 @@ names_to_create = ([
                   ])
 
 names_to_create.each do |value|
-  descript = Meaning.create(description: value[0][:description], language_id: value[0][:language_id])
+  descript = Meaning.create(description: value[0][:description], language_id: value[0][:language_id], means_cat: value[0].fetch(:means_cat, false), means_dog: value[0].fetch(:means_dog, false))
 
   value[1].each do |details|
     descript.names.push(Name.create(name: details[:name], gender_id: details[:gender_id]))
@@ -4888,11 +4885,11 @@ names_to_link = ([
                     [ "Kaiser" ]
                   ],
                   [
-                    { description: "Alternative spelling for Cat" },
+                    { description: "Alternative spelling for Cat", means_cat: true },
                     [ "Kat" ]
                   ],
                   [
-                    { description: "Nickname for Kitty Cat" },
+                    { description: "Nickname for Kitty Cat", means_cat: true },
                     [ "KC" ]
                   ],
                   [
@@ -4904,7 +4901,7 @@ names_to_link = ([
                     [ "King" ]
                   ],
                   [
-                    { description: "Another name for cat", language_id: english.id },
+                    { description: "Another name for cat", language_id: english.id, means_cat: true },
                     [ "Kittie", "Kitty" ]
                   ],
                   [
@@ -5048,7 +5045,7 @@ names_to_link = ([
                     [ "Puff" ]
                   ],
                   [
-                    { description: "Female cat", language_id: english.id },
+                    { description: "Female cat", language_id: english.id, means_cat: true },
                     [ "Queen" ]
                   ],
                   [
@@ -5154,7 +5151,7 @@ names_to_link = ([
                 ])
 
 names_to_link.each do |value|
-  descript = Meaning.create(description: value[0][:description], language_id: value[0][:language_id])
+  descript = Meaning.create(description: value[0][:description], language_id: value[0][:language_id], means_cat: value[0].fetch(:means_cat, false), means_dog: value[0].fetch(:means_dog, false))
 
   value[1].each do |details|
     descript.names.push(Name.where(name: details))

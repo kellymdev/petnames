@@ -68,10 +68,8 @@ RSpec.describe MeaningsController, type: :controller do
       meanings.each do |meaning|
         names = meaning.names
         names.each do |name|
-          arr = []
-
           if name.gender_id != nil
-            arr.push(name.as_json(
+            names_array.push(name.as_json(
               except: [:created_at, :updated_at],
               include: { gender: {
                     only: :name
@@ -80,10 +78,8 @@ RSpec.describe MeaningsController, type: :controller do
               )
             )
           else
-            arr.push(name.as_json(except: [:created_at, :updated_at]))
+            names_array.push(name.as_json(except: [:created_at, :updated_at]))
           end
-
-          names_array.push(arr)
         end
       end
 

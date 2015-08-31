@@ -142,6 +142,56 @@ RSpec.describe MeaningsController, type: :controller do
     end
   end
 
+  describe "get '#bird'" do
+    before do
+      @meaning = create(:meaning, means_bird: true)
+      @name = create(:name)
+      @female = create(:gender, name: "Female")
+      @name2 = create(:name, gender_id: @female.id)
+      @meaning.names.push(@name, @name2)
+
+      @meaning2 = create(:meaning, means_bird: true)
+      @name3 = create(:name)
+      @meaning2.names.push(@name3)
+
+      get :bird
+    end
+
+    it "returns http status 200" do
+      expect(response.status).to eq(200)
+    end
+
+    it "renders details for the names meaning bird" do
+      meanings = Meaning.where(means_bird: true).includes(:names)
+
+      names_array = []
+      meanings.each do |meaning|
+        names = meaning.names
+        names.each do |name|
+          if name.gender_id != nil
+            names_array.push(name.as_json(
+              except: [:created_at, :updated_at],
+              include: { gender: {
+                    only: :name
+                  }
+                }
+              )
+            )
+          else
+            names_array.push(name.as_json(except: [:created_at, :updated_at]))
+          end
+        end
+      end
+
+      expected_data = {
+                        meaning: 'Bird',
+                        names: names_array
+                      }
+
+      expect(response.body).to eq(expected_data.to_json)
+    end
+  end
+
   after do
     Language.destroy_all
     Meaning.destroy_all

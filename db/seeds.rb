@@ -4597,7 +4597,7 @@ names_to_create = ([
                   ])
 
 names_to_create.each do |value|
-  descript = Meaning.create(description: value[0][:description], language_id: value[0][:language_id], means_cat: value[0].fetch(:means_cat, false), means_dog: value[0].fetch(:means_dog, false))
+  descript = Meaning.create(description: value[0][:description], language_id: value[0][:language_id], means_cat: value[0].fetch(:means_cat, false), means_dog: value[0].fetch(:means_dog, false), means_bird: value[0].fetch(:means_bird, false))
 
   value[1].each do |details|
     descript.names.push(Name.create(name: details[:name], gender_id: details[:gender_id]))
@@ -5148,7 +5148,7 @@ names_to_link = ([
                 ])
 
 names_to_link.each do |value|
-  descript = Meaning.create(description: value[0][:description], language_id: value[0][:language_id], means_cat: value[0].fetch(:means_cat, false), means_dog: value[0].fetch(:means_dog, false))
+  descript = Meaning.create(description: value[0][:description], language_id: value[0][:language_id], means_cat: value[0].fetch(:means_cat, false), means_dog: value[0].fetch(:means_dog, false), means_bird: value[0].fetch(:means_bird, false))
 
   value[1].each do |details|
     descript.names.push(Name.where(name: details))

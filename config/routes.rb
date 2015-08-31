@@ -8,6 +8,7 @@ Rails.application.routes.draw do
 
   get '/meanings/cat', to: 'meanings#cat', as: :meaning_cat
   get '/meanings/dog', to: 'meanings#dog', as: :meaning_dog
+  get '/meanings/bird', to: 'meanings#bird', as: :meaning_bird
 
   resources :names, only: :show
   resources :meanings, only: :show

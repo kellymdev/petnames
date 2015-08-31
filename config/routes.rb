@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get '/names/search/:query', to: 'names#search', as: :name_search
 
   get '/meanings/cat', to: 'meanings#cat', as: :meaning_cat
+  get '/meanings/dog', to: 'meanings#dog', as: :meaning_dog
 
   resources :names, only: :show
   resources :meanings, only: :show

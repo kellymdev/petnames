@@ -43,28 +43,50 @@ describe("MeaningView", function() {
   });
 
   describe("displayAnimalMeanings", function() {
-    beforeEach(function() {
-      data = {"meaning":"Cat","names":[{"id":57,"name":"Ariel","gender_id":1,"gender":{"name":"Both"}},{"id":1144,"name":"Neko","gender_id":null},{"id":1427,"name":"Simba","gender_id":3,"gender":{"name":"Male"}}]};
-      view.displayAnimalMeanings(data);
+    describe("names meaning 'cat'", function() {
+      beforeEach(function() {
+        data = {"meaning":"Cat","names":[{"id":57,"name":"Ariel","gender_id":1,"gender":{"name":"Both"}},{"id":1144,"name":"Neko","gender_id":null},{"id":1427,"name":"Simba","gender_id":3,"gender":{"name":"Male"}}]};
+        view.displayAnimalMeanings(data);
+      });
+
+      it("appends a meaning-details div to the page", function() {
+        expect($('#content .meaning-details')).toBeInDOM();
+      });
+
+      it("displays the animal that the meanings are for", function() {
+        expect($('.meaning-details')).toContainText('Cat');
+      });
+
+      it("displays each name with that meaning", function() {
+        expect($('.meaning-details')).toContainText('Ariel');
+        expect($('.meaning-details')).toContainText('Neko');
+        expect($('.meaning-details')).toContainText('Simba');
+      });
+
+      it("displays the gender for each name", function() {
+        expect($('.meaning-details')).toContainText('Both');
+        expect($('.meaning-details')).toContainText('Male');
+      });
     });
 
-    it("appends a meaning-details div to the page", function() {
-      expect($('#content .meaning-details')).toBeInDOM();
-    });
+    describe("names meaning 'dog'", function() {
+      beforeEach(function() {
+        data = {"meaning":"Dog","names":[{"id":1171,"name":"Ofi","gender_id":null},{"id":1309,"name":"Rudolph","gender_id":1,"gender":{"name":"Both"}}]};
+        view.displayAnimalMeanings(data);
+      });
 
-    it("displays the animal that the meanings are for", function() {
-      expect($('.meaning-details')).toContainText('Cat');
-    });
+      it("displays the animal that the meanings are for", function() {
+        expect($('.meaning-details')).toContainText('Dog');
+      });
 
-    it("displays each name with that meaning", function() {
-      expect($('.meaning-details')).toContainText('Ariel');
-      expect($('.meaning-details')).toContainText('Neko');
-      expect($('.meaning-details')).toContainText('Simba');
-    });
+      it("displays each name with that meaning", function(){
+        expect($('.meaning-details')).toContainText('Ofi');
+        expect($('.meaning-details')).toContainText('Rudolph');
+      });
 
-    it("displays the gender for each name", function() {
-      expect($('.meaning-details')).toContainText('Both');
-      expect($('.meaning-details')).toContainText('Male');
+      it("displays the gender for each name", function() {
+        expect($('.meaning-details')).toContainText('Both');
+      });
     });
   });
 

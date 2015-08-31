@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150830074116) do
+ActiveRecord::Schema.define(version: 20150831221626) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -36,6 +36,7 @@ ActiveRecord::Schema.define(version: 20150830074116) do
     t.integer  "language_id"
     t.boolean  "means_cat",   default: false, null: false
     t.boolean  "means_dog",   default: false, null: false
+    t.boolean  "means_bird",  default: false, null: false
   end
 
   create_table "meanings_names", force: :cascade do |t|

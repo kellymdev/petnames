@@ -103,7 +103,7 @@ names_to_create = ([
                         { name: "Aydan", gender_id: both.id } ]
                     ],
                     [
-                      { description: "Meaning 'eagle'" },
+                      { description: "Meaning 'eagle'", means_bird: true },
                       [ { name: "Ajax", gender_id: male.id } ]
                     ],
                     [
@@ -235,7 +235,7 @@ names_to_create = ([
                       [ { name: "Ariel", gender_id: both.id } ]
                     ],
                     [
-                      { description: "Meaning 'powerful eagle'", language_id: ancient_german.id },
+                      { description: "Meaning 'powerful eagle'", language_id: ancient_german.id, means_bird: true },
                       [ { name: "Arnold", gender_id: male.id } ]
                     ],
                     [
@@ -366,7 +366,7 @@ names_to_create = ([
                         { name: "Barney", gender_id: male.id } ]
                     ],
                     [
-                      { description: "Nickname of Bartholomew (meaning 'son of Talmai'), Barton (meaning 'barley settlement') and Bertram (meaning 'bright raven')" },
+                      { description: "Nickname of Bartholomew (meaning 'son of Talmai'), Barton (meaning 'barley settlement') and Bertram (meaning 'bright raven')", means_bird: true },
                       [ { name: "Bart", gender_id: male.id } ]
                     ],
                     [
@@ -1109,7 +1109,7 @@ names_to_create = ([
                       [ { name: "Copper", gender_id: both.id } ]
                     ],
                     [
-                      { description: "Meaning 'maiden' or 'hummingbird'", language_id: greek.id },
+                      { description: "Meaning 'maiden' or 'hummingbird'", language_id: greek.id, means_bird: true },
                       [ { name: "Cora", gender_id: female.id } ]
                     ],
                     [
@@ -1695,7 +1695,7 @@ names_to_create = ([
                       [ { name: "Galileo", gender_id: male.id } ]
                     ],
                     [
-                      { description: "Type of bird" },
+                      { description: "Type of bird", means_bird: true },
                       [ { name: "Gannet", gender_id: both.id } ]
                     ],
                     [
@@ -2122,9 +2122,10 @@ names_to_create = ([
                         { name: "Jeany", gender_id: female.id } ]
                     ],
                     [
-                      { description: "Meaning 'dove'", language_id: hebrew.id },
+                      { description: "Meaning 'dove'", language_id: hebrew.id, means_bird: true },
                       [ { name: "Jemima", gender_id: female.id },
-                        { name: "Jemimah", gender_id: female.id } ]
+                        { name: "Jemimah", gender_id: female.id },
+                        { name: "Jonah", gender_id: male.id } ]
                     ],
                     [
                       { description: "Nickname of Jennifer, meaning 'pure and yielding, white wave'", language_id: welsh.id },
@@ -2215,10 +2216,6 @@ names_to_create = ([
                         { name: "Jonny", gender_id: both.id } ]
                     ],
                     [
-                      { description: "Meaning 'dove'" },
-                      [ { name: "Jonah" } ]
-                    ],
-                    [
                       { description: "Meaning 'addition'", language_id: spanish.id },
                       [ { name: "Jose", gender_id: male.id } ]
                     ],
@@ -2259,7 +2256,7 @@ names_to_create = ([
                       [ { name: "Kane" } ]
                     ],
                     [
-                      { description: "Meaning 'crow'", language_id: siouan.id },
+                      { description: "Meaning 'crow'", language_id: siouan.id, means_bird: true },
                       [ { name: "Kangi", gender_id: male.id } ]
                     ],
                     [
@@ -2384,7 +2381,7 @@ names_to_create = ([
                       [ { name: "Kismet" } ]
                     ],
                     [
-                      { description: "Brown coloured flightless New Zealand bird" },
+                      { description: "Brown coloured flightless New Zealand bird", means_bird: true },
                       [ { name: "Kiwi", gender_id: both.id } ]
                     ],
                     [
@@ -2563,7 +2560,7 @@ names_to_create = ([
                       [ { name: "Lion", gender_id: male.id } ]
                     ],
                     [
-                      { description: "Meaning 'lion-like'" },
+                      { description: "Meaning 'lion-like'", means_cat: true },
                       [ { name: "Lionel" } ]
                     ],
                     [
@@ -3518,7 +3515,7 @@ names_to_create = ([
                         { name: "Robert", gender_id: both.id } ]
                     ],
                     [
-                      { description: "Brown red breasted bird", language_id: english.id },
+                      { description: "Brown red breasted bird", language_id: english.id, means_bird: true },
                       [ { name: "Robin", gender_id: both.id } ]
                     ],
                     [
@@ -4865,7 +4862,7 @@ names_to_link = ([
                     [ "Jasper" ]
                   ],
                   [
-                    { description: "Blue crested bird" },
+                    { description: "Blue crested bird", means_bird: true },
                     [ "Jay" ]
                   ],
                   [
@@ -4961,7 +4958,7 @@ names_to_link = ([
                     [ "Mercury" ]
                   ],
                   [
-                    { description: "A type of Falcon" },
+                    { description: "A type of Falcon", means_bird: true },
                     [ "Merlin" ]
                   ],
                   [
@@ -5025,7 +5022,7 @@ names_to_link = ([
                     [ "Penny" ]
                   ],
                   [
-                    { description: "Mythological bird that is reborn from its own ashes" },
+                    { description: "Mythological bird that is reborn from its own ashes", means_bird: true },
                     [ "Phoenix" ]
                   ],
                   [

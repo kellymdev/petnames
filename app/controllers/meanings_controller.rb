@@ -32,10 +32,8 @@ class MeaningsController < ApplicationController
     meanings.each do |meaning|
       names = meaning.names
       names.each do |name|
-        arr = []
-
         if name.gender_id != nil
-          arr.push(name.as_json(
+          names_array.push(name.as_json(
             except: [:created_at, :updated_at],
             include: { gender: {
                   only: :name
@@ -44,12 +42,11 @@ class MeaningsController < ApplicationController
             )
           )
         else
-          arr.push(name.as_json(except: [:created_at, :updated_at]))
+          names_array.push(name.as_json(except: [:created_at, :updated_at]))
         end
-
-        names_array.push(arr)
       end
     end
+    names_array.sort! { | a, b | a["name"] <=> b["name"] }
 
     render json:  {
                     names_meaning_cat: names_array

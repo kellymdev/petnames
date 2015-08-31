@@ -7,8 +7,13 @@
     <% end %>
   </div>
 
+  <div class="animal-meanings">
+    <h3>Is it a Cat, Dog?</h3>
+    <p><%= link_to "Names meaning 'Cat'", meaning_cat_path %></p>
+  </div>
+
   <div class="random-button">
     <h3>Display a Random Name</h3>
-    <p><a href="/">Click to display a Random Name</a></p>
+    <p><%= link_to "Click to display a Random Name", random_name_path %></p>
   </div>
 </div>

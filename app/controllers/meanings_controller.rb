@@ -54,4 +54,33 @@ class MeaningsController < ApplicationController
                   }
   end
 
+  def dog
+    meanings = Meaning.where(means_dog: true).includes(:names)
+
+    names_array = []
+    meanings.each do |meaning|
+      names = meaning.names
+      names.each do |name|
+        if name.gender_id != nil
+          names_array.push(name.as_json(
+            except: [:created_at, :updated_at],
+            include: { gender: {
+                  only: :name
+                }
+              }
+            )
+          )
+        else
+          names_array.push(name.as_json(except: [:created_at, :updated_at]))
+        end
+      end
+    end
+    names_array.sort! { |a, b| a["name"] <=> b["name"] }
+
+    render json:  {
+                    meaning: 'Dog',
+                    names: names_array
+                  }
+  end
+
 end

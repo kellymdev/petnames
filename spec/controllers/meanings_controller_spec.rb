@@ -84,7 +84,8 @@ RSpec.describe MeaningsController, type: :controller do
       end
 
       expected_data = {
-                        names_meaning_cat: names_array
+                        meaning: 'Cat',
+                        names: names_array
                       }
 
       expect(response.body).to eq(expected_data.to_json)

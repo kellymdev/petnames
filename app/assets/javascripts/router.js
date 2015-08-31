@@ -34,6 +34,12 @@ $(document).ready(function() {
     nameController.nameDetailsRequest(url);
   });
 
+  $('#content').on('click', '.animal-meanings a', function(e) {
+    e.preventDefault();
+    var url = $(this).attr('href');
+    meaningController.animalMeaningsRequest(url);
+  });
+
   $('#content').on('click', '.random-button', function(e) {
     e.preventDefault();
     var url = $(this).attr('href');

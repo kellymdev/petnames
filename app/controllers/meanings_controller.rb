@@ -49,7 +49,8 @@ class MeaningsController < ApplicationController
     names_array.sort! { | a, b | a["name"] <=> b["name"] }
 
     render json:  {
-                    names_meaning_cat: names_array
+                    meaning: 'Cat',
+                    names: names_array
                   }
   end
 

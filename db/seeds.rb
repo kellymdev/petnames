@@ -248,6 +248,10 @@ names_to_create = ([
                         { name: "Arwyn", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'soot-coloured'", language_id: greek.id },
+                      [ { name: "Asbolos" } ]
+                    ],
+                    [
                       { description: "Black powder remaining after a fire" },
                       [ { name: "Ash", gender_id: both.id },
                         { name: "Ashes", gender_id: both.id } ]
@@ -504,6 +508,10 @@ names_to_create = ([
                         { name: "Widget", gender_id: both.id } ]
                     ],
                     [
+                      { description: "After the edible black coloured berry", language_id: english.id },
+                      [ { name: "Blackberry", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'black'" },
                       [ { name: "Blackie", gender_id: both.id },
                         { name: "Blacky", gender_id: both.id } ]
@@ -651,12 +659,20 @@ names_to_create = ([
                         { name: "Brody", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'son of the dark haired one'" },
+                      [ { name: "Bronsyn", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Combination of the names Brooke (meaning 'small stream') and Lynn (meaning 'ruddy complexion')" },
                       [ { name: "Brooklyn", gender_id: both.id } ]
                     ],
                     [
                       { description: "From a Norman French expression whose meaning has been lost" },
                       [ { name: "Bruce", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'burnt'", language_id: french.id },
+                      [ { name: "Brulee", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'brown-haired'", language_id: ancient_german.id },
@@ -778,6 +794,10 @@ names_to_create = ([
                     [
                       { description: "Brown syrup made from heated sugar", language_id: english.id },
                       [ { name: "Caramel" } ]
+                    ],
+                    [
+                      { description: "Non-metallic element occurring as diamond, graphite or carbon" },
+                      [ { name: "Carbon", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'freeholder'", language_id: ancient_german.id },
@@ -989,6 +1009,11 @@ names_to_create = ([
                       { description: "Meaning 'ashes'", language_id: french.id },
                       [ { name: "Cinder" },
                         { name: "Cinders" } ]
+                    ],
+                    [
+                      { description: "Meaning 'little ash girl'", language_id: french.id },
+                      [ { name: "Cinderella", gender_id: female.id },
+                        { name: "Cinderelle", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'from Mount Kynthos'", language_id: greek.id },
@@ -1206,7 +1231,8 @@ names_to_create = ([
                       { description: "Meaning 'judge'", language_id: hebrew.id },
                       [ { name: "Dan", gender_id: both.id },
                         { name: "Dana", gender_id: both.id },
-                        { name: "Danna", gender_id: both.id } ]
+                        { name: "Danna", gender_id: both.id },
+                        { name: "Dayna", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'enduring'", language_id: italian.id },
@@ -1351,6 +1377,11 @@ names_to_create = ([
                       [ { name: "Donna", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'little dark-haired one'", language_id: irish_gaelic.id },
+                      [ { name: "Donovan", gender_id: male.id },
+                        { name: "Donoven", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Small round mark" },
                       [ { name: "Dot", gender_id: both.id },
                         { name: "Dots", gender_id: both.id } ]
@@ -1372,6 +1403,15 @@ names_to_create = ([
                       [ { name: "Drew", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'shadowy'", language_id: irish_gaelic.id },
+                      [ { name: "Duane", gender_id: male.id },
+                        { name: "Dwayne", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'little dark girl'", language_id: gaelic.id },
+                      [ { name: "Duanna", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Woman with the rank of duke" },
                       [ { name: "Duchess", gender_id: female.id } ]
                     ],
@@ -1384,8 +1424,17 @@ names_to_create = ([
                       [ { name: "Dudley", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'dark-complexioned'", language_id: irish_gaelic.id },
+                      [ { name: "Duffy", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'leader'", language_id: latin.id },
                       [ { name: "Duke", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'dark rock'", language_id: old_english.id },
+                      [ { name: "Dunstan", gender_id: male.id },
+                        { name: "Dunston", gender_id: male.id } ]
                     ],
                     [
                       { description: "Nickname for Dustin, meaning 'Thor's stone'", language_id: old_norse.id },
@@ -1404,12 +1453,20 @@ names_to_create = ([
                       [ { name: "Ebenezer", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'ebony'" },
+                      [ { name: "Ebonaire", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Hard black wood from a tropical tree" },
                       [ { name: "Ebony", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'reflected sound'", language_id: greek.id },
                       [ { name: "Echo", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Blocking of light from one body by another", language_id: english.id },
+                      [ { name: "Eclipse", gender_id: both.id } ]
                     ],
                     [
                       { description: "Nickname of Edgar, meaning 'wealthy spear'", language_id: ancient_german.id },
@@ -1817,6 +1874,10 @@ names_to_create = ([
                     [
                       { description: "Meaning 'traveller'" },
                       [ { name: "Gypsy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'dark one'" },
+                      [ { name: "Hadrian" } ]
                     ],
                     [
                       { description: "Meaning 'exalted nature'", language_id: german.id },
@@ -2252,6 +2313,10 @@ names_to_create = ([
                       [ { name: "Kaiser", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'black'", gender_id: hindi.id },
+                      [ { name: "Kala" } ]
+                    ],
+                    [
                       { description: "Meaning 'exacting'" },
                       [ { name: "Kane" } ]
                     ],
@@ -2322,6 +2387,13 @@ names_to_create = ([
                         { name: "Kelly", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'black-haired'", language_id: irish_gaelic.id },
+                      [ { name: "Keri", gender_id: both.id },
+                        { name: "Kerri", gender_id: both.id },
+                        { name: "Kerrie", gender_id: both.id },
+                        { name: "Kerry", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Tomato sauce for hotdogs, fries or burgers", language_id: american.id },
                       [ { name: "Ketchup", gender_id: both.id } ]
                     ],
@@ -2334,6 +2406,10 @@ names_to_create = ([
                     [
                       { description: "Nickname of Kiana, from Anna, meaning 'favoured grace'" },
                       [ { name: "Kia", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'black'", language_id: celtic.id },
+                      [ { name: "Kieran" } ]
                     ],
                     [
                       { description: "The source of this name is unknown" },
@@ -2797,6 +2873,12 @@ names_to_create = ([
                         { name: "Matty", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'dark complexioned'", language_id: latin.id },
+                      [ { name: "Maurice", gender_id: both.id },
+                        { name: "Maurise", gender_id: both.id },
+                        { name: "Morris", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Undisciplined person" },
                       [ { name: "Maverick", gender_id: both.id } ]
                     ],
@@ -2826,6 +2908,11 @@ names_to_create = ([
                       [ { name: "Meg", gender_id: female.id },
                         { name: "Megan", gender_id: female.id },
                         { name: "Meggie", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'black'", language_id: greek.id },
+                      [ { name: "Melanie" },
+                        { name: "Melinee" } ]
                     ],
                     [
                       { description: "Meaning 'soft and rich'", language_id: english.id },
@@ -2866,6 +2953,11 @@ names_to_create = ([
                     [
                       { description: "Extremely small thing", language_id: english.id },
                       [ { name: "Midget", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Twelve O'clock at night", language_id: english.id },
+                      [ { name: "Midnight", gender_id: both.id },
+                        { name: "Midnite", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'soldier'", language_id: latin.id },
@@ -2991,14 +3083,15 @@ names_to_create = ([
                       [ { name: "Moose", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'dark'", language_id: latin.id },
+                      [ { name: "Moreno", gender_id: male.id },
+                        { name: "Moritz", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'circling sea'", language_id: welsh.id },
                       [ { name: "Morgan", gender_id: both.id },
                         { name: "Morgaine", gender_id: both.id },
                         { name: "Morgen", gender_id: both.id } ]
-                    ],
-                    [
-                      { description: "Meaning 'dark complexioned'", language_id: latin.id },
-                      [ { name: "Morris", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'pulled out'", language_id: hebrew.id },
@@ -3076,6 +3169,10 @@ names_to_create = ([
                       [ { name: "Nemo" } ]
                     ],
                     [
+                      { description: "Meaning 'black'", language_id: italian.id },
+                      [ { name: "Nero", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'lustrous'", language_id: gaelic.id },
                       [ { name: "Nia", gender_id: female.id } ]
                     ],
@@ -3112,6 +3209,11 @@ names_to_create = ([
                       [ { name: "Noah", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'black'", language_id: french.id },
+                      [ { name: "Noir", gender_id: male.id },
+                        { name: "Noire", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'the standard or model'", language_id: latin.id },
                       [ { name: "Norma", gender_id: female.id } ]
                     ],
@@ -3130,6 +3232,10 @@ names_to_create = ([
                     [
                       { description: "Meaning 'oak-tree clearing'", language_id: old_english.id },
                       [ { name: "Oakley", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "A dark hard glassy volcanic rock", language_id: english.id },
+                      [ { name: "Obsidian" } ]
                     ],
                     [
                       { description: "In Norse mythology, the supreme deity, god of art, culture, war and the dead" },
@@ -3165,6 +3271,10 @@ names_to_create = ([
                     [
                       { description: "Meaning 'fawn'", language_id: hebrew.id },
                       [ { name: "Oprah", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Bird with black and yellow plumage", means_bird: true },
+                      [ { name: "Oriole" } ]
                     ],
                     [
                       { description: "Meaning 'spear of the gods'", language_id: old_english.id },
@@ -3204,6 +3314,10 @@ names_to_create = ([
                     [
                       { description: "Bear-like black and white animal native to China" },
                       [ { name: "Panda", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Black leopard", means_cat: true },
+                      [ { name: "Panther" } ]
                     ],
                     [
                       { description: "A mild red condiment ground from capsicum" },
@@ -3624,6 +3738,10 @@ names_to_create = ([
                       [ { name: "Rusty", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Black colour" },
+                      [ { name: "Sable", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'goddess'" },
                       [ { name: "Sabrina", gender_id: female.id } ]
                     ],
@@ -3881,7 +3999,9 @@ names_to_create = ([
                     ],
                     [
                       { description: "Dirty or blurred mark", language_id: english.id },
-                      [ { name: "Smudge", gender_id: both.id } ]
+                      [ { name: "Smudge", gender_id: both.id },
+                        { name: "Smudgie", gender_id: both.id },
+                        { name: "Smudgy", gender_id: both.id } ]
                     ],
                     [
                       { description: "Layer of white snowflakes", language_id: english.id },
@@ -4334,6 +4454,10 @@ names_to_create = ([
                       [ { name: "Tuscany" } ]
                     ],
                     [
+                      { description: "Dinner jacket", language_id: english.id },
+                      [ { name: "Tuxedo", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'glitter', 'sparkly'", language_id: english.id },
                       [ { name: "Twink", gender_id: both.id },
                         { name: "Twinks", gender_id: both.id },
@@ -4491,8 +4615,8 @@ names_to_create = ([
                       [ { name: "Winter", gender_id: both.id } ]
                     ],
                     [
-                      { description: "Small streak of smoke" },
-                      [ { name: "Wisp" } ]
+                      { description: "Small streak of smoke", language_id: english.id },
+                      [ { name: "Wisp", gender_id: both.id } ]
                     ],
                     [
                       { description: "Magician", language_id: english.id },
@@ -4558,6 +4682,14 @@ names_to_create = ([
                       [ { name: "Zafiro" } ]
                     ],
                     [
+                      { description: "The smoke tree" },
+                      [ { name: "Zante" } ]
+                    ],
+                    [
+                      { description: "Black and white striped animal", language_id: english.id },
+                      [ { name: "Zebra", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'God strengthens'", language_id: hebrew.id },
                       [ { name: "Zeke", gender_id: male.id } ]
                     ],
@@ -4600,6 +4732,7 @@ names_to_create.each do |value|
   descript = Meaning.create(description: value[0][:description], language_id: value[0][:language_id], means_cat: value[0].fetch(:means_cat, false), means_dog: value[0].fetch(:means_dog, false), means_bird: value[0].fetch(:means_bird, false))
 
   value[1].each do |details|
+    puts details[:name]
     descript.names.push(Name.create(name: details[:name], gender_id: details[:gender_id]))
   end
 end
@@ -4731,7 +4864,7 @@ names_to_link = ([
                   ],
                   [
                     { description: "Meaning 'black pearl'", language_id: arabic.id },
-                    [ "Dana", "Danna" ]
+                    [ "Dana", "Danna", "Dayna" ]
                   ],
                   [
                     { description: "A Germanic expression identifying the bearer as a native of Denmark (a Dane)" },
@@ -4966,6 +5099,10 @@ names_to_link = ([
                     [ "Mia" ]
                   ],
                   [
+                    { description: "Meaning 'black'" },
+                    [ "Midnight", "Midnite" ]
+                  ],
+                  [
                     { description: "Meaning 'determined'" },
                     [ "Mimi" ]
                   ],
@@ -4988,6 +5125,10 @@ names_to_link = ([
                   [
                     { description: "Small green plant that grows in velvety clusters on rocks, trees and moist ground", language_id: english.id },
                     [ "Moss" ]
+                  ],
+                  [
+                    { description: "Meaning 'valiant man'", language_id: latin.id },
+                    [ "Nero" ]
                   ],
                   [
                     { description: "Five cent coin" },
@@ -5118,6 +5259,10 @@ names_to_link = ([
                     [ "Tucker" ]
                   ],
                   [
+                    { description: "A black and white cat", language_id: english.id },
+                    [ "Tuxedo" ]
+                  ],
+                  [
                     { description: "Alternate form of Vanessa, Meaning 'to be'", language_id: latin.id },
                     [ "Vanna" ]
                   ],
@@ -5203,5 +5348,31 @@ meanings_to_link.each do |value|
 
   value[1].each do |details|
     descript.names.push(Name.where(name: details))
+  end
+end
+
+# Coat Colours
+# blue = CoatColour.create(name: "Blue", description: "Blue, Grey and Silver")
+# brown = CoatColour.create(name: "Brown", description: "Brown or Chocolate")
+# cream = CoatColour.create(name: "Cream", description: "Cream or Golden")
+# lilac = CoatColour.create(name: "Lilac", description: "Lilac")
+# red = CoatColour.create(name: "Red", description: "Red, Ruby, Apricot or Ginger")
+# white = CoatColour.create(name: "White", description: "White")
+# spotted = CoatColour.create(name: "Spotted", description: "Spotted or Patched")
+# tabby = CoatColour.create(name: "Tabby", description: "Tabby or Striped")
+# tortoiseshell = CoatColour.create(name: "Tortoiseshell", description: "Tortoiseshell, Calico or Tricolour")
+
+colours_to_link = ([
+                    [
+                      { name: "Black", description: "Black" },
+                      [ "Asbolos", "Ash", "Ashes", "Ashlee", "Ashleigh", "Ashley", "Blackberry", "Blackie", "Blacky", "Blackjack", "Blake", "Bronsyn", "Brulee", "Carbon", "Ciara", "Cinder", "Cinderella", "Cinderelle", "Cinders", "Cindy", "Coal", "Colby", "Cole", "Dana", "Danna", "Dayna", "Darcy", "Darcey", "Dee", "Donovan", "Donoven", "Dougal", "Douglas", "Duane", "Dwayne", "Duanna", "Duffy", "Dunstan", "Dunston", "Ebonaire", "Ebony", "Eclipse", "Hadrian", "Inky", "Jet", "Jett", "Kala", "Keri", "Kerri", "Kerrie", "Kerry", "Kiara", "Kieran", "Laila", "Layla", "Leila", "Leilah", "Lela", "Lelah", "Leyla", "Lila", "Lilah", "Lilla", "Lyla", "Maurice", "Maurise", "Melanie", "Melinee", "Midnight", "Midnite", "Moe", "Moreno", "Moritz", "Morris", "Nero", "Nigel", "Noir", "Noire", "Obsidian", "Oriole", "Panda", "Panther", "Raven", "Sable", "Shade", "Shado", "Shadoe", "Shadow", "Smoke", "Smokee", "Smokey", "Smokie", "Smoky", "Smudge", "Smudgie", "Smudgy", "Sootie", "Sooty", "Tuxedo", "Wisp", "Zante", "Zebra", "Zelda" ]
+                    ]
+                  ])
+
+colours_to_link.each do |details|
+  colour = CoatColour.create(name: details[0][:name], description: details[0][:description])
+
+  details[1].each do |name|
+    colour.names.push(Name.where(name: name))
   end
 end

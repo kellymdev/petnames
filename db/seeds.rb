@@ -83,6 +83,10 @@ names_to_create = ([
                       [ { name: "Achilles", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Oval nut of the oak tree", language_id: english.id },
+                       [ { name: "Acorn", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Nickname of Adelaide, meaning 'exalted nature'", language_id: ancient_german.id },
                       [ { name: "Addie", gender_id: both.id },
                         { name: "Addy", gender_id: female.id } ]
@@ -869,6 +873,10 @@ names_to_create = ([
                       [ { name: "Cassius", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'chestnut'", language_id: spanish.id },
+                      [ { name: "Castana" } ]
+                    ],
+                    [
                       { description: "Pickled roe of a sturgeon or other large fish" },
                       [ { name: "Caviar" } ]
                     ],
@@ -1091,12 +1099,12 @@ names_to_create = ([
                       [ { name: "Cody", gender_id: both.id } ]
                     ],
                     [
-                      { description: "Bean-like seeds of a tropical plant which are ground to make a drink" },
+                      { description: "Bean-like seeds of a tropical plant which are ground to make a drink", language_id: english.id },
                       [ { name: "Coffee", gender_id: both.id } ]
                     ],
                     [
-                      { description: "Brown carbonated drink" },
-                      [ { name: "Cola" } ]
+                      { description: "Brown carbonated drink", language_id: english.id },
+                      [ { name: "Cola", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'coal village'", language_id: ancient_german.id },
@@ -1430,6 +1438,10 @@ names_to_create = ([
                     [
                       { description: "Meaning 'leader'", language_id: latin.id },
                       [ { name: "Duke", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'brown soldier'", language_id: gaelic.id },
+                      [ { name: "Duncan", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'dark rock'", language_id: old_english.id },
@@ -2789,6 +2801,10 @@ names_to_create = ([
                       [ { name: "Manu", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Brown syrup produced from maple trees", language_id: english.id },
+                      [ { name: "Maple", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'bitter'", language_id: hebrew.id },
                       [ { name: "Mara", gender_id: female.id } ]
                     ],
@@ -3053,11 +3069,16 @@ names_to_create = ([
                     [
                       { description: "Chocolate flavoured coffee" },
                       [ { name: "Mocca", gender_id: both.id },
-                        { name: "Mocha", gender_id: both.id } ]
+                        { name: "Mocha", gender_id: both.id },
+                        { name: "Mochachino", gender_id: both.id } ]
                     ],
                     [
                       { description: "A food fish of New Zealand" },
                       [ { name: "Moki", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Dark brown syrup from raw sugar", language_id: english.id },
+                      [ { name: "Molasses", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'bitter' or 'wished for child'", language_id: hebrew.id },
@@ -3127,6 +3148,10 @@ names_to_create = ([
                     [
                       { description: "Meaning 'lord and master'", language_id: gaelic.id },
                       [ { name: "Murray", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Edible fungus with a stem and a domed cap", language_id: english.id },
+                      [ { name: "Mushroom", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'emerald'", language_id: burmese.id },
@@ -3234,6 +3259,10 @@ names_to_create = ([
                       [ { name: "Oakley", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'royal bear'", language_id: ancient_german.id },
+                      [ { name: "Oberon", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "A dark hard glassy volcanic rock", language_id: english.id },
                       [ { name: "Obsidian" } ]
                     ],
@@ -3322,6 +3351,10 @@ names_to_create = ([
                     [
                       { description: "A mild red condiment ground from capsicum" },
                       [ { name: "Paprika", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'brown'", language_id: spanish.id },
+                      [ { name: "Pardo" } ]
                     ],
                     [
                       { description: "Meaning 'princely'" },
@@ -3490,6 +3523,15 @@ names_to_create = ([
                     [
                       { description: "Meaning 'mischievous sprite'", language_id: old_norse.id },
                       [ { name: "Puck", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Short name for pudding", language_id: english.id },
+                      [ { name: "Pud", gender_id: both.id },
+                        { name: "Pudd", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Sweet course of a meal, dessert", language_id: english.id },
+                      [ { name: "Pudding", gender_id: both.id } ]
                     ],
                     [
                       { description: "Short sudden gust of wind", language_id: english.id },
@@ -3833,6 +3875,10 @@ names_to_create = ([
                       [ { name: "Scout", language_id: both.id } ]
                     ],
                     [
+                      { description: "Sea animal with thick fur or bristles", language_id: english.id },
+                      [ { name: "Seal", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'one who trips up another and takes his place'", language_id: latin.id },
                       [ { name: "Seamus", gender_id: male.id } ]
                     ],
@@ -3923,6 +3969,11 @@ names_to_create = ([
                     [
                       { description: "Meaning 'shine with a soft quivering light'", language_id: english.id },
                       [ { name: "Shimmer", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Sweet crystalline substance obtained from the juices of various plants", language_id: english.id },
+                      [ { name: "Shugar", gender_id: both.id },
+                        { name: "Sugar", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'wide meadow'", language_id: old_english.id },
@@ -4079,6 +4130,10 @@ names_to_create = ([
                       [ { name: "Sparky", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Small brownish-grey bird", language_id: english.id, means_bird: true },
+                      [ { name: "Sparrow", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Move quickly", language_id: english.id },
                       [ { name: "Speedie", gender_id: both.id },
                         { name: "Speedy", gender_id: both.id } ]
@@ -4164,9 +4219,8 @@ names_to_create = ([
                       [ { name: "Sue", gender_id: female.id } ]
                     ],
                     [
-                      { description: "Sweet crystalline substance obtained from the juices of various plants", language_id: english.id },
-                      [ { name: "Shugar", gender_id: both.id },
-                        { name: "Sugar", gender_id: both.id } ]
+                      { description: "Seedless raisin", language_id: english.id },
+                      [ { name: "Sultana", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'light or warmth from the sun'", language_id: english.id },
@@ -4213,6 +4267,10 @@ names_to_create = ([
                       [ { name: "Sweetpea", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Thick sweet liquid", language_id: english.id },
+                      [ { name: "Syrup", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'doe'", language_id: aramaic.id },
                       [ { name: "Tabatha", gender_id: female.id },
                         { name: "Tabetha", gender_id: female.id },
@@ -4237,6 +4295,10 @@ names_to_create = ([
                       { description: "Total of a debt or score", language_id: english.id },
                       [ { name: "Tallie", gender_id: both.id },
                         { name: "Tally", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Tree with yellow flowers and red and brown pods" },
+                      [ { name: "Tamarind" } ]
                     ],
                     [
                       { description: "Nickname of Tamara, meaning 'date palm'", language_id: hebrew.id },
@@ -4264,6 +4326,12 @@ names_to_create = ([
                       [ { name: "Tate" } ]
                     ],
                     [
+                      { description: "Orange brown colour" },
+                      [ { name: "Tawnee", gender_id: both.id },
+                        { name: "Tawney", gender_id: both.id },
+                        { name: "Tawny", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'to cut'", language_id: norman_french.id },
                       [ { name: "Taylor", gender_id: both.id } ]
                     ],
@@ -4274,6 +4342,14 @@ names_to_create = ([
                     [
                       { description: "Meaning 'wise poet'", language_id: irish_gaelic.id },
                       [ { name: "Teagan", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Evergreen tree with yellow-brown wood" },
+                      [ { name: "Teak", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Hard durable wood" },
+                      [ { name: "Teakwood", gender_id: both.id } ]
                     ],
                     [
                       { description: "Nickname of Theodore, meaning 'God's gift'", language_id: greek.id },
@@ -4385,6 +4461,10 @@ names_to_create = ([
                       { description: "Meaning 'fox'", language_id: middle_english.id },
                       [ { name: "Todd", gender_id: male.id },
                         { name: "Toddy", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Sweet made with heated butter and sugar", language_id: english.id },
+                      [ { name: "Toffee", gender_id: both.id } ]
                     ],
                     [
                       { description: "Male cat", language_id: english.id, means_cat: true },
@@ -4557,6 +4637,10 @@ names_to_create = ([
                     [
                       { description: "Nickname of Walter, meaning 'commander of the army'", language_id: old_german.id },
                       [ { name: "Wally", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nut containing a wrinkled edible kernel", language_id: english.id },
+                      [ { name: "Walnut", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'commander of the army'", language_id: old_german.id },
@@ -5211,6 +5295,10 @@ names_to_link = ([
                     [ "Scarlet", "Scarlett" ]
                   ],
                   [
+                    { description: "Dark brown cat coat colour", language_id: english.id },
+                    [ "Seal" ]
+                  ],
+                  [
                     { description: "Queen who visited King Solomon to investigate his wisdom and greatness" },
                     [ "Sheba" ]
                   ],
@@ -5352,7 +5440,6 @@ meanings_to_link.each do |value|
 end
 
 # Coat Colours
-# brown = CoatColour.create(name: "Brown", description: "Brown or Chocolate")
 # cream = CoatColour.create(name: "Cream", description: "Cream or Golden")
 # lilac = CoatColour.create(name: "Lilac", description: "Lilac")
 # red = CoatColour.create(name: "Red", description: "Red, Ruby, Apricot or Ginger")
@@ -5369,6 +5456,10 @@ colours_to_link = ([
                     [
                       { name: "Blue", description: "Blue, Grey and Silver" },
                       [ "Amber", "Ambyr", "Ava", "Azure", "Azurine", "Bleu", "Blu", "Blue", "Bluebell", "Bluebelle", "Blueberry", "Dillan", "Dillon", "Dylan", "Eben", "Ebenezer", "Floyd", "Floydd", "Frostie", "Frosty", "Halle", "Hallee", "Halley", "Hallie", "Indigo", "Jay", "Kong", "Leucos", "Lloyd", "Marina", "Mariner", "Marissa", "Mercury", "Murdoch", "Murphy", "Nickel", "Periwinkle", "Platinum", "Quicksilver", "Romey", "Rommy", "Romy", "Rosemary", "Rosey", "Rosi", "Rosie", "Rosy", "Sapphire", "Silva", "Silver", "Sky", "Skye", "Skyy", "Smoke", "Smokee", "Smokey", "Smokie", "Smoky", "Storm", "Stormy", "Tupelo", "Vega", "Wisp", "Zaffre", "Zafiro", "Zircon" ]
+                    ],
+                    [
+                      { name: "Brown", description: "Brown or Chocolate" },
+                      [ "Acorn", "Bruno", "Cappuccino", "Caramel", "Castana", "Choco", "Cinnamon", "Coco", "Cocoa", "Coffee", "Cola", "Duncan", "Dusty", "Hazel", "Java", "Kiwi", "Koko", "Latte", "Maple", "Mocca", "Mocha", "Mochachino", "Molasses", "Mousse", "Mushroom", "Oberon", "Pardo", "Peanut", "Pud", "Pudd", "Pudding", "Seal", "Siena", "Sienna", "Sparrow", "Sultana", "Syrup", "Tamarind", "Tawnee", "Tawney", "Tawny", "Teak", "Teakwood", "Toffee", "Truffle", "Truffles", "Walnut" ]
                     ]
                   ])
 

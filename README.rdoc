@@ -15,6 +15,10 @@ A site documenting names and their meanings for cats, dogs and other pets.
 
 * Search for a name.
 
+* Display names meaning Cat, Dog, or Bird.
+
+* Display names based on coat colour (e.g. black, blue, red).
+
 
 === Technical Details
 

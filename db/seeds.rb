@@ -5352,7 +5352,6 @@ meanings_to_link.each do |value|
 end
 
 # Coat Colours
-# blue = CoatColour.create(name: "Blue", description: "Blue, Grey and Silver")
 # brown = CoatColour.create(name: "Brown", description: "Brown or Chocolate")
 # cream = CoatColour.create(name: "Cream", description: "Cream or Golden")
 # lilac = CoatColour.create(name: "Lilac", description: "Lilac")
@@ -5366,6 +5365,10 @@ colours_to_link = ([
                     [
                       { name: "Black", description: "Black" },
                       [ "Asbolos", "Ash", "Ashes", "Ashlee", "Ashleigh", "Ashley", "Blackberry", "Blackie", "Blacky", "Blackjack", "Blake", "Bronsyn", "Brulee", "Carbon", "Ciara", "Cinder", "Cinderella", "Cinderelle", "Cinders", "Cindy", "Coal", "Colby", "Cole", "Dana", "Danna", "Dayna", "Darcy", "Darcey", "Dee", "Donovan", "Donoven", "Dougal", "Douglas", "Duane", "Dwayne", "Duanna", "Duffy", "Dunstan", "Dunston", "Ebonaire", "Ebony", "Eclipse", "Hadrian", "Inky", "Jet", "Jett", "Kala", "Keri", "Kerri", "Kerrie", "Kerry", "Kiara", "Kieran", "Laila", "Layla", "Leila", "Leilah", "Lela", "Lelah", "Leyla", "Lila", "Lilah", "Lilla", "Lyla", "Maurice", "Maurise", "Melanie", "Melinee", "Midnight", "Midnite", "Moe", "Moreno", "Moritz", "Morris", "Nero", "Nigel", "Noir", "Noire", "Obsidian", "Oriole", "Panda", "Panther", "Raven", "Sable", "Shade", "Shado", "Shadoe", "Shadow", "Smoke", "Smokee", "Smokey", "Smokie", "Smoky", "Smudge", "Smudgie", "Smudgy", "Sootie", "Sooty", "Tuxedo", "Wisp", "Zante", "Zebra", "Zelda" ]
+                    ],
+                    [
+                      { name: "Blue", description: "Blue, Grey and Silver" },
+                      [ "Amber", "Ambyr", "Ava", "Azure", "Azurine", "Bleu", "Blu", "Blue", "Bluebell", "Bluebelle", "Blueberry", "Dillan", "Dillon", "Dylan", "Eben", "Ebenezer", "Floyd", "Floydd", "Frostie", "Frosty", "Halle", "Hallee", "Halley", "Hallie", "Indigo", "Jay", "Kong", "Leucos", "Lloyd", "Marina", "Mariner", "Marissa", "Mercury", "Murdoch", "Murphy", "Nickel", "Periwinkle", "Platinum", "Quicksilver", "Romey", "Rommy", "Romy", "Rosemary", "Rosey", "Rosi", "Rosie", "Rosy", "Sapphire", "Silva", "Silver", "Sky", "Skye", "Skyy", "Smoke", "Smokee", "Smokey", "Smokie", "Smoky", "Storm", "Stormy", "Tupelo", "Vega", "Wisp", "Zaffre", "Zafiro", "Zircon" ]
                     ]
                   ])
 

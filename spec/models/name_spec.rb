@@ -18,6 +18,10 @@ RSpec.describe Name, type: :model do
       expect(name).to have_and_belong_to_many(:meanings)
     end
 
+    it "has and belongs to many coat colours" do
+      expect(name).to have_and_belong_to_many(:coat_colours)
+    end
+
     it "belongs to a gender" do
       expect(name).to belong_to(:gender)
     end
@@ -26,6 +30,7 @@ RSpec.describe Name, type: :model do
   after do
     Name.destroy_all
     Meaning.destroy_all
+    CoatColour.destroy_all
     Gender.destroy_all
   end
 end

@@ -14,26 +14,26 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2015-09-02T09:08:28+12:00">2015-09-02T09:08:28+12:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2015-09-02T09:18:30+12:00">2015-09-02T09:18:30+12:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="green">98.95%</span></span>
+    (<span class="covered_percent"><span class="green">98.97%</span></span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         2.28
+         2.25
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>10</b> files in total.
-    <b>95</b> relevant lines. 
-    <span class="green"><b>94</b> lines covered</span> and
+    <b>97</b> relevant lines. 
+    <span class="green"><b>96</b> lines covered</span> and
     <span class="red"><b>1</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -103,9 +103,9 @@
       <tr>
         <td class="strong"><a href="#1899486cf20c5f02c0e1b0a94059cf7d0922d78d" class="src_link" title="app/models/coat_colour.rb">app/models/coat_colour.rb</a></td>
         <td class="green strong">100.0 %</td>
+        <td>6</td>
         <td>4</td>
-        <td>3</td>
-        <td>3</td>
+        <td>4</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
@@ -143,9 +143,9 @@
       <tr>
         <td class="strong"><a href="#ba9b7552ad69f6566a9aa58438150c9e34df957d" class="src_link" title="app/models/name.rb">app/models/name.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>6</td>
-        <td>4</td>
-        <td>4</td>
+        <td>7</td>
+        <td>5</td>
+        <td>5</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
@@ -247,8 +247,8 @@
   <a name="Models"></a>
   <div>
     <b>5</b> files in total.
-    <b>18</b> relevant lines. 
-    <span class="green"><b>18</b> lines covered</span> and
+    <b>20</b> relevant lines. 
+    <span class="green"><b>20</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -268,9 +268,9 @@
       <tr>
         <td class="strong"><a href="#1899486cf20c5f02c0e1b0a94059cf7d0922d78d" class="src_link" title="app/models/coat_colour.rb">app/models/coat_colour.rb</a></td>
         <td class="green strong">100.0 %</td>
+        <td>6</td>
         <td>4</td>
-        <td>3</td>
-        <td>3</td>
+        <td>4</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
@@ -308,9 +308,9 @@
       <tr>
         <td class="strong"><a href="#ba9b7552ad69f6566a9aa58438150c9e34df957d" class="src_link" title="app/models/name.rb">app/models/name.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>6</td>
-        <td>4</td>
-        <td>4</td>
+        <td>7</td>
+        <td>5</td>
+        <td>5</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
@@ -1704,8 +1704,8 @@
     <h3>app/models/coat_colour.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>3</b> relevant lines. 
-      <span class="green"><b>3</b> lines covered</span> and
+      <b>4</b> relevant lines. 
+      <span class="green"><b>4</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -1732,6 +1732,18 @@
         </li>
       
         <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  has_and_belongs_to_many :names</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
           
           
           <code class="ruby">end</code>
@@ -1902,8 +1914,8 @@
     <h3>app/models/name.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>4</b> relevant lines. 
-      <span class="green"><b>4</b> lines covered</span> and
+      <b>5</b> relevant lines. 
+      <span class="green"><b>5</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -1938,10 +1950,16 @@
         <li class="covered" data-hits="1" data-linenumber="5">
           <span class="hits">1</span>
           
+          <code class="ruby">  has_and_belongs_to_many :coat_colours</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
           <code class="ruby">  belongs_to :gender</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="6">
+        <li class="never" data-hits="" data-linenumber="7">
           
           
           <code class="ruby">end</code>

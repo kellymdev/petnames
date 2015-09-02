@@ -1,7 +1,7 @@
 class MeaningsController < ApplicationController
 
   def show
-    meaning = Meaning.find_by_id(params[:id])
+    meaning = Meaning.find_by("id = ?", params[:id])
     language = meaning.language
     names = meaning.names
 

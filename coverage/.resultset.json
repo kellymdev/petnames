@@ -5,6 +5,22 @@
         1,
         null
       ],
+      "/Users/Kel/Documents/dev/git/petnames/app/controllers/coat_colours_controller.rb": [
+        1,
+        null,
+        1,
+        2,
+        null,
+        null,
+        null
+      ],
+      "/Users/Kel/Documents/dev/git/petnames/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        null
+      ],
       "/Users/Kel/Documents/dev/git/petnames/app/controllers/meanings_controller.rb": [
         1,
         null,
@@ -120,13 +136,6 @@
         null,
         null,
         null,
-        null
-      ],
-      "/Users/Kel/Documents/dev/git/petnames/app/controllers/application_controller.rb": [
-        1,
-        null,
-        null,
-        1,
         null
       ],
       "/Users/Kel/Documents/dev/git/petnames/app/controllers/names_controller.rb": [
@@ -245,6 +254,6 @@
         null
       ]
     },
-    "timestamp": 1441142310
+    "timestamp": 1441234264
   }
 }

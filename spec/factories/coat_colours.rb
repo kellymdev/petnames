@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :coat_colour do
-    name "Blue"
+    sequence(:name) { |n| "Blue#{n}" }
     description "Blue, Grey and Silver"
   end
 

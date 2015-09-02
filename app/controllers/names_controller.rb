@@ -18,7 +18,7 @@ class NamesController < ApplicationController
   end
 
   def show
-    name = Name.find_by_id(params[:id])
+    name = Name.find_by("id = ?", params[:id])
     meaning_array = []
     name.meanings.each do |meaning|
       arr = []

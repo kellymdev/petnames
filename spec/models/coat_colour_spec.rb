@@ -11,6 +11,10 @@ RSpec.describe CoatColour, type: :model do
     it "has a description" do
       expect(coat_colour).to validate_presence_of(:description)
     end
+
+    it "has a unique name" do
+      expect(coat_colour).to validate_uniqueness_of(:name)
+    end
   end
 
   context "relationships" do

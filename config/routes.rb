@@ -12,4 +12,5 @@ Rails.application.routes.draw do
 
   resources :names, only: :show
   resources :meanings, only: :show
+  resources :coat_colours, only: :index
 end

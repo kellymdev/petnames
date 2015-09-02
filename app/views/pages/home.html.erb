@@ -7,6 +7,15 @@
     <% end %>
   </div>
 
+  <div class="by-colour">
+    <h3>Names by Colour</h3>
+    <ul class="colour-list">
+      <% @colours.each do |colour| %>
+        <li id="<%= colour.name %>"><a href="colours/<%= colour.name %>"><%= colour.description %></a></li>
+      <% end %>
+    </ul>
+  </div>
+
   <div class="animal-meanings">
     <h3>Is it a Cat, Dog, Bird?</h3>
     <p><%= link_to "Names meaning 'Cat'", meaning_cat_path %></p>

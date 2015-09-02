@@ -817,6 +817,11 @@ names_to_create = ([
                         { name: "Callista", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Another name for the tortoiseshell coat pattern", language_id: english.id },
+                      [ { name: "Calico", gender_id: female.id },
+                        { name: "Kallico", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'bald'", language_id: latin.id },
                       [ { name: "Calven", gender_id: male.id },
                         { name: "Calvin", gender_id: male.id } ]
@@ -1071,6 +1076,10 @@ names_to_create = ([
                     [
                       { description: "Nickname of Christian, Christopher, Christina and Christine, meaning 'Christ's follower'" },
                       [ { name: "Christie", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'colour'", language_id: greek.id },
+                      [ { name: "Chroma", gender_id: both.id } ]
                     ],
                     [
                       { description: "From the Greek krustallos meaning 'ice'", language_id: greek.id },
@@ -1699,6 +1708,10 @@ names_to_create = ([
                       [ { name: "Faith", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'mixture'", language_id: latin.id },
+                      [ { name: "Farrago", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Spanish and Polish version of Phoebe, meaning 'bright'", language_id: spanish.id },
                       [ { name: "Febe", gender_id: female.id } ]
                     ],
@@ -2007,6 +2020,10 @@ names_to_create = ([
                         { name: "Grayce", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Words or drawings scribbled on a wall", language_id: english.id },
+                      [ { name: "Graffiti", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning ‘cat’", language_id: archaic.id, means_cat: true },
                       [ { name: "Graymalkin" },
                         { name: "Greymalkin" } ]
@@ -2255,6 +2272,11 @@ names_to_create = ([
                     [
                       { description: "Meaning 'violet'", language_id: greek.id },
                       [ { name: "Iolanthe" } ]
+                    ],
+                    [
+                      { description: "Meaning 'rainbow'" },
+                      [ { name: "Iris", gender_id: both.id },
+                        { name: "Isa" } ]
                     ],
                     [
                       { description: "Meaning 'Queen of Isis'" },
@@ -3165,10 +3187,18 @@ names_to_create = ([
                       [ { name: "Maya", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Assortment", language_id: english.id },
+                      [ { name: "Medley", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'pearl'", language_id: welsh.id },
                       [ { name: "Meg", gender_id: female.id },
                         { name: "Megan", gender_id: female.id },
                         { name: "Meggie", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'mixture'", language_id: french.id },
+                      [ { name: "Melange" } ]
                     ],
                     [
                       { description: "Meaning 'black'", language_id: greek.id },
@@ -3463,6 +3493,10 @@ names_to_create = ([
                     [
                       { description: "Meaning 'nobody'", language_id: latin.id },
                       [ { name: "Nemo" } ]
+                    ],
+                    [
+                      { description: "Ice cream consisting of three colours and flavours", language_id: english.id },
+                      [ { name: "Neopolitan", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'black'", language_id: italian.id },
@@ -3891,6 +3925,10 @@ names_to_create = ([
                     [
                       { description: "Atmospheric moisture falling as drops", language_id: english.id },
                       [ { name: "Rain", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Arch of colours formed in rain or spray by the sun’s rays", language_id: english.id },
+                      [ { name: "Rainbow", gender_id: female.id } ]
                     ],
                     [
                       { description: "Dried grape", language_id: english.id },
@@ -4669,6 +4707,10 @@ names_to_create = ([
                       [ { name: "Taffy", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Brilliantly coloured edible fish" },
+                      [ { name: "Tai" } ]
+                    ],
+                    [
                       { description: "Meaning 'jumping water'", language_id: choctaw.id },
                       [ { name: "Tallula", gender_id: female.id },
                         { name: "Tallulah", gender_id: female.id },
@@ -4767,6 +4809,10 @@ names_to_create = ([
                       { description: "Meaning 'harvester'" },
                       [ { name: "Tess" },
                         { name: "Tessa" } ]
+                    ],
+                    [
+                      { description: "A small cube or square used in mosaic work" },
+                      [ { name: "Tessera" } ]
                     ],
                     [
                       { description: "After the US state, Texas" },
@@ -4894,8 +4940,17 @@ names_to_create = ([
                         { name: "Tootsie", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Short way of writing Tortoiseshell", language_id: english.id },
+                      [ { name: "Tortie", gender_id: female.id },
+                        { name: "Torty", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'Etruscan woman'", language_id: latin.id },
                       [ { name: "Tosca", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Group of three", language_id: english.id },
+                      [ { name: "Trinity" } ]
                     ],
                     [
                       { description: "Nickname of Beatrix, meaning 'voyager'", language_id: latin.id },
@@ -4935,6 +4990,10 @@ names_to_create = ([
                     [
                       { description: "A region in western Italy" },
                       [ { name: "Tuscany" } ]
+                    ],
+                    [
+                      { description: "Meaning 'mixture'" },
+                      [ { name: "Tutti-Fruitee" } ]
                     ],
                     [
                       { description: "Dinner jacket", language_id: english.id },
@@ -5504,6 +5563,10 @@ names_to_link = ([
                     [ "Hyacinth" ]
                   ],
                   [
+                    { description: "Goddess of the rainbow in Greek mythology", language_id: greek.id },
+                    [ "Iris" ]
+                  ],
+                  [
                     { description: "Meaning 'faithful'" },
                     [ "Ivorie", "Ivory" ]
                   ],
@@ -5929,8 +5992,6 @@ meanings_to_link.each do |value|
 end
 
 # Coat Colours
-# tortoiseshell = CoatColour.create(name: "Tortoiseshell", description: "Tortoiseshell, Calico or Tricolour")
-
 colours_to_link = ([
                     [
                       { name: "Black", description: "Black" },
@@ -5967,6 +6028,10 @@ colours_to_link = ([
                     [
                       { name: "Tabby", description: "Tabby or Striped" },
                       [ "Bee", "Checkers", "Lynx", "Marble", "Marbles", "Stripe", "Stripes", "Swirl", "Tabbie", "Tabby", "Tartan", "Tiger", "Tigg", "Tigress", "Tyger", "Tygrr", "Zebra" ]
+                    ],
+                    [
+                      { name: "Tortoiseshell", description: "Tortoiseshell, Calico or Tricolour" },
+                      [ "Calico", "Checkers", "Chroma", "Confetti", "Farrago", "Graffiti", "Iris", "Isa", "Kallico", "Marble", "Marbles", "Medley", "Melange", "Misto", "Neopolitan", "Patch", "Patches", "Pinto", "Rainbow", "Splash", "Splotchie", "Tai", "Tessera", "Tiger Lillie", "Tiger Lilly", "Tiger Lily", "Tortie", "Torty", "Trinity", "Tufti", "Tufty", "Tutti-Fruitee" ]
                     ]
                   ])
 

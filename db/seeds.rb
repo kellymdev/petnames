@@ -52,6 +52,7 @@ roman = Language.create(name: "Roman")
 russian = Language.create(name: "Russian")
 sanskrit = Language.create(name: "Sanskrit")
 scots_gaelic = Language.create(name: "Scots Gaelic")
+serbian = Language.create(name: "Serbian")
 siouan = Language.create(name: "Siouan")
 slavic = Language.create(name: "Slavic")
 spanish = Language.create(name: "Spanish")
@@ -115,6 +116,12 @@ names_to_create = ([
                     [
                       { description: "Meaning 'thicket clearers'", language_id: choctaw.id },
                       [ { name: "Alabama", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'white'", language_id: latin.id },
+                      [ { name: "Alban", gender_id: male.id },
+                        { name: "Albina", gender_id: female.id },
+                        { name: "Albion", gender_id: male.id } ]
                     ],
                     [
                       { description: "Nickname of Albert, meaning 'exalted, shining with fame'", language_id: ancient_german.id },
@@ -447,6 +454,10 @@ names_to_create = ([
                       [ { name: "Belle", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'white'", language_id: serbian.id },
+                      [ { name: "Belo", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'son'", language_id: hebrew.id },
                       [ { name: "Ben", gender_id: male.id } ]
                     ],
@@ -552,6 +563,10 @@ names_to_create = ([
                         { name: "Blanco", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'white'", language_id: french.id },
+                      [ { name: "Blanche", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'white'", language_id: czech.id },
                       [ { name: "Blanka", gender_id: female.id } ]
                     ],
@@ -569,7 +584,8 @@ names_to_create = ([
                     ],
                     [
                       { description: "Meaning 'white'" },
-                      [ { name: "Blondie", gender_id: female.id } ]
+                      [ { name: "Blondie", gender_id: female.id },
+                        { name: "Wynn" } ]
                     ],
                     [
                       { description: "Meaning 'flower-like'" },
@@ -687,6 +703,11 @@ names_to_create = ([
                     [
                       { description: "Meaning 'son of the dark haired one'" },
                       [ { name: "Bronsyn", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'white breasted'", language_id: welsh.id },
+                      [ { name: "Bronwen", gender_id: female.id },
+                        { name: "Bronwyn", gender_id: female.id } ]
                     ],
                     [
                       { description: "Combination of the names Brooke (meaning 'small stream') and Lynn (meaning 'ruddy complexion')" },
@@ -818,6 +839,12 @@ names_to_create = ([
                       { description: "Meaning 'clarity'", language_id: latin.id },
                       [ { name: "Candace", gender_id: female.id },
                         { name: "Candice", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'brilliant white'" },
+                      [ { name: "Candesse" },
+                        { name: "Candida" },
+                        { name: "Candide" } ]
                     ],
                     [
                       { description: "Meaning 'wolf cub'", language_id: gaelic.id, means_dog: true },
@@ -1044,7 +1071,10 @@ names_to_create = ([
                     [
                       { description: "From the Greek krustallos meaning 'ice'", language_id: greek.id },
                       [ { name: "Chrystal", gender_id: female.id },
-                        { name: "Crystal", gender_id: female.id } ]
+                        { name: "Crystal", gender_id: female.id },
+                        { name: "Khrystal", gender_id: female.id },
+                        { name: "Krystal", gender_id: female.id },
+                        { name: "Krystle", gender_id: female.id } ]
                     ],
                     [
                       { description: "Sauce-like mixture of fruit or vegetables used as a spread on meat", language_id: english.id },
@@ -1115,6 +1145,10 @@ names_to_create = ([
                       [ { name: "Cleopatra", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Visible mass of watery vapour floating in the sky", language_id: english.id },
+                      [ { name: "Cloud", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Plant with three-lobed leaves" },
                       [ { name: "Clover" } ]
                     ],
@@ -1137,7 +1171,7 @@ names_to_create = ([
                       [ { name: "Cocoa", gender_id: both.id } ]
                     ],
                     [
-                      { description: "White-fleshed, nut of a tropical palm" },
+                      { description: "White-fleshed, nut of a tropical palm", language_id: english.id },
                       [ { name: "Coconut", gender_id: both.id } ]
                     ],
                     [
@@ -1351,6 +1385,10 @@ names_to_create = ([
                     [
                       { description: "Meaning 'fortunate'", language_id: latin.id },
                       [ { name: "Dexter", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "After the precious stone", language_id: english.id },
+                      [ { name: "Diamond", gender_id: both.id } ]
                     ],
                     [
                       { description: "Spanish form of James, meaning 'one who trips up another and takes his place'" , language_id: spanish.id },
@@ -1671,6 +1709,10 @@ names_to_create = ([
                         { name: "Felix", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'white shoulder'", language_id: gaelic.id },
+                      [ { name: "Fenella", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'supreme man'", language_id: scots_gaelic.id },
                       [ { name: "Fergus", gender_id: male.id } ]
                     ],
@@ -1821,6 +1863,10 @@ names_to_create = ([
                       [ { name: "Frisco", gender_id: both.id } ]
                     ],
                     [
+                      { description: "White frozen dew", language_id: english.id },
+                      [ { name: "Frost", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "White or grey-haired" },
                       [ { name: "Frostie", gender_id: both.id },
                         { name: "Frosty", gender_id: both.id } ]
@@ -1841,6 +1887,10 @@ names_to_create = ([
                     [
                       { description: "Meaning pledge" },
                       [ { name: "Gage" } ]
+                    ],
+                    [
+                      { description: "Meaning 'milky white'", language_id: greek.id },
+                      [ { name: "Galatea" } ]
                     ],
                     [
                       { description: "Meaning 'person from Galilee'", language_id: greek.id },
@@ -1868,6 +1918,11 @@ names_to_create = ([
                     [
                       { description: "Meaning 'kitten'", language_id: spanish.id, means_cat: true },
                       [ { name: "Gatito" } ]
+                    ],
+                    [
+                      { description: "Meaning 'white hawk'", language_id: welsh.id },
+                      [ { name: "Gaven", gender_id: male.id },
+                        { name: "Gavin", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'gem'", language_id: latin.id },
@@ -1956,6 +2011,10 @@ names_to_create = ([
                     [
                       { description: "Nickname of Margareta, meaning 'pearl'", language_id: greek.id },
                       [ { name: "Greta", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning ‘little pearl’" },
+                      [ { name: "Gretchen", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'prince'", language_id: welsh.id },
@@ -2131,6 +2190,10 @@ names_to_create = ([
                     [
                       { description: "Melon with pale skin and sweet green flesh", language_id: english.id },
                       [ { name: "Honeydew", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "White flower", language_id: english.id },
+                      [ { name: "Honeysuckle", gender_id: both.id } ]
                     ],
                     [
                       { description: "Feeling of expectation and desire", language_id: english.id },
@@ -2316,6 +2379,12 @@ names_to_create = ([
                         { name: "Jenny", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning ‘pure and yielding, white wave’", language_id: welsh.id },
+                      [ { name: "Jenifur", gender_id: female.id },
+                        { name: "Jennifer", gender_id: female.id },
+                        { name: "Jennyfur", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'paradise'", language_id: arabic.id },
                       [ { name: "Jenna", gender_id: female.id } ]
                     ],
@@ -2419,6 +2488,10 @@ names_to_create = ([
                         { name: "Juliet", gender_id: female.id },
                         { name: "Juliett", gender_id: female.id },
                         { name: "Juliette", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'pearl'", language_id: arabic.id },
+                      [ { name: "Jumana", gender_id: female.id } ]
                     ],
                     [
                       { description: "Younger in age", language_id: english.id },
@@ -2611,6 +2684,10 @@ names_to_create = ([
                       [ { name: "Koshka" } ]
                     ],
                     [
+                      { description: "Ornamental open-weave fabric or trimming", language_id: english.id },
+                      [ { name: "Lace", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'like lace'", language_id: english.id },
                       [ { name: "Lacey", gender_id: female.id },
                         { name: "Lacie", gender_id: female.id },
@@ -2739,6 +2816,10 @@ names_to_create = ([
                         { name: "Lilly", gender_id: female.id },
                         { name: "Lily", gender_id: female.id },
                         { name: "Lylli", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'lily flower'" },
+                      [ { name: "Lillian", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'lake colony'", language_id: latin.id },
@@ -2884,6 +2965,10 @@ names_to_create = ([
                       [ { name: "Mae" } ]
                     ],
                     [
+                      { description: "Meaning 'pearl'", language_id: french.id },
+                      [ { name: "Magali", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Nickname of Margaret, meaning 'pearl'", language_id: greek.id },
                       [ { name: "Maggi", gender_id: female.id },
                         { name: "Maggie", gender_id: female.id },
@@ -2901,6 +2986,16 @@ names_to_create = ([
                         { name: "Mahogony" } ]
                     ],
                     [
+                      { description: "Meaning 'pearl'", language_id: greek.id },
+                      [ { name: "Mai", gender_id: both.id },
+                        { name: "Maida", gender_id: female.id },
+                        { name: "Margaret", gender_id: female.id },
+                        { name: "Margo", gender_id: female.id },
+                        { name: "Margot", gender_id: female.id },
+                        { name: "Marguerita", gender_id: female.id },
+                        { name: "Marguerite", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'very important, greater or relatively great'", language_id: english.id },
                       [ { name: "Major", gender_id: male.id } ]
                     ],
@@ -2914,6 +3009,11 @@ names_to_create = ([
                     [
                       { description: "Meaning 'ruler', 'first born'" },
                       [ { name: "Mali" } ]
+                    ],
+                    [
+                      { description: "Meaning 'pearl'" },
+                      [ { name: "Mamie", gender_id: female.id },
+                        { name: "Mayme", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'God is with us'", language_id: hebrew.id },
@@ -2944,6 +3044,10 @@ names_to_create = ([
                       [ { name: "Mara", gender_id: female.id } ]
                     ],
                     [
+                      { description: "A delicate white raw silk" },
+                      [ { name: "Marabou" } ]
+                    ],
+                    [
                       { description: "Type of limestone with swirling colours", language_id: english.id },
                       [ { name: "Marble", gender_id: both.id },
                         { name: "Marbles", gender_id: both.id } ]
@@ -2953,11 +3057,9 @@ names_to_create = ([
                       [ { name: "Marco" } ]
                     ],
                     [
-                      { description: "Meaning 'pearl'", language_id: greek.id },
-                      [ { name: "Margo", gender_id: female.id },
-                        { name: "Margot", gender_id: female.id },
-                        { name: "Marguerita", gender_id: female.id },
-                        { name: "Marguerite", gender_id: female.id } ]
+                      { description: "Meaning 'pearl'", language_id: spanish.id },
+                      [ { name: "Margarita", gender_id: female.id },
+                        { name: "Rita", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'wished-for child'", language_id: hebrew.id },
@@ -3132,6 +3234,11 @@ names_to_create = ([
                         { name: "Mylo", gender_id: male.id } ]
                     ],
                     [
+                      { description: "White liquid", language_id: english.id },
+                      [ { name: "Milk", gender_id: both.id },
+                        { name: "Milky", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Someone who works in a corn or flour mill", language_id: english.id },
                       [ { name: "Miller", gender_id: both.id } ]
                     ],
@@ -3158,6 +3265,10 @@ names_to_create = ([
                       { description: "Meaning 'small'", language_id: english.id },
                       [ { name: "Mini", gender_id: both.id },
                         { name: "Pip Squeak", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Any fine white fur" },
+                      [ { name: "Miniver", gender_id: both.id } ]
                     ],
                     [
                       { description: "Nickname of Wilhelmina, meaning 'determined protector'", language_id: ancient_german.id },
@@ -3310,6 +3421,10 @@ names_to_create = ([
                     [
                       { description: "Meaning 'favoured grace'", language_id: english.id },
                       [ { name: "Nancy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'sons of mist'", language_id: ancient_german.id },
+                      [ { name: "Napoleon", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'orange'", language_id: spanish.id },
@@ -3564,6 +3679,10 @@ names_to_create = ([
                       { description: "White gem formed inside the shell of oysters", language_id: english.id },
                       [ { name: "Pearl", gender_id: female.id },
                         { name: "Pearle", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'pearly'" },
+                      [ { name: "Pearlina", gender_id: female.id } ]
                     ],
                     [
                       { description: "Small smooth round stones", language_id: english.id },
@@ -3832,10 +3951,6 @@ names_to_create = ([
                     [
                       { description: "Meaning 'river'", language_id: spanish.id },
                       [ { name: "Rio", gender_id: male.id } ]
-                    ],
-                    [
-                      { description: "Meaning 'pearl'", language_id: spanish.id },
-                      [ { name: "Rita", gender_id: female.id } ]
                     ],
                     [
                       { description: "Natural stream of water entering into an ocean, lake, or another river", language_id: english.id },
@@ -4172,6 +4287,10 @@ names_to_create = ([
                         { name: "Shirly", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'fair' or 'white-haired'", language_id: old_english.id },
+                      [ { name: "Sherlock" } ]
+                    ],
+                    [
                       { description: "Meaning 'the one to whom it belongs'" },
                       [ { name: "Shilo" },
                         { name: "Shiloah" },
@@ -4274,6 +4393,10 @@ names_to_create = ([
                       { description: "Mass of snow, pressed or rolled together into a ball", language_id: english.id },
                       [ { name: "Snoball", gender_id: both.id },
                         { name: "Snowball", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Plant with bell-shaped white flowers", language_id: english.id },
+                      [ { name: "Snowbell", gender_id: female.id } ]
                     ],
                     [
                       { description: "Shaved ice treat", language_id: english.id },
@@ -4823,6 +4946,10 @@ names_to_create = ([
                       [ { name: "Vanna", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'white wave'" },
+                      [ { name: "Vanova" } ]
+                    ],
+                    [
                       { description: "A blue-white star in the constellation Lyra" },
                       [ { name: "Vega" } ]
                     ],
@@ -4918,6 +5045,10 @@ names_to_create = ([
                       [ { name: "Whitey", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'white'", language_id: old_english.id },
+                      [ { name: "Whitney", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'desired fortress'", language_id: old_english.id },
                       [ { name: "Wilber", gender_id: male.id },
                         { name: "Wilbur", gender_id: male.id } ]
@@ -4940,7 +5071,8 @@ names_to_create = ([
                     ],
                     [
                       { description: "Coldest season of the year", language_id: english.id },
-                      [ { name: "Winter", gender_id: both.id } ]
+                      [ { name: "Winter", gender_id: both.id },
+                        { name: "Wynter", gender_id: both.id } ]
                     ],
                     [
                       { description: "Small streak of smoke", language_id: english.id },
@@ -5048,6 +5180,10 @@ names_to_create = ([
                     [
                       { description: "Bluish white gem cut from a translucent material" },
                       [ { name: "Zircon" } ]
+                    ],
+                    [
+                      { description: "Luminous white powder" },
+                      [ { name: "Zirconia" } ]
                     ],
                     [
                       { description: "Meaning 'life'", language_id: greek.id },
@@ -5431,6 +5567,10 @@ names_to_link = ([
                     [ "Manu" ]
                   ],
                   [
+                    { description: "Soft feathers from a type of large stork" },
+                    [ "Marabou" ]
+                  ],
+                  [
                     { description: "Large daisy" },
                     [ "Marguerite" ]
                   ],
@@ -5457,6 +5597,10 @@ names_to_link = ([
                   [
                     { description: "Meaning 'determined'" },
                     [ "Mimi" ]
+                  ],
+                  [
+                    { description: "A type of white or grey fur used for trimming garments in medieval times" },
+                    [ "Miniver" ]
                   ],
                   [
                     { description: "Russian version of Melissa, meaning ‘bee’ or ‘honey’", language_id: greek.id },
@@ -5732,7 +5876,6 @@ meanings_to_link.each do |value|
 end
 
 # Coat Colours
-# white = CoatColour.create(name: "White", description: "White")
 # spotted = CoatColour.create(name: "Spotted", description: "Spotted or Patched")
 # tabby = CoatColour.create(name: "Tabby", description: "Tabby or Striped")
 # tortoiseshell = CoatColour.create(name: "Tortoiseshell", description: "Tortoiseshell, Calico or Tricolour")
@@ -5761,6 +5904,10 @@ colours_to_link = ([
                     [
                       { name: "Red", description: "Red, Ruby, Apricot or Ginger" },
                       [ "Adam", "Addie", "Addison", "Addy", "Aedan", "Aidan", "Aiden", "Amber", "Ambyr", "Apollo", "Autumn", "Aydan", "Blaze", "Burns", "Chili", "Chilli", "Clancey", "Clancy", "Copper", "Elaine", "Elane", "Elayne", "Elena", "Ele", "Elle", "Ellen", "Feenix", "Flame", "Flynn", "Foenix", "Gilroy", "Ginge", "Ginger", "Gingi", "Gingie", "Haldi", "Helio", "Jasper", "Keegan", "Keighan", "Ketchup", "Layne", "Leina", "Lena", "Leyna", "Lina", "Mahogany", "Mahogony", "Mandarin", "Naranja", "OJ", "Orange", "Oren", "Paprika", "Phoenix", "Phoenyx", "Pumpkin", "Ra", "Radley", "Red", "Robin", "Roree", "Rory", "Rouge", "Roan", "Rowan", "Rowen", "Roy", "Rubi", "Ruby", "Rufus", "Russell", "Rust", "Rusty", "Saffron", "Salsa", "Sampson", "Samson", "Scarlet", "Scarlett", "Shani", "Siena", "Sienna", "Soleil", "Sonny", "Sparky", "Strawberry", "Sunni", "Sunnie", "Sunny", "Tabasco", "Tamarillo", "Tamarind", "Tiger Lillie", "Tiger Lilly", "Tiger Lily", "Tyson", "Yan" ]
+                    ],
+                    [
+                      { name: "White", description: "White" },
+                      [ "Alban", "Albina", "Albion", "Belo", "Bianca", "Bianco", "Blanca", "Blanche", "Blanco", "Blanka", "Blondie", "Bronwen", "Bronwyn", "Candesse", "Candida", "Candide", "Cloud", "Coconut", "Chrystal", "Crystal", "Diamond", "Fenella", "Frost", "Frostie", "Frosty", "Galatea", "Gaven", "Gavin", "Greta", "Gretchen", "Guinevere", "Guinivere", "Gwendolyn", "Honeysuckle", "Ice", "Ivorie", "Ivory", "Jasmin", "Jasmine", "Jazmin", "Jazmine", "Jazzmin", "Jazzmine", "Jenifur", "Jennifer", "Jennyfur", "Jenee", "Jenni", "Jennie", "Jenny", "Jumana", "Khrystal", "Krystal", "Krystle", "Lace", "Lacey", "Lacie", "Lacy", "Layce", "Laycie", "Lil", "Lill", "Lillian", "Lili", "Lillee", "Lillie", "Lilly", "Lily", "Lylli", "Magali", "Maggi", "Maggie", "Maggy", "Magnolia", "Mai", "Maida", "Maisie", "Mamie", "Marabou", "Margaret", "Margarita", "Margo", "Margot", "Marguerita", "Marguerite", "Marshmallow", "Mayme", "Mazie", "Meg", "Megan", "Meggie", "Milk", "Milky", "Miniver", "Mist", "Misti", "Mistie", "Misty", "Myst", "Mysti", "Mystie", "Napoleon", "Pearl", "Pearle", "Pearlina", "Peggy", "Periwinkle", "Rita", "Sherlock", "Sno", "Snow", "Snoball", "Snowball", "Snowbell", "Snowcone", "Snowdrop", "Snowflake", "Snowshoe", "Snowy", "Vanova", "Whitey", "Whitney", "Winter", "Wynn", "Wynter", "Yuki", "Zirconia" ]
                     ]
                   ])
 

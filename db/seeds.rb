@@ -188,6 +188,10 @@ names_to_create = ([
                       [ { name: "Amelia", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Purple or violet semi-precious stone", language_id: greek.id },
+                      [ { name: "Amethyst", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'friend'", language_id: french.id },
                       [ { name: "Ami", gender_id: female.id } ]
                     ],
@@ -739,7 +743,10 @@ names_to_create = ([
                         { name: "Drake", gender_id: male.id },
                         { name: "Olive", gender_id: female.id },
                         { name: "Piper", gender_id: both.id },
-                        { name: "Sawyer", gender_id: male.id } ]
+                        { name: "Sawyer", gender_id: male.id },
+                        { name: "Violet", gender_id: female.id },
+                        { name: "Violetta", gender_id: female.id },
+                        { name: "Violette", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'Fortified settlement'", language_id: old_english.id },
@@ -2024,6 +2031,10 @@ names_to_create = ([
                       [ { name: "Hazel", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Evergreen plant with purple, pink or white flowers", language_id: english.id },
+                      [ { name: "Heather", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'a support or stay'", language_id: greek.id },
                       [ { name: "Hector", gender_id: male.id },
                         { name: "Hektor", gender_id: male.id } ]
@@ -2124,6 +2135,10 @@ names_to_create = ([
                       [ { name: "Hunter", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Plant with fragrant bell-shaped flowers", language_id: english.id },
+                      [ { name: "Hyacinth", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Frozen water", language_id: english.id },
                       [ { name: "Ice", gender_id: both.id } ]
                     ],
@@ -2143,6 +2158,10 @@ names_to_create = ([
                     [
                       { description: "Coloured, marked, covered or smeared with ink", language_id: english.id },
                       [ { name: "Inky", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'violet'", language_id: greek.id },
+                      [ { name: "Iolanthe" } ]
                     ],
                     [
                       { description: "Meaning 'Queen of Isis'" },
@@ -2610,6 +2629,11 @@ names_to_create = ([
                     [
                       { description: "Milky coffee" },
                       [ { name: "Latte", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Shrub with fragrant purple flowers", language_id: english.id },
+                      [ { name: "Lavenda", gender_id: female.id },
+                        { name: "Lavender", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'delicate'", language_id: hebrew.id },
@@ -3572,6 +3596,10 @@ names_to_create = ([
                       [ { name: "Platinum" } ]
                     ],
                     [
+                      { description: "Reddish purple fruit with sweet pulp and a pointed stone" },
+                      [ { name: "Plum", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "From Hokey Pokey, candy made with golden syrup and baking soda", language_id: english.id },
                       [ { name: "Pokey", gender_id: both.id },
                         { name: "Pokie", gender_id: both.id } ]
@@ -4507,6 +4535,10 @@ names_to_create = ([
                       [ { name: "Tia", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Plant with large purple flowers" },
+                      [ { name: "Tibouchina" } ]
+                    ],
+                    [
                       { description: "Large striped animal of the cat family", language_id: english.id, means_cat: true },
                       [ { name: "Tiger", gender_id: male.id },
                         { name: "Tyger", gender_id: male.id },
@@ -5180,6 +5212,10 @@ names_to_link = ([
                     [ "Honey" ]
                   ],
                   [
+                    { description: "Meaning 'purple'" },
+                    [ "Hyacinth" ]
+                  ],
+                  [
                     { description: "Meaning 'faithful'" },
                     [ "Ivorie", "Ivory" ]
                   ],
@@ -5589,7 +5625,6 @@ meanings_to_link.each do |value|
 end
 
 # Coat Colours
-# lilac = CoatColour.create(name: "Lilac", description: "Lilac")
 # red = CoatColour.create(name: "Red", description: "Red, Ruby, Apricot or Ginger")
 # white = CoatColour.create(name: "White", description: "White")
 # spotted = CoatColour.create(name: "Spotted", description: "Spotted or Patched")
@@ -5612,6 +5647,10 @@ colours_to_link = ([
                     [
                       { name: "Cream", description: "Cream or Golden" },
                       [ "Amarillo", "Bee", "Bowie", "Boyd", "Bumblebee", "Butter", "Butters", "Buttercup", "Butterscotch", "Camembert", "Cameo", "Champagne", "Cleopatra", "Cous Cous", "Cream", "Creme", "Crumpet", "Elvira", "Estee", "Estelle", "Febe", "Flavia", "Fudge", "Fudgecake", "Goldie", "Goldy", "Honee", "Honey", "Honeydew", "Hunny", "Ivorie", "Ivory", "Jasmin", "Jasmine", "Jazmin", "Jazmine", "Jazzmin", "Jazzmine", "Kameo", "Macaroni", "Melina", "Melissa", "Midas", "Misha", "Missey", "Missy", "Muffin", "Muffins", "Nugget", "Oatmeal", "Ochre", "Pancake", "Pancakes", "Patticake", "Peach", "Peaches", "Pokey", "Pokie", "Primrose", "Puff", "Saffron", "Sandy", "Tansy", "Tate", "Vanilla", "Wafer", "Waffle", "Waffles", "Xanthe", "Zoroaster" ]
+                    ],
+                    [
+                      { name: "Lilac", description: "Lilac" },
+                      [ "Amethyst", "Azure", "Azurine", "Heather", "Hyacinth", "Iolanthe", "Lavenda", "Lavender", "Plum", "Tibouchina", "Tupelo", "Violet", "Violetta", "Violette" ]
                     ]
                   ])
 

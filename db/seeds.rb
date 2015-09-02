@@ -4585,6 +4585,11 @@ names_to_create = ([
                       [ { name: "Strawberry", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Long narrow band on a surface, differing in colour or texture from its surroundings", language_id: english.id },
+                      [ { name: "Stripe", gender_id: both.id },
+                        { name: "Stripes", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'trusting'" },
                       [ { name: "Sue", gender_id: female.id } ]
                     ],
@@ -4635,6 +4640,10 @@ names_to_create = ([
                     [
                       { description: "Climbing plant with fragrant flowers", language_id: english.id },
                       [ { name: "Sweetpea", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Whirl, flow with a whirling movement", language_id: english.id },
+                      [ { name: "Swirl", gender_id: both.id } ]
                     ],
                     [
                       { description: "Thick sweet liquid", language_id: english.id },
@@ -4702,6 +4711,10 @@ names_to_create = ([
                       { description: "Nickname of Natasha, meaning 'the Lord's birthday'", language_id: latin.id },
                       [ { name: "Tarsha", gender_id: female.id },
                         { name: "Tasha", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Pattern with coloured stripes crossing at right angles", language_id: english.id },
+                      [ { name: "Tartan", gender_id: both.id } ]
                     ],
                     [
                       { description: "A wisp of hay or hair" },
@@ -4799,6 +4812,10 @@ names_to_create = ([
                       [ { name: "Tiger Lillie", gender_id: female.id },
                         { name: "Tiger Lilly", gender_id: female.id },
                         { name: "Tiger Lily", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Short for Tiger, large striped animal of the cat family", language_id: english.id },
+                        [ { name: "Tigg", gender_id: male.id } ]
                     ],
                     [
                       { description: "Female tiger", language_id: english.id, means_cat: true },
@@ -5912,7 +5929,6 @@ meanings_to_link.each do |value|
 end
 
 # Coat Colours
-# tabby = CoatColour.create(name: "Tabby", description: "Tabby or Striped")
 # tortoiseshell = CoatColour.create(name: "Tortoiseshell", description: "Tortoiseshell, Calico or Tricolour")
 
 colours_to_link = ([
@@ -5947,6 +5963,10 @@ colours_to_link = ([
                     [
                       { name: "Spotted", description: "Spotted or Patched" },
                       [ "Bryce", "Button", "Buttons", "Checkers", "Confetti", "Domino", "Dot", "Dots", "Freckles", "Harlequin", "Harlyquin", "Patch", "Patches", "Pinto", "Polkadot", "Speckles", "Splash", "Splotchie", "Spot", "Spots", "Spotty", "Spotz", "Sprinkles", "Tiger Lillie", "Tiger Lilly", "Tiger Lily" ]
+                    ],
+                    [
+                      { name: "Tabby", description: "Tabby or Striped" },
+                      [ "Bee", "Checkers", "Lynx", "Marble", "Marbles", "Stripe", "Stripes", "Swirl", "Tabbie", "Tabby", "Tartan", "Tiger", "Tigg", "Tigress", "Tyger", "Tygrr", "Zebra" ]
                     ]
                   ])
 

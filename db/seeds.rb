@@ -726,6 +726,10 @@ names_to_create = ([
                       [ { name: "Bruno", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'dotted'", language_id: welsh.id },
+                      [ { name: "Bryce", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'brother'", language_id: american.id },
                       [ { name: "Bubba", gender_id: male.id } ]
                     ],
@@ -1203,6 +1207,10 @@ names_to_create = ([
                       [ { name: "Comet", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Pieces of coloured paper thrown at parties" },
+                      [ { name: "Confetti", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'lover of hounds'", language_id: irish_gaelic.id },
                       [ { name: "Conner", gender_id: male.id },
                         { name: "Connor", gender_id: male.id },
@@ -1482,7 +1490,7 @@ names_to_create = ([
                         { name: "Donoven", gender_id: male.id } ]
                     ],
                     [
-                      { description: "Small round mark" },
+                      { description: "Small round mark", language_id: english.id },
                       [ { name: "Dot", gender_id: both.id },
                         { name: "Dots", gender_id: both.id } ]
                     ],
@@ -3750,6 +3758,10 @@ names_to_create = ([
                         { name: "Pickles", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Marked with spots of two or more colours, mottled" },
+                      [ { name: "Pinto", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Nickname of Philip or Phillip, meaning 'horse lover'", language_id: greek.id },
                       [ { name: "Pip", gender_id: male.id } ]
                     ],
@@ -3777,6 +3789,10 @@ names_to_create = ([
                     [
                       { description: "Combination of Polly, meaning 'bitter' or 'wished-for child' and Anna, meaning 'grace'", language_id: hebrew.id },
                       [ { name: "Pollyanna", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Round evenly spaced dots on fabric", language_id: english.id },
+                      [ { name: "Polkadot", gender_id: both.id } ]
                     ],
                     [
                       { description: "Plant with showy flowers and milky juice" },
@@ -4468,6 +4484,10 @@ names_to_create = ([
                       [ { name: "Sparrow", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Spots or flecks of contrasting colour", language_id: english.id },
+                      [ { name: "Speckles", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Move quickly", language_id: english.id },
                       [ { name: "Speedie", gender_id: both.id },
                         { name: "Speedy", gender_id: both.id } ]
@@ -4493,10 +4513,22 @@ names_to_create = ([
                       [ { name: "Spirit", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Cause liquid to fly about in drops", language_id: english.id },
+                      [ { name: "Splash", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Blotched markings", language_id: english.id },
+                      [ { name: "Splotchie", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Round mark or stain", language_id: english.id },
                       [ { name: "Spot", gender_id: both.id },
                         { name: "Spots", gender_id: both.id },
                         { name: "Spotz", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Covered in spots", language_id: english.id },
+                      [ { name: "Spotty", gender_id: both.id } ]
                     ],
                     [
                       { description: "Scatter or fall in drops or particles", language_id: english.id },
@@ -5759,6 +5791,10 @@ names_to_link = ([
                     [ "Sno", "Snow", "Snowflake", "Snowy" ]
                   ],
                   [
+                    { description: "Decorate with irregular patches of colour", language_id: english.id },
+                    [ "Splash" ]
+                  ],
+                  [
                     { description: "Cake decorations", language_id: english.id },
                     [ "Sprinkles" ]
                   ],
@@ -5876,7 +5912,6 @@ meanings_to_link.each do |value|
 end
 
 # Coat Colours
-# spotted = CoatColour.create(name: "Spotted", description: "Spotted or Patched")
 # tabby = CoatColour.create(name: "Tabby", description: "Tabby or Striped")
 # tortoiseshell = CoatColour.create(name: "Tortoiseshell", description: "Tortoiseshell, Calico or Tricolour")
 
@@ -5908,6 +5943,10 @@ colours_to_link = ([
                     [
                       { name: "White", description: "White" },
                       [ "Alban", "Albina", "Albion", "Belo", "Bianca", "Bianco", "Blanca", "Blanche", "Blanco", "Blanka", "Blondie", "Bronwen", "Bronwyn", "Candesse", "Candida", "Candide", "Cloud", "Coconut", "Chrystal", "Crystal", "Diamond", "Fenella", "Frost", "Frostie", "Frosty", "Galatea", "Gaven", "Gavin", "Greta", "Gretchen", "Guinevere", "Guinivere", "Gwendolyn", "Honeysuckle", "Ice", "Ivorie", "Ivory", "Jasmin", "Jasmine", "Jazmin", "Jazmine", "Jazzmin", "Jazzmine", "Jenifur", "Jennifer", "Jennyfur", "Jenee", "Jenni", "Jennie", "Jenny", "Jumana", "Khrystal", "Krystal", "Krystle", "Lace", "Lacey", "Lacie", "Lacy", "Layce", "Laycie", "Lil", "Lill", "Lillian", "Lili", "Lillee", "Lillie", "Lilly", "Lily", "Lylli", "Magali", "Maggi", "Maggie", "Maggy", "Magnolia", "Mai", "Maida", "Maisie", "Mamie", "Marabou", "Margaret", "Margarita", "Margo", "Margot", "Marguerita", "Marguerite", "Marshmallow", "Mayme", "Mazie", "Meg", "Megan", "Meggie", "Milk", "Milky", "Miniver", "Mist", "Misti", "Mistie", "Misty", "Myst", "Mysti", "Mystie", "Napoleon", "Pearl", "Pearle", "Pearlina", "Peggy", "Periwinkle", "Rita", "Sherlock", "Sno", "Snow", "Snoball", "Snowball", "Snowbell", "Snowcone", "Snowdrop", "Snowflake", "Snowshoe", "Snowy", "Vanova", "Whitey", "Whitney", "Winter", "Wynn", "Wynter", "Yuki", "Zirconia" ]
+                    ],
+                    [
+                      { name: "Spotted", description: "Spotted or Patched" },
+                      [ "Bryce", "Button", "Buttons", "Checkers", "Confetti", "Domino", "Dot", "Dots", "Freckles", "Harlequin", "Harlyquin", "Patch", "Patches", "Pinto", "Polkadot", "Speckles", "Splash", "Splotchie", "Spot", "Spots", "Spotty", "Spotz", "Sprinkles", "Tiger Lillie", "Tiger Lilly", "Tiger Lily" ]
                     ]
                   ])
 

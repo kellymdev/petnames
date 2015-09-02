@@ -5994,43 +5994,43 @@ end
 # Coat Colours
 colours_to_link = ([
                     [
-                      { name: "Black", description: "Black" },
+                      { name: "black", description: "Black" },
                       [ "Asbolos", "Ash", "Ashes", "Ashlee", "Ashleigh", "Ashley", "Blackberry", "Blackie", "Blacky", "Blackjack", "Blake", "Bronsyn", "Brulee", "Carbon", "Ciara", "Cinder", "Cinderella", "Cinderelle", "Cinders", "Cindy", "Coal", "Colby", "Cole", "Dana", "Danna", "Dayna", "Darcy", "Darcey", "Dee", "Donovan", "Donoven", "Dougal", "Douglas", "Duane", "Dwayne", "Duanna", "Duffy", "Dunstan", "Dunston", "Ebonaire", "Ebony", "Eclipse", "Hadrian", "Inky", "Jet", "Jett", "Kala", "Keri", "Kerri", "Kerrie", "Kerry", "Kiara", "Kieran", "Laila", "Layla", "Leila", "Leilah", "Lela", "Lelah", "Leyla", "Lila", "Lilah", "Lilla", "Lyla", "Maurice", "Maurise", "Melanie", "Melinee", "Midnight", "Midnite", "Moe", "Moreno", "Moritz", "Morris", "Nero", "Nigel", "Noir", "Noire", "Obsidian", "Oriole", "Panda", "Panther", "Raven", "Sable", "Shade", "Shado", "Shadoe", "Shadow", "Smoke", "Smokee", "Smokey", "Smokie", "Smoky", "Smudge", "Smudgie", "Smudgy", "Sootie", "Sooty", "Tuxedo", "Wisp", "Zante", "Zebra", "Zelda" ]
                     ],
                     [
-                      { name: "Blue", description: "Blue, Grey and Silver" },
+                      { name: "blue", description: "Blue, Grey and Silver" },
                       [ "Amber", "Ambyr", "Ava", "Azure", "Azurine", "Bleu", "Blu", "Blue", "Bluebell", "Bluebelle", "Blueberry", "Dillan", "Dillon", "Dylan", "Eben", "Ebenezer", "Floyd", "Floydd", "Frostie", "Frosty", "Halle", "Hallee", "Halley", "Hallie", "Indigo", "Jay", "Kong", "Leucos", "Lloyd", "Marina", "Mariner", "Marissa", "Mercury", "Murdoch", "Murphy", "Nickel", "Periwinkle", "Platinum", "Quicksilver", "Romey", "Rommy", "Romy", "Rosemary", "Rosey", "Rosi", "Rosie", "Rosy", "Sapphire", "Silva", "Silver", "Sky", "Skye", "Skyy", "Smoke", "Smokee", "Smokey", "Smokie", "Smoky", "Storm", "Stormy", "Tupelo", "Vega", "Wisp", "Zaffre", "Zafiro", "Zircon" ]
                     ],
                     [
-                      { name: "Brown", description: "Brown or Chocolate" },
+                      { name: "brown", description: "Brown or Chocolate" },
                       [ "Acorn", "Bruno", "Cappuccino", "Caramel", "Castana", "Choco", "Cinnamon", "Coco", "Cocoa", "Coffee", "Cola", "Duncan", "Dusty", "Hazel", "Java", "Kiwi", "Koko", "Latte", "Maple", "Mocca", "Mocha", "Mochachino", "Molasses", "Mousse", "Mushroom", "Oberon", "Pardo", "Peanut", "Pud", "Pudd", "Pudding", "Seal", "Siena", "Sienna", "Sparrow", "Sultana", "Syrup", "Tamarind", "Tawnee", "Tawney", "Tawny", "Teak", "Teakwood", "Toffee", "Truffle", "Truffles", "Walnut" ]
                     ],
                     [
-                      { name: "Cream", description: "Cream or Golden" },
+                      { name: "cream", description: "Cream or Golden" },
                       [ "Amarillo", "Bee", "Bowie", "Boyd", "Bumblebee", "Butter", "Butters", "Buttercup", "Butterscotch", "Camembert", "Cameo", "Champagne", "Cleopatra", "Cous Cous", "Cream", "Creme", "Crumpet", "Elvira", "Estee", "Estelle", "Febe", "Flavia", "Fudge", "Fudgecake", "Goldie", "Goldy", "Honee", "Honey", "Honeydew", "Hunny", "Ivorie", "Ivory", "Jasmin", "Jasmine", "Jazmin", "Jazmine", "Jazzmin", "Jazzmine", "Kameo", "Macaroni", "Melina", "Melissa", "Midas", "Misha", "Missey", "Missy", "Muffin", "Muffins", "Nugget", "Oatmeal", "Ochre", "Pancake", "Pancakes", "Patticake", "Peach", "Peaches", "Pokey", "Pokie", "Primrose", "Puff", "Saffron", "Sandy", "Tansy", "Tate", "Vanilla", "Wafer", "Waffle", "Waffles", "Xanthe", "Zoroaster" ]
                     ],
                     [
-                      { name: "Lilac", description: "Lilac" },
+                      { name: "lilac", description: "Lilac" },
                       [ "Amethyst", "Azure", "Azurine", "Heather", "Hyacinth", "Iolanthe", "Lavenda", "Lavender", "Plum", "Tibouchina", "Tupelo", "Violet", "Violetta", "Violette" ]
                     ],
                     [
-                      { name: "Red", description: "Red, Ruby, Apricot or Ginger" },
+                      { name: "red", description: "Red, Ruby, Apricot or Ginger" },
                       [ "Adam", "Addie", "Addison", "Addy", "Aedan", "Aidan", "Aiden", "Amber", "Ambyr", "Apollo", "Autumn", "Aydan", "Blaze", "Burns", "Chili", "Chilli", "Clancey", "Clancy", "Copper", "Elaine", "Elane", "Elayne", "Elena", "Ele", "Elle", "Ellen", "Feenix", "Flame", "Flynn", "Foenix", "Gilroy", "Ginge", "Ginger", "Gingi", "Gingie", "Haldi", "Helio", "Jasper", "Keegan", "Keighan", "Ketchup", "Layne", "Leina", "Lena", "Leyna", "Lina", "Mahogany", "Mahogony", "Mandarin", "Naranja", "OJ", "Orange", "Oren", "Paprika", "Phoenix", "Phoenyx", "Pumpkin", "Ra", "Radley", "Red", "Robin", "Roree", "Rory", "Rouge", "Roan", "Rowan", "Rowen", "Roy", "Rubi", "Ruby", "Rufus", "Russell", "Rust", "Rusty", "Saffron", "Salsa", "Sampson", "Samson", "Scarlet", "Scarlett", "Shani", "Siena", "Sienna", "Soleil", "Sonny", "Sparky", "Strawberry", "Sunni", "Sunnie", "Sunny", "Tabasco", "Tamarillo", "Tamarind", "Tiger Lillie", "Tiger Lilly", "Tiger Lily", "Tyson", "Yan" ]
                     ],
                     [
-                      { name: "White", description: "White" },
+                      { name: "white", description: "White" },
                       [ "Alban", "Albina", "Albion", "Belo", "Bianca", "Bianco", "Blanca", "Blanche", "Blanco", "Blanka", "Blondie", "Bronwen", "Bronwyn", "Candesse", "Candida", "Candide", "Cloud", "Coconut", "Chrystal", "Crystal", "Diamond", "Fenella", "Frost", "Frostie", "Frosty", "Galatea", "Gaven", "Gavin", "Greta", "Gretchen", "Guinevere", "Guinivere", "Gwendolyn", "Honeysuckle", "Ice", "Ivorie", "Ivory", "Jasmin", "Jasmine", "Jazmin", "Jazmine", "Jazzmin", "Jazzmine", "Jenifur", "Jennifer", "Jennyfur", "Jenee", "Jenni", "Jennie", "Jenny", "Jumana", "Khrystal", "Krystal", "Krystle", "Lace", "Lacey", "Lacie", "Lacy", "Layce", "Laycie", "Lil", "Lill", "Lillian", "Lili", "Lillee", "Lillie", "Lilly", "Lily", "Lylli", "Magali", "Maggi", "Maggie", "Maggy", "Magnolia", "Mai", "Maida", "Maisie", "Mamie", "Marabou", "Margaret", "Margarita", "Margo", "Margot", "Marguerita", "Marguerite", "Marshmallow", "Mayme", "Mazie", "Meg", "Megan", "Meggie", "Milk", "Milky", "Miniver", "Mist", "Misti", "Mistie", "Misty", "Myst", "Mysti", "Mystie", "Napoleon", "Pearl", "Pearle", "Pearlina", "Peggy", "Periwinkle", "Rita", "Sherlock", "Sno", "Snow", "Snoball", "Snowball", "Snowbell", "Snowcone", "Snowdrop", "Snowflake", "Snowshoe", "Snowy", "Vanova", "Whitey", "Whitney", "Winter", "Wynn", "Wynter", "Yuki", "Zirconia" ]
                     ],
                     [
-                      { name: "Spotted", description: "Spotted or Patched" },
+                      { name: "spotted", description: "Spotted or Patched" },
                       [ "Bryce", "Button", "Buttons", "Checkers", "Confetti", "Domino", "Dot", "Dots", "Freckles", "Harlequin", "Harlyquin", "Patch", "Patches", "Pinto", "Polkadot", "Speckles", "Splash", "Splotchie", "Spot", "Spots", "Spotty", "Spotz", "Sprinkles", "Tiger Lillie", "Tiger Lilly", "Tiger Lily" ]
                     ],
                     [
-                      { name: "Tabby", description: "Tabby or Striped" },
+                      { name: "tabby", description: "Tabby or Striped" },
                       [ "Bee", "Checkers", "Lynx", "Marble", "Marbles", "Stripe", "Stripes", "Swirl", "Tabbie", "Tabby", "Tartan", "Tiger", "Tigg", "Tigress", "Tyger", "Tygrr", "Zebra" ]
                     ],
                     [
-                      { name: "Tortoiseshell", description: "Tortoiseshell, Calico or Tricolour" },
+                      { name: "tortoiseshell", description: "Tortoiseshell, Calico or Tricolour" },
                       [ "Calico", "Checkers", "Chroma", "Confetti", "Farrago", "Graffiti", "Iris", "Isa", "Kallico", "Marble", "Marbles", "Medley", "Melange", "Misto", "Neopolitan", "Patch", "Patches", "Pinto", "Rainbow", "Splash", "Splotchie", "Tai", "Tessera", "Tiger Lillie", "Tiger Lilly", "Tiger Lily", "Tortie", "Torty", "Trinity", "Tufti", "Tufty", "Tutti-Fruitee" ]
                     ]
                   ])

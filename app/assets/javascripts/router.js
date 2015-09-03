@@ -2,6 +2,7 @@ $(document).ready(function() {
   var nameController = new NameController();
   var meaningController = new MeaningController();
   var colourController = new ColourController();
+  var pairController = new PairController();
 
   nameController.homeMenuRequest();
 
@@ -51,5 +52,10 @@ $(document).ready(function() {
     e.preventDefault();
     var url = $(this).attr('href');
     nameController.randomNameRequest();
+  });
+
+  $('#content').on('click', '.pairs-button', function(e) {
+    e.preventDefault();
+    pairController.pairListRequest();
   });
 });

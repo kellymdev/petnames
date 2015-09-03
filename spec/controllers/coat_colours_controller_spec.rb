@@ -48,5 +48,6 @@ RSpec.describe CoatColoursController, type: :controller do
 
   after do
     CoatColour.destroy_all
+    Name.destroy_all
   end
 end

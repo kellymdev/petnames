@@ -104,17 +104,9 @@ NameView.prototype.displaySearchResults = function(data) {
 };
 
 NameView.prototype.displayListError = function() {
-  ViewHelper.prototype.clearPageContent();
-
-  var errorHtml = '<div class="error"><p>Sorry, we couldn\'t find that name list.</p></div>';
-
-  $('#content').append(errorHtml);
+  ViewHelper.prototype.displayError('Sorry, we couldn\'t find that name list.');
 };
 
 NameView.prototype.displayNameError = function() {
-  ViewHelper.prototype.clearPageContent();
-
-  var errorHtml = '<div class="error"><p>Sorry, we couldn\'t find that name.</p></div>';
-
-  $('#content').append(errorHtml);
+  ViewHelper.prototype.displayError('Sorry, we couldn\'t find that name.');
 };

@@ -64,21 +64,9 @@ MeaningView.prototype.displayAnimalMeanings = function(data) {
 };
 
 MeaningView.prototype.displayMeaningError = function() {
-  ViewHelper.prototype.clearPageContent();
-
-  errorHtml = '<div class="error">' +
-                '<p>Sorry, we couldn\'t find that meaning.</p>' +
-              '</div>';
-
-  $('#content').append(errorHtml);
+  ViewHelper.prototype.displayError('Sorry, we couldn\'t find that meaning.');
 };
 
 MeaningView.prototype.displayAnimalMeaningError = function() {
-  ViewHelper.prototype.clearPageContent();
-
-  errorHtml = '<div class="error">' +
-                '<p>Sorry, we couldn\'t find any names with that meaning.</p>' +
-              '</div>';
-
-  $('#content').append(errorHtml);
+  ViewHelper.prototype.displayError('Sorry, we couldn\'t find any names with that meaning.');
 };

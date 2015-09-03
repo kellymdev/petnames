@@ -30,9 +30,5 @@ ColourView.prototype.displayColourDetails = function(data) {
 };
 
 ColourView.prototype.displayColourError = function() {
-  ViewHelper.prototype.clearPageContent();
-
-  var errorHtml = '<div class="error"><p>Sorry, we couldn\'t find that colour.</p></div>';
-
-  $('#content').append(errorHtml);
+  ViewHelper.prototype.displayError('Sorry, we couldn\'t find that colour.');
 };

@@ -6042,3 +6042,42 @@ colours_to_link.each do |details|
     colour.names.push(Name.where(name: name))
   end
 end
+
+# Paired Names
+pairs = ([
+          { names: "Adam & Eve", description: "After the biblical characters" },
+          { names: "Bacon & Eggs", description: "Cooked breakfast" },
+          { names: "Bits & Pieces", description: "Small things" },
+          { names: "Burger & Fries", description: "Fast food meal" },
+          { names: "Cheese & Crackers", description: "Snack or appetizer, often served with grapes or wine" },
+          { names: "Coffee & Cream", description: "Frothy coffee" },
+          { names: "Cookie & Cutter", description: "After the kitchen utensils used to shape cookies" },
+          { names: "Cookies & Cream", description: "Ice cream flavour" },
+          { names: "Fish & Chips", description: "Fast food meal" },
+          { names: "Ketchup & Mustard", description: "Sauces for hotdogs, fries or burgers" },
+          { names: "Latte & Mocha", description: "Types of coffee" },
+          { names: "Lock & Key", description: "To keep something safe" },
+          { names: "Macaroni & Cheese", description: "Pasta dish" },
+          { names: "Milk & Cookies", description: "Afternoon snack" },
+          { names: "Pancakes & Syrup", description: "Breakfast food" },
+          { names: "Pancakes & Waffles", description: "Breakfast foods" },
+          { names: "Peaches & Cream", description: "Type of dessert" },
+          { names: "Peanut & Butter", description: "After the spread" },
+          { names: "Peanut Butter & Jelly", description: "After the spreads" },
+          { names: "Pins & Needles", description: "Instruments for sewing" },
+          { names: "Ribbons & Bows", description: "Silky material for decorations" },
+          { names: "Rock & Roll", description: "Type of music" },
+          { names: "Rum & Raisin", description: "Ice cream flavour" },
+          { names: "Salt & Pepper", description: "Seasonings for cooking" },
+          { names: "Salt & Vinegar", description: "Seasonings for cooking" },
+          { names: "Shoes & Socks", description: "To keep your feet warm" },
+          { names: "Strawberries & Cream", description: "Type of dessert" },
+          { names: "Sugar & Spice", description: "Flavourings for baking" },
+          { names: "Surf & Sand", description: "The beach" },
+          { names: "Yin & Yang", description: "Chinese philosophy that all things in the universe contain two opposite aspects - Yin & Yang - which are, at the same time, both interdependent and in conflict" },
+          { names: "Zip & Zap", description: "Sound effects" }
+        ])
+
+pairs.each do |pair|
+  Pair.create(names: pair[:names], description: pair[:description])
+end

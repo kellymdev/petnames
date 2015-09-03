@@ -11,7 +11,7 @@
     <h3>Names by Colour</h3>
     <ul class="colour-list">
       <% @colours.each do |colour| %>
-        <li id="<%= colour.name %>"><a href="colours/<%= colour.name %>"><%= colour.description %></a></li>
+        <li id="<%= colour.name %>"><a href="/coat_colours/<%= colour.name %>"><%= colour.description %></a></li>
       <% end %>
     </ul>
   </div>

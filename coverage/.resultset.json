@@ -231,6 +231,15 @@
         null,
         null
       ],
+      "/Users/Kel/Documents/dev/git/petnames/app/controllers/pairs_controller.rb": [
+        1,
+        null,
+        1,
+        2,
+        null,
+        null,
+        null
+      ],
       "/Users/Kel/Documents/dev/git/petnames/app/models/coat_colour.rb": [
         1,
         1,
@@ -278,6 +287,6 @@
         null
       ]
     },
-    "timestamp": 1441245161
+    "timestamp": 1441248216
   }
 }

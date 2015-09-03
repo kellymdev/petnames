@@ -10,6 +10,8 @@ Rails.application.routes.draw do
   get '/meanings/dog', to: 'meanings#dog', as: :meaning_dog
   get '/meanings/bird', to: 'meanings#bird', as: :meaning_bird
 
+  get '/coat_colours/:colour', to: 'coat_colours#show', as: :coat_colour
+
   resources :names, only: :show
   resources :meanings, only: :show
   resources :coat_colours, only: :index

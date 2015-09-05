@@ -472,6 +472,10 @@ names_to_create = ([
                         { name: "Azurine", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Egyptian cat goddess", means_cat: true },
+                      [ { name: "Baast" } ]
+                    ],
+                    [
                       { description: "Meaning 'baby'" },
                       [ { name: "Baba", gender_id: female.id } ]
                     ],
@@ -484,6 +488,10 @@ names_to_create = ([
                       [ { name: "Baby", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'kisses'", language_id: italian.id },
+                      [ { name: "Baci" } ]
+                    ],
+                    [
                       { description: "After the animal" },
                       [ { name: "Badger", gender_id: male.id } ]
                     ],
@@ -493,8 +501,21 @@ names_to_create = ([
                         { name: "Bayley", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'brave friend'", language_id: ancient_german.id },
+                      [ { name: "Baldwin", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Tropical Indonesian island" },
                       [ { name: "Bali" } ]
+                    ],
+                    [
+                      { description: "One of the three magi who brought gifts to baby Jesus" },
+                      [ { name: "Balthazar", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'little girl'", language_id: italian.id },
+                      [ { name: "Bambi", gender_id: female.id },
+                        { name: "Bambina", gender_id: female.id } ]
                     ],
                     [
                       { description: "Giant tropical grass with hollow stems" },
@@ -503,6 +524,19 @@ names_to_create = ([
                     [
                       { description: "A robber" },
                       [ { name: "Bandit"} ]
+                    ],
+                    [
+                      { description: "After the guitar-like instrument with a circular body" },
+                      [ { name: "Banjo" } ]
+                    ],
+                    [
+                      { description: "Nickname of Barbara, meaning 'foreigner'", language_id: greek.id },
+                      [ { name: "Barb", gender_id: female.id },
+                        { name: "Barbie", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'foreigner'", language_id: greek.id },
+                      [ { name: "Barbara", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'birch tree clearing'", language_id: old_english.id },
@@ -519,8 +553,24 @@ names_to_create = ([
                         { name: "Barney", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'nobleman'", language_id: english.id },
+                      [ { name: "Baron", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'spear'", language_id: irish_gaelic.id },
+                      [ { name: "Barry", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Nickname of Bartholomew (meaning 'son of Talmai'), Barton (meaning 'barley settlement') and Bertram (meaning 'bright raven')", means_bird: true },
                       [ { name: "Bart", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'son of Talmai'", language_id: greek.id },
+                      [ { name: "Bartholomew", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'Birch-tree forest'", language_id: old_english.id },
+                      [ { name: "Bartley", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'royal'", language_id: greek.id },
@@ -535,6 +585,10 @@ names_to_create = ([
                       [ { name: "Baxter", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Nickname of Barry, meaning 'spear'", language_id: irish_gaelic.id },
+                      [ { name: "Baz", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Edible smooth kidney-shaped seeds of a plant" },
                       [ { name: "Bean" },
                         { name: "Beans" } ]
@@ -545,12 +599,17 @@ names_to_create = ([
                     ],
                     [
                       { description: "Meaning 'voyager'", language_id: latin.id },
-                      [ { name: "Beatrice", gender_id: female.id },
+                      [ { name: "Bea", gender_id: female.id },
+                        { name: "Beatrice", gender_id: female.id },
                         { name: "Beatrix", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'handsome'", language_id: french.id },
                       [ { name: "Beau", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Giving pleasure to the sight", language_id: english.id },
+                      [ { name: "Beauty", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'baby'", gender_id: french.id },
@@ -566,12 +625,24 @@ names_to_create = ([
                       [ { name: "Bee", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Famous German composer" },
+                      [ { name: "Beethoven" } ]
+                    ],
+                    [
+                      { description: "Meaning 'crafty'", language_id: ancient_german.id },
+                      [ { name: "Belinda", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Cup-shaped metal instrument which makes a ringing sound" },
                       [ { name: "Bell", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'beautiful'", language_id: italian.id },
                       [ { name: "Bella", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'beautiful lady'", language_id: italian.id },
+                      [ { name: "Belladonna", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'friend'" },
@@ -600,12 +671,31 @@ names_to_create = ([
                       [ { name: "Benji", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'blessed'", language_id: latin.id },
+                      [ { name: "Bennett", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'son of Benjamin'" },
                       [ { name: "Benson", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'grass clearing'", language_id: old_english.id },
                       [ { name: "Bentley", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'mountain'", language_id: ancient_german.id },
+                      [ { name: "Berg", gender_id: male.id },
+                        { name: "Bergen", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'strong bear'", language_id: ancient_german.id },
+                      [ { name: "Bernadette", gender_id: female.id },
+                        { name: "Bernadine", gender_id: female.id },
+                        { name: "Bernard", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'victorious'" },
+                      [ { name: "Bernice" } ]
                     ],
                     [
                       { description: "Nickname of Bernard, meaning 'strong bear'", language_id: ancient_german.id },
@@ -618,11 +708,18 @@ names_to_create = ([
                     ],
                     [
                       { description: "Nickname of Albert (meaning 'exalted', 'shining with fame') and Robert (meaning 'shining with fame')" },
-                      [ { name: "Bert", gender_id: male.id } ]
+                      [ { name: "Bert", gender_id: male.id },
+                        { name: "Berti", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'bright raven'", language_id: ancient_german.id },
+                      [ { name: "Bertram", gender_id: male.id } ]
                     ],
                     [
                       { description: "Nickname of Elizabeth, meaning 'God's promise'", language_id: hebrew.id },
-                      [ { name: "Betsy", gender_id: female.id },
+                      [ { name: "Bess", gender_id: female.id },
+                        { name: "Bessie", gender_id: female.id },
+                        { name: "Betsy", gender_id: female.id },
                         { name: "Betty", gender_id: female.id },
                         { name: "Biffy", gender_id: female.id },
                         { name: "Bifi", gender_id: female.id },
@@ -635,9 +732,21 @@ names_to_create = ([
                         { name: "Lizzy", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'house'", language_id: hebrew.id },
+                      [ { name: "Beth", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Village near Jerusalem" },
+                      [ { name: "Bethany", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'white'", language_id: italian.id },
                       [ { name: "Bianca", gender_id: female.id },
                         { name: "Bianco", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'Lady of the house'", language_id: persian.id },
+                      [ { name: "Bibi", gender_id: both.id } ]
                     ],
                     [
                       { description: "From biddibid, meaning 'small'" },
@@ -682,6 +791,10 @@ names_to_create = ([
                       [ { name: "Blade" } ]
                     ],
                     [
+                      { description: "Meaning 'lisping'", language_id: latin.id },
+                      [ { name: "Blaise", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'black'", language_id: old_english.id },
                       [ { name: "Blake", gender_id: both.id } ]
                     ],
@@ -707,6 +820,10 @@ names_to_create = ([
                       [ { name: "Bleu", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Perfect happiness, joy, cheer, gladness", language_id: english.id },
+                      [ { name: "Bliss", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "To attack suddenly" },
                       [ { name: "Blitz", gender_id: both.id } ]
                     ],
@@ -716,7 +833,7 @@ names_to_create = ([
                         { name: "Wynn" } ]
                     ],
                     [
-                      { description: "Meaning 'flower-like'" },
+                      { description: "Meaning 'flower-like'", language_id: english.id },
                       [ { name: "Blossom", gender_id: female.id } ]
                     ],
                     [
@@ -749,6 +866,22 @@ names_to_create = ([
                       [ { name: "Bogart", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'good'", language_id: french.id },
+                      [ { name: "Bon", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Candy" },
+                      [ { name: "Bonbon", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'peasant farmer'", language_id: old_english.id },
+                      [ { name: "Bond", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'pretty'", language_id: spanish.id },
+                      [ { name: "Bonita", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'good girl'", language_id: french.id },
                       [ { name: "Bonnie", gender_id: female.id } ]
                     ],
@@ -778,6 +911,14 @@ names_to_create = ([
                         { name: "Borris", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Person in charge", language_id: english.id },
+                      [ { name: "Boss", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Generosity, official reward", language_id: english.id },
+                      [ { name: "Bounty", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Loops in a ribbon" },
                       [ { name: "Bow" },
                         { name: "Bowe" } ]
@@ -791,8 +932,20 @@ names_to_create = ([
                       [ { name: "Boy", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'defender'" },
+                      [ { name: "Boyce", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'blond'", language_id: gaelic.id },
                       [ { name: "Boyd", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'mighty'" },
+                      [ { name: "Bradford", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'brawny-chested'", language_id: gaelic.id },
+                      [ { name: "Brady", gender_id: both.id } ]
                     ],
                     [
                       { description: "Strong alcoholic spirit distilled from wine" },
@@ -805,16 +958,42 @@ names_to_create = ([
                       [ { name: "Brandon", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'exalted and high-minded'", language_id: gaelic.id },
+                        [ { name: "Breanna", gender_id: female.id },
+                          { name: "Brianna", gender_id: female.id },
+                          { name: "Brina", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'light wind'" },
                       [ { name: "Breeze" } ]
                     ],
                     [
                       { description: "Meaning 'exalted and high-minded'", language_id: ancient_celtic.id },
-                      [ { name: "Brian", gender_id: both.id } ]
+                      [ { name: "Brian", gender_id: both.id },
+                        { name: "Bryan", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Wild rose with prickly thorns" },
+                      [ { name: "Briar", gender_id: female.id },
+                        { name: "Brietta", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'exalted one'", language_id: gaelic.id },
+                      [ { name: "Bridget", gender_id: female.id },
+                        { name: "Bridgette", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Name of a flowering vine used in folk medicine" },
+                      [ { name: "Briony", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'meeting place by the bridge'", language_id: old_english.id },
+                      [ { name: "Bristol", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'from Brittany, in Northern France' or 'from Great Britain'" },
-                      [ { name: "Britney", gender_id: female.id },
+                      [ { name: "Britannia", gender_id: female.id },
+                        { name: "Britney", gender_id: female.id },
                         { name: "Brittany", gender_id: female.id },
                         { name: "Brittney", gender_id: female.id } ]
                     ],
@@ -836,6 +1015,10 @@ names_to_create = ([
                       { description: "Meaning 'white breasted'", language_id: welsh.id },
                       [ { name: "Bronwen", gender_id: female.id },
                         { name: "Bronwyn", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'a small stream'", language_id: ancient_german.id },
+                      [ { name: "Brooke", gender_id: both.id } ]
                     ],
                     [
                       { description: "Combination of the names Brooke (meaning 'small stream') and Lynn (meaning 'ruddy complexion')" },
@@ -880,12 +1063,20 @@ names_to_create = ([
                         { name: "Buddy", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'comic'", language_id: italian.id },
+                      [ { name: "Buffo", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Large bee", language_id: english.id },
                       [ { name: "Bumblebee", gender_id: both.id } ]
                     ],
                     [
                       { description: "Nickname of Bernice, meaning 'bringer of victory'", language_id: greek.id },
                       [ { name: "Bunny", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'little lamb'", language_id: english.id },
+                      [ { name: "Bunty", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'stream'", language_id: middle_english.id },
@@ -916,6 +1107,11 @@ names_to_create = ([
                       [ { name: "Buttercup", language_id: female.id } ]
                     ],
                     [
+                      { description: "After the insect with four large brightly colored wings", language_id: english.id },
+                      [ { name: "Butterflies", gender_id: both.id },
+                        { name: "Butterfly", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Hard toffee-like sweet", language_id: english.id },
                       [ { name: "Butterscotch", gender_id: both.id } ]
                     ],
@@ -927,6 +1123,14 @@ names_to_create = ([
                       { description: "Discs or knobs sewn onto a garment", language_id: english.id },
                       [ { name: "Button", gender_id: both.id },
                         { name: "Buttons", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'bright'" },
+                      [ { name: "Byrne", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'sensitive'" },
+                      [ { name: "Byron", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'head of hair'", language_id: latin.id },
@@ -5497,6 +5701,10 @@ names_to_link = ([
                   [
                     { description: "Nickname of Berenice (meaning 'bringer of victory'), Bernadette and Bernadine (meaning 'strong bear')" },
                     [ "Bernie" ]
+                  ],
+                  [
+                    { description: "From the French beaubelot meaning 'toy'", language_id: french.id },
+                    [ "Bibi" ]
                   ],
                   [
                     { description: "After the character Puss in Boots" },

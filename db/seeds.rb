@@ -110,6 +110,15 @@ names_to_create = ([
                         { name: "Aydan", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'good'", language_id: greek.id },
+                      [ { name: "Aggie", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'beloved one'", language_id: old_french.id },
+                      [ { name: "Aimee", gender_id: female.id },
+                        { name: "Amy", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'eagle'", means_bird: true },
                       [ { name: "Ajax", gender_id: male.id } ]
                     ],
@@ -179,8 +188,20 @@ names_to_create = ([
                       [ { name: "Alpha", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'prepared for battle'", language_id: ancient_german.id },
+                      [ { name: "Alphonso", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'magical friend'", language_id: old_english.id },
                       [ { name: "Alvin", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'God's love'", language_id: latin.id },
+                      [ { name: "Amadeus", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'lovable'", language_id: latin.id },
+                      [ { name: "Amanda", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'yellow'", language_id: spanish.id },
@@ -208,6 +229,22 @@ names_to_create = ([
                       [ { name: "Amie", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'friend'", language_id: spanish.id },
+                      [ { name: "Amigo", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'borne by God'", language_id: hebrew.id },
+                      [ { name: "Amos", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'resurrection'", language_id: greek.id },
+                      [ { name: "Anastasia", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Andrea, meaning 'manly'", language_id: greek.id },
+                      [ { name: "Andie", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'manly'", language_id: greek.id },
                       [ { name: "Andre", gender_id: both.id },
                         { name: "Andrea", gender_id: both.id },
@@ -219,7 +256,17 @@ names_to_create = ([
                     ],
                     [
                       { description: "Meaning 'messenger from God'", language_id: greek.id },
-                      [ { name: "Angel", gender_id: both.id } ]
+                      [ { name: "Angel", gender_id: both.id },
+                        { name: "Angelina", gender_id: female.id },
+                        { name: "Angelo", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'like an angel'", language_id: latin.id },
+                      [ { name: "Angelica", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Angela (meaning 'messenger from God') and Angelica (meaning 'like an angel')" },
+                      [ { name: "Angie", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'unique choice'", language_id: gaelic.id },
@@ -227,13 +274,33 @@ names_to_create = ([
                     ],
                     [
                       { description: "Meaning 'favoured grace'", language_id: hebrew.id },
-                      [ { name: "Ann", gender_id: female.id },
+                      [ { name: "Anita", gender_id: female.id },
+                        { name: "Ann", gender_id: female.id },
                         { name: "Anna", gender_id: female.id },
                         { name: "Annie", gender_id: female.id } ]
                     ],
                     [
                       { description: "Combination of Anna and Belle, meaning 'beautiful', 'loveable', 'graceful'" },
                       [ { name: "Annabelle", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "From an expression meaning 'Anna and Lisa'", language_id: french.id },
+                      [ { name: "Annalise", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Anna, meaning 'favoured grace'", language_id: hebrew.id },
+                      [ { name: "Annika", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "From a Latin expression whose meaning has been lost" },
+                      [ { name: "Anthony", gender_id: both.id },
+                        { name: "Antoinette", gender_id: female.id },
+                        { name: "Antonio", gender_id: both.id },
+                        { name: "Cassius", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'resurrection'", language_id: greek.id },
+                      [ { name: "Anya", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'foam'", language_id: greek.id },
@@ -248,20 +315,66 @@ names_to_create = ([
                       [ { name: "Apple", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning spring", language_id: american.id },
+                      [ { name: "April", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'prayerful'", language_id: latin.id },
+                      [ { name: "Arabella", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Famous swordsman from 'The Three Musketeers'"},
+                      [ { name: "Aramis", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'genuine and brave'", language_id: ancient_german.id },
                       [ { name: "Archie", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'pondering'", language_id: greek.id },
+                      [ { name: "Archimedes", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'God's lioness'", language_id: hebrew.id, means_cat: true },
-                      [ { name: "Ariel", gender_id: both.id } ]
+                      [ { name: "Aria", gender_id: female.id },
+                        { name: "Ariel", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'pledge' or 'promise'", language_id: irish_gaelic.id },
+                      [ { name: "Arlene", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'eagle wood'", language_id: old_english.id },
+                      [ { name: "Arlie", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'strong fighter'", language_id: middle_english.id },
+                      [ { name: "Armstrong", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Arnold, meaning 'powerful eagle'", language_id: ancient_german.id, means_bird: true },
+                      [ { name: "Arnie", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'powerful eagle'", language_id: ancient_german.id, means_bird: true },
                       [ { name: "Arnold", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Weapon for hunting", language_id: english.id },
+                      [ { name: "Arrow", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Arthur, meaning 'eagle'", language_id: ancient_german.id, means_bird: true },
+                      [ { name: "Art", gender_id: male.id },
+                        { name: "Artie", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Greek goddess of the moon and goddess of the hunt" },
                       [ { name: "Artemis", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'Thor, the eagle'", language_id: ancient_german.id },
+                      [ { name: "Arthur", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'muse'", language_id: welsh.id },
@@ -307,8 +420,20 @@ names_to_create = ([
                       [ { name: "Astrid", gender_id: female.id } ]
                     ],
                     [
+                      { description: "To do with stars and space" },
+                      [ { name: "Astro", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meteor", language_id: english.id },
+                      [ { name: "Astroid", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'wise'", language_id: greek.id },
                       [ { name: "Athena", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'magical advisor'", language_id: ancient_german.id },
+                      [ { name: "Aubrey", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'noble strength'", language_id: old_english.id },
@@ -320,7 +445,10 @@ names_to_create = ([
                     ],
                     [
                       { description: "Meaning 'revered'", language_id: latin.id },
-                      [ { name: "Austin", gender_id: both.id },
+                      [ { name: "August", gender_id: male.id },
+                        { name: "Augusta", gender_id: female.id },
+                        { name: "Augustus", gender_id: male.id },
+                        { name: "Austin", gender_id: both.id },
                         { name: "Gus", gender_id: male.id } ]
                     ],
                     [
@@ -945,10 +1073,6 @@ names_to_create = ([
                     [
                       { description: "Meaning 'curly-headed'", language_id: gaelic.id },
                       [ { name: "Cassidy", gender_id: both.id } ]
-                    ],
-                    [
-                      { description: "From a Latin expression whose meaning has been lost" },
-                      [ { name: "Cassius", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'chestnut'", language_id: spanish.id },

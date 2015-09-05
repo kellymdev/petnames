@@ -17,6 +17,7 @@ burmese = Language.create(name: "Burmese")
 celtic = Language.create(name: "Celtic")
 chinese = Language.create(name: "Chinese")
 choctaw = Language.create(name: "Choctaw")
+cornish = Language.create(name: "Cornish")
 czech = Language.create(name: "Czech")
 dutch = Language.create(name: "Dutch")
 english = Language.create(name: "English")
@@ -131,6 +132,11 @@ names_to_create = ([
                       [ { name: "Alban", gender_id: male.id },
                         { name: "Albina", gender_id: female.id },
                         { name: "Albion", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'exalted, shining with fame'", language_id: ancient_german.id },
+                      [ { name: "Albert", gender_id: male.id },
+                        { name: "Dilbert", gender_id: male.id } ]
                     ],
                     [
                       { description: "Nickname of Albert, meaning 'exalted, shining with fame'", language_id: ancient_german.id },
@@ -1316,6 +1322,7 @@ names_to_create = ([
                         { name: "Cassia", gender_id: female.id },
                         { name: "Cassie", gender_id: female.id },
                         { name: "Cassy", gender_id: female.id },
+                        { name: "Dionysus", gender_id: male.id },
                         { name: "Orion", gender_id: male.id },
                         { name: "Paris", gender_id: both.id },
                         { name: "Persephone", gender_id: female.id } ]
@@ -1920,16 +1927,29 @@ names_to_create = ([
                       [ { name: "Dallas", gender_id: both.id } ]
                     ],
                     [
-                      { description: "Meaning 'tamer' ", language_id: greek.id },
+                      { description: "Meaning 'tamer'", language_id: greek.id },
                       [ { name: "Damian", gender_id: male.id },
                         { name: "Damien", gender_id: male.id } ]
                     ],
                     [
-                      { description: "Meaning 'judge'", language_id: hebrew.id },
+                      { description: "From the French 'dente de lion', meaning 'tooth of lion'", language_id: french.id },
+                      [ { name: "Dandelion", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'God is my judge'", language_id: hebrew.id },
                       [ { name: "Dan", gender_id: both.id },
                         { name: "Dana", gender_id: both.id },
+                        { name: "Daniel", gender_id: both.id },
+                        { name: "Daniella", gender_id: female.id },
+                        { name: "Danielle", gender_id: female.id },
                         { name: "Danna", gender_id: both.id },
-                        { name: "Dayna", gender_id: female.id } ]
+                        { name: "Dayna", gender_id: female.id },
+                        { name: "Dhani", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Dan, Daniel and Danielle, meaning 'God is my judge'", language_id: hebrew.id },
+                      [ { name: "Dani", gender_id: female.id },
+                        { name: "Danny", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'enduring'", language_id: italian.id },
@@ -1945,10 +1965,36 @@ names_to_create = ([
                         { name: "Darcy", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'gift'", language_id: slavic.id },
+                      [ { name: "Darie", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'he who holds on well to his possessions'", language_id: greek.id },
+                      [ { name: "Darius", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'darling'", language_id: english.id },
                       [ { name: "Darla", gender_id: female.id },
                         { name: "Darleen", gender_id: female.id },
                         { name: "Darlene", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning ‘beloved’", language_id: norman_french.id },
+                      [ { name: "Darrell", gender_id: both.id },
+                        { name: "Darryl", gender_id: both.id },
+                        { name: "Daryl", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'great'", language_id: gaelic.id },
+                      [ { name: "Darren", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'page'", language_id: old_french.id },
+                      [ { name: "Dash", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'myrtle tree'", language_id: hebrew.id },
+                      [ { name: "Dassah", gender_id: female.id } ]
                     ],
                     [
                       { description: "Nickname of David, meaning 'beloved'", language_id: hebrew.id },
@@ -1964,12 +2010,35 @@ names_to_create = ([
                         { name: "Dawson", gender_id: male.id } ]
                     ],
                     [
+                      { description: "First light of day", language_id: english.id },
+                      [ { name: "Dawn", gender_id: female.id },
+                        { name: "Dawne", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Impress with skill or beauty" },
                       [ { name: "Dazzle" } ]
                     ],
                     [
+                      { description: "Alternate form of Diana, meaning 'goddess'", language_id: latin.id },
+                      [ { name: "Deanna", gender_id: female.id },
+                        { name: "Deeanna", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'bee'", language_id: hebrew.id },
+                      [ { name: "Debbe", gender_id: female.id },
+                        { name: "Debbi", gender_id: female.id },
+                        { name: "Debbie", gender_id: female.id },
+                        { name: "Debby", gender_id: female.id },
+                        { name: "Debhi", gender_id: female.id },
+                        { name: "Deborah", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'noble'", language_id: old_english.id },
                       [ { name: "Dee", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'broken-hearted, sorrowful'", language_id: gaelic.id },
+                      [ { name: "Deirdre", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'delicate'", language_id: hebrew.id },
@@ -1980,16 +2049,69 @@ names_to_create = ([
                       [ { name: "Delta", gender_id: female.id } ]
                     ],
                     [
+                      { description: "From an expression whose meaning has been lost", language_id: cornish.id },
+                      [ { name: "Demelza", gender_id: female.id },
+                        { name: "Denzel", gender_id: male.id },
+                        { name: "Denzell", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'judgment'", language_id: hebrew.id },
+                      [ { name: "Denna", gender_id: female.id },
+                        { name: "Dina", gender_id: female.id },
+                        { name: "Dinah", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'dedicated to Dionysos'", language_id: greek.id },
+                      [ { name: "Dennis", gender_id: both.id },
+                        { name: "Dion", gender_id: both.id },
+                        { name: "Dwight", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'power of the tribe'", language_id: ancient_german.id },
+                      [ { name: "Derek", gender_id: male.id },
+                        { name: "Derrick", gender_id: male.id },
+                        { name: "Teri", gender_id: both.id },
+                        { name: "Terri", gender_id: both.id },
+                        { name: "Terrie", gender_id: both.id },
+                        { name: "Terry", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'unlucky'", language_id: greek.id },
+                      [ { name: "Desdemona", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'one from south Munster'", language_id: gaelic.id },
                       [ { name: "Desmond", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'an inevitable course of events'", language_id: latin.id },
+                      [ { name: "Destiny", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'divine'", language_id: hindi.id },
+                      [ { name: "Deva", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'beloved'", language_id: welsh.id },
+                      [ { name: "Dewey", gender_id: male.id },
+                        { name: "Dewi", gender_id: male.id },
+                        { name: "Dewy", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'fortunate'", language_id: latin.id },
                       [ { name: "Dexter", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Nickname of Diana and Diane, meaning 'goddess'", language_id: latin.id },
+                      [ { name: "Di", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "After the precious stone", language_id: english.id },
                       [ { name: "Diamond", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'goddess'", language_id: latin.id },
+                      [ { name: "Diana", gender_id: female.id } ]
                     ],
                     [
                       { description: "Spanish form of James, meaning 'one who trips up another and takes his place'" , language_id: spanish.id },
@@ -2000,20 +2122,31 @@ names_to_create = ([
                       [ { name: "Diesel" } ]
                     ],
                     [
+                      { description: "From the Old French diguer meaning 'to make a ditch'", language_id: old_french.id },
+                      [ { name: "Digby", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'son of the sea'", language_id: welsh.id },
                       [ { name: "Dillan", gender_id: both.id },
                         { name: "Dillon", gender_id: both.id },
                         { name: "Dylan", gender_id: both.id } ]
                     ],
                     [
-                      { description: "Meaning 'judgment'", language_id: hebrew.id },
-                      [ { name: "Dina", gender_id: female.id },
-                        { name: "Dinah", gender_id: female.id } ]
+                      { description: "Meaning 'follower of Demeter'", language_id: greek.id },
+                      [ { name: "Dimitri", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'attractively small and neat'" },
                       [ { name: "Dinki", gender_id: both.id },
                         { name: "Dinky", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Bernardino, meaning 'strong bear'", language_id: ancient_german.id },
+                      [ { name: "Dino", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Party with bright lights", language_id: english.id },
+                      [ { name: "Disco", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning repeat" },
@@ -2052,14 +2185,29 @@ names_to_create = ([
                       [ { name: "Dolce", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Unit of money", language_id: english.id },
+                      [ { name: "Dollar", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'gift of God'", language_id: greek.id },
                       [ { name: "Dolli", gender_id: female.id },
                         { name: "Dollie", gender_id: female.id },
-                        { name: "Dolly", gender_id: female.id } ]
+                        { name: "Dolly", gender_id: female.id },
+                        { name: "Doris", gender_id: both.id },
+                        { name: "Dorothy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'sorrows'", language_id: spanish.id },
+                      [ { name: "Dolores", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'Lord'", language_id: latin.id },
-                      [ { name: "Domino", gender_id: both.id } ]
+                      [ { name: "Dominic", gender_id: male.id },
+                        { name: "Domino", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "French form of Dominic, meaning 'Lord'", language_id: french.id },
+                      [ { name: "Dominique", gender_id: both.id } ]
                     ],
                     [
                       { description: "Nickname of Donald, meaning 'world ruler'", language_id: gaelic.id },
@@ -2068,10 +2216,13 @@ names_to_create = ([
                         { name: "Donny", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'world ruler'", language_id: gaelic.id },
+                      [ { name: "Donald", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'gift'", language_id: latin.id },
                       [ { name: "Donatella", gender_id: female.id },
-                        { name: "Dora", gender_id: female.id },
-                        { name: "Doris", gender_id: both.id } ]
+                        { name: "Dora", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'lady of the house'", language_id: latin.id },
@@ -2081,6 +2232,15 @@ names_to_create = ([
                       { description: "Meaning 'little dark-haired one'", language_id: irish_gaelic.id },
                       [ { name: "Donovan", gender_id: male.id },
                         { name: "Donoven", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'one of the early Greeks'", language_id: greek.id },
+                      [ { name: "Dorian", gender_id: both.id },
+                        { name: "Dorien", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Edible sea fish", language_id: english.id },
+                      [ { name: "Dory", gender_id: both.id } ]
                     ],
                     [
                       { description: "Small round mark", language_id: english.id },
@@ -2094,6 +2254,10 @@ names_to_create = ([
                     [
                       { description: "Meaning 'dark river'", language_id: scots_gaelic.id },
                       [ { name: "Douglas", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'jackdaw bird'", language_id: middle_english.id, means_bird: true },
+                      [ { name: "Dow", gender_id: male.id } ]
                     ],
                     [
                       { description: "Series of scenes in a sleeping person's mind" },
@@ -2133,6 +2297,10 @@ names_to_create = ([
                       [ { name: "Duke", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'sweet, pleasing, gentle'" },
+                      [ { name: "Dulce", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'brown soldier'", language_id: gaelic.id },
                       [ { name: "Duncan", gender_id: male.id } ]
                     ],
@@ -2140,6 +2308,10 @@ names_to_create = ([
                       { description: "Meaning 'dark rock'", language_id: old_english.id },
                       [ { name: "Dunstan", gender_id: male.id },
                         { name: "Dunston", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'Thor's stone'", language_id: old_norse.id },
+                      [ { name: "Dustin", gender_id: male.id } ]
                     ],
                     [
                       { description: "Nickname for Dustin, meaning 'Thor's stone'", language_id: old_norse.id },
@@ -5346,13 +5518,6 @@ names_to_create = ([
                         { name: "Teddy Bear", gender_id: both.id } ]
                     ],
                     [
-                      { description: "Meaning 'power of the tribe'", language_id: ancient_german.id },
-                      [ { name: "Teri", gender_id: both.id },
-                        { name: "Terri", gender_id: both.id },
-                        { name: "Terrie", gender_id: both.id },
-                        { name: "Terry", gender_id: both.id } ]
-                    ],
-                    [
                       { description: "Meaning 'harvester'" },
                       [ { name: "Tess" },
                         { name: "Tessa" } ]
@@ -6022,12 +6187,28 @@ names_to_link = ([
                     [ "Darcey", "Darcy" ]
                   ],
                   [
+                    { description: "Run rapidly", language_id: english.id },
+                    [ "Dash" ]
+                  ],
+                  [
+                    { description: "Meaning 'radiant'" },
+                    [ "Dawn", "Dawne" ]
+                  ],
+                  [
                     { description: "Meaning 'dark'", language_id: welsh.id },
                     [ "Dee" ]
                   ],
                   [
+                    { description: "Roman goddess of the hunt, with an association to the moon", language_id: roman.id },
+                    [ "Diana" ]
+                  ],
+                  [
                     { description: "Small flat piece of wood or plastic, coloured black with white spots" },
                     [ "Domino" ]
+                  ],
+                  [
+                    { description: "Nickname of Dorian (meaning 'one of the early Greeks'), Isidore or Isidora (meaning 'gift from Isis') and Dora (meaning 'gift')" },
+                    [ "Dory" ]
                   ],
                   [
                     { description: "Ruler of certain small states" },

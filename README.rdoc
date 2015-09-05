@@ -19,6 +19,8 @@ A site documenting names and their meanings for cats, dogs and other pets.
 
 * Display names based on coat colour (e.g. black, blue, red).
 
+* Display names for pairs of pets
+
 
 === Technical Details
 

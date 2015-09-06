@@ -303,6 +303,7 @@ names_to_create = ([
                         { name: "Antoinette", gender_id: female.id },
                         { name: "Antonio", gender_id: both.id },
                         { name: "Cassius", gender_id: male.id },
+                        { name: "Horace", gender_id: male.id },
                         { name: "Percy", gender_id: male.id },
                         { name: "Persy", gender_id: male.id } ]
                     ],
@@ -3208,6 +3209,10 @@ names_to_create = ([
                       [ { name: "Gwendolyn" } ]
                     ],
                     [
+                      { description: "Meaning 'from the heath meadow'" },
+                      [ { name: "Hadleigh" } ]
+                    ],
+                    [
                       { description: "Meaning 'dark one'" },
                       [ { name: "Hadrian" } ]
                     ],
@@ -3226,6 +3231,10 @@ names_to_create = ([
                       [ { name: "Hailey", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'highborn'" },
+                      [ { name: "Hakan" } ]
+                    ],
+                    [
                       { description: "Meaning 'tumeric'", language_id: indian.id },
                       [ { name: "Haldi" } ]
                     ],
@@ -3239,6 +3248,10 @@ names_to_create = ([
                     [
                       { description: "Meaning 'friend of the god Melkar'", language_id: phoenician.id },
                       [ { name: "Hamilcar", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'from the mountain estate'" },
+                      [ { name: "Hamilton" } ]
                     ],
                     [
                       { description: "Meaning 'supplanter'" },
@@ -3257,6 +3270,10 @@ names_to_create = ([
                       [ { name: "Hardy", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'god', 'lion'" },
+                      [ { name: "Hari" } ]
+                    ],
+                    [
                       { description: "In varied colours", language_id: english.id },
                       [ { name: "Harlequin", gender_id: both.id },
                         { name: "Harlyquin", gender_id: both.id } ]
@@ -3267,13 +3284,37 @@ names_to_create = ([
                         { name: "Harley", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'rocky hill'", language_id: old_english.id },
+                      [ { name: "Harlow", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'army commander'", language_id: old_english.id },
+                      [ { name: "Harold", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'minstrel'" },
+                      [ { name: "Harper" } ]
+                    ],
+                    [
                       { description: "Meaning 'home leader'", language_id: ancient_german.id },
-                      [ { name: "Harry", gender_id: male.id },
+                      [ { name: "Hariet", gender_id: female.id },
+                        { name: "Harrie", gender_id: both.id },
+                        { name: "Harriet", gender_id: female.id },
+                        { name: "Harriett", gender_id: female.id },
+                        { name: "Harriette", gender_id: female.id },
+                        { name: "Harriot", gender_id: female.id },
+                        { name: "Harriott", gender_id: female.id },
+                        { name: "Harry", gender_id: male.id },
                         { name: "Hattie", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'eager for battle'", language_id: celtic.id },
                       [ { name: "Harvey", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'heathen'", language_id: ancient_german.id },
+                      [ { name: "Hayden", gender_id: male.id },
+                        { name: "Haydn", gender_id: male.id } ]
                     ],
                     [
                       { description: "A nutty-brown colour", language_id: english.id },
@@ -3284,9 +3325,21 @@ names_to_create = ([
                       [ { name: "Heather", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Place or state of bliss, paradise", language_id: english.id },
+                      [ { name: "Heaven", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'a support or stay'", language_id: greek.id },
                       [ { name: "Hector", gender_id: male.id },
                         { name: "Hektor", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'clearing of heather'", language_id: old_english.id },
+                      [ { name: "Hedley", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'successful'", language_id: old_norse.id },
+                      [ { name: "Helga", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'the sun'", language_id: greek.id },
@@ -3317,6 +3370,10 @@ names_to_create = ([
                       [ { name: "Hercules", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'messenger'", language_id: greek.id },
+                      [ { name: "Hermione", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Someone admired for their great deeds", language_id: english.id },
                       [ { name: "Hero", gender_id: both.id } ]
                     ],
@@ -3336,13 +3393,25 @@ names_to_create = ([
                         { name: "Larissa", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'battlemaid', 'merciful'" },
+                      [ { name: "Hilda" } ]
+                    ],
+                    [
                       { description: "Meaning 'hill dweller'", language_id: norwegian.id },
                        [ { name: "Hoagy", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'gracious'" },
+                      [ { name: "Holden" } ]
                     ],
                     [
                       { description: "Prickly-leaved evergreen shrub used as a decoration", language_id: english.id },
                       [ { name: "Holley", gender_id: female.id },
                         { name: "Holly", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Suburb in Los Angeles, California, home of celebrities and movies", language_id: american.id },
+                      [ { name: "Hollywood", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'a pledge'" },
@@ -3363,6 +3432,10 @@ names_to_create = ([
                       [ { name: "Honeysuckle", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'large farm'", language_id: ancient_german.id },
+                      [ { name: "Hoover", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Feeling of expectation and desire", language_id: english.id },
                       [ { name: "Hope", gender_id: female.id } ]
                     ],
@@ -3379,12 +3452,33 @@ names_to_create = ([
                       [ { name: "Houdini", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'popular'" },
+                      [ { name: "Howard" } ]
+                    ],
+                    [
+                      { description: "North American tree with berries" },
+                      [ { name: "Huckleberry", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'soul'", language_id: norman_french.id },
+                      [ { name: "Hudson", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Hugh, meaning 'soul, mind'", language_id: ancient_german.id },
+                      [ { name: "Huey", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'soul, mind'", language_id: ancient_german.id },
                       [ { name: "Hugo", gender_id: male.id } ]
                     ],
                     [
                       { description: "One who hunts", language_id: english.id },
-                      [ { name: "Hunter", gender_id: male.id } ]
+                      [ { name: "Hunt", gender_id: male.id },
+                        { name: "Hunter", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'from the Hunters meadow'" },
+                      [ { name: "Huntly" } ]
                     ],
                     [
                       { description: "Plant with fragrant bell-shaped flowers", language_id: english.id },
@@ -6700,6 +6794,10 @@ names_to_link = ([
                     [ "Harleigh", "Harley" ]
                   ],
                   [
+                    { description: "Meaning 'brave'" },
+                    [ "Harold" ]
+                  ],
+                  [
                     { description: "Man showing great strength and effort" },
                     [ "Hercules" ]
                   ],
@@ -6710,6 +6808,10 @@ names_to_link = ([
                   [
                     { description: "Thick syrup produced by bees from nectar" },
                     [ "Honey" ]
+                  ],
+                  [
+                    { description: "Meaning 'from the Hudson river'" },
+                    [ "Hudson" ]
                   ],
                   [
                     { description: "Meaning 'purple'" },

@@ -467,7 +467,8 @@ names_to_create = ([
                       { description: "Meaning 'life'", language_id: hebrew.id },
                       [ { name: "Ava", gender_id: both.id },
                         { name: "Eva", gender_id: female.id },
-                        { name: "Eve", gender_id: female.id } ]
+                        { name: "Eve", gender_id: female.id },
+                        { name: "Evita", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'Father is peace'", language_id: hebrew.id },
@@ -562,7 +563,9 @@ names_to_create = ([
                     ],
                     [
                       { description: "Meaning 'nobleman'", language_id: english.id },
-                      [ { name: "Baron", gender_id: male.id } ]
+                      [ { name: "Baron", gender_id: male.id },
+                        { name: "Earl", gender_id: male.id },
+                        { name: "Earle", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'spear'", language_id: irish_gaelic.id },
@@ -732,6 +735,7 @@ names_to_create = ([
                         { name: "Biffy", gender_id: female.id },
                         { name: "Bifi", gender_id: female.id },
                         { name: "Buffy", gender_id: female.id },
+                        { name: "Eliza", gender_id: both.id },
                         { name: "Elsie", gender_id: female.id },
                         { name: "Libbi", gender_id: female.id },
                         { name: "Libby", gender_id: female.id },
@@ -2353,12 +2357,37 @@ names_to_create = ([
                         { name: "Eddy", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'son of Edward'", language_id: english.id },
+                      [ { name: "Eddison", gender_id: male.id },
+                        { name: "Edison", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'wealthy spear'", language_id: ancient_german.id },
                       [ { name: "Edgar", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Advantage", language_id: english.id },
+                      [ { name: "Edge", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'struggle for wealth'", language_id: ancient_german.id },
+                      [ { name: "Edith", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'renewer'", language_id: hebrew.id },
+                      [ { name: "Edna", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'wealth protector'", language_id: old_english.id },
                       [ { name: "Edward", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'fortunate friend'", language_id: ancient_german.id },
+                      [ { name: "Edwin", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Irish Gaelic form of Elizabeth, meaning 'God's promise'", language_id: irish_gaelic.id },
+                      [ { name: "Eilish", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'sun ray', 'shining light'", language_id: greek.id },
@@ -2371,9 +2400,13 @@ names_to_create = ([
                         { name: "Helena", gender_id: female.id } ]
                     ],
                     [
-                      { description: "Nickname for Ellen, meaning 'sun ray'" },
+                      { description: "Nickname for Ellen, meaning 'sun ray'", language_id: greek.id },
                       [ { name: "Ele", gender_id: female.id },
                         { name: "Elle", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'shining one'", language_id: greek.id },
+                      [ { name: "Elektra", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'high'", language_id: hebrew.id },
@@ -2382,29 +2415,23 @@ names_to_create = ([
                         { name: "Ely", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'God has answered'", language_id: hebrew.id },
+                      [ { name: "Elia", gender_id: female.id },
+                        { name: "Eliana", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'God is Lord'", language_id: greek.id },
-                      [ { name: "Eliot", gender_id: male.id },
+                      [ { name: "Elijah", gender_id: male.id },
+                        { name: "Eliot", gender_id: male.id },
                         { name: "Elliot", gender_id: male.id },
                         { name: "Elliott", gender_id: male.id } ]
                     ],
                     [
-                      { description: "Meaning 'goddess'", language_id: hebrew.id },
-                      [ { name: "Ella", gender_id: female.id } ]
-                    ],
-                    [
-                      { description: "Meaning 'entire'", language_id: ancient_german.id },
-                      [ { name: "Elli", gender_id: female.id },
-                        { name: "Ellie", gender_id: female.id },
-                        { name: "Elly", gender_id: female.id } ]
-                    ],
-                    [
-                      { description: "Meaning 'amiable', 'likeable'" },
-                      [ { name: "Elmo", gender_id: male.id } ]
-                    ],
-                    [
                       { description: "Meaning 'God's promise'", language_id: hebrew.id },
                       [ { name: "Elisabeth", gender_id: female.id },
+                        { name: "Elise", gender_id: female.id },
                         { name: "Elizabeth", gender_id: female.id },
+                        { name: "Ellisa", gender_id: female.id },
                         { name: "Elsa", gender_id: female.id },
                         { name: "Isabel", gender_id: female.id },
                         { name: "Isabell", gender_id: female.id },
@@ -2420,12 +2447,59 @@ names_to_create = ([
                         { name: "Yzabelle", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'God is salvation'", language_id: hebrew.id },
+                      [ { name: "Elisha", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'goddess'", language_id: hebrew.id },
+                      [ { name: "Ella", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'entire'", language_id: ancient_german.id },
+                      [ { name: "Elli", gender_id: female.id },
+                        { name: "Ellie", gender_id: female.id },
+                        { name: "Elly", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'regal and celebrated'", language_id: ancient_german.id },
+                      [ { name: "Elmer", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'amiable', 'likeable'" },
+                      [ { name: "Elmo", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'famous warrior'", language_id: ancient_german.id },
+                      [ { name: "Eloise", gender_id: female.id },
+                        { name: "Elouise", gender_id: female.id },
+                        { name: "Louis", gender_id: male.id },
+                        { name: "Louisa", gender_id: female.id },
+                        { name: "Louise", gender_id: female.id },
+                        { name: "Loulou", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'truly foreign'", language_id: ancient_german.id },
+                      [ { name: "Elva", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'blonde'", language_id: latin.id },
                       [ { name: "Elvira", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'all wise'" },
                       [ { name: "Elvis", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Emerson (meaning 'home strength'), Emery (meaning 'home strength'), Emily (meaning 'eager') and Emma, (meaning 'universal')" },
+                      [ { name: "Em", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Bright green precious stone", language_id: english.id },
+                      [ { name: "Emerald", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'home strength'", language_id: old_english.id },
+                      [ { name: "Emerson", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'eager'", language_id: latin.id },
@@ -2441,14 +2515,52 @@ names_to_create = ([
                         { name: "Emmy", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Puzzling person or thing", language_id: english.id },
+                      [ { name: "Enigma", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'kernel'", language_id: gaelic.id },
+                      [ { name: "Enya", gender_id: female.id },
+                        { name: "Ethenia", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "A name used in French, meaning 'Eponym'", language_id: greek.id },
+                      [ { name: "Eponine", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "The fifth letter of the Greek alphabet, corresponding to the English letter E", language_id: greek.id },
+                      [ { name: "Epsilon", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'complete ruler'", language_id: old_norse.id },
+                      [ { name: "Eric", gender_id: both.id },
+                        { name: "Erica", gender_id: female.id },
+                        { name: "Erika", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'Western Island'", language_id: gaelic.id },
+                      [ { name: "Erin", gender_id: both.id },
+                        { name: "Erinn", gender_id: both.id },
+                        { name: "Eryn", gender_id: both.id },
+                        { name: "Erynn", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Nickname of Ernest, meaning 'fight to the finish'", language_id: ancient_german.id },
                       [ { name: "Erni", gender_id: male.id },
                         { name: "Ernie", gender_id: male.id } ]
                     ],
                     [
+                      { description: "The god of love in Greek mythology", language_id: greek.id },
+                      [ { name: "Eros", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'myrtle tree'", language_id: persian.id },
                       [ { name: "Ester", gender_id: female.id },
                         { name: "Esther", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'good news'", language_id: greek.id },
+                      [ { name: "Evangeline", gender_id: female.id } ]
                     ],
                     [
                       { description: "From an expression whose meaning has been lost", language_id: ancient_german.id },
@@ -3637,13 +3749,6 @@ names_to_create = ([
                       [ { name: "Louie", gender_id: both.id },
                         { name: "Luewe", gender_id: both.id },
                         { name: "Lui", gender_id: both.id } ]
-                    ],
-                    [
-                      { description: "Meaning 'famous warrior'", language_id: ancient_german.id },
-                      [ { name: "Louis", gender_id: male.id },
-                        { name: "Louisa", gender_id: female.id },
-                        { name: "Louise", gender_id: female.id },
-                        { name: "Loulou", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'one from Lucania'", language_id: greek.id },
@@ -6239,6 +6344,22 @@ names_to_link = ([
                     [ "Eddy" ]
                   ],
                   [
+                    { description: "Keenness, sharpness, irritating power", language_id: english.id },
+                    [ "Edge" ]
+                  ],
+                  [
+                    { description: "To move gradually", language_id: english.id },
+                    [ "Edge" ]
+                  ],
+                  [
+                    { description: "Sharp border", language_id: english.id },
+                    [ "Edge" ]
+                  ],
+                  [
+                    { description: "Alternate form of Elisha (meaning 'God is salvation') or Elijah (meaning 'God is Lord')" },
+                    [ "Eliza" ]
+                  ],
+                  [
                     { description: "Meaning 'entire'", language_id: ancient_german.id },
                     [ "Ella" ]
                   ],
@@ -6680,6 +6801,10 @@ meanings_to_link = ([
                       [
                         { description: "Meaning 'baby'" },
                         [ "Babe", "Bubba" ]
+                      ],
+                      [
+                        { description: "Meaning 'exalted nature'", language_id: old_french.id },
+                        [ "Elisha" ]
                       ],
                       [
                         { description: "Meaning 'free'" },

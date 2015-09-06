@@ -2868,6 +2868,22 @@ names_to_create = ([
                         { name: "Fuzzy", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'hero of God'", language_id: hebrew.id },
+                      [ { name: "Gabby", gender_id: both.id },
+                        { name: "Gabi", gender_id: both.id },
+                        { name: "Gabrial", gender_id: both.id },
+                        { name: "Gabriala", gender_id: female.id },
+                        { name: "Gabriel", gender_id: both.id },
+                        { name: "Gabriele", gender_id: both.id },
+                        { name: "Gabriella", gender_id: female.id },
+                        { name: "Gabrielle", gender_id: female.id },
+                        { name: "Gaby", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Small mechanical device or tool", language_id: english.id },
+                      [ { name: "Gadget", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning pledge" },
                       [ { name: "Gage" } ]
                     ],
@@ -2876,12 +2892,28 @@ names_to_create = ([
                       [ { name: "Galatea" } ]
                     ],
                     [
+                      { description: "System of stars", language_id: english.id },
+                      [ { name: "Galaxy", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'person from Galilee'", language_id: greek.id },
                       [ { name: "Galileo", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'beauty'", language_id: arabic.id },
+                      [ { name: "Gamal", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Form of radiation" },
+                      [ { name: "Gamma", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Type of bird", means_bird: true },
                       [ { name: "Gannet", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'joy'", language_id: greek.id },
+                      [ { name: "Ganos" } ]
                     ],
                     [
                       { description: "Meaning 'triangular field'", language_id: old_english.id },
@@ -2899,8 +2931,17 @@ names_to_create = ([
                         { name: "Gary", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Elaborately carved animal or creature projecting from a building" },
+                      [ { name: "Gargoyle", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'kitten'", language_id: spanish.id, means_cat: true },
                       [ { name: "Gatito" } ]
+                    ],
+                    [
+                      { description: "Meaning cat", language_id: italian.id, means_cat: true },
+                      [ { name: "Gatta", gender_id: female.id },
+                        { name: "Gatto", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'white hawk'", language_id: welsh.id },
@@ -2908,23 +2949,94 @@ names_to_create = ([
                         { name: "Gavin", gender_id: male.id } ]
                     ],
                     [
-                      { description: "Meaning 'gem'", language_id: latin.id },
-                      [ { name: "Gemma", gender_id: female.id },
+                      { description: "Meaning 'light hearted'" },
+                      [ { name: "Gaye", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Gemma, meaning 'gem' or 'jewel'", language_id: latin.id },
+                      [ { name: "Gem", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'gem' or 'jewel'", language_id: latin.id },
+                      [ { name: "Gema", gender_id: female.id },
+                        { name: "Gemma", gender_id: female.id },
                         { name: "Jemma", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'creation'", language_id: latin.id },
+                      [ { name: "Genesis", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'woman of the people'", language_id: ancient_german.id },
+                      [ { name: "Geneveve", gender_id: female.id },
+                        { name: "Genevieve", gender_id: female.id },
+                        { name: "Genevive", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'greatest'", language_id: mongolian.id },
                       [ { name: "Genghis", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Magical spirit or goblin" },
+                      [ { name: "Genie", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'paradise'", language_id: arabic.id },
+                      [ { name: "Genna", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'farmer'", language_id: greek.id },
                       [ { name: "George", gender_id: both.id },
+                        { name: "Georgeo", gender_id: male.id },
                         { name: "Georgia", gender_id: female.id },
-                        { name: "Georgina", gender_id: female.id } ]
+                        { name: "Georgina", gender_id: female.id },
+                        { name: "Giorgio", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Nickname of George, meaning 'farmer'", language_id: greek.id },
+                      [ { name: "Georgie", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'ruling spear'", language_id: ancient_german.id },
+                      [ { name: "Gerald", gender_id: both.id },
+                        { name: "Geraldine", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'here goes'" },
+                      [ { name: "Geronimo", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'God's grace'", language_id: hebrew.id },
+                      [ { name: "Gianni", gender_id: male.id },
+                        { name: "Giovanni", gender_id: male.id },
+                        { name: "Ivan", gender_id: male.id },
+                        { name: "Jack", gender_id: both.id },
+                        { name: "Jackson", gender_id: male.id },
+                        { name: "Jaine", gender_id: female.id },
+                        { name: "Jak", gender_id: both.id },
+                        { name: "Jandi", gender_id: female.id },
+                        { name: "Jane", gender_id: female.id },
+                        { name: "Janel", gender_id: female.id },
+                        { name: "Janell", gender_id: female.id },
+                        { name: "Janelle", gender_id: female.id },
+                        { name: "Jannah", gender_id: female.id },
+                        { name: "Jannel", gender_id: female.id },
+                        { name: "Jannell", gender_id: female.id },
+                        { name: "Jannelle", gender_id: female.id },
+                        { name: "Janus", gender_id: female.id },
+                        { name: "Jaxon", gender_id: male.id },
+                        { name: "Jayne", gender_id: female.id },
+                        { name: "Jeanelle", gender_id: female.id },
+                        { name: "Jock", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'Gilbert's son'", language_id: english.id },
                       [ { name: "Gibson", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'girl midget'", language_id: english.id },
+                      [ { name: "Gidget", gender_id: female.id },
+                        { name: "Gidgette", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'bright promise'", language_id: old_french.id },
@@ -2953,6 +3065,45 @@ names_to_create = ([
                         { name: "Gingie", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Nickname of Virginia, meaning 'maiden'", language_id: latin.id },
+                      [ { name: "Gini", gender_id: female.id },
+                        { name: "Ginie", gender_id: female.id },
+                        { name: "Ginnie", gender_id: female.id },
+                        { name: "Ginny", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Italian form of Georgia, meaning 'farmer'", language_id: italian.id },
+                      [ { name: "Giorgia", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'immortal'", language_id: italian.id },
+                      [ { name: "Giotto", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'from Egypt'", language_id: middle_english.id },
+                      [ { name: "Gipsey", gender_id: female.id },
+                        { name: "Gipsy", gender_id: female.id },
+                        { name: "Gypsey", gender_id: female.id },
+                        { name: "Gypsy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'pledge'", language_id: german.id },
+                      [ { name: "Giselle", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'bright rock'", language_id: old_english.id },
+                      [ { name: "Gladstone", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'valley-dweller'" },
+                      [ { name: "Glen" },
+                        { name: "Glyn" } ]
+                    ],
+                    [
+                      { description: "Meaning 'glory'", language_id: latin.id },
+                      [ { name: "Gloria", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'gold'", language_id: yiddish.id },
                       [ { name: "Goldie", gender_id: female.id },
                         { name: "Goldy", gender_id: female.id } ]
@@ -2962,6 +3113,10 @@ names_to_create = ([
                       [ { name: "Gordi", gender_id: male.id },
                         { name: "Gordie", gender_id: male.id },
                         { name: "Gordy", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'blue-eyed'", language_id: celtic.id },
+                      [ { name: "Gorman" } ]
                     ],
                     [
                       { description: "Flimsy delicate material", language_id: english.id },
@@ -2982,18 +3137,36 @@ names_to_create = ([
                         { name: "Grayce", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'noble'", language_id: irish_gaelic.id },
+                      [ { name: "Grady", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Words or drawings scribbled on a wall", language_id: english.id },
                       [ { name: "Graffiti", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'tall'", language_id: gaelic.id },
+                      [ { name: "Grant", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning ‘cat’", language_id: archaic.id, means_cat: true },
-                      [ { name: "Graymalkin" },
-                        { name: "Greymalkin" } ]
+                      [ { name: "Gramalkin" },
+                        { name: "Graymalkin" },
+                        { name: "Greymalkin" },
+                        { name: "Grimalkin" } ]
                     ],
                     [
                       { description: "Meaning 'son of a judge'", language_id: english.id },
                       [ { name: "Grayson", gender_id: male.id },
                         { name: "Greyson", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'vigilant'", language_id: gaelic.id },
+                      [ { name: "Greer", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'on the watch'" },
+                      [ { name: "Gregor" } ]
                     ],
                     [
                       { description: "Nickname of Margareta, meaning 'pearl'", language_id: greek.id },
@@ -3009,17 +3182,30 @@ names_to_create = ([
                         { name: "Griffith", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'one who lives by a grove'", language_id: old_english.id },
+                      [ { name: "Grover", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'pure and yielding, whitewave'", language_id: welsh.id },
                       [ { name: "Guinevere", gender_id: female.id },
                         { name: "Guinivere", gender_id: female.id } ]
                     ],
                     [
-                      { description: "Meaning 'white-haired one'", language_id: old_welsh.id },
-                      [ { name: "Gwendolyn" } ]
+                      { description: "A type of lolly or candy", language_id: american.id },
+                      [ { name: "Gumdrops", gender_id: both.id } ]
                     ],
                     [
-                      { description: "Meaning 'traveller'" },
-                      [ { name: "Gypsy", gender_id: female.id } ]
+                      { description: "Nickname of Augustus or Augusta, meaning 'revered'", language_id: latin.id },
+                      [ { name: "Gussie", gender_id: both.id },
+                        { name: "Gussy", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'sensible'" },
+                      [ { name: "Guy", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'white-haired one'", language_id: old_welsh.id },
+                      [ { name: "Gwendolyn" } ]
                     ],
                     [
                       { description: "Meaning 'dark one'" },
@@ -3241,28 +3427,6 @@ names_to_create = ([
                     [
                       { description: "Egyptian Goddess" },
                       [ { name: "Isis", gender_id: female.id } ]
-                    ],
-                    [
-                      { description: "Meaning 'God's grace'", language_id: hebrew.id },
-                      [ { name: "Ivan", gender_id: male.id },
-                        { name: "Jack", gender_id: both.id },
-                        { name: "Jackson", gender_id: male.id },
-                        { name: "Jaine", gender_id: female.id },
-                        { name: "Jak", gender_id: both.id },
-                        { name: "Jandi", gender_id: female.id },
-                        { name: "Jane", gender_id: female.id },
-                        { name: "Janel", gender_id: female.id },
-                        { name: "Janell", gender_id: female.id },
-                        { name: "Janelle", gender_id: female.id },
-                        { name: "Jannah", gender_id: female.id },
-                        { name: "Jannel", gender_id: female.id },
-                        { name: "Jannell", gender_id: female.id },
-                        { name: "Jannelle", gender_id: female.id },
-                        { name: "Janus", gender_id: female.id },
-                        { name: "Jaxon", gender_id: male.id },
-                        { name: "Jayne", gender_id: female.id },
-                        { name: "Jeanelle", gender_id: female.id },
-                        { name: "Jock", gender_id: male.id } ]
                     ],
                     [
                       { description: "Hard creamy-white substance forming elephant tusks", language_id: english.id },
@@ -6496,8 +6660,32 @@ names_to_link = ([
                     [ "Foster" ]
                   ],
                   [
+                    { description: "Meaning the third child" },
+                    [ "Gamma" ]
+                  ],
+                  [
+                    { description: "Origin" },
+                    [ "Genesis" ]
+                  ],
+                  [
+                    { description: "New beginning" },
+                    [ "Genesis" ]
+                  ],
+                  [
+                    { description: "Give or allow as a privilege", language_id: english.id },
+                    [ "Grant" ]
+                  ],
+                  [
                     { description: "Meaning 'staff of the gods'", language_id: ancient_german.id },
                     [ "Gus" ]
+                  ],
+                  [
+                    { description: "Nickname of Angus, meaning 'unique choice'", language_id: gaelic.id },
+                    [ "Gussie", "Gussy" ]
+                  ],
+                  [
+                    { description: "Meaning 'male'", language_id: english.id },
+                    [ "Guy" ]
                   ],
                   [
                     { description: "Meaning 'enjoyment'", language_id: arabic.id },
@@ -6917,6 +7105,10 @@ meanings_to_link = ([
                       [
                         { description: "Meaning 'free'" },
                         [ "Frank" ]
+                      ],
+                      [
+                        { description: "Meaning 'farmer'", language_id: greek.id },
+                        [ "Giorgia" ]
                       ],
                       [
                         { description: "Nickname of Jacqueline, meaning 'one who trips up another and takes her place'", language_id: hebrew.id },

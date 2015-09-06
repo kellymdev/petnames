@@ -1038,7 +1038,9 @@ names_to_create = ([
                     ],
                     [
                       { description: "From an expression whose meaning has been lost", language_id: norman_french.id },
-                      [ { name: "Bruce", gender_id: male.id } ]
+                      [ { name: "Bruce", gender_id: male.id },
+                        { name: "Fraser", gender_id: male.id },
+                        { name: "Frasier", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'burnt'", language_id: french.id },
@@ -2572,12 +2574,42 @@ names_to_create = ([
                       [ { name: "Everest", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'craftsman'", language_id: latin.id },
+                      [ { name: "Fabrizia", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Imaginary small being with magical powers", language_id: english.id },
+                      [ { name: "Fairy", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'belief'" },
                       [ { name: "Faith", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Nickname of Frances, meaning 'French person'", language_id: ancient_german.id },
+                      [ { name: "Fancy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'good looking'", language_id: english.id },
+                      [ { name: "Farah", gender_id: female.id },
+                        { name: "Farrah", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'handsome servant'", language_id: old_english.id },
+                      [ { name: "Faron", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'mixture'", language_id: latin.id },
                       [ { name: "Farrago", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'lucky'", language_id: latin.id },
+                      [ { name: "Faust", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "From the Old French fei meaning 'fairy'", language_id: old_french.id },
+                      [ { name: "Fay", gender_id: female.id },
+                        { name: "Faye", gender_id: female.id } ]
                     ],
                     [
                       { description: "Spanish and Polish version of Phoebe, meaning 'bright'", language_id: spanish.id },
@@ -2602,6 +2634,14 @@ names_to_create = ([
                       [ { name: "Fenella", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'bold journey'", language_id: ancient_german.id },
+                      [ { name: "Ferdinand", language_id: male.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Fergus, meaning 'supreme man'", language_id: scots_gaelic.id },
+                      [ { name: "Fergie", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'supreme man'", language_id: scots_gaelic.id },
                       [ { name: "Fergus", gender_id: male.id } ]
                     ],
@@ -2610,12 +2650,20 @@ names_to_create = ([
                       [ { name: "Fern", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'journey'", language_id: spanish.id },
+                      [ { name: "Fernandez", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Spanish and Italian form of Ferdinand, meaning 'bold journey'", language_id: ancient_german.id },
                       [ { name: "Fernando", gender_id: male.id } ]
                     ],
                     [
                       { description: "From the Latin ferrum meaning 'iron'", language_id: latin.id },
                       [ { name: "Ferris" } ]
+                    ],
+                    [
+                      { description: "Meaning 'faithful'", language_id: latin.id },
+                      [ { name: "Fidel", gender_id: male.id } ]
                     ],
                     [
                       { description: "Move restlessly", language_id: english.id },
@@ -2628,6 +2676,10 @@ names_to_create = ([
                     [
                       { description: "Nickname of Filip, meaning 'horse lover'", language_id: greek.id },
                       [ { name: "Fil", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'horse lover'", language_id: greek.id },
+                      [ { name: "Filip", language_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'fair'", language_id: irish_gaelic.id },
@@ -2678,12 +2730,31 @@ names_to_create = ([
                       [ { name: "Fletcher", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'flower'", language_id: french.id },
+                      [ { name: "Fleur", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'flourishing' or 'flower'", language_id: latin.id },
                       [ { name: "Flo", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'flower'", language_id: latin.id },
-                      [ { name: "Flora", gender_id: female.id } ]
+                      [ { name: "Flor", gender_id: female.id },
+                        { name: "Flora", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'flourishing'", language_id: latin.id },
+                      [ { name: "Florence", gender_id: both.id },
+                        { name: "Florenza", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Florence, meaning 'flourishing'", language_id: latin.id },
+                      [ { name: "Flossie", gender_id: female.id },
+                        { name: "Flossy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'flower'", language_id: english.id },
+                      [ { name: "Flower", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'grey-haired'", language_id: welsh.id },
@@ -2705,15 +2776,27 @@ names_to_create = ([
                         { name: "Forrest" } ]
                     ],
                     [
+                      { description: "A ditch, trench or canal" },
+                      [ { name: "Foss", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'sheep shearer'", language_id: middle_english.id },
+                      [ { name: "Foster", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning like a fox" },
                       [ { name: "Foxy", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Frances, meaning 'French person'", language_id: ancient_german.id },
+                      [ { name: "Fran", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'free'" },
                       [ { name: "Francesca", gender_id: female.id } ]
                     ],
                     [
-                      { description: "Meaning 'a Frenchman'", language_id: ancient_german.id },
+                      { description: "Meaning 'a French person'", language_id: ancient_german.id },
                       [ { name: "Frances", gender_id: both.id },
                         { name: "Francis", gender_id: both.id },
                         { name: "Frank", gender_id: both.id },
@@ -2748,6 +2831,13 @@ names_to_create = ([
                         { name: "Freyja", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Day of the week", language_id: english.id },
+                      [ { name: "Friday", gender_id: both.id },
+                        { name: "Sunday", gender_id: both.id },
+                        { name: "Tuesday", gender_id: both.id },
+                        { name: "Wednesday", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Abbreviation of San Francisco" },
                       [ { name: "Frisco", gender_id: both.id } ]
                     ],
@@ -2767,6 +2857,10 @@ names_to_create = ([
                     [
                       { description: "Meaning 'soft sweet cake'", language_id: english.id },
                       [ { name: "Fudgecake", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Highest mountain in Japan", language_id: japanese.id },
+                      [ { name: "Fuji", gender_id: both.id } ]
                     ],
                     [
                       { description: "Fluff, fluffy or frizzy thing", language_id: english.id },
@@ -5464,12 +5558,6 @@ names_to_create = ([
                       [ { name: "Sun", gender_id: both.id } ]
                     ],
                     [
-                      { description: "Day of the week", language_id: english.id },
-                      [ { name: "Sunday", gender_id: both.id },
-                        { name: "Tuesday", gender_id: both.id },
-                        { name: "Wednesday", gender_id: female.id } ]
-                    ],
-                    [
                       { description: "Meaning 'sunshine'", language_id: english.id },
                       [ { name: "Sunni", gender_id: both.id },
                         { name: "Sunnie", gender_id: both.id },
@@ -6376,6 +6464,18 @@ names_to_link = ([
                     [ "Elmo" ]
                   ],
                   [
+                    { description: "Ornamental, elaborate", language_id: english.id },
+                    [ "Fancy" ]
+                  ],
+                  [
+                    { description: "Find attractive", language_id: english.id },
+                    [ "Fancy" ]
+                  ],
+                  [
+                    { description: "The hero of several medieval legends" },
+                    [ "Faust" ]
+                  ],
+                  [
                     { description: "Meaning 'one from Finland'", language_id: old_norse.id },
                     [ "Fin", "Finn", "Fynn" ]
                   ],
@@ -6384,8 +6484,16 @@ names_to_link = ([
                     [ "Flame" ]
                   ],
                   [
+                    { description: "From the Old French flosche meaning 'down'", language_id: old_french.id },
+                    [ "Flossie", "Flossy" ]
+                  ],
+                  [
                     { description: "Covered with frost" },
                     [ "Frostie", "Frosty" ]
+                  ],
+                  [
+                    { description: "To cherish, to encourage", language_id: english.id },
+                    [ "Foster" ]
                   ],
                   [
                     { description: "Meaning 'staff of the gods'", language_id: ancient_german.id },

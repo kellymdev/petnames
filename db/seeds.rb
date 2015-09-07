@@ -6479,8 +6479,22 @@ names_to_create = ([
                       [ { name: "Qhama", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Theory of physics based on energy", language_id: english.id },
+                      [ { name: "Quantum", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Woman regarded as supreme in some way", language_id: english.id },
                       [ { name: "Queen", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname for 'Queen', meaning 'royal'", language_id: english.id },
+                      [ { name: "Queenie", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'fifth'", language_id: latin.id },
+                      [ { name: "Quentin", gender_id: male.id },
+                        { name: "Quint", gender_id: male.id },
+                        { name: "Quintus", gender_id: male.id } ]
                     ],
                     [
                       { description: "A journey in search of adventure or treasure", language_id: english.id },
@@ -6489,6 +6503,11 @@ names_to_create = ([
                     [
                       { description: "An old name for mercury" },
                       [ { name: "Quicksilver" } ]
+                    ],
+                    [
+                      { description: "Meaning 'wise'", language_id: irish_gaelic.id },
+                      [ { name: "Quin", gender_id: both.id },
+                        { name: "Quinn", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'Quintus' estate'", language_id: norman_french.id },

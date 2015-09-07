@@ -4697,6 +4697,10 @@ names_to_create = ([
                       [ { name: "Macho", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'fire-born'", language_id: gaelic.id },
+                      [ { name: "Mackenzie", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'weapon'", language_id: old_french.id },
                       [ { name: "Macy", gender_id: both.id } ]
                     ],
@@ -4721,8 +4725,21 @@ names_to_create = ([
                       [ { name: "Mae" } ]
                     ],
                     [
+                      { description: "Master of any art" },
+                      [ { name: "Maestro" } ]
+                    ],
+                    [
+                      { description: "Meaning 'intoxicating'", language_id: gaelic.id },
+                      [ { name: "Maeve", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'pearl'", language_id: french.id },
                       [ { name: "Magali", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'person from Magdala'", language_id: hebrew.id },
+                      [ { name: "Magadalena", gender_id: female.id },
+                        { name: "Magdalena", gender_id: female.id } ]
                     ],
                     [
                       { description: "Nickname of Margaret, meaning 'pearl'", language_id: greek.id },
@@ -4733,8 +4750,28 @@ names_to_create = ([
                         { name: "Mazie", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'person skilled in magic'", language_id: english.id },
+                      [ { name: "Magician", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'magnificent'" },
+                      [ { name: "Magnifico" } ]
+                    ],
+                    [
                       { description: "Tree with large wax-like white or pink flowers", language_id: english.id },
                       [ { name: "Magnolia", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Wine bottle twice the standard size" },
+                      [ { name: "Magnum", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'great'", language_id: latin.id },
+                      [ { name: "Magnus", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'tender one'", language_id: hebrew.id },
+                      [ { name: "Mahalia", gender_id: female.id } ]
                     ],
                     [
                       { description: "Reddish-brown wood", language_id: english.id },
@@ -4752,8 +4789,17 @@ names_to_create = ([
                         { name: "Marguerite", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'great'", language_id: greek.id },
+                      [ { name: "Maia", gender_id: both.id },
+                        { name: "Maya", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'very important, greater or relatively great'", language_id: english.id },
                       [ { name: "Major", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'who resembles God'", language_id: hebrew.id },
+                      [ { name: "Makaela", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'smooth brow'", language_id: gaelic.id },
@@ -4763,8 +4809,20 @@ names_to_create = ([
                         { name: "Melvyn", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'devotee of St Columba'", language_id: gaelic.id },
+                      [ { name: "Malcolm", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'ruler', 'first born'" },
                       [ { name: "Mali" } ]
+                    ],
+                    [
+                      { description: "Place on the Californian Coast" },
+                      [ { name: "Malibu", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'mother'", language_id: english.id },
+                      [ { name: "Mama", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'pearl'" },
@@ -4772,10 +4830,15 @@ names_to_create = ([
                         { name: "Mayme", gender_id: female.id } ]
                     ],
                     [
+                      { description: "From the French mademoiselle, meaning 'miss'", language_id: french.id },
+                      [ { name: "Mamselle", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'God is with us'", language_id: hebrew.id },
                       [ { name: "Mana", gender_id: female.id },
                         { name: "Manni", gender_id: male.id },
-                        { name: "Manny", gender_id: male.id } ]
+                        { name: "Manny", gender_id: male.id },
+                        { name: "Manuel", gender_id: male.id } ]
                     ],
                     [
                       { description: "Small orange", language_id: english.id },
@@ -4786,6 +4849,18 @@ names_to_create = ([
                       [ { name: "Mandee", gender_id: female.id },
                         { name: "Mandi", gender_id: female.id },
                         { name: "Mandy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Poisonous plant with large yellow fruit" },
+                      [ { name: "Mandrake", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Island in New York" },
+                      [ { name: "Manhattan", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Madeleine, meaning 'person from Magdala'", language_id: hebrew.id },
+                      [ { name: "Manon", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'man'", language_id: sanskrit.id },
@@ -4809,8 +4884,28 @@ names_to_create = ([
                         { name: "Marbles", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Nickname of Marcia, meaning 'dedicated to Mars, the Roman god of war'", language_id: latin.id },
+                      [ { name: "Marcee", gender_id: female.id },
+                        { name: "Marcey", gender_id: female.id },
+                        { name: "Marcie", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'dedicated to Mars, the Roman god of war'", language_id: latin.id },
+                      [ { name: "Marcella", gender_id: female.id },
+                        { name: "Marcia", gender_id: female.id },
+                        { name: "Marsha", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'warrior'" },
                       [ { name: "Marco" } ]
+                    ],
+                    [
+                      { description: "Meaning 'defender'", language_id: latin.id },
+                      [ { name: "Marcus", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "From the Sanskrit margas meaning 'track'", language_id: sanskrit.id },
+                      [ { name: "Margaras" } ]
                     ],
                     [
                       { description: "Meaning 'pearl'", language_id: spanish.id },
@@ -4820,15 +4915,15 @@ names_to_create = ([
                     [
                       { description: "Meaning 'wished-for child'", language_id: hebrew.id },
                       [ { name: "Maria", gender_id: both.id },
+                        { name: "Mariah", gender_id: female.id },
                         { name: "Maree", gender_id: both.id },
                         { name: "Marie", gender_id: both.id },
-                        { name: "Marietta", gender_id: both.id },
                         { name: "Mariska", gender_id: female.id },
                         { name: "Mia", gender_id: female.id } ]
                     ],
                     [
-                      { description: "Alternate form of Maria, meaning 'wished-for child'", language_id: hebrew.id },
-                      [ { name: "Mariah", gender_id: female.id } ]
+                      { description: "Meaning 'bitter'", language_id: italian.id },
+                      [ { name: "Marietta", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'from the sea'", language_id: latin.id },
@@ -4840,9 +4935,31 @@ names_to_create = ([
                       [ { name: "Marissa" } ]
                     ],
                     [
+                      { description: "Meaning 'elevated'" },
+                      [ { name: "Marlee", gender_id: female.id },
+                        { name: "Marlene", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'wizard'" },
+                      [ { name: "Marlin" } ]
+                    ],
+                    [
                       { description: "Meaning 'driftwood'", language_id: old_english.id },
                       [ { name: "Marlow", gender_id: male.id },
                         { name: "Marlowe", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'boundary'", language_id: old_french.id },
+                      [ { name: "Marque", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'Lord of the borderlands'", language_id: old_french.id },
+                      [ { name: "Marquis", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'horse keeper'", language_id: ancient_german.id },
+                      [ { name: "Marshal", gender_id: male.id },
+                        { name: "Marshall" , gender_id: male.id } ]
                     ],
                     [
                       { description: "Soft sweet made from sugar, egg white and gelatine", language_id: english.id },
@@ -4859,9 +4976,20 @@ names_to_create = ([
                         { name: "Marty", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'dedicated to Mars'", language_id: latin.id },
+                      [ { name: "Marten", gender_id: both.id },
+                        { name: "Martin", gender_id: both.id },
+                        { name: "Martina", gender_id: female.id },
+                        { name: "Martyn", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'bitter' or 'wished-for child'", language_id: hebrew.id },
                       [ { name: "Mary", gender_id: both.id },
                         { name: "Polly", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Combination of the names Mary (meaning wished-for child) and Beth (meaning house)" },
+                      [ { name: "Marybeth", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'one who works with stone'", language_id: english.id },
@@ -4872,9 +5000,17 @@ names_to_create = ([
                       [ { name: "Master", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Companion or fellow worker", language_id: english.id },
+                      [ { name: "Mate", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'mighty in battle'", language_id: ancient_german.id },
                       [ { name: "Mathilda", gender_id: female.id },
                         { name: "Matilda", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'God's gift'", language_id: hebrew.id },
+                      [ { name: "Matthew", gender_id: both.id } ]
                     ],
                     [
                       { description: "Nickname of Matthew, meaning 'God's gift'", language_id: hebrew.id },
@@ -4909,18 +5045,38 @@ names_to_create = ([
                       [ { name: "May" } ]
                     ],
                     [
-                      { description: "Meaning 'great'", language_id: greek.id },
-                      [ { name: "Maya", gender_id: female.id } ]
+                      { description: "Meaning 'fair', 'favoured one'" },
+                      [ { name: "McKenzie" } ]
+                    ],
+                    [
+                      { description: "Meaning 'nation'", language_id: hebrew.id },
+                      [ { name: "Medina", gender_id: female.id } ]
                     ],
                     [
                       { description: "Assortment", language_id: english.id },
                       [ { name: "Medley", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'jellyfish'" },
+                      [ { name: "Medusa" } ]
+                    ],
+                    [
+                      { description: "Meaning 'good-looking'", language_id: vietnamese.id },
+                      [ { name: "Mee", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'pearl'", language_id: welsh.id },
                       [ { name: "Meg", gender_id: female.id },
                         { name: "Megan", gender_id: female.id },
                         { name: "Meggie", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'beautiful'", language_id: chinese.id },
+                      [ { name: "Meili", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'manly'", language_id: latin.id },
+                      [ { name: "Meirion", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'mixture'", language_id: french.id },
@@ -4930,6 +5086,10 @@ names_to_create = ([
                       { description: "Meaning 'black'", language_id: greek.id },
                       [ { name: "Melanie" },
                         { name: "Melinee" } ]
+                    ],
+                    [
+                      { description: "Meaning 'soft', 'slender'" },
+                      [ { name: "Melba" } ]
                     ],
                     [
                       { description: "Meaning 'honey', 'yellow'" },
@@ -4946,6 +5106,10 @@ names_to_create = ([
                       [ { name: "Mellow", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'sweet music'", language_id: english.id },
+                      [ { name: "Melody", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'mercies'", language_id: spanish.id },
                       [ { name: "Mercedes", gender_id: female.id } ]
                     ],
@@ -4956,6 +5120,19 @@ names_to_create = ([
                     [
                       { description: "Meaning 'sea hill'" },
                       [ { name: "Merlin" } ]
+                    ],
+                    [
+                      { description: "Cheerful and lively, joyous", language_id: english.id },
+                      [ { name: "Merrie", gender_id: both.id },
+                        { name: "Merry", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Mervyn, meaning 'sea friend'", language_id: welsh.id },
+                      [ { name: "Merv", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'bright one'", language_id: hebrew.id },
+                      [ { name: "Meyer", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'who is like God'", language_id: hebrew.id },
@@ -4991,6 +5168,14 @@ names_to_create = ([
                         { name: "Midnite", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'dainty'", language_id: french.id },
+                      [ { name: "Mignon" } ]
+                    ],
+                    [
+                      { description: "Meaning 'mild strength'", language_id: old_english.id },
+                      [ { name: "Mildred", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'soldier'", language_id: latin.id },
                       [ { name: "Miles", gender_id: male.id },
                         { name: "Milo", gender_id: male.id },
@@ -5003,6 +5188,10 @@ names_to_create = ([
                         { name: "Milky", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning one thousand years", language_id: english.id },
+                      [ { name: "Millennium", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Someone who works in a corn or flour mill", language_id: english.id },
                       [ { name: "Miller", gender_id: both.id } ]
                     ],
@@ -5011,6 +5200,10 @@ names_to_create = ([
                       [ { name: "Milley", gender_id: female.id },
                         { name: "Millie", gender_id: female.id },
                         { name: "Milly", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'animal strength'", language_id: ancient_german.id },
+                      [ { name: "Millicent", gender_id: female.id } ]
                     ],
                     [
                       { description: "Nickname of Miriam, meaning 'wished-for child'", language_id: hebrew.id },
@@ -5026,6 +5219,10 @@ names_to_create = ([
                         { name: "Mindy", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'brilliant', 'famous' or 'ringing' depending on the character used to represent the name", language_id: chinese.id },
+                      [ { name: "Ming", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'small'", language_id: english.id },
                       [ { name: "Mini", gender_id: both.id },
                         { name: "Pip Squeak", gender_id: both.id } ]
@@ -5036,15 +5233,42 @@ names_to_create = ([
                     ],
                     [
                       { description: "Nickname of Wilhelmina, meaning 'determined protector'", language_id: ancient_german.id },
-                      [ { name: "Minni", gender_id: female.id },
+                      [ { name: "Minna", gender_id: female.id },
+                        { name: "Minni", gender_id: female.id },
                         { name: "Minnie", gender_id: female.id },
                         { name: "Minny", gender_id: female.id },
                         { name: "Myni", gender_id: female.id } ]
                     ],
                     [
+                      { description: "A poet, singer, musician" },
+                      [ { name: "Minstrel" } ]
+                    ],
+                    [
+                      { description: "Fragrant herb", language_id: english.id },
+                      [ { name: "Mint", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "A very graceful and stately slow dance popular in the eighteenth century" },
+                      [ { name: "Minuet" } ]
+                    ],
+                    [
+                      { description: "Meaning 'light, saintly woman'" },
+                      [ { name: "Mira", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'extraordinary'", language_id: latin.id },
                       [ { name: "Mirabella", gender_id: female.id },
                         { name: "Mirabelle", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Remarkable event or thing", language_id: english.id },
+                      [ { name: "Miracle", gender_id: both.id },
+                        { name: "Myrical", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'admirable'", language_id: latin.id },
+                      [ { name: "Miranda" },
+                        { name: "Mirinda" } ]
                     ],
                     [
                       { description: "Misbehaviour", language_id: english.id },
@@ -5068,8 +5292,17 @@ names_to_create = ([
                       [ { name: "Misto", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Cold north or north west wind in Southern France" },
+                      [ { name: "Mistral", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Nickname of Mitchell, meaning 'who resembles God'", language_id: norman_french.id },
                       [ { name: "Mitch", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'who resembles God'", language_id: norman_french.id },
+                      [ { name: "Mitchel", gender_id: both.id },
+                        { name: "Mitchell", gender_id: both.id } ]
                     ],
                     [
                       { description: "Gloves to keep hands warm", language_id: english.id },
@@ -5082,10 +5315,28 @@ names_to_create = ([
                         { name: "Moe", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'attractive'" },
+                      [ { name: "Moana" } ]
+                    ],
+                    [
                       { description: "Chocolate flavoured coffee" },
                       [ { name: "Mocca", gender_id: both.id },
                         { name: "Mocha", gender_id: both.id },
                         { name: "Mochachino", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Soft flat-soled leather shoe" },
+                      [ { name: "Moccasin" } ]
+                    ],
+                    [
+                      { description: "Shortened version of Moggy, another name for the domestic cat", language_id: english.id, means_cat: true },
+                      [ { name: "Mog", gender_id: both.id },
+                        { name: "Moggs", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Another name for the domestic cat", language_id: english.id, means_cat: true },
+                      [ { name: "Moggie", gender_id: both.id },
+                        { name: "Moggy", gender_id: both.id } ]
                     ],
                     [
                       { description: "A food fish of New Zealand" },
@@ -5106,8 +5357,32 @@ names_to_create = ([
                       [ { name: "Mona" } ]
                     ],
                     [
+                      { description: "Meaning ‘my friend’", language_id: french.id },
+                      [ { name: "Mon Ami", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Famous painter" },
                       [ { name: "Monet", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Coins and banknotes", language_id: english.id },
+                      [ { name: "Money", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'solitary'", language_id: greek.id },
+                      [ { name: "Monica", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'saint'" },
+                      [ { name: "Monique" } ]
+                    ],
+                    [
+                      { description: "Meaning 'pointed hill'", language_id: old_french.id },
+                      [ { name: "Montague", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'mountain'" },
+                      [ { name: "Montana" } ]
                     ],
                     [
                       { description: "Meaning 'hill'", language_id: old_french.id },
@@ -5115,8 +5390,28 @@ names_to_create = ([
                         { name: "Monty", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'from the rich man’s mountain'" },
+                      [ { name: "Montgomery" } ]
+                    ],
+                    [
+                      { description: "Meaning 'mountain in the shape of a saw'", language_id: spanish.id },
+                      [ { name: "Montserrat", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Beam of light produced by the moon", language_id: english.id },
+                      [ { name: "Moonbeam", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "The largest animal of the deer family", language_id: english.id },
                       [ { name: "Moose", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "A little child or young girl" },
+                      [ { name: "Moppet" } ]
+                    ],
+                    [
+                      { description: "Meaning 'little Mary'" },
+                      [ { name: "Morena" } ]
                     ],
                     [
                       { description: "Meaning 'dark'", language_id: latin.id },
@@ -5128,6 +5423,14 @@ names_to_create = ([
                       [ { name: "Morgan", gender_id: both.id },
                         { name: "Morgaine", gender_id: both.id },
                         { name: "Morgen", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Greek god of sleep and dreams", language_id: greek.id },
+                      [ { name: "Morpheus" } ]
+                    ],
+                    [
+                      { description: "Meaning 'dead sea'", language_id: norman_french.id },
+                      [ { name: "Mortimer", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'pulled out'", language_id: hebrew.id },
@@ -5153,6 +5456,10 @@ names_to_create = ([
                         { name: "Muffins", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Ordinary clothes", language_id: english.id },
+                      [ { name: "Mufti", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'sea'", language_id: gaelic.id },
                       [ { name: "Murdoch", gender_id: male.id } ]
                     ],
@@ -5169,8 +5476,28 @@ names_to_create = ([
                       [ { name: "Mushroom", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'mouse-killer'" },
+                      [ { name: "Musion" } ]
+                    ],
+                    [
+                      { description: "Dazed, confused" },
+                      [ { name: "Muzzy" } ]
+                    ],
+                    [
                       { description: "Meaning 'emerald'", language_id: burmese.id },
                       [ { name: "Mya", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Gum resin used in perfumes, brought to baby Jesus by the three wise men" },
+                      [ { name: "Myrrh" } ]
+                    ],
+                    [
+                      { description: "Matter that remains unexplained", language_id: english.id },
+                      [ { name: "Mystery", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'mysterious'" },
+                      [ { name: "Mystique", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'good cook'" },
@@ -7491,6 +7818,18 @@ names_to_link = ([
                     [ "Magnolia" ]
                   ],
                   [
+                    { description: "Meaning 'great'" },
+                    [ "Magnum" ]
+                  ],
+                  [
+                    { description: "In Greek mythology, the eldest and loveliest of the Pleiades, mother of Hermes by Zeus", language_id: greek.id },
+                    [ "Maia" ]
+                  ],
+                  [
+                    { description: "In Roman mythology, an earth goddess", language_id: roman.id },
+                    [ "Maia" ]
+                  ],
+                  [
                     { description: "Meaning 'second-born child'", language_id: west_african.id },
                     [ "Manu" ]
                   ],
@@ -7501,6 +7840,10 @@ names_to_link = ([
                   [
                     { description: "Large daisy" },
                     [ "Marguerite" ]
+                  ],
+                  [
+                    { description: "Foreign nobleman ranking between duke and earl" },
+                    [ "Marquis" ]
                   ],
                   [
                     { description: "Meaning sympathy" },
@@ -7545,6 +7888,10 @@ names_to_link = ([
                   [
                     { description: "Meaning 'lady'", language_id: gaelic.id },
                     [ "Mollee", "Mollie", "Molly" ]
+                  ],
+                  [
+                    { description: "A longhaired lap dog" },
+                    [ "Moppet" ]
                   ],
                   [
                     { description: "Small green plant that grows in velvety clusters on rocks, trees and moist ground", language_id: english.id },

@@ -304,6 +304,7 @@ names_to_create = ([
                         { name: "Antonio", gender_id: both.id },
                         { name: "Cassius", gender_id: male.id },
                         { name: "Horace", gender_id: male.id },
+                        { name: "Lavinia", gender_id: female.id },
                         { name: "Percy", gender_id: male.id },
                         { name: "Persy", gender_id: male.id } ]
                     ],
@@ -740,6 +741,7 @@ names_to_create = ([
                         { name: "Elsie", gender_id: female.id },
                         { name: "Libbi", gender_id: female.id },
                         { name: "Libby", gender_id: female.id },
+                        { name: "Liz", gender_id: female.id },
                         { name: "Lizzi", gender_id: female.id },
                         { name: "Lizzie", gender_id: female.id },
                         { name: "Lizzy", gender_id: female.id } ]
@@ -1404,6 +1406,7 @@ names_to_create = ([
                       { description: "From an expression whose meaning has been lost", language_id: old_english.id },
                       [ { name: "Chad", gender_id: male.id },
                         { name: "Chancey", gender_id: male.id },
+                        { name: "Latoya", gender_id: female.id },
                         { name: "Mister", gender_id: male.id } ]
                     ],
                     [
@@ -2499,7 +2502,9 @@ names_to_create = ([
                         { name: "Louis", gender_id: male.id },
                         { name: "Louisa", gender_id: female.id },
                         { name: "Louise", gender_id: female.id },
-                        { name: "Loulou", gender_id: female.id } ]
+                        { name: "Loulou", gender_id: female.id },
+                        { name: "Ludovic", gender_id: male.id },
+                        { name: "Luigi", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'truly foreign'", language_id: ancient_german.id },
@@ -4278,6 +4283,10 @@ names_to_create = ([
                       [ { name: "Kwame", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'beautiful'", language_id: old_french.id },
+                      [ { name: "Labella", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Ornamental open-weave fabric or trimming", language_id: english.id },
                       [ { name: "Lace", gender_id: female.id } ]
                     ],
@@ -4288,6 +4297,10 @@ names_to_create = ([
                         { name: "Lacy", gender_id: female.id },
                         { name: "Layce", gender_id: female.id },
                         { name: "Laycie", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'thief'", language_id: italian.id },
+                      [ { name: "Ladro" } ]
                     ],
                     [
                       { description: "Women of good social position", language_id: english.id },
@@ -4308,12 +4321,28 @@ names_to_create = ([
                         { name: "Lyla", gender_id: female.id } ]
                     ],
                     [
+                      { description: "The eleventh letter of the Greek alphabet, corresponding to the English letter L"},
+                      [ { name: "Lambda", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'famous land'", language_id: ancient_german.id },
+                      [ { name: "Lambert", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'light'" },
                       [ { name: "Lana", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'helper'" },
+                      [ { name: "Lance" } ]
+                    ],
+                    [
                       { description: "Meaning 'a server'" },
                       [ { name: "Lancelot", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'long hill'", language_id: old_english.id },
+                      [ { name: "Landon", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'shining famous one'", language_id: latin.id },
@@ -4322,7 +4351,27 @@ names_to_create = ([
                     [
                       { description: "Meaning 'the bay or laurel plant'", language_id: latin.id },
                       [ { name: "Lari", gender_id: female.id },
-                        { name: "Lauren", gender_id: both.id } ]
+                        { name: "Laura", gender_id: female.id },
+                        { name: "Laurah", gender_id: female.id },
+                        { name: "Lauren", gender_id: both.id },
+                        { name: "Lauretta", gender_id: female.id },
+                        { name: "Laurie", gender_id: both.id },
+                        { name: "Lora", gender_id: female.id },
+                        { name: "Lorah", gender_id: female.id },
+                        { name: "Loren", gender_id: both.id },
+                        { name: "Lorinda", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'crowned with laurel'" },
+                      [ { name: "Larry" } ]
+                    ],
+                    [
+                      { description: "A young girl", language_id: english.id },
+                      [ { name: "Lassie", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'gently kind, peaceful'", language_id: arabic.id },
+                      [ { name: "Latifa", gender_id: female.id } ]
                     ],
                     [
                       { description: "Milky coffee" },
@@ -4345,6 +4394,20 @@ names_to_create = ([
                         { name: "Leigha", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'lion-like'", means_cat: true },
+                      [ { name: "Leander" },
+                        { name: "Leandra" },
+                        { name: "Lionel" } ]
+                    ],
+                    [
+                      { description: "Meaning 'lion man'", language_id: greek.id },
+                      [ { name: "Leandros", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Mythological wife of Zeus" },
+                      [ { name: "Leda", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'meadow'", language_id: old_english.id },
                       [ { name: "Lee", gender_id: both.id },
                         { name: "Leigh", gender_id: both.id } ]
@@ -4352,6 +4415,10 @@ names_to_create = ([
                     [
                       { description: "Story handed down from the past" },
                       [ { name: "Legend", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'heavenly child'" },
+                      [ { name: "Leilani", gender_id: female.id } ]
                     ],
                     [
                       { description: "Short form of Helena, meaning 'sun ray', 'shining light'", language_id: greek.id },
@@ -4376,12 +4443,28 @@ names_to_create = ([
                       [ { name: "Leonard", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'bold as a lion'" },
+                      [ { name: "Leonardo", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'brave people'", language_id: old_german.id },
+                      [ { name: "Leopold", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'the king'", language_id: french.id },
                       [ { name: "Leroy", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'glad'" },
+                      [ { name: "Letitia" } ]
+                    ],
+                    [
                       { description: "Meaning 'grey'", language_id: greek.id },
                       [ { name: "Leucos" } ]
+                    ],
+                    [
+                      { description: "Meaning 'connected'", language_id: hebrew.id },
+                      [ { name: "Levi", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'well-known'" },
@@ -4392,6 +4475,14 @@ names_to_create = ([
                       [ { name: "Lexi", gender_id: female.id },
                         { name: "Lexie", gender_id: female.id },
                         { name: "Lexy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'defender of mankind'", language_id: american.id },
+                      [ { name: "Lexis", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'determined protector'", language_id: gaelic.id },
+                      [ { name: "Liam", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'freedom'", language_id: english.id },
@@ -4416,6 +4507,10 @@ names_to_create = ([
                       [ { name: "Lillian", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Large luxurious car", language_id: english.id },
+                      [ { name: "Limo", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'lake colony'", language_id: latin.id },
                       [ { name: "Lincoln", gender_id: male.id } ]
                     ],
@@ -4426,12 +4521,32 @@ names_to_create = ([
                         { name: "Lynnda", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'from the linden tree hill'" },
+                      [ { name: "Lindbergh" } ]
+                    ],
+                    [
+                      { description: "Meaning 'lime tree hill'", language_id: old_english.id },
+                      [ { name: "Linden", gender_id: both.id },
+                        { name: "Lynden", gender_id: male.id },
+                        { name: "Lyndon", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Nickname of Linda, meaning 'pretty'", language_id: spanish.id },
                       [ { name: "Lindi", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'Lincoln's marsh'", language_id: old_english.id },
+                      [ { name: "Lindsay", gender_id: both.id },
+                        { name: "Lindsey", gender_id: both.id },
+                        { name: "Lindsy", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Nickname of Linden or Lyndon, meaning 'lime tree hill'", language_id: old_english.id },
                       [ { name: "Lindy", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'intelligent', 'dainty', 'reach high', 'small bell', 'water chestnut' or 'a long time' depending on the tone and character associated with the name", language_id: chinese.id },
+                      [ { name: "Ling", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'ruddy-complexioned'", language_id: irish_gaelic.id },
@@ -4441,12 +4556,25 @@ names_to_create = ([
                         { name: "Lynne", gender_id: both.id } ]
                     ],
                     [
-                      { description: "Known as the 'king of the beasts'", language_id: english.id },
+                      { description: "Known as the 'king of the beasts'", language_id: english.id, means_cat: true },
                       [ { name: "Lion", gender_id: male.id } ]
                     ],
                     [
-                      { description: "Meaning 'lion-like'", means_cat: true },
-                      [ { name: "Lionel" } ]
+                      { description: "Meaning 'has the heart of a lion'", means_cat: true },
+                      [ { name: "Lionheart", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Carmelita, meaning 'orchard'", language_id: hebrew.id },
+                      [ { name: "Lita", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Reptile with four legs and a long tail", language_id: english.id },
+                      [ { name: "Lizard", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'like a lion'", language_id: welsh.id, means_cat: true },
+                      [ { name: "Llewellyn", gender_id: male.id },
+                        { name: "Llewelyn", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'grey'", language_id: celtic.id },
@@ -4469,6 +4597,20 @@ names_to_create = ([
                       [ { name: "London" } ]
                     ],
                     [
+                      { description: "Meaning 'ambush cliff'", language_id: ancient_german.id },
+                      [ { name: "Lorelei", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "From the lotus flower" },
+                      [ { name: "Lotus", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'enjoyment'", language_id: hawaiian.id },
+                      [ { name: "Louanna", gender_id: female.id },
+                        { name: "Luana", gender_id: female.id },
+                        { name: "Luanna", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Nickname of Louis and Louise, meaning 'famous warrior'", language_id: ancient_german.id },
                       [ { name: "Louie", gender_id: both.id },
                         { name: "Luewe", gender_id: both.id },
@@ -4481,14 +4623,21 @@ names_to_create = ([
                     ],
                     [
                       { description: "Meaning 'light'", language_id: latin.id },
-                      [ { name: "Luci", gender_id: female.id },
+                      [ { name: "Lucas", gender_id: male.id },
+                        { name: "Luci", gender_id: female.id },
+                        { name: "Luciano", gender_id: male.id },
                         { name: "Lucie", gender_id: female.id },
                         { name: "Lucielle", gender_id: female.id },
                         { name: "Lucile", gender_id: female.id },
                         { name: "Lucille", gender_id: female.id },
+                        { name: "Lucinda", gender_id: female.id },
                         { name: "Lucy", gender_id: female.id },
                         { name: "Lulu", gender_id: female.id },
                         { name: "Lux", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'light'", language_id: italian.id },
+                      [ { name: "Lucia", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'light bearer'", language_id: latin.id },
@@ -4499,12 +4648,32 @@ names_to_create = ([
                       [ { name: "Lucky", gender_id: both.id } ]
                     ],
                     [
+                      { description: "German form of Louise, meaning 'famous warrior'", language_id: german.id },
+                      [ { name: "Luise", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'light'", language_id: greek.id },
                       [ { name: "Luke", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'light'", language_id: french.id },
+                      [ { name: "Lumiere" } ]
+                    ],
+                    [
                       { description: "Meaning 'moon'", gender_id: italian.id },
                       [ { name: "Luna" } ]
+                    ],
+                    [
+                      { description: "Soft brightness of a surface", language_id: english.id },
+                      [ { name: "Lustre", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'luxurious'" },
+                      [ { name: "Luxor" } ]
+                    ],
+                    [
+                      { description: "Meaning 'woman from Lydia'", language_id: greek.id },
+                      [ { name: "Lydia", gender_id: female.id } ]
                     ],
                     [
                       { description: "Wild animal of the cat family", language_id: english.id, means_cat: true },
@@ -7274,8 +7443,20 @@ names_to_link = ([
                     [ "Kiwi" ]
                   ],
                   [
+                    { description: "Long spear", language_id: english.id },
+                    [ "Lance" ]
+                  ],
+                  [
+                    { description: "A sweetheart", language_id: english.id },
+                    [ "Lassie" ]
+                  ],
+                  [
                     { description: "Meaning 'from Laurentum'", language_id: latin.id },
                     [ "Lauren" ]
+                  ],
+                  [
+                    { description: "Meaning ‘mother of Helen’", language_id: greek.id },
+                    [ "Leda" ]
                   ],
                   [
                     { description: "Meaning 'play'", language_id: sanskrit.id },

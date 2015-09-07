@@ -1225,7 +1225,8 @@ names_to_create = ([
                     [
                       { description: "Meaning 'sweets and lollies'", language_id: american.id },
                       [ { name: "Candie", gender_id: female.id },
-                        { name: "Candy", gender_id: female.id } ]
+                        { name: "Candy", gender_id: female.id },
+                        { name: "Kandi", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'wolf cub'", language_id: gaelic.id, means_dog: true },
@@ -1349,6 +1350,10 @@ names_to_create = ([
                         { name: "Catherine", gender_id: female.id },
                         { name: "Catrina", gender_id: female.id },
                         { name: "Catriona", gender_id: female.id },
+                        { name: "Kadey", gender_id: female.id },
+                        { name: "Kady", gender_id: female.id },
+                        { name: "Karen", gender_id: female.id },
+                        { name: "Karin", gender_id: female.id },
                         { name: "Katarina", gender_id: female.id },
                         { name: "Kate", gender_id: female.id },
                         { name: "Katerina", gender_id: female.id },
@@ -1361,6 +1366,7 @@ names_to_create = ([
                         { name: "Katrina", gender_id: female.id },
                         { name: "Katryna", gender_id: female.id },
                         { name: "Kattryna", gender_id: female.id },
+                        { name: "Kayleigh", gender_id: female.id },
                         { name: "Kittie", gender_id: female.id },
                         { name: "Kitty", gender_id: female.id } ]
                     ],
@@ -1457,6 +1463,11 @@ names_to_create = ([
                     [
                       { description: "Meaning 'disorder'", language_id: english.id },
                       [ { name: "Chaos", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Power to inspire or attract others" },
+                      [ { name: "Charisma", gender_id: both.id },
+                        { name: "Kharisma", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'generous love'", language_id: latin.id },
@@ -1593,14 +1604,23 @@ names_to_create = ([
                     [
                       { description: "Nickname of Christina and Christine, meaning 'Christ's follower'" },
                       [ { name: "Chrissie", gender_id: female.id },
-                        { name: "Chrissy", gender_id: female.id } ]
+                        { name: "Chrissy", gender_id: female.id },
+                        { name: "Krissy", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'Christ's follower'", language_id: latin.id },
                       [ { name: "Christiana", gender_id: female.id },
                         { name: "Christina", gender_id: female.id },
                         { name: "Christine", gender_id: female.id },
-                        { name: "Tina", gender_id: female.id } ]
+                        { name: "Tina", gender_id: female.id },
+                        { name: "Khristen", gender_id: both.id },
+                        { name: "Khristin", gender_id: both.id },
+                        { name: "Khrysten", gender_id: both.id },
+                        { name: "Kristan", gender_id: both.id },
+                        { name: "Kristen", gender_id: both.id },
+                        { name: "Kristin", gender_id: both.id },
+                        { name: "Kriston", gender_id: both.id },
+                        { name: "Krystiana", gender_id: female.id } ]
                     ],
                     [
                       { description: "Nickname of Christian, Christopher, Christina and Christine, meaning 'Christ's follower'" },
@@ -3940,6 +3960,14 @@ names_to_create = ([
                         { name: "Justine", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'companion'", language_id: arabic.id },
+                      [ { name: "Kaden", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'lovely'", language_id: greek.id },
+                      [ { name: "Kahle", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'head of hair'", language_id: latin.id },
                       [ { name: "Kaiser", gender_id: male.id } ]
                     ],
@@ -3948,16 +3976,57 @@ names_to_create = ([
                       [ { name: "Kala" } ]
                     ],
                     [
+                      { description: "Meaning 'beautiful form'", language_id: greek.id },
+                      [ { name: "Kaleidoscope", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'pure'", language_id: hawaiian.id },
+                      [ { name: "Kalena", gender_id: female.id },
+                        { name: "Keke", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'beloved'", language_id: arabic.id },
+                      [ { name: "Kalin", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'friend of ships'" },
+                      [ { name: "Kalvin", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'sought after'" },
+                      [ { name: "Kama" } ]
+                    ],
+                    [
                       { description: "Meaning 'exacting'" },
                       [ { name: "Kane" } ]
+                    ],
+                    [
+                      { description: "Meaning 'health', 'generous' or 'fervent' depending on the character used for the name", language_id: chinese.id },
+                      [ { name: "Kang", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'crow'", language_id: siouan.id, means_bird: true },
                       [ { name: "Kangi", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'a man'" },
+                      [ { name: "Karl", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'fate'", language_id: sanskrit.id },
                       [ { name: "Karma", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Unheeded prophetess" },
+                      [ { name: "Kasandra", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'money', 'cash'" },
+                      [ { name: "Kasha" } ]
+                    ],
+                    [
+                      { description: "Meaning 'herald of peace'" },
+                      [ { name: "Kasimar" } ]
                     ],
                     [
                       { description: "Nickname of Katherine, Katrina or Katarina, meaning 'pure'", language_id: greek.id },
@@ -3973,6 +4042,10 @@ names_to_create = ([
                       { description: "Meaning 'home', 'yew tree' or 'rock'", language_id: japanese.id },
                       [ { name: "Kaya", gender_id: female.id },
                         { name: "Kayah", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'cat'", language_id: old_german.id, means_cat: true },
+                      [ { name: "Kazza" } ]
                     ],
                     [
                       { description: "Alternative spelling for Casey, meaning 'brave'" },
@@ -3997,6 +4070,10 @@ names_to_create = ([
                         { name: "Kyllie", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'forest'", language_id: ancient_celtic.id },
+                      [ { name: "Keith", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'strife, war'", language_id: irish_gaelic.id },
                       [ { name: "Keli", gender_id: both.id },
                         { name: "Kelie", gender_id: both.id },
@@ -4006,11 +4083,47 @@ names_to_create = ([
                         { name: "Kelly", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'slim and fair'", language_id: gaelic.id },
+                      [ { name: "Kellin", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'victorious ship'", language_id: old_english.id },
+                      [ { name: "Kelcey", gender_id: both.id },
+                        { name: "Kelci", gender_id: both.id },
+                        { name: "Kelcie", gender_id: both.id },
+                        { name: "Kelcy", gender_id: both.id },
+                        { name: "Kelsey", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "A beam fastened over a ships keel to add structural strength" },
+                      [ { name: "Kelson" } ]
+                    ],
+                    [
+                      { description: "Meaning 'the Kent river valley'", language_id: ancient_german.id },
+                      [ { name: "Kendal", gender_id: both.id },
+                        { name: "Kendall", gender_id: both.id },
+                        { name: "Kendel", gender_id: both.id },
+                        { name: "Kendell", gender_id: both.id },
+                        { name: "Kendle", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'greatest champion'", language_id: welsh.id },
+                      [ { name: "Kendra", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'God's grace'", language_id: hawaiian.id },
+                      [ { name: "Keoni", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'black-haired'", language_id: irish_gaelic.id },
                       [ { name: "Keri", gender_id: both.id },
                         { name: "Kerri", gender_id: both.id },
                         { name: "Kerrie", gender_id: both.id },
                         { name: "Kerry", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'jealous of no-one'", language_id: gaelic.id },
+                      [ { name: "Kermit", gender_id: male.id } ]
                     ],
                     [
                       { description: "Tomato sauce for hotdogs, fries or burgers", language_id: american.id },
@@ -4023,12 +4136,37 @@ names_to_create = ([
                         { name: "Kevyn", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'to succeed'", language_id: arabic.id },
+                      [ { name: "Khalif", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "A title given to various dignitaries" },
+                      [ { name: "Khan" } ]
+                    ],
+                    [
                       { description: "Nickname of Kiana, from Anna, meaning 'favoured grace'" },
                       [ { name: "Kia", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'narrow, straight'", language_id: gaelic.id },
+                      [ { name: "Kiel", gender_id: both.id },
+                        { name: "Kile", gender_id: both.id },
+                        { name: "Kylah", gender_id: female.id },
+                        { name: "Kyle", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'black'", language_id: celtic.id },
                       [ { name: "Kieran" } ]
+                    ],
+                    [
+                      { description: "Meaning 'Cyneburg's field'", language_id: old_english.id },
+                      [ { name: "Kim", gender_id: female.id },
+                        { name: "Kimberlee", gender_id: both.id },
+                        { name: "Kimberly", gender_id: both.id },
+                        { name: "Kymberlee", gender_id: both.id },
+                        { name: "Kymberli", gender_id: both.id },
+                        { name: "Kymberlie", gender_id: both.id },
+                        { name: "Kymberly", gender_id: both.id } ]
                     ],
                     [
                       { description: "Nickname of Kimberly, meaning 'Cyneburg's field'", language_id: old_english.id },
@@ -4040,8 +4178,16 @@ names_to_create = ([
                         { name: "Kimy", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'from the highest pass'" },
+                      [ { name: "Kincaid" } ]
+                    ],
+                    [
                       { description: "Someone regarded as supreme", language_id: english.id },
                       [ { name: "King", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'King's wood'", language_id: old_english.id },
+                      [ { name: "Kingsley", gender_id: both.id } ]
                     ],
                     [
                       { description: "Short for Kipper, smoked herring, a type of fish" },
@@ -4067,12 +4213,28 @@ names_to_create = ([
                         { name: "Kirri", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'Christian'" },
+                      [ { name: "Kirk" } ]
+                    ],
+                    [
+                      { description: "After one of the foundation Devon Rex cats" },
+                      [ { name: "Kirlee", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Destiny, fate" },
                       [ { name: "Kismet" } ]
                     ],
                     [
                       { description: "Brown coloured flightless New Zealand bird", means_bird: true },
                       [ { name: "Kiwi", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'pristine' or 'happy generation' depending on the characters used", language_id: japanese.id },
+                      [ { name: "Kiyo", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'boy born on Tuesday'", language_id: akan.id },
+                      [ { name: "Kobla", gender_id: male.id } ]
                     ],
                     [
                       { description: "A large bear found on Kodiak Island, Alaska" },
@@ -4088,6 +4250,10 @@ names_to_create = ([
                       [ { name: "Kofi", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Powder for darkening the eyelids" },
+                      [ { name: "Kohl" } ]
+                    ],
+                    [
                       { description: "Meaning 'victorious people'", language_id: french.id },
                       [ { name: "Koko", gender_id: both.id } ]
                     ],
@@ -4098,6 +4264,18 @@ names_to_create = ([
                     [
                       { description: "Meaning 'cat'", language_id: russian.id, means_cat: true },
                       [ { name: "Koshka" } ]
+                    ],
+                    [
+                      { description: "Nickname of Kristen and Kristina, meaning 'Christ's follower'", language_id: latin.id },
+                      [ { name: "Kristy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'free from worry', 'broad', 'generous' or 'comfortable' depending on the character used to depict the name", language_id: chinese.id },
+                      [ { name: "Kuan", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'boy born on Saturday'", language_id: akan.id },
+                      [ { name: "Kwame", gender_id: male.id } ]
                     ],
                     [
                       { description: "Ornamental open-weave fabric or trimming", language_id: english.id },
@@ -7072,12 +7250,20 @@ names_to_link = ([
                     [ "KC" ]
                   ],
                   [
+                    { description: "A prince" },
+                    [ "Khan" ]
+                  ],
+                  [
                     { description: "Nickname of Kristina, meaning 'Christ's follower'", language_id: latin.id },
                     [ "Kia" ]
                   ],
                   [
                     { description: "Meaning 'ruler'", language_id: english.id },
                     [ "King" ]
+                  ],
+                  [
+                    { description: "Church" },
+                    [ "Kirk" ]
                   ],
                   [
                     { description: "Another name for cat", language_id: english.id, means_cat: true },

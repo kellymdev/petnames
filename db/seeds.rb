@@ -2420,7 +2420,8 @@ names_to_create = ([
                     [
                       { description: "Meaning 'God has answered'", language_id: hebrew.id },
                       [ { name: "Elia", gender_id: female.id },
-                        { name: "Eliana", gender_id: female.id } ]
+                        { name: "Eliana", gender_id: female.id },
+                        { name: "Ileana", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'God is Lord'", language_id: greek.id },
@@ -3010,6 +3011,7 @@ names_to_create = ([
                       { description: "Meaning 'God's grace'", language_id: hebrew.id },
                       [ { name: "Gianni", gender_id: male.id },
                         { name: "Giovanni", gender_id: male.id },
+                        { name: "Ian", gender_id: male.id },
                         { name: "Ivan", gender_id: male.id },
                         { name: "Jack", gender_id: both.id },
                         { name: "Jackson", gender_id: male.id },
@@ -3485,12 +3487,49 @@ names_to_create = ([
                       [ { name: "Hyacinth", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'violet flower'", language_id: greek.id },
+                      [ { name: "Ianthe", gender_id: female.id },
+                        { name: "Iolanthe" } ]
+                    ],
+                    [
                       { description: "Frozen water", language_id: english.id },
                       [ { name: "Ice", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'departed glory'" },
                       [ { name: "Ichabod" } ]
+                    ],
+                    [
+                      { description: "Meaning 'work'", language_id: ancient_german.id },
+                      [ { name: "Ida", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'thought'", language_id: latin.id },
+                      [ { name: "Idea", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'tree'", language_id: hebrew.id },
+                      [ { name: "Ilana", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Ilana, meaning 'tree'", language_id: hebrew.id },
+                      [ { name: "Illa", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'universal battle'", language_id: ancient_german.id },
+                      [ { name: "Imelda", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'image', 'imaginative'" },
+                      [ { name: "Imogen", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "After the country" },
+                      [ { name: "India", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "An American state" },
+                      [ { name: "Indiana", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'independent'", language_id: english.id },
@@ -3502,12 +3541,23 @@ names_to_create = ([
                       [ { name: "Indigo", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'famous Ing'", language_id: old_norse.id },
+                      [ { name: "Inge", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'beauty of Ing'", language_id: old_norse.id },
+                      [ { name: "Ingrid", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Coloured, marked, covered or smeared with ink", language_id: english.id },
                       [ { name: "Inky", gender_id: both.id } ]
                     ],
                     [
-                      { description: "Meaning 'violet'", language_id: greek.id },
-                      [ { name: "Iolanthe" } ]
+                      { description: "Meaning 'dove'", language_id: hebrew.id, means_bird: true },
+                      [ { name: "Iona", gender_id: female.id },
+                        { name: "Jemima", gender_id: female.id },
+                        { name: "Jemimah", gender_id: female.id },
+                        { name: "Jonah", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'rainbow'" },
@@ -3515,12 +3565,31 @@ names_to_create = ([
                         { name: "Isa" } ]
                     ],
                     [
+                      { description: "Meaning 'he laughs'", language_id: hebrew.id },
+                      [ { name: "Isaac", gender_id: male.id },
+                        { name: "Issac", gender_id: male.id },
+                        { name: "Izak", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'Queen of Isis'" },
                       [ { name: "Isadora", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'gift of Isis'", language_id: greek.id },
+                      [ { name: "Isador", gender_id: male.id },
+                        { name: "Isadore", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Egyptian Goddess" },
                       [ { name: "Isis", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'reward'", language_id: hebrew.id },
+                      [ { name: "Issachar", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'archer-soldier'", language_id: old_norse.id },
+                      [ { name: "Ivor", gender_id: male.id } ]
                     ],
                     [
                       { description: "Hard creamy-white substance forming elephant tusks", language_id: english.id },
@@ -3608,12 +3677,6 @@ names_to_create = ([
                       [ { name: "Jeanie", gender_id: female.id },
                         { name: "Jeannie", gender_id: female.id },
                         { name: "Jeany", gender_id: female.id } ]
-                    ],
-                    [
-                      { description: "Meaning 'dove'", language_id: hebrew.id, means_bird: true },
-                      [ { name: "Jemima", gender_id: female.id },
-                        { name: "Jemimah", gender_id: female.id },
-                        { name: "Jonah", gender_id: male.id } ]
                     ],
                     [
                       { description: "Nickname of Jennifer, meaning 'pure and yielding, white wave'", language_id: welsh.id },
@@ -6818,6 +6881,10 @@ names_to_link = ([
                     [ "Hyacinth" ]
                   ],
                   [
+                    { description: "Meaning 'the country of India'", language_id: spanish.id },
+                    [ "Indiana" ]
+                  ],
+                  [
                     { description: "Goddess of the rainbow in Greek mythology", language_id: greek.id },
                     [ "Iris" ]
                   ],
@@ -7274,7 +7341,7 @@ colours_to_link = ([
                     ],
                     [
                       { name: "lilac", description: "Lilac" },
-                      [ "Amethyst", "Azure", "Azurine", "Heather", "Hyacinth", "Iolanthe", "Lavenda", "Lavender", "Plum", "Tibouchina", "Tupelo", "Violet", "Violetta", "Violette" ]
+                      [ "Amethyst", "Azure", "Azurine", "Heather", "Hyacinth", "Ianthe", "Iolanthe", "Lavenda", "Lavender", "Plum", "Tibouchina", "Tupelo", "Violet", "Violetta", "Violette" ]
                     ],
                     [
                       { name: "red", description: "Red, Ruby, Apricot or Ginger" },

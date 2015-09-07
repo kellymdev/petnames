@@ -2672,7 +2672,7 @@ names_to_create = ([
                       [ { name: "Fidget", gender_id: both.id } ]
                     ],
                     [
-                      { description: "Nickname of Josephine, meaning 'the Lord's addition'", language_id: hebrew.id },
+                      { description: "Nickname of Josephine, meaning 'addition'", language_id: hebrew.id },
                       [ { name: "Fifi", gender_id: female.id } ]
                     ],
                     [
@@ -2955,8 +2955,9 @@ names_to_create = ([
                       [ { name: "Gaye", gender_id: both.id } ]
                     ],
                     [
-                      { description: "Nickname of Gemma, meaning 'gem' or 'jewel'", language_id: latin.id },
-                      [ { name: "Gem", gender_id: female.id } ]
+                      { description: "Nickname of Gemma or Jemma, meaning 'gem' or 'jewel'", language_id: latin.id },
+                      [ { name: "Gem", gender_id: female.id },
+                        { name: "Jem", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'gem' or 'jewel'", language_id: latin.id },
@@ -3015,6 +3016,7 @@ names_to_create = ([
                         { name: "Ivan", gender_id: male.id },
                         { name: "Jack", gender_id: both.id },
                         { name: "Jackson", gender_id: male.id },
+                        { name: "Jahna", gender_id: female.id },
                         { name: "Jaine", gender_id: female.id },
                         { name: "Jak", gender_id: both.id },
                         { name: "Jandi", gender_id: female.id },
@@ -3030,7 +3032,16 @@ names_to_create = ([
                         { name: "Jaxon", gender_id: male.id },
                         { name: "Jayne", gender_id: female.id },
                         { name: "Jeanelle", gender_id: female.id },
-                        { name: "Jock", gender_id: male.id } ]
+                        { name: "Jenita", gender_id: female.id },
+                        { name: "Jenson", gender_id: male.id },
+                        { name: "Joao", gender_id: male.id },
+                        { name: "Jock", gender_id: male.id },
+                        { name: "Johann", gender_id: male.id },
+                        { name: "John", gender_id: male.id },
+                        { name: "Johna", gender_id: female.id },
+                        { name: "Johnna", gender_id: female.id },
+                        { name: "Jon", gender_id: male.id },
+                        { name: "Jones", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'Gilbert's son'", language_id: english.id },
@@ -3256,7 +3267,7 @@ names_to_create = ([
                       [ { name: "Hamilton" } ]
                     ],
                     [
-                      { description: "Meaning 'supplanter'" },
+                      { description: "Meaning 'supplanter'", language_id: english.id },
                       [ { name: "Hamish", gender_id: male.id } ]
                     ],
                     [
@@ -3608,6 +3619,14 @@ names_to_create = ([
                         { name: "Izzy", gender_id: female.id } ]
                     ],
                     [
+                      { description: "After the letters J.C.", language_id: english.id },
+                      [ { name: "Jacey", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'beautiful'" },
+                      [ { name: "Jacinders" } ]
+                    ],
+                    [
                       { description: "Nickname of Jack, meaning 'God's grace'", language_id: hebrew.id },
                       [ { name: "Jacki", gender_id: both.id },
                         { name: "Jackie", gender_id: both.id },
@@ -3616,6 +3635,10 @@ names_to_create = ([
                     [
                       { description: "Meaning 'heel'", language_id: hebrew.id },
                       [ { name: "Jacob", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'supplanter'", language_id: french.id },
+                      [ { name: "Jacques", gender_id: male.id } ]
                     ],
                     [
                       { description: "Nickname of Jacqueline, meaning 'one who trips up another and takes her place'", language_id: hebrew.id },
@@ -3642,6 +3665,22 @@ names_to_create = ([
                       [ { name: "Jake", gender_id: male.id } ]
                     ],
                     [
+                      { description: "After the country" },
+                      [ { name: "Jamaica", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'beautiful'" },
+                      [ { name: "Jamilla" } ]
+                    ],
+                    [
+                      { description: "Meaning 'his favour'" },
+                      [ { name: "Jan" } ]
+                    ],
+                    [
+                      { description: "Meaning 'cry out' or 'to sing'", language_id: hebrew.id },
+                      [ { name: "Jaren", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'sweet and amiable'", language_id: english.id },
                       [ { name: "Jasmin", gender_id: female.id },
                         { name: "Jasmine", gender_id: female.id },
@@ -3651,12 +3690,18 @@ names_to_create = ([
                         { name: "Jazzmine", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'healer'", language_id: greek.id },
+                      [ { name: "Jason", gender_id: male.id },
+                        { name: "Jayce", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Coffee" },
                       [ { name: "Java", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'happy'", language_id: latin.id },
-                      [ { name: "Jay", gender_id: both.id } ]
+                      [ { name: "Jay", gender_id: both.id },
+                        { name: "Jayjay", gender_id: both.id } ]
                     ],
                     [
                       { description: "Type of music with a strong rhythm", language_id: english.id },
@@ -3696,9 +3741,28 @@ names_to_create = ([
                       [ { name: "Jenna", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'God will uplift'" },
+                      [ { name: "Jeremiah" } ]
+                    ],
+                    [
+                      { description: "Meaning 'exalted'", language_id: hebrew.id },
+                      [ { name: "Jeremy", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'sanctified name'", language_id: greek.id },
+                      [ { name: "Jerome", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'exalted' or 'holy'", language_id: greek.id },
                       [ { name: "Jerri", gender_id: both.id },
                         { name: "Jerry", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'he beholds'", language_id: hebrew.id },
+                      [ { name: "Jesicca", gender_id: female.id },
+                        { name: "Jesika", gender_id: female.id },
+                        { name: "Jesyka", gender_id: female.id },
+                        { name: "Jessica", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'the Lord exists'", language_id: hebrew.id },
@@ -3715,6 +3779,10 @@ names_to_create = ([
                       { description: "Glossy black colour", language_id: english.id },
                       [ { name: "Jet", gender_id: both.id },
                         { name: "Jett", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'wealth and abundance'", language_id: hebrew.id },
+                      [ { name: "Jethro", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'a gem'", language_id: english.id },
@@ -3742,6 +3810,10 @@ names_to_create = ([
                         { name: "Jimmy", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Nickname for any name beginning with the letter J", language_id: english.id },
+                      [ { name: "JJ", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'addition'", language_id: hebrew.id },
                       [ { name: "Jo", gender_id: both.id },
                         { name: "Jodee", gender_id: female.id },
@@ -3754,6 +3826,10 @@ names_to_create = ([
                         { name: "Joseph", gender_id: both.id },
                         { name: "Josephine", gender_id: female.id },
                         { name: "Josie", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'celestial'" },
+                      [ { name: "Joel" } ]
                     ],
                     [
                       { description: "Nickname of Joseph, meaning 'addition'", language_id: hebrew.id },
@@ -3773,6 +3849,26 @@ names_to_create = ([
                         { name: "Jonny", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Combination of Jo and the ending -lene", language_id: english.id },
+                      [ { name: "Joeleen", gender_id: female.id },
+                        { name: "Joelene", gender_id: female.id },
+                        { name: "Joeline", gender_id: female.id },
+                        { name: "Joleen", gender_id: female.id },
+                        { name: "Jolene", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'flowing down'", language_id: hebrew.id },
+                      [ { name: "Jordan", gender_id: both.id },
+                        { name: "Jorden", gender_id: both.id },
+                        { name: "Jordin", gender_id: both.id },
+                        { name: "Jordon", gender_id: both.id },
+                        { name: "Jordyn", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Josef, meaning 'addition'", language_id: hebrew.id },
+                      [ { name: "Jos", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'addition'", language_id: spanish.id },
                       [ { name: "Jose", gender_id: male.id } ]
                     ],
@@ -3782,8 +3878,18 @@ names_to_create = ([
                         { name: "Joshua", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Nickname of Jocelyn, meaning 'a member of the Germanic tribe, the Gauts'", language_id: ancient_german.id },
+                      [ { name: "Joss", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'God has been gracious'" },
-                      [ { name: "Juan" } ]
+                      [ { name: "Juan" },
+                        { name: "Juanita" } ]
+                    ],
+                    [
+                      { description: "Meaning 'praised'", language_id: hebrew.id },
+                      [ { name: "Jude", gender_id: both.id },
+                        { name: "Judy", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'Jove's descendant'", language_id: latin.id },
@@ -3797,6 +3903,18 @@ names_to_create = ([
                         { name: "Juliette", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Belonging to Julius" },
+                      [ { name: "Jules" } ]
+                    ],
+                    [
+                      { description: "Meaning 'Jove's descendant'", language_id: greek.id },
+                      [ { name: "Julio", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'kind'" },
+                      [ { name: "Julius" } ]
+                    ],
+                    [
                       { description: "Meaning 'pearl'", language_id: arabic.id },
                       [ { name: "Jumana", gender_id: female.id } ]
                     ],
@@ -3805,8 +3923,21 @@ names_to_create = ([
                       [ { name: "Junior", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Evergreen shrub with dark berries" },
+                      [ { name: "Juniper" } ]
+                    ],
+                    [
+                      { description: "Leader of the gods in Greek mythology", language_id: greek.id },
+                      [ { name: "Jupiter" } ]
+                    ],
+                    [
                       { description: "Fairness", language_id: english.id },
                       [ { name: "Justice", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'just'", language_id: latin.id },
+                      [ { name: "Justin", gender_id: both.id },
+                        { name: "Justine", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'head of hair'", language_id: latin.id },
@@ -4998,7 +5129,7 @@ names_to_create = ([
                         { name: "Pepper", gender_id: both.id } ]
                     ],
                     [
-                      { description: "Nickname of Jose or Joseph, meaning 'the Lord's addition'", language_id: hebrew.id },
+                      { description: "Nickname of Jose or Joseph, meaning 'addition'", language_id: hebrew.id },
                       [ { name: "Pepe", gender_id: male.id },
                         { name: "Pepi", gender_id: male.id } ]
                     ],
@@ -6921,10 +7052,6 @@ names_to_link = ([
                     [ "Jay" ]
                   ],
                   [
-                    { description: "Meaning 'exalted' or 'holy'", language_id: hebrew.id },
-                    [ "Jerri", "Jerry" ]
-                  ],
-                  [
                     { description: "Precious stone cut or set as an ornament", language_id: english.id },
                     [ "Jewel" ]
                   ],
@@ -7282,6 +7409,14 @@ meanings_to_link = ([
                       [
                         { description: "Nickname of Jacqueline, meaning 'one who trips up another and takes her place'", language_id: hebrew.id },
                         [ "Jacki", "Jackie", "Jacky" ]
+                      ],
+                      [
+                        { description: "Nickname for any name beginning with the letter J", language_id: english.id },
+                        [ "Jayjay" ]
+                      ],
+                      [
+                        { description: "Meaning 'exalted'", language_id: hebrew.id },
+                        [ "Jerri", "Jerry" ]
                       ],
                       [
                         { description: "Meaning 'light'", language_id: latin.id },

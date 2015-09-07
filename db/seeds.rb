@@ -5500,14 +5500,36 @@ names_to_create = ([
                       [ { name: "Mystique", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'hope'", language_id: russian.id },
+                      [ { name: "Nada", gender_id: female.id },
+                        { name: "Nadia", gender_id: female.id },
+                        { name: "Nadya", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'good cook'" },
                       [ { name: "Nahla", gender_id: female.id },
                         { name: "Nala", gender_id: female.id },
                         { name: "Nalla", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'destroyer of nocturnal mice'", language_id: sanskrit.id },
+                      [ { name: "Nakulus" } ]
+                    ],
+                    [
                       { description: "Meaning 'favoured grace'", language_id: english.id },
                       [ { name: "Nancy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'bestower of joy'" },
+                      [ { name: "Nandina" } ]
+                    ],
+                    [
+                      { description: "Meaning 'grace'" },
+                      [ { name: "Nanna" } ]
+                    ],
+                    [
+                      { description: "Meaning 'pleasant'", language_id: hebrew.id },
+                      [ { name: "Naomi", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'sons of mist'", language_id: ancient_german.id },
@@ -5518,9 +5540,50 @@ names_to_create = ([
                       [ { name: "Naranja" } ]
                     ],
                     [
+                      { description: "A wicker basket", language_id: latin.id },
+                      [ { name: "Nassa" } ]
+                    ],
+                    [
                       { description: "Meaning 'the Lord's birthday'", language_id: latin.id },
                       [ { name: "Natalie", gender_id: female.id },
-                        { name: "Natasha", gender_id: female.id } ]
+                        { name: "Natasha", gender_id: female.id },
+                        { name: "Natty", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'he has bestowed'", language_id: hebrew.id },
+                      [ { name: "Nathan", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'plains'" },
+                      [ { name: "Navarre" } ]
+                    ],
+                    [
+                      { description: "Meaning 'champion'", language_id: irish_gaelic.id },
+                      [ { name: "Neal", gender_id: male.id },
+                        { name: "Neel", gender_id: male.id },
+                        { name: "Neil", gender_id: male.id },
+                        { name: "Neill", gender_id: male.id },
+                        { name: "Nelson", gender_id: male.id },
+                        { name: "Nial", gender_id: male.id },
+                        { name: "Niel", gender_id: male.id },
+                        { name: "Nile", gender_id: male.id },
+                        { name: "Niles", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'guardian'" },
+                      [ { name: "Ned", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Small pointed pieces of steel used in sewing", language_id: english.id },
+                      [ { name: "Needles", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'the beautiful one has come'" },
+                      [ { name: "Nefertiti" } ]
+                    ],
+                    [
+                      { description: "The title of a ruler of Ethiopia" },
+                      [ { name: "Negus" } ]
                     ],
                     [
                       { description: "Meaning 'cat'", language_id: japanese.id, means_cat: true },
@@ -5536,10 +5599,6 @@ names_to_create = ([
                         { name: "Nelly", gender_id: female.id } ]
                     ],
                     [
-                      { description: "Meaning 'champion'", language_id: irish_gaelic.id },
-                      [ { name: "Nelson", gender_id: male.id } ]
-                    ],
-                    [
                       { description: "Meaning 'nobody'", language_id: latin.id },
                       [ { name: "Nemo" } ]
                     ],
@@ -5548,18 +5607,49 @@ names_to_create = ([
                       [ { name: "Neopolitan", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Type of spring bulb" },
+                      [ { name: "Nerine", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'black'", language_id: italian.id },
                       [ { name: "Nero", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Nuclear particle with no electric charge", language_id: english.id },
+                      [ { name: "Neutron", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "US State" },
+                      [ { name: "Nevada" } ]
                     ],
                     [
                       { description: "Meaning 'lustrous'", language_id: gaelic.id },
                       [ { name: "Nia", gender_id: female.id } ]
                     ],
                     [
-                      { description: "Meaning 'victorious'" },
-                      [ { name: "Nicholai", gender_id: male.id },
-                        { name: "Nikolai", gender_id: male.id },
-                        { name: "Nikita", gender_id: female.id } ]
+                      { description: "Meaning 'victorious'", language_id: slavic.id },
+                      [ { name: "Nicholai", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'victorious people'", language_id: greek.id },
+                      [ { name: "Niccola", gender_id: female.id },
+                        { name: "Nichol", gender_id: female.id },
+                        { name: "Nicholas", gender_id: male.id },
+                        { name: "Nichole", gender_id: female.id },
+                        { name: "Nicholette", gender_id: female.id },
+                        { name: "Nicholle", gender_id: female.id },
+                        { name: "Nickol", gender_id: female.id },
+                        { name: "Nickolas", gender_id: male.id },
+                        { name: "Nicola", gender_id: female.id },
+                        { name: "Nicolas", gender_id: male.id },
+                        { name: "Nicole", gender_id: female.id },
+                        { name: "Nicolette", gender_id: female.id },
+                        { name: "Nikita", gender_id: female.id },
+                        { name: "Nikki", gender_id: both.id },
+                        { name: "Nikkie", gender_id: both.id },
+                        { name: "Nikko", gender_id: male.id },
+                        { name: "Nikkolette", gender_id: female.id },
+                        { name: "Nikolai", gender_id: male.id } ]
                     ],
                     [
                       { description: "Nickname of Nicholas, meaning 'victorious people'", language_id: greek.id },
@@ -5570,8 +5660,11 @@ names_to_create = ([
                       [ { name: "Nickel" } ]
                     ],
                     [
-                      { description: "Nickname of Nicholas, Nicolaas and Nicole, meaning 'victorious people'", language_id: greek.id },
-                      [ { name: "Nico", gender_id: both.id } ]
+                      { description: "Nickname of Nicholas and Nicole, meaning 'victorious people'", language_id: greek.id },
+                      [ { name: "Nickey", gender_id: both.id },
+                        { name: "Nickie", gender_id: both.id },
+                        { name: "Nicky", gender_id: both.id },
+                        { name: "Nico", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'black'", gender_id: latin.id },
@@ -5579,18 +5672,53 @@ names_to_create = ([
                     ],
                     [
                       { description: "Meaning 'victorious'", language_id: greek.id },
-                      [ { name: "Nikki", gender_id: both.id },
-                        { name: "Nikkie", gender_id: both.id },
-                        { name: "Nikko", gender_id: male.id } ]
+                      [ { name: "Nike", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "An aura of splendour about any person or thing" },
+                      [ { name: "Nimbus" } ]
+                    ],
+                    [
+                      { description: "Meaning 'little girl'", language_id: spanish.id },
+                      [ { name: "Nina", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "State of perfect bliss and happiness", language_id: english.id },
+                      [ { name: "Nirvana" } ]
+                    ],
+                    [
+                      { description: "Meaning 'nitrogen gas'" },
+                      [ { name: "Nitro" } ]
                     ],
                     [
                       { description: "Meaning 'relief'" },
                       [ { name: "Noah", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'Christmas'", language_id: old_french.id },
+                      [ { name: "Noel", gender_id: male.id },
+                        { name: "Noelle", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'black'", language_id: french.id },
                       [ { name: "Noir", gender_id: male.id },
                         { name: "Noire", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'hazelnut'", language_id: french.id },
+                      [ { name: "Noisette", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'noble'" },
+                      [ { name: "Nola" } ]
+                    ],
+                    [
+                      { description: "Wanderer", language_id: english.id },
+                      [ { name: "Nomad", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Finnish version of Nora, From Honora, meaning 'honour'", language_id: latin.id },
+                      [ { name: "Noora", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'the standard or model'", language_id: latin.id },
@@ -5599,6 +5727,10 @@ names_to_create = ([
                     [
                       { description: "Meaning 'northerner'", language_id: ancient_german.id },
                       [ { name: "Norman", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning ‘new’", language_id: french.id },
+                      [ { name: "Nouveau", language_id: male.id } ]
                     ],
                     [
                       { description: "Star that suddenly becomes much brighter for a short time" },
@@ -7898,12 +8030,36 @@ names_to_link = ([
                     [ "Moss" ]
                   ],
                   [
+                    { description: "Meaning 'abundant morning dew'", language_id: arabic.id },
+                    [ "Nada" ]
+                  ],
+                  [
+                    { description: "A beverage of hot water, wine and lemon juice, sweetened and spiced" },
+                    [ "Negus" ]
+                  ],
+                  [
                     { description: "Meaning 'valiant man'", language_id: latin.id },
                     [ "Nero" ]
                   ],
                   [
                     { description: "Five cent coin" },
                     [ "Nickel" ]
+                  ],
+                  [
+                    { description: "A bright cloud supposedly surrounding gods or goddesses when they appeared on earth" },
+                    [ "Nimbus" ]
+                  ],
+                  [
+                    { description: "Meaning 'great-granddaughter'", language_id: hebrew.id },
+                    [ "Nina" ]
+                  ],
+                  [
+                    { description: "Meaning 'beautiful eyes'", language_id: hindi.id },
+                    [ "Nina" ]
+                  ],
+                  [
+                    { description: "From Leonora, meaning 'compassion'", language_id: greek.id },
+                    [ "Noora" ]
                   ],
                   [
                     { description: "Porridge made from oats" },
@@ -8182,7 +8338,7 @@ colours_to_link = ([
                     ],
                     [
                       { name: "brown", description: "Brown or Chocolate" },
-                      [ "Acorn", "Bruno", "Cappuccino", "Caramel", "Castana", "Choco", "Cinnamon", "Coco", "Cocoa", "Coffee", "Cola", "Duncan", "Dusty", "Hazel", "Java", "Kiwi", "Koko", "Latte", "Maple", "Mocca", "Mocha", "Mochachino", "Molasses", "Mousse", "Mushroom", "Oberon", "Pardo", "Peanut", "Pud", "Pudd", "Pudding", "Seal", "Siena", "Sienna", "Sparrow", "Sultana", "Syrup", "Tamarind", "Tawnee", "Tawney", "Tawny", "Teak", "Teakwood", "Toffee", "Truffle", "Truffles", "Walnut" ]
+                      [ "Acorn", "Bruno", "Cappuccino", "Caramel", "Castana", "Choco", "Cinnamon", "Coco", "Cocoa", "Coffee", "Cola", "Duncan", "Dusty", "Hazel", "Java", "Kiwi", "Koko", "Latte", "Maple", "Mocca", "Mocha", "Mochachino", "Molasses", "Mousse", "Mushroom", "Noisette", "Oberon", "Pardo", "Peanut", "Pud", "Pudd", "Pudding", "Seal", "Siena", "Sienna", "Sparrow", "Sultana", "Syrup", "Tamarind", "Tawnee", "Tawney", "Tawny", "Teak", "Teakwood", "Toffee", "Truffle", "Truffles", "Walnut" ]
                     ],
                     [
                       { name: "cream", description: "Cream or Golden" },

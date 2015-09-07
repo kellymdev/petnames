@@ -5745,6 +5745,10 @@ names_to_create = ([
                       [ { name: "Oakley", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Fertile spot in a desert with a spring or well", language_id: english.id },
+                      [ { name: "Oasis", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Oats crushed into meal or flakes, rolled or ground oats", language_id: english.id },
                       [ { name: "Oatmeal", gender_id: both.id } ]
                     ],
@@ -5757,12 +5761,34 @@ names_to_create = ([
                       [ { name: "Obsidian" } ]
                     ],
                     [
+                      { description: "Meaning 'heart'", language_id: igbo.id },
+                      [ { name: "Oby", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "A dark yellow colour" },
                       [ { name: "Ochre", gender_id: both.id } ]
                     ],
                     [
-                      { description: "In Norse mythology, the supreme deity, god of art, culture, war and the dead" },
+                      { description: "Meaning 'eighth'" },
+                      [ { name: "Octavia" } ]
+                    ],
+                    [
+                      { description: "Meaning 'wealth'", language_id: ancient_german.id },
+                      [ { name: "Odette", gender_id: female.id },
+                        { name: "Othello", gender_id: male.id },
+                        { name: "Otis", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "In Norse mythology, the supreme deity, god of art, culture, war and the dead", language_id: old_norse.id },
                       [ { name: "Odin", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Long adventurous journey" },
+                      [ { name: "Odyssey", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "In Greek legend, the son of Laius and Jocasta, king and queen of Thebes, who, abandoned by his parents at birth because of the prophecy of an oracle, was raised by the king of Corinth", language_id: greek.id },
+                      [ { name: "Oedipus", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'dog'", language_id: choctaw.id, means_dog: true },
@@ -5788,8 +5814,28 @@ names_to_create = ([
                         { name: "Ollie", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'from Mount Olympus'", language_id: greek.id },
+                      [ { name: "Olympia", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'cedar tree'", language_id: hebrew.id },
+                      [ { name: "Oma", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'speaker'", language_id: hebrew.id },
+                      [ { name: "Omar", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'the one'", language_id: english.id },
+                      [ { name: "One", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Stone like marble" },
                       [ { name: "Onyx" } ]
+                    ],
+                    [
+                      { description: "Iridescent quartz-like stone", language_id: english.id },
+                      [ { name: "Opal", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'assistance'", language_id: greek.id },
@@ -5800,8 +5846,16 @@ names_to_create = ([
                       [ { name: "Oprah", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Person of great knowledge", language_id: english.id },
+                      [ { name: "Oracle", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Round juicy citrus fruit with reddish-yellow peel", language_id: english.id },
                       [ { name: "Orange", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Showy often irregularly shaped flower", language_id: english.id },
+                      [ { name: "Orchid", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'orange'", language_id: welsh.id },
@@ -5812,17 +5866,21 @@ names_to_create = ([
                       [ { name: "Oriole" } ]
                     ],
                     [
+                      { description: "Meaning 'famous'" },
+                      [ { name: "Orlando", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'spear of the gods'", language_id: old_english.id },
-                      [ { name: "Oscar", gender_id: both.id } ]
+                      [ { name: "Oscar", gender_id: both.id },
+                        { name: "Oskar", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'God's power'", language_id: ancient_german.id },
                       [ { name: "Oswald", gender_id: male.id } ]
                     ],
                     [
-                      { description: "Meaning 'wealth'", language_id: ancient_german.id },
-                      [ { name: "Othello", gender_id: male.id },
-                        { name: "Otis", gender_id: male.id } ]
+                      { description: "Meaning 'youth'", language_id: gaelic.id },
+                      [ { name: "Owain", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'strength'" , language_id: hebrew.id },
@@ -8074,6 +8132,14 @@ names_to_link = ([
                     [ "Oliver" ]
                   ],
                   [
+                    { description: "Meaning ‘colour of olive’", language_id: irish.id },
+                    [ "Oma" ]
+                  ],
+                  [
+                    { description: "Meaning 'flourishing'", language_id: arabic.id },
+                    [ "Omar" ]
+                  ],
+                  [
                     { description: "Prestigious award for movie actors and actresses" },
                     [ "Oscar" ]
                   ],
@@ -8226,10 +8292,6 @@ names_to_link = ([
                     [ "Vanna" ]
                   ],
                   [
-                    { description: "Meaning 'youth'", language_id: gaelic.id },
-                    [ "Vanna" ]
-                  ],
-                  [
                     { description: "An open plain" },
                     [ "Vega" ]
                   ],
@@ -8315,6 +8377,10 @@ meanings_to_link = ([
                       [
                         { description: "Nickname of Theodore, meaning 'God's gift'", language_id: greek.id },
                         [ "Teddie", "Teddy" ]
+                      ],
+                      [
+                        { description: "Meaning 'youth'", language_id: gaelic.id },
+                        [ "Vanna" ]
                       ]
                     ])
 

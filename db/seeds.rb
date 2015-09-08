@@ -3084,7 +3084,9 @@ names_to_create = ([
                         { name: "Johnna", gender_id: female.id },
                         { name: "Jon", gender_id: male.id },
                         { name: "Jones", gender_id: both.id },
-                        { name: "Shan", gender_id: female.id } ]
+                        { name: "Shan", gender_id: female.id },
+                        { name: "Vania", gender_id: male.id },
+                        { name: "Vanya", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'Gilbert's son'", language_id: english.id },
@@ -8823,8 +8825,46 @@ names_to_create = ([
                       [ { name: "Uma", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Being united", language_id: english.id },
+                      [ { name: "Union", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'little bear'", language_id: latin.id },
                       [ { name: "Ursula", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Legendary king of Britain, father of King Arthur" },
+                      [ { name: "Uther", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Short curtain hanging from the edge of a bed or shelf for decoration", language_id: english.id },
+                      [ { name: "Valance", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'strong', 'healthy'", language_id: latin.id },
+                      [ { name: "Valentina", gender_id: female.id },
+                        { name: "Valentine", gender_id: both.id },
+                        { name: "Valentino", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'vigorous'", language_id: latin.id },
+                      [ { name: "Valarie", gender_id: female.id },
+                        { name: "Valeri", gender_id: female.id },
+                        { name: "Valerie", gender_id: female.id },
+                        { name: "Valleri", gender_id: female.id },
+                        { name: "Vallerie", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'to be'", language_id: latin.id },
+                      [ { name: "Vanessa", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Type of flavouring", language_id: english.id },
+                      [ { name: "Vanilla", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'pride', 'self-admiration'", language_id: english.id },
+                      [ { name: "Vanity", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'golden'", language_id: khmer.id },
@@ -8847,17 +8887,71 @@ names_to_create = ([
                         { name: "Wilma", gender_id: female.id } ]
                     ],
                     [
-                      { description: "Type of flavouring", language_id: english.id },
-                      [ { name: "Vanilla", gender_id: both.id } ]
+                      { description: "Meaning 'wolf'", language_id: hebrew.id },
+                      [ { name: "Velvel", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Woven fabric with thick short pile on one side", language_id: english.id },
+                      [ { name: "Velvet", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "From Venice in Northern Italy" },
+                      [ { name: "Venetia" } ]
                     ],
                     [
                       { description: "Roman goddess of love", language_id: roman.id },
                       [ { name: "Venus", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'faith'", language_id: slavic.id },
+                      [ { name: "Vera", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'spring green'", language_id: latin.id },
+                      [ { name: "Verna", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'alder grove'", language_id: norman_french.id },
+                      [ { name: "Vernon", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'bringer of victory'", language_id: greek.id },
+                      [ { name: "Veronica", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Plants of the verbena family with spikes or clusters of red, white or purplish flowers" },
+                      [ { name: "Vervain" } ]
+                    ],
+                    [
+                      { description: "Meaning 'wasp'", language_id: latin.id },
+                      [ { name: "Vespa" } ]
+                    ],
+                    [
+                      { description: "Grass whose roots yield a fragrant oil used in perfumes" },
+                      [ { name: "Vetiver" } ]
+                    ],
+                    [
+                      { description: "Nickname of Victor, meaning 'champion'", language_id: latin.id },
+                      [ { name: "Vic", gender_id: male.id },
+                        { name: "Vick", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'champion'", language_id: latin.id },
                       [ { name: "Victer", gender_id: both.id },
                         { name: "Victor", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'victory'", language_id: latin.id },
+                      [ { name: "Vicktoria", gender_id: female.id },
+                        { name: "Victoria", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Member of a self-appointed group trying to prevent crime", language_id: english.id },
+                      [ { name: "Vigilante", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Ancient Scandinavian trader and pirate" },
+                      [ { name: "Viking" } ]
                     ],
                     [
                       { description: "Meaning 'prevailing'", language_id: latin.id },
@@ -8868,6 +8962,46 @@ names_to_create = ([
                       [ { name: "Vinni", gender_id: both.id },
                         { name: "Vinnie", gender_id: both.id },
                         { name: "Vinny", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Date of origin or existence", language_id: english.id },
+                      [ { name: "Vintage", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'maiden'", language_id: latin.id },
+                      [ { name: "Virginia", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'lively'", language_id: latin.id },
+                      [ { name: "Vivien", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "A female fox" },
+                      [ { name: "Vixen", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'possess peace'" },
+                      [ { name: "Vladimir" } ]
+                    ],
+                    [
+                      { description: "Current fashion", language_id: english.id },
+                      [ { name: "Vogue", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Play music lightly but rapidly" },
+                      [ { name: "Volante" } ]
+                    ],
+                    [
+                      { description: "Force expressed in volts", language_id: english.id },
+                      [ { name: "Voltage", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Form of religion based on witchcraft" },
+                      [ { name: "Voodoo", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'voice'", language_id: latin.id },
+                      [ { name: "Vox" } ]
                     ],
                     [
                       { description: "Thin like a biscuit or cracker", language_id: english.id },
@@ -9884,6 +10018,14 @@ names_to_link = ([
                     [ "Tuxedo" ]
                   ],
                   [
+                    { description: "Person to whom one sends a romantic card on Valentine's Day", language_id: english.id },
+                    [ "Valentine" ]
+                  ],
+                  [
+                    { description: "Meaning 'innocent'", language_id: japanese.id },
+                    [ "Vanessa" ]
+                  ],
+                  [
                     { description: "Pale cream colour", language_id: english.id },
                     [ "Vanilla" ]
                   ],
@@ -9892,8 +10034,16 @@ names_to_link = ([
                     [ "Vanna" ]
                   ],
                   [
+                    { description: "Nickname of Vanessa, meaning 'to be'", language_id: latin.id },
+                    [ "Vanya" ]
+                  ],
+                  [
                     { description: "An open plain" },
                     [ "Vega" ]
+                  ],
+                  [
+                    { description: "Flowering herb or shrub", language_id: english.id },
+                    [ "Veronica" ]
                   ],
                   [
                     { description: "Nickname of Lavinia, from an expression whose meaning has been lost", language_id: latin.id },

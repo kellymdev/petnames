@@ -25,6 +25,7 @@ french = Language.create(name: "French")
 gaelic = Language.create(name: "Gaelic")
 german = Language.create(name: "German")
 greek = Language.create(name: "Greek")
+hausa = Language.create(name: "Hausa")
 hawaiian = Language.create(name: "Hawaiian")
 hebrew = Language.create(name: "Hebrew")
 hindi = Language.create(name: "Hindi")
@@ -308,7 +309,12 @@ names_to_create = ([
                         { name: "Lavinia", gender_id: female.id },
                         { name: "Percy", gender_id: male.id },
                         { name: "Persy", gender_id: male.id },
-                        { name: "Portia", gender_id: female.id } ]
+                        { name: "Portia", gender_id: female.id },
+                        { name: "Tarquin", gender_id: male.id },
+                        { name: "Tatiana", gender_id: female.id },
+                        { name: "Tatyana", gender_id: female.id },
+                        { name: "Tonya", gender_id: female.id },
+                        { name: "Toya", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'resurrection'", language_id: greek.id },
@@ -3577,7 +3583,8 @@ names_to_create = ([
                     ],
                     [
                       { description: "An American state" },
-                      [ { name: "Indiana", gender_id: both.id } ]
+                      [ { name: "Indiana", gender_id: both.id },
+                        { name: "Texas", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'independent'", language_id: english.id },
@@ -7335,7 +7342,8 @@ names_to_create = ([
                     ],
                     [
                       { description: "A number", language_id: english.id },
-                      [ { name: "Seven", gender_id: both.id } ]
+                      [ { name: "Seven", gender_id: both.id },
+                        { name: "Two", gender_id: both.id } ]
                     ],
                     [
                       { description: "Old, ragged, threadbare", language_id: english.id },
@@ -8119,12 +8127,39 @@ names_to_create = ([
                         { name: "Tabby", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Watered fabric of silk and wool" },
+                      [ { name: "Tabbinet", gender_id: female.id },
+                        { name: "Tabinet", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Ban or prohibition made by religion or social custom", language_id: english.id },
+                      [ { name: "Taboo", gender_id: both.id },
+                        { name: "Tabu", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Fine shiny silk fabric", language_id: english.id },
+                      [ { name: "Taffeta", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Sweet chewy candy", language_id: american.id },
                       [ { name: "Taffy", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'lamb'", language_id: arabic.id },
+                      [ { name: "Tahlia", gender_id: female.id },
+                        { name: "Talia", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Brilliantly coloured edible fish" },
-                      [ { name: "Tai" } ]
+                      [ { name: "Tai", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Make or adapt for a special purpose", language_id: english.id },
+                      [ { name: "Tailor", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Object supposed to bring good luck", language_id: english.id },
+                      [ { name: "Talisman", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'jumping water'", language_id: choctaw.id },
@@ -8138,12 +8173,33 @@ names_to_create = ([
                         { name: "Tally", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Large cape or short cloak" },
+                      [ { name: "Talma" } ]
+                    ],
+                    [
+                      { description: "Meaning 'date palm'", language_id: hebrew.id },
+                      [ { name: "Tamara", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Small red tropical fruit, also known as a tree tomato", language_id: english.id },
                       [ { name: "Tamarillo", gender_id: both.id } ]
                     ],
                     [
                       { description: "Tree with yellow flowers and red and brown pods" },
                       [ { name: "Tamarind" } ]
+                    ],
+                    [
+                      { description: "Plant with feathery clusters of pinkish flowers" },
+                      [ { name: "Tamarisk" },
+                        { name: "Tamariske" } ]
+                    ],
+                    [
+                      { description: "A drummer" },
+                      [ { name: "Tambourgi" } ]
+                    ],
+                    [
+                      { description: "Percussion instrument with jingling bells", language_id: english.id },
+                      [ { name: "Tambourine", gender_id: both.id } ]
                     ],
                     [
                       { description: "Nickname of Tamara, meaning 'date palm'", language_id: hebrew.id },
@@ -8154,16 +8210,47 @@ names_to_create = ([
                         { name: "Tamy", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'twin'", language_id: aramaic.id },
+                      [ { name: "Tamsin", gender_id: female.id },
+                        { name: "Tamsyn", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'seed'", language_id: japanese.id },
+                      [ { name: "Tane", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "From an expression whose meaning has been lost", language_id: hausa.id },
+                      [ { name: "Tanesha", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Ballroom dance with gliding steps" },
                       [ { name: "Tango" } ]
+                    ],
+                    [
+                      { description: "Meaning 'fairy princess'", language_id: russian.id },
+                      [ { name: "Tania", gender_id: female.id },
+                        { name: "Tanja", gender_id: female.id },
+                        { name: "Tanya", gender_id: female.id } ]
                     ],
                     [
                       { description: "Plant with small yellow flowers" },
                       [ { name: "Tansy" } ]
                     ],
                     [
+                      { description: "Country in east-central Africa" },
+                      [ { name: "Tanzania" } ]
+                    ],
+                    [
+                      { description: "Meaning 'apple'", language_id: vietnamese.id },
+                      [ { name: "Tao", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'star'", language_id: sanskrit.id },
                       [ { name: "Tara", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Aromatic herb", language_id: english.id },
+                      [ { name: "Tarragon", gender_id: female.id } ]
                     ],
                     [
                       { description: "Nickname of Natasha, meaning 'the Lord's birthday'", language_id: latin.id },
@@ -8175,14 +8262,26 @@ names_to_create = ([
                       [ { name: "Tartan", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Ornamental bunch of hanging threads", language_id: english.id },
+                      [ { name: "Tassel", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "A wisp of hay or hair" },
                       [ { name: "Tate" } ]
+                    ],
+                    [
+                      { description: "Meaning 'lion'" },
+                      [ { name: "Tau" } ]
                     ],
                     [
                       { description: "Orange brown colour" },
                       [ { name: "Tawnee", gender_id: both.id },
                         { name: "Tawney", gender_id: both.id },
                         { name: "Tawny", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Car with a driver that can be hired", language_id: english.id },
+                      [ { name: "Taxi", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'to cut'", language_id: norman_french.id },
@@ -8205,6 +8304,14 @@ names_to_create = ([
                       [ { name: "Teakwood", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Drop of liquid that falls from the eye", language_id: english.id },
+                      [ { name: "Teardrop", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Someone who teases", language_id: english.id },
+                      [ { name: "Teazer", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Nickname of Theodore, meaning 'God's gift'", language_id: greek.id },
                       [ { name: "Ted" } ]
                     ],
@@ -8213,6 +8320,22 @@ names_to_create = ([
                       [ { name: "Teddie", gender_id: both.id },
                         { name: "Teddy", gender_id: both.id },
                         { name: "Teddy Bear", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'alive and well'", language_id: arabic.id },
+                      [ { name: "Teisha", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Mexican liquor made from the sap of an agave plant" },
+                      [ { name: "Tequila", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Small insect that is very destructive to timber", language_id: english.id },
+                      [ { name: "Termite", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Paved area beside a house", language_id: english.id },
+                      [ { name: "Terrace", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'harvester'" },
@@ -8228,6 +8351,23 @@ names_to_create = ([
                       [ { name: "Tex", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'flourishing'", language_id: greek.id },
+                      [ { name: "Thalia", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Dorothea and Mathea, meaning 'gift of God'", language_id: greek.id },
+                      [ { name: "Thea", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'God's glory'", language_id: greek.id },
+                      [ { name: "Thecla", gender_id: female.id },
+                        { name: "Thekla", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'volition'", language_id: greek.id },
+                      [ { name: "Thelma", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "From the Greek theos, meaning 'god'", language_id: greek.id },
                       [ { name: "Theo", gender_id: both.id } ]
                     ],
@@ -8236,8 +8376,16 @@ names_to_create = ([
                       [ { name: "Theodore" } ]
                     ],
                     [
+                      { description: "Prickly plant", language_id: english.id },
+                      [ { name: "Thistle", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'twin'", language_id: hebrew.id },
                       [ { name: "Thomas", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'twin'", language_id: english.id },
+                      [ { name: "Thompson", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'thunder'", language_id: old_norse.id },
@@ -8249,12 +8397,33 @@ names_to_create = ([
                       [ { name: "Thunder", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Herb with fragrant leaves", language_id: english.id },
+                      [ { name: "Thyme", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'Thor's battle'", language_id: old_english.id },
+                      [ { name: "Thyra", gender_id: female.id },
+                        { name: "Tyra", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'aunt'", language_id: spanish.id },
                       [ { name: "Tia", gender_id: female.id } ]
                     ],
                     [
                       { description: "Plant with large purple flowers" },
                       [ { name: "Tibouchina" } ]
+                    ],
+                    [
+                      { description: "Marked piece of card enabling the holder to a certain right", language_id: english.id },
+                      [ { name: "Ticket", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Sea's regular rise and fall", language_id: english.id },
+                      [ { name: "Tide", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'princess'" },
+                      [ { name: "Tiffany", gender_id: female.id } ]
                     ],
                     [
                       { description: "Large striped animal of the cat family", language_id: english.id, means_cat: true },
@@ -8277,6 +8446,14 @@ names_to_create = ([
                       [ { name: "Tigress", gender_id: female.id } ]
                     ],
                     [
+                      { description: "City in Mexico" },
+                      [ { name: "Tijuana", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'little one'", language_id: english.id },
+                      [ { name: "Tike", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Nickname of Matilda, meaning 'mighty in battle'", language_id: ancient_german.id },
                       [ { name: "Tillie", gender_id: female.id },
                         { name: "Tilly", gender_id: female.id } ]
@@ -8296,8 +8473,26 @@ names_to_create = ([
                         { name: "Tiny", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Glittering decorative metallic strips or threads", language_id: english.id },
+                      [ { name: "Tinsel", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Slightly drunk", language_id: english.id },
+                      [ { name: "Tipsy", gender_id: both.id },
+                        { name: "Typsy", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'encampment'", language_id: hebrew.id },
+                      [ { name: "Tira", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'great size and power'", language_id: english.id },
-                      [ { name: "Titan" } ]
+                      [ { name: "Titan" },
+                        { name: "Titanic" } ]
+                    ],
+                    [
+                      { description: "Meaning 'sweet'" },
+                      [ { name: "Titania" } ]
                     ],
                     [
                       { description: "Meaning 'defender'", language_id: latin.id },
@@ -8317,18 +8512,34 @@ names_to_create = ([
                         { name: "Toddy", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Part of a shoe or stocking covering the toes", language_id: english.id },
+                      [ { name: "Toes", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Sweet made with heated butter and sugar", language_id: english.id },
                       [ { name: "Toffee", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Pieces of dry bread" },
+                      [ { name: "Tokes", gender_id: both.id } ]
                     ],
                     [
                       { description: "Male cat", language_id: english.id, means_cat: true },
                       [ { name: "Tom", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Axe used by the North American Indians" },
+                      [ { name: "Tomahawk", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Nickname of Thomas, meaning 'twin'", language_id: hebrew.id },
                       [ { name: "Tommi", gender_id: both.id },
                         { name: "Tommie", gender_id: both.id },
                         { name: "Tommy", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Musical or vocal sound", language_id: english.id },
+                      [ { name: "Tone", gender_id: both.id } ]
                     ],
                     [
                       { description: "Nickname of Anthony and Antonia, from an expression whose meaning has been lost", language_id: latin.id },
@@ -8340,9 +8551,44 @@ names_to_create = ([
                       [ { name: "Toni", gender_id: female.id } ]
                     ],
                     [
+                      { description: "A paste for brushing the teeth", language_id: english.id },
+                      [ { name: "Toothpaste", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "US word for 'darling' or 'sweetheart'", language_id: american.id },
-                      [ { name: "Tootsey", gender_id: both.id },
+                      [ { name: "Toots", gender_id: both.id },
+                        { name: "Tootsey", gender_id: both.id },
                         { name: "Tootsie", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Semi precious stone of various colours", language_id: english.id },
+                      [ { name: "Topas", gender_id: both.id },
+                        { name: "Topaz", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "The best cat", language_id: english.id, means_cat: true },
+                      [ { name: "Top Cat", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "A top-notch person or thing", language_id: english.id },
+                      [ { name: "Topper", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Victoria, meaning 'victory'", language_id: latin.id },
+                      [ { name: "Toree", gender_id: female.id },
+                        { name: "Torei", gender_id: female.id },
+                        { name: "Torey", gender_id: female.id },
+                        { name: "Tori", gender_id: female.id },
+                        { name: "Torie", gender_id: female.id },
+                        { name: "Vickey", gender_id: female.id },
+                        { name: "Vicki", gender_id: female.id },
+                        { name: "Vickie", gender_id: female.id },
+                        { name: "Vicky", gender_id: female.id },
+                        { name: "Vikie", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Violent swirling wind with a funnel-shaped cloud that destroys everything in its path", language_id: english.id },
+                      [ { name: "Tornado", gender_id: both.id } ]
                     ],
                     [
                       { description: "Short way of writing Tortoiseshell", language_id: english.id },
@@ -8350,12 +8596,69 @@ names_to_create = ([
                         { name: "Torty", gender_id: female.id } ]
                     ],
                     [
+                      { description: "From the Latin word for 'twister'", language_id: latin.id },
+                      [ { name: "Tortrix", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "An animal or natural object considered as being related by blood to a given family or clan and taken as its symbol" },
+                      [ { name: "Totem", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'Etruscan woman'", language_id: latin.id },
                       [ { name: "Tosca", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Comrade" },
+                      [ { name: "Tovarisch" } ]
+                    ],
+                    [
+                      { description: "Meaning ‘harvester'", language_id: greek.id },
+                      [ { name: "Tracey", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'to cross over'", language_id: old_french.id },
+                      [ { name: "Travis", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Thick sticky liquid produced when sugar is refined", language_id: english.id },
+                      [ { name: "Treacle", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Highly valued object", language_id: english.id },
+                      [ { name: "Treasure", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Something special, a reward", language_id: english.id },
+                      [ { name: "Treat", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Person who leads the way in fashion", language_id: english.id },
+                      [ { name: "Trendsetter", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Following the latest fashion", language_id: english.id },
+                      [ { name: "Trendy", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'Trent's town'", language_id: english.id },
+                      [ { name: "Trent", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Mischievous act", language_id: english.id },
+                      [ { name: "Trick", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Group of three", language_id: english.id },
                       [ { name: "Trinity" } ]
+                    ],
+                    [
+                      { description: "From an expression whose meaning has been lost", language_id: ancient_celtic.id },
+                      [ { name: "Tristan", gender_id: both.id },
+                        { name: "Trystan", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'the noisy one'" },
+                      [ { name: "Tristram" } ]
                     ],
                     [
                       { description: "Nickname of Beatrix, meaning 'voyager'", language_id: latin.id },
@@ -8363,12 +8666,40 @@ names_to_create = ([
                         { name: "Trixy", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Someone who goes on journeys or excursions for pleasure", language_id: english.id },
+                      [ { name: "Tripper", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning energy and determination" },
+                      [ { name: "Trojan" } ]
+                    ],
+                    [
+                      { description: "Soldier in an armored suit" },
+                      [ { name: "Trooper" } ]
+                    ],
+                    [
+                      { description: "Medieval romantic poet" },
+                      [ { name: "Troubadour" } ]
+                    ],
+                    [
                       { description: "Difficulty, distress, misfortune", language_id: english.id },
                       [ { name: "Trouble", gender_id: both.id } ]
                     ],
                     [
+                      { description: "The cause of trouble" },
+                      [ { name: "Troublemaker" } ]
+                    ],
+                    [
+                      { description: "Member of a troupe" },
+                      [ { name: "Trouper" } ]
+                    ],
+                    [
                       { description: "Meaning 'descendant of the foot soldier'", language_id: irish_gaelic.id },
                       [ { name: "Troy", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'strong spear'", language_id: ancient_german.id },
+                      [ { name: "Trudy", gender_id: female.id } ]
                     ],
                     [
                       { description: "Soft chocolate sweet" },
@@ -8376,13 +8707,25 @@ names_to_create = ([
                         { name: "Truffles", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'four'", language_id: vietnamese.id },
+                      [ { name: "Tu", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'cloth maker'" },
                       [ { name: "Tucker" } ]
+                    ],
+                    [
+                      { description: "Meaning 'divine gift'" },
+                      [ { name: "Tudor" } ]
                     ],
                     [
                       { description: "Covered in patches of fur", language_id: english.id },
                       [ { name: "Tufti", gender_id: both.id },
                         { name: "Tufty", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Large cup-shaped flower", language_id: english.id },
+                      [ { name: "Tulip" } ]
                     ],
                     [
                       { description: "Tree with small greenish flowers and blue or purple fruit" },
@@ -8393,6 +8736,10 @@ names_to_create = ([
                       [ { name: "Turbo", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Person who works with a lathe", language_id: english.id },
+                      [ { name: "Turner", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "A region in western Italy" },
                       [ { name: "Tuscany" } ]
                     ],
@@ -8401,8 +8748,16 @@ names_to_create = ([
                       [ { name: "Tutti-Fruitee" } ]
                     ],
                     [
+                      { description: "Short for tuxedo, dinner jacket", language_id: english.id },
+                      [ { name: "Tux", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Dinner jacket", language_id: english.id },
                       [ { name: "Tuxedo", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Light from the sky after sunset", language_id: english.id },
+                      [ { name: "Twilight", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'glitter', 'sparkly'", language_id: english.id },
@@ -8425,8 +8780,25 @@ names_to_create = ([
                         { name: "Tyler", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Violent storm, hurricane", language_id: english.id },
+                      [ { name: "Typhoon", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'Owen's county'", language_id: gaelic.id },
+                      [ { name: "Tyron", gender_id: male.id },
+                        { name: "Tyrone", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'joy'", language_id: latin.id },
+                      [ { name: "Tysha", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'fiery'" },
                       [ { name: "Tyson", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "An emperor of Russia", language_id: russian.id },
+                      [ { name: "Tzar", gender_id: male.id } ]
                     ],
                     [
                       { description: "An empress of Russia", language_id: russian.id },
@@ -8481,14 +8853,6 @@ names_to_create = ([
                     [
                       { description: "Roman goddess of love", language_id: roman.id },
                       [ { name: "Venus", gender_id: female.id } ]
-                    ],
-                    [
-                      { description: "Nickname of Victoria, meaning 'victory'", language_id: latin.id },
-                      [ { name: "Vickey", gender_id: female.id },
-                        { name: "Vicki", gender_id: female.id },
-                        { name: "Vickie", gender_id: female.id },
-                        { name: "Vicky", gender_id: female.id },
-                        { name: "Vikie", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'champion'", language_id: latin.id },
@@ -9498,6 +9862,18 @@ names_to_link = ([
                   [
                     { description: "Meaning 'hill'", language_id: gaelic.id },
                     [ "Tara" ]
+                  ],
+                  [
+                    { description: "Meaning 'the correct or desirable thing'", language_id: english.id },
+                    [ "Ticket" ]
+                  ],
+                  [
+                    { description: "Shade of colour", language_id: english.id },
+                    [ "Tone" ]
+                  ],
+                  [
+                    { description: "A covering", language_id: english.id },
+                    [ "Topper" ]
                   ],
                   [
                     { description: "Slang for food, dinner", language_id: english.id },

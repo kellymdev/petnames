@@ -150,7 +150,8 @@ names_to_create = ([
                     ],
                     [
                       { description: "Meaning 'protector of men'", language_id: greek.id },
-                      [ { name: "Alexander", gender_id: both.id } ]
+                      [ { name: "Alexander", gender_id: both.id },
+                        { name: "Zander", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'elf counsel'", language_id: ancient_german.id },
@@ -6924,7 +6925,8 @@ names_to_create = ([
                     [
                       { description: "Meaning 'rose'", language_id: latin.id },
                       [ { name: "Ros", gender_id: female.id },
-                        { name: "Rosa", gender_id: female.id } ]
+                        { name: "Rosa", gender_id: female.id },
+                        { name: "Zena", gender_id: female.id } ]
                     ],
                     [
                       { description: "Alternate form of Rosa or Rose, meaning 'rose'", language_id: latin.id },
@@ -7068,7 +7070,8 @@ names_to_create = ([
                     ],
                     [
                       { description: "Meaning 'goddess'" },
-                      [ { name: "Sabrina", gender_id: female.id } ]
+                      [ { name: "Sabrina", gender_id: female.id },
+                        { name: "Zabrina", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'fortunate'" },
@@ -9253,20 +9256,74 @@ names_to_create = ([
                       [ { name: "Xuan", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Sweet potato", language_id: english.id },
+                      [ { name: "Yam", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "A Hindu god", language_id: hindi.id },
+                      [ { name: "Yama" } ]
+                    ],
+                    [
                       { description: "Can mean 'dark red', 'continue', 'strict', 'beautiful', 'rock', 'study', 'face', 'perform' or 'comfort' depending on the tone and character associated with the name", language_id: chinese.id },
                       [ { name: "Yan", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'englishman'", language_id: old_french.id },
+                      [ { name: "Yancy", gender_id: male.id },
+                        { name: "Yansy", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Can mean 'publish', 'immense', 'respect' or 'sustain' depending on the tone and character associated with the name", language_id: chinese.id },
+                      [ { name: "Yang", gender_id: both.id } ]
                     ],
                     [
                       { description: "Nickname of Yannick, meaning 'God's grace'", language_id: hebrew.id },
                       [ { name: "Yanni", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'the jasmine flower'", language_id: persian.id },
+                      [ { name: "Yaasmin", gender_id: female.id },
+                        { name: "Yasmeen", gender_id: female.id },
+                        { name: "Yasmin", gender_id: female.id },
+                        { name: "Yasmine", gender_id: female.id },
+                        { name: "Yazmin", gender_id: female.id },
+                        { name: "Yazmine", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'praise'", language_id: hebrew.id },
+                      [ { name: "Yehudah", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Bear-like animal said to live in the Himalayas" },
+                      [ { name: "Yeti", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'companion'" },
+                      [ { name: "Yhomas", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'one'" },
+                      [ { name: "Yin" } ]
+                    ],
+                    [
                       { description: "Can mean 'answer', 'flower, 'warbler', 'cherry', 'welcome', 'profit', 'jade', 'bright' or 'shining' depending on the tone and character associated with the name", language_id: chinese.id },
                       [ { name: "Ying", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Dutch version of George, meaning 'Farmer'" },
+                      [ { name: "Youri", gender_id: male.id }]
+                    ],
+                    [
+                      { description: "Childs toy consisting of string and two discs", language_id: english.id },
+                      [ { name: "Yoyo", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'snow', 'good fortune' or 'heritage' ", language_id: japanese.id },
                       [ { name: "Yuki", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'yew'", language_id: french.id },
+                      [ { name: "Yvette", gender_id: female.id } ]
                     ],
                     [
                       { description: "Nickname of Zachariah and Zachary, meaning 'Godly'", language_id: hebrew.id },
@@ -9277,6 +9334,15 @@ names_to_create = ([
                         { name: "Zacky", gender_id: male.id },
                         { name: "Zak", gender_id: male.id },
                         { name: "Zakk", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'Godly'", language_id: hebrew.id },
+                      [ { name: "Zachari", gender_id: male.id },
+                        { name: "Zachary", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'remembrance of the Lord'", language_id: hebrew.id },
+                      [ { name: "Zachariah", gender_id: male.id } ]
                     ],
                     [
                       { description: "Oxide of cobalt" },
@@ -9291,8 +9357,33 @@ names_to_create = ([
                       [ { name: "Zafiro" } ]
                     ],
                     [
+                      { description: "Meaning 'wellborn'", language_id: swahili.id },
+                      [ { name: "Zalika", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'warrior's protector'", language_id: italian.id },
+                      [ { name: "Zandra", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "The smoke tree" },
                       [ { name: "Zante" } ]
+                    ],
+                    [
+                      { description: "Meaning 'radiance'", language_id: arabic.id },
+                      [ { name: "Zara", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'a treeless plain'", language_id: spanish.id },
+                      [ { name: "Zavana" } ]
+                    ],
+                    [
+                      { description: "Enthusiasm, hearty and persistent effort", language_id: english.id },
+                      [ { name: "Zeal", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'given by God'", language_id: hebrew.id },
+                      [ { name: "Zeb", gender_id: male.id },
+                        { name: "Zebedee", gender_id: male.id } ]
                     ],
                     [
                       { description: "Black and white striped animal", language_id: english.id },
@@ -9311,6 +9402,18 @@ names_to_create = ([
                       [ { name: "Zen" } ]
                     ],
                     [
+                      { description: "Meaning 'hidden by God'", language_id: hebrew.id },
+                      [ { name: "Zeph", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Soft gentle wind" },
+                      [ { name: "Zephyr", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'sunrise'" },
+                      [ { name: "Zerah", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Nought", language_id: english.id },
                       [ { name: "Zero", gender_id: male.id } ]
                     ],
@@ -9321,6 +9424,14 @@ names_to_create = ([
                     [
                       { description: "Meaning 'zigzag'" },
                       [ { name: "Ziggy", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Line turning right and left at sharp angles", language_id: english.id },
+                      [ { name: "Zigzag", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'a flower'", language_id: english.id },
+                      [ { name: "Zinnia", gender_id: female.id } ]
                     ],
                     [
                       { description: "Bluish white gem cut from a translucent material" },
@@ -9336,8 +9447,33 @@ names_to_create = ([
                         { name: "Zoey", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'sultan'" },
+                      [ { name: "Zoltan", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'little son'" },
+                      [ { name: "Zon", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'golden star'", language_id: persian.id },
                       [ { name: "Zoroaster" } ]
+                    ],
+                    [
+                      { description: "Meaning 'life-giving'" },
+                      [ { name: "Zoya", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'sugar'", language_id: italian.id },
+                      [ { name: "Zucchero" } ]
+                    ],
+                    [
+                      { description: "Meaning 'fair'", language_id: arabic.id },
+                      [ { name: "Zuleica", gender_id: female.id },
+                        { name: "Zuleika", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Member or language of Bantu people of South Africa" },
+                      [ { name: "Zulu" } ]
                     ]
                   ])
 
@@ -10196,8 +10332,16 @@ names_to_link = ([
                     [ "Wilson" ]
                   ],
                   [
+                    { description: "A Chinese measure of weight", language_id: chinese.id },
+                    [ "Yin" ]
+                  ],
+                  [
                     { description: "Blue colour"},
                     [ "Zaffre" ]
+                  ],
+                  [
+                    { description: "Type of plant with colourful flowers", language_id: english.id },
+                    [ "Zinnia" ]
                   ]
                 ])
 

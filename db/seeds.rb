@@ -8884,7 +8884,8 @@ names_to_create = ([
                         { name: "William", gender_id: both.id },
                         { name: "Williamina", gender_id: female.id },
                         { name: "Willis", gender_id: male.id },
-                        { name: "Wilma", gender_id: female.id } ]
+                        { name: "Wilma", gender_id: female.id },
+                        { name: "Wilson", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'wolf'", language_id: hebrew.id },
@@ -9013,6 +9014,10 @@ names_to_create = ([
                         { name: "Waffles", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'rule'", language_id: ancient_german.id },
+                      [ { name: "Waldo", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'Welshman'", language_id: old_french.id },
                       [ { name: "Wallace", gender_id: male.id } ]
                     ],
@@ -9030,9 +9035,71 @@ names_to_create = ([
                         { name: "Watson", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Outer jacket made of tough, long-wearing fabric" },
+                      [ { name: "Wampus" } ]
+                    ],
+                    [
                       { description: "Meaning 'the tribe of the Vandals'", language_id: slavic.id },
                       [ { name: "Wanda", gender_id: female.id },
                         { name: "Wonda", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Australian shrub with crimson flowers" },
+                      [ { name: "Waratah" } ]
+                    ],
+                    [
+                      { description: "Person who fights in a battle", language_id: english.id },
+                      [ { name: "Warrior", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Hot Japanese sauce eaten with fish", language_id: japanese.id },
+                      [ { name: "Wasabi", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'guard'", language_id: english.id },
+                      [ { name: "Watchman", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Plant with broad floating leaves", language_id: english.id },
+                      [ { name: "Water Lily", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'roadside land'", language_id: old_english.id },
+                      [ { name: "Waylon", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Person who weaves", language_id: english.id },
+                      [ { name: "Weaver", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'weaver'", language_id: old_english.id },
+                      [ { name: "Webster", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'brook'", language_id: old_english.id },
+                      [ { name: "Wells", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'wanderer'", language_id: ancient_german.id },
+                      [ { name: "Wendall", gender_id: male.id },
+                        { name: "Wendel", gender_id: male.id },
+                        { name: "Wendell", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'friend'", language_id: english.id },
+                      [ { name: "Wendy", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'western meadow'", language_id: old_english.id },
+                      [ { name: "Wesley", gender_id: both.id },
+                        { name: "Wesly", gender_id: both.id },
+                        { name: "Wessley", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'town facing west'", language_id: old_english.id },
+                      [ { name: "Westen", gender_id: male.id },
+                        { name: "Westin", gender_id: male.id },
+                        { name: "Weston", gender_id: male.id } ]
                     ],
                     [
                       { description: "Long hair like bristles near the mouth of a cat", language_id: english.id },
@@ -9060,9 +9127,21 @@ names_to_create = ([
                       [ { name: "Whitney", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'blessed'" },
+                      [ { name: "Wifrid" } ]
+                    ],
+                    [
                       { description: "Meaning 'desired fortress'", language_id: old_english.id },
                       [ { name: "Wilber", gender_id: male.id },
                         { name: "Wilbur", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'crafty'", language_id: old_english.id },
+                      [ { name: "Wiley", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'desiring peace'", language_id: old_english.id },
+                      [ { name: "Wilf", gender_id: male.id } ]
                     ],
                     [
                       { description: "Nickname of Wilbert, Wilbur, William, Wilson, meaning 'determined protector'", language_id: ancient_german.id },
@@ -9077,6 +9156,25 @@ names_to_create = ([
                         { name: "Willow", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Chimes that ring in the wind", language_id: english.id },
+                      [ { name: "Windchime", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Ruling family of England" },
+                      [ { name: "Windsor", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Projecting parts which enable a bird to fly", language_id: english.id },
+                      [ { name: "Wings", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'joy and peace'", language_id: old_english.id },
+                      [ { name: "Winefred", gender_id: female.id },
+                        { name: "Winifred", gender_id: female.id },
+                        { name: "Winnafred", gender_id: female.id },
+                        { name: "Winnifred", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'joyful stone'", language_id: old_english.id },
                       [ { name: "Winston", gender_id: male.id } ]
                     ],
@@ -9084,6 +9182,14 @@ names_to_create = ([
                       { description: "Coldest season of the year", language_id: english.id },
                       [ { name: "Winter", gender_id: both.id },
                         { name: "Wynter", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Destroy completely", language_id: english.id },
+                      [ { name: "Wipeout", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Desire, request or aspiration", language_id: english.id },
+                      [ { name: "Wish", gender_id: both.id } ]
                     ],
                     [
                       { description: "Small streak of smoke", language_id: english.id },
@@ -9094,8 +9200,36 @@ names_to_create = ([
                       [ { name: "Wizard", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Baby wolf", language_id: english.id, means_dog: true },
+                      [ { name: "Wolfcub", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'fierce' or 'greedy'" },
+                      [ { name: "Wolfie", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Feeling of surprise and admiration, curiosity or bewilderment", language_id: english.id },
+                      [ { name: "Wonder", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "An open field" },
+                      [ { name: "Wong" } ]
+                    ],
+                    [
+                      { description: "Bird that taps tree trunks to find insects", language_id: english.id, means_bird: true },
+                      [ { name: "Woodpecker", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Forest of trees", language_id: english.id },
+                      [ { name: "Woods", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'houses by the wood'", language_id: english.id },
                       [ { name: "Woody", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'war strength'", language_id: old_english.id },
+                      [ { name: "Wyatt", gender_id: male.id } ]
                     ],
                     [
                       { description: "Nickname of Alexander, meaning 'protector of men'", language_id: greek.id },
@@ -10056,6 +10190,10 @@ names_to_link = ([
                   [
                     { description: "Nickname of Wallace, meaning 'Welshman'", language_id: old_french.id },
                     [ "Wally" ]
+                  ],
+                  [
+                    { description: "Meaning 'son of William'", language_id: english.id },
+                    [ "Wilson" ]
                   ],
                   [
                     { description: "Blue colour"},

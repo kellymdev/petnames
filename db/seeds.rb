@@ -58,6 +58,7 @@ siouan = Language.create(name: "Siouan")
 slavic = Language.create(name: "Slavic")
 spanish = Language.create(name: "Spanish")
 swahili = Language.create(name: "Swahili")
+thai = Language.create(name: "Thai")
 vietnamese = Language.create(name: "Vietnamese")
 welsh = Language.create(name: "Welsh")
 west_african = Language.create(name: "West African")
@@ -1938,8 +1939,15 @@ names_to_create = ([
                       [ { name: "Curly", gender_id: both.id } ]
                     ],
                     [
-                      { description: "Alternative spelling of Sybil, meaning 'prophetess'", language_id: greek.id },
-                      [ { name: "Cybil", gender_id: female.id } ]
+                      { description: "Meaning 'prophetess'", language_id: greek.id },
+                      [ { name: "Cybil", gender_id: female.id },
+                        { name: "Sibeal", gender_id: female.id },
+                        { name: "Sibel", gender_id: female.id },
+                        { name: "Sibyl", gender_id: female.id },
+                        { name: "Sibyll", gender_id: female.id },
+                        { name: "Sybella", gender_id: female.id },
+                        { name: "Sybil", gender_id: female.id },
+                        { name: "Syble", gender_id: female.id } ]
                     ],
                     [
                       { description: "Based on the common English word, meaning 'cheerful'", language_id: english.id },
@@ -3069,7 +3077,8 @@ names_to_create = ([
                         { name: "Johna", gender_id: female.id },
                         { name: "Johnna", gender_id: female.id },
                         { name: "Jon", gender_id: male.id },
-                        { name: "Jones", gender_id: both.id } ]
+                        { name: "Jones", gender_id: both.id },
+                        { name: "Shan", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'Gilbert's son'", language_id: english.id },
@@ -7037,12 +7046,28 @@ names_to_create = ([
                       [ { name: "Ryder", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'morning'", language_id: arabic.id },
+                      [ { name: "Saba", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Black colour" },
                       [ { name: "Sable", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'to rest'", language_id: hebrew.id },
+                      [ { name: "Sabra" } ]
+                    ],
+                    [
                       { description: "Meaning 'goddess'" },
                       [ { name: "Sabrina", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'fortunate'" },
+                      [ { name: "Sacchi" } ]
+                    ],
+                    [
+                      { description: "Nickname of Aleksandr, Alexandre and Alexandra, meaning 'protector of men'", language_id: greek.id },
+                      [ { name: "Sacha", gender_id: both.id } ]
                     ],
                     [
                       { description: "Nickname of Folasade, meaning 'honour bestores a crown'", language_id: yoruba.id },
@@ -7059,17 +7084,58 @@ names_to_create = ([
                         { name: "Sarrah", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Expedition to hunt or observe wild animals", language_id: english.id },
+                      [ { name: "Safari", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Orange yellow colour" },
                       [ { name: "Saffron", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'a wise person'", language_id: english.id },
+                      [ { name: "Sage", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'wilderness'" },
+                      [ { name: "Sahara" } ]
+                    ],
+                    [
+                      { description: "Member of a ship’s crew", language_id: english.id },
+                      [ { name: "Sailor", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Very good, patient or unselfish person", language_id: english.id },
+                      [ { name: "Saint", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'cherry blossom'", language_id: japanese.id },
+                      [ { name: "Sakura", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'the moon'", language_id: greek.id },
+                      [ { name: "Saleena", gender_id: female.id },
+                        { name: "Salina", gender_id: female.id },
+                        { name: "Selene", gender_id: female.id },
+                        { name: "Selina", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'sauce'", language_id: spanish.id },
-                      [ { name: "Salsa"}]
+                      [ { name: "Salsa", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Seasoning for food", language_id: english.id },
+                      [ { name: "Salt", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Gesture of respect or greeting", language_id: english.id },
+                      [ { name: "Salute", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'listener', 'God heard'", language_id: hebrew.id },
                       [ { name: "Sam", gender_id: both.id },
-                        { name: "Samantha", gender_id: female.id } ]
+                        { name: "Samantha", gender_id: female.id },
+                        { name: "Samual", gender_id: both.id },
+                        { name: "Samuel", gender_id: both.id } ]
                     ],
                     [
                       { description: "Ballroom dance of Brazilian origin" },
@@ -7081,9 +7147,7 @@ names_to_create = ([
                         { name: "Samie", gender_id: both.id },
                         { name: "Sammi", gender_id: both.id },
                         { name: "Sammie", gender_id: both.id },
-                        { name: "Sammy", gender_id: both.id },
-                        { name: "Samual", gender_id: both.id },
-                        { name: "Samuel", gender_id: both.id } ]
+                        { name: "Sammy", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'sun'", language_id: hebrew.id },
@@ -7091,8 +7155,24 @@ names_to_create = ([
                         { name: "Samson", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Japanese army officer", language_id: japanese.id },
+                      [ { name: "Samurai", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Two or more slices of bread with a layer of filling between", language_id: english.id },
+                      [ { name: "Sandwich", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Yellowish red", language_id: english.id },
                       [ { name: "Sandy", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'creative'" },
+                      [ { name: "Sanjarna" } ]
+                    ],
+                    [
+                      { description: "Meaning 'happiness'" },
+                      [ { name: "Santos" } ]
                     ],
                     [
                       { description: "Meaning 'like a kitten'", language_id: swahili.id, means_cat: true },
@@ -7101,6 +7181,29 @@ names_to_create = ([
                     [
                       { description: "Blue precious stone" },
                       [ { name: "Sapphire", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Nomadic tribes of Syria" },
+                      [ { name: "Saracen" } ]
+                    ],
+                    [
+                      { description: "Meaning 'burning ones'", language_id: hebrew.id },
+                      [ { name: "Sarafina", gender_id: female.id },
+                        { name: "Seraphina", gender_id: female.id },
+                        { name: "Serephina", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Combination of the names Sarah (meaning 'princess') and Serena (meaning 'calm')" },
+                      [ { name: "Sareena", gender_id: female.id },
+                        { name: "Sarena", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'royal'" },
+                      [ { name: "Sarotti" } ]
+                    ],
+                    [
+                      { description: "Buckwheat" },
+                      [ { name: "Sarrazin" } ]
                     ],
                     [
                       { description: "Nickname of Alexander and Alexandra, meaning 'protector of men'", language_id: greek.id },
@@ -7112,9 +7215,29 @@ names_to_create = ([
                       [ { name: "Saskia" } ]
                     ],
                     [
+                      { description: "Trees of the laurel family with yellow flowers and bluish fruit" },
+                      [ { name: "Sassafras" } ]
+                    ],
+                    [
+                      { description: "Silky material that is glossy on one side", language_id: english.id },
+                      [ { name: "Satin", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Small round shallow dish", language_id: english.id },
+                      [ { name: "Saucer", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'asked for'", language_id: hebrew.id },
+                      [ { name: "Saul", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Grassy plain in hot regions" },
                       [ { name: "Savanah" },
                         { name: "Savannah" } ]
+                    ],
+                    [
+                      { description: "Si-sawat is the Thai name for a Korat", language_id: thai.id, means_cat: true },
+                      [ { name: "Sawat" } ]
                     ],
                     [
                       { description: "Run hastily or in play", language_id: english.id },
@@ -7140,6 +7263,14 @@ names_to_create = ([
                       [ { name: "Scout", language_id: both.id } ]
                     ],
                     [
+                      { description: "Mythical monster living off the coast of Italy", language_id: italian.id },
+                      [ { name: "Scylla" } ]
+                    ],
+                    [
+                      { description: "Person who works or travels on the sea", language_id: english.id },
+                      [ { name: "Seafarer", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Sea animal with thick fur or bristles", language_id: english.id },
                       [ { name: "Seal", gender_id: both.id } ]
                     ],
@@ -7148,16 +7279,67 @@ names_to_create = ([
                       [ { name: "Seamus", gender_id: male.id } ]
                     ],
                     [
+                      { description: "Meaning 'God's grace'", language_id: irish_gaelic.id },
+                      [ { name: "Sean", gender_id: both.id },
+                        { name: "Seann", gender_id: both.id },
+                        { name: "Shaun", gender_id: both.id },
+                        { name: "Shawn", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'revered'", language_id: greek.id },
                       [ { name: "Sebastian", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Kept from the knowledge of most people", language_id: english.id },
+                      [ { name: "Secret", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'God has been gracious'" },
+                      [ { name: "Seena" } ]
+                    ],
+                    [
+                      { description: "Meaning 'peace'", language_id: arabic.id },
+                      [ { name: "Selima", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Member of a senate", language_id: english.id },
+                      [ { name: "Senator", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Excited interest", language_id: english.id },
+                      [ { name: "Sensation", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Film or novel continuing the story of an earlier one", language_id: english.id },
+                      [ { name: "Sequel", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'calm'", language_id: latin.id },
                       [ { name: "Serena", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Music played by a lover to his lady", language_id: english.id },
+                      [ { name: "Serenade", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Discovering by accident", language_id: english.id },
+                      [ { name: "Serendipity", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Open grass plain in Africa" },
+                      [ { name: "Serengeti" } ]
+                    ],
+                    [
+                      { description: "Meaning 'appointed'", language_id: hebrew.id },
+                      [ { name: "Seth", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "A number", language_id: english.id },
                       [ { name: "Seven", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Old, ragged, threadbare", language_id: english.id },
+                      [ { name: "Shabby", gender_id: both.id } ]
                     ],
                     [
                       { description: "Place sheltered from the sun", language_id: english.id },
@@ -7168,6 +7350,30 @@ names_to_create = ([
                       [ { name: "Shado", gender_id: both.id },
                         { name: "Shadoe", gender_id: both.id },
                         { name: "Shadow", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Having long rough hair", language_id: english.id },
+                      [ { name: "Shaggy", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'beautiful'" },
+                      [ { name: "Shaina" } ]
+                    ],
+                    [
+                      { description: "Meaning 'grateful'", language_id: arabic.id },
+                      [ { name: "Shakira", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Four-leaf clover", language_id: english.id },
+                      [ { name: "Shamrock", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Shoshana, meaning 'lily, rose'", language_id: hebrew.id },
+                      [ { name: "Shana", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'moon'" },
+                      [ { name: "Shandarah" } ]
                     ],
                     [
                       { description: "Meaning 'crimson'", language_id: hebrew.id },
@@ -7186,21 +7392,61 @@ names_to_create = ([
                         { name: "Shanon", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Soft Chinese silk", language_id: chinese.id },
+                      [ { name: "Shantung", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'good-looking'", language_id: arabic.id },
+                      [ { name: "Shaquille", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'princess'" },
+                      [ { name: "Shari" } ]
+                    ],
+                    [
+                      { description: "Meaning 'sheriff'" },
+                      [ { name: "Sharif" } ]
+                    ],
+                    [
                       { description: "Meaning 'scissor man'", language_id: old_english.id },
                       [ { name: "Sharman", gender_id: male.id },
                         { name: "Sherman", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'marvel', 'wonder'" },
+                      [ { name: "Sharni" },
+                        { name: "Sharnie" } ]
+                    ],
+                    [
+                      { description: "Meaning 'music'" },
+                      [ { name: "Sharon" } ]
                     ],
                     [
                       { description: "Name of a mountain" },
                       [ { name: "Shasta" } ]
                     ],
                     [
+                      { description: "Meaning 'river'" },
+                      [ { name: "Shayla" } ]
+                    ],
+                    [
                       { description: "Meaning 'promise'", language_id: hebrew.id },
                       [ { name: "Sheba", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'blind'", language_id: irish_gaelic.id },
+                      [ { name: "Shelagh", gender_id: female.id },
+                        { name: "Sheila", gender_id: female.id },
+                        { name: "Sheilah", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'farmer'" },
                       [ { name: "Shelby" } ]
+                    ],
+                    [
+                      { description: "Nickname of Shelly, meaning 'sloped meadow'", language_id: old_english.id },
+                      [ { name: "Shell", gender_id: female.id },
+                        { name: "Shells", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'sloped meadow'", language_id: old_english.id },
@@ -7234,6 +7480,10 @@ names_to_create = ([
                       [ { name: "Sherlock" } ]
                     ],
                     [
+                      { description: "Member of a Himalayan people of Nepal and Tibet" },
+                      [ { name: "Sherpa", gender_id: male.id } ]
+                    ],
+                    [
                       { description: "Meaning 'the one to whom it belongs'" },
                       [ { name: "Shilo" },
                         { name: "Shiloah" },
@@ -7244,17 +7494,62 @@ names_to_create = ([
                       [ { name: "Shimmer", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'burden'", language_id: english.id },
+                      [ { name: "Shiralee", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'God's grace'", language_id: norman_french.id },
+                      [ { name: "Shivonne", gender_id: female.id },
+                        { name: "Siobhan", gender_id: female.id },
+                        { name: "Siobhon", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'bypass'", language_id: english.id },
+                      [ { name: "Shortcircuit", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Short for 'Show Business'", language_id: english.id },
+                      [ { name: "Showbiz", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Small or insignificant person", language_id: english.id },
+                      [ { name: "Shrimp", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'frost eyebrows'" },
+                      [ { name: "Shuang-mei" } ]
+                    ],
+                    [
                       { description: "Sweet crystalline substance obtained from the juices of various plants", language_id: english.id },
                       [ { name: "Shugar", gender_id: both.id },
                         { name: "Sugar", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Former name of Thailand" },
+                      [ { name: "Siam" } ]
+                    ],
+                    [
                       { description: "Meaning 'wide meadow'", language_id: old_english.id },
-                      [ { name: "Sidney", gender_id: both.id },
+                      [ { name: "Sid", gender_id: both.id },
+                        { name: "Sidney", gender_id: both.id },
+                        { name: "Syd", gender_id: both.id },
                         { name: "Sydnee", gender_id: both.id },
                         { name: "Sydney", gender_id: female.id },
                         { name: "Sydni", gender_id: both.id },
                         { name: "Sydnie", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'from Sidon, a city in Phoenicia'", language_id: latin.id },
+                      [ { name: "Sidonie", gender_id: female.id },
+                        { name: "Sidony", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'star-lover'" },
+                      [ { name: "Sidrophel" } ]
+                    ],
+                    [
+                      { description: "Meaning 'peace of victory'", language_id: ancient_german.id },
+                      [ { name: "Siegfried", gender_id: male.id } ]
                     ],
                     [
                       { description: "Brownish red colour" },
@@ -7287,11 +7582,25 @@ names_to_create = ([
                     ],
                     [
                       { description: "Meaning 'to hear', 'to be heard' or 'reputation'", language_id: hebrew.id },
-                      [ { name: "Simon", gender_id: male.id } ]
+                      [ { name: "Simeon", gender_id: male.id },
+                        { name: "Simon", gender_id: male.id },
+                        { name: "Simpson", gender_id: male.id } ]
                     ],
                     [
                       { description: "Meaning 'obedient'" },
                       [ { name: "Simone", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "In India, a native chief or noble, a high military officer or head servant" },
+                      [ { name: "Sirdar", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "The brightest star in the heavens" },
+                      [ { name: "Sirius" } ]
+                    ],
+                    [
+                      { description: "Hot wind that reaches Italy from Africa" },
+                      [ { name: "Sirocco" } ]
                     ],
                     [
                       { description: "Meaning 'blind'", language_id: english.id },
@@ -7310,8 +7619,29 @@ names_to_create = ([
                         { name: "Skyy" } ]
                     ],
                     [
+                      { description: "Tricky, cleverly deceptive person", language_id: english.id },
+                      [ { name: "Slicker", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Toy spring which can walk downstairs" },
+                      [ { name: "Slinky", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Cunning and secret", language_id: english.id },
+                      [ { name: "Sly", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'sharp', 'quick'", language_id: english.id },
+                      [ { name: "Smarti", gender_id: both.id },
+                        { name: "Smartie", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Meaning 'happy'", language_id: english.id },
                       [ { name: "Smiley", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Person who makes things in metal", language_id: english.id },
+                      [ { name: "Smith", gender_id: male.id } ]
                     ],
                     [
                       { description: "Black, charcoal or grey colour", language_id: english.id },
@@ -7326,6 +7656,10 @@ names_to_create = ([
                       [ { name: "Smudge", gender_id: both.id },
                         { name: "Smudgie", gender_id: both.id },
                         { name: "Smudgy", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Stylish", language_id: english.id },
+                      [ { name: "Snazzy", gender_id: both.id } ]
                     ],
                     [
                       { description: "Layer of white snowflakes", language_id: english.id },
@@ -7346,6 +7680,10 @@ names_to_create = ([
                       [ { name: "Snowcone", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Plant with white flowers blooming in spring", language_id: english.id },
+                      [ { name: "Snowdrop", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "White flakes falling to earth to make a layer of snow", language_id: english.id },
                       [ { name: "Snowflake", gender_id: both.id } ]
                     ],
@@ -7358,6 +7696,10 @@ names_to_create = ([
                       [ { name: "Snowy", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Nestle, cuddle", language_id: english.id },
+                      [ { name: "Snuggles", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Knitted coverings for the feet", language_id: english.id },
                       [ { name: "Socks", gender_id: both.id },
                         { name: "Sox", gender_id: both.id } ]
@@ -7365,18 +7707,6 @@ names_to_create = ([
                     [
                       { description: "Water made fizzy by adding carbon dioxide", language_id: american.id },
                       [ { name: "Soda", gender_id: both.id } ]
-                    ],
-                    [
-                      { description: "Meaning 'sun'", language_id: french.id },
-                      [ { name: "Soleil" } ]
-                    ],
-                    [
-                      { description: "Meaning 'unaccompanied', 'alone'", language_id: english.id },
-                      [ { name: "Solo", gender_id: both.id } ]
-                    ],
-                    [
-                      { description: "Meaning 'sunny'" },
-                      [ { name: "Sonny", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'wise', 'wisdom'", language_id: greek.id },
@@ -7389,9 +7719,62 @@ names_to_create = ([
                         { name: "Sophie", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Meaning 'sun'", language_id: french.id },
+                      [ { name: "Soleil" } ]
+                    ],
+                    [
+                      { description: "Card game for one person", language_id: english.id },
+                      [ { name: "Solitair", gender_id: both.id },
+                        { name: "Solitaire", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'unaccompanied', 'alone'", language_id: english.id },
+                      [ { name: "Solo", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'peace'", language_id: hebrew.id },
+                      [ { name: "Solomon", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Point when the sun is furthest from the equator", language_id: english.id },
+                      [ { name: "Solstice", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Musical composition for one or two instruments", language_id: english.id },
+                      [ { name: "Sonata", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Poem with 14 lines", language_id: english.id },
+                      [ { name: "Sonet", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Sound waves", language_id: english.id },
+                      [ { name: "Sonic", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'sunny'" },
+                      [ { name: "Sonny", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Covered in black powder", language_id: english.id },
                       [ { name: "Sootie", gender_id: both.id },
                         { name: "Sooty", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Highest female singing voice", language_id: english.id },
+                      [ { name: "Soprano", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'magician'", language_id: english.id },
+                      [ { name: "Sorceror", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Playing cards with black figures shaped like an inverted heart", language_id: english.id },
+                      [ { name: "Spades", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'people from Spald's territory'", language_id: old_english.id },
+                      [ { name: "Spalding", gender_id: both.id } ]
                     ],
                     [
                       { description: "Small piece of glittering material ornamenting a dress" },
@@ -7401,6 +7784,10 @@ names_to_create = ([
                       { description: "Shine with flashes of light", language_id: english.id },
                       [ { name: "Sparkle", gender_id: both.id },
                         { name: "Sparkles", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Handheld sparking firework", language_id: english.id },
+                      [ { name: "Sparkler", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'fiery particle'", language_id: english.id },
@@ -7428,6 +7815,10 @@ names_to_create = ([
                       [ { name: "Spice", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'small change'", language_id: italian.id },
+                      [ { name: "Spicioli" } ]
+                    ],
+                    [
                       { description: "Small animal with a segmented body and eight legs", language_id: english.id },
                       [ { name: "Spider", gender_id: both.id } ]
                     ],
@@ -7448,10 +7839,18 @@ names_to_create = ([
                       [ { name: "Splotchie", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Porous substance which soaks up water", language_id: english.id },
+                      [ { name: "Sponge", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Round mark or stain", language_id: english.id },
                       [ { name: "Spot", gender_id: both.id },
                         { name: "Spots", gender_id: both.id },
                         { name: "Spotz", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Light beam directed on a small area to draw attention to it", language_id: english.id },
+                      [ { name: "Spotlight", gender_id: both.id } ]
                     ],
                     [
                       { description: "Covered in spots", language_id: english.id },
@@ -7460,6 +7859,10 @@ names_to_create = ([
                     [
                       { description: "Scatter or fall in drops or particles", language_id: english.id },
                       [ { name: "Sprinkles", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'fairy'" },
+                      [ { name: "Sprite", gender_id: female.id } ]
                     ],
                     [
                       { description: "Short high pitched cry or sound", language_id: english.id },
@@ -7480,18 +7883,52 @@ names_to_create = ([
                       [ { name: "Squeaky", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Country gentleman" },
+                      [ { name: "Squire", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'stable'" },
+                      [ { name: "Stacey" } ]
+                    ],
+                    [
                       { description: "Meaning 'rocky meadow'" },
                       [ { name: "Stan", gender_id: male.id },
                         { name: "Stanley", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'tin'", language_id: latin.id },
+                      [ { name: "Stannard" } ]
+                    ],
+                    [
                       { description: "Twinkling light in the night sky", language_id: english.id },
                       [ { name: "Star", gender_id: both.id },
-                        { name: "Starr", gender_id: both.id } ]
+                        { name: "Starr", gender_id: both.id },
+                        { name: "Stars", gender_id: both.id } ]
                     ],
                     [
                       { description: "Glowing dust surrounding stars in the sky", language_id: english.id },
                       [ { name: "Stardust", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Light coming from the stars", language_id: english.id },
+                      [ { name: "Starlight", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'crown or garland'", language_id: greek.id },
+                      [ { name: "Stefanie", gender_id: female.id },
+                        { name: "Stephanie", gender_id: female.id },
+                        { name: "Stephen", gender_id: both.id },
+                        { name: "Steven", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Nickname of Stefanie and Stephanie, meaning 'crown or garland'", language_id: greek.id },
+                      [ { name: "Steffi", gender_id: female.id },
+                        { name: "Steffie", gender_id: female.id },
+                        { name: "Stephi", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Alternate form of Stella, meaning 'star'", language_id: latin.id },
+                      [ { name: "Stellina", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'excellent', 'high quality'" },
@@ -7500,7 +7937,21 @@ names_to_create = ([
                     ],
                     [
                       { description: "Nickname of Stephen and Steven, meaning 'crown or garland'", language_id: greek.id },
-                      [ { name: "Steve", gender_id: male.id } ]
+                      [ { name: "Steve", gender_id: male.id },
+                        { name: "Stevie", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'steward'", language_id: old_english.id },
+                      [ { name: "Stewart", gender_id: male.id },
+                        { name: "Stuart", gender_id: male.id } ]
+                    ],
+                    [
+                      { description: "Sticking to what is touched", language_id: english.id },
+                      [ { name: "Sticky", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Treads heavily", language_id: english.id },
+                      [ { name: "Stomper", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'strong winds, dark clouds and rain'", language_id: english.id },
@@ -7512,21 +7963,69 @@ names_to_create = ([
                       [ { name: "Strawberry", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Come or bring sharply into contact with", language_id: english.id },
+                      [ { name: "Strike", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Long narrow band on a surface, differing in colour or texture from its surroundings", language_id: english.id },
                       [ { name: "Stripe", gender_id: both.id },
                         { name: "Stripes", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'elegance', 'fashion'", language_id: english.id },
+                      [ { name: "Style", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Soap bubbles, foam", language_id: english.id },
+                      [ { name: "Suds", gender_id: both.id } ]
                     ],
                     [
                       { description: "Meaning 'trusting'" },
                       [ { name: "Sue", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Leather with a velvety nap on one side", language_id: english.id },
+                      [ { name: "Suede", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'sweetie'", language_id: english.id },
+                      [ { name: "Sugar Plum", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "A lover", language_id: english.id },
+                      [ { name: "Suitor", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Muslim sovereign" },
+                      [ { name: "Sultan" } ]
+                    ],
+                    [
                       { description: "Seedless raisin", language_id: english.id },
                       [ { name: "Sultana", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Meaning 'child of clarity'", language_id: japanese.id },
+                      [ { name: "Sumiko", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Warmest season of the year", language_id: english.id },
+                      [ { name: "Summer", gender_id: female.id } ]
+                    ],
+                    [
                       { description: "Meaning 'light or warmth from the sun'", language_id: english.id },
                       [ { name: "Sun", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Meaning 'ray of sunlight'", language_id: english.id },
+                      [ { name: "Sunbeam", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Ice cream delight with flavoured sauce and sprinkles on top", language_id: english.id },
+                      [ { name: "Sundae", gender_id: female.id } ]
+                    ],
+                    [
+                      { description: "Tall plant with large yellow flowers", language_id: english.id },
+                      [ { name: "Sunflower", gender_id: female.id } ]
                     ],
                     [
                       { description: "Meaning 'sunshine'", language_id: english.id },
@@ -7535,8 +8034,32 @@ names_to_create = ([
                         { name: "Sunny", gender_id: both.id } ]
                     ],
                     [
+                      { description: "Rising of the sun", language_id: english.id },
+                      [ { name: "Sunrise", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Setting of the sun", language_id: english.id },
+                      [ { name: "Sunset", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Direct sunlight", language_id: english.id },
                       [ { name: "Sunshine", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Flying at speeds greater than the speed of sound", language_id: english.id },
+                      [ { name: "Supersonic", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Highest in authority, rank or quality", language_id: english.id },
+                      [ { name: "Supreme", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Foam of breaking waves", language_id: english.id },
+                      [ { name: "Surf", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Emotion aroused by something sudden or unexpected", language_id: english.id },
+                      [ { name: "Surprise", gender_id: both.id } ]
                     ],
                     [
                       { description: "Japanese food consisting of raw fish or chicken rolled in rice and seaweed", language_id: japanese.id },
@@ -7551,12 +8074,18 @@ names_to_create = ([
                         { name: "Suzy", gender_id: female.id } ]
                     ],
                     [
+                      { description: "Bantu language widely used in East Africa" },
+                      [ { name: "Swahili", gender_id: both.id } ]
+                    ],
+                    [
                       { description: "Go smoothly and swiftly or majestically", language_id: english.id },
                       [ { name: "Sweep", gender_id: both.id } ]
                     ],
                     [
                       { description: "A sweet person or animal", language_id: english.id },
-                      [ { name: "Sweetie", gender_id: female.id } ]
+                      [ { name: "Sweetheart", gender_id: female.id },
+                        { name: "Sweetie", gender_id: female.id },
+                        { name: "Sweetie Pie", gender_id: female.id } ]
                     ],
                     [
                       { description: "Climbing plant with fragrant flowers", language_id: english.id },
@@ -7565,6 +8094,10 @@ names_to_create = ([
                     [
                       { description: "Whirl, flow with a whirling movement", language_id: english.id },
                       [ { name: "Swirl", gender_id: both.id } ]
+                    ],
+                    [
+                      { description: "Long elaborate musical composition for a full orchestra", language: english.id },
+                      [ { name: "Symphony", gender_id: both.id } ]
                     ],
                     [
                       { description: "Thick sweet liquid", language_id: english.id },
@@ -8899,12 +9432,28 @@ names_to_link = ([
                     [ "Seal" ]
                   ],
                   [
+                    { description: "Evening music", language_id: english.id },
+                    [ "Serenade" ]
+                  ],
+                  [
                     { description: "Queen who visited King Solomon to investigate his wisdom and greatness" },
                     [ "Sheba" ]
                   ],
                   [
+                    { description: "Hard outer covering of eggs, nut kernels and turtles", language_id: english.id },
+                    [ "Shell", "Shells" ]
+                  ],
+                  [
                     { description: "Covered with shells", language_id: english.id },
                     [ "Shelly" ]
+                  ],
+                  [
+                    { description: "Small slender, long-tailed crustacean", language_id: english.id },
+                    [ "Shrimp" ]
+                  ],
+                  [
+                    { description: "Name of the first Siamese cat in the USA" },
+                    [ "Siam" ]
                   ],
                   [
                     { description: "Meaning 'mountains'" },
@@ -8929,6 +9478,10 @@ names_to_link = ([
                   [
                     { description: "Decorate with irregular patches of colour", language_id: english.id },
                     [ "Splash" ]
+                  ],
+                  [
+                    { description: "Cake with a light open texture", language_id: english.id },
+                    [ "Sponge" ]
                   ],
                   [
                     { description: "Cake decorations", language_id: english.id },

@@ -101,3 +101,64 @@ input[type="submit"] {
   margin-left: 10px;
   padding: 5px 8px;
 }
+
+
+/*------------- Colour List styles --------------*/
+
+.colour-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.colour-list li {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px #5d7090;
+}
+
+.colour-list #black {
+  background-color: #000;
+}
+
+.colour-list #blue {
+  background-color: #5d7090;
+}
+
+.colour-list #brown {
+  background-color: #90846c;
+}
+
+.colour-list #cream {
+  background-color: #ddd2bb;
+}
+
+.colour-list #lilac {
+  background-color: #d1c4e9;
+}
+
+.colour-list #red {
+  background-color: #d46a6a;
+}
+
+.colour-list #white {
+  background-color: #fff;
+}
+
+.colour-list #spotted {
+  background: radial-gradient(#000, #90846c);
+}
+
+.colour-list #tabby {
+  background: linear-gradient(to right, #90846c, #000);
+}
+
+.colour-list #tortoiseshell {
+  background: radial-gradient(#000, #d46a6a);
+}
+
+.colour-list #cream a,
+.colour-list #lilac a {
+  color: #90846c;
+}

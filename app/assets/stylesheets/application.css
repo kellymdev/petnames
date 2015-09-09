@@ -162,3 +162,23 @@ input[type="submit"] {
 .colour-list #lilac a {
   color: #90846c;
 }
+
+
+/*------------- Animal Meanings styles ----------*/
+
+.animal-meanings p,
+.random-button p,
+.pairs-button p {
+  display: inline-block;
+  margin: 10px 10px 20px 10px;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px #5d7090;
+  background-color: #ddd2bb;
+}
+
+.animal-meanings p a,
+.random-button p a,
+.pairs-button p a {
+  color: #90846c;
+}

@@ -3,5 +3,4 @@ FactoryGirl.define do
     name "Female"
     abbreviation "F"
   end
-
 end

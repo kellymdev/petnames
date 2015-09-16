@@ -1,10 +1,10 @@
 require 'rails_helper'
 
 RSpec.describe PagesController, type: :controller do
+  render_views
+
   describe "get 'pages#home'" do
-    before do
-      get :home
-    end
+    before { get :home }
 
     it "returns http status 200" do
       expect(response.status).to eq(200)

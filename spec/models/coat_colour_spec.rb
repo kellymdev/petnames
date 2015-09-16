@@ -22,9 +22,4 @@ RSpec.describe CoatColour, type: :model do
       expect(coat_colour).to have_and_belong_to_many(:names)
     end
   end
-
-  after do
-    CoatColour.destroy_all
-    Name.destroy_all
-  end
 end

@@ -1,10 +1,14 @@
 require 'rails_helper'
 
 RSpec.describe NamesController, type: :controller do
+  let(:language) { create(:language) }
+  let(:meaning) { create(:meaning, language_id: language.id) }
+  let(:meaning_without_language) { create(:meaning) }
+  let(:gender) { create(:gender) }
+  let(:name) { create(:name, gender_id: gender.id) }
+
   describe "get 'names#alphabetical'" do
-    before do
-      get :alphabetical
-    end
+    before { get :alphabetical }
 
     it "returns http status 200" do
       expect(response.status).to eq(200)
@@ -20,9 +24,7 @@ RSpec.describe NamesController, type: :controller do
     let!(:aname2) { create(:name, name: "Andrew") }
     let!(:bname) { create(:name, name: "Brad") }
 
-    before do
-      get :by_letter, letter: "A"
-    end
+    before { get :by_letter, letter: "A" }
 
     it "returns http status 200" do
       expect(response.status).to eq(200)
@@ -36,12 +38,8 @@ RSpec.describe NamesController, type: :controller do
   describe "get 'names#show'" do
     context "the meaning has a language associated with it" do
       before do
-        @language = create(:language)
-        @meaning = create(:meaning, language_id: @language.id)
-        @gender = create(:gender)
-        @name = create(:name, gender_id: @gender.id)
-        @meaning.names.push(@name)
-        get :show, id: @name.id
+        meaning.names << name
+        get :show, id: name.id
       end
 
       it "returns http status 200" do
@@ -50,15 +48,15 @@ RSpec.describe NamesController, type: :controller do
 
       it "renders the details for the name as json" do
         meaning_array = []
-        @name.meanings.each do |meaning|
+        name.meanings.each do |meaning|
           arr = []
-          arr.push(meaning.as_json(except: [:created_at, :updated_at]), meaning.language.name)
-          meaning_array.push(arr)
+          arr << meaning.as_json(except: [:created_at, :updated_at]) << meaning.language.name
+          meaning_array << arr
         end
 
         expected_data = {
-                          name: @name.as_json(except: [:created_at, :updated_at]),
-                          gender: @name.gender.as_json(except: [:created_at, :updated_at]),
+                          name: name.as_json(except: [:created_at, :updated_at]),
+                          gender: name.gender.as_json(except: [:created_at, :updated_at]),
                           meanings: meaning_array
                         }
         expect(response.body).to eq(expected_data.to_json)
@@ -67,11 +65,8 @@ RSpec.describe NamesController, type: :controller do
 
     context "the meaning doesn't have a language associated with it" do
       before do
-        @meaning = create(:meaning)
-        @gender = create(:gender)
-        @name = create(:name, gender_id: @gender.id)
-        @meaning.names.push(@name)
-        get :show, id: @name.id
+        meaning_without_language.names << name
+        get :show, id: name.id
       end
 
       it "returns http status 200" do
@@ -80,21 +75,21 @@ RSpec.describe NamesController, type: :controller do
 
       it "renders the details for the name as json" do
         meaning_array = []
-        @name.meanings.each do |meaning|
+        name.meanings.each do |meaning|
           arr = []
 
           if meaning.language_id != nil
-            arr.push(meaning.as_json(except: [:created_at, :updated_at]), meaning.language.name)
+            arr << meaning.as_json(except: [:created_at, :updated_at]) << meaning.language.name
           else
-            arr.push(meaning.as_json(except: [:created_at, :updated_at]))
+            arr << meaning.as_json(except: [:created_at, :updated_at])
           end
 
-          meaning_array.push(arr)
+          meaning_array << arr
         end
 
         expected_data = {
-                          name: @name.as_json(except: [:created_at, :updated_at]),
-                          gender: @name.gender.as_json(except: [:created_at, :updated_at]),
+                          name: name.as_json(except: [:created_at, :updated_at]),
+                          gender: name.gender.as_json(except: [:created_at, :updated_at]),
                           meanings: meaning_array
                         }
         expect(response.body).to eq(expected_data.to_json)
@@ -103,11 +98,7 @@ RSpec.describe NamesController, type: :controller do
   end
 
   describe "get 'names#search'" do
-    before do
-      @gender = create(:gender)
-      @name = create(:name, gender_id: @gender.id)
-      get :search, query: "Jes"
-    end
+    before { get :search, query: "Jes" }
 
     it "returns http status 200" do
       expect(response.status).to eq(200)
@@ -127,15 +118,14 @@ RSpec.describe NamesController, type: :controller do
   end
 
   describe "get 'names#random'" do
-    before do
-      @female = create(:gender, name: "Female")
-      @male = create(:gender, name: "Male")
-      @both = create(:gender, name: "Both")
-      @female_name = create(:name, gender_id: @female.id)
-      @male_name = create(:name, gender_id: @male.id)
-      @both_name = create(:name, gender_id: @both.id)
-      get :random
-    end
+    let(:female) { create(:gender, name: "Female") }
+    let(:male) { create(:gender, name: "Male") }
+    let(:both) { create(:gender, name: "Both") }
+    let!(:female_name) { create(:name, gender_id: female.id) }
+    let!(:male_name) { create(:name, gender_id: male.id) }
+    let!(:both_name) { create(:name, gender_id: both.id) }
+
+    before { get :random }
 
     it "returns http status 200" do
       expect(response.status).to eq(200)
@@ -143,17 +133,11 @@ RSpec.describe NamesController, type: :controller do
 
     it "returns a random female name, male name and both name as json" do
       expected_data = {
-                        female: @female_name.as_json(except: [:created_at, :updated_at]),
-                        male: @male_name.as_json(except: [:created_at, :updated_at]),
-                        both: @both_name.as_json(except: [:created_at, :updated_at])
+                        female: female_name.as_json(except: [:created_at, :updated_at]),
+                        male: male_name.as_json(except: [:created_at, :updated_at]),
+                        both: both_name.as_json(except: [:created_at, :updated_at])
                       }
       expect(response.body).to eq(expected_data.to_json)
     end
-  end
-
-  after do
-    Name.destroy_all
-    Meaning.destroy_all
-    Gender.destroy_all
   end
 end

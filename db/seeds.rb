@@ -1,71 +1,71 @@
 # Genders
-both = Gender.create(name: "Both", abbreviation: "B")
-female = Gender.create(name: "Female", abbreviation: "F")
-male = Gender.create(name: "Male", abbreviation: "M")
+both = Gender.create!(name: "Both", abbreviation: "B")
+female = Gender.create!(name: "Female", abbreviation: "F")
+male = Gender.create!(name: "Male", abbreviation: "M")
 
 # Languages
-akan = Language.create(name: "Akan")
-akposso = Language.create(name: "Akposso")
-algonquian_wakashian = Language.create(name: "Algonquian-Wakashian")
-american = Language.create(name: "American")
-ancient_celtic = Language.create(name: "Ancient Celtic")
-ancient_german = Language.create(name: "Ancient German")
-arabic = Language.create(name: "Arabic")
-aramaic = Language.create(name: "Aramaic")
-archaic = Language.create(name: "Archaic")
-burmese = Language.create(name: "Burmese")
-celtic = Language.create(name: "Celtic")
-chinese = Language.create(name: "Chinese")
-choctaw = Language.create(name: "Choctaw")
-cornish = Language.create(name: "Cornish")
-czech = Language.create(name: "Czech")
-dutch = Language.create(name: "Dutch")
-english = Language.create(name: "English")
-french = Language.create(name: "French")
-gaelic = Language.create(name: "Gaelic")
-german = Language.create(name: "German")
-greek = Language.create(name: "Greek")
-hausa = Language.create(name: "Hausa")
-hawaiian = Language.create(name: "Hawaiian")
-hebrew = Language.create(name: "Hebrew")
-hindi = Language.create(name: "Hindi")
-igbo = Language.create(name: "Igbo")
-indian = Language.create(name: "Indian")
-irish = Language.create(name: "Irish")
-irish_gaelic = Language.create(name: "Irish Gaelic")
-iroquoian = Language.create(name: "Iroquoian")
-italian = Language.create(name: "Italian")
-japanese = Language.create(name: "Japanese")
-khmer = Language.create(name: "Khmer")
-latin = Language.create(name: "Latin")
-middle_english = Language.create(name: "Middle English")
-mongolian = Language.create(name: "Mongolian")
-norman_french = Language.create(name: "Norman French")
-norse = Language.create(name: "Norse")
-norwegian = Language.create(name: "Norwegian")
-old_english = Language.create(name: "Old English")
-old_french = Language.create(name: "Old French")
-old_german = Language.create(name: "Old German")
-old_norse = Language.create(name: "Old Norse")
-old_welsh = Language.create(name: "Old Welsh")
-persian = Language.create(name: "Persian")
-phoenician = Language.create(name: "Phoenician")
-roman = Language.create(name: "Roman")
-russian = Language.create(name: "Russian")
-sanskrit = Language.create(name: "Sanskrit")
-scots_gaelic = Language.create(name: "Scots Gaelic")
-serbian = Language.create(name: "Serbian")
-siouan = Language.create(name: "Siouan")
-slavic = Language.create(name: "Slavic")
-spanish = Language.create(name: "Spanish")
-swahili = Language.create(name: "Swahili")
-thai = Language.create(name: "Thai")
-vietnamese = Language.create(name: "Vietnamese")
-welsh = Language.create(name: "Welsh")
-west_african = Language.create(name: "West African")
-xhosa = Language.create(name: "Xhosa")
-yiddish = Language.create(name: "Yiddish")
-yoruba = Language.create(name: "Yoruba")
+akan = Language.create!(name: "Akan")
+akposso = Language.create!(name: "Akposso")
+algonquian_wakashian = Language.create!(name: "Algonquian-Wakashian")
+american = Language.create!(name: "American")
+ancient_celtic = Language.create!(name: "Ancient Celtic")
+ancient_german = Language.create!(name: "Ancient German")
+arabic = Language.create!(name: "Arabic")
+aramaic = Language.create!(name: "Aramaic")
+archaic = Language.create!(name: "Archaic")
+burmese = Language.create!(name: "Burmese")
+celtic = Language.create!(name: "Celtic")
+chinese = Language.create!(name: "Chinese")
+choctaw = Language.create!(name: "Choctaw")
+cornish = Language.create!(name: "Cornish")
+czech = Language.create!(name: "Czech")
+dutch = Language.create!(name: "Dutch")
+english = Language.create!(name: "English")
+french = Language.create!(name: "French")
+gaelic = Language.create!(name: "Gaelic")
+german = Language.create!(name: "German")
+greek = Language.create!(name: "Greek")
+hausa = Language.create!(name: "Hausa")
+hawaiian = Language.create!(name: "Hawaiian")
+hebrew = Language.create!(name: "Hebrew")
+hindi = Language.create!(name: "Hindi")
+igbo = Language.create!(name: "Igbo")
+indian = Language.create!(name: "Indian")
+irish = Language.create!(name: "Irish")
+irish_gaelic = Language.create!(name: "Irish Gaelic")
+iroquoian = Language.create!(name: "Iroquoian")
+italian = Language.create!(name: "Italian")
+japanese = Language.create!(name: "Japanese")
+khmer = Language.create!(name: "Khmer")
+latin = Language.create!(name: "Latin")
+middle_english = Language.create!(name: "Middle English")
+mongolian = Language.create!(name: "Mongolian")
+norman_french = Language.create!(name: "Norman French")
+norse = Language.create!(name: "Norse")
+norwegian = Language.create!(name: "Norwegian")
+old_english = Language.create!(name: "Old English")
+old_french = Language.create!(name: "Old French")
+old_german = Language.create!(name: "Old German")
+old_norse = Language.create!(name: "Old Norse")
+old_welsh = Language.create!(name: "Old Welsh")
+persian = Language.create!(name: "Persian")
+phoenician = Language.create!(name: "Phoenician")
+roman = Language.create!(name: "Roman")
+russian = Language.create!(name: "Russian")
+sanskrit = Language.create!(name: "Sanskrit")
+scots_gaelic = Language.create!(name: "Scots Gaelic")
+serbian = Language.create!(name: "Serbian")
+siouan = Language.create!(name: "Siouan")
+slavic = Language.create!(name: "Slavic")
+spanish = Language.create!(name: "Spanish")
+swahili = Language.create!(name: "Swahili")
+thai = Language.create!(name: "Thai")
+vietnamese = Language.create!(name: "Vietnamese")
+welsh = Language.create!(name: "Welsh")
+west_african = Language.create!(name: "West African")
+xhosa = Language.create!(name: "Xhosa")
+yiddish = Language.create!(name: "Yiddish")
+yoruba = Language.create!(name: "Yoruba")
 
 names_to_create = ([
                     [
@@ -9478,11 +9478,11 @@ names_to_create = ([
                   ])
 
 names_to_create.each do |value|
-  descript = Meaning.create(description: value[0][:description], language_id: value[0][:language_id], means_cat: value[0].fetch(:means_cat, false), means_dog: value[0].fetch(:means_dog, false), means_bird: value[0].fetch(:means_bird, false))
+  descript = Meaning.create!(description: value[0][:description], language_id: value[0][:language_id], means_cat: value[0].fetch(:means_cat, false), means_dog: value[0].fetch(:means_dog, false), means_bird: value[0].fetch(:means_bird, false))
 
   value[1].each do |details|
     puts details[:name]
-    descript.names.push(Name.create(name: details[:name], gender_id: details[:gender_id]))
+    descript.names.create!(name: details[:name], gender_id: details[:gender_id])
   end
 end
 
@@ -10346,10 +10346,10 @@ names_to_link = ([
                 ])
 
 names_to_link.each do |value|
-  descript = Meaning.create(description: value[0][:description], language_id: value[0][:language_id], means_cat: value[0].fetch(:means_cat, false), means_dog: value[0].fetch(:means_dog, false), means_bird: value[0].fetch(:means_bird, false))
+  descript = Meaning.create!(description: value[0][:description], language_id: value[0][:language_id], means_cat: value[0].fetch(:means_cat, false), means_dog: value[0].fetch(:means_dog, false), means_bird: value[0].fetch(:means_bird, false))
 
   value[1].each do |details|
-    descript.names.push(Name.where(name: details))
+    descript.names << Name.where(name: details)
   end
 end
 
@@ -10424,7 +10424,7 @@ meanings_to_link.each do |value|
   descript = Meaning.find_by_description_and_language_id(value[0][:description], value[0][:language_id])
 
   value[1].each do |details|
-    descript.names.push(Name.where(name: details))
+    descript.names << Name.where(name: details)
   end
 end
 
@@ -10473,10 +10473,10 @@ colours_to_link = ([
                   ])
 
 colours_to_link.each do |details|
-  colour = CoatColour.create(name: details[0][:name], description: details[0][:description])
+  colour = CoatColour.create!(name: details[0][:name], description: details[0][:description])
 
   details[1].each do |name|
-    colour.names.push(Name.where(name: name))
+    colour.names << Name.where(name: name)
   end
 end
 
@@ -10516,5 +10516,5 @@ pairs = ([
         ])
 
 pairs.each do |pair|
-  Pair.create(names: pair[:names], description: pair[:description])
+  Pair.create!(names: pair[:names], description: pair[:description])
 end

@@ -26,11 +26,4 @@ RSpec.describe Name, type: :model do
       expect(name).to belong_to(:gender)
     end
   end
-
-  after do
-    Name.destroy_all
-    Meaning.destroy_all
-    CoatColour.destroy_all
-    Gender.destroy_all
-  end
 end

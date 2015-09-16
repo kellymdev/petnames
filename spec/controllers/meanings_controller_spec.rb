@@ -1,17 +1,17 @@
 require 'rails_helper'
 
 RSpec.describe MeaningsController, type: :controller do
+  let(:language) { create(:language) }
+  let(:meaning) { create(:meaning, language_id: language.id) }
+  let(:female) { create(:gender, name: "Female") }
+  let(:male) { create(:gender, name: "Male") }
+  let(:female_name) { create(:name, name: "Anna", gender_id: female.id) }
+  let(:male_name) { create(:name, name: "Bruce", gender_id: male.id) }
 
   describe "get '#show'" do
     before do
-      @language = create(:language)
-      @meaning = create(:meaning, language_id: @language.id)
-      @female = create(:gender, name: "Female")
-      @male = create(:gender, name: "Male")
-      @name1 = create(:name, name: "Anna", gender_id: @female.id)
-      @name2 = create(:name, name: "Bruce", gender_id: @male.id)
-      @meaning.names.push(@name1, @name2)
-      get :show, id: @meaning.id
+      meaning.names << female_name << male_name
+      get :show, id: meaning.id
     end
 
     it "returns http status 200" do
@@ -21,21 +21,21 @@ RSpec.describe MeaningsController, type: :controller do
     it "renders details for the meaning and the names associated with it as json" do
       names_array = []
 
-      @meaning.names.each do |name|
+      meaning.names.each do |name|
         arr = []
 
         if name.gender_id != nil
-          arr.push(name.as_json(except: [:created_at, :updated_at]), name.gender.name)
+          arr << name.as_json(except: [:created_at, :updated_at]) << name.gender.name
         else
-          arr.push(name.as_json(except: [:created_at, :updated_at]))
+          arr << name.as_json(except: [:created_at, :updated_at])
         end
 
-        names_array.push(arr)
+        names_array << arr
       end
 
       expected_data = {
-                        meaning: @meaning.as_json(except: [:created_at, :updated_at]),
-                        language: @meaning.language.as_json(except: [:created_at, :updated_at]),
+                        meaning: meaning.as_json(except: [:created_at, :updated_at]),
+                        language: meaning.language.as_json(except: [:created_at, :updated_at]),
                         names: names_array
                       }
       expect(response.body).to eq(expected_data.to_json)
@@ -43,17 +43,10 @@ RSpec.describe MeaningsController, type: :controller do
   end
 
   describe "get '#cat'" do
+    let(:cat_meaning) { create(:meaning, means_cat: true) }
+
     before do
-      @meaning = create(:meaning, means_cat: true)
-      @name = create(:name)
-      @female = create(:gender, name: "Female")
-      @name2 = create(:name, gender_id: @female.id)
-      @meaning.names.push(@name, @name2)
-
-      @meaning2 = create(:meaning, means_cat: true)
-      @name3 = create(:name)
-      @meaning2.names.push(@name3)
-
+      cat_meaning.names << female_name << male_name
       get :cat
     end
 
@@ -78,7 +71,7 @@ RSpec.describe MeaningsController, type: :controller do
               )
             )
           else
-            names_array.push(name.as_json(except: [:created_at, :updated_at]))
+            names_array << name.as_json(except: [:created_at, :updated_at])
           end
         end
       end
@@ -93,17 +86,10 @@ RSpec.describe MeaningsController, type: :controller do
   end
 
   describe "get '#dog'" do
+    let(:dog_meaning) { create(:meaning, means_dog: true) }
+
     before do
-      @meaning = create(:meaning, means_dog: true)
-      @name = create(:name)
-      @female = create(:gender, name: "Female")
-      @name2 = create(:name, gender_id: @female.id)
-      @meaning.names.push(@name, @name2)
-
-      @meaning2 = create(:meaning, means_dog: true)
-      @name3 = create(:name)
-      @meaning2.names.push(@name3)
-
+      dog_meaning.names << female_name << male_name
       get :dog
     end
 
@@ -128,7 +114,7 @@ RSpec.describe MeaningsController, type: :controller do
               )
             )
           else
-            names_array.push(name.as_json(except: [:created_at, :updated_at]))
+            names_array << name.as_json(except: [:created_at, :updated_at])
           end
         end
       end
@@ -143,17 +129,10 @@ RSpec.describe MeaningsController, type: :controller do
   end
 
   describe "get '#bird'" do
+    let(:bird_meaning) { create(:meaning, means_bird: true) }
+
     before do
-      @meaning = create(:meaning, means_bird: true)
-      @name = create(:name)
-      @female = create(:gender, name: "Female")
-      @name2 = create(:name, gender_id: @female.id)
-      @meaning.names.push(@name, @name2)
-
-      @meaning2 = create(:meaning, means_bird: true)
-      @name3 = create(:name)
-      @meaning2.names.push(@name3)
-
+      bird_meaning.names << female_name << male_name
       get :bird
     end
 
@@ -178,7 +157,7 @@ RSpec.describe MeaningsController, type: :controller do
               )
             )
           else
-            names_array.push(name.as_json(except: [:created_at, :updated_at]))
+            names_array << name.as_json(except: [:created_at, :updated_at])
           end
         end
       end
@@ -190,12 +169,5 @@ RSpec.describe MeaningsController, type: :controller do
 
       expect(response.body).to eq(expected_data.to_json)
     end
-  end
-
-  after do
-    Language.destroy_all
-    Meaning.destroy_all
-    Gender.destroy_all
-    Name.destroy_all
   end
 end

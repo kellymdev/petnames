@@ -3,5 +3,4 @@ FactoryGirl.define do
     names "Bacon & Eggs"
     description "Cooked breakfast"
   end
-
 end

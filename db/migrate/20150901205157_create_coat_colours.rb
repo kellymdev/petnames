@@ -3,7 +3,6 @@ class CreateCoatColours < ActiveRecord::Migration
     create_table :coat_colours do |t|
       t.string :name
       t.string :description
-
       t.timestamps null: false
     end
   end

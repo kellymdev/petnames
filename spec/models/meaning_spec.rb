@@ -18,8 +18,4 @@ RSpec.describe Meaning, type: :model do
       expect(meaning).to belong_to(:language)
     end
   end
-
-  after do
-    Meaning.destroy_all
-  end
 end

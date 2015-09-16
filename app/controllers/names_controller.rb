@@ -1,5 +1,4 @@
 class NamesController < ApplicationController
-
   def alphabetical
     list = ('A'..'Z').to_a
     render json: list
@@ -18,18 +17,18 @@ class NamesController < ApplicationController
   end
 
   def show
-    name = Name.find_by("id = ?", params[:id])
+    name = Name.find(params[:id])
     meaning_array = []
     name.meanings.each do |meaning|
       arr = []
 
       if meaning.language_id != nil
-        arr.push(meaning.as_json(except: [:created_at, :updated_at]), meaning.language.name)
+        arr << meaning.as_json(except: [:created_at, :updated_at]) << meaning.language.name
       else
-        arr.push(meaning.as_json(except: [:created_at, :updated_at]))
+        arr << meaning.as_json(except: [:created_at, :updated_at]))
       end
 
-      meaning_array.push(arr)
+      meaning_array << arr
     end
 
     render json:  {

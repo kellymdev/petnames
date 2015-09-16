@@ -18,9 +18,4 @@ RSpec.describe Gender, type: :model do
       expect(gender).to have_many(:names)
     end
   end
-
-  after do
-    Gender.destroy_all
-    Name.destroy_all
-  end
 end

@@ -12,8 +12,4 @@ RSpec.describe Pair, type: :model do
       expect(pair).to validate_presence_of(:description)
     end
   end
-
-  after do
-    Pair.destroy_all
-  end
 end

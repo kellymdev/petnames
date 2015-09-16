@@ -14,10 +14,4 @@ RSpec.describe Language, type: :model do
       expect(language).to have_many(:meanings)
     end
   end
-
-  after do
-    Language.destroy_all
-    Name.destroy_all
-    Meaning.destroy_all
-  end
 end

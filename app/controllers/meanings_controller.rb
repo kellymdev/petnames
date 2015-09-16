@@ -1,7 +1,6 @@
 class MeaningsController < ApplicationController
-
   def show
-    meaning = Meaning.find_by("id = ?", params[:id])
+    meaning = Meaning.find(params[:id])
     language = meaning.language
     names = meaning.names
 
@@ -10,12 +9,12 @@ class MeaningsController < ApplicationController
       arr = []
 
       if name.gender_id != nil
-        arr.push(name.as_json(except: [:created_at, :updated_at]), name.gender.name)
+        arr << name.as_json(except: [:created_at, :updated_at]) << name.gender.name
       else
-        arr.push(name.as_json(except: [:created_at, :updated_at]))
+        arr << name.as_json(except: [:created_at, :updated_at])
       end
 
-      names_array.push(arr)
+      names_array << arr
     end
 
     render json:  {
@@ -42,7 +41,7 @@ class MeaningsController < ApplicationController
             )
           )
         else
-          names_array.push(name.as_json(except: [:created_at, :updated_at]))
+          names_array << name.as_json(except: [:created_at, :updated_at])
         end
       end
     end
@@ -71,7 +70,7 @@ class MeaningsController < ApplicationController
             )
           )
         else
-          names_array.push(name.as_json(except: [:created_at, :updated_at]))
+          names_array << name.as_json(except: [:created_at, :updated_at])
         end
       end
     end
@@ -100,7 +99,7 @@ class MeaningsController < ApplicationController
             )
           )
         else
-          names_array.push(name.as_json(except: [:created_at, :updated_at]))
+          names_array << name.as_json(except: [:created_at, :updated_at])
         end
       end
     end
@@ -111,5 +110,4 @@ class MeaningsController < ApplicationController
                     names: names_array
                   }
   end
-
 end

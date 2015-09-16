@@ -3,7 +3,6 @@ class CreatePairs < ActiveRecord::Migration
     create_table :pairs do |t|
       t.string :names
       t.string :description
-
       t.timestamps null: false
     end
   end

@@ -51,9 +51,9 @@ class NamesController < ApplicationController
   end
 
   def random
-    female_name = Name.where(gender_id: Gender.where(name: "Female")).sample
-    male_name = Name.where(gender_id: Gender.where(name: "Male")).sample
-    both_name = Name.where(gender_id: Gender.where(name: "Both")).sample
+    female_name = Name.where(gender_id: Gender.where(name: "Female")).order("random()").first
+    male_name = Name.where(gender_id: Gender.where(name: "Male")).order("random()").first
+    both_name = Name.where(gender_id: Gender.where(name: "Both")).order("random()").first
 
     render json:  {
                     female: female_name.as_json(except: [:created_at, :updated_at]),

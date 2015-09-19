@@ -14,7 +14,7 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2015-09-20T10:06:02+12:00">2015-09-20T10:06:02+12:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2015-09-20T11:10:15+12:00">2015-09-20T11:10:15+12:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -83,7 +83,7 @@
       <tr>
         <td class="strong"><a href="#aa71ad65b30ac61cfcd7de3cc98948b5767b16dc" class="src_link" title="app/controllers/names_controller.rb">app/controllers/names_controller.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>64</td>
+        <td>65</td>
         <td>26</td>
         <td>26</td>
         <td>0</td>
@@ -251,7 +251,7 @@
       <tr>
         <td class="strong"><a href="#aa71ad65b30ac61cfcd7de3cc98948b5767b16dc" class="src_link" title="app/controllers/names_controller.rb">app/controllers/names_controller.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>64</td>
+        <td>65</td>
         <td>26</td>
         <td>26</td>
         <td>0</td>
@@ -1737,67 +1737,73 @@
           <code class="ruby">  def random</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="54">
-          <span class="hits">2</span>
+        <li class="never" data-hits="" data-linenumber="54">
           
-          <code class="ruby">    female_name = Name.where(gender_id: Gender.where(name: &quot;Female&quot;)).sample</code>
+          
+          <code class="ruby">    # female_name = Name.where(gender_id: Gender.where(name: &quot;Female&quot;)).sample</code>
         </li>
       
         <li class="covered" data-hits="2" data-linenumber="55">
           <span class="hits">2</span>
           
-          <code class="ruby">    male_name = Name.where(gender_id: Gender.where(name: &quot;Male&quot;)).sample</code>
+          <code class="ruby">    female_name = Name.where(gender_id: Gender.where(name: &quot;Female&quot;)).order(&quot;random()&quot;).first</code>
         </li>
       
         <li class="covered" data-hits="2" data-linenumber="56">
           <span class="hits">2</span>
           
+          <code class="ruby">    male_name = Name.where(gender_id: Gender.where(name: &quot;Male&quot;)).sample</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="57">
+          <span class="hits">2</span>
+          
           <code class="ruby">    both_name = Name.where(gender_id: Gender.where(name: &quot;Both&quot;)).sample</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="57">
+        <li class="never" data-hits="" data-linenumber="58">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="58">
+        <li class="covered" data-hits="2" data-linenumber="59">
           <span class="hits">2</span>
           
           <code class="ruby">    render json:  {</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="59">
+        <li class="never" data-hits="" data-linenumber="60">
           
           
           <code class="ruby">                    female: female_name.as_json(except: [:created_at, :updated_at]),</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="60">
+        <li class="never" data-hits="" data-linenumber="61">
           
           
           <code class="ruby">                    male: male_name.as_json(except: [:created_at, :updated_at]),</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="61">
+        <li class="never" data-hits="" data-linenumber="62">
           
           
           <code class="ruby">                    both: both_name.as_json(except: [:created_at, :updated_at])</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="62">
+        <li class="never" data-hits="" data-linenumber="63">
           
           
           <code class="ruby">                  }</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="63">
+        <li class="never" data-hits="" data-linenumber="64">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="64">
+        <li class="never" data-hits="" data-linenumber="65">
           
           
           <code class="ruby">end</code>

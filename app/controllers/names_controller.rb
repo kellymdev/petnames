@@ -25,7 +25,7 @@ class NamesController < ApplicationController
       if meaning.language_id != nil
         arr << meaning.as_json(except: [:created_at, :updated_at]) << meaning.language.name
       else
-        arr << meaning.as_json(except: [:created_at, :updated_at]))
+        arr << meaning.as_json(except: [:created_at, :updated_at])
       end
 
       meaning_array << arr

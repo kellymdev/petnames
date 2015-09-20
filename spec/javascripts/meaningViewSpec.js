@@ -15,7 +15,7 @@ describe("MeaningView", function() {
 
   describe("displayMeaningDetails", function() {
     beforeEach(function() {
-      var data = {"meaning":{"id":202,"description":"Meaning 'brilliant'","language_id":31},"language":{"id":31,"name":"Latin"},"names":[[{"id":333,"name":"Claire","gender_id":1},"Both"],[{"id":338,"name":"Clarissa","gender_id":2},"Female"]]};
+      var data = {"meaning":{"id":341,"description":"Meaning 'brilliant'","language_id":34,"means_cat":false,"means_dog":false,"means_bird":false},"language":{"id":34,"name":"Latin"},"names":[{"id":600,"name":"Claire","gender_id":1,"gender":{"name":"Both"}},{"id":605,"name":"Clarissa","gender_id":2,"gender":{"name":"Female"}}]}
       view.displayMeaningDetails(data);
     });
 

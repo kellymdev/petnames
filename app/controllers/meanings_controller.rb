@@ -4,17 +4,12 @@ class MeaningsController < ApplicationController
     language = meaning.language
     names = meaning.names
 
-    names_array = []
-    names.each do |name|
-      arr = []
-
+    names_array = names.map do |name|
       if name.gender_id != nil
-        arr << name.as_json(except: [:created_at, :updated_at]) << name.gender.name
+        name.as_json(except: [:created_at, :updated_at], include: { gender: { only: :name } } )
       else
-        arr << name.as_json(except: [:created_at, :updated_at])
+        name.as_json(except: [:created_at, :updated_at])
       end
-
-      names_array << arr
     end
 
     render json:  {

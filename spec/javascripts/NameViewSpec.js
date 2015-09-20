@@ -52,7 +52,7 @@ describe("NameView", function() {
 
   describe("displayNameDetails", function() {
     beforeEach(function() {
-      var details = {"name":{"id":420,"name":"Desmond","gender_id":3},"gender":{"id":3,"name":"Male","abbreviation":"M"},"meanings":[[{"id":259,"description":"Meaning 'one from south Munster'","language_id":18},"Gaelic"]]};
+      var details = {"name":{"id":420,"name":"Desmond","gender_id":3},"gender":{"id":3,"name":"Male","abbreviation":"M"},"meanings":[{"id":259,"description":"Meaning 'one from south Munster'","language_id":18,"means_cat":false,"means_dog":false,"means_bird":false,"language":{"name":"Gaelic"}}]};
       view.displayNameDetails(details);
     });
 

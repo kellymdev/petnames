@@ -47,11 +47,14 @@ RSpec.describe NamesController, type: :controller do
       end
 
       it "renders the details for the name as json" do
-        meaning_array = []
-        name.meanings.each do |meaning|
-          arr = []
-          arr << meaning.as_json(except: [:created_at, :updated_at]) << meaning.language.name
-          meaning_array << arr
+        meaning_array = name.meanings.map do |meaning|
+          meaning.as_json(
+            except: [:created_at, :updated_at],
+            include: { language: {
+              only: :name
+              }
+            }
+          )
         end
 
         expected_data = {
@@ -74,17 +77,18 @@ RSpec.describe NamesController, type: :controller do
       end
 
       it "renders the details for the name as json" do
-        meaning_array = []
-        name.meanings.each do |meaning|
-          arr = []
-
+        meaning_array = name.meanings.map do |meaning|
           if meaning.language_id != nil
-            arr << meaning.as_json(except: [:created_at, :updated_at]) << meaning.language.name
+            meaning.as_json(
+              except: [:created_at, :updated_at],
+              include: { language: {
+                only: :name
+                }
+              }
+            )
           else
-            arr << meaning.as_json(except: [:created_at, :updated_at])
+            meaning.as_json(except: [:created_at, :updated_at])
           end
-
-          meaning_array << arr
         end
 
         expected_data = {

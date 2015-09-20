@@ -19,17 +19,7 @@ class NamesController < ApplicationController
   def show
     name = Name.find(params[:id])
     meaning_array = name.meanings.map do |meaning|
-      if meaning.language_id != nil
-        meaning.as_json(
-          except: [:created_at, :updated_at],
-          include: { language: {
-            only: :name
-            }
-          }
-        )
-      else
-        meaning.as_json(except: [:created_at, :updated_at])
-      end
+      meaning.as_json(except: [:created_at, :updated_at], include: { language: { only: :name } } )
     end
 
     render json:  {

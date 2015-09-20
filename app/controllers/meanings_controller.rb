@@ -5,11 +5,7 @@ class MeaningsController < ApplicationController
     names = meaning.names
 
     names_array = names.map do |name|
-      if name.gender_id != nil
-        name.as_json(except: [:created_at, :updated_at], include: { gender: { only: :name } } )
-      else
-        name.as_json(except: [:created_at, :updated_at])
-      end
+      name.as_json(except: [:created_at, :updated_at], include: { gender: { only: :name } } )
     end
 
     render json:  {

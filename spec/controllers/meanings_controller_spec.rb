@@ -20,11 +20,7 @@ RSpec.describe MeaningsController, type: :controller do
 
     it "renders details for the meaning and the names associated with it as json" do
       names_array = meaning.names.map do |name|
-        if name.gender_id != nil
-          name.as_json(except: [:created_at, :updated_at], include: { gender: { only: :name } } )
-        else
-          name.as_json(except: [:created_at, :updated_at])
-        end
+        name.as_json(except: [:created_at, :updated_at], include: { gender: { only: :name } } )
       end
 
       expected_data = {

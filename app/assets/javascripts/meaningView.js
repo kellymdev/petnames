@@ -5,7 +5,7 @@ MeaningView.prototype.displayMeaningDetails = function(data) {
   ViewHelper.prototype.clearPageContent();
 
   meaningHtml = '<div class="meaning-details">' +
-                  '<h3>Names by meaning:</h3>' +
+                  '<h2><i class="fa fa-paw"></i> Names by meaning:</h2>' +
                   '<h4>' + data.meaning.description + '</h4>';
 
   if (data.meaning.language_id != null) {
@@ -39,7 +39,7 @@ MeaningView.prototype.displayAnimalMeanings = function(data) {
   ViewHelper.prototype.clearPageContent();
 
   animalHtml = '<div class="meaning-details">' +
-                  '<h3>Names meaning: ' + data.meaning + '</h3>' +
+                  '<h2><i class="fa fa-paw"></i> Names meaning: ' + data.meaning + '</h2>' +
                   '<ul class="name-list">';
 
   data.names.forEach(function(name) {

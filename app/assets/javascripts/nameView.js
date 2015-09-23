@@ -13,7 +13,7 @@ NameView.prototype.displayNameList = function(data) {
   $('.' + letter).addClass('active');
 
   var nameList = '<div class="name-list">' +
-                    '<h3>' + letter + ' Pet Names</h3>' +
+                    '<h2><i class="fa fa-paw"></i> ' + letter + ' Pet Names</h2>' +
                     '<ul>';
   data.forEach(function(name) {
     if (name.gender_id != null) {
@@ -41,7 +41,7 @@ NameView.prototype.displayNameDetails = function(data) {
     nameHtml += ' ' + data.gender.name.toLowerCase();
   }
 
-  nameHtml += '"><h3 class="name-field">' + data.name.name + '</h3>';
+  nameHtml += '"><h2 id="name-field"><i class="fa fa-paw"></i> ' + data.name.name + '</h2>';
 
   if (data.name.gender_id != null) {
     nameHtml += '<p class="gender">' + data.gender.name + '</p>';
@@ -67,7 +67,7 @@ NameView.prototype.displayRandomNames = function(data) {
   ViewHelper.prototype.clearPageContent();
 
   var nameHtml = '<div class="random-names">' +
-                    '<h3>Random Names</h3>' +
+                    '<h2><i class="fa fa-paw"></i> Random Names</h2>' +
                     '<p class="female"><i class="fa fa-paw"></i> Female: <a href="/names/' + data.female.id + '">' + data.female.name + '</a></p>' +
                     '<p class="male"><i class="fa fa-paw"></i> Male: <a href="/names/' + data.male.id + '">' + data.male.name + '</a></p>' +
                     '<p class="both"><i class="fa fa-paw"></i> Both: <a href="/names/' + data.both.id + '">' + data.both.name + '</a></p>' +
@@ -81,7 +81,7 @@ NameView.prototype.displaySearchResults = function(data) {
   ViewHelper.prototype.clearPageContent();
 
   var resultHtml = '<div class="search-results">' +
-                    '<h3>Search Results</h3>' +
+                    '<h2><i class="fa fa-paw"></i> Search Results</h2>' +
                     '<ul class="name-list">';
 
   if (data.length === 0) {

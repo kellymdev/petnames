@@ -5,7 +5,7 @@ ColourView.prototype.displayColourDetails = function(data) {
   ViewHelper.prototype.clearPageContent();
 
   var colourHtml = '<div class="colour-names">' +
-                      '<h3>Names for ' + data.colour + ' Pets</h3>' +
+                      '<h2><i class="fa fa-paw"></i> Names for ' + data.colour + ' Pets</h2>' +
                       '<ul class="name-list">';
 
   data.names.forEach(function(name) {

@@ -47,17 +47,15 @@ RSpec.describe MeaningsController, type: :controller do
     it "renders details for the names meaning cat" do
       meanings = Meaning.where(means_cat: true).includes(:names)
 
-      names_array = []
-      meanings.each do |meaning|
-        names = meaning.names
-        names_array = names.map do |name|
+      names_array = meanings.map do |meaning|
+        meaning.names.map do |name|
           name.as_json(except: [:created_at, :updated_at], include: { gender: { only: :name } } )
         end
       end
 
       expected_data = {
                         meaning: 'Cat',
-                        names: names_array
+                        names: names_array.flatten!
                       }
 
       expect(response.body).to eq(expected_data.to_json)
@@ -79,17 +77,15 @@ RSpec.describe MeaningsController, type: :controller do
     it "renders details for the names meaning dog" do
       meanings = Meaning.where(means_dog: true).includes(:names)
 
-      names_array = []
-      meanings.each do |meaning|
-        names = meaning.names
-        names_array = names.map do |name|
+      names_array = meanings.map do |meaning|
+        meaning.names.map do |name|
           name.as_json(except: [:created_at, :updated_at], include: { gender: { only: :name } } )
         end
       end
 
       expected_data = {
                         meaning: 'Dog',
-                        names: names_array
+                        names: names_array.flatten!
                       }
 
       expect(response.body).to eq(expected_data.to_json)
@@ -111,17 +107,15 @@ RSpec.describe MeaningsController, type: :controller do
     it "renders details for the names meaning bird" do
       meanings = Meaning.where(means_bird: true).includes(:names)
 
-      names_array = []
-      meanings.each do |meaning|
-        names = meaning.names
-        names_array = names.map do |name|
+      names_array = meanings.map do |meaning|
+        meaning.names.map do |name|
           name.as_json(except: [:created_at, :updated_at], include: { gender: { only: :name } } )
         end
       end
 
       expected_data = {
                         meaning: 'Bird',
-                        names: names_array
+                        names: names_array.flatten!
                       }
 
       expect(response.body).to eq(expected_data.to_json)

@@ -5,7 +5,7 @@ PairView.prototype.displayPairList = function(data) {
   ViewHelper.prototype.clearPageContent();
 
   var pairHtml = '<div class="paired-names">' +
-                    '<h3>Names for Pairs of Pets</h3>' +
+                    '<h2><i class="fa fa-paw"></i> Names for Pairs of Pets</h2>' +
                     '<ul class="name-list">';
 
   data.forEach(function(pair) {

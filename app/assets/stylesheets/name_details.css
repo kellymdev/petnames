@@ -1,19 +1,24 @@
 p.female,
 .name-details.female i,
-.name-details.female .name-field {
+.name-details.female #name-field {
   color: #bb8f9b;
 }
 
-.name-details.female .name-field {
+.name-details.female #name-field {
   border-color: #bb8f9b;
 }
 
 p.male,
 .name-details.male i,
-.name-details.male .name-field {
+.name-details.male #name-field {
   color: #5d7090;
 }
 
-.name-details.male .name-field {
+.name-details.male #name-field {
   border-color: #5d7090;
+}
+
+.name-details.both #name-field {
+  color: #8b8d8b;
+  border-color: #8b8d8b;
 }

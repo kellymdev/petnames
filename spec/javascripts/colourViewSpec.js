@@ -24,7 +24,7 @@ describe("ColourView", function() {
     });
 
     it("displays the description for the colour in the title", function() {
-      expect('.colour-names h3').toContainText('Names for Lilac Pets');
+      expect('.colour-names h2').toContainText('Names for Lilac Pets');
     });
 
     it("displays the names with that colour", function() {

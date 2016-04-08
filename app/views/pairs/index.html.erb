@@ -1,0 +1,15 @@
+<div class="paired-names">
+  <h2>
+    <i class="fa fa-paw"></i>
+    Names for Pairs of Pets
+  </h2>
+
+  <ul class="name-list">
+    <% @pairs.each do |pair| %>
+    <li>
+      <i class="fa fa-paw"></i>
+      <%= pair["names"] %> - <%= pair["description"] %>
+    </li>
+    <% end %>
+  </ul>
+</div>

@@ -4,7 +4,8 @@ function NameModel() {
 NameModel.prototype.requestNameList = function(url, successFunction, errorFunction) {
   $.ajax({
     type: 'get',
-    url: url
+    url: url,
+    dataType: 'json'
   }).done(function(jsonResponse) {
     successFunction(jsonResponse);
   }).fail(function() {
@@ -15,7 +16,8 @@ NameModel.prototype.requestNameList = function(url, successFunction, errorFuncti
 NameModel.prototype.requestNameDetails = function(url, successFunction, errorFunction) {
   $.ajax({
     type: 'get',
-    url: url
+    url: url,
+    dataType: 'json'
   }).done(function(jsonResponse) {
     successFunction(jsonResponse);
   }).fail(function() {

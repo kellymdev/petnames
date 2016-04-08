@@ -1,0 +1,14 @@
+<div class="meaning-details">
+  <h2>
+    <i class="fa fa-paw"></i>
+    Names by meaning:
+  </h2>
+  <h4><%= @meaning.description %></h4>
+  <p><%= @language.name %></p>
+
+  <ul class="name-list">
+    <% @names.each do |name| %>
+      <%= render partial: "names/name_line", locals: { name: name } %>
+    <% end %>
+  </ul>
+</div>

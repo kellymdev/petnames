@@ -1,39 +1,37 @@
-<div id="content">
-  <div class="banner">
-    <h1><i class="fa fa-paw"></i> Pet Names</h1>
-  </div>
+<div class="banner">
+  <h1><i class="fa fa-paw"></i> Pet Names</h1>
+</div>
 
-  <div class="name-search">
-    <h3>Search for a Name</h3>
-    <%= form_tag("/names/search", method: "get", class: "search-form") do %>
-      <%= text_field_tag :query %>
-      <%= submit_tag("Search") %>
+<div class="name-search">
+  <h3>Search for a Name</h3>
+  <%= form_tag("/names/search", method: "get", class: "search-form") do %>
+    <%= text_field_tag :query %>
+    <%= submit_tag("Search") %>
+  <% end %>
+</div>
+
+<div class="by-colour">
+  <h3>Names by Colour</h3>
+  <ul class="colour-list">
+    <% @colours.each do |colour| %>
+      <li id="<%= colour.name %>"><a href="/coat_colours/<%= colour.name %>"><%= colour.description %></a></li>
     <% end %>
-  </div>
+  </ul>
+</div>
 
-  <div class="by-colour">
-    <h3>Names by Colour</h3>
-    <ul class="colour-list">
-      <% @colours.each do |colour| %>
-        <li id="<%= colour.name %>"><a href="/coat_colours/<%= colour.name %>"><%= colour.description %></a></li>
-      <% end %>
-    </ul>
-  </div>
+<div class="animal-meanings">
+  <h3>Is it a Cat, Dog, Bird?</h3>
+  <p><%= link_to "Names meaning 'Cat'", meaning_cat_path %></p>
+  <p><%= link_to "Names meaning 'Dog'", meaning_dog_path %></p>
+  <p><%= link_to "Names meaning 'Bird'", meaning_bird_path %></p>
+</div>
 
-  <div class="animal-meanings">
-    <h3>Is it a Cat, Dog, Bird?</h3>
-    <p><%= link_to "Names meaning 'Cat'", meaning_cat_path %></p>
-    <p><%= link_to "Names meaning 'Dog'", meaning_dog_path %></p>
-    <p><%= link_to "Names meaning 'Bird'", meaning_bird_path %></p>
-  </div>
+<div class="random-button">
+  <h3>Display a Random Name</h3>
+  <p><%= link_to "Click to display a Random Name", random_name_path %></p>
+</div>
 
-  <div class="random-button">
-    <h3>Display a Random Name</h3>
-    <p><%= link_to "Click to display a Random Name", random_name_path %></p>
-  </div>
-
-  <div class="pairs-button">
-    <h3>Two by Two</h3>
-    <p><%= link_to "Names for Pairs of Pets", pairs_path %>
-  </div>
+<div class="pairs-button">
+  <h3>Two by Two</h3>
+  <p><%= link_to "Names for Pairs of Pets", pairs_path %>
 </div>

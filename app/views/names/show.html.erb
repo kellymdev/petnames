@@ -1,0 +1,27 @@
+<div class="name-details <%= @name.gender.name.downcase if @name.gender %>">
+  <h2 id="name-field">
+    <i class="fa fa-paw"></i>
+    <%= @name.name %>
+  </h2>
+
+  <% if @name.gender %>
+    <p class="gender">
+      <%= @name.gender.name %>
+    </p>
+  <% end %>
+
+  <ul class="meaning-list">
+    <% @name.meanings.each do |meaning| %>
+      <li>
+        <i class="fa fa-paw"></i>
+        <%= meaning.description %>
+
+        <% if meaning.language %>
+          <span class="language">(<%= meaning.language.name %>)</span>
+        <% end %>
+
+        - <%= link_to "Show all names with this meaning", meaning_path(meaning), class: "all-names-link" %>
+      </li>
+    <% end %>
+  </ul>
+</div>

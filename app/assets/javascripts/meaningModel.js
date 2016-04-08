@@ -4,7 +4,8 @@ function MeaningModel() {
 MeaningModel.prototype.requestMeaningDetails = function(url, successFunction, errorFunction) {
   $.ajax({
     type: 'get',
-    url: url
+    url: url,
+    dataType: 'json'
   }).done(function(jsonResponse) {
     successFunction(jsonResponse);
   }).fail(function() {
@@ -15,7 +16,8 @@ MeaningModel.prototype.requestMeaningDetails = function(url, successFunction, er
 MeaningModel.prototype.requestAnimalMeanings = function(url, successFunction, errorFunction) {
   $.ajax({
     type: 'get',
-    url: url
+    url: url,
+    dataType: 'json'
   }).done(function(jsonResponse) {
     successFunction(jsonResponse);
   }).fail(function() {

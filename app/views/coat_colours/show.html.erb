@@ -1,0 +1,12 @@
+<div class="colour-names">
+  <h2>
+    <i class="fa fa-paw"></i>
+    Names for <%= @colour.description %> Pets
+  </h2>
+
+  <ul class="name-list">
+    <% @names.each do |name| %>
+      <%= render partial: "names/name_line", locals: { name: name } %>
+    <% end %>
+  </ul>
+</div>

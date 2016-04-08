@@ -4,8 +4,8 @@ class CoatColoursController < ApplicationController
   end
 
   def show
-    colour = CoatColour.find_by("name = ?", params[:colour])
-    names = colour.names.order(:name).as_json(
+    @colour = CoatColour.find_by("name = ?", params[:colour])
+    @names = @colour.names.order(:name).as_json(
       except: [:created_at, :updated_at],
       include: {
         gender: {
@@ -14,9 +14,14 @@ class CoatColoursController < ApplicationController
       }
     )
 
-    render json: {
-                    colour: colour.description,
-                    names: names
-    }
+    respond_to do |format|
+      format.html
+      format.json {
+        render json: {
+          colour: @colour.description,
+          names: @names
+        }
+      }
+    end
   end
 end

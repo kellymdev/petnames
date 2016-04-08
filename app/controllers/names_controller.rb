@@ -5,7 +5,8 @@ class NamesController < ApplicationController
   end
 
   def by_letter
-    names = Name.where("name LIKE ?", "#{params[:letter]}%").order(:name).as_json(
+    @letter = params[:letter]
+    @names = Name.where("name LIKE ?", "#{params[:letter]}%").order(:name).as_json(
       except: [:created_at, :updated_at],
       include: {
         gender: {
@@ -13,20 +14,29 @@ class NamesController < ApplicationController
         }
       }
     )
-    render json: names
+
+    respond_to do |format|
+      format.html { render :index }
+      format.json { render json: @names }
+    end
   end
 
   def show
-    name = Name.find(params[:id])
-    meaning_array = name.meanings.map do |meaning|
+    @name = Name.find(params[:id])
+    meaning_array = @name.meanings.map do |meaning|
       meaning.as_json(except: [:created_at, :updated_at], include: { language: { only: :name } } )
     end
 
-    render json:  {
-                    name: name.as_json(except: [:created_at, :updated_at]),
-                    gender: name.gender.as_json(except: [:created_at, :updated_at]),
-                    meanings: meaning_array
-                  }
+    respond_to do |format|
+      format.html
+      format.json {
+        render json:  {
+          name: @name.as_json(except: [:created_at, :updated_at]),
+          gender: @name.gender.as_json(except: [:created_at, :updated_at]),
+          meanings: meaning_array
+                      }
+      }
+    end
   end
 
   def search

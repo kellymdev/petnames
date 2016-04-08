@@ -16,29 +16,38 @@ RSpec.describe CoatColoursController, type: :controller do
   end
 
   describe "get '#show'" do
-    before do
-      coat_colour.names << create(:name)
-      get :show, colour: coat_colour.name
-    end
+    before { coat_colour.names << create(:name) }
 
-    it "returns http status 200" do
-      expect(response.status).to eq(200)
-    end
+    context "when json is requested" do
+      before do
+        get :show, colour: coat_colour.name, format: :json
+      end
 
-    it "returns a list of names for that coat colour as json" do
-      names = coat_colour.names.as_json(
-        except: [:created_at, :updated_at],
-        include: {
-          gender: {
-            only: :name
+      it "returns http status 200" do
+        expect(response.status).to eq(200)
+      end
+
+      it "returns a list of names for that coat colour as json" do
+        names = coat_colour.names.as_json(
+          except: [:created_at, :updated_at],
+          include: {
+            gender: {
+              only: :name
+            }
           }
-        }
-      )
-      expected_data = {
-                        colour: coat_colour.description,
-                        names: names
-                      }
-      expect(response.body).to eq(expected_data.to_json)
+        )
+        expected_data = {
+                          colour: coat_colour.description,
+                          names: names
+                        }
+        expect(response.body).to eq(expected_data.to_json)
+      end
     end
+  end
+
+  context "when html is requested" do
+    before { get :show, colour: coat_colour.name }
+
+    it { is_expected.to render_template :show }
   end
 end

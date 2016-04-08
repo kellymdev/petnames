@@ -72,7 +72,7 @@ NameView.prototype.displayRandomNames = function(data) {
                     '<p class="male"><i class="fa fa-paw"></i> Male: <a href="/names/' + data.male.id + '">' + data.male.name + '</a></p>' +
                     '<p class="both"><i class="fa fa-paw"></i> Both: <a href="/names/' + data.both.id + '">' + data.both.name + '</a></p>' +
                   '</div>' +
-                  '<div class="random-button"><a href="/">Show more random names</a></div>';
+                  '<div class="random-button"><a href="/names/random">Show more random names</a></div>';
 
   $('#content').append(nameHtml);
 };

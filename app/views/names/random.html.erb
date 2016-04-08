@@ -1,0 +1,23 @@
+<div class="random-names">
+  <h2>
+    <i class="fa fa-paw"></i>
+    Random Names
+  </h2>
+
+  <p class="female">
+    <i class="fa fa-paw"></i>
+    Female: <a href="/names/<%= @female_name.id %>"><%= @female_name.name %></a>
+  </p>
+
+  <p class="male">
+    <i class="fa fa-paw"></i>
+    Male: <a href="/names/<%= @male_name.id %>"><%= @male_name.name %></a>
+  </p>
+
+  <p class="both">
+    <i class="fa fa-paw"></i>
+    Both: <a href="/names/<%= @both_name.id %>"><%= @both_name.name %></a>
+  </p>
+
+  <%= link_to "Show more random names", random_name_path %>
+</div>

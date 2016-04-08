@@ -28,7 +28,8 @@ NameModel.prototype.requestNameDetails = function(url, successFunction, errorFun
 NameModel.prototype.requestRandomName = function(successFunction, errorFunction) {
   $.ajax({
     type: 'get',
-    url: '/names/random'
+    url: '/names/random',
+    dataType: 'json'
   }).done(function(jsonResponse) {
     successFunction(jsonResponse);
   }).fail(function() {

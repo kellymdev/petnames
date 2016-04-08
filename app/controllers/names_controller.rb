@@ -52,14 +52,19 @@ class NamesController < ApplicationController
   end
 
   def random
-    female_name = Name.where(gender_id: Gender.where(name: "Female")).order("random()").first
-    male_name = Name.where(gender_id: Gender.where(name: "Male")).order("random()").first
-    both_name = Name.where(gender_id: Gender.where(name: "Both")).order("random()").first
+    @female_name = Name.where(gender_id: Gender.where(name: "Female")).order("random()").first
+    @male_name = Name.where(gender_id: Gender.where(name: "Male")).order("random()").first
+    @both_name = Name.where(gender_id: Gender.where(name: "Both")).order("random()").first
 
-    render json:  {
-                    female: female_name.as_json(except: [:created_at, :updated_at]),
-                    male: male_name.as_json(except: [:created_at, :updated_at]),
-                    both: both_name.as_json(except: [:created_at, :updated_at])
-                  }
+    respond_to do |format|
+      format.html
+      format.json {
+        render json:  {
+          female: @female_name.as_json(except: [:created_at, :updated_at]),
+          male: @male_name.as_json(except: [:created_at, :updated_at]),
+          both: @both_name.as_json(except: [:created_at, :updated_at])
+        }
+      }
+    end
   end
 end

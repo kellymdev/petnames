@@ -14,7 +14,7 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2016-04-08T16:37:22+12:00">2016-04-08T16:37:22+12:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2016-04-08T16:52:28+12:00">2016-04-08T16:52:28+12:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -25,15 +25,15 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         2.42
+         2.46
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>13</b> files in total.
-    <b>113</b> relevant lines. 
-    <span class="green"><b>113</b> lines covered</span> and
+    <b>116</b> relevant lines. 
+    <span class="green"><b>116</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -83,11 +83,11 @@
       <tr>
         <td class="strong"><a href="#aa71ad65b30ac61cfcd7de3cc98948b5767b16dc" class="src_link" title="app/controllers/names_controller.rb">app/controllers/names_controller.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>65</td>
-        <td>27</td>
-        <td>27</td>
+        <td>70</td>
+        <td>30</td>
+        <td>30</td>
         <td>0</td>
-        <td>2.8</td>
+        <td>2.9</td>
       </tr>
       
       <tr>
@@ -193,15 +193,15 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         2.8
+         2.83
        </span>
     </span> hits/line)
   </h2>
   <a name="Controllers"></a>
   <div>
     <b>6</b> files in total.
-    <b>89</b> relevant lines. 
-    <span class="green"><b>89</b> lines covered</span> and
+    <b>92</b> relevant lines. 
+    <span class="green"><b>92</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -251,11 +251,11 @@
       <tr>
         <td class="strong"><a href="#aa71ad65b30ac61cfcd7de3cc98948b5767b16dc" class="src_link" title="app/controllers/names_controller.rb">app/controllers/names_controller.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>65</td>
-        <td>27</td>
-        <td>27</td>
+        <td>70</td>
+        <td>30</td>
+        <td>30</td>
         <td>0</td>
-        <td>2.8</td>
+        <td>2.9</td>
       </tr>
       
       <tr>
@@ -1345,8 +1345,8 @@
     <h3>app/controllers/names_controller.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>27</b> relevant lines. 
-      <span class="green"><b>27</b> lines covered</span> and
+      <b>30</b> relevant lines. 
+      <span class="green"><b>30</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -1678,22 +1678,22 @@
           <code class="ruby">  def random</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="55">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="3" data-linenumber="55">
+          <span class="hits">3</span>
           
-          <code class="ruby">    female_name = Name.where(gender_id: Gender.where(name: &quot;Female&quot;)).order(&quot;random()&quot;).first</code>
+          <code class="ruby">    @female_name = Name.where(gender_id: Gender.where(name: &quot;Female&quot;)).order(&quot;random()&quot;).first</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="56">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="3" data-linenumber="56">
+          <span class="hits">3</span>
           
-          <code class="ruby">    male_name = Name.where(gender_id: Gender.where(name: &quot;Male&quot;)).order(&quot;random()&quot;).first</code>
+          <code class="ruby">    @male_name = Name.where(gender_id: Gender.where(name: &quot;Male&quot;)).order(&quot;random()&quot;).first</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="57">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="3" data-linenumber="57">
+          <span class="hits">3</span>
           
-          <code class="ruby">    both_name = Name.where(gender_id: Gender.where(name: &quot;Both&quot;)).order(&quot;random()&quot;).first</code>
+          <code class="ruby">    @both_name = Name.where(gender_id: Gender.where(name: &quot;Both&quot;)).order(&quot;random()&quot;).first</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="58">
@@ -1702,43 +1702,73 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="59">
+        <li class="covered" data-hits="3" data-linenumber="59">
+          <span class="hits">3</span>
+          
+          <code class="ruby">    respond_to do |format|</code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="60">
+          <span class="hits">3</span>
+          
+          <code class="ruby">      format.html</code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="61">
+          <span class="hits">3</span>
+          
+          <code class="ruby">      format.json {</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="62">
           <span class="hits">2</span>
           
-          <code class="ruby">    render json:  {</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="60">
-          
-          
-          <code class="ruby">                    female: female_name.as_json(except: [:created_at, :updated_at]),</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="61">
-          
-          
-          <code class="ruby">                    male: male_name.as_json(except: [:created_at, :updated_at]),</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="62">
-          
-          
-          <code class="ruby">                    both: both_name.as_json(except: [:created_at, :updated_at])</code>
+          <code class="ruby">        render json:  {</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="63">
           
           
-          <code class="ruby">                  }</code>
+          <code class="ruby">          female: @female_name.as_json(except: [:created_at, :updated_at]),</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="64">
           
           
-          <code class="ruby">  end</code>
+          <code class="ruby">          male: @male_name.as_json(except: [:created_at, :updated_at]),</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="65">
+          
+          
+          <code class="ruby">          both: @both_name.as_json(except: [:created_at, :updated_at])</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="66">
+          
+          
+          <code class="ruby">        }</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="67">
+          
+          
+          <code class="ruby">      }</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="68">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="69">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="70">
           
           
           <code class="ruby">end</code>

@@ -85,10 +85,10 @@ RSpec.describe NamesController, type: :controller do
           end
 
           expected_data = {
-                            name: name.as_json(except: [:created_at, :updated_at]),
-                            gender: name.gender.as_json(except: [:created_at, :updated_at]),
-                            meanings: meaning_array
-                          }
+            name: name.as_json(except: [:created_at, :updated_at]),
+            gender: name.gender.as_json(except: [:created_at, :updated_at]),
+            meanings: meaning_array
+          }
           expect(response.body).to eq(expected_data.to_json)
         end
       end
@@ -129,19 +129,28 @@ RSpec.describe NamesController, type: :controller do
     let!(:male_name) { create(:name, gender_id: male.id) }
     let!(:both_name) { create(:name, gender_id: both.id) }
 
-    before { get :random }
+    context "when json is requested" do
+      before { get :random, format: :json }
 
-    it "returns http status 200" do
-      expect(response.status).to eq(200)
+      it "returns http status 200" do
+        expect(response.status).to eq(200)
+      end
+
+      it "returns a random female name, male name and both name as json" do
+        expected_data = {
+          female: female_name.as_json(except: [:created_at, :updated_at]),
+          male: male_name.as_json(except: [:created_at, :updated_at]),
+          both: both_name.as_json(except: [:created_at, :updated_at])
+        }
+
+        expect(response.body).to eq(expected_data.to_json)
+      end
     end
 
-    it "returns a random female name, male name and both name as json" do
-      expected_data = {
-                        female: female_name.as_json(except: [:created_at, :updated_at]),
-                        male: male_name.as_json(except: [:created_at, :updated_at]),
-                        both: both_name.as_json(except: [:created_at, :updated_at])
-                      }
-      expect(response.body).to eq(expected_data.to_json)
+    context "when html is requested" do
+      before { get :random }
+
+      it { is_expected.to render_template :random }
     end
   end
 end

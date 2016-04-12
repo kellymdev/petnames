@@ -5,23 +5,13 @@ class CoatColoursController < ApplicationController
 
   def show
     @colour = CoatColour.find_by("name = ?", params[:colour])
-    @names = @colour.names.order(:name).as_json(
-      except: [:created_at, :updated_at],
-      include: {
-        gender: {
-          only: :name
-        }
-      }
-    )
+    @names = @colour.names.order(:name)
 
     respond_to do |format|
       format.html
-      format.json {
-        render json: {
-          colour: @colour.description,
-          names: @names
-        }
-      }
+      format.json do
+        render json: JsonFormatter.new.colour_details(@colour, @names)
+      end
     end
   end
 end

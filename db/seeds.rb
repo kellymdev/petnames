@@ -70,239 +70,239 @@ yoruba = Language.create!(name: "Yoruba")
 names_to_create = ([
                     [
                       { description: "Meaning 'exalted father'", language_id: hebrew.id },
-                      [ { name: "Abagail", gender_id: female.id },
-                        { name: "Abigail", gender_id: female.id } ]
+                      [{ name: "Abagail", gender_id: female.id },
+                        { name: "Abigail", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Abigail, meaning 'exalted father'", language_id: hebrew.id },
-                      [ { name: "Abbey", gender_id: female.id },
+                      [{ name: "Abbey", gender_id: female.id },
                         { name: "Abbie", gender_id: female.id },
-                        { name: "Abby", gender_id: female.id } ]
+                        { name: "Abby", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'the best', 'unity', 'noble', 'expert'" },
-                      [ { name: "Ace", gender_id: male.id } ]
+                      [{ name: "Ace", gender_id: male.id }]
                     ],
                     [
                       { description: "Hero in Greek mythology", language_id: greek.id },
-                      [ { name: "Achilles", gender_id: male.id } ]
+                      [{ name: "Achilles", gender_id: male.id }]
                     ],
                     [
                       { description: "Oval nut of the oak tree", language_id: english.id },
-                       [ { name: "Acorn", gender_id: both.id } ]
+                       [{ name: "Acorn", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'red earth'", language_id: hebrew.id },
-                      [ { name: "Adam", gender_id: both.id },
-                        { name: "Addison", gender_id: both.id } ]
+                      [{ name: "Adam", gender_id: both.id },
+                        { name: "Addison", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Adelaide, meaning 'exalted nature'", language_id: ancient_german.id },
-                      [ { name: "Addie", gender_id: both.id },
-                        { name: "Addy", gender_id: female.id } ]
+                      [{ name: "Addie", gender_id: both.id },
+                        { name: "Addy", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'from the city of Adria, in Northern Italy'", language_id: latin.id },
-                      [ { name: "Adrian", gender_id: both.id } ]
+                      [{ name: "Adrian", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'flame'", language_id: gaelic.id },
-                      [ { name: "Aedan", gender_id: both.id },
+                      [{ name: "Aedan", gender_id: both.id },
                         { name: "Aidan", gender_id: both.id },
                         { name: "Aiden", gender_id: both.id },
-                        { name: "Aydan", gender_id: both.id } ]
+                        { name: "Aydan", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'good'", language_id: greek.id },
-                      [ { name: "Aggie", gender_id: female.id } ]
+                      [{ name: "Aggie", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'beloved one'", language_id: old_french.id },
-                      [ { name: "Aimee", gender_id: female.id },
-                        { name: "Amy", gender_id: female.id } ]
+                      [{ name: "Aimee", gender_id: female.id },
+                        { name: "Amy", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'eagle'", means_bird: true },
-                      [ { name: "Ajax", gender_id: male.id } ]
+                      [{ name: "Ajax", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'thicket clearers'", language_id: choctaw.id },
-                      [ { name: "Alabama", gender_id: female.id } ]
+                      [{ name: "Alabama", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'white'", language_id: latin.id },
-                      [ { name: "Alban", gender_id: male.id },
+                      [{ name: "Alban", gender_id: male.id },
                         { name: "Albina", gender_id: female.id },
-                        { name: "Albion", gender_id: male.id } ]
+                        { name: "Albion", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'exalted, shining with fame'", language_id: ancient_german.id },
-                      [ { name: "Albert", gender_id: male.id },
-                        { name: "Dilbert", gender_id: male.id } ]
+                      [{ name: "Albert", gender_id: male.id },
+                        { name: "Dilbert", gender_id: male.id }]
                     ],
                     [
                       { description: "Nickname of Albert, meaning 'exalted, shining with fame'", language_id: ancient_german.id },
-                      [ { name: "Albie", gender_id: male.id } ]
+                      [{ name: "Albie", gender_id: male.id }]
                     ],
                     [
                       { description: "Nickname of Alexander, meaning 'protector of men'", language_id: greek.id },
-                      [ { name: "Alex", gender_id: both.id } ]
+                      [{ name: "Alex", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'protector of men'", language_id: greek.id },
-                      [ { name: "Alexander", gender_id: both.id },
-                        { name: "Zander", gender_id: male.id } ]
+                      [{ name: "Alexander", gender_id: both.id },
+                        { name: "Zander", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'elf counsel'", language_id: ancient_german.id },
-                      [ { name: "Alf", gender_id: male.id },
+                      [{ name: "Alf", gender_id: male.id },
                         { name: "Alfie", gender_id: male.id },
-                        { name: "Alfred", gender_id: male.id } ]
+                        { name: "Alfred", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'exalted'", language_id: arabic.id },
-                      [ { name: "Ali", gender_id: both.id } ]
+                      [{ name: "Ali", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'exalted nature'", language_id: old_french.id },
-                      [ { name: "Alice", gender_id: female.id },
+                      [{ name: "Alice", gender_id: female.id },
                         { name: "Alisha", gender_id: female.id },
                         { name: "Alison", gender_id: female.id },
-                        { name: "Allison", gender_id: female.id } ]
+                        { name: "Allison", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'protector of men'", language_id: gaelic.id },
-                      [ { name: "Alister", gender_id: male.id },
-                        { name: "Allister", gender_id: male.id } ]
+                      [{ name: "Alister", gender_id: male.id },
+                        { name: "Allister", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'sprightly', 'cheerful'", language_id: italian.id },
-                      [ { name: "Allegra", gender_id: female.id } ]
+                      [{ name: "Allegra", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'precious'", language_id: ancient_german.id },
-                      [ { name: "Allen", gender_id: both.id } ]
+                      [{ name: "Allen", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Albert (meaning 'exalted, shining with fame') or Alexander (meaning 'protector of men') and Alice or Alison (meaning 'exalted nature')" },
-                      [ { name: "Alley", gender_id: both.id },
-                        { name: "Allie", gender_id: both.id } ]
+                      [{ name: "Alley", gender_id: both.id },
+                        { name: "Allie", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Alice or Alison, meaning 'exalted nature'" },
-                      [ { name: "Ally", gender_id: female.id } ]
+                      [{ name: "Ally", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'beginning'", language_id: greek.id },
-                      [ { name: "Alpha", gender_id: female.id } ]
+                      [{ name: "Alpha", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'prepared for battle'", language_id: ancient_german.id },
-                      [ { name: "Alphonso", gender_id: male.id } ]
+                      [{ name: "Alphonso", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'magical friend'", language_id: old_english.id },
-                      [ { name: "Alvin", gender_id: male.id } ]
+                      [{ name: "Alvin", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'God's love'", language_id: latin.id },
-                      [ { name: "Amadeus", gender_id: male.id } ]
+                      [{ name: "Amadeus", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'lovable'", language_id: latin.id },
-                      [ { name: "Amanda", gender_id: female.id } ]
+                      [{ name: "Amanda", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'yellow'", language_id: spanish.id },
-                      [ { name: "Amarillo" } ]
+                      [{ name: "Amarillo" }]
                     ],
                     [
                       { description: "Meaning 'the sky'", language_id: sanskrit.id },
-                      [ { name: "Amber", gender_id: female.id },
-                        { name: "Ambyr", gender_id: female.id } ]
+                      [{ name: "Amber", gender_id: female.id },
+                        { name: "Ambyr", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'work'", language_id: ancient_german.id },
-                      [ { name: "Amelia", gender_id: female.id } ]
+                      [{ name: "Amelia", gender_id: female.id }]
                     ],
                     [
                       { description: "Purple or violet semi-precious stone", language_id: greek.id },
-                      [ { name: "Amethyst", gender_id: female.id } ]
+                      [{ name: "Amethyst", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'friend'", language_id: french.id },
-                      [ { name: "Ami", gender_id: female.id } ]
+                      [{ name: "Ami", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'beloved'", language_id: french.id },
-                      [ { name: "Amie", gender_id: female.id } ]
+                      [{ name: "Amie", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'friend'", language_id: spanish.id },
-                      [ { name: "Amigo", gender_id: male.id } ]
+                      [{ name: "Amigo", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'borne by God'", language_id: hebrew.id },
-                      [ { name: "Amos", gender_id: male.id } ]
+                      [{ name: "Amos", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'resurrection'", language_id: greek.id },
-                      [ { name: "Anastasia", gender_id: female.id } ]
+                      [{ name: "Anastasia", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Andrea, meaning 'manly'", language_id: greek.id },
-                      [ { name: "Andie", gender_id: female.id } ]
+                      [{ name: "Andie", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'manly'", language_id: greek.id },
-                      [ { name: "Andre", gender_id: both.id },
+                      [{ name: "Andre", gender_id: both.id },
                         { name: "Andrea", gender_id: both.id },
-                        { name: "Andrew", gender_id: both.id } ]
+                        { name: "Andrew", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Andrew, meaning 'manly'", language_id: greek.id },
-                      [ { name: "Andy", gender_id: male.id } ]
+                      [{ name: "Andy", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'messenger from God'", language_id: greek.id },
-                      [ { name: "Angel", gender_id: both.id },
+                      [{ name: "Angel", gender_id: both.id },
                         { name: "Angelina", gender_id: female.id },
-                        { name: "Angelo", gender_id: both.id } ]
+                        { name: "Angelo", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'like an angel'", language_id: latin.id },
-                      [ { name: "Angelica", gender_id: female.id } ]
+                      [{ name: "Angelica", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Angela (meaning 'messenger from God') and Angelica (meaning 'like an angel')" },
-                      [ { name: "Angie", gender_id: female.id } ]
+                      [{ name: "Angie", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'unique choice'", language_id: gaelic.id },
-                      [ { name: "Angus", gender_id: male.id } ]
+                      [{ name: "Angus", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'favoured grace'", language_id: hebrew.id },
-                      [ { name: "Anita", gender_id: female.id },
+                      [{ name: "Anita", gender_id: female.id },
                         { name: "Ann", gender_id: female.id },
                         { name: "Anna", gender_id: female.id },
-                        { name: "Annie", gender_id: female.id } ]
+                        { name: "Annie", gender_id: female.id }]
                     ],
                     [
                       { description: "Combination of Anna and Belle, meaning 'beautiful', 'loveable', 'graceful'" },
-                      [ { name: "Annabelle", gender_id: female.id } ]
+                      [{ name: "Annabelle", gender_id: female.id }]
                     ],
                     [
                       { description: "From an expression meaning 'Anna and Lisa'", language_id: french.id },
-                      [ { name: "Annalise", gender_id: female.id } ]
+                      [{ name: "Annalise", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Anna, meaning 'favoured grace'", language_id: hebrew.id },
-                      [ { name: "Annika", gender_id: female.id } ]
+                      [{ name: "Annika", gender_id: female.id }]
                     ],
                     [
                       { description: "From an expression whose meaning has been lost", language_id: latin.id },
-                      [ { name: "Anthony", gender_id: both.id },
+                      [{ name: "Anthony", gender_id: both.id },
                         { name: "Antoinette", gender_id: female.id },
                         { name: "Antonio", gender_id: both.id },
                         { name: "Cassius", gender_id: male.id },
@@ -315,431 +315,431 @@ names_to_create = ([
                         { name: "Tatiana", gender_id: female.id },
                         { name: "Tatyana", gender_id: female.id },
                         { name: "Tonya", gender_id: female.id },
-                        { name: "Toya", gender_id: female.id } ]
+                        { name: "Toya", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'resurrection'", language_id: greek.id },
-                      [ { name: "Anya", gender_id: female.id } ]
+                      [{ name: "Anya", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'foam'", language_id: greek.id },
-                      [ { name: "Aphrodite", gender_id: female.id } ]
+                      [{ name: "Aphrodite", gender_id: female.id }]
                     ],
                     [
                       { description: "God of the sun in Greek mythology", language_id: greek.id },
-                       [ { name: "Apollo", gender_id: male.id } ]
+                       [{ name: "Apollo", gender_id: male.id }]
                     ],
                     [
                       { description: "After the fruit", language_id: english.id },
-                      [ { name: "Apple", gender_id: both.id } ]
+                      [{ name: "Apple", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning spring", language_id: american.id },
-                      [ { name: "April", gender_id: female.id } ]
+                      [{ name: "April", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'prayerful'", language_id: latin.id },
-                      [ { name: "Arabella", gender_id: female.id } ]
+                      [{ name: "Arabella", gender_id: female.id }]
                     ],
                     [
                       { description: "Famous swordsman from 'The Three Musketeers'"},
-                      [ { name: "Aramis", gender_id: male.id } ]
+                      [{ name: "Aramis", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'genuine and brave'", language_id: ancient_german.id },
-                      [ { name: "Archie", gender_id: male.id } ]
+                      [{ name: "Archie", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'pondering'", language_id: greek.id },
-                      [ { name: "Archimedes", gender_id: male.id } ]
+                      [{ name: "Archimedes", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'God's lioness'", language_id: hebrew.id, means_cat: true },
-                      [ { name: "Aria", gender_id: female.id },
-                        { name: "Ariel", gender_id: both.id } ]
+                      [{ name: "Aria", gender_id: female.id },
+                        { name: "Ariel", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'pledge' or 'promise'", language_id: irish_gaelic.id },
-                      [ { name: "Arlene", gender_id: female.id } ]
+                      [{ name: "Arlene", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'eagle wood'", language_id: old_english.id },
-                      [ { name: "Arlie", gender_id: male.id } ]
+                      [{ name: "Arlie", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'strong fighter'", language_id: middle_english.id },
-                      [ { name: "Armstrong", gender_id: male.id } ]
+                      [{ name: "Armstrong", gender_id: male.id }]
                     ],
                     [
                       { description: "Nickname of Arnold, meaning 'powerful eagle'", language_id: ancient_german.id, means_bird: true },
-                      [ { name: "Arnie", gender_id: male.id } ]
+                      [{ name: "Arnie", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'powerful eagle'", language_id: ancient_german.id, means_bird: true },
-                      [ { name: "Arnold", gender_id: male.id } ]
+                      [{ name: "Arnold", gender_id: male.id }]
                     ],
                     [
                       { description: "Weapon for hunting", language_id: english.id },
-                      [ { name: "Arrow", gender_id: male.id } ]
+                      [{ name: "Arrow", gender_id: male.id }]
                     ],
                     [
                       { description: "Nickname of Arthur, meaning 'eagle'", language_id: ancient_german.id, means_bird: true },
-                      [ { name: "Art", gender_id: male.id },
-                        { name: "Artie", gender_id: both.id } ]
+                      [{ name: "Art", gender_id: male.id },
+                        { name: "Artie", gender_id: both.id }]
                     ],
                     [
                       { description: "Greek goddess of the moon and goddess of the hunt" },
-                      [ { name: "Artemis", gender_id: female.id } ]
+                      [{ name: "Artemis", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'Thor, the eagle'", language_id: ancient_german.id },
-                      [ { name: "Arthur", gender_id: both.id } ]
+                      [{ name: "Arthur", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'muse'", language_id: welsh.id },
-                      [ { name: "Arwen", gender_id: female.id },
-                        { name: "Arwyn", gender_id: female.id } ]
+                      [{ name: "Arwen", gender_id: female.id },
+                        { name: "Arwyn", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'soot-coloured'", language_id: greek.id },
-                      [ { name: "Asbolos" } ]
+                      [{ name: "Asbolos" }]
                     ],
                     [
                       { description: "Black powder remaining after a fire" },
-                      [ { name: "Ash", gender_id: both.id },
-                        { name: "Ashes", gender_id: both.id } ]
+                      [{ name: "Ash", gender_id: both.id },
+                        { name: "Ashes", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'life' or 'beautiful'", language_id: arabic.id },
-                      [ { name: "Asha", gender_id: female.id } ]
+                      [{ name: "Asha", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'ash grove'", language_id: old_english.id },
-                      [ { name: "Ashlee", gender_id: both.id },
+                      [{ name: "Ashlee", gender_id: both.id },
                         { name: "Ashleigh", gender_id: both.id },
-                        { name: "Ashley", gender_id: both.id } ]
+                        { name: "Ashley", gender_id: both.id }]
                     ],
                     [
                       { description: "Continent" },
-                      [ { name: "Asia", gender_id: female.id } ]
+                      [{ name: "Asia", gender_id: female.id }]
                     ],
                     [
                       { description: "Type of poplar tree" },
-                      [ { name: "Aspen", gender_id: male.id } ]
+                      [{ name: "Aspen", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'star'", language_id: latin.id },
-                      [ { name: "Astra", gender_id: female.id },
+                      [{ name: "Astra", gender_id: female.id },
                         { name: "Estee", gender_id: female.id },
                         { name: "Estelle", gender_id: female.id },
-                        { name: "Stella", gender_id: female.id } ]
+                        { name: "Stella", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'beautiful goddess or divine power'", language_id: old_norse.id },
-                      [ { name: "Astrid", gender_id: female.id } ]
+                      [{ name: "Astrid", gender_id: female.id }]
                     ],
                     [
                       { description: "To do with stars and space" },
-                      [ { name: "Astro", gender_id: both.id } ]
+                      [{ name: "Astro", gender_id: both.id }]
                     ],
                     [
                       { description: "Meteor", language_id: english.id },
-                      [ { name: "Astroid", gender_id: both.id } ]
+                      [{ name: "Astroid", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'wise'", language_id: greek.id },
-                      [ { name: "Athena", gender_id: female.id } ]
+                      [{ name: "Athena", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'magical advisor'", language_id: ancient_german.id },
-                      [ { name: "Aubrey", gender_id: both.id } ]
+                      [{ name: "Aubrey", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'noble strength'", language_id: old_english.id },
-                      [ { name: "Audrey", gender_id: female.id } ]
+                      [{ name: "Audrey", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'dawn'", language_id: latin.id },
-                      [ { name: "Aurora", gender_id: female.id } ]
+                      [{ name: "Aurora", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'revered'", language_id: latin.id },
-                      [ { name: "August", gender_id: male.id },
+                      [{ name: "August", gender_id: male.id },
                         { name: "Augusta", gender_id: female.id },
                         { name: "Augustus", gender_id: male.id },
                         { name: "Austin", gender_id: both.id },
-                        { name: "Gus", gender_id: male.id } ]
+                        { name: "Gus", gender_id: male.id }]
                     ],
                     [
                       { description: "The fall season", language_id: english.id },
-                      [ { name: "Autumn", gender_id: both.id } ]
+                      [{ name: "Autumn", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'life'", language_id: hebrew.id },
-                      [ { name: "Ava", gender_id: both.id },
+                      [{ name: "Ava", gender_id: both.id },
                         { name: "Eva", gender_id: female.id },
                         { name: "Eve", gender_id: female.id },
-                        { name: "Evita", gender_id: female.id } ]
+                        { name: "Evita", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'Father is peace'", language_id: hebrew.id },
-                      [ { name: "Axel", gender_id: male.id },
-                        { name: "Axl", gender_id: male.id } ]
+                      [{ name: "Axel", gender_id: male.id },
+                        { name: "Axl", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'light purplish blue' or 'blue sky'", language_id: spanish.id },
-                      [ { name: "Azure", gender_id: female.id },
-                        { name: "Azurine", gender_id: female.id } ]
+                      [{ name: "Azure", gender_id: female.id },
+                        { name: "Azurine", gender_id: female.id }]
                     ],
                     [
                       { description: "Egyptian cat goddess", means_cat: true },
-                      [ { name: "Baast" } ]
+                      [{ name: "Baast" }]
                     ],
                     [
                       { description: "Meaning 'baby'" },
-                      [ { name: "Baba", gender_id: female.id } ]
+                      [{ name: "Baba", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname for Barbara, meaning 'foreigner’", language_id: greek.id },
-                      [ { name: "Babe", gender_id: female.id } ]
+                      [{ name: "Babe", gender_id: female.id }]
                     ],
                     [
                       { description: "Young child or animal" },
-                      [ { name: "Baby", gender_id: both.id } ]
+                      [{ name: "Baby", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'kisses'", language_id: italian.id },
-                      [ { name: "Baci" } ]
+                      [{ name: "Baci" }]
                     ],
                     [
                       { description: "After the animal" },
-                      [ { name: "Badger", gender_id: male.id } ]
+                      [{ name: "Badger", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'bailiff' or 'administrative officer'", language_id: old_english.id },
-                      [ { name: "Bailey", gender_id: both.id },
-                        { name: "Bayley", gender_id: both.id } ]
+                      [{ name: "Bailey", gender_id: both.id },
+                        { name: "Bayley", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'brave friend'", language_id: ancient_german.id },
-                      [ { name: "Baldwin", gender_id: male.id } ]
+                      [{ name: "Baldwin", gender_id: male.id }]
                     ],
                     [
                       { description: "Tropical Indonesian island" },
-                      [ { name: "Bali" } ]
+                      [{ name: "Bali" }]
                     ],
                     [
                       { description: "One of the three magi who brought gifts to baby Jesus" },
-                      [ { name: "Balthazar", gender_id: male.id } ]
+                      [{ name: "Balthazar", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'little girl'", language_id: italian.id },
-                      [ { name: "Bambi", gender_id: female.id },
-                        { name: "Bambina", gender_id: female.id } ]
+                      [{ name: "Bambi", gender_id: female.id },
+                        { name: "Bambina", gender_id: female.id }]
                     ],
                     [
                       { description: "Giant tropical grass with hollow stems" },
-                      [ { name: "Bamboo" } ]
+                      [{ name: "Bamboo" }]
                     ],
                     [
                       { description: "A robber" },
-                      [ { name: "Bandit"} ]
+                      [{ name: "Bandit"}]
                     ],
                     [
                       { description: "After the guitar-like instrument with a circular body" },
-                      [ { name: "Banjo" } ]
+                      [{ name: "Banjo" }]
                     ],
                     [
                       { description: "Nickname of Barbara, meaning 'foreigner'", language_id: greek.id },
-                      [ { name: "Barb", gender_id: female.id },
-                        { name: "Barbie", gender_id: female.id } ]
+                      [{ name: "Barb", gender_id: female.id },
+                        { name: "Barbie", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'foreigner'", language_id: greek.id },
-                      [ { name: "Barbara", gender_id: female.id } ]
+                      [{ name: "Barbara", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'birch tree clearing'", language_id: old_english.id },
-                      [ { name: "Barclay", gender_id: male.id },
-                        { name: "Barkley", gender_id: male.id } ]
+                      [{ name: "Barclay", gender_id: male.id },
+                        { name: "Barkley", gender_id: male.id }]
                     ],
                     [
                       { description: "Species of cereal grass, Seed or grain from the cereal grass" },
-                      [ { name: "Barley" } ]
+                      [{ name: "Barley" }]
                     ],
                     [
                       { description: "Meaning 'consolation's son'", language_id: aramaic.id },
-                      [ { name: "Barnee", gender_id: male.id },
-                        { name: "Barney", gender_id: male.id } ]
+                      [{ name: "Barnee", gender_id: male.id },
+                        { name: "Barney", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'nobleman'", language_id: english.id },
-                      [ { name: "Baron", gender_id: male.id },
+                      [{ name: "Baron", gender_id: male.id },
                         { name: "Earl", gender_id: male.id },
-                        { name: "Earle", gender_id: male.id } ]
+                        { name: "Earle", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'spear'", language_id: irish_gaelic.id },
-                      [ { name: "Barry", gender_id: both.id } ]
+                      [{ name: "Barry", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Bartholomew (meaning 'son of Talmai'), Barton (meaning 'barley settlement') and Bertram (meaning 'bright raven')", means_bird: true },
-                      [ { name: "Bart", gender_id: male.id } ]
+                      [{ name: "Bart", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'son of Talmai'", language_id: greek.id },
-                      [ { name: "Bartholomew", gender_id: male.id } ]
+                      [{ name: "Bartholomew", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'Birch-tree forest'", language_id: old_english.id },
-                      [ { name: "Bartley", gender_id: male.id } ]
+                      [{ name: "Bartley", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'royal'", language_id: greek.id },
-                      [ { name: "Basil", gender_id: male.id } ]
+                      [{ name: "Basil", gender_id: male.id }]
                     ],
                     [
                       { description: "Nocturnal flying animal with a mouse like body" },
-                      [ { name: "Bat" } ]
+                      [{ name: "Bat" }]
                     ],
                     [
                       { description: "Meaning 'a baker'", language_id: old_english.id },
-                      [ { name: "Baxter", gender_id: both.id } ]
+                      [{ name: "Baxter", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Barry, meaning 'spear'", language_id: irish_gaelic.id },
-                      [ { name: "Baz", gender_id: male.id } ]
+                      [{ name: "Baz", gender_id: male.id }]
                     ],
                     [
                       { description: "Edible smooth kidney-shaped seeds of a plant" },
-                      [ { name: "Bean" },
-                        { name: "Beans" } ]
+                      [{ name: "Bean" },
+                        { name: "Beans" }]
                     ],
                     [
                       { description: "Large heavy animal with thick fur" },
-                      [ { name: "Bear" } ]
+                      [{ name: "Bear" }]
                     ],
                     [
                       { description: "Meaning 'voyager'", language_id: latin.id },
-                      [ { name: "Bea", gender_id: female.id },
+                      [{ name: "Bea", gender_id: female.id },
                         { name: "Beatrice", gender_id: female.id },
-                        { name: "Beatrix", gender_id: female.id } ]
+                        { name: "Beatrix", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'handsome'", language_id: french.id },
-                      [ { name: "Beau", gender_id: male.id } ]
+                      [{ name: "Beau", gender_id: male.id }]
                     ],
                     [
                       { description: "Giving pleasure to the sight", language_id: english.id },
-                      [ { name: "Beauty", gender_id: female.id } ]
+                      [{ name: "Beauty", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'baby'", gender_id: french.id },
-                      [ { name: "Bebe", gender_id: female.id } ]
+                      [{ name: "Bebe", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Rebecca, meaning 'to bind'", language_id: hebrew.id },
-                      [ { name: "Becca", gender_id: female.id },
-                        { name: "Becky", gender_id: female.id } ]
+                      [{ name: "Becca", gender_id: female.id },
+                        { name: "Becky", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'insect that produces honey'", language_id: english.id },
-                      [ { name: "Bee", gender_id: both.id } ]
+                      [{ name: "Bee", gender_id: both.id }]
                     ],
                     [
                       { description: "Famous German composer" },
-                      [ { name: "Beethoven" } ]
+                      [{ name: "Beethoven" }]
                     ],
                     [
                       { description: "Meaning 'crafty'", language_id: ancient_german.id },
-                      [ { name: "Belinda", gender_id: female.id } ]
+                      [{ name: "Belinda", gender_id: female.id }]
                     ],
                     [
                       { description: "Cup-shaped metal instrument which makes a ringing sound" },
-                      [ { name: "Bell", gender_id: female.id } ]
+                      [{ name: "Bell", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'beautiful'", language_id: italian.id },
-                      [ { name: "Bella", gender_id: female.id } ]
+                      [{ name: "Bella", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'beautiful lady'", language_id: italian.id },
-                      [ { name: "Belladonna", gender_id: female.id } ]
+                      [{ name: "Belladonna", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'friend'" },
-                      [ { name: "Bellamy" } ]
+                      [{ name: "Bellamy" }]
                     ],
                     [
                       { description: "Meaning 'beautiful'", language_id: french.id },
-                      [ { name: "Belle", gender_id: female.id } ]
+                      [{ name: "Belle", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'white'", language_id: serbian.id },
-                      [ { name: "Belo", gender_id: male.id } ]
+                      [{ name: "Belo", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'son'", language_id: hebrew.id },
-                      [ { name: "Ben", gender_id: male.id } ]
+                      [{ name: "Ben", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'son of my right hand'", language_id: hebrew.id },
-                      [ { name: "Benjamin", gender_id: male.id },
+                      [{ name: "Benjamin", gender_id: male.id },
                         { name: "Bennie", gender_id: both.id },
-                        { name: "Benny", gender_id: both.id } ]
+                        { name: "Benny", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Benjamin, meaning 'son of my right hand'", language_id: hebrew.id },
-                      [ { name: "Benji", gender_id: female.id } ]
+                      [{ name: "Benji", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'blessed'", language_id: latin.id },
-                      [ { name: "Bennett", gender_id: male.id } ]
+                      [{ name: "Bennett", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'son of Benjamin'" },
-                      [ { name: "Benson", gender_id: male.id } ]
+                      [{ name: "Benson", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'grass clearing'", language_id: old_english.id },
-                      [ { name: "Bentley", gender_id: male.id } ]
+                      [{ name: "Bentley", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'mountain'", language_id: ancient_german.id },
-                      [ { name: "Berg", gender_id: male.id },
-                        { name: "Bergen", gender_id: male.id } ]
+                      [{ name: "Berg", gender_id: male.id },
+                        { name: "Bergen", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'strong bear'", language_id: ancient_german.id },
-                      [ { name: "Bernadette", gender_id: female.id },
+                      [{ name: "Bernadette", gender_id: female.id },
                         { name: "Bernadine", gender_id: female.id },
-                        { name: "Bernard", gender_id: male.id } ]
+                        { name: "Bernard", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'victorious'" },
-                      [ { name: "Bernice" } ]
+                      [{ name: "Bernice" }]
                     ],
                     [
                       { description: "Nickname of Bernard, meaning 'strong bear'", language_id: ancient_german.id },
-                      [ { name: "Bernie", gender_id: both.id } ]
+                      [{ name: "Bernie", gender_id: both.id }]
                     ],
                     [
                       { description: "Small round juicy fruit without a stone" },
-                      [ { name: "Berri", gender_id: both.id },
-                        { name: "Berry", gender_id: both.id } ]
+                      [{ name: "Berri", gender_id: both.id },
+                        { name: "Berry", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Albert (meaning 'exalted', 'shining with fame') and Robert (meaning 'shining with fame')" },
-                      [ { name: "Bert", gender_id: male.id },
-                        { name: "Berti", gender_id: male.id } ]
+                      [{ name: "Bert", gender_id: male.id },
+                        { name: "Berti", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'bright raven'", language_id: ancient_german.id },
-                      [ { name: "Bertram", gender_id: male.id } ]
+                      [{ name: "Bertram", gender_id: male.id }]
                     ],
                     [
                       { description: "Nickname of Elizabeth, meaning 'God's promise'", language_id: hebrew.id },
-                      [ { name: "Bess", gender_id: female.id },
+                      [{ name: "Bess", gender_id: female.id },
                         { name: "Bessie", gender_id: female.id },
                         { name: "Betsy", gender_id: female.id },
                         { name: "Betty", gender_id: female.id },
@@ -753,528 +753,528 @@ names_to_create = ([
                         { name: "Liz", gender_id: female.id },
                         { name: "Lizzi", gender_id: female.id },
                         { name: "Lizzie", gender_id: female.id },
-                        { name: "Lizzy", gender_id: female.id } ]
+                        { name: "Lizzy", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'house'", language_id: hebrew.id },
-                      [ { name: "Beth", gender_id: female.id } ]
+                      [{ name: "Beth", gender_id: female.id }]
                     ],
                     [
                       { description: "Village near Jerusalem" },
-                      [ { name: "Bethany", gender_id: female.id } ]
+                      [{ name: "Bethany", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'white'", language_id: italian.id },
-                      [ { name: "Bianca", gender_id: female.id },
-                        { name: "Bianco", gender_id: male.id } ]
+                      [{ name: "Bianca", gender_id: female.id },
+                        { name: "Bianco", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'Lady of the house'", language_id: persian.id },
-                      [ { name: "Bibi", gender_id: both.id } ]
+                      [{ name: "Bibi", gender_id: both.id }]
                     ],
                     [
                       { description: "From biddibid, meaning 'small'" },
-                      [ { name: "Biddy" } ]
+                      [{ name: "Biddy" }]
                     ],
                     [
                       { description: "Meaning 'jewel'", language_id: french.id },
-                      [ { name: "Bijou", gender_id: female.id } ]
+                      [{ name: "Bijou", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of William, meaning 'determined protector'", language_id: ancient_german.id },
-                      [ { name: "Bill", gender_id: male.id } ]
+                      [{ name: "Bill", gender_id: male.id }]
                     ],
                     [
                       { description: "Nickname of William or Williamina, meaning 'determined protector'", language_id: ancient_german.id },
-                      [ { name: "Billi", gender_id: both.id },
+                      [{ name: "Billi", gender_id: both.id },
                         { name: "Billie", gender_id: both.id },
-                        { name: "Billy", gender_id: both.id } ]
+                        { name: "Billy", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'small', 'little'" },
-                      [ { name: "Bitti", gender_id: both.id },
+                      [{ name: "Bitti", gender_id: both.id },
                         { name: "Bitty", gender_id: both.id },
                         { name: "Peewee", gender_id: both.id },
-                        { name: "Widget", gender_id: both.id } ]
+                        { name: "Widget", gender_id: both.id }]
                     ],
                     [
                       { description: "After the edible black coloured berry", language_id: english.id },
-                      [ { name: "Blackberry", gender_id: both.id } ]
+                      [{ name: "Blackberry", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'black'" },
-                      [ { name: "Blackie", gender_id: both.id },
-                        { name: "Blacky", gender_id: both.id } ]
+                      [{ name: "Blackie", gender_id: both.id },
+                        { name: "Blacky", gender_id: both.id }]
                     ],
                     [
                       { description: "Gambling game" },
-                      [ { name: "Blackjack"} ]
+                      [{ name: "Blackjack"}]
                     ],
                     [
                       { description: "Meaning 'knife', 'sword'" },
-                      [ { name: "Blade" } ]
+                      [{ name: "Blade" }]
                     ],
                     [
                       { description: "Meaning 'lisping'", language_id: latin.id },
-                      [ { name: "Blaise", gender_id: both.id } ]
+                      [{ name: "Blaise", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'black'", language_id: old_english.id },
-                      [ { name: "Blake", gender_id: both.id } ]
+                      [{ name: "Blake", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'white'", language_id: spanish.id },
-                      [ { name: "Blanca", gender_id: female.id },
-                        { name: "Blanco", gender_id: male.id } ]
+                      [{ name: "Blanca", gender_id: female.id },
+                        { name: "Blanco", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'white'", language_id: french.id },
-                      [ { name: "Blanche", gender_id: female.id } ]
+                      [{ name: "Blanche", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'white'", language_id: czech.id },
-                      [ { name: "Blanka", gender_id: female.id } ]
+                      [{ name: "Blanka", gender_id: female.id }]
                     ],
                     [
                       { description: "Bright flame or fire", language_id: english.id },
-                      [ { name: "Blaze", gender_id: both.id } ]
+                      [{ name: "Blaze", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'blue'", language_id: french.id },
-                      [ { name: "Bleu", gender_id: male.id } ]
+                      [{ name: "Bleu", gender_id: male.id }]
                     ],
                     [
                       { description: "Perfect happiness, joy, cheer, gladness", language_id: english.id },
-                      [ { name: "Bliss", gender_id: both.id } ]
+                      [{ name: "Bliss", gender_id: both.id }]
                     ],
                     [
                       { description: "To attack suddenly" },
-                      [ { name: "Blitz", gender_id: both.id } ]
+                      [{ name: "Blitz", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'white'" },
-                      [ { name: "Blondie", gender_id: female.id },
-                        { name: "Wynn" } ]
+                      [{ name: "Blondie", gender_id: female.id },
+                        { name: "Wynn" }]
                     ],
                     [
                       { description: "Meaning 'flower-like'", language_id: english.id },
-                      [ { name: "Blossom", gender_id: female.id } ]
+                      [{ name: "Blossom", gender_id: female.id }]
                     ],
                     [
                       { description: "Colour like a cloud-less sky" },
-                      [ { name: "Blu", gender_id: both.id },
-                        { name: "Blue", gender_id: both.id } ]
+                      [{ name: "Blu", gender_id: both.id },
+                        { name: "Blue", gender_id: both.id }]
                     ],
                     [
                       { description: "Plant with blue, bell-shaped flowers" },
-                      [ { name: "Bluebell", gender_id: female.id },
-                        { name: "Bluebelle", gender_id: female.id } ]
+                      [{ name: "Bluebell", gender_id: female.id },
+                        { name: "Bluebelle", gender_id: female.id }]
                     ],
                     [
                       { description: "Tree with edible blue berries" },
-                      [ { name: "Blueberry", gender_id: both.id } ]
+                      [{ name: "Blueberry", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'precious'" },
-                      [ { name: "Bo", gender_id: male.id } ]
+                      [{ name: "Bo", gender_id: male.id }]
                     ],
                     [
                       { description: "Nickname of Robert, meaning 'shining with fame'", language_id: ancient_german.id },
-                      [ { name: "Bob", gender_id: male.id },
+                      [{ name: "Bob", gender_id: male.id },
                         { name: "Bobbi", gender_id: both.id },
                         { name: "Bobbie", gender_id: both.id },
-                        { name: "Bobby", gender_id: both.id } ]
+                        { name: "Bobby", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'orchard'", language_id: ancient_german.id },
-                      [ { name: "Bogart", gender_id: male.id } ]
+                      [{ name: "Bogart", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'good'", language_id: french.id },
-                      [ { name: "Bon", gender_id: male.id } ]
+                      [{ name: "Bon", gender_id: male.id }]
                     ],
                     [
                       { description: "Candy" },
-                      [ { name: "Bonbon", gender_id: both.id } ]
+                      [{ name: "Bonbon", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'peasant farmer'", language_id: old_english.id },
-                      [ { name: "Bond", gender_id: both.id } ]
+                      [{ name: "Bond", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'pretty'", language_id: spanish.id },
-                      [ { name: "Bonita", gender_id: female.id } ]
+                      [{ name: "Bonita", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'good girl'", language_id: french.id },
-                      [ { name: "Bonnie", gender_id: female.id } ]
+                      [{ name: "Bonnie", gender_id: female.id }]
                     ],
                     [
                       { description: "Trees that are developed into miniatures" },
-                      [ { name: "Bonsai" } ]
+                      [{ name: "Bonsai" }]
                     ],
                     [
                       { description: "Meaning 'surprise'" },
-                      [ { name: "Boo", gender_id: both.id } ]
+                      [{ name: "Boo", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'dance'" },
-                      [ { name: "Boogie", gender_id: both.id } ]
+                      [{ name: "Boogie", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'suddenly prosperous or successful'" },
-                      [ { name: "Boomer" } ]
+                      [{ name: "Boomer" }]
                     ],
                     [
                       { description: "Sturdy shoes" },
-                      [ { name: "Boots", gender_id: male.id } ]
+                      [{ name: "Boots", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'glorious battle'", language_id: slavic.id },
-                      [ { name: "Boris", gender_id: male.id },
-                        { name: "Borris", gender_id: male.id } ]
+                      [{ name: "Boris", gender_id: male.id },
+                        { name: "Borris", gender_id: male.id }]
                     ],
                     [
                       { description: "Person in charge", language_id: english.id },
-                      [ { name: "Boss", gender_id: both.id } ]
+                      [{ name: "Boss", gender_id: both.id }]
                     ],
                     [
                       { description: "Generosity, official reward", language_id: english.id },
-                      [ { name: "Bounty", gender_id: both.id } ]
+                      [{ name: "Bounty", gender_id: both.id }]
                     ],
                     [
                       { description: "Loops in a ribbon" },
-                      [ { name: "Bow" },
-                        { name: "Bowe" } ]
+                      [{ name: "Bow" },
+                        { name: "Bowe" }]
                     ],
                     [
                       { description: "Meaning 'yellow-haired'", language_id: irish.id },
-                      [ { name: "Bowie", gender_id: male.id } ]
+                      [{ name: "Bowie", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'male child'", language_id: english.id },
-                      [ { name: "Boy", gender_id: male.id } ]
+                      [{ name: "Boy", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'defender'" },
-                      [ { name: "Boyce", gender_id: male.id } ]
+                      [{ name: "Boyce", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'blond'", language_id: gaelic.id },
-                      [ { name: "Boyd", gender_id: male.id } ]
+                      [{ name: "Boyd", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'mighty'" },
-                      [ { name: "Bradford", gender_id: male.id } ]
+                      [{ name: "Bradford", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'brawny-chested'", language_id: gaelic.id },
-                      [ { name: "Brady", gender_id: both.id } ]
+                      [{ name: "Brady", gender_id: both.id }]
                     ],
                     [
                       { description: "Strong alcoholic spirit distilled from wine" },
-                      [ { name: "Brandi", gender_id: female.id },
+                      [{ name: "Brandi", gender_id: female.id },
                         { name: "Brandie", gender_id: female.id },
-                        { name: "Brandy", gender_id: female.id } ]
+                        { name: "Brandy", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'broom-covered hill'", language_id: old_english.id },
-                      [ { name: "Brandon", gender_id: both.id } ]
+                      [{ name: "Brandon", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'exalted and high-minded'", language_id: gaelic.id },
-                        [ { name: "Breanna", gender_id: female.id },
+                        [{ name: "Breanna", gender_id: female.id },
                           { name: "Brianna", gender_id: female.id },
-                          { name: "Brina", gender_id: female.id } ]
+                          { name: "Brina", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'light wind'" },
-                      [ { name: "Breeze" } ]
+                      [{ name: "Breeze" }]
                     ],
                     [
                       { description: "Meaning 'exalted and high-minded'", language_id: ancient_celtic.id },
-                      [ { name: "Brian", gender_id: both.id },
-                        { name: "Bryan", gender_id: male.id } ]
+                      [{ name: "Brian", gender_id: both.id },
+                        { name: "Bryan", gender_id: male.id }]
                     ],
                     [
                       { description: "Wild rose with prickly thorns" },
-                      [ { name: "Briar", gender_id: female.id },
-                        { name: "Brietta", gender_id: female.id } ]
+                      [{ name: "Briar", gender_id: female.id },
+                        { name: "Brietta", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'exalted one'", language_id: gaelic.id },
-                      [ { name: "Bridget", gender_id: female.id },
-                        { name: "Bridgette", gender_id: female.id } ]
+                      [{ name: "Bridget", gender_id: female.id },
+                        { name: "Bridgette", gender_id: female.id }]
                     ],
                     [
                       { description: "Name of a flowering vine used in folk medicine" },
-                      [ { name: "Briony", gender_id: female.id } ]
+                      [{ name: "Briony", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'meeting place by the bridge'", language_id: old_english.id },
-                      [ { name: "Bristol", gender_id: male.id } ]
+                      [{ name: "Bristol", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'from Brittany, in Northern France' or 'from Great Britain'" },
-                      [ { name: "Britannia", gender_id: female.id },
+                      [{ name: "Britannia", gender_id: female.id },
                         { name: "Britney", gender_id: female.id },
                         { name: "Brittany", gender_id: female.id },
-                        { name: "Brittney", gender_id: female.id } ]
+                        { name: "Brittney", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'badger'", language_id: old_english.id },
-                      [ { name: "Brock", gender_id: male.id },
-                        { name: "Brockie", gender_id: male.id } ]
+                      [{ name: "Brock", gender_id: male.id },
+                        { name: "Brockie", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning ‘ditch’", language_id: irish_gaelic.id },
-                      [ { name: "Brodie", gender_id: both.id },
-                        { name: "Brody", gender_id: male.id } ]
+                      [{ name: "Brodie", gender_id: both.id },
+                        { name: "Brody", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'son of the dark haired one'" },
-                      [ { name: "Bronsyn", gender_id: male.id } ]
+                      [{ name: "Bronsyn", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'white breasted'", language_id: welsh.id },
-                      [ { name: "Bronwen", gender_id: female.id },
-                        { name: "Bronwyn", gender_id: female.id } ]
+                      [{ name: "Bronwen", gender_id: female.id },
+                        { name: "Bronwyn", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'a small stream'", language_id: ancient_german.id },
-                      [ { name: "Brooke", gender_id: both.id } ]
+                      [{ name: "Brooke", gender_id: both.id }]
                     ],
                     [
                       { description: "Combination of the names Brooke (meaning 'small stream') and Lynn (meaning 'ruddy complexion')" },
-                      [ { name: "Brooklyn", gender_id: both.id } ]
+                      [{ name: "Brooklyn", gender_id: both.id }]
                     ],
                     [
                       { description: "From an expression whose meaning has been lost", language_id: norman_french.id },
-                      [ { name: "Bruce", gender_id: male.id },
+                      [{ name: "Bruce", gender_id: male.id },
                         { name: "Fraser", gender_id: male.id },
-                        { name: "Frasier", gender_id: male.id } ]
+                        { name: "Frasier", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'burnt'", language_id: french.id },
-                      [ { name: "Brulee", gender_id: female.id } ]
+                      [{ name: "Brulee", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'brown-haired'", language_id: ancient_german.id },
-                      [ { name: "Bruno", gender_id: male.id } ]
+                      [{ name: "Bruno", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'dotted'", language_id: welsh.id },
-                      [ { name: "Bryce", gender_id: both.id } ]
+                      [{ name: "Bryce", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'brother'", language_id: american.id },
-                      [ { name: "Bubba", gender_id: male.id } ]
+                      [{ name: "Bubba", gender_id: male.id }]
                     ],
                     [
                       { description: "Balls of liquid enclosing gas", language_id: english.id },
-                      [ { name: "Bubble", gender_id: both.id },
-                        { name: "Bubbles", gender_id: both.id } ]
+                      [{ name: "Bubble", gender_id: both.id },
+                        { name: "Bubbles", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'direct'" },
-                      [ { name: "Buck", gender_id: male.id } ]
+                      [{ name: "Buck", gender_id: male.id }]
                     ],
                     [
                       { description: "Nickname of Buck, meaning 'direct'" },
-                      [ { name: "Bucky", gender_id: male.id } ]
+                      [{ name: "Bucky", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'brother' or 'friend", language_id: english.id },
-                      [ { name: "Bud", gender_id: male.id },
-                        { name: "Buddy", gender_id: male.id } ]
+                      [{ name: "Bud", gender_id: male.id },
+                        { name: "Buddy", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'comic'", language_id: italian.id },
-                      [ { name: "Buffo", gender_id: male.id } ]
+                      [{ name: "Buffo", gender_id: male.id }]
                     ],
                     [
                       { description: "Large bee", language_id: english.id },
-                      [ { name: "Bumblebee", gender_id: both.id } ]
+                      [{ name: "Bumblebee", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Bernice, meaning 'bringer of victory'", language_id: greek.id },
-                      [ { name: "Bunny", gender_id: female.id } ]
+                      [{ name: "Bunny", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'little lamb'", language_id: english.id },
-                      [ { name: "Bunty", gender_id: female.id } ]
+                      [{ name: "Bunty", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'stream'", language_id: middle_english.id },
-                      [ { name: "Burns", gender_id: male.id } ]
+                      [{ name: "Burns", gender_id: male.id }]
                     ],
                     [
                       { description: "Based on the common English word" },
-                      [ { name: "Buster", gender_id: male.id },
+                      [{ name: "Buster", gender_id: male.id },
                         { name: "Drake", gender_id: male.id },
                         { name: "Olive", gender_id: female.id },
                         { name: "Piper", gender_id: both.id },
                         { name: "Sawyer", gender_id: male.id },
                         { name: "Violet", gender_id: female.id },
                         { name: "Violetta", gender_id: female.id },
-                        { name: "Violette", gender_id: female.id } ]
+                        { name: "Violette", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'Fortified settlement'", language_id: old_english.id },
-                      [ { name: "Butch", gender_id: male.id } ]
+                      [{ name: "Butch", gender_id: male.id }]
                     ],
                     [
                       { description: "Fatty yellow food substance made from cream", language_id: english.id },
-                      [ { name: "Butter", gender_id: both.id },
-                        { name: "Butters", gender_id: both.id } ]
+                      [{ name: "Butter", gender_id: both.id },
+                        { name: "Butters", gender_id: both.id }]
                     ],
                     [
                       { description: "Wild plant with yellow cup-shaped flowers", language_id: english.id },
-                      [ { name: "Buttercup", language_id: female.id } ]
+                      [{ name: "Buttercup", language_id: female.id }]
                     ],
                     [
                       { description: "After the insect with four large brightly colored wings", language_id: english.id },
-                      [ { name: "Butterflies", gender_id: both.id },
-                        { name: "Butterfly", gender_id: both.id } ]
+                      [{ name: "Butterflies", gender_id: both.id },
+                        { name: "Butterfly", gender_id: both.id }]
                     ],
                     [
                       { description: "Hard toffee-like sweet", language_id: english.id },
-                      [ { name: "Butterscotch", gender_id: both.id } ]
+                      [{ name: "Butterscotch", gender_id: both.id }]
                     ],
                     [
                       { description: "Humming sound", language_id: english.id },
-                      [ { name: "Buzz", gender_id: male.id } ]
+                      [{ name: "Buzz", gender_id: male.id }]
                     ],
                     [
                       { description: "Discs or knobs sewn onto a garment", language_id: english.id },
-                      [ { name: "Button", gender_id: both.id },
-                        { name: "Buttons", gender_id: both.id } ]
+                      [{ name: "Button", gender_id: both.id },
+                        { name: "Buttons", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'bright'" },
-                      [ { name: "Byrne", gender_id: male.id } ]
+                      [{ name: "Byrne", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'sensitive'" },
-                      [ { name: "Byron", gender_id: male.id } ]
+                      [{ name: "Byron", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'swelled fortress'", language_id: english.id },
-                      [ { name: "Cadbury", gender_id: male.id } ]
+                      [{ name: "Cadbury", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'balanced'", language_id: latin.id },
-                      [ { name: "Cadence", gender_id: female.id } ]
+                      [{ name: "Cadence", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'head of hair'", language_id: latin.id },
-                      [ { name: "Caesar", gender_id: male.id } ]
+                      [{ name: "Caesar", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'devotion'", language_id: hebrew.id },
-                      [ { name: "Caleb", gender_id: male.id },
-                        { name: "Kaleb", gender_id: male.id } ]
+                      [{ name: "Caleb", gender_id: male.id },
+                        { name: "Kaleb", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'lovely'", language_id: greek.id },
-                      [ { name: "Cali", gender_id: female.id },
+                      [{ name: "Cali", gender_id: female.id },
                         { name: "Calista", gender_id: female.id },
                         { name: "Callie", gender_id: female.id },
-                        { name: "Callista", gender_id: female.id } ]
+                        { name: "Callista", gender_id: female.id }]
                     ],
                     [
                       { description: "Another name for the tortoiseshell coat pattern", language_id: english.id },
-                      [ { name: "Calico", gender_id: female.id },
-                        { name: "Kallico", gender_id: female.id } ]
+                      [{ name: "Calico", gender_id: female.id },
+                        { name: "Kallico", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'dove'", language_id: latin.id, means_bird: true },
-                      [ { name: "Callum", gender_id: male.id },
+                      [{ name: "Callum", gender_id: male.id },
                         { name: "Calum", gender_id: male.id },
                         { name: "Columba", gender_id: male.id },
                         { name: "Columbia", gender_id: female.id },
                         { name: "Columbine", gender_id: female.id },
-                        { name: "Paloma", gender_id: female.id } ]
+                        { name: "Paloma", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'bald'", language_id: latin.id },
-                      [ { name: "Calven", gender_id: male.id },
-                        { name: "Calvin", gender_id: male.id } ]
+                      [{ name: "Calven", gender_id: male.id },
+                        { name: "Calvin", gender_id: male.id }]
                     ],
                     [
                       { description: "Indian song" },
-                      [ { name: "Calypso", gender_id: both.id } ]
+                      [{ name: "Calypso", gender_id: both.id }]
                     ],
                     [
                       { description: "Creamy French cheese", language_id: french.id },
-                      [ { name: "Camembert", gender_id: both.id } ]
+                      [{ name: "Camembert", gender_id: both.id }]
                     ],
                     [
                       { description: "Stone in a ring or brooch with carved layers", language_id: english.id },
-                      [ { name: "Cameo", gender_id: female.id },
-                        { name: "Kameo", gender_id: female.id } ]
+                      [{ name: "Cameo", gender_id: female.id },
+                        { name: "Kameo", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'crooked stream'", language_id: gaelic.id },
-                      [ { name: "Cameron", gender_id: both.id } ]
+                      [{ name: "Cameron", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'assistant to the priest'", language_id: latin.id },
-                      [ { name: "Camilla", gender_id: female.id },
-                        { name: "Camille", gender_id: both.id } ]
+                      [{ name: "Camilla", gender_id: female.id },
+                        { name: "Camille", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'clarity'", language_id: latin.id },
-                      [ { name: "Candace", gender_id: female.id },
-                        { name: "Candice", gender_id: female.id } ]
+                      [{ name: "Candace", gender_id: female.id },
+                        { name: "Candice", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'brilliant white'" },
-                      [ { name: "Candesse" },
+                      [{ name: "Candesse" },
                         { name: "Candida" },
-                        { name: "Candide" } ]
+                        { name: "Candide" }]
                     ],
                     [
                       { description: "Meaning 'sweets and lollies'", language_id: american.id },
-                      [ { name: "Candie", gender_id: female.id },
+                      [{ name: "Candie", gender_id: female.id },
                         { name: "Candy", gender_id: female.id },
-                        { name: "Kandi", gender_id: female.id } ]
+                        { name: "Kandi", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'wolf cub'", language_id: gaelic.id, means_dog: true },
-                      [ { name: "Cannon", gender_id: male.id },
-                        { name: "Canon", gender_id: male.id } ]
+                      [{ name: "Cannon", gender_id: male.id },
+                        { name: "Canon", gender_id: male.id }]
                     ],
                     [
                       { description: "Frothy coffee" },
-                      [ { name: "Cappuccino" } ]
+                      [{ name: "Cappuccino" }]
                     ],
                     [
                       { description: "Leader of a group or sports team" },
-                      [ { name: "Captain", gender_id: male.id } ]
+                      [{ name: "Captain", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'beloved'", language_id: latin.id },
-                      [ { name: "Cara", gender_id: female.id },
+                      [{ name: "Cara", gender_id: female.id },
                         { name: "Carissa", gender_id: female.id },
-                        { name: "Kara", gender_id: female.id } ]
+                        { name: "Kara", gender_id: female.id }]
                     ],
                     [
                       { description: "Brown syrup made from heated sugar", language_id: english.id },
-                      [ { name: "Caramel" } ]
+                      [{ name: "Caramel" }]
                     ],
                     [
                       { description: "Non-metallic element occurring as diamond, graphite or carbon" },
-                      [ { name: "Carbon", gender_id: male.id } ]
+                      [{ name: "Carbon", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'grace'", language_id: greek.id },
-                      [ { name: "Caressa", gender_id: female.id },
-                        { name: "Charis", gender_id: female.id } ]
+                      [{ name: "Caressa", gender_id: female.id },
+                        { name: "Charis", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'freeholder'", language_id: ancient_german.id },
-                      [ { name: "Carl", gender_id: both.id },
+                      [{ name: "Carl", gender_id: both.id },
                         { name: "Carlie", gender_id: female.id },
                         { name: "Carlos", gender_id: both.id },
                         { name: "Carly", gender_id: female.id },
@@ -1284,60 +1284,60 @@ names_to_create = ([
                         { name: "Caroline", gender_id: female.id },
                         { name: "Carroll", gender_id: both.id },
                         { name: "Charles", gender_id: both.id },
-                        { name: "Charlotte", gender_id: female.id } ]
+                        { name: "Charlotte", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'orchard'", language_id: hebrew.id },
-                      [ { name: "Carmel", gender_id: both.id } ]
+                      [{ name: "Carmel", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'love'", language_id: gaelic.id },
-                      [ { name: "Carrie", gender_id: female.id } ]
+                      [{ name: "Carrie", gender_id: female.id }]
                     ],
                     [
                       { description: "From an expression whose meaning has been lost", language_id: gaelic.id },
-                      [ { name: "Carson", gender_id: both.id },
-                        { name: "Carsyn", gender_id: both.id } ]
+                      [{ name: "Carson", gender_id: both.id },
+                        { name: "Carsyn", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'transporter'", language_id: norman_french.id },
-                      [ { name: "Cartier", gender_id: both.id },
-                        { name: "Carter", gender_id: both.id } ]
+                      [{ name: "Cartier", gender_id: both.id },
+                        { name: "Carter", gender_id: both.id }]
                     ],
                     [
                       { description: "A man noted for his amorous adventures" },
-                      [ { name: "Casanova", gender_id: male.id } ]
+                      [{ name: "Casanova", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'alert'", language_id: irish_gaelic.id },
-                      [ { name: "Casey", gender_id: both.id },
-                        { name: "Kasey", gender_id: both.id } ]
+                      [{ name: "Casey", gender_id: both.id },
+                        { name: "Kasey", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'maker of wood chests'", language_id: norman_french.id },
-                      [ { name: "Cash", gender_id: male.id } ]
+                      [{ name: "Cash", gender_id: male.id }]
                     ],
                     [
                       { description: "Very fine soft wool" },
-                      [ { name: "Cashmere" } ]
+                      [{ name: "Cashmere" }]
                     ],
                     [
                       { description: "Meaning 'treasure holder'", language_id: persian.id },
-                      [ { name: "Caspar", gender_id: male.id },
+                      [{ name: "Caspar", gender_id: male.id },
                         { name: "Casper", gender_id: male.id },
                         { name: "Caspur", gender_id: male.id },
                         { name: "Caspurr", gender_id: male.id },
                         { name: "Jasper", gender_id: male.id },
                         { name: "Kasper", gender_id: male.id },
-                        { name: "Khazper", gender_id: male.id } ]
+                        { name: "Khazper", gender_id: male.id }]
                     ],
                     [
                       { description: "Nickname of Cassius, from an expression whose meaning has been lost", language_id: latin.id },
-                      [ { name: "Cass", gender_id: male.id } ]
+                      [{ name: "Cass", gender_id: male.id }]
                     ],
                     [
                       { description: "From an expression whose meaning has been lost", language_id: greek.id },
-                      [ { name: "Cassandra", gender_id: female.id },
+                      [{ name: "Cassandra", gender_id: female.id },
                         { name: "Cassi", gender_id: female.id },
                         { name: "Cassia", gender_id: female.id },
                         { name: "Cassie", gender_id: female.id },
@@ -1345,19 +1345,19 @@ names_to_create = ([
                         { name: "Dionysus", gender_id: male.id },
                         { name: "Orion", gender_id: male.id },
                         { name: "Paris", gender_id: both.id },
-                        { name: "Persephone", gender_id: female.id } ]
+                        { name: "Persephone", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'curly-headed'", language_id: gaelic.id },
-                      [ { name: "Cassidy", gender_id: both.id } ]
+                      [{ name: "Cassidy", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'chestnut'", language_id: spanish.id },
-                      [ { name: "Castana" } ]
+                      [{ name: "Castana" }]
                     ],
                     [
                       { description: "Meaning 'pure'", language_id: greek.id },
-                      [ { name: "Catalina", gender_id: female.id },
+                      [{ name: "Catalina", gender_id: female.id },
                         { name: "Catarina", gender_id: female.id },
                         { name: "Catherine", gender_id: female.id },
                         { name: "Catrina", gender_id: female.id },
@@ -1380,249 +1380,249 @@ names_to_create = ([
                         { name: "Kattryna", gender_id: female.id },
                         { name: "Kayleigh", gender_id: female.id },
                         { name: "Kittie", gender_id: female.id },
-                        { name: "Kitty", gender_id: female.id } ]
+                        { name: "Kitty", gender_id: female.id }]
                     ],
                     [
                       { description: "Pickled roe of a sturgeon or other large fish" },
-                      [ { name: "Caviar" } ]
+                      [{ name: "Caviar" }]
                     ],
                     [
                       { description: "Meaning 'blind'", language_id: latin.id },
-                      [ { name: "Cecilia", gender_id: female.id } ]
+                      [{ name: "Cecilia", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'famous'", language_id: english.id },
-                      [ { name: "Celebrity", gender_id: both.id } ]
+                      [{ name: "Celebrity", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'heavenly'", language_id: latin.id },
-                      [ { name: "Celeste", gender_id: female.id },
+                      [{ name: "Celeste", gender_id: female.id },
                         { name: "Celestina", gender_id: female.id },
-                        { name: "Celine", gender_id: female.id } ]
+                        { name: "Celine", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Cecilia, meaning 'blind'", language_id: latin.id },
-                      [ { name: "Celia", gender_id: female.id } ]
+                      [{ name: "Celia", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'holly’", language_id: welsh.id },
-                      [ { name: "Celyn", gender_id: both.id } ]
+                      [{ name: "Celyn", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'sacred poetry'", language_id: gaelic.id },
-                      [ { name: "Ceridwen", gender_id: female.id } ]
+                      [{ name: "Ceridwen", gender_id: female.id }]
                     ],
                     [
                       { description: "From an expression whose meaning has been lost", language_id: old_english.id },
-                      [ { name: "Chad", gender_id: male.id },
+                      [{ name: "Chad", gender_id: male.id },
                         { name: "Chancey", gender_id: male.id },
                         { name: "Latoya", gender_id: female.id },
-                        { name: "Mister", gender_id: male.id } ]
+                        { name: "Mister", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'life'", language_id: hebrew.id },
-                      [ { name: "Chai", gender_id: male.id } ]
+                      [{ name: "Chai", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'warm'", language_id: hebrew.id },
-                      [ { name: "Cham", gender_id: male.id } ]
+                      [{ name: "Cham", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'champion'", language_id: english.id },
-                      [ { name: "Champ", gender_id: both.id } ]
+                      [{ name: "Champ", gender_id: both.id }]
                     ],
                     [
                       { description: "Pale straw colour" },
-                      [ { name: "Champagne", gender_id: both.id } ]
+                      [{ name: "Champagne", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'favoured grace'", language_id: hebrew.id },
-                      [ { name: "Chana", gender_id: female.id } ]
+                      [{ name: "Chana", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'opportunity, risk'", language_id: norman_french.id },
-                      [ { name: "Chance", gender_id: both.id } ]
+                      [{ name: "Chance", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'candle maker'", language_id: latin.id },
-                      [ { name: "Chandler", gender_id: both.id } ]
+                      [{ name: "Chandler", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'moonlight'", language_id: sanskrit.id },
-                      [ { name: "Chandra", gender_id: both.id } ]
+                      [{ name: "Chandra", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'pipe'", language_id: old_french.id },
-                      [ { name: "Chanel", gender_id: female.id },
-                        { name: "Chanelle", gender_id: female.id } ]
+                      [{ name: "Chanel", gender_id: female.id },
+                        { name: "Chanelle", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'prosperous', 'strong point', 'constant', 'long day' or 'free', depending on the tone and character used for the name", language_id: chinese.id },
-                      [ { name: "Chang", gender_id: both.id } ]
+                      [{ name: "Chang", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'favoured grace'", language_id: hebrew.id },
-                      [ { name: "Chani", gender_id: female.id },
+                      [{ name: "Chani", gender_id: female.id },
                         { name: "Hanah", gender_id: female.id },
                         { name: "Hanna", gender_id: female.id },
-                        { name: "Hannah", gender_id: female.id } ]
+                        { name: "Hannah", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'stone'", language_id: old_french.id },
-                      [ { name: "Chantal", gender_id: female.id },
+                      [{ name: "Chantal", gender_id: female.id },
                         { name: "Chante", gender_id: female.id },
-                        { name: "Chantelle", gender_id: female.id } ]
+                        { name: "Chantelle", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'disorder'", language_id: english.id },
-                      [ { name: "Chaos", gender_id: male.id } ]
+                      [{ name: "Chaos", gender_id: male.id }]
                     ],
                     [
                       { description: "Power to inspire or attract others" },
-                      [ { name: "Charisma", gender_id: both.id },
-                        { name: "Kharisma", gender_id: both.id } ]
+                      [{ name: "Charisma", gender_id: both.id },
+                        { name: "Kharisma", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'generous love'", language_id: latin.id },
-                      [ { name: "Charity", gender_id: female.id },
-                        { name: "Cherity", gender_id: female.id } ]
+                      [{ name: "Charity", gender_id: female.id },
+                        { name: "Cherity", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Charlotte, meaning 'freeholder'", language_id: ancient_german.id },
-                      [ { name: "Charla", gender_id: female.id } ]
+                      [{ name: "Charla", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Charles, meaning 'freeholder'", language_id: ancient_german.id },
-                      [ { name: "Charlee", gender_id: both.id },
+                      [{ name: "Charlee", gender_id: both.id },
                         { name: "Charley", gender_id: both.id },
                         { name: "Charli", gender_id: both.id},
                         { name: "Charlie", gender_id: both.id },
                         { name: "Charly", gender_id: both.id },
                         { name: "Chip", gender_id: male.id },
                         { name: "Chuck", gender_id: male.id },
-                        { name: "Chucky", gender_id: male.id } ]
+                        { name: "Chucky", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'delightful'", language_id: greek.id },
-                      [ { name: "Charmaine", gender_id: female.id },
-                        { name: "Charmian", gender_id: female.id } ]
+                      [{ name: "Charmaine", gender_id: female.id },
+                        { name: "Charmian", gender_id: female.id }]
                     ],
                     [
                       { description: "Follow, in order to catch", language_id: english.id },
-                      [ { name: "Chase", gender_id: both.id } ]
+                      [{ name: "Chase", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'cat'", language_id: french.id, means_cat: true },
-                      [ { name: "Chat", gender_id: male.id },
-                        { name: "Chatte", gender_id: female.id } ]
+                      [{ name: "Chat", gender_id: male.id },
+                        { name: "Chatte", gender_id: female.id }]
                     ],
                     [
                       { description: "Pattern of squares or crossing lines", language_id: english.id },
-                      [ { name: "Checkers", gender_id: both.id } ]
+                      [{ name: "Checkers", gender_id: both.id }]
                     ],
                     [
                       { description: "Large African wildcat which can run at speeds of 110kph", means_cat: true },
-                      [ { name: "Cheetah" } ]
+                      [{ name: "Cheetah" }]
                     ],
                     [
                       { description: "Meaning 'chalk port'", language_id: old_english.id },
-                      [ { name: "Chelsea", gender_id: female.id },
+                      [{ name: "Chelsea", gender_id: female.id },
                         { name: "Chelsie", gender_id: female.id },
-                        { name: "Chessie", gender_id: female.id } ]
+                        { name: "Chessie", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'dear'", language_id: french.id },
-                      [ { name: "Cher", gender_id: female.id },
+                      [{ name: "Cher", gender_id: female.id },
                         { name: "Cheree", gender_id: female.id },
                         { name: "Cheri", gender_id: female.id },
-                        { name: "Cherie", gender_id: female.id } ]
+                        { name: "Cherie", gender_id: female.id }]
                     ],
                     [
                       { description: "Combination of the names Cheryl (meaning 'dear' or 'precious') and Lynn (meaning 'ruddy-complexioned')" },
-                      [ { name: "Cherilyn", gender_id: female.id } ]
+                      [{ name: "Cherilyn", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'legionary camp'", language_id: latin.id },
-                      [ { name: "Chester", gender_id: male.id } ]
+                      [{ name: "Chester", gender_id: male.id }]
                     ],
                     [
                       { description: "After the small soft round dark red fruit", language_id: english.id },
-                      [ { name: "Cherri", gender_id: female.id },
+                      [{ name: "Cherri", gender_id: female.id },
                         { name: "Cherrie", gender_id: female.id },
-                        { name: "Cherry", gender_id: female.id } ]
+                        { name: "Cherry", gender_id: female.id }]
                     ],
                     [
                       { description: "Angelic being" },
-                      [ { name: "Cherub", gender_id: both.id } ]
+                      [{ name: "Cherub", gender_id: both.id }]
                     ],
                     [
                       { description: "From Cherie, meaning 'dear'", language_id: french.id },
-                      [ { name: "Cheryl", gender_id: female.id } ]
+                      [{ name: "Cheryl", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'knight'", language_id: french.id },
-                      [ { name: "Chevalier", gender_id: male.id },
-                        { name: "Chevy", gender_id: male.id } ]
+                      [{ name: "Chevalier", gender_id: male.id },
+                        { name: "Chevy", gender_id: male.id }]
                     ],
                     [
                       { description: "A tribal name" },
-                      [ { name: "Cheyenne" } ]
+                      [{ name: "Cheyenne" }]
                     ],
                     [
                       { description: "Italian version of Clara, meaning 'brilliant'", language_id: italian.id },
-                      [ { name: "Chiara", gender_id: female.id } ]
+                      [{ name: "Chiara", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'powerful'", language_id: algonquian_wakashian.id },
-                      [ { name: "Chicago", gender_id: male.id } ]
+                      [{ name: "Chicago", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'a Frenchman'", language_id: ancient_german.id },
-                      [ { name: "Chico", gender_id: male.id } ]
+                      [{ name: "Chico", gender_id: male.id }]
                     ],
                     [
                       { description: "Leader, ruler", language_id: english.id },
-                      [ { name: "Chief", gender_id: male.id } ]
+                      [{ name: "Chief", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'power of Chi'", language_id: igbo.id },
-                      [ { name: "Chike", gender_id: male.id } ]
+                      [{ name: "Chike", gender_id: male.id }]
                     ],
                     [
                       { description: "Small peppers used in cooking", language_id: english.id },
-                      [ { name: "Chili", gender_id: both.id },
-                        { name: "Chilli", gender_id: both.id } ]
+                      [{ name: "Chili", gender_id: both.id },
+                        { name: "Chilli", gender_id: both.id }]
                     ],
                     [
                       { description: "Fine, earthern-ware porcelain" },
-                      [ { name: "China", gender_id: female.id } ]
+                      [{ name: "China", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'capable' or 'honest' depending on the character used", language_id: chinese.id },
-                      [ { name: "Ching", gender_id: female.id } ]
+                      [{ name: "Ching", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'little one'" },
-                      [ { name: "Chiquita", gender_id: both.id } ]
+                      [{ name: "Chiquita", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'blooming'", language_id: greek.id },
-                      [ { name: "Chloe", gender_id: female.id },
-                        { name: "Khloe", gender_id: female.id } ]
+                      [{ name: "Chloe", gender_id: female.id },
+                        { name: "Khloe", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'chocolate'" },
-                      [ { name: "Choco" } ]
+                      [{ name: "Choco" }]
                     ],
                     [
                       { description: "Nickname of Christina and Christine, meaning 'Christ's follower'" },
-                      [ { name: "Chrissie", gender_id: female.id },
+                      [{ name: "Chrissie", gender_id: female.id },
                         { name: "Chrissy", gender_id: female.id },
-                        { name: "Krissy", gender_id: female.id } ]
+                        { name: "Krissy", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'Christ's follower'", language_id: latin.id },
-                      [ { name: "Christiana", gender_id: female.id },
+                      [{ name: "Christiana", gender_id: female.id },
                         { name: "Christina", gender_id: female.id },
                         { name: "Christine", gender_id: female.id },
                         { name: "Tina", gender_id: female.id },
@@ -1633,846 +1633,846 @@ names_to_create = ([
                         { name: "Kristen", gender_id: both.id },
                         { name: "Kristin", gender_id: both.id },
                         { name: "Kriston", gender_id: both.id },
-                        { name: "Krystiana", gender_id: female.id } ]
+                        { name: "Krystiana", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Christian, Christopher, Christina and Christine, meaning 'Christ's follower'" },
-                      [ { name: "Christie", gender_id: both.id } ]
+                      [{ name: "Christie", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'Christ carrier'", language_id: greek.id },
-                      [ { name: "Christopher", gender_id: both.id } ]
+                      [{ name: "Christopher", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'colour'", language_id: greek.id },
-                      [ { name: "Chroma", gender_id: both.id } ]
+                      [{ name: "Chroma", gender_id: both.id }]
                     ],
                     [
                       { description: "From the Greek krustallos meaning 'ice'", language_id: greek.id },
-                      [ { name: "Chrystal", gender_id: female.id },
+                      [{ name: "Chrystal", gender_id: female.id },
                         { name: "Crystal", gender_id: female.id },
                         { name: "Khrystal", gender_id: female.id },
                         { name: "Krystal", gender_id: female.id },
-                        { name: "Krystle", gender_id: female.id } ]
+                        { name: "Krystle", gender_id: female.id }]
                     ],
                     [
                       { description: "Sauce-like mixture of fruit or vegetables used as a spread on meat", language_id: english.id },
-                      [ { name: "Chutney" } ]
+                      [{ name: "Chutney" }]
                     ],
                     [
                       { description: "Meaning 'black'", language_id: gaelic.id },
-                      [ { name: "Ciara", gender_id: female.id },
-                        { name: "Kiara", gender_id: female.id } ]
+                      [{ name: "Ciara", gender_id: female.id },
+                        { name: "Kiara", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'ashes'", language_id: french.id },
-                      [ { name: "Cinder" },
-                        { name: "Cinders" } ]
+                      [{ name: "Cinder" },
+                        { name: "Cinders" }]
                     ],
                     [
                       { description: "Meaning 'little ash girl'", language_id: french.id },
-                      [ { name: "Cinderella", gender_id: female.id },
-                        { name: "Cinderelle", gender_id: female.id } ]
+                      [{ name: "Cinderella", gender_id: female.id },
+                        { name: "Cinderelle", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'from Mount Kynthos'", language_id: greek.id },
-                      [ { name: "Cindy", gender_id: female.id },
-                        { name: "Cynthia", gender_id: female.id } ]
+                      [{ name: "Cindy", gender_id: female.id },
+                        { name: "Cynthia", gender_id: female.id }]
                     ],
                     [
                       { description: "Spice made from the bark of a South-east Asian tree" },
-                      [ { name: "Cinnamon", gender_id: female.id } ]
+                      [{ name: "Cinnamon", gender_id: female.id }]
                     ],
                     [
                       { description: "Italian version of Cynthia, meaning 'from Mount Kynthos'", language_id: italian.id },
-                      [ { name: "Cinzia", gender_id: female.id } ]
+                      [{ name: "Cinzia", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'brilliant'", language_id: latin.id },
-                      [ { name: "Claire", gender_id: both.id },
+                      [{ name: "Claire", gender_id: both.id },
                         { name: "Clara", gender_id: female.id },
                         { name: "Clare", gender_id: both.id },
                         { name: "Clarinda", gender_id: female.id },
                         { name: "Clarisa", gender_id: female.id },
-                        { name: "Clarissa", gender_id: female.id } ]
+                        { name: "Clarissa", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'red-haired fighter'", language_id: irish_gaelic.id },
-                      [ { name: "Clancey", gender_id: male.id },
-                        { name: "Clancy", gender_id: male.id } ]
+                      [{ name: "Clancey", gender_id: male.id },
+                        { name: "Clancy", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'one who lives near the River Clare'", language_id: latin.id },
-                      [ { name: "Clarance", gender_id: both.id },
-                        { name: "Clarence", gender_id: both.id } ]
+                      [{ name: "Clarance", gender_id: both.id },
+                        { name: "Clarence", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'priest'", language_id: old_english.id },
-                      [ { name: "Clark", gender_id: male.id },
-                        { name: "Clarke", gender_id: male.id } ]
+                      [{ name: "Clark", gender_id: male.id },
+                        { name: "Clarke", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'lame'", language_id: latin.id },
-                      [ { name: "Claude", gender_id: male.id },
+                      [{ name: "Claude", gender_id: male.id },
                         { name: "Claudia", gender_id: female.id },
-                        { name: "Claudius", gender_id: male.id } ]
+                        { name: "Claudius", gender_id: male.id }]
                     ],
                     [
                       { description: "Pointed nails on an animal’s foot" },
-                      [ { name: "Claws" } ]
+                      [{ name: "Claws" }]
                     ],
                     [
                       { description: "Meaning 'climbing plant'", language_id: greek.id },
-                      [ { name: "Clematis", gender_id: female.id } ]
+                      [{ name: "Clematis", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'merciful'", language_id: latin.id },
-                      [ { name: "Clementine", gender_id: female.id } ]
+                      [{ name: "Clementine", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname for Clemence or Clementine, meaning 'merciful'", language_id: latin.id },
-                      [ { name: "Clemmie", gender_id: both.id } ]
+                      [{ name: "Clemmie", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'renown'", language_id: greek.id },
-                      [ { name: "Cleo", language_id: both.id } ]
+                      [{ name: "Cleo", language_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'father's pride'", language_id: greek.id },
-                      [ { name: "Cleopatra", gender_id: female.id } ]
+                      [{ name: "Cleopatra", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'sloped crossing'", language_id: old_english.id },
-                      [ { name: "Clifford", gender_id: male.id } ]
+                      [{ name: "Clifford", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'sloped settlement'", language_id: old_english.id },
-                      [ { name: "Clifton", gender_id: male.id } ]
+                      [{ name: "Clifton", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'fenced settlement'", language_id: old_english.id },
-                      [ { name: "Clint", gender_id: male.id },
-                        { name: "Clinton", gender_id: male.id } ]
+                      [{ name: "Clint", gender_id: male.id },
+                        { name: "Clinton", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'cliff'", language_id: old_english.id },
-                      [ { name: "Clive", gender_id: male.id } ]
+                      [{ name: "Clive", gender_id: male.id }]
                     ],
                     [
                       { description: "Visible mass of watery vapour floating in the sky", language_id: english.id },
-                      [ { name: "Cloud", gender_id: both.id } ]
+                      [{ name: "Cloud", gender_id: both.id }]
                     ],
                     [
                       { description: "Plant with three-lobed leaves" },
-                      [ { name: "Clover" } ]
+                      [{ name: "Clover" }]
                     ],
                     [
                       { description: "From the name of a river in Scotland" },
-                      [ { name: "Clyde", gender_id: both.id } ]
+                      [{ name: "Clyde", gender_id: both.id }]
                     ],
                     [
                       { description: "Hard black mineral used for burning as a fuel" },
-                      [ { name: "Coal", gender_id: both.id } ]
+                      [{ name: "Coal", gender_id: both.id }]
                     ],
                     [
                       { description: "Net spun by a spider", language_id: english.id },
-                      [ { name: "Cobweb", gender_id: both.id } ]
+                      [{ name: "Cobweb", gender_id: both.id }]
                     ],
                     [
                       { description: "The origin of this name is unknown" },
-                      [ { name: "Coby", gender_id: male.id },
+                      [{ name: "Coby", gender_id: male.id },
                         { name: "Kiki", gender_id: female.id },
-                        { name: "Vienna", gender_id: female.id } ]
+                        { name: "Vienna", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'victorious people'", language_id: french.id },
-                      [ { name: "Coco", gender_id: female.id },
+                      [{ name: "Coco", gender_id: female.id },
                         { name: "Colette", gender_id: female.id },
-                        { name: "Collette", gender_id: female.id } ]
+                        { name: "Collette", gender_id: female.id }]
                     ],
                     [
                       { description: "After the hot chocolate drink, or chocolate color" },
-                      [ { name: "Cocoa", gender_id: both.id } ]
+                      [{ name: "Cocoa", gender_id: both.id }]
                     ],
                     [
                       { description: "White-fleshed, nut of a tropical palm", language_id: english.id },
-                      [ { name: "Coconut", gender_id: both.id } ]
+                      [{ name: "Coconut", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'helper'", language_id: irish_gaelic.id },
-                      [ { name: "Cody", gender_id: both.id } ]
+                      [{ name: "Cody", gender_id: both.id }]
                     ],
                     [
                       { description: "Bean-like seeds of a tropical plant which are ground to make a drink", language_id: english.id },
-                      [ { name: "Coffee", gender_id: both.id } ]
+                      [{ name: "Coffee", gender_id: both.id }]
                     ],
                     [
                       { description: "Brown carbonated drink", language_id: english.id },
-                      [ { name: "Cola", gender_id: both.id } ]
+                      [{ name: "Cola", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'coal village'", language_id: ancient_german.id },
-                      [ { name: "Colby", gender_id: both.id } ]
+                      [{ name: "Colby", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'dark-complexioned'", language_id: old_english.id },
-                      [ { name: "Cole", gender_id: both.id } ]
+                      [{ name: "Cole", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'victorious people'", language_id: greek.id },
-                      [ { name: "Colin", gender_id: male.id } ]
+                      [{ name: "Colin", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'girl'", language_id: gaelic.id },
-                      [ { name: "Colleen", gender_id: female.id } ]
+                      [{ name: "Colleen", gender_id: female.id }]
                     ],
                     [
                       { description: "Heavenly body with a luminous tail" },
-                      [ { name: "Comet", gender_id: both.id } ]
+                      [{ name: "Comet", gender_id: both.id }]
                     ],
                     [
                       { description: "Pieces of coloured paper thrown at parties" },
-                      [ { name: "Confetti", gender_id: both.id } ]
+                      [{ name: "Confetti", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'lover of hounds'", language_id: irish_gaelic.id },
-                      [ { name: "Conner", gender_id: male.id },
+                      [{ name: "Conner", gender_id: male.id },
                         { name: "Connor", gender_id: male.id },
-                        { name: "Conor", gender_id: male.id } ]
+                        { name: "Conor", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'steadfastness'", language_id: latin.id },
-                      [ { name: "Constance", gender_id: both.id } ]
+                      [{ name: "Constance", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'countess'", language_id: italian.id },
-                      [ { name: "Contessa", gender_id: female.id } ]
+                      [{ name: "Contessa", gender_id: female.id }]
                     ],
                     [
                       { description: "Sweet biscuit" },
-                      [ { name: "Cookie", gender_id: both.id },
-                        { name: "Cookies", gender_id: both.id } ]
+                      [{ name: "Cookie", gender_id: both.id },
+                        { name: "Cookies", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'barrel maker'", language_id: english.id },
-                      [ { name: "Cooper", gender_id: male.id } ]
+                      [{ name: "Cooper", gender_id: male.id }]
                     ],
                     [
                       { description: "Reddish-brown metal" },
-                      [ { name: "Copper", gender_id: both.id } ]
+                      [{ name: "Copper", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'maiden' or 'hummingbird'", language_id: greek.id, means_bird: true },
-                      [ { name: "Cora", gender_id: female.id } ]
+                      [{ name: "Cora", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'fate, destiny, luck or chance'", language_id: hebrew.id },
-                      [ { name: "Coral", gender_id: female.id } ]
+                      [{ name: "Coral", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'young crow'", language_id: norman_french.id, means_bird: true },
-                      [ { name: "Corbett", gender_id: male.id } ]
+                      [{ name: "Corbett", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'hard-hearted'", language_id: latin.id },
-                      [ { name: "Cornelius", gender_id: male.id } ]
+                      [{ name: "Cornelius", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'crown'", language_id: latin.id },
-                      [ { name: "Corona", gender_id: female.id } ]
+                      [{ name: "Corona", gender_id: female.id }]
                     ],
                     [
                       { description: "From an expression whose meaning has been lost", language_id: old_norse.id },
-                      [ { name: "Corey", gender_id: both.id },
-                        { name: "Cory", gender_id: both.id } ]
+                      [{ name: "Corey", gender_id: both.id },
+                        { name: "Cory", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'domain of Curtius'", language_id: norman_french.id },
-                      [ { name: "Courteney", gender_id: both.id },
-                        { name: "Courtney", gender_id: both.id } ]
+                      [{ name: "Courteney", gender_id: both.id },
+                        { name: "Courtney", gender_id: both.id }]
                     ],
                     [
                       { description: "Rice-like dish made from dried semolina" },
-                      [ { name: "Cous Cous", gender_id: both.id } ]
+                      [{ name: "Cous Cous", gender_id: both.id }]
                     ],
                     [
                       { description: "Thin dry biscuit" },
-                      [ { name: "Cracker", gender_id: both.id },
-                        { name: "Crackers", gender_id: both.id } ]
+                      [{ name: "Cracker", gender_id: both.id },
+                        { name: "Crackers", gender_id: both.id }]
                     ],
                     [
                       { description: "Small red sharp-tasting berry", language_id: english.id },
-                      [ { name: "Cranberry", gender_id: both.id } ]
+                      [{ name: "Cranberry", gender_id: both.id }]
                     ],
                     [
                       { description: "Fatty part of milk", language_id: english.id },
-                      [ { name: "Cream", gender_id: both.id } ]
+                      [{ name: "Cream", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'cream'", language_id: french.id },
-                      [ { name: "Creme" } ]
+                      [{ name: "Creme" }]
                     ],
                     [
                       { description: "After the insect that produces a chirping noise" },
-                      [ { name: "Cricket", gender_id: both.id } ]
+                      [{ name: "Cricket", gender_id: both.id }]
                     ],
                     [
                       { description: "Travel at a moderate speed" },
-                      [ { name: "Cruise", gender_id: both.id },
-                        { name: "Cruiser", gender_id: both.id } ]
+                      [{ name: "Cruise", gender_id: both.id },
+                        { name: "Cruiser", gender_id: both.id }]
                     ],
                     [
                       { description: "Dessert with crunchy oat topping" },
-                      [ { name: "Crumble" } ]
+                      [{ name: "Crumble" }]
                     ],
                     [
                       { description: "Flat soft yeasty cake eaten toasted", language_id: english.id },
-                      [ { name: "Crumpet", gender_id: both.id } ]
+                      [{ name: "Crumpet", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'cross'", language_id: latin.id },
-                      [ { name: "Cruz", gender_id: both.id } ]
+                      [{ name: "Cruz", gender_id: both.id }]
                     ],
                     [
                       { description: "Hug lovingly" },
-                      [ { name: "Cuddles", gender_id: both.id } ]
+                      [{ name: "Cuddles", gender_id: both.id }]
                     ],
                     [
                       { description: "Small single serve cake" },
-                      [ { name: "Cupcake", gender_id: both.id } ]
+                      [{ name: "Cupcake", gender_id: both.id }]
                     ],
                     [
                       { description: "In a spiral shape" },
-                      [ { name: "Curly", gender_id: both.id } ]
+                      [{ name: "Curly", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'prophetess'", language_id: greek.id },
-                      [ { name: "Cybil", gender_id: female.id },
+                      [{ name: "Cybil", gender_id: female.id },
                         { name: "Sibeal", gender_id: female.id },
                         { name: "Sibel", gender_id: female.id },
                         { name: "Sibyl", gender_id: female.id },
                         { name: "Sibyll", gender_id: female.id },
                         { name: "Sybella", gender_id: female.id },
                         { name: "Sybil", gender_id: female.id },
-                        { name: "Syble", gender_id: female.id } ]
+                        { name: "Syble", gender_id: female.id }]
                     ],
                     [
                       { description: "Based on the common English word, meaning 'cheerful'", language_id: english.id },
-                      [ { name: "Daisie", gender_id: female.id },
-                        { name: "Daisy", gender_id: female.id } ]
+                      [{ name: "Daisie", gender_id: female.id },
+                        { name: "Daisy", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'ally'", language_id: english.id },
-                      [ { name: "Dakota", gender_id: both.id } ]
+                      [{ name: "Dakota", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'valley-dweller'" },
-                      [ { name: "Dale", gender_id: both.id } ]
+                      [{ name: "Dale", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'house in the valley'", language_id: old_english.id },
-                      [ { name: "Dallas", gender_id: both.id } ]
+                      [{ name: "Dallas", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'tamer'", language_id: greek.id },
-                      [ { name: "Damian", gender_id: male.id },
-                        { name: "Damien", gender_id: male.id } ]
+                      [{ name: "Damian", gender_id: male.id },
+                        { name: "Damien", gender_id: male.id }]
                     ],
                     [
                       { description: "From the French 'dente de lion', meaning 'tooth of lion'", language_id: french.id },
-                      [ { name: "Dandelion", gender_id: both.id } ]
+                      [{ name: "Dandelion", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'God is my judge'", language_id: hebrew.id },
-                      [ { name: "Dan", gender_id: both.id },
+                      [{ name: "Dan", gender_id: both.id },
                         { name: "Dana", gender_id: both.id },
                         { name: "Daniel", gender_id: both.id },
                         { name: "Daniella", gender_id: female.id },
                         { name: "Danielle", gender_id: female.id },
                         { name: "Danna", gender_id: both.id },
                         { name: "Dayna", gender_id: female.id },
-                        { name: "Dhani", gender_id: female.id } ]
+                        { name: "Dhani", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Dan, Daniel and Danielle, meaning 'God is my judge'", language_id: hebrew.id },
-                      [ { name: "Dani", gender_id: female.id },
-                        { name: "Danny", gender_id: both.id } ]
+                      [{ name: "Dani", gender_id: female.id },
+                        { name: "Danny", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'enduring'", language_id: italian.id },
-                      [ { name: "Dante", gender_id: both.id } ]
+                      [{ name: "Dante", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'laurel'", language_id: greek.id },
-                      [ { name: "Daphne", gender_id: female.id } ]
+                      [{ name: "Daphne", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'dark man'", language_id: gaelic.id },
-                      [ { name: "Darcey", gender_id: both.id },
-                        { name: "Darcy", gender_id: both.id } ]
+                      [{ name: "Darcey", gender_id: both.id },
+                        { name: "Darcy", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'gift'", language_id: slavic.id },
-                      [ { name: "Darie", gender_id: female.id } ]
+                      [{ name: "Darie", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'he who holds on well to his possessions'", language_id: greek.id },
-                      [ { name: "Darius", gender_id: male.id } ]
+                      [{ name: "Darius", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'darling'", language_id: english.id },
-                      [ { name: "Darla", gender_id: female.id },
+                      [{ name: "Darla", gender_id: female.id },
                         { name: "Darleen", gender_id: female.id },
-                        { name: "Darlene", gender_id: female.id } ]
+                        { name: "Darlene", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning ‘beloved’", language_id: norman_french.id },
-                      [ { name: "Darrell", gender_id: both.id },
+                      [{ name: "Darrell", gender_id: both.id },
                         { name: "Darryl", gender_id: both.id },
-                        { name: "Daryl", gender_id: both.id } ]
+                        { name: "Daryl", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'great'", language_id: gaelic.id },
-                      [ { name: "Darren", gender_id: male.id } ]
+                      [{ name: "Darren", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'page'", language_id: old_french.id },
-                      [ { name: "Dash", gender_id: male.id } ]
+                      [{ name: "Dash", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'myrtle tree'", language_id: hebrew.id },
-                      [ { name: "Dassah", gender_id: female.id } ]
+                      [{ name: "Dassah", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of David, meaning 'beloved'", language_id: hebrew.id },
-                      [ { name: "Dave", gender_id: male.id },
+                      [{ name: "Dave", gender_id: male.id },
                         { name: "Davey", gender_id: male.id },
                         { name: "Davie", gender_id: male.id },
-                        { name: "Davy", gender_id: male.id } ]
+                        { name: "Davy", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'beloved'", language_id: hebrew.id },
-                      [ { name: "David", gender_id: both.id },
+                      [{ name: "David", gender_id: both.id },
                         { name: "Dawsen", gender_id: male.id },
-                        { name: "Dawson", gender_id: male.id } ]
+                        { name: "Dawson", gender_id: male.id }]
                     ],
                     [
                       { description: "First light of day", language_id: english.id },
-                      [ { name: "Dawn", gender_id: female.id },
-                        { name: "Dawne", gender_id: female.id } ]
+                      [{ name: "Dawn", gender_id: female.id },
+                        { name: "Dawne", gender_id: female.id }]
                     ],
                     [
                       { description: "Impress with skill or beauty" },
-                      [ { name: "Dazzle" } ]
+                      [{ name: "Dazzle" }]
                     ],
                     [
                       { description: "Alternate form of Diana, meaning 'goddess'", language_id: latin.id },
-                      [ { name: "Deanna", gender_id: female.id },
-                        { name: "Deeanna", gender_id: female.id } ]
+                      [{ name: "Deanna", gender_id: female.id },
+                        { name: "Deeanna", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'bee'", language_id: hebrew.id },
-                      [ { name: "Debbe", gender_id: female.id },
+                      [{ name: "Debbe", gender_id: female.id },
                         { name: "Debbi", gender_id: female.id },
                         { name: "Debbie", gender_id: female.id },
                         { name: "Debby", gender_id: female.id },
                         { name: "Debhi", gender_id: female.id },
-                        { name: "Deborah", gender_id: female.id } ]
+                        { name: "Deborah", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'noble'", language_id: old_english.id },
-                      [ { name: "Dee", gender_id: both.id } ]
+                      [{ name: "Dee", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'broken-hearted, sorrowful'", language_id: gaelic.id },
-                      [ { name: "Deirdre", gender_id: female.id } ]
+                      [{ name: "Deirdre", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'delicate'", language_id: hebrew.id },
-                      [ { name: "Delilah", gender_id: female.id } ]
+                      [{ name: "Delilah", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'door'", language_id: greek.id },
-                      [ { name: "Delta", gender_id: female.id } ]
+                      [{ name: "Delta", gender_id: female.id }]
                     ],
                     [
                       { description: "From an expression whose meaning has been lost", language_id: cornish.id },
-                      [ { name: "Demelza", gender_id: female.id },
+                      [{ name: "Demelza", gender_id: female.id },
                         { name: "Denzel", gender_id: male.id },
-                        { name: "Denzell", gender_id: male.id } ]
+                        { name: "Denzell", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'judgment'", language_id: hebrew.id },
-                      [ { name: "Denna", gender_id: female.id },
+                      [{ name: "Denna", gender_id: female.id },
                         { name: "Dina", gender_id: female.id },
-                        { name: "Dinah", gender_id: female.id } ]
+                        { name: "Dinah", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'dedicated to Dionysos'", language_id: greek.id },
-                      [ { name: "Dennis", gender_id: both.id },
+                      [{ name: "Dennis", gender_id: both.id },
                         { name: "Dion", gender_id: both.id },
-                        { name: "Dwight", gender_id: male.id } ]
+                        { name: "Dwight", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'power of the tribe'", language_id: ancient_german.id },
-                      [ { name: "Derek", gender_id: male.id },
+                      [{ name: "Derek", gender_id: male.id },
                         { name: "Derrick", gender_id: male.id },
                         { name: "Teri", gender_id: both.id },
                         { name: "Terri", gender_id: both.id },
                         { name: "Terrie", gender_id: both.id },
-                        { name: "Terry", gender_id: both.id } ]
+                        { name: "Terry", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'unlucky'", language_id: greek.id },
-                      [ { name: "Desdemona", gender_id: female.id } ]
+                      [{ name: "Desdemona", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'one from south Munster'", language_id: gaelic.id },
-                      [ { name: "Desmond", gender_id: male.id } ]
+                      [{ name: "Desmond", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'an inevitable course of events'", language_id: latin.id },
-                      [ { name: "Destiny", gender_id: female.id } ]
+                      [{ name: "Destiny", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'divine'", language_id: hindi.id },
-                      [ { name: "Deva", gender_id: female.id } ]
+                      [{ name: "Deva", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'beloved'", language_id: welsh.id },
-                      [ { name: "Dewey", gender_id: male.id },
+                      [{ name: "Dewey", gender_id: male.id },
                         { name: "Dewi", gender_id: male.id },
-                        { name: "Dewy", gender_id: male.id } ]
+                        { name: "Dewy", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'fortunate'", language_id: latin.id },
-                      [ { name: "Dexter", gender_id: male.id } ]
+                      [{ name: "Dexter", gender_id: male.id }]
                     ],
                     [
                       { description: "Nickname of Diana and Diane, meaning 'goddess'", language_id: latin.id },
-                      [ { name: "Di", gender_id: female.id } ]
+                      [{ name: "Di", gender_id: female.id }]
                     ],
                     [
                       { description: "After the precious stone", language_id: english.id },
-                      [ { name: "Diamond", gender_id: both.id } ]
+                      [{ name: "Diamond", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'goddess'", language_id: latin.id },
-                      [ { name: "Diana", gender_id: female.id } ]
+                      [{ name: "Diana", gender_id: female.id }]
                     ],
                     [
                       { description: "Spanish form of James, meaning 'one who trips up another and takes his place'" , language_id: spanish.id },
-                      [ { name: "Diego", gender_id: male.id } ]
+                      [{ name: "Diego", gender_id: male.id }]
                     ],
                     [
                       { description: "Oil burning engine" },
-                      [ { name: "Diesel" } ]
+                      [{ name: "Diesel" }]
                     ],
                     [
                       { description: "From the Old French diguer meaning 'to make a ditch'", language_id: old_french.id },
-                      [ { name: "Digby", gender_id: male.id } ]
+                      [{ name: "Digby", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'son of the sea'", language_id: welsh.id },
-                      [ { name: "Dillan", gender_id: both.id },
+                      [{ name: "Dillan", gender_id: both.id },
                         { name: "Dillon", gender_id: both.id },
-                        { name: "Dylan", gender_id: both.id } ]
+                        { name: "Dylan", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'follower of Demeter'", language_id: greek.id },
-                      [ { name: "Dimitri", gender_id: male.id } ]
+                      [{ name: "Dimitri", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'attractively small and neat'" },
-                      [ { name: "Dinki", gender_id: both.id },
-                        { name: "Dinky", gender_id: both.id } ]
+                      [{ name: "Dinki", gender_id: both.id },
+                        { name: "Dinky", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Bernardino, meaning 'strong bear'", language_id: ancient_german.id },
-                      [ { name: "Dino", gender_id: male.id } ]
+                      [{ name: "Dino", gender_id: male.id }]
                     ],
                     [
                       { description: "Party with bright lights", language_id: english.id },
-                      [ { name: "Disco", gender_id: both.id } ]
+                      [{ name: "Disco", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning repeat" },
-                      [ { name: "Ditto", gender_id: both.id } ]
+                      [{ name: "Ditto", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning divine" },
-                      [ { name: "Diva", gender_id: female.id } ]
+                      [{ name: "Diva", gender_id: female.id }]
                     ],
                     [
                       { description: "Region of the United States, also known as the Old South" },
-                      [ { name: "Dixie", gender_id: both.id } ]
+                      [{ name: "Dixie", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'Richard's son'", language_id: english.id },
-                      [ { name: "Dixon", gender_id: male.id } ]
+                      [{ name: "Dixon", gender_id: male.id }]
                     ],
                     [
                       { description: "Giddy, dazed" },
-                      [ { name: "Dizzy" } ]
+                      [{ name: "Dizzy" }]
                     ],
                     [
                       { description: "Meaning disc jockey, radio announcer" },
-                      [ { name: "DJ" } ]
+                      [{ name: "DJ" }]
                     ],
                     [
                       { description: "Meaning doctor" },
-                      [ { name: "Doc" } ]
+                      [{ name: "Doc" }]
                     ],
                     [
                       { description: "Person who moves quickly" },
-                      [ { name: "Dodger" } ]
+                      [{ name: "Dodger" }]
                     ],
                     [
                       { description: "Meaning 'sweet and soft'" },
-                      [ { name: "Dolce", gender_id: both.id } ]
+                      [{ name: "Dolce", gender_id: both.id }]
                     ],
                     [
                       { description: "Unit of money", language_id: english.id },
-                      [ { name: "Dollar", gender_id: both.id } ]
+                      [{ name: "Dollar", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'gift of God'", language_id: greek.id },
-                      [ { name: "Dolli", gender_id: female.id },
+                      [{ name: "Dolli", gender_id: female.id },
                         { name: "Dollie", gender_id: female.id },
                         { name: "Dolly", gender_id: female.id },
                         { name: "Doris", gender_id: both.id },
-                        { name: "Dorothy", gender_id: female.id } ]
+                        { name: "Dorothy", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'sorrows'", language_id: spanish.id },
-                      [ { name: "Dolores", gender_id: female.id } ]
+                      [{ name: "Dolores", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'Lord'", language_id: latin.id },
-                      [ { name: "Dominic", gender_id: male.id },
-                        { name: "Domino", gender_id: both.id } ]
+                      [{ name: "Dominic", gender_id: male.id },
+                        { name: "Domino", gender_id: both.id }]
                     ],
                     [
                       { description: "French form of Dominic, meaning 'Lord'", language_id: french.id },
-                      [ { name: "Dominique", gender_id: both.id } ]
+                      [{ name: "Dominique", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Donald, meaning 'world ruler'", language_id: gaelic.id },
-                      [ { name: "Don", gender_id: male.id },
+                      [{ name: "Don", gender_id: male.id },
                         { name: "Donnie", gender_id: male.id },
-                        { name: "Donny", gender_id: male.id } ]
+                        { name: "Donny", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'world ruler'", language_id: gaelic.id },
-                      [ { name: "Donald", gender_id: both.id } ]
+                      [{ name: "Donald", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'gift'", language_id: latin.id },
-                      [ { name: "Donatella", gender_id: female.id },
-                        { name: "Dora", gender_id: female.id } ]
+                      [{ name: "Donatella", gender_id: female.id },
+                        { name: "Dora", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'lady of the house'", language_id: latin.id },
-                      [ { name: "Donna", gender_id: female.id } ]
+                      [{ name: "Donna", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'little dark-haired one'", language_id: irish_gaelic.id },
-                      [ { name: "Donovan", gender_id: male.id },
-                        { name: "Donoven", gender_id: male.id } ]
+                      [{ name: "Donovan", gender_id: male.id },
+                        { name: "Donoven", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'one of the early Greeks'", language_id: greek.id },
-                      [ { name: "Dorian", gender_id: both.id },
-                        { name: "Dorien", gender_id: both.id } ]
+                      [{ name: "Dorian", gender_id: both.id },
+                        { name: "Dorien", gender_id: both.id }]
                     ],
                     [
                       { description: "Edible sea fish", language_id: english.id },
-                      [ { name: "Dory", gender_id: both.id } ]
+                      [{ name: "Dory", gender_id: both.id }]
                     ],
                     [
                       { description: "Small round mark", language_id: english.id },
-                      [ { name: "Dot", gender_id: both.id },
-                        { name: "Dots", gender_id: both.id } ]
+                      [{ name: "Dot", gender_id: both.id },
+                        { name: "Dots", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'dark stranger'", language_id: gaelic.id },
-                      [ { name: "Dougal", gender_id: male.id } ]
+                      [{ name: "Dougal", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'dark river'", language_id: scots_gaelic.id },
-                      [ { name: "Douglas", gender_id: both.id } ]
+                      [{ name: "Douglas", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'jackdaw bird'", language_id: middle_english.id, means_bird: true },
-                      [ { name: "Dow", gender_id: male.id } ]
+                      [{ name: "Dow", gender_id: male.id }]
                     ],
                     [
                       { description: "Series of scenes in a sleeping person's mind" },
-                      [ { name: "Dream", gender_id: both.id } ]
+                      [{ name: "Dream", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'manly'", language_id: greek.id },
-                      [ { name: "Drew", gender_id: both.id } ]
+                      [{ name: "Drew", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'shadowy'", language_id: irish_gaelic.id },
-                      [ { name: "Duane", gender_id: male.id },
-                        { name: "Dwayne", gender_id: male.id } ]
+                      [{ name: "Duane", gender_id: male.id },
+                        { name: "Dwayne", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'little dark girl'", language_id: gaelic.id },
-                      [ { name: "Duanna", gender_id: female.id } ]
+                      [{ name: "Duanna", gender_id: female.id }]
                     ],
                     [
                       { description: "Woman with the rank of duke" },
-                      [ { name: "Duchess", gender_id: female.id } ]
+                      [{ name: "Duchess", gender_id: female.id }]
                     ],
                     [
                       { description: "Fellow" },
-                      [ { name: "Dude", gender_id: male.id } ]
+                      [{ name: "Dude", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'woods of Dudda'", language_id: old_english.id },
-                      [ { name: "Dudley", gender_id: male.id } ]
+                      [{ name: "Dudley", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'dark-complexioned'", language_id: irish_gaelic.id },
-                      [ { name: "Duffy", gender_id: both.id } ]
+                      [{ name: "Duffy", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'leader'", language_id: latin.id },
-                      [ { name: "Duke", gender_id: male.id } ]
+                      [{ name: "Duke", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'sweet, pleasing, gentle'" },
-                      [ { name: "Dulce", gender_id: female.id } ]
+                      [{ name: "Dulce", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'brown soldier'", language_id: gaelic.id },
-                      [ { name: "Duncan", gender_id: male.id } ]
+                      [{ name: "Duncan", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'dark rock'", language_id: old_english.id },
-                      [ { name: "Dunstan", gender_id: male.id },
-                        { name: "Dunston", gender_id: male.id } ]
+                      [{ name: "Dunstan", gender_id: male.id },
+                        { name: "Dunston", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'Thor's stone'", language_id: old_norse.id },
-                      [ { name: "Dustin", gender_id: male.id } ]
+                      [{ name: "Dustin", gender_id: male.id }]
                     ],
                     [
                       { description: "Nickname for Dustin, meaning 'Thor's stone'", language_id: old_norse.id },
-                      [ { name: "Dusty", gender_id: both.id } ]
+                      [{ name: "Dusty", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'power'" },
-                      [ { name: "Dyna" } ]
+                      [{ name: "Dyna" }]
                     ],
                     [
                       { description: "Meaning 'stone'", language_id: hebrew.id },
-                      [ { name: "Eben", gender_id: both.id } ]
+                      [{ name: "Eben", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'helpful stone'", language_id: hebrew.id },
-                      [ { name: "Ebenezer", gender_id: male.id } ]
+                      [{ name: "Ebenezer", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'ebony'" },
-                      [ { name: "Ebonaire", gender_id: both.id } ]
+                      [{ name: "Ebonaire", gender_id: both.id }]
                     ],
                     [
                       { description: "Hard black wood from a tropical tree" },
-                      [ { name: "Ebony", gender_id: both.id } ]
+                      [{ name: "Ebony", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'reflected sound'", language_id: greek.id },
-                      [ { name: "Echo", gender_id: female.id } ]
+                      [{ name: "Echo", gender_id: female.id }]
                     ],
                     [
                       { description: "Blocking of light from one body by another", language_id: english.id },
-                      [ { name: "Eclipse", gender_id: both.id } ]
+                      [{ name: "Eclipse", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Edgar, meaning 'wealthy spear'", language_id: ancient_german.id },
-                      [ { name: "Ed", gender_id: male.id },
+                      [{ name: "Ed", gender_id: male.id },
                         { name: "Eddi", gender_id: male.id },
                         { name: "Eddie", gender_id: male.id },
-                        { name: "Eddy", gender_id: male.id } ]
+                        { name: "Eddy", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'son of Edward'", language_id: english.id },
-                      [ { name: "Eddison", gender_id: male.id },
-                        { name: "Edison", gender_id: male.id } ]
+                      [{ name: "Eddison", gender_id: male.id },
+                        { name: "Edison", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'wealthy spear'", language_id: ancient_german.id },
-                      [ { name: "Edgar", gender_id: male.id } ]
+                      [{ name: "Edgar", gender_id: male.id }]
                     ],
                     [
                       { description: "Advantage", language_id: english.id },
-                      [ { name: "Edge", gender_id: both.id } ]
+                      [{ name: "Edge", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'struggle for wealth'", language_id: ancient_german.id },
-                      [ { name: "Edith", gender_id: female.id } ]
+                      [{ name: "Edith", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'renewer'", language_id: hebrew.id },
-                      [ { name: "Edna", gender_id: female.id } ]
+                      [{ name: "Edna", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'wealth protector'", language_id: old_english.id },
-                      [ { name: "Edward", gender_id: both.id } ]
+                      [{ name: "Edward", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'fortunate friend'", language_id: ancient_german.id },
-                      [ { name: "Edwin", gender_id: male.id } ]
+                      [{ name: "Edwin", gender_id: male.id }]
                     ],
                     [
                       { description: "Irish Gaelic form of Elizabeth, meaning 'God's promise'", language_id: irish_gaelic.id },
-                      [ { name: "Eilish", gender_id: female.id } ]
+                      [{ name: "Eilish", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'sun ray', 'shining light'", language_id: greek.id },
-                      [ { name: "Elaine", gender_id: female.id },
+                      [{ name: "Elaine", gender_id: female.id },
                         { name: "Elane", gender_id: female.id },
                         { name: "Elayne", gender_id: female.id },
                         { name: "Elena", gender_id: female.id },
                         { name: "Ellen", gender_id: female.id },
                         { name: "Helen", gender_id: female.id },
-                        { name: "Helena", gender_id: female.id } ]
+                        { name: "Helena", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname for Ellen, meaning 'sun ray'", language_id: greek.id },
-                      [ { name: "Ele", gender_id: female.id },
-                        { name: "Elle", gender_id: female.id } ]
+                      [{ name: "Ele", gender_id: female.id },
+                        { name: "Elle", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'shining one'", language_id: greek.id },
-                      [ { name: "Elektra", gender_id: female.id } ]
+                      [{ name: "Elektra", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'high'", language_id: hebrew.id },
-                      [ { name: "Eli", gender_id: both.id },
+                      [{ name: "Eli", gender_id: both.id },
                         { name: "Elie", gender_id: both.id },
-                        { name: "Ely", gender_id: both.id } ]
+                        { name: "Ely", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'God has answered'", language_id: hebrew.id },
-                      [ { name: "Elia", gender_id: female.id },
+                      [{ name: "Elia", gender_id: female.id },
                         { name: "Eliana", gender_id: female.id },
-                        { name: "Ileana", gender_id: female.id } ]
+                        { name: "Ileana", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'God is Lord'", language_id: greek.id },
-                      [ { name: "Elijah", gender_id: male.id },
+                      [{ name: "Elijah", gender_id: male.id },
                         { name: "Eliot", gender_id: male.id },
                         { name: "Elliot", gender_id: male.id },
-                        { name: "Elliott", gender_id: male.id } ]
+                        { name: "Elliott", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'God's promise'", language_id: hebrew.id },
-                      [ { name: "Elisabeth", gender_id: female.id },
+                      [{ name: "Elisabeth", gender_id: female.id },
                         { name: "Elise", gender_id: female.id },
                         { name: "Elizabeth", gender_id: female.id },
                         { name: "Ellisa", gender_id: female.id },
@@ -2488,373 +2488,373 @@ names_to_create = ([
                         { name: "Lissette", gender_id: female.id },
                         { name: "Ysabeau", gender_id: female.id },
                         { name: "Ysabella", gender_id: female.id },
-                        { name: "Yzabelle", gender_id: female.id } ]
+                        { name: "Yzabelle", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'God is salvation'", language_id: hebrew.id },
-                      [ { name: "Elisha", gender_id: both.id } ]
+                      [{ name: "Elisha", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'goddess'", language_id: hebrew.id },
-                      [ { name: "Ella", gender_id: female.id } ]
+                      [{ name: "Ella", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'entire'", language_id: ancient_german.id },
-                      [ { name: "Elli", gender_id: female.id },
+                      [{ name: "Elli", gender_id: female.id },
                         { name: "Ellie", gender_id: female.id },
-                        { name: "Elly", gender_id: female.id } ]
+                        { name: "Elly", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'regal and celebrated'", language_id: ancient_german.id },
-                      [ { name: "Elmer", gender_id: both.id } ]
+                      [{ name: "Elmer", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'amiable', 'likeable'" },
-                      [ { name: "Elmo", gender_id: male.id } ]
+                      [{ name: "Elmo", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'famous warrior'", language_id: ancient_german.id },
-                      [ { name: "Eloise", gender_id: female.id },
+                      [{ name: "Eloise", gender_id: female.id },
                         { name: "Elouise", gender_id: female.id },
                         { name: "Louis", gender_id: male.id },
                         { name: "Louisa", gender_id: female.id },
                         { name: "Louise", gender_id: female.id },
                         { name: "Loulou", gender_id: female.id },
                         { name: "Ludovic", gender_id: male.id },
-                        { name: "Luigi", gender_id: male.id } ]
+                        { name: "Luigi", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'truly foreign'", language_id: ancient_german.id },
-                      [ { name: "Elva", gender_id: female.id } ]
+                      [{ name: "Elva", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'blonde'", language_id: latin.id },
-                      [ { name: "Elvira", gender_id: female.id } ]
+                      [{ name: "Elvira", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'all wise'" },
-                      [ { name: "Elvis", gender_id: male.id } ]
+                      [{ name: "Elvis", gender_id: male.id }]
                     ],
                     [
                       { description: "Nickname of Emerson (meaning 'home strength'), Emery (meaning 'home strength'), Emily (meaning 'eager') and Emma, (meaning 'universal')" },
-                      [ { name: "Em", gender_id: both.id } ]
+                      [{ name: "Em", gender_id: both.id }]
                     ],
                     [
                       { description: "Bright green precious stone", language_id: english.id },
-                      [ { name: "Emerald", gender_id: both.id } ]
+                      [{ name: "Emerald", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'home strength'", language_id: old_english.id },
-                      [ { name: "Emerson", gender_id: male.id } ]
+                      [{ name: "Emerson", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'eager'", language_id: latin.id },
-                      [ { name: "Emily", gender_id: female.id } ]
+                      [{ name: "Emily", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'universal'", language_id: ancient_german.id },
-                      [ { name: "Ema", gender_id: female.id },
+                      [{ name: "Ema", gender_id: female.id },
                         { name: "Emma", gender_id: female.id },
                         { name: "Emmet", gender_id: male.id },
                         { name: "Emmett", gender_id: male.id },
                         { name: "Emmie", gender_id: female.id },
-                        { name: "Emmy", gender_id: female.id } ]
+                        { name: "Emmy", gender_id: female.id }]
                     ],
                     [
                       { description: "Puzzling person or thing", language_id: english.id },
-                      [ { name: "Enigma", gender_id: both.id } ]
+                      [{ name: "Enigma", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'kernel'", language_id: gaelic.id },
-                      [ { name: "Enya", gender_id: female.id },
-                        { name: "Ethenia", gender_id: female.id } ]
+                      [{ name: "Enya", gender_id: female.id },
+                        { name: "Ethenia", gender_id: female.id }]
                     ],
                     [
                       { description: "A name used in French, meaning 'Eponym'", language_id: greek.id },
-                      [ { name: "Eponine", gender_id: female.id } ]
+                      [{ name: "Eponine", gender_id: female.id }]
                     ],
                     [
                       { description: "The fifth letter of the Greek alphabet, corresponding to the English letter E", language_id: greek.id },
-                      [ { name: "Epsilon", gender_id: both.id } ]
+                      [{ name: "Epsilon", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'complete ruler'", language_id: old_norse.id },
-                      [ { name: "Eric", gender_id: both.id },
+                      [{ name: "Eric", gender_id: both.id },
                         { name: "Erica", gender_id: female.id },
-                        { name: "Erika", gender_id: female.id } ]
+                        { name: "Erika", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'Western Island'", language_id: gaelic.id },
-                      [ { name: "Erin", gender_id: both.id },
+                      [{ name: "Erin", gender_id: both.id },
                         { name: "Erinn", gender_id: both.id },
                         { name: "Eryn", gender_id: both.id },
-                        { name: "Erynn", gender_id: both.id } ]
+                        { name: "Erynn", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Ernest, meaning 'fight to the finish'", language_id: ancient_german.id },
-                      [ { name: "Erni", gender_id: male.id },
-                        { name: "Ernie", gender_id: male.id } ]
+                      [{ name: "Erni", gender_id: male.id },
+                        { name: "Ernie", gender_id: male.id }]
                     ],
                     [
                       { description: "The god of love in Greek mythology", language_id: greek.id },
-                      [ { name: "Eros", gender_id: male.id } ]
+                      [{ name: "Eros", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'myrtle tree'", language_id: persian.id },
-                      [ { name: "Ester", gender_id: female.id },
-                        { name: "Esther", gender_id: female.id } ]
+                      [{ name: "Ester", gender_id: female.id },
+                        { name: "Esther", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'good news'", language_id: greek.id },
-                      [ { name: "Evangeline", gender_id: female.id } ]
+                      [{ name: "Evangeline", gender_id: female.id }]
                     ],
                     [
                       { description: "From an expression whose meaning has been lost", language_id: ancient_german.id },
-                      [ { name: "Evelyn", gender_id: both.id },
-                        { name: "Evelyne", gender_id: both.id } ]
+                      [{ name: "Evelyn", gender_id: both.id },
+                        { name: "Evelyne", gender_id: both.id }]
                     ],
                     [
                       { description: "The highest mountain in the world" },
-                      [ { name: "Everest", gender_id: both.id } ]
+                      [{ name: "Everest", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'craftsman'", language_id: latin.id },
-                      [ { name: "Fabrizia", gender_id: female.id } ]
+                      [{ name: "Fabrizia", gender_id: female.id }]
                     ],
                     [
                       { description: "Imaginary small being with magical powers", language_id: english.id },
-                      [ { name: "Fairy", gender_id: female.id } ]
+                      [{ name: "Fairy", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'belief'" },
-                      [ { name: "Faith", gender_id: female.id } ]
+                      [{ name: "Faith", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Frances, meaning 'French person'", language_id: ancient_german.id },
-                      [ { name: "Fancy", gender_id: female.id } ]
+                      [{ name: "Fancy", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'good looking'", language_id: english.id },
-                      [ { name: "Farah", gender_id: female.id },
-                        { name: "Farrah", gender_id: female.id } ]
+                      [{ name: "Farah", gender_id: female.id },
+                        { name: "Farrah", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'handsome servant'", language_id: old_english.id },
-                      [ { name: "Faron", gender_id: both.id } ]
+                      [{ name: "Faron", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'mixture'", language_id: latin.id },
-                      [ { name: "Farrago", gender_id: both.id } ]
+                      [{ name: "Farrago", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'lucky'", language_id: latin.id },
-                      [ { name: "Faust", gender_id: male.id } ]
+                      [{ name: "Faust", gender_id: male.id }]
                     ],
                     [
                       { description: "From the Old French fei meaning 'fairy'", language_id: old_french.id },
-                      [ { name: "Fay", gender_id: female.id },
-                        { name: "Faye", gender_id: female.id } ]
+                      [{ name: "Fay", gender_id: female.id },
+                        { name: "Faye", gender_id: female.id }]
                     ],
                     [
                       { description: "Spanish and Polish version of Phoebe, meaning 'bright'", language_id: spanish.id },
-                      [ { name: "Febe", gender_id: female.id } ]
+                      [{ name: "Febe", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'dark red'", language_id: greek.id },
-                      [ { name: "Feenix", gender_id: male.id },
+                      [{ name: "Feenix", gender_id: male.id },
                         { name: "Foenix", gender_id: male.id },
                         { name: "Phoenix", gender_id: female.id },
-                        { name: "Phoenyx", gender_id: female.id } ]
+                        { name: "Phoenyx", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'happy'", language_id: latin.id },
-                      [ { name: "Felice", gender_id: both.id },
+                      [{ name: "Felice", gender_id: both.id },
                         { name: "Felicia", gender_id: female.id },
                         { name: "Felicity", gender_id: female.id },
-                        { name: "Felix", gender_id: male.id } ]
+                        { name: "Felix", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'white shoulder'", language_id: gaelic.id },
-                      [ { name: "Fenella", gender_id: female.id } ]
+                      [{ name: "Fenella", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'bold journey'", language_id: ancient_german.id },
-                      [ { name: "Ferdinand", language_id: male.id } ]
+                      [{ name: "Ferdinand", language_id: male.id }]
                     ],
                     [
                       { description: "Nickname of Fergus, meaning 'supreme man'", language_id: scots_gaelic.id },
-                      [ { name: "Fergie", gender_id: male.id } ]
+                      [{ name: "Fergie", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'supreme man'", language_id: scots_gaelic.id },
-                      [ { name: "Fergus", gender_id: male.id } ]
+                      [{ name: "Fergus", gender_id: male.id }]
                     ],
                     [
                       { description: "After the flowerless plant with feathery green leaves", language_id: english.id },
-                      [ { name: "Fern", gender_id: female.id } ]
+                      [{ name: "Fern", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'journey'", language_id: spanish.id },
-                      [ { name: "Fernandez", gender_id: male.id } ]
+                      [{ name: "Fernandez", gender_id: male.id }]
                     ],
                     [
                       { description: "Spanish and Italian form of Ferdinand, meaning 'bold journey'", language_id: ancient_german.id },
-                      [ { name: "Fernando", gender_id: male.id } ]
+                      [{ name: "Fernando", gender_id: male.id }]
                     ],
                     [
                       { description: "From the Latin ferrum meaning 'iron'", language_id: latin.id },
-                      [ { name: "Ferris" } ]
+                      [{ name: "Ferris" }]
                     ],
                     [
                       { description: "Meaning 'faithful'", language_id: latin.id },
-                      [ { name: "Fidel", gender_id: male.id } ]
+                      [{ name: "Fidel", gender_id: male.id }]
                     ],
                     [
                       { description: "Move restlessly", language_id: english.id },
-                      [ { name: "Fidget", gender_id: both.id } ]
+                      [{ name: "Fidget", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Josephine, meaning 'addition'", language_id: hebrew.id },
-                      [ { name: "Fifi", gender_id: female.id } ]
+                      [{ name: "Fifi", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Filip, meaning 'horse lover'", language_id: greek.id },
-                      [ { name: "Fil", gender_id: male.id } ]
+                      [{ name: "Fil", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'horse lover'", language_id: greek.id },
-                      [ { name: "Filip", language_id: male.id },
-                        { name: "Philip", language_id: male.id } ]
+                      [{ name: "Filip", language_id: male.id },
+                        { name: "Philip", language_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'fair'", language_id: irish_gaelic.id },
-                      [ { name: "Fin", gender_id: male.id },
+                      [{ name: "Fin", gender_id: male.id },
                         { name: "Finn", gender_id: male.id },
-                        { name: "Fynn", gender_id: male.id } ]
+                        { name: "Fynn", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'pure hero'", language_id: scots_gaelic.id },
-                      [ { name: "Finley", gender_id: male.id } ]
+                      [{ name: "Finley", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'fair'", language_id: gaelic.id },
-                      [ { name: "Fiona", gender_id: female.id } ]
+                      [{ name: "Fiona", gender_id: female.id }]
                     ],
                     [
                       { description: "Angry or excited feeling" },
-                      [ { name: "Fire", gender_id: both.id },
-                        { name: "Fyre", gender_id: both.id } ]
+                      [{ name: "Fire", gender_id: both.id },
+                        { name: "Fyre", gender_id: both.id }]
                     ],
                     [
                       { description: "Person who catches fish" },
-                      [ { name: "Fisher" } ]
+                      [{ name: "Fisher" }]
                     ],
                     [
                       { description: "Meaning 'son of the king'" },
-                      [ { name: "Fitz", gender_id: male.id },
-                        { name: "Fitzroy", gender_id: male.id } ]
+                      [{ name: "Fitz", gender_id: male.id },
+                        { name: "Fitzroy", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning give off bubbles, hiss or splutter", language_id: english.id },
-                      [ { name: "Fizz", gender_id: both.id } ]
+                      [{ name: "Fizz", gender_id: both.id }]
                     ],
                     [
                       { description: "Become bright red", language_id: english.id },
-                      [ { name: "Flame", gender_id: both.id } ]
+                      [{ name: "Flame", gender_id: both.id }]
                     ],
                     [
                       { description: "Move rapidly", language_id: english.id },
-                      [ { name: "Flash", gender_id: both.id } ]
+                      [{ name: "Flash", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'yellow'", language_id: roman.id },
-                      [ { name: "Flavia" } ]
+                      [{ name: "Flavia" }]
                     ],
                     [
                       { description: "Meaning 'arrow maker'", language_id: old_french.id },
-                      [ { name: "Fletcher", gender_id: male.id } ]
+                      [{ name: "Fletcher", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'flower'", language_id: french.id },
-                      [ { name: "Fleur", gender_id: female.id } ]
+                      [{ name: "Fleur", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'flourishing' or 'flower'", language_id: latin.id },
-                      [ { name: "Flo", gender_id: both.id } ]
+                      [{ name: "Flo", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'flower'", language_id: latin.id },
-                      [ { name: "Flor", gender_id: female.id },
-                        { name: "Flora", gender_id: female.id } ]
+                      [{ name: "Flor", gender_id: female.id },
+                        { name: "Flora", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'flourishing'", language_id: latin.id },
-                      [ { name: "Florence", gender_id: both.id },
-                        { name: "Florenza", gender_id: female.id } ]
+                      [{ name: "Florence", gender_id: both.id },
+                        { name: "Florenza", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Florence, meaning 'flourishing'", language_id: latin.id },
-                      [ { name: "Flossie", gender_id: female.id },
-                        { name: "Flossy", gender_id: female.id } ]
+                      [{ name: "Flossie", gender_id: female.id },
+                        { name: "Flossy", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'flower'", language_id: english.id },
-                      [ { name: "Flower", gender_id: female.id } ]
+                      [{ name: "Flower", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'grey-haired'", language_id: welsh.id },
-                      [ { name: "Floyd", gender_id: male.id },
-                        { name: "Floydd", gender_id: male.id } ]
+                      [{ name: "Floyd", gender_id: male.id },
+                        { name: "Floydd", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning soft mass of fibres or down", language_id: english.id },
-                      [ { name: "Fluff", gender_id: both.id },
-                        { name: "Fluffy", gender_id: both.id } ]
+                      [{ name: "Fluff", gender_id: both.id },
+                        { name: "Fluffy", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'son of the red-haired man'", language_id: gaelic.id },
-                      [ { name: "Flynn", gender_id: male.id } ]
+                      [{ name: "Flynn", gender_id: male.id }]
                     ],
                     [
                       { description: "Trees and undergrowth covering a large area", language_id: english.id },
-                      [ { name: "Forest" },
-                        { name: "Forrest" } ]
+                      [{ name: "Forest" },
+                        { name: "Forrest" }]
                     ],
                     [
                       { description: "A ditch, trench or canal" },
-                      [ { name: "Foss", gender_id: both.id } ]
+                      [{ name: "Foss", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'sheep shearer'", language_id: middle_english.id },
-                      [ { name: "Foster", gender_id: male.id } ]
+                      [{ name: "Foster", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning like a fox" },
-                      [ { name: "Foxy", gender_id: both.id } ]
+                      [{ name: "Foxy", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Frances, meaning 'French person'", language_id: ancient_german.id },
-                      [ { name: "Fran", gender_id: both.id } ]
+                      [{ name: "Fran", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'free'" },
-                      [ { name: "Francesca", gender_id: female.id } ]
+                      [{ name: "Francesca", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'a French person'", language_id: ancient_german.id },
-                      [ { name: "Frances", gender_id: both.id },
+                      [{ name: "Frances", gender_id: both.id },
                         { name: "Francis", gender_id: both.id },
                         { name: "Frank", gender_id: both.id },
                         { name: "Franki", gender_id: both.id },
-                        { name: "Frankie", gender_id: both.id } ]
+                        { name: "Frankie", gender_id: both.id }]
                     ],
                     [
                       { description: "Light brown spots on the skin", language_id: english.id },
-                      [ { name: "Freckles", gender_id: both.id } ]
+                      [{ name: "Freckles", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'peaceful ruler'", language_id: ancient_german.id },
-                      [ { name: "Fred", gender_id: both.id },
+                      [{ name: "Fred", gender_id: both.id },
                         { name: "Freda", gender_id: female.id },
                         { name: "Freddie", gender_id: male.id },
                         { name: "Freddy", gender_id: male.id },
@@ -2866,55 +2866,55 @@ names_to_create = ([
                         { name: "Frits", gender_id: male.id },
                         { name: "Fritz", gender_id: male.id },
                         { name: "Fritzie", gender_id: male.id },
-                        { name: "Fritzy", gender_id: male.id } ]
+                        { name: "Fritzy", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'lady'", language_id: old_norse.id },
-                      [ { name: "Freia", gender_id: female.id },
+                      [{ name: "Freia", gender_id: female.id },
                         { name: "Frejya", gender_id: female.id },
                         { name: "Freya", gender_id: female.id },
-                        { name: "Freyja", gender_id: female.id } ]
+                        { name: "Freyja", gender_id: female.id }]
                     ],
                     [
                       { description: "Day of the week", language_id: english.id },
-                      [ { name: "Friday", gender_id: both.id },
+                      [{ name: "Friday", gender_id: both.id },
                         { name: "Sunday", gender_id: both.id },
                         { name: "Tuesday", gender_id: both.id },
-                        { name: "Wednesday", gender_id: female.id } ]
+                        { name: "Wednesday", gender_id: female.id }]
                     ],
                     [
                       { description: "Abbreviation of San Francisco" },
-                      [ { name: "Frisco", gender_id: both.id } ]
+                      [{ name: "Frisco", gender_id: both.id }]
                     ],
                     [
                       { description: "White frozen dew", language_id: english.id },
-                      [ { name: "Frost", gender_id: both.id } ]
+                      [{ name: "Frost", gender_id: both.id }]
                     ],
                     [
                       { description: "White or grey-haired" },
-                      [ { name: "Frostie", gender_id: both.id },
-                        { name: "Frosty", gender_id: both.id } ]
+                      [{ name: "Frostie", gender_id: both.id },
+                        { name: "Frosty", gender_id: both.id }]
                     ],
                     [
                       { description: "Soft candy made of milk, sugar and butter", language_id: english.id },
-                      [ { name: "Fudge", gender_id: both.id } ]
+                      [{ name: "Fudge", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'soft sweet cake'", language_id: english.id },
-                      [ { name: "Fudgecake", gender_id: both.id } ]
+                      [{ name: "Fudgecake", gender_id: both.id }]
                     ],
                     [
                       { description: "Highest mountain in Japan", language_id: japanese.id },
-                      [ { name: "Fuji", gender_id: both.id } ]
+                      [{ name: "Fuji", gender_id: both.id }]
                     ],
                     [
                       { description: "Fluff, fluffy or frizzy thing", language_id: english.id },
-                      [ { name: "Fuzz", gender_id: both.id },
-                        { name: "Fuzzy", gender_id: both.id } ]
+                      [{ name: "Fuzz", gender_id: both.id },
+                        { name: "Fuzzy", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'hero of God'", language_id: hebrew.id },
-                      [ { name: "Gabby", gender_id: both.id },
+                      [{ name: "Gabby", gender_id: both.id },
                         { name: "Gabi", gender_id: both.id },
                         { name: "Gabrial", gender_id: both.id },
                         { name: "Gabriala", gender_id: female.id },
@@ -2922,138 +2922,138 @@ names_to_create = ([
                         { name: "Gabriele", gender_id: both.id },
                         { name: "Gabriella", gender_id: female.id },
                         { name: "Gabrielle", gender_id: female.id },
-                        { name: "Gaby", gender_id: both.id } ]
+                        { name: "Gaby", gender_id: both.id }]
                     ],
                     [
                       { description: "Small mechanical device or tool", language_id: english.id },
-                      [ { name: "Gadget", gender_id: both.id } ]
+                      [{ name: "Gadget", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning pledge" },
-                      [ { name: "Gage" } ]
+                      [{ name: "Gage" }]
                     ],
                     [
                       { description: "Meaning 'milky white'", language_id: greek.id },
-                      [ { name: "Galatea" } ]
+                      [{ name: "Galatea" }]
                     ],
                     [
                       { description: "System of stars", language_id: english.id },
-                      [ { name: "Galaxy", gender_id: both.id } ]
+                      [{ name: "Galaxy", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'person from Galilee'", language_id: greek.id },
-                      [ { name: "Galileo", gender_id: male.id } ]
+                      [{ name: "Galileo", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'beauty'", language_id: arabic.id },
-                      [ { name: "Gamal", gender_id: male.id } ]
+                      [{ name: "Gamal", gender_id: male.id }]
                     ],
                     [
                       { description: "Form of radiation" },
-                      [ { name: "Gamma", gender_id: both.id } ]
+                      [{ name: "Gamma", gender_id: both.id }]
                     ],
                     [
                       { description: "Type of bird", means_bird: true },
-                      [ { name: "Gannet", gender_id: both.id } ]
+                      [{ name: "Gannet", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'joy'", language_id: greek.id },
-                      [ { name: "Ganos" } ]
+                      [{ name: "Ganos" }]
                     ],
                     [
                       { description: "Meaning 'triangular field'", language_id: old_english.id },
-                      [ { name: "Garfield", gender_id: male.id } ]
+                      [{ name: "Garfield", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'harmless'", language_id: welsh.id },
-                      [ { name: "Garth", gender_id: male.id } ]
+                      [{ name: "Garth", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'spear'", language_id: ancient_german.id },
-                      [ { name: "Garey", gender_id: both.id },
+                      [{ name: "Garey", gender_id: both.id },
                         { name: "Garrie", gender_id: both.id },
                         { name: "Garry", gender_id: both.id },
-                        { name: "Gary", gender_id: both.id } ]
+                        { name: "Gary", gender_id: both.id }]
                     ],
                     [
                       { description: "Elaborately carved animal or creature projecting from a building" },
-                      [ { name: "Gargoyle", gender_id: both.id } ]
+                      [{ name: "Gargoyle", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'kitten'", language_id: spanish.id, means_cat: true },
-                      [ { name: "Gatito" } ]
+                      [{ name: "Gatito" }]
                     ],
                     [
                       { description: "Meaning cat", language_id: italian.id, means_cat: true },
-                      [ { name: "Gatta", gender_id: female.id },
-                        { name: "Gatto", gender_id: male.id } ]
+                      [{ name: "Gatta", gender_id: female.id },
+                        { name: "Gatto", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'white hawk'", language_id: welsh.id },
-                      [ { name: "Gaven", gender_id: male.id },
-                        { name: "Gavin", gender_id: male.id } ]
+                      [{ name: "Gaven", gender_id: male.id },
+                        { name: "Gavin", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'light hearted'" },
-                      [ { name: "Gaye", gender_id: both.id } ]
+                      [{ name: "Gaye", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Gemma or Jemma, meaning 'gem' or 'jewel'", language_id: latin.id },
-                      [ { name: "Gem", gender_id: female.id },
-                        { name: "Jem", gender_id: female.id } ]
+                      [{ name: "Gem", gender_id: female.id },
+                        { name: "Jem", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'gem' or 'jewel'", language_id: latin.id },
-                      [ { name: "Gema", gender_id: female.id },
+                      [{ name: "Gema", gender_id: female.id },
                         { name: "Gemma", gender_id: female.id },
-                        { name: "Jemma", gender_id: female.id } ]
+                        { name: "Jemma", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'creation'", language_id: latin.id },
-                      [ { name: "Genesis", gender_id: both.id } ]
+                      [{ name: "Genesis", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'woman of the people'", language_id: ancient_german.id },
-                      [ { name: "Geneveve", gender_id: female.id },
+                      [{ name: "Geneveve", gender_id: female.id },
                         { name: "Genevieve", gender_id: female.id },
-                        { name: "Genevive", gender_id: female.id } ]
+                        { name: "Genevive", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'greatest'", language_id: mongolian.id },
-                      [ { name: "Genghis", gender_id: male.id } ]
+                      [{ name: "Genghis", gender_id: male.id }]
                     ],
                     [
                       { description: "Magical spirit or goblin" },
-                      [ { name: "Genie", gender_id: both.id } ]
+                      [{ name: "Genie", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'paradise'", language_id: arabic.id },
-                      [ { name: "Genna", gender_id: female.id } ]
+                      [{ name: "Genna", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'farmer'", language_id: greek.id },
-                      [ { name: "George", gender_id: both.id },
+                      [{ name: "George", gender_id: both.id },
                         { name: "Georgeo", gender_id: male.id },
                         { name: "Georgia", gender_id: female.id },
                         { name: "Georgina", gender_id: female.id },
-                        { name: "Giorgio", gender_id: male.id } ]
+                        { name: "Giorgio", gender_id: male.id }]
                     ],
                     [
                       { description: "Nickname of George, meaning 'farmer'", language_id: greek.id },
-                      [ { name: "Georgie", gender_id: both.id } ]
+                      [{ name: "Georgie", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'ruling spear'", language_id: ancient_german.id },
-                      [ { name: "Gerald", gender_id: both.id },
-                        { name: "Geraldine", gender_id: female.id } ]
+                      [{ name: "Gerald", gender_id: both.id },
+                        { name: "Geraldine", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'here goes'" },
-                      [ { name: "Geronimo", gender_id: both.id } ]
+                      [{ name: "Geronimo", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'God's grace'", language_id: hebrew.id },
-                      [ { name: "Gianni", gender_id: male.id },
+                      [{ name: "Gianni", gender_id: male.id },
                         { name: "Giovanni", gender_id: male.id },
                         { name: "Ian", gender_id: male.id },
                         { name: "Ivan", gender_id: male.id },
@@ -3087,276 +3087,276 @@ names_to_create = ([
                         { name: "Jones", gender_id: both.id },
                         { name: "Shan", gender_id: female.id },
                         { name: "Vania", gender_id: male.id },
-                        { name: "Vanya", gender_id: both.id } ]
+                        { name: "Vanya", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'Gilbert's son'", language_id: english.id },
-                      [ { name: "Gibson", gender_id: male.id } ]
+                      [{ name: "Gibson", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'girl midget'", language_id: english.id },
-                      [ { name: "Gidget", gender_id: female.id },
-                        { name: "Gidgette", gender_id: female.id } ]
+                      [{ name: "Gidget", gender_id: female.id },
+                        { name: "Gidgette", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'bright promise'", language_id: old_french.id },
-                      [ { name: "Gilbert", gender_id: male.id } ]
+                      [{ name: "Gilbert", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'small goat'", language_id: greek.id },
-                      [ { name: "Giles", gender_id: male.id } ]
+                      [{ name: "Giles", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'red-headed servant'", language_id: gaelic.id },
-                      [ { name: "Gilroy" } ]
+                      [{ name: "Gilroy" }]
                     ],
                     [
                       { description: "Meaning 'garden'", language_id: hebrew.id },
-                      [ { name: "Gina", gender_id: female.id } ]
+                      [{ name: "Gina", gender_id: female.id }]
                     ],
                     [
                       { description: "Reddish-yellow colour", language_id: english.id },
-                      [ { name: "Ginger", gender_id: both.id } ]
+                      [{ name: "Ginger", gender_id: both.id }]
                     ],
                     [
                       { description: "Short version of Ginger, Reddish-yellow colour", language_id: english.id },
-                      [ { name: "Ginge", gender_id: both.id },
+                      [{ name: "Ginge", gender_id: both.id },
                         { name: "Gingi", gender_id: both.id },
-                        { name: "Gingie", gender_id: both.id } ]
+                        { name: "Gingie", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Virginia, meaning 'maiden'", language_id: latin.id },
-                      [ { name: "Gini", gender_id: female.id },
+                      [{ name: "Gini", gender_id: female.id },
                         { name: "Ginie", gender_id: female.id },
                         { name: "Ginnie", gender_id: female.id },
-                        { name: "Ginny", gender_id: female.id } ]
+                        { name: "Ginny", gender_id: female.id }]
                     ],
                     [
                       { description: "Italian form of Georgia, meaning 'farmer'", language_id: italian.id },
-                      [ { name: "Giorgia", gender_id: female.id } ]
+                      [{ name: "Giorgia", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'immortal'", language_id: italian.id },
-                      [ { name: "Giotto", gender_id: male.id } ]
+                      [{ name: "Giotto", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'from Egypt'", language_id: middle_english.id },
-                      [ { name: "Gipsey", gender_id: female.id },
+                      [{ name: "Gipsey", gender_id: female.id },
                         { name: "Gipsy", gender_id: female.id },
                         { name: "Gypsey", gender_id: female.id },
-                        { name: "Gypsy", gender_id: female.id } ]
+                        { name: "Gypsy", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'pledge'", language_id: german.id },
-                      [ { name: "Giselle", gender_id: female.id } ]
+                      [{ name: "Giselle", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'bright rock'", language_id: old_english.id },
-                      [ { name: "Gladstone", gender_id: male.id } ]
+                      [{ name: "Gladstone", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'valley-dweller'" },
-                      [ { name: "Glen" },
-                        { name: "Glyn" } ]
+                      [{ name: "Glen" },
+                        { name: "Glyn" }]
                     ],
                     [
                       { description: "Meaning 'glory'", language_id: latin.id },
-                      [ { name: "Gloria", gender_id: female.id } ]
+                      [{ name: "Gloria", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'gold'", language_id: yiddish.id },
-                      [ { name: "Goldie", gender_id: female.id },
-                        { name: "Goldy", gender_id: female.id } ]
+                      [{ name: "Goldie", gender_id: female.id },
+                        { name: "Goldy", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'large fortification'", language_id: gaelic.id },
-                      [ { name: "Gordi", gender_id: male.id },
+                      [{ name: "Gordi", gender_id: male.id },
                         { name: "Gordie", gender_id: male.id },
-                        { name: "Gordy", gender_id: male.id } ]
+                        { name: "Gordy", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'blue-eyed'", language_id: celtic.id },
-                      [ { name: "Gorman" } ]
+                      [{ name: "Gorman" }]
                     ],
                     [
                       { description: "Flimsy delicate material", language_id: english.id },
-                      [ { name: "Gossamer" } ]
+                      [{ name: "Gossamer" }]
                     ],
                     [
                       { description: "Meaning 'love and protection of God, unmerited favor'", language_id: english.id },
-                      [ { name: "Grace", gender_id: female.id },
+                      [{ name: "Grace", gender_id: female.id },
                         { name: "Gracia", gender_id: female.id },
-                        { name: "Grecia", gender_id: female.id } ]
+                        { name: "Grecia", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Grace, meaning 'love and protection of God'", language_id: english.id },
-                      [ { name: "Gracey", gender_id: female.id },
+                      [{ name: "Gracey", gender_id: female.id },
                         { name: "Graci", gender_id: female.id },
                         { name: "Gracie", gender_id: female.id },
                         { name: "Gracy", gender_id: female.id },
-                        { name: "Grayce", gender_id: female.id } ]
+                        { name: "Grayce", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'noble'", language_id: irish_gaelic.id },
-                      [ { name: "Grady", gender_id: male.id } ]
+                      [{ name: "Grady", gender_id: male.id }]
                     ],
                     [
                       { description: "Words or drawings scribbled on a wall", language_id: english.id },
-                      [ { name: "Graffiti", gender_id: both.id } ]
+                      [{ name: "Graffiti", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'tall'", language_id: gaelic.id },
-                      [ { name: "Grant", gender_id: male.id } ]
+                      [{ name: "Grant", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning ‘cat’", language_id: archaic.id, means_cat: true },
-                      [ { name: "Gramalkin" },
+                      [{ name: "Gramalkin" },
                         { name: "Graymalkin" },
                         { name: "Greymalkin" },
-                        { name: "Grimalkin" } ]
+                        { name: "Grimalkin" }]
                     ],
                     [
                       { description: "Meaning 'son of a judge'", language_id: english.id },
-                      [ { name: "Grayson", gender_id: male.id },
-                        { name: "Greyson", gender_id: male.id } ]
+                      [{ name: "Grayson", gender_id: male.id },
+                        { name: "Greyson", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'vigilant'", language_id: gaelic.id },
-                      [ { name: "Greer", gender_id: female.id } ]
+                      [{ name: "Greer", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'on the watch'" },
-                      [ { name: "Gregor" } ]
+                      [{ name: "Gregor" }]
                     ],
                     [
                       { description: "Nickname of Margareta, meaning 'pearl'", language_id: greek.id },
-                      [ { name: "Greta", gender_id: female.id } ]
+                      [{ name: "Greta", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning ‘little pearl’" },
-                      [ { name: "Gretchen", gender_id: female.id } ]
+                      [{ name: "Gretchen", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'prince'", language_id: welsh.id },
-                      [ { name: "Griffin", gender_id: male.id },
-                        { name: "Griffith", gender_id: male.id } ]
+                      [{ name: "Griffin", gender_id: male.id },
+                        { name: "Griffith", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'one who lives by a grove'", language_id: old_english.id },
-                      [ { name: "Grover", gender_id: male.id } ]
+                      [{ name: "Grover", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'pure and yielding, whitewave'", language_id: welsh.id },
-                      [ { name: "Guinevere", gender_id: female.id },
-                        { name: "Guinivere", gender_id: female.id } ]
+                      [{ name: "Guinevere", gender_id: female.id },
+                        { name: "Guinivere", gender_id: female.id }]
                     ],
                     [
                       { description: "A type of lolly or candy", language_id: american.id },
-                      [ { name: "Gumdrops", gender_id: both.id } ]
+                      [{ name: "Gumdrops", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Augustus or Augusta, meaning 'revered'", language_id: latin.id },
-                      [ { name: "Gussie", gender_id: both.id },
-                        { name: "Gussy", gender_id: both.id } ]
+                      [{ name: "Gussie", gender_id: both.id },
+                        { name: "Gussy", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'sensible'" },
-                      [ { name: "Guy", gender_id: male.id } ]
+                      [{ name: "Guy", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'white-haired one'", language_id: old_welsh.id },
-                      [ { name: "Gwendolyn" } ]
+                      [{ name: "Gwendolyn" }]
                     ],
                     [
                       { description: "Meaning 'from the heath meadow'" },
-                      [ { name: "Hadleigh" } ]
+                      [{ name: "Hadleigh" }]
                     ],
                     [
                       { description: "Meaning 'dark one'" },
-                      [ { name: "Hadrian" } ]
+                      [{ name: "Hadrian" }]
                     ],
                     [
                       { description: "Meaning 'exalted nature'", language_id: german.id },
-                      [ { name: "Haidee", gender_id: female.id },
+                      [{ name: "Haidee", gender_id: female.id },
                         { name: "Heidi", gender_id: female.id },
-                        { name: "Hidee", gender_id: female.id } ]
+                        { name: "Hidee", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'a flower'", language_id: hawaiian.id },
-                      [ { name: "Haiku", gender_id: female.id } ]
+                      [{ name: "Haiku", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'hay clearing'", language_id: old_english.id },
-                      [ { name: "Hailey", gender_id: female.id } ]
+                      [{ name: "Hailey", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'highborn'" },
-                      [ { name: "Hakan" } ]
+                      [{ name: "Hakan" }]
                     ],
                     [
                       { description: "Meaning 'tumeric'", language_id: indian.id },
-                      [ { name: "Haldi" } ]
+                      [{ name: "Haldi" }]
                     ],
                     [
                       { description: "Nickname of Halimeda (meaning 'the sea') and Haralda (meaning 'commander')" },
-                      [ { name: "Halle", gender_id: female.id },
+                      [{ name: "Halle", gender_id: female.id },
                         { name: "Hallee", gender_id: female.id },
                         { name: "Halley", gender_id: female.id },
-                        { name: "Hallie", gender_id: female.id } ]
+                        { name: "Hallie", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'friend of the god Melkar'", language_id: phoenician.id },
-                      [ { name: "Hamilcar", gender_id: male.id } ]
+                      [{ name: "Hamilcar", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'from the mountain estate'" },
-                      [ { name: "Hamilton" } ]
+                      [{ name: "Hamilton" }]
                     ],
                     [
                       { description: "Meaning 'supplanter'", language_id: english.id },
-                      [ { name: "Hamish", gender_id: male.id } ]
+                      [{ name: "Hamish", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'flower'", language_id: japanese.id },
-                      [ { name: "Hana", gender_id: female.id } ]
+                      [{ name: "Hana", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'smiling', 'pleased'", language_id: english.id },
-                      [ { name: "Happy", gender_id: both.id } ]
+                      [{ name: "Happy", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'courageous', 'strong'", language_id: english.id },
-                      [ { name: "Hardy", gender_id: male.id } ]
+                      [{ name: "Hardy", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'god', 'lion'" },
-                      [ { name: "Hari" } ]
+                      [{ name: "Hari" }]
                     ],
                     [
                       { description: "In varied colours", language_id: english.id },
-                      [ { name: "Harlequin", gender_id: both.id },
-                        { name: "Harlyquin", gender_id: both.id } ]
+                      [{ name: "Harlequin", gender_id: both.id },
+                        { name: "Harlyquin", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'hare wood'", language_id: old_english.id },
-                      [ { name: "Harleigh", gender_id: both.id },
-                        { name: "Harley", gender_id: both.id } ]
+                      [{ name: "Harleigh", gender_id: both.id },
+                        { name: "Harley", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'rocky hill'", language_id: old_english.id },
-                      [ { name: "Harlow", gender_id: male.id } ]
+                      [{ name: "Harlow", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'army commander'", language_id: old_english.id },
-                      [ { name: "Harold", gender_id: both.id } ]
+                      [{ name: "Harold", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'minstrel'" },
-                      [ { name: "Harper" } ]
+                      [{ name: "Harper" }]
                     ],
                     [
                       { description: "Meaning 'home leader'", language_id: ancient_german.id },
-                      [ { name: "Hariet", gender_id: female.id },
+                      [{ name: "Hariet", gender_id: female.id },
                         { name: "Harrie", gender_id: both.id },
                         { name: "Harriet", gender_id: female.id },
                         { name: "Harriett", gender_id: female.id },
@@ -3364,505 +3364,505 @@ names_to_create = ([
                         { name: "Harriot", gender_id: female.id },
                         { name: "Harriott", gender_id: female.id },
                         { name: "Harry", gender_id: male.id },
-                        { name: "Hattie", gender_id: female.id } ]
+                        { name: "Hattie", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'eager for battle'", language_id: celtic.id },
-                      [ { name: "Harvey", gender_id: male.id } ]
+                      [{ name: "Harvey", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'heathen'", language_id: ancient_german.id },
-                      [ { name: "Hayden", gender_id: male.id },
-                        { name: "Haydn", gender_id: male.id } ]
+                      [{ name: "Hayden", gender_id: male.id },
+                        { name: "Haydn", gender_id: male.id }]
                     ],
                     [
                       { description: "A nutty-brown colour", language_id: english.id },
-                      [ { name: "Hazel", gender_id: female.id } ]
+                      [{ name: "Hazel", gender_id: female.id }]
                     ],
                     [
                       { description: "Evergreen plant with purple, pink or white flowers", language_id: english.id },
-                      [ { name: "Heather", gender_id: female.id } ]
+                      [{ name: "Heather", gender_id: female.id }]
                     ],
                     [
                       { description: "Place or state of bliss, paradise", language_id: english.id },
-                      [ { name: "Heaven", gender_id: female.id } ]
+                      [{ name: "Heaven", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'a support or stay'", language_id: greek.id },
-                      [ { name: "Hector", gender_id: male.id },
-                        { name: "Hektor", gender_id: male.id } ]
+                      [{ name: "Hector", gender_id: male.id },
+                        { name: "Hektor", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'clearing of heather'", language_id: old_english.id },
-                      [ { name: "Hedley", gender_id: male.id } ]
+                      [{ name: "Hedley", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'successful'", language_id: old_norse.id },
-                      [ { name: "Helga", gender_id: female.id } ]
+                      [{ name: "Helga", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'the sun'", language_id: greek.id },
-                      [ { name: "Helio" } ]
+                      [{ name: "Helio" }]
                     ],
                     [
                       { description: "Meaning 'house' and 'power'", language_id: ancient_german.id },
-                      [ { name: "Henri", gender_id: male.id },
-                        { name: "Henry", gender_id: male.id } ]
+                      [{ name: "Henri", gender_id: male.id },
+                        { name: "Henry", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'home ruler'" },
-                      [ { name: "Henrietta", gender_id: female.id },
-                        { name: "Henriette", gender_id: female.id } ]
+                      [{ name: "Henrietta", gender_id: female.id },
+                        { name: "Henriette", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Herbert, meaning 'illustrious warrior'", language_id: ancient_german.id },
-                      [ { name: "Herb", gender_id: male.id },
+                      [{ name: "Herb", gender_id: male.id },
                         { name: "Herbie", gender_id: male.id },
-                        { name: "Herby", gender_id: male.id } ]
+                        { name: "Herby", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'illustrious warrior'", language_id: ancient_german.id },
-                      [ { name: "Herbert", gender_id: male.id } ]
+                      [{ name: "Herbert", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'Hera's glory'", language_id: greek.id },
-                      [ { name: "Hercules", gender_id: male.id } ]
+                      [{ name: "Hercules", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'messenger'", language_id: greek.id },
-                      [ { name: "Hermione", gender_id: female.id } ]
+                      [{ name: "Hermione", gender_id: female.id }]
                     ],
                     [
                       { description: "Someone admired for their great deeds", language_id: english.id },
-                      [ { name: "Hero", gender_id: both.id } ]
+                      [{ name: "Hero", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'the myrtle tree' or 'star'", language_id: hebrew.id },
-                      [ { name: "Hester", gender_id: female.id } ]
+                      [{ name: "Hester", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'maker of rivers'", language_id: iroquoian.id },
-                      [ { name: "Hiawatha", gender_id: male.id } ]
+                      [{ name: "Hiawatha", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'cheerful'", language_id: latin.id },
-                      [ { name: "Hilary", gender_id: both.id },
+                      [{ name: "Hilary", gender_id: both.id },
                         { name: "Hillary", gender_id: both.id },
                         { name: "Larisa", gender_id: female.id },
-                        { name: "Larissa", gender_id: female.id } ]
+                        { name: "Larissa", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'battlemaid', 'merciful'" },
-                      [ { name: "Hilda" } ]
+                      [{ name: "Hilda" }]
                     ],
                     [
                       { description: "Meaning 'hill dweller'", language_id: norwegian.id },
-                       [ { name: "Hoagy", gender_id: male.id } ]
+                       [{ name: "Hoagy", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'gracious'" },
-                      [ { name: "Holden" } ]
+                      [{ name: "Holden" }]
                     ],
                     [
                       { description: "Prickly-leaved evergreen shrub used as a decoration", language_id: english.id },
-                      [ { name: "Holley", gender_id: female.id },
-                        { name: "Holly", gender_id: female.id } ]
+                      [{ name: "Holley", gender_id: female.id },
+                        { name: "Holly", gender_id: female.id }]
                     ],
                     [
                       { description: "Suburb in Los Angeles, California, home of celebrities and movies", language_id: american.id },
-                      [ { name: "Hollywood", gender_id: both.id } ]
+                      [{ name: "Hollywood", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'a pledge'" },
-                      [ { name: "Homer" } ]
+                      [{ name: "Homer" }]
                     ],
                     [
                       { description: "Meaning 'sweet', 'sweetie'", language_id: english.id },
-                      [ { name: "Honee", gender_id: female.id },
+                      [{ name: "Honee", gender_id: female.id },
                         { name: "Honey", gender_id: female.id },
-                        { name: "Hunny", gender_id: female.id } ]
+                        { name: "Hunny", gender_id: female.id }]
                     ],
                     [
                       { description: "Melon with pale skin and sweet green flesh", language_id: english.id },
-                      [ { name: "Honeydew", gender_id: both.id } ]
+                      [{ name: "Honeydew", gender_id: both.id }]
                     ],
                     [
                       { description: "White flower", language_id: english.id },
-                      [ { name: "Honeysuckle", gender_id: both.id } ]
+                      [{ name: "Honeysuckle", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'large farm'", language_id: ancient_german.id },
-                      [ { name: "Hoover", gender_id: male.id } ]
+                      [{ name: "Hoover", gender_id: male.id }]
                     ],
                     [
                       { description: "Feeling of expectation and desire", language_id: english.id },
-                      [ { name: "Hope", gender_id: female.id } ]
+                      [{ name: "Hope", gender_id: female.id }]
                     ],
                     [
                       { description: "One who hops", language_id: english.id },
-                      [ { name: "Hopper", gender_id: both.id } ]
+                      [{ name: "Hopper", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'worthy'" },
-                      [ { name: "Horatio", gender_id: male.id } ]
+                      [{ name: "Horatio", gender_id: male.id }]
                     ],
                     [
                       { description: "Famous escape artist" },
-                      [ { name: "Houdini", gender_id: male.id } ]
+                      [{ name: "Houdini", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'popular'" },
-                      [ { name: "Howard" } ]
+                      [{ name: "Howard" }]
                     ],
                     [
                       { description: "North American tree with berries" },
-                      [ { name: "Huckleberry", gender_id: both.id } ]
+                      [{ name: "Huckleberry", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'soul'", language_id: norman_french.id },
-                      [ { name: "Hudson", gender_id: male.id } ]
+                      [{ name: "Hudson", gender_id: male.id }]
                     ],
                     [
                       { description: "Nickname of Hugh, meaning 'soul, mind'", language_id: ancient_german.id },
-                      [ { name: "Huey", gender_id: male.id } ]
+                      [{ name: "Huey", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'soul, mind'", language_id: ancient_german.id },
-                      [ { name: "Hugo", gender_id: male.id } ]
+                      [{ name: "Hugo", gender_id: male.id }]
                     ],
                     [
                       { description: "One who hunts", language_id: english.id },
-                      [ { name: "Hunt", gender_id: male.id },
-                        { name: "Hunter", gender_id: male.id } ]
+                      [{ name: "Hunt", gender_id: male.id },
+                        { name: "Hunter", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'from the Hunters meadow'" },
-                      [ { name: "Huntly" } ]
+                      [{ name: "Huntly" }]
                     ],
                     [
                       { description: "Plant with fragrant bell-shaped flowers", language_id: english.id },
-                      [ { name: "Hyacinth", gender_id: female.id } ]
+                      [{ name: "Hyacinth", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'violet flower'", language_id: greek.id },
-                      [ { name: "Ianthe", gender_id: female.id },
-                        { name: "Iolanthe" } ]
+                      [{ name: "Ianthe", gender_id: female.id },
+                        { name: "Iolanthe" }]
                     ],
                     [
                       { description: "Frozen water", language_id: english.id },
-                      [ { name: "Ice", gender_id: both.id } ]
+                      [{ name: "Ice", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'departed glory'" },
-                      [ { name: "Ichabod" } ]
+                      [{ name: "Ichabod" }]
                     ],
                     [
                       { description: "Meaning 'work'", language_id: ancient_german.id },
-                      [ { name: "Ida", gender_id: female.id } ]
+                      [{ name: "Ida", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'thought'", language_id: latin.id },
-                      [ { name: "Idea", gender_id: female.id } ]
+                      [{ name: "Idea", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'tree'", language_id: hebrew.id },
-                      [ { name: "Ilana", gender_id: female.id } ]
+                      [{ name: "Ilana", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Ilana, meaning 'tree'", language_id: hebrew.id },
-                      [ { name: "Illa", gender_id: female.id } ]
+                      [{ name: "Illa", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'universal battle'", language_id: ancient_german.id },
-                      [ { name: "Imelda", gender_id: female.id } ]
+                      [{ name: "Imelda", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'image', 'imaginative'" },
-                      [ { name: "Imogen", gender_id: female.id } ]
+                      [{ name: "Imogen", gender_id: female.id }]
                     ],
                     [
                       { description: "After the country" },
-                      [ { name: "India", gender_id: female.id } ]
+                      [{ name: "India", gender_id: female.id }]
                     ],
                     [
                       { description: "An American state" },
-                      [ { name: "Indiana", gender_id: both.id },
-                        { name: "Texas", gender_id: both.id } ]
+                      [{ name: "Indiana", gender_id: both.id },
+                        { name: "Texas", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'independent'", language_id: english.id },
-                      [ { name: "Indie", gender_id: both.id },
-                        { name: "Indy", gender_id: both.id } ]
+                      [{ name: "Indie", gender_id: both.id },
+                        { name: "Indy", gender_id: both.id }]
                     ],
                     [
                       { description: "Deep blue dye" },
-                      [ { name: "Indigo", gender_id: both.id } ]
+                      [{ name: "Indigo", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'famous Ing'", language_id: old_norse.id },
-                      [ { name: "Inge", gender_id: both.id } ]
+                      [{ name: "Inge", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'beauty of Ing'", language_id: old_norse.id },
-                      [ { name: "Ingrid", gender_id: female.id } ]
+                      [{ name: "Ingrid", gender_id: female.id }]
                     ],
                     [
                       { description: "Coloured, marked, covered or smeared with ink", language_id: english.id },
-                      [ { name: "Inky", gender_id: both.id } ]
+                      [{ name: "Inky", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'dove'", language_id: hebrew.id, means_bird: true },
-                      [ { name: "Iona", gender_id: female.id },
+                      [{ name: "Iona", gender_id: female.id },
                         { name: "Jemima", gender_id: female.id },
                         { name: "Jemimah", gender_id: female.id },
-                        { name: "Jonah", gender_id: male.id } ]
+                        { name: "Jonah", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'rainbow'" },
-                      [ { name: "Iris", gender_id: both.id },
-                        { name: "Isa" } ]
+                      [{ name: "Iris", gender_id: both.id },
+                        { name: "Isa" }]
                     ],
                     [
                       { description: "Meaning 'he laughs'", language_id: hebrew.id },
-                      [ { name: "Isaac", gender_id: male.id },
+                      [{ name: "Isaac", gender_id: male.id },
                         { name: "Issac", gender_id: male.id },
-                        { name: "Izak", gender_id: male.id } ]
+                        { name: "Izak", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'Queen of Isis'" },
-                      [ { name: "Isadora", gender_id: female.id } ]
+                      [{ name: "Isadora", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'gift of Isis'", language_id: greek.id },
-                      [ { name: "Isador", gender_id: male.id },
-                        { name: "Isadore", gender_id: male.id } ]
+                      [{ name: "Isador", gender_id: male.id },
+                        { name: "Isadore", gender_id: male.id }]
                     ],
                     [
                       { description: "Egyptian Goddess" },
-                      [ { name: "Isis", gender_id: female.id } ]
+                      [{ name: "Isis", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'reward'", language_id: hebrew.id },
-                      [ { name: "Issachar", gender_id: male.id } ]
+                      [{ name: "Issachar", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'archer-soldier'", language_id: old_norse.id },
-                      [ { name: "Ivor", gender_id: male.id } ]
+                      [{ name: "Ivor", gender_id: male.id }]
                     ],
                     [
                       { description: "Hard creamy-white substance forming elephant tusks", language_id: english.id },
-                      [ { name: "Ivorie", gender_id: both.id },
-                        { name: "Ivory", gender_id: both.id } ]
+                      [{ name: "Ivorie", gender_id: both.id },
+                        { name: "Ivory", gender_id: both.id }]
                     ],
                     [
                       { description: "Climbing evergreen shrub", language_id: english.id },
-                      [ { name: "Ivy", gender_id: female.id } ]
+                      [{ name: "Ivy", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'gift from Isis'", language_id: greek.id },
-                      [ { name: "Izy", gender_id: female.id },
+                      [{ name: "Izy", gender_id: female.id },
                         { name: "Izzi", gender_id: female.id },
                         { name: "Izzie", gender_id: female.id },
-                        { name: "Izzy", gender_id: female.id } ]
+                        { name: "Izzy", gender_id: female.id }]
                     ],
                     [
                       { description: "After the letters J.C.", language_id: english.id },
-                      [ { name: "Jacey", gender_id: female.id } ]
+                      [{ name: "Jacey", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'beautiful'" },
-                      [ { name: "Jacinders" } ]
+                      [{ name: "Jacinders" }]
                     ],
                     [
                       { description: "Nickname of Jack, meaning 'God's grace'", language_id: hebrew.id },
-                      [ { name: "Jacki", gender_id: both.id },
+                      [{ name: "Jacki", gender_id: both.id },
                         { name: "Jackie", gender_id: both.id },
-                        { name: "Jacky", gender_id: both.id } ]
+                        { name: "Jacky", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'heel'", language_id: hebrew.id },
-                      [ { name: "Jacob", gender_id: male.id } ]
+                      [{ name: "Jacob", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'supplanter'", language_id: french.id },
-                      [ { name: "Jacques", gender_id: male.id } ]
+                      [{ name: "Jacques", gender_id: male.id }]
                     ],
                     [
                       { description: "Nickname of Jacqueline, meaning 'one who trips up another and takes her place'", language_id: hebrew.id },
-                      [ { name: "Jacqui", gender_id: female.id } ]
+                      [{ name: "Jacqui", gender_id: female.id }]
                     ],
                     [
                       { description: "Green semi-precious stone" },
-                      [ { name: "Jade" } ]
+                      [{ name: "Jade" }]
                     ],
                     [
                       { description: "A peddler" },
-                      [ { name: "Jagger" } ]
+                      [{ name: "Jagger" }]
                     ],
                     [
                       { description: "Meaning 'one who trips up another and takes his place'", language_id: hebrew.id },
-                      [ { name: "Jaimie", gender_id: both.id },
+                      [{ name: "Jaimie", gender_id: both.id },
                         { name: "James", gender_id: both.id },
                         { name: "Jamey", gender_id: both.id },
                         { name: "Jamie", gender_id: both.id },
-                        { name: "Jaymie", gender_id: both.id } ]
+                        { name: "Jaymie", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Jacob, meaning 'heel'", language_id: hebrew.id },
-                      [ { name: "Jake", gender_id: male.id } ]
+                      [{ name: "Jake", gender_id: male.id }]
                     ],
                     [
                       { description: "After the country" },
-                      [ { name: "Jamaica", gender_id: female.id } ]
+                      [{ name: "Jamaica", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'beautiful'" },
-                      [ { name: "Jamilla" } ]
+                      [{ name: "Jamilla" }]
                     ],
                     [
                       { description: "Meaning 'his favour'" },
-                      [ { name: "Jan" } ]
+                      [{ name: "Jan" }]
                     ],
                     [
                       { description: "Meaning 'cry out' or 'to sing'", language_id: hebrew.id },
-                      [ { name: "Jaren", gender_id: male.id } ]
+                      [{ name: "Jaren", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'sweet and amiable'", language_id: english.id },
-                      [ { name: "Jasmin", gender_id: female.id },
+                      [{ name: "Jasmin", gender_id: female.id },
                         { name: "Jasmine", gender_id: female.id },
                         { name: "Jazmin", gender_id: female.id },
                         { name: "Jazmine", gender_id: female.id },
                         { name: "Jazzmin", gender_id: female.id },
-                        { name: "Jazzmine", gender_id: female.id } ]
+                        { name: "Jazzmine", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'healer'", language_id: greek.id },
-                      [ { name: "Jason", gender_id: male.id },
-                        { name: "Jayce", gender_id: male.id } ]
+                      [{ name: "Jason", gender_id: male.id },
+                        { name: "Jayce", gender_id: male.id }]
                     ],
                     [
                       { description: "Coffee" },
-                      [ { name: "Java", gender_id: both.id } ]
+                      [{ name: "Java", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'happy'", language_id: latin.id },
-                      [ { name: "Jay", gender_id: both.id },
-                        { name: "Jayjay", gender_id: both.id } ]
+                      [{ name: "Jay", gender_id: both.id },
+                        { name: "Jayjay", gender_id: both.id }]
                     ],
                     [
                       { description: "Type of music with a strong rhythm", language_id: english.id },
-                      [ { name: "Jaz", gender_id: both.id },
-                        { name: "Jazz", gender_id: both.id } ]
+                      [{ name: "Jaz", gender_id: both.id },
+                        { name: "Jazz", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'stylish'", language_id: english.id },
-                      [ { name: "Jazzie", gender_id: both.id },
-                        { name: "Jazzy", gender_id: both.id } ]
+                      [{ name: "Jazzie", gender_id: both.id },
+                        { name: "Jazzy", gender_id: both.id }]
                     ],
                     [
                       { description: "Derived from the French 'Jeanne', meaning 'God's grace'", language_id: hebrew.id },
-                      [ { name: "Jean", gender_id: female.id } ]
+                      [{ name: "Jean", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Jean, meaning 'God's grace'", language_id: hebrew.id },
-                      [ { name: "Jeanie", gender_id: female.id },
+                      [{ name: "Jeanie", gender_id: female.id },
                         { name: "Jeannie", gender_id: female.id },
-                        { name: "Jeany", gender_id: female.id } ]
+                        { name: "Jeany", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Jennifer, meaning 'pure and yielding, white wave'", language_id: welsh.id },
-                      [ { name: "Jenee", gender_id: female.id },
+                      [{ name: "Jenee", gender_id: female.id },
                         { name: "Jenni", gender_id: female.id },
                         { name: "Jennie", gender_id: female.id },
-                        { name: "Jenny", gender_id: female.id } ]
+                        { name: "Jenny", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning ‘pure and yielding, white wave’", language_id: welsh.id },
-                      [ { name: "Jenifur", gender_id: female.id },
+                      [{ name: "Jenifur", gender_id: female.id },
                         { name: "Jennifer", gender_id: female.id },
-                        { name: "Jennyfur", gender_id: female.id } ]
+                        { name: "Jennyfur", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'paradise'", language_id: arabic.id },
-                      [ { name: "Jenna", gender_id: female.id } ]
+                      [{ name: "Jenna", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'God will uplift'" },
-                      [ { name: "Jeremiah" } ]
+                      [{ name: "Jeremiah" }]
                     ],
                     [
                       { description: "Meaning 'exalted'", language_id: hebrew.id },
-                      [ { name: "Jeremy", gender_id: male.id } ]
+                      [{ name: "Jeremy", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'sanctified name'", language_id: greek.id },
-                      [ { name: "Jerome", gender_id: male.id } ]
+                      [{ name: "Jerome", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'exalted' or 'holy'", language_id: greek.id },
-                      [ { name: "Jerri", gender_id: both.id },
-                        { name: "Jerry", gender_id: both.id } ]
+                      [{ name: "Jerri", gender_id: both.id },
+                        { name: "Jerry", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'he beholds'", language_id: hebrew.id },
-                      [ { name: "Jesicca", gender_id: female.id },
+                      [{ name: "Jesicca", gender_id: female.id },
                         { name: "Jesika", gender_id: female.id },
                         { name: "Jesyka", gender_id: female.id },
-                        { name: "Jessica", gender_id: female.id } ]
+                        { name: "Jessica", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'the Lord exists'", language_id: hebrew.id },
-                      [ { name: "Jess", gender_id: both.id } ]
+                      [{ name: "Jess", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'gift'", language_id: hebrew.id },
-                      [ { name: "Jesse", gender_id: both.id },
+                      [{ name: "Jesse", gender_id: both.id },
                         { name: "Jessi", gender_id: female.id },
                         { name: "Jessie", gender_id: both.id },
-                        { name: "Jessy", gender_id: both.id } ]
+                        { name: "Jessy", gender_id: both.id }]
                     ],
                     [
                       { description: "Glossy black colour", language_id: english.id },
-                      [ { name: "Jet", gender_id: both.id },
-                        { name: "Jett", gender_id: both.id } ]
+                      [{ name: "Jet", gender_id: both.id },
+                        { name: "Jett", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'wealth and abundance'", language_id: hebrew.id },
-                      [ { name: "Jethro", gender_id: male.id } ]
+                      [{ name: "Jethro", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'a gem'", language_id: english.id },
-                      [ { name: "Jewel", gender_id: both.id },
-                        { name: "Jewell", gender_id: both.id } ]
+                      [{ name: "Jewel", gender_id: both.id },
+                        { name: "Jewell", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'Lord Baal'", language_id: phoenician.id },
-                      [ { name: "Jezebel", gender_id: female.id } ]
+                      [{ name: "Jezebel", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'youthful'", language_id: latin.id },
-                      [ { name: "Jill", gender_id: female.id },
-                        { name: "Jillian", gender_id: female.id } ]
+                      [{ name: "Jill", gender_id: female.id },
+                        { name: "Jillian", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'favoured'" },
-                      [ { name: "Jim" } ]
+                      [{ name: "Jim" }]
                     ],
                     [
                       { description: "Nickname of James (meaning 'one who trips up another and takes his place')" },
-                      [ { name: "Jimi", gender_id: both.id },
+                      [{ name: "Jimi", gender_id: both.id },
                         { name: "Jimmi", gender_id: both.id },
                         { name: "Jimmie", gender_id: both.id },
-                        { name: "Jimmy", gender_id: both.id } ]
+                        { name: "Jimmy", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname for any name beginning with the letter J", language_id: english.id },
-                      [ { name: "JJ", gender_id: both.id } ]
+                      [{ name: "JJ", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'addition'", language_id: hebrew.id },
-                      [ { name: "Jo", gender_id: both.id },
+                      [{ name: "Jo", gender_id: both.id },
                         { name: "Jodee", gender_id: female.id },
                         { name: "Jodi", gender_id: both.id },
                         { name: "Jodie", gender_id: both.id },
@@ -3872,465 +3872,465 @@ names_to_create = ([
                         { name: "Josefina", gender_id: female.id },
                         { name: "Joseph", gender_id: both.id },
                         { name: "Josephine", gender_id: female.id },
-                        { name: "Josie", gender_id: female.id } ]
+                        { name: "Josie", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'celestial'" },
-                      [ { name: "Joel" } ]
+                      [{ name: "Joel" }]
                     ],
                     [
                       { description: "Nickname of Joseph, meaning 'addition'", language_id: hebrew.id },
-                      [ { name: "Joey", gender_id: both.id } ]
+                      [{ name: "Joey", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'gift of God'", language_id: hebrew.id },
-                      [ { name: "Johnathan", gender_id: male.id },
+                      [{ name: "Johnathan", gender_id: male.id },
                         { name: "Jonathan", gender_id: male.id },
                         { name: "Jonathen", gender_id: male.id },
-                        { name: "Jonathon", gender_id: male.id } ]
+                        { name: "Jonathon", gender_id: male.id }]
                     ],
                     [
                       { description: "Nickname of John, meaning 'God's grace'", language_id: hebrew.id },
-                      [ { name: "Johnnie", gender_id: both.id },
+                      [{ name: "Johnnie", gender_id: both.id },
                         { name: "Johnny", gender_id: both.id },
-                        { name: "Jonny", gender_id: both.id } ]
+                        { name: "Jonny", gender_id: both.id }]
                     ],
                     [
                       { description: "Combination of Jo and the ending -lene", language_id: english.id },
-                      [ { name: "Joeleen", gender_id: female.id },
+                      [{ name: "Joeleen", gender_id: female.id },
                         { name: "Joelene", gender_id: female.id },
                         { name: "Joeline", gender_id: female.id },
                         { name: "Joleen", gender_id: female.id },
-                        { name: "Jolene", gender_id: female.id } ]
+                        { name: "Jolene", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'flowing down'", language_id: hebrew.id },
-                      [ { name: "Jordan", gender_id: both.id },
+                      [{ name: "Jordan", gender_id: both.id },
                         { name: "Jorden", gender_id: both.id },
                         { name: "Jordin", gender_id: both.id },
                         { name: "Jordon", gender_id: both.id },
-                        { name: "Jordyn", gender_id: both.id } ]
+                        { name: "Jordyn", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Josef, meaning 'addition'", language_id: hebrew.id },
-                      [ { name: "Jos", gender_id: male.id } ]
+                      [{ name: "Jos", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'addition'", language_id: spanish.id },
-                      [ { name: "Jose", gender_id: male.id } ]
+                      [{ name: "Jose", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'God is my salvation'", language_id: hebrew.id },
-                      [ { name: "Josh", gender_id: male.id },
-                        { name: "Joshua", gender_id: male.id } ]
+                      [{ name: "Josh", gender_id: male.id },
+                        { name: "Joshua", gender_id: male.id }]
                     ],
                     [
                       { description: "Nickname of Jocelyn, meaning 'a member of the Germanic tribe, the Gauts'", language_id: ancient_german.id },
-                      [ { name: "Joss", gender_id: both.id } ]
+                      [{ name: "Joss", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'God has been gracious'" },
-                      [ { name: "Juan" },
-                        { name: "Juanita" } ]
+                      [{ name: "Juan" },
+                        { name: "Juanita" }]
                     ],
                     [
                       { description: "Meaning 'praised'", language_id: hebrew.id },
-                      [ { name: "Jude", gender_id: both.id },
-                        { name: "Judy", gender_id: female.id } ]
+                      [{ name: "Jude", gender_id: both.id },
+                        { name: "Judy", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'Jove's descendant'", language_id: latin.id },
-                      [ { name: "Julee", gender_id: both.id },
+                      [{ name: "Julee", gender_id: both.id },
                         { name: "Juli", gender_id: both.id },
                         { name: "Julia", gender_id: female.id },
                         { name: "Julie", gender_id: both.id },
                         { name: "Jullie", gender_id: both.id },
                         { name: "Juliet", gender_id: female.id },
                         { name: "Juliett", gender_id: female.id },
-                        { name: "Juliette", gender_id: female.id } ]
+                        { name: "Juliette", gender_id: female.id }]
                     ],
                     [
                       { description: "Belonging to Julius" },
-                      [ { name: "Jules" } ]
+                      [{ name: "Jules" }]
                     ],
                     [
                       { description: "Meaning 'Jove's descendant'", language_id: greek.id },
-                      [ { name: "Julio", gender_id: male.id } ]
+                      [{ name: "Julio", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'kind'" },
-                      [ { name: "Julius" } ]
+                      [{ name: "Julius" }]
                     ],
                     [
                       { description: "Meaning 'pearl'", language_id: arabic.id },
-                      [ { name: "Jumana", gender_id: female.id } ]
+                      [{ name: "Jumana", gender_id: female.id }]
                     ],
                     [
                       { description: "Younger in age", language_id: english.id },
-                      [ { name: "Junior", gender_id: both.id } ]
+                      [{ name: "Junior", gender_id: both.id }]
                     ],
                     [
                       { description: "Evergreen shrub with dark berries" },
-                      [ { name: "Juniper" } ]
+                      [{ name: "Juniper" }]
                     ],
                     [
                       { description: "Leader of the gods in Greek mythology", language_id: greek.id },
-                      [ { name: "Jupiter" } ]
+                      [{ name: "Jupiter" }]
                     ],
                     [
                       { description: "Fairness", language_id: english.id },
-                      [ { name: "Justice", gender_id: both.id } ]
+                      [{ name: "Justice", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'just'", language_id: latin.id },
-                      [ { name: "Justin", gender_id: both.id },
-                        { name: "Justine", gender_id: female.id } ]
+                      [{ name: "Justin", gender_id: both.id },
+                        { name: "Justine", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'companion'", language_id: arabic.id },
-                      [ { name: "Kaden", gender_id: male.id } ]
+                      [{ name: "Kaden", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'lovely'", language_id: greek.id },
-                      [ { name: "Kahle", gender_id: female.id } ]
+                      [{ name: "Kahle", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'head of hair'", language_id: latin.id },
-                      [ { name: "Kaiser", gender_id: male.id } ]
+                      [{ name: "Kaiser", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'black'", gender_id: hindi.id },
-                      [ { name: "Kala" } ]
+                      [{ name: "Kala" }]
                     ],
                     [
                       { description: "Meaning 'beautiful form'", language_id: greek.id },
-                      [ { name: "Kaleidoscope", gender_id: both.id } ]
+                      [{ name: "Kaleidoscope", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'pure'", language_id: hawaiian.id },
-                      [ { name: "Kalena", gender_id: female.id },
-                        { name: "Keke", gender_id: female.id } ]
+                      [{ name: "Kalena", gender_id: female.id },
+                        { name: "Keke", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'beloved'", language_id: arabic.id },
-                      [ { name: "Kalin", gender_id: female.id } ]
+                      [{ name: "Kalin", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'friend of ships'" },
-                      [ { name: "Kalvin", gender_id: male.id } ]
+                      [{ name: "Kalvin", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'sought after'" },
-                      [ { name: "Kama" } ]
+                      [{ name: "Kama" }]
                     ],
                     [
                       { description: "Meaning 'exacting'" },
-                      [ { name: "Kane" } ]
+                      [{ name: "Kane" }]
                     ],
                     [
                       { description: "Meaning 'health', 'generous' or 'fervent' depending on the character used for the name", language_id: chinese.id },
-                      [ { name: "Kang", gender_id: male.id } ]
+                      [{ name: "Kang", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'crow'", language_id: siouan.id, means_bird: true },
-                      [ { name: "Kangi", gender_id: male.id } ]
+                      [{ name: "Kangi", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'a man'" },
-                      [ { name: "Karl", gender_id: male.id } ]
+                      [{ name: "Karl", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'fate'", language_id: sanskrit.id },
-                      [ { name: "Karma", gender_id: female.id } ]
+                      [{ name: "Karma", gender_id: female.id }]
                     ],
                     [
                       { description: "Unheeded prophetess" },
-                      [ { name: "Kasandra", gender_id: female.id } ]
+                      [{ name: "Kasandra", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'money', 'cash'" },
-                      [ { name: "Kasha" } ]
+                      [{ name: "Kasha" }]
                     ],
                     [
                       { description: "Meaning 'herald of peace'" },
-                      [ { name: "Kasimar" } ]
+                      [{ name: "Kasimar" }]
                     ],
                     [
                       { description: "Nickname of Katherine, Katrina or Katarina, meaning 'pure'", language_id: greek.id },
-                      [ { name: "Kat", gender_id: female.id } ]
+                      [{ name: "Kat", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Katherine and Kathryn, meaning 'pure'", language_id: greek.id },
-                      [ { name: "Katie", gender_id: female.id },
+                      [{ name: "Katie", gender_id: female.id },
                         { name: "Katy", gender_id: female.id },
-                        { name: "Kaytee", gender_id: female.id } ]
+                        { name: "Kaytee", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'home', 'yew tree' or 'rock'", language_id: japanese.id },
-                      [ { name: "Kaya", gender_id: female.id },
-                        { name: "Kayah", gender_id: female.id } ]
+                      [{ name: "Kaya", gender_id: female.id },
+                        { name: "Kayah", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'cat'", language_id: old_german.id, means_cat: true },
-                      [ { name: "Kazza" } ]
+                      [{ name: "Kazza" }]
                     ],
                     [
                       { description: "Alternative spelling for Casey, meaning 'brave'" },
-                      [ { name: "KC", gender_id: both.id } ]
+                      [{ name: "KC", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'small flame'", language_id: gaelic.id },
-                      [ { name: "Keegan", gender_id: both.id },
-                        { name: "Keighan", gender_id: both.id } ]
+                      [{ name: "Keegan", gender_id: both.id },
+                        { name: "Keighan", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'alive and well'", language_id: arabic.id },
-                      [ { name: "Keesha", gender_id: female.id },
-                        { name: "Keisha", gender_id: female.id } ]
+                      [{ name: "Keesha", gender_id: female.id },
+                        { name: "Keisha", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'boomerang'" },
-                      [ { name: "Keiley", gender_id: female.id },
+                      [{ name: "Keiley", gender_id: female.id },
                         { name: "Kylee", gender_id: female.id },
                         { name: "Kyley", gender_id: female.id },
                         { name: "Kylie", gender_id: female.id },
-                        { name: "Kyllie", gender_id: female.id } ]
+                        { name: "Kyllie", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'forest'", language_id: ancient_celtic.id },
-                      [ { name: "Keith", gender_id: both.id } ]
+                      [{ name: "Keith", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'strife, war'", language_id: irish_gaelic.id },
-                      [ { name: "Keli", gender_id: both.id },
+                      [{ name: "Keli", gender_id: both.id },
                         { name: "Kelie", gender_id: both.id },
                         { name: "Kelle", gender_id: both.id },
                         { name: "Kellee", gender_id: both.id },
                         { name: "Kelli", gender_id: both.id },
-                        { name: "Kelly", gender_id: both.id } ]
+                        { name: "Kelly", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'slim and fair'", language_id: gaelic.id },
-                      [ { name: "Kellin", gender_id: female.id } ]
+                      [{ name: "Kellin", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'victorious ship'", language_id: old_english.id },
-                      [ { name: "Kelcey", gender_id: both.id },
+                      [{ name: "Kelcey", gender_id: both.id },
                         { name: "Kelci", gender_id: both.id },
                         { name: "Kelcie", gender_id: both.id },
                         { name: "Kelcy", gender_id: both.id },
-                        { name: "Kelsey", gender_id: both.id } ]
+                        { name: "Kelsey", gender_id: both.id }]
                     ],
                     [
                       { description: "A beam fastened over a ships keel to add structural strength" },
-                      [ { name: "Kelson" } ]
+                      [{ name: "Kelson" }]
                     ],
                     [
                       { description: "Meaning 'the Kent river valley'", language_id: ancient_german.id },
-                      [ { name: "Kendal", gender_id: both.id },
+                      [{ name: "Kendal", gender_id: both.id },
                         { name: "Kendall", gender_id: both.id },
                         { name: "Kendel", gender_id: both.id },
                         { name: "Kendell", gender_id: both.id },
-                        { name: "Kendle", gender_id: both.id } ]
+                        { name: "Kendle", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'greatest champion'", language_id: welsh.id },
-                      [ { name: "Kendra", gender_id: female.id } ]
+                      [{ name: "Kendra", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'God's grace'", language_id: hawaiian.id },
-                      [ { name: "Keoni", gender_id: male.id } ]
+                      [{ name: "Keoni", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'black-haired'", language_id: irish_gaelic.id },
-                      [ { name: "Keri", gender_id: both.id },
+                      [{ name: "Keri", gender_id: both.id },
                         { name: "Kerri", gender_id: both.id },
                         { name: "Kerrie", gender_id: both.id },
-                        { name: "Kerry", gender_id: both.id } ]
+                        { name: "Kerry", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'jealous of no-one'", language_id: gaelic.id },
-                      [ { name: "Kermit", gender_id: male.id } ]
+                      [{ name: "Kermit", gender_id: male.id }]
                     ],
                     [
                       { description: "Tomato sauce for hotdogs, fries or burgers", language_id: american.id },
-                      [ { name: "Ketchup", gender_id: both.id } ]
+                      [{ name: "Ketchup", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'handsome beloved'", language_id: irish_gaelic.id },
-                      [ { name: "Keven", gender_id: both.id },
+                      [{ name: "Keven", gender_id: both.id },
                         { name: "Kevin", gender_id: both.id },
-                        { name: "Kevyn", gender_id: both.id } ]
+                        { name: "Kevyn", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'to succeed'", language_id: arabic.id },
-                      [ { name: "Khalif", gender_id: male.id } ]
+                      [{ name: "Khalif", gender_id: male.id }]
                     ],
                     [
                       { description: "A title given to various dignitaries" },
-                      [ { name: "Khan" } ]
+                      [{ name: "Khan" }]
                     ],
                     [
                       { description: "Nickname of Kiana, from Anna, meaning 'favoured grace'" },
-                      [ { name: "Kia", gender_id: female.id } ]
+                      [{ name: "Kia", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'narrow, straight'", language_id: gaelic.id },
-                      [ { name: "Kiel", gender_id: both.id },
+                      [{ name: "Kiel", gender_id: both.id },
                         { name: "Kile", gender_id: both.id },
                         { name: "Kylah", gender_id: female.id },
-                        { name: "Kyle", gender_id: both.id } ]
+                        { name: "Kyle", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'black'", language_id: celtic.id },
-                      [ { name: "Kieran" } ]
+                      [{ name: "Kieran" }]
                     ],
                     [
                       { description: "Meaning 'Cyneburg's field'", language_id: old_english.id },
-                      [ { name: "Kim", gender_id: female.id },
+                      [{ name: "Kim", gender_id: female.id },
                         { name: "Kimberlee", gender_id: both.id },
                         { name: "Kimberly", gender_id: both.id },
                         { name: "Kymberlee", gender_id: both.id },
                         { name: "Kymberli", gender_id: both.id },
                         { name: "Kymberlie", gender_id: both.id },
-                        { name: "Kymberly", gender_id: both.id } ]
+                        { name: "Kymberly", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Kimberly, meaning 'Cyneburg's field'", language_id: old_english.id },
-                      [ { name: "Kimi", gender_id: female.id },
+                      [{ name: "Kimi", gender_id: female.id },
                         { name: "Kimme", gender_id: female.id },
                         { name: "Kimmi", gender_id: female.id },
                         { name: "Kimmie", gender_id: female.id },
                         { name: "Kimmy", gender_id: female.id },
-                        { name: "Kimy", gender_id: female.id } ]
+                        { name: "Kimy", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'from the highest pass'" },
-                      [ { name: "Kincaid" } ]
+                      [{ name: "Kincaid" }]
                     ],
                     [
                       { description: "Someone regarded as supreme", language_id: english.id },
-                      [ { name: "King", gender_id: male.id } ]
+                      [{ name: "King", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'King's wood'", language_id: old_english.id },
-                      [ { name: "Kingsley", gender_id: both.id } ]
+                      [{ name: "Kingsley", gender_id: both.id }]
                     ],
                     [
                       { description: "Short for Kipper, smoked herring, a type of fish" },
-                      [ { name: "Kip", gender_id: both.id } ]
+                      [{ name: "Kip", gender_id: both.id }]
                     ],
                     [
                       { description: "Smoked herring, a type of fish" },
-                      [ { name: "Kipper", gender_id: both.id } ]
+                      [{ name: "Kipper", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'Lord'", language_id: greek.id },
-                      [ { name: "Kira", gender_id: female.id },
+                      [{ name: "Kira", gender_id: female.id },
                         { name: "Kyra", gender_id: female.id },
-                        { name: "Kyrah", gender_id: female.id } ]
+                        { name: "Kyrah", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'settlement by a church'", language_id: ancient_german.id },
-                      [ { name: "Kirby", gender_id: both.id } ]
+                      [{ name: "Kirby", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'the amaranth flower'", language_id: sanskrit.id },
-                      [ { name: "Kiri", gender_id: both.id },
-                        { name: "Kirri", gender_id: both.id } ]
+                      [{ name: "Kiri", gender_id: both.id },
+                        { name: "Kirri", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'Christian'" },
-                      [ { name: "Kirk" } ]
+                      [{ name: "Kirk" }]
                     ],
                     [
                       { description: "After one of the foundation Devon Rex cats" },
-                      [ { name: "Kirlee", gender_id: male.id } ]
+                      [{ name: "Kirlee", gender_id: male.id }]
                     ],
                     [
                       { description: "Destiny, fate" },
-                      [ { name: "Kismet" } ]
+                      [{ name: "Kismet" }]
                     ],
                     [
                       { description: "Brown coloured flightless New Zealand bird", means_bird: true },
-                      [ { name: "Kiwi", gender_id: both.id } ]
+                      [{ name: "Kiwi", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'pristine' or 'happy generation' depending on the characters used", language_id: japanese.id },
-                      [ { name: "Kiyo", gender_id: female.id } ]
+                      [{ name: "Kiyo", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'boy born on Tuesday'", language_id: akan.id },
-                      [ { name: "Kobla", gender_id: male.id } ]
+                      [{ name: "Kobla", gender_id: male.id }]
                     ],
                     [
                       { description: "A large bear found on Kodiak Island, Alaska" },
-                      [ { name: "Kodiak", gender_id: both.id } ]
+                      [{ name: "Kodiak", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'helpful'" },
-                      [ { name: "Kodie", gender_id: male.id },
-                        { name: "Kody", gender_id: male.id } ]
+                      [{ name: "Kodie", gender_id: male.id },
+                        { name: "Kody", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'boy born on Friday'", language_id: akan.id },
-                      [ { name: "Kofi", gender_id: both.id } ]
+                      [{ name: "Kofi", gender_id: both.id }]
                     ],
                     [
                       { description: "Powder for darkening the eyelids" },
-                      [ { name: "Kohl" } ]
+                      [{ name: "Kohl" }]
                     ],
                     [
                       { description: "Meaning 'victorious people'", language_id: french.id },
-                      [ { name: "Koko", gender_id: both.id } ]
+                      [{ name: "Koko", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'sky', 'emptiness' or 'the void', depending on the tone used in saying this name", language_id: chinese.id },
-                      [ { name: "Kong", gender_id: male.id } ]
+                      [{ name: "Kong", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'cat'", language_id: russian.id, means_cat: true },
-                      [ { name: "Koshka" } ]
+                      [{ name: "Koshka" }]
                     ],
                     [
                       { description: "Nickname of Kristen and Kristina, meaning 'Christ's follower'", language_id: latin.id },
-                      [ { name: "Kristy", gender_id: female.id } ]
+                      [{ name: "Kristy", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'free from worry', 'broad', 'generous' or 'comfortable' depending on the character used to depict the name", language_id: chinese.id },
-                      [ { name: "Kuan", gender_id: male.id } ]
+                      [{ name: "Kuan", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'boy born on Saturday'", language_id: akan.id },
-                      [ { name: "Kwame", gender_id: male.id } ]
+                      [{ name: "Kwame", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'beautiful'", language_id: old_french.id },
-                      [ { name: "Labella", gender_id: female.id } ]
+                      [{ name: "Labella", gender_id: female.id }]
                     ],
                     [
                       { description: "Ornamental open-weave fabric or trimming", language_id: english.id },
-                      [ { name: "Lace", gender_id: female.id } ]
+                      [{ name: "Lace", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'like lace'", language_id: english.id },
-                      [ { name: "Lacey", gender_id: female.id },
+                      [{ name: "Lacey", gender_id: female.id },
                         { name: "Lacie", gender_id: female.id },
                         { name: "Lacy", gender_id: female.id },
                         { name: "Layce", gender_id: female.id },
-                        { name: "Laycie", gender_id: female.id } ]
+                        { name: "Laycie", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'thief'", language_id: italian.id },
-                      [ { name: "Ladro" } ]
+                      [{ name: "Ladro" }]
                     ],
                     [
                       { description: "Women of good social position", language_id: english.id },
-                      [ { name: "Lady", gender_id: female.id } ]
+                      [{ name: "Lady", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'night beauty'", language_id: arabic.id },
-                      [ { name: "Laila", gender_id: female.id },
+                      [{ name: "Laila", gender_id: female.id },
                         { name: "Layla", gender_id: female.id },
                         { name: "Leila", gender_id: female.id },
                         { name: "Leilah", gender_id: female.id },
@@ -4340,39 +4340,39 @@ names_to_create = ([
                         { name: "Lila", gender_id: female.id },
                         { name: "Lilah", gender_id: female.id },
                         { name: "Lilla", gender_id: female.id },
-                        { name: "Lyla", gender_id: female.id } ]
+                        { name: "Lyla", gender_id: female.id }]
                     ],
                     [
                       { description: "The eleventh letter of the Greek alphabet, corresponding to the English letter L"},
-                      [ { name: "Lambda", gender_id: both.id } ]
+                      [{ name: "Lambda", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'famous land'", language_id: ancient_german.id },
-                      [ { name: "Lambert", gender_id: male.id } ]
+                      [{ name: "Lambert", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'light'" },
-                      [ { name: "Lana", gender_id: female.id } ]
+                      [{ name: "Lana", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'helper'" },
-                      [ { name: "Lance" } ]
+                      [{ name: "Lance" }]
                     ],
                     [
                       { description: "Meaning 'a server'" },
-                      [ { name: "Lancelot", gender_id: male.id } ]
+                      [{ name: "Lancelot", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'long hill'", language_id: old_english.id },
-                      [ { name: "Landon", gender_id: both.id } ]
+                      [{ name: "Landon", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'shining famous one'", language_id: latin.id },
-                      [ { name: "Lara", gender_id: female.id } ]
+                      [{ name: "Lara", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'the bay or laurel plant'", language_id: latin.id },
-                      [ { name: "Lari", gender_id: female.id },
+                      [{ name: "Lari", gender_id: female.id },
                         { name: "Laura", gender_id: female.id },
                         { name: "Laurah", gender_id: female.id },
                         { name: "Lauren", gender_id: both.id },
@@ -4381,271 +4381,271 @@ names_to_create = ([
                         { name: "Lora", gender_id: female.id },
                         { name: "Lorah", gender_id: female.id },
                         { name: "Loren", gender_id: both.id },
-                        { name: "Lorinda", gender_id: female.id } ]
+                        { name: "Lorinda", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'crowned with laurel'" },
-                      [ { name: "Larry" } ]
+                      [{ name: "Larry" }]
                     ],
                     [
                       { description: "A young girl", language_id: english.id },
-                      [ { name: "Lassie", gender_id: female.id } ]
+                      [{ name: "Lassie", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'gently kind, peaceful'", language_id: arabic.id },
-                      [ { name: "Latifa", gender_id: female.id } ]
+                      [{ name: "Latifa", gender_id: female.id }]
                     ],
                     [
                       { description: "Milky coffee" },
-                      [ { name: "Latte", gender_id: both.id } ]
+                      [{ name: "Latte", gender_id: both.id }]
                     ],
                     [
                       { description: "Shrub with fragrant purple flowers", language_id: english.id },
-                      [ { name: "Lavenda", gender_id: female.id },
-                        { name: "Lavender", gender_id: female.id } ]
+                      [{ name: "Lavenda", gender_id: female.id },
+                        { name: "Lavender", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Elayne, meaning 'sun ray'", language_id: greek.id },
-                      [ { name: "Layne", gender_id: female.id } ]
+                      [{ name: "Layne", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'delicate'", language_id: hebrew.id },
-                      [ { name: "Lea", gender_id: female.id },
+                      [{ name: "Lea", gender_id: female.id },
                         { name: "Leah", gender_id: female.id },
                         { name: "Leia", gender_id: female.id },
-                        { name: "Leigha", gender_id: female.id } ]
+                        { name: "Leigha", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'lion-like'", means_cat: true },
-                      [ { name: "Leander" },
+                      [{ name: "Leander" },
                         { name: "Leandra" },
-                        { name: "Lionel" } ]
+                        { name: "Lionel" }]
                     ],
                     [
                       { description: "Meaning 'lion man'", language_id: greek.id },
-                      [ { name: "Leandros", gender_id: male.id } ]
+                      [{ name: "Leandros", gender_id: male.id }]
                     ],
                     [
                       { description: "Mythological wife of Zeus" },
-                      [ { name: "Leda", gender_id: female.id } ]
+                      [{ name: "Leda", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'meadow'", language_id: old_english.id },
-                      [ { name: "Lee", gender_id: both.id },
-                        { name: "Leigh", gender_id: both.id } ]
+                      [{ name: "Lee", gender_id: both.id },
+                        { name: "Leigh", gender_id: both.id }]
                     ],
                     [
                       { description: "Story handed down from the past" },
-                      [ { name: "Legend", gender_id: both.id } ]
+                      [{ name: "Legend", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'heavenly child'" },
-                      [ { name: "Leilani", gender_id: female.id } ]
+                      [{ name: "Leilani", gender_id: female.id }]
                     ],
                     [
                       { description: "Short form of Helena, meaning 'sun ray', 'shining light'", language_id: greek.id },
-                      [ { name: "Leina", gender_id: female.id },
+                      [{ name: "Leina", gender_id: female.id },
                         { name: "Lena", gender_id: female.id },
                         { name: "Leyna", gender_id: female.id },
-                        { name: "Lina", gender_id: female.id } ]
+                        { name: "Lina", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname for Leonard, meaning 'lion strength'", language_id: old_german.id },
-                      [ { name: "Lennie", gender_id: male.id },
-                        { name: "Lenny", gender_id: male.id } ]
+                      [{ name: "Lennie", gender_id: male.id },
+                        { name: "Lenny", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'lion'", language_id: latin.id, means_cat: true },
-                      [ { name: "Leo", gender_id: male.id },
+                      [{ name: "Leo", gender_id: male.id },
                         { name: "Leon", gender_id: both.id },
-                        { name: "Leone", gender_id: both.id } ]
+                        { name: "Leone", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'lion strength'", language_id: old_german.id },
-                      [ { name: "Leonard", gender_id: male.id } ]
+                      [{ name: "Leonard", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'bold as a lion'" },
-                      [ { name: "Leonardo", gender_id: male.id } ]
+                      [{ name: "Leonardo", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'brave people'", language_id: old_german.id },
-                      [ { name: "Leopold", gender_id: male.id } ]
+                      [{ name: "Leopold", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'the king'", language_id: french.id },
-                      [ { name: "Leroy", gender_id: male.id } ]
+                      [{ name: "Leroy", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'glad'" },
-                      [ { name: "Letitia" } ]
+                      [{ name: "Letitia" }]
                     ],
                     [
                       { description: "Meaning 'grey'", language_id: greek.id },
-                      [ { name: "Leucos" } ]
+                      [{ name: "Leucos" }]
                     ],
                     [
                       { description: "Meaning 'connected'", language_id: hebrew.id },
-                      [ { name: "Levi", gender_id: male.id } ]
+                      [{ name: "Levi", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'well-known'" },
-                      [ { name: "Lewis" } ]
+                      [{ name: "Lewis" }]
                     ],
                     [
                       { description: "Nickname of Alexandra, meaning 'protector of men'", language_id: greek.id },
-                      [ { name: "Lexi", gender_id: female.id },
+                      [{ name: "Lexi", gender_id: female.id },
                         { name: "Lexie", gender_id: female.id },
-                        { name: "Lexy", gender_id: female.id } ]
+                        { name: "Lexy", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'defender of mankind'", language_id: american.id },
-                      [ { name: "Lexis", gender_id: male.id } ]
+                      [{ name: "Lexis", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'determined protector'", language_id: gaelic.id },
-                      [ { name: "Liam", gender_id: male.id } ]
+                      [{ name: "Liam", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'freedom'", language_id: english.id },
-                      [ { name: "Liberty", gender_id: both.id } ]
+                      [{ name: "Liberty", gender_id: both.id }]
                     ],
                     [
                       { description: "Shortened form of Lillian, meaning 'lily flower'" },
-                      [ { name: "Lil", gender_id: female.id },
-                        { name: "Lill", gender_id: female.id } ]
+                      [{ name: "Lil", gender_id: female.id },
+                        { name: "Lill", gender_id: female.id }]
                     ],
                     [
                       { description: "Large flowered plant growing from a bulb", language_id: english.id },
-                      [ { name: "Lili", gender_id: female.id },
+                      [{ name: "Lili", gender_id: female.id },
                         { name: "Lillee", gender_id: female.id },
                         { name: "Lillie", gender_id: female.id },
                         { name: "Lilly", gender_id: female.id },
                         { name: "Lily", gender_id: female.id },
-                        { name: "Lylli", gender_id: female.id } ]
+                        { name: "Lylli", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'lily flower'" },
-                      [ { name: "Lillian", gender_id: female.id } ]
+                      [{ name: "Lillian", gender_id: female.id }]
                     ],
                     [
                       { description: "Large luxurious car", language_id: english.id },
-                      [ { name: "Limo", gender_id: both.id } ]
+                      [{ name: "Limo", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'lake colony'", language_id: latin.id },
-                      [ { name: "Lincoln", gender_id: male.id } ]
+                      [{ name: "Lincoln", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'pretty'", language_id: spanish.id },
-                      [ { name: "Linda", gender_id: female.id },
+                      [{ name: "Linda", gender_id: female.id },
                         { name: "Lynda", gender_id: female.id },
-                        { name: "Lynnda", gender_id: female.id } ]
+                        { name: "Lynnda", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'from the linden tree hill'" },
-                      [ { name: "Lindbergh" } ]
+                      [{ name: "Lindbergh" }]
                     ],
                     [
                       { description: "Meaning 'lime tree hill'", language_id: old_english.id },
-                      [ { name: "Linden", gender_id: both.id },
+                      [{ name: "Linden", gender_id: both.id },
                         { name: "Lynden", gender_id: male.id },
-                        { name: "Lyndon", gender_id: male.id } ]
+                        { name: "Lyndon", gender_id: male.id }]
                     ],
                     [
                       { description: "Nickname of Linda, meaning 'pretty'", language_id: spanish.id },
-                      [ { name: "Lindi", gender_id: female.id } ]
+                      [{ name: "Lindi", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'Lincoln's marsh'", language_id: old_english.id },
-                      [ { name: "Lindsay", gender_id: both.id },
+                      [{ name: "Lindsay", gender_id: both.id },
                         { name: "Lindsey", gender_id: both.id },
-                        { name: "Lindsy", gender_id: both.id } ]
+                        { name: "Lindsy", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Linden or Lyndon, meaning 'lime tree hill'", language_id: old_english.id },
-                      [ { name: "Lindy", gender_id: both.id } ]
+                      [{ name: "Lindy", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'intelligent', 'dainty', 'reach high', 'small bell', 'water chestnut' or 'a long time' depending on the tone and character associated with the name", language_id: chinese.id },
-                      [ { name: "Ling", gender_id: female.id } ]
+                      [{ name: "Ling", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'ruddy-complexioned'", language_id: irish_gaelic.id },
-                      [ { name: "Linn", gender_id: both.id },
+                      [{ name: "Linn", gender_id: both.id },
                         { name: "Lyn", gender_id: both.id },
                         { name: "Lynn", gender_id: both.id },
-                        { name: "Lynne", gender_id: both.id } ]
+                        { name: "Lynne", gender_id: both.id }]
                     ],
                     [
                       { description: "Known as the 'king of the beasts'", language_id: english.id, means_cat: true },
-                      [ { name: "Lion", gender_id: male.id } ]
+                      [{ name: "Lion", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'has the heart of a lion'", means_cat: true },
-                      [ { name: "Lionheart", gender_id: both.id } ]
+                      [{ name: "Lionheart", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Carmelita, meaning 'orchard'", language_id: hebrew.id },
-                      [ { name: "Lita", gender_id: female.id } ]
+                      [{ name: "Lita", gender_id: female.id }]
                     ],
                     [
                       { description: "Reptile with four legs and a long tail", language_id: english.id },
-                      [ { name: "Lizard", gender_id: both.id } ]
+                      [{ name: "Lizard", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'like a lion'", language_id: welsh.id, means_cat: true },
-                      [ { name: "Llewellyn", gender_id: male.id },
-                        { name: "Llewelyn", gender_id: male.id } ]
+                      [{ name: "Llewellyn", gender_id: male.id },
+                        { name: "Llewelyn", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'grey'", language_id: celtic.id },
-                      [ { name: "Lloyd" } ]
+                      [{ name: "Lloyd" }]
                     ],
                     [
                       { description: "Meaning 'hollow'", language_id: gaelic.id },
-                      [ { name: "Logan", gender_id: both.id } ]
+                      [{ name: "Logan", gender_id: both.id }]
                     ],
                     [
                       { description: "In Norse mythology, the god who constantly created discord and mischief" },
-                      [ { name: "Loki" } ]
+                      [{ name: "Loki" }]
                     ],
                     [
                       { description: "Meaning 'sorrow'" },
-                      [ { name: "Lola" } ]
+                      [{ name: "Lola" }]
                     ],
                     [
                       { description: "City in Britain" },
-                      [ { name: "London" } ]
+                      [{ name: "London" }]
                     ],
                     [
                       { description: "Meaning 'ambush cliff'", language_id: ancient_german.id },
-                      [ { name: "Lorelei", gender_id: female.id } ]
+                      [{ name: "Lorelei", gender_id: female.id }]
                     ],
                     [
                       { description: "From the lotus flower" },
-                      [ { name: "Lotus", gender_id: both.id } ]
+                      [{ name: "Lotus", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'enjoyment'", language_id: hawaiian.id },
-                      [ { name: "Louanna", gender_id: female.id },
+                      [{ name: "Louanna", gender_id: female.id },
                         { name: "Luana", gender_id: female.id },
-                        { name: "Luanna", gender_id: female.id } ]
+                        { name: "Luanna", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Louis and Louise, meaning 'famous warrior'", language_id: ancient_german.id },
-                      [ { name: "Louie", gender_id: both.id },
+                      [{ name: "Louie", gender_id: both.id },
                         { name: "Luewe", gender_id: both.id },
-                        { name: "Lui", gender_id: both.id } ]
+                        { name: "Lui", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'one from Lucania'", language_id: greek.id },
-                      [ { name: "Lucca", gender_id: both.id },
-                        { name: "Luka", gender_id: both.id } ]
+                      [{ name: "Lucca", gender_id: both.id },
+                        { name: "Luka", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'light'", language_id: latin.id },
-                      [ { name: "Lucas", gender_id: male.id },
+                      [{ name: "Lucas", gender_id: male.id },
                         { name: "Luci", gender_id: female.id },
                         { name: "Luciano", gender_id: male.id },
                         { name: "Lucie", gender_id: female.id },
@@ -4655,510 +4655,510 @@ names_to_create = ([
                         { name: "Lucinda", gender_id: female.id },
                         { name: "Lucy", gender_id: female.id },
                         { name: "Lulu", gender_id: female.id },
-                        { name: "Lux", gender_id: both.id } ]
+                        { name: "Lux", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'light'", language_id: italian.id },
-                      [ { name: "Lucia", gender_id: female.id } ]
+                      [{ name: "Lucia", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'light bearer'", language_id: latin.id },
-                      [ { name: "Lucifer", gender_id: male.id } ]
+                      [{ name: "Lucifer", gender_id: male.id }]
                     ],
                     [
                       { description: "Resulting from good luck", language_id: english.id },
-                      [ { name: "Lucky", gender_id: both.id } ]
+                      [{ name: "Lucky", gender_id: both.id }]
                     ],
                     [
                       { description: "German form of Louise, meaning 'famous warrior'", language_id: german.id },
-                      [ { name: "Luise", gender_id: female.id } ]
+                      [{ name: "Luise", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'light'", language_id: greek.id },
-                      [ { name: "Luke", gender_id: male.id } ]
+                      [{ name: "Luke", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'light'", language_id: french.id },
-                      [ { name: "Lumiere" } ]
+                      [{ name: "Lumiere" }]
                     ],
                     [
                       { description: "Meaning 'moon'", gender_id: italian.id },
-                      [ { name: "Luna" } ]
+                      [{ name: "Luna" }]
                     ],
                     [
                       { description: "Soft brightness of a surface", language_id: english.id },
-                      [ { name: "Lustre", gender_id: both.id } ]
+                      [{ name: "Lustre", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'luxurious'" },
-                      [ { name: "Luxor" } ]
+                      [{ name: "Luxor" }]
                     ],
                     [
                       { description: "Meaning 'woman from Lydia'", language_id: greek.id },
-                      [ { name: "Lydia", gender_id: female.id } ]
+                      [{ name: "Lydia", gender_id: female.id }]
                     ],
                     [
                       { description: "Wild animal of the cat family", language_id: english.id, means_cat: true },
-                      [ { name: "Lynx", gender_id: both.id } ]
+                      [{ name: "Lynx", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'loveable'", language_id: old_french.id },
-                      [ { name: "Mabel", gender_id: female.id } ]
+                      [{ name: "Mabel", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'son'", language_id: gaelic.id },
-                      [ { name: "Mac", gender_id: male.id },
-                        { name: "Mack", gender_id: male.id } ]
+                      [{ name: "Mac", gender_id: male.id },
+                        { name: "Mack", gender_id: male.id }]
                     ],
                     [
                       { description: "Creamy yellow Italian pasta with a cheesy sauce", language_id: italian.id },
-                      [ { name: "Macaroni", gender_id: both.id } ]
+                      [{ name: "Macaroni", gender_id: both.id }]
                     ],
                     [
                       { description: "Manly creature", language_id: english.id },
-                      [ { name: "Macho", gender_id: male.id } ]
+                      [{ name: "Macho", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'fire-born'", language_id: gaelic.id },
-                      [ { name: "Mackenzie", gender_id: both.id } ]
+                      [{ name: "Mackenzie", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'weapon'", language_id: old_french.id },
-                      [ { name: "Macy", gender_id: both.id } ]
+                      [{ name: "Macy", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Madison and Madeline, meaning 'person from Magdala'", language_id: french.id },
-                      [ { name: "Maddie", gender_id: both.id },
+                      [{ name: "Maddie", gender_id: both.id },
                         { name: "Maddy", gender_id: both.id },
-                        { name: "Madie", gender_id: both.id } ]
+                        { name: "Madie", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'person from Magdala'", language_id: french.id },
-                      [ { name: "Maddison", gender_id: both.id },
-                        { name: "Madison", gender_id: both.id } ]
+                      [{ name: "Maddison", gender_id: both.id },
+                        { name: "Madison", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'person from Magdala'", language_id: hebrew.id },
-                      [ { name: "Madeleine", gender_id: female.id },
-                        { name: "Madeline", gender_id: female.id } ]
+                      [{ name: "Madeleine", gender_id: female.id },
+                        { name: "Madeline", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'maiden'" },
-                      [ { name: "Mae" } ]
+                      [{ name: "Mae" }]
                     ],
                     [
                       { description: "Master of any art" },
-                      [ { name: "Maestro" } ]
+                      [{ name: "Maestro" }]
                     ],
                     [
                       { description: "Meaning 'intoxicating'", language_id: gaelic.id },
-                      [ { name: "Maeve", gender_id: female.id } ]
+                      [{ name: "Maeve", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'pearl'", language_id: french.id },
-                      [ { name: "Magali", gender_id: female.id } ]
+                      [{ name: "Magali", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'person from Magdala'", language_id: hebrew.id },
-                      [ { name: "Magadalena", gender_id: female.id },
-                        { name: "Magdalena", gender_id: female.id } ]
+                      [{ name: "Magadalena", gender_id: female.id },
+                        { name: "Magdalena", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Margaret, meaning 'pearl'", language_id: greek.id },
-                      [ { name: "Maggi", gender_id: female.id },
+                      [{ name: "Maggi", gender_id: female.id },
                         { name: "Maggie", gender_id: female.id },
                         { name: "Maggy", gender_id: female.id },
                         { name: "Maisie", gender_id: female.id },
-                        { name: "Mazie", gender_id: female.id } ]
+                        { name: "Mazie", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'person skilled in magic'", language_id: english.id },
-                      [ { name: "Magician", gender_id: both.id } ]
+                      [{ name: "Magician", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'magnificent'" },
-                      [ { name: "Magnifico" } ]
+                      [{ name: "Magnifico" }]
                     ],
                     [
                       { description: "Tree with large wax-like white or pink flowers", language_id: english.id },
-                      [ { name: "Magnolia", gender_id: female.id } ]
+                      [{ name: "Magnolia", gender_id: female.id }]
                     ],
                     [
                       { description: "Wine bottle twice the standard size" },
-                      [ { name: "Magnum", gender_id: both.id } ]
+                      [{ name: "Magnum", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'great'", language_id: latin.id },
-                      [ { name: "Magnus", gender_id: male.id } ]
+                      [{ name: "Magnus", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'tender one'", language_id: hebrew.id },
-                      [ { name: "Mahalia", gender_id: female.id } ]
+                      [{ name: "Mahalia", gender_id: female.id }]
                     ],
                     [
                       { description: "Reddish-brown wood", language_id: english.id },
-                      [ { name: "Mahogany" },
-                        { name: "Mahogony" } ]
+                      [{ name: "Mahogany" },
+                        { name: "Mahogony" }]
                     ],
                     [
                       { description: "Meaning 'pearl'", language_id: greek.id },
-                      [ { name: "Mai", gender_id: both.id },
+                      [{ name: "Mai", gender_id: both.id },
                         { name: "Maida", gender_id: female.id },
                         { name: "Margaret", gender_id: female.id },
                         { name: "Margo", gender_id: female.id },
                         { name: "Margot", gender_id: female.id },
                         { name: "Marguerita", gender_id: female.id },
-                        { name: "Marguerite", gender_id: female.id } ]
+                        { name: "Marguerite", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'great'", language_id: greek.id },
-                      [ { name: "Maia", gender_id: both.id },
-                        { name: "Maya", gender_id: female.id } ]
+                      [{ name: "Maia", gender_id: both.id },
+                        { name: "Maya", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'very important, greater or relatively great'", language_id: english.id },
-                      [ { name: "Major", gender_id: male.id } ]
+                      [{ name: "Major", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'who resembles God'", language_id: hebrew.id },
-                      [ { name: "Makaela", gender_id: female.id } ]
+                      [{ name: "Makaela", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'smooth brow'", language_id: gaelic.id },
-                      [ { name: "Mal", gender_id: both.id },
+                      [{ name: "Mal", gender_id: both.id },
                         { name: "Mel", gender_id: both.id },
                         { name: "Melvin", gender_id: both.id },
-                        { name: "Melvyn", gender_id: both.id } ]
+                        { name: "Melvyn", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'devotee of St Columba'", language_id: gaelic.id },
-                      [ { name: "Malcolm", gender_id: male.id } ]
+                      [{ name: "Malcolm", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'ruler', 'first born'" },
-                      [ { name: "Mali" } ]
+                      [{ name: "Mali" }]
                     ],
                     [
                       { description: "Place on the Californian Coast" },
-                      [ { name: "Malibu", gender_id: both.id } ]
+                      [{ name: "Malibu", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'mother'", language_id: english.id },
-                      [ { name: "Mama", gender_id: female.id } ]
+                      [{ name: "Mama", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'pearl'" },
-                      [ { name: "Mamie", gender_id: female.id },
-                        { name: "Mayme", gender_id: female.id } ]
+                      [{ name: "Mamie", gender_id: female.id },
+                        { name: "Mayme", gender_id: female.id }]
                     ],
                     [
                       { description: "From the French mademoiselle, meaning 'miss'", language_id: french.id },
-                      [ { name: "Mamselle", gender_id: female.id } ]
+                      [{ name: "Mamselle", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'God is with us'", language_id: hebrew.id },
-                      [ { name: "Mana", gender_id: female.id },
+                      [{ name: "Mana", gender_id: female.id },
                         { name: "Manni", gender_id: male.id },
                         { name: "Manny", gender_id: male.id },
-                        { name: "Manuel", gender_id: male.id } ]
+                        { name: "Manuel", gender_id: male.id }]
                     ],
                     [
                       { description: "Small orange", language_id: english.id },
-                      [ { name: "Mandarin", gender_id: both.id } ]
+                      [{ name: "Mandarin", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Amanda, meaning 'one that must be loved'", language_id: latin.id },
-                      [ { name: "Mandee", gender_id: female.id },
+                      [{ name: "Mandee", gender_id: female.id },
                         { name: "Mandi", gender_id: female.id },
-                        { name: "Mandy", gender_id: female.id } ]
+                        { name: "Mandy", gender_id: female.id }]
                     ],
                     [
                       { description: "Poisonous plant with large yellow fruit" },
-                      [ { name: "Mandrake", gender_id: both.id } ]
+                      [{ name: "Mandrake", gender_id: both.id }]
                     ],
                     [
                       { description: "Island in New York" },
-                      [ { name: "Manhattan", gender_id: both.id } ]
+                      [{ name: "Manhattan", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Madeleine, meaning 'person from Magdala'", language_id: hebrew.id },
-                      [ { name: "Manon", gender_id: female.id } ]
+                      [{ name: "Manon", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'man'", language_id: sanskrit.id },
-                      [ { name: "Manu", gender_id: male.id } ]
+                      [{ name: "Manu", gender_id: male.id }]
                     ],
                     [
                       { description: "Brown syrup produced from maple trees", language_id: english.id },
-                      [ { name: "Maple", gender_id: both.id } ]
+                      [{ name: "Maple", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'bitter'", language_id: hebrew.id },
-                      [ { name: "Mara", gender_id: female.id } ]
+                      [{ name: "Mara", gender_id: female.id }]
                     ],
                     [
                       { description: "A delicate white raw silk" },
-                      [ { name: "Marabou" } ]
+                      [{ name: "Marabou" }]
                     ],
                     [
                       { description: "Type of limestone with swirling colours", language_id: english.id },
-                      [ { name: "Marble", gender_id: both.id },
-                        { name: "Marbles", gender_id: both.id } ]
+                      [{ name: "Marble", gender_id: both.id },
+                        { name: "Marbles", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Marcia, meaning 'dedicated to Mars, the Roman god of war'", language_id: latin.id },
-                      [ { name: "Marcee", gender_id: female.id },
+                      [{ name: "Marcee", gender_id: female.id },
                         { name: "Marcey", gender_id: female.id },
-                        { name: "Marcie", gender_id: female.id } ]
+                        { name: "Marcie", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'dedicated to Mars, the Roman god of war'", language_id: latin.id },
-                      [ { name: "Marcella", gender_id: female.id },
+                      [{ name: "Marcella", gender_id: female.id },
                         { name: "Marcia", gender_id: female.id },
-                        { name: "Marsha", gender_id: female.id } ]
+                        { name: "Marsha", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'warrior'" },
-                      [ { name: "Marco" } ]
+                      [{ name: "Marco" }]
                     ],
                     [
                       { description: "Meaning 'defender'", language_id: latin.id },
-                      [ { name: "Marcus", gender_id: male.id } ]
+                      [{ name: "Marcus", gender_id: male.id }]
                     ],
                     [
                       { description: "From the Sanskrit margas meaning 'track'", language_id: sanskrit.id },
-                      [ { name: "Margaras" } ]
+                      [{ name: "Margaras" }]
                     ],
                     [
                       { description: "Meaning 'pearl'", language_id: spanish.id },
-                      [ { name: "Margarita", gender_id: female.id },
-                        { name: "Rita", gender_id: female.id } ]
+                      [{ name: "Margarita", gender_id: female.id },
+                        { name: "Rita", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'wished-for child'", language_id: hebrew.id },
-                      [ { name: "Maria", gender_id: both.id },
+                      [{ name: "Maria", gender_id: both.id },
                         { name: "Mariah", gender_id: female.id },
                         { name: "Maree", gender_id: both.id },
                         { name: "Marie", gender_id: both.id },
                         { name: "Mariska", gender_id: female.id },
-                        { name: "Mia", gender_id: female.id } ]
+                        { name: "Mia", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'bitter'", language_id: italian.id },
-                      [ { name: "Marietta", gender_id: female.id } ]
+                      [{ name: "Marietta", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'from the sea'", language_id: latin.id },
-                      [ { name: "Marina", gender_id: female.id },
-                        { name: "Mariner", gender_id: male.id } ]
+                      [{ name: "Marina", gender_id: female.id },
+                        { name: "Mariner", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'star of the sea'" },
-                      [ { name: "Marissa" } ]
+                      [{ name: "Marissa" }]
                     ],
                     [
                       { description: "Meaning 'elevated'" },
-                      [ { name: "Marlee", gender_id: female.id },
-                        { name: "Marlene", gender_id: female.id } ]
+                      [{ name: "Marlee", gender_id: female.id },
+                        { name: "Marlene", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'wizard'" },
-                      [ { name: "Marlin" } ]
+                      [{ name: "Marlin" }]
                     ],
                     [
                       { description: "Meaning 'driftwood'", language_id: old_english.id },
-                      [ { name: "Marlow", gender_id: male.id },
-                        { name: "Marlowe", gender_id: male.id } ]
+                      [{ name: "Marlow", gender_id: male.id },
+                        { name: "Marlowe", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'boundary'", language_id: old_french.id },
-                      [ { name: "Marque", gender_id: male.id } ]
+                      [{ name: "Marque", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'Lord of the borderlands'", language_id: old_french.id },
-                      [ { name: "Marquis", gender_id: male.id } ]
+                      [{ name: "Marquis", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'horse keeper'", language_id: ancient_german.id },
-                      [ { name: "Marshal", gender_id: male.id },
-                        { name: "Marshall" , gender_id: male.id } ]
+                      [{ name: "Marshal", gender_id: male.id },
+                        { name: "Marshall" , gender_id: male.id }]
                     ],
                     [
                       { description: "Soft sweet made from sugar, egg white and gelatine", language_id: english.id },
-                      [ { name: "Marshmallow", gender_id: both.id } ]
+                      [{ name: "Marshmallow", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'mistress of the house'", language_id: aramaic.id },
-                      [ { name: "Martha", gender_id: female.id } ]
+                      [{ name: "Martha", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Martin, meaning 'dedicated to Mars'", language_id: latin.id },
-                      [ { name: "Martie", gender_id: both.id },
+                      [{ name: "Martie", gender_id: both.id },
                         { name: "Martti", gender_id: both.id },
-                        { name: "Marty", gender_id: both.id } ]
+                        { name: "Marty", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'dedicated to Mars'", language_id: latin.id },
-                      [ { name: "Marten", gender_id: both.id },
+                      [{ name: "Marten", gender_id: both.id },
                         { name: "Martin", gender_id: both.id },
                         { name: "Martina", gender_id: female.id },
-                        { name: "Martyn", gender_id: both.id } ]
+                        { name: "Martyn", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'bitter' or 'wished-for child'", language_id: hebrew.id },
-                      [ { name: "Mary", gender_id: both.id },
-                        { name: "Polly", gender_id: both.id } ]
+                      [{ name: "Mary", gender_id: both.id },
+                        { name: "Polly", gender_id: both.id }]
                     ],
                     [
                       { description: "Combination of the names Mary (meaning wished-for child) and Beth (meaning house)" },
-                      [ { name: "Marybeth", gender_id: female.id } ]
+                      [{ name: "Marybeth", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'one who works with stone'", language_id: english.id },
-                      [ { name: "Mason", gender_id: male.id } ]
+                      [{ name: "Mason", gender_id: male.id }]
                     ],
                     [
                       { description: "Person with great skill", language_id: english.id },
-                      [ { name: "Master", gender_id: male.id } ]
+                      [{ name: "Master", gender_id: male.id }]
                     ],
                     [
                       { description: "Companion or fellow worker", language_id: english.id },
-                      [ { name: "Mate", gender_id: male.id } ]
+                      [{ name: "Mate", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'mighty in battle'", language_id: ancient_german.id },
-                      [ { name: "Mathilda", gender_id: female.id },
-                        { name: "Matilda", gender_id: female.id } ]
+                      [{ name: "Mathilda", gender_id: female.id },
+                        { name: "Matilda", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'God's gift'", language_id: hebrew.id },
-                      [ { name: "Matthew", gender_id: both.id } ]
+                      [{ name: "Matthew", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Matthew, meaning 'God's gift'", language_id: hebrew.id },
-                      [ { name: "Mattie", gender_id: both.id },
-                        { name: "Matty", gender_id: both.id } ]
+                      [{ name: "Mattie", gender_id: both.id },
+                        { name: "Matty", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'dark complexioned'", language_id: latin.id },
-                      [ { name: "Maurice", gender_id: both.id },
+                      [{ name: "Maurice", gender_id: both.id },
                         { name: "Maurise", gender_id: both.id },
-                        { name: "Morris", gender_id: male.id } ]
+                        { name: "Morris", gender_id: male.id }]
                     ],
                     [
                       { description: "Undisciplined person" },
-                      [ { name: "Maverick", gender_id: both.id } ]
+                      [{ name: "Maverick", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'the greatest'", language_id: latin.id },
-                      [ { name: "Max", gender_id: both.id },
+                      [{ name: "Max", gender_id: both.id },
                         { name: "Maxi", gender_id: both.id },
                         { name: "Maxie", gender_id: both.id },
                         { name: "Maximus", gender_id: male.id },
                         { name: "Maxine", gender_id: female.id },
-                        { name: "Maxy", gender_id: both.id } ]
+                        { name: "Maxy", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'Mack's stream'", language_id: old_english.id },
-                      [ { name: "Maxwell", gender_id: male.id } ]
+                      [{ name: "Maxwell", gender_id: male.id }]
                     ],
                     [
                       { description: "Used to express a wish, possibility or permission", language_id: english.id },
-                      [ { name: "May" } ]
+                      [{ name: "May" }]
                     ],
                     [
                       { description: "Meaning 'fair', 'favoured one'" },
-                      [ { name: "McKenzie" } ]
+                      [{ name: "McKenzie" }]
                     ],
                     [
                       { description: "Meaning 'nation'", language_id: hebrew.id },
-                      [ { name: "Medina", gender_id: female.id } ]
+                      [{ name: "Medina", gender_id: female.id }]
                     ],
                     [
                       { description: "Assortment", language_id: english.id },
-                      [ { name: "Medley", gender_id: both.id } ]
+                      [{ name: "Medley", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'jellyfish'" },
-                      [ { name: "Medusa" } ]
+                      [{ name: "Medusa" }]
                     ],
                     [
                       { description: "Meaning 'good-looking'", language_id: vietnamese.id },
-                      [ { name: "Mee", gender_id: female.id } ]
+                      [{ name: "Mee", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'pearl'", language_id: welsh.id },
-                      [ { name: "Meg", gender_id: female.id },
+                      [{ name: "Meg", gender_id: female.id },
                         { name: "Megan", gender_id: female.id },
-                        { name: "Meggie", gender_id: female.id } ]
+                        { name: "Meggie", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'beautiful'", language_id: chinese.id },
-                      [ { name: "Meili", gender_id: female.id } ]
+                      [{ name: "Meili", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'manly'", language_id: latin.id },
-                      [ { name: "Meirion", gender_id: male.id } ]
+                      [{ name: "Meirion", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'mixture'", language_id: french.id },
-                      [ { name: "Melange" } ]
+                      [{ name: "Melange" }]
                     ],
                     [
                       { description: "Meaning 'black'", language_id: greek.id },
-                      [ { name: "Melanie" },
-                        { name: "Melinee" } ]
+                      [{ name: "Melanie" },
+                        { name: "Melinee" }]
                     ],
                     [
                       { description: "Meaning 'soft', 'slender'" },
-                      [ { name: "Melba" } ]
+                      [{ name: "Melba" }]
                     ],
                     [
                       { description: "Meaning 'honey', 'yellow'" },
-                      [ { name: "Melina" } ]
+                      [{ name: "Melina" }]
                     ],
                     [
                       { description: "Meaning 'bee' or 'honey'", language_id: greek.id },
-                      [ { name: "Melissa", gender_id: female.id },
+                      [{ name: "Melissa", gender_id: female.id },
                         { name: "Missey", gender_id: female.id },
-                        { name: "Missy", gender_id: female.id } ]
+                        { name: "Missy", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'soft and rich'", language_id: english.id },
-                      [ { name: "Mellow", gender_id: both.id } ]
+                      [{ name: "Mellow", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'sweet music'", language_id: english.id },
-                      [ { name: "Melody", gender_id: female.id } ]
+                      [{ name: "Melody", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'mercies'", language_id: spanish.id },
-                      [ { name: "Mercedes", gender_id: female.id } ]
+                      [{ name: "Mercedes", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'commerce'", language_id: latin.id },
-                      [ { name: "Mercury", gender_id: male.id } ]
+                      [{ name: "Mercury", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'sea hill'" },
-                      [ { name: "Merlin" } ]
+                      [{ name: "Merlin" }]
                     ],
                     [
                       { description: "Cheerful and lively, joyous", language_id: english.id },
-                      [ { name: "Merrie", gender_id: both.id },
-                        { name: "Merry", gender_id: both.id } ]
+                      [{ name: "Merrie", gender_id: both.id },
+                        { name: "Merry", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Mervyn, meaning 'sea friend'", language_id: welsh.id },
-                      [ { name: "Merv", gender_id: male.id } ]
+                      [{ name: "Merv", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'bright one'", language_id: hebrew.id },
-                      [ { name: "Meyer", gender_id: male.id } ]
+                      [{ name: "Meyer", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'who is like God'", language_id: hebrew.id },
-                      [ { name: "Micah", gender_id: both.id },
+                      [{ name: "Micah", gender_id: both.id },
                         { name: "Michael", gender_id: male.id },
                         { name: "Michaela", gender_id: female.id },
                         { name: "Michele", gender_id: female.id },
@@ -5170,418 +5170,418 @@ names_to_create = ([
                         { name: "Mike", gender_id: both.id },
                         { name: "Mikey", gender_id: both.id },
                         { name: "Mikie", gender_id: both.id },
-                        { name: "Misha", gender_id: both.id } ]
+                        { name: "Misha", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Michael or Mickey, meaning 'who is like God'", language_id: hebrew.id },
-                      [ { name: "Mick", gender_id: male.id } ]
+                      [{ name: "Mick", gender_id: male.id }]
                     ],
                     [
                       { description: "In Greek legend, a king of Phrygia to whom Dionysus granted the power of turning everything that he touched into gold", language_id: greek.id },
-                      [ { name: "Midas" } ]
+                      [{ name: "Midas" }]
                     ],
                     [
                       { description: "Extremely small thing", language_id: english.id },
-                      [ { name: "Midget", gender_id: both.id } ]
+                      [{ name: "Midget", gender_id: both.id }]
                     ],
                     [
                       { description: "Twelve O'clock at night", language_id: english.id },
-                      [ { name: "Midnight", gender_id: both.id },
-                        { name: "Midnite", gender_id: both.id } ]
+                      [{ name: "Midnight", gender_id: both.id },
+                        { name: "Midnite", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'dainty'", language_id: french.id },
-                      [ { name: "Mignon" } ]
+                      [{ name: "Mignon" }]
                     ],
                     [
                       { description: "Meaning 'mild strength'", language_id: old_english.id },
-                      [ { name: "Mildred", gender_id: female.id } ]
+                      [{ name: "Mildred", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'soldier'", language_id: latin.id },
-                      [ { name: "Miles", gender_id: male.id },
+                      [{ name: "Miles", gender_id: male.id },
                         { name: "Milo", gender_id: male.id },
                         { name: "Myles", gender_id: male.id },
-                        { name: "Mylo", gender_id: male.id } ]
+                        { name: "Mylo", gender_id: male.id }]
                     ],
                     [
                       { description: "White liquid", language_id: english.id },
-                      [ { name: "Milk", gender_id: both.id },
-                        { name: "Milky", gender_id: both.id } ]
+                      [{ name: "Milk", gender_id: both.id },
+                        { name: "Milky", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning one thousand years", language_id: english.id },
-                      [ { name: "Millennium", gender_id: both.id } ]
+                      [{ name: "Millennium", gender_id: both.id }]
                     ],
                     [
                       { description: "Someone who works in a corn or flour mill", language_id: english.id },
-                      [ { name: "Miller", gender_id: both.id } ]
+                      [{ name: "Miller", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Camilla (meaning 'assistant to the priest'), Mildred (meaning 'mild strength'), Millicent (meaning 'animal strength'), Emily (meaning ‘eager’)" },
-                      [ { name: "Milley", gender_id: female.id },
+                      [{ name: "Milley", gender_id: female.id },
                         { name: "Millie", gender_id: female.id },
-                        { name: "Milly", gender_id: female.id } ]
+                        { name: "Milly", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'animal strength'", language_id: ancient_german.id },
-                      [ { name: "Millicent", gender_id: female.id } ]
+                      [{ name: "Millicent", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Miriam, meaning 'wished-for child'", language_id: hebrew.id },
-                      [ { name: "Mimi", gender_id: female.id },
+                      [{ name: "Mimi", gender_id: female.id },
                         { name: "Mitsy", gender_id: female.id },
                         { name: "Mitzi", gender_id: female.id },
                         { name: "Mitzie", gender_id: female.id },
-                        { name: "Mitzy", gender_id: female.id } ]
+                        { name: "Mitzy", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'wonderful'", language_id: latin.id },
-                      [ { name: "Mindi", gender_id: female.id },
-                        { name: "Mindy", gender_id: female.id } ]
+                      [{ name: "Mindi", gender_id: female.id },
+                        { name: "Mindy", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'brilliant', 'famous' or 'ringing' depending on the character used to represent the name", language_id: chinese.id },
-                      [ { name: "Ming", gender_id: female.id } ]
+                      [{ name: "Ming", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'small'", language_id: english.id },
-                      [ { name: "Mini", gender_id: both.id },
-                        { name: "Pip Squeak", gender_id: both.id } ]
+                      [{ name: "Mini", gender_id: both.id },
+                        { name: "Pip Squeak", gender_id: both.id }]
                     ],
                     [
                       { description: "Any fine white fur" },
-                      [ { name: "Miniver", gender_id: both.id } ]
+                      [{ name: "Miniver", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Wilhelmina, meaning 'determined protector'", language_id: ancient_german.id },
-                      [ { name: "Minna", gender_id: female.id },
+                      [{ name: "Minna", gender_id: female.id },
                         { name: "Minni", gender_id: female.id },
                         { name: "Minnie", gender_id: female.id },
                         { name: "Minny", gender_id: female.id },
-                        { name: "Myni", gender_id: female.id } ]
+                        { name: "Myni", gender_id: female.id }]
                     ],
                     [
                       { description: "A poet, singer, musician" },
-                      [ { name: "Minstrel" } ]
+                      [{ name: "Minstrel" }]
                     ],
                     [
                       { description: "Fragrant herb", language_id: english.id },
-                      [ { name: "Mint", gender_id: both.id } ]
+                      [{ name: "Mint", gender_id: both.id }]
                     ],
                     [
                       { description: "A very graceful and stately slow dance popular in the eighteenth century" },
-                      [ { name: "Minuet" } ]
+                      [{ name: "Minuet" }]
                     ],
                     [
                       { description: "Meaning 'light, saintly woman'" },
-                      [ { name: "Mira", gender_id: female.id } ]
+                      [{ name: "Mira", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'extraordinary'", language_id: latin.id },
-                      [ { name: "Mirabella", gender_id: female.id },
-                        { name: "Mirabelle", gender_id: female.id } ]
+                      [{ name: "Mirabella", gender_id: female.id },
+                        { name: "Mirabelle", gender_id: female.id }]
                     ],
                     [
                       { description: "Remarkable event or thing", language_id: english.id },
-                      [ { name: "Miracle", gender_id: both.id },
-                        { name: "Myrical", gender_id: both.id } ]
+                      [{ name: "Miracle", gender_id: both.id },
+                        { name: "Myrical", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'admirable'", language_id: latin.id },
-                      [ { name: "Miranda" },
-                        { name: "Mirinda" } ]
+                      [{ name: "Miranda" },
+                        { name: "Mirinda" }]
                     ],
                     [
                       { description: "Misbehaviour", language_id: english.id },
-                      [ { name: "Mischief" } ]
+                      [{ name: "Mischief" }]
                     ],
                     [
                       { description: "Low-lying water vapour clouds reducing visibility", language_id: english.id },
-                      [ { name: "Mist", gender_id: both.id },
-                        { name: "Myst", gender_id: both.id } ]
+                      [{ name: "Mist", gender_id: both.id },
+                        { name: "Myst", gender_id: both.id }]
                     ],
                     [
                       { description: "Mist covered or full of mist", language_id: english.id },
-                      [ { name: "Misti", gender_id: female.id },
+                      [{ name: "Misti", gender_id: female.id },
                         { name: "Mistie", gender_id: female.id },
                         { name: "Misty", gender_id: female.id },
                         { name: "Mysti", gender_id: female.id },
-                        { name: "Mystie", gender_id: female.id } ]
+                        { name: "Mystie", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'mixture'", language_id: italian.id },
-                      [ { name: "Misto", gender_id: both.id } ]
+                      [{ name: "Misto", gender_id: both.id }]
                     ],
                     [
                       { description: "Cold north or north west wind in Southern France" },
-                      [ { name: "Mistral", gender_id: both.id } ]
+                      [{ name: "Mistral", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Mitchell, meaning 'who resembles God'", language_id: norman_french.id },
-                      [ { name: "Mitch", gender_id: both.id } ]
+                      [{ name: "Mitch", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'who resembles God'", language_id: norman_french.id },
-                      [ { name: "Mitchel", gender_id: both.id },
-                        { name: "Mitchell", gender_id: both.id } ]
+                      [{ name: "Mitchel", gender_id: both.id },
+                        { name: "Mitchell", gender_id: both.id }]
                     ],
                     [
                       { description: "Gloves to keep hands warm", language_id: english.id },
-                      [ { name: "Mitten", gender_id: both.id },
-                        { name: "Mittens", gender_id: both.id } ]
+                      [{ name: "Mitten", gender_id: both.id },
+                        { name: "Mittens", gender_id: both.id }]
                     ],
                     [
                       { description: "From Elmo, meaning 'helmet of God'" },
-                      [ { name: "Mo", gender_id: male.id },
-                        { name: "Moe", gender_id: male.id } ]
+                      [{ name: "Mo", gender_id: male.id },
+                        { name: "Moe", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'attractive'" },
-                      [ { name: "Moana" } ]
+                      [{ name: "Moana" }]
                     ],
                     [
                       { description: "Chocolate flavoured coffee" },
-                      [ { name: "Mocca", gender_id: both.id },
+                      [{ name: "Mocca", gender_id: both.id },
                         { name: "Mocha", gender_id: both.id },
-                        { name: "Mochachino", gender_id: both.id } ]
+                        { name: "Mochachino", gender_id: both.id }]
                     ],
                     [
                       { description: "Soft flat-soled leather shoe" },
-                      [ { name: "Moccasin" } ]
+                      [{ name: "Moccasin" }]
                     ],
                     [
                       { description: "Shortened version of Moggy, another name for the domestic cat", language_id: english.id, means_cat: true },
-                      [ { name: "Mog", gender_id: both.id },
-                        { name: "Moggs", gender_id: both.id } ]
+                      [{ name: "Mog", gender_id: both.id },
+                        { name: "Moggs", gender_id: both.id }]
                     ],
                     [
                       { description: "Another name for the domestic cat", language_id: english.id, means_cat: true },
-                      [ { name: "Moggie", gender_id: both.id },
-                        { name: "Moggy", gender_id: both.id } ]
+                      [{ name: "Moggie", gender_id: both.id },
+                        { name: "Moggy", gender_id: both.id }]
                     ],
                     [
                       { description: "A food fish of New Zealand" },
-                      [ { name: "Moki", gender_id: both.id } ]
+                      [{ name: "Moki", gender_id: both.id }]
                     ],
                     [
                       { description: "Dark brown syrup from raw sugar", language_id: english.id },
-                      [ { name: "Molasses", gender_id: both.id } ]
+                      [{ name: "Molasses", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'bitter' or 'wished for child'", language_id: hebrew.id },
-                      [ { name: "Mollee", gender_id: female.id },
+                      [{ name: "Mollee", gender_id: female.id },
                         { name: "Mollie", gender_id: female.id },
-                        { name: "Molly", gender_id: female.id } ]
+                        { name: "Molly", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'dependable'" },
-                      [ { name: "Mona" } ]
+                      [{ name: "Mona" }]
                     ],
                     [
                       { description: "Meaning ‘my friend’", language_id: french.id },
-                      [ { name: "Mon Ami", gender_id: male.id } ]
+                      [{ name: "Mon Ami", gender_id: male.id }]
                     ],
                     [
                       { description: "Famous painter" },
-                      [ { name: "Monet", gender_id: male.id } ]
+                      [{ name: "Monet", gender_id: male.id }]
                     ],
                     [
                       { description: "Coins and banknotes", language_id: english.id },
-                      [ { name: "Money", gender_id: both.id } ]
+                      [{ name: "Money", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'solitary'", language_id: greek.id },
-                      [ { name: "Monica", gender_id: female.id } ]
+                      [{ name: "Monica", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'saint'" },
-                      [ { name: "Monique" } ]
+                      [{ name: "Monique" }]
                     ],
                     [
                       { description: "Meaning 'pointed hill'", language_id: old_french.id },
-                      [ { name: "Montague", gender_id: male.id } ]
+                      [{ name: "Montague", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'mountain'" },
-                      [ { name: "Montana" } ]
+                      [{ name: "Montana" }]
                     ],
                     [
                       { description: "Meaning 'hill'", language_id: old_french.id },
-                      [ { name: "Monte", gender_id: male.id },
-                        { name: "Monty", gender_id: male.id } ]
+                      [{ name: "Monte", gender_id: male.id },
+                        { name: "Monty", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'from the rich man’s mountain'" },
-                      [ { name: "Montgomery" } ]
+                      [{ name: "Montgomery" }]
                     ],
                     [
                       { description: "Meaning 'mountain in the shape of a saw'", language_id: spanish.id },
-                      [ { name: "Montserrat", gender_id: female.id } ]
+                      [{ name: "Montserrat", gender_id: female.id }]
                     ],
                     [
                       { description: "Beam of light produced by the moon", language_id: english.id },
-                      [ { name: "Moonbeam", gender_id: both.id } ]
+                      [{ name: "Moonbeam", gender_id: both.id }]
                     ],
                     [
                       { description: "The largest animal of the deer family", language_id: english.id },
-                      [ { name: "Moose", gender_id: both.id } ]
+                      [{ name: "Moose", gender_id: both.id }]
                     ],
                     [
                       { description: "A little child or young girl" },
-                      [ { name: "Moppet" } ]
+                      [{ name: "Moppet" }]
                     ],
                     [
                       { description: "Meaning 'little Mary'" },
-                      [ { name: "Morena" } ]
+                      [{ name: "Morena" }]
                     ],
                     [
                       { description: "Meaning 'dark'", language_id: latin.id },
-                      [ { name: "Moreno", gender_id: male.id },
-                        { name: "Moritz", gender_id: male.id } ]
+                      [{ name: "Moreno", gender_id: male.id },
+                        { name: "Moritz", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'circling sea'", language_id: welsh.id },
-                      [ { name: "Morgan", gender_id: both.id },
+                      [{ name: "Morgan", gender_id: both.id },
                         { name: "Morgaine", gender_id: both.id },
-                        { name: "Morgen", gender_id: both.id } ]
+                        { name: "Morgen", gender_id: both.id }]
                     ],
                     [
                       { description: "Greek god of sleep and dreams", language_id: greek.id },
-                      [ { name: "Morpheus" } ]
+                      [{ name: "Morpheus" }]
                     ],
                     [
                       { description: "Meaning 'dead sea'", language_id: norman_french.id },
-                      [ { name: "Mortimer", gender_id: male.id } ]
+                      [{ name: "Mortimer", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'pulled out'", language_id: hebrew.id },
-                      [ { name: "Moses", gender_id: male.id },
-                        { name: "Moss", gender_id: male.id } ]
+                      [{ name: "Moses", gender_id: male.id },
+                        { name: "Moss", gender_id: male.id }]
                     ],
                     [
                       { description: "Small rodent with a long tail", language_id: english.id },
-                      [ { name: "Mouse", gender_id: both.id } ]
+                      [{ name: "Mouse", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'like a mouse'", language_id: english.id },
-                      [ { name: "Mousey", gender_id: both.id },
-                        { name: "Mousie", gender_id: both.id } ]
+                      [{ name: "Mousey", gender_id: both.id },
+                        { name: "Mousie", gender_id: both.id }]
                     ],
                     [
                       { description: "Frothy creamy dessert, usually chocolate flavoured" },
-                      [ { name: "Mousse", gender_id: both.id } ]
+                      [{ name: "Mousse", gender_id: both.id }]
                     ],
                     [
                       { description: "Light round cake", language_id: english.id },
-                      [ { name: "Muffin", gender_id: both.id },
-                        { name: "Muffins", gender_id: both.id } ]
+                      [{ name: "Muffin", gender_id: both.id },
+                        { name: "Muffins", gender_id: both.id }]
                     ],
                     [
                       { description: "Ordinary clothes", language_id: english.id },
-                      [ { name: "Mufti", gender_id: both.id } ]
+                      [{ name: "Mufti", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'sea'", language_id: gaelic.id },
-                      [ { name: "Murdoch", gender_id: male.id } ]
+                      [{ name: "Murdoch", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'sea warrior'", language_id: irish_gaelic.id },
-                      [ { name: "Murphy", gender_id: both.id } ]
+                      [{ name: "Murphy", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'lord and master'", language_id: gaelic.id },
-                      [ { name: "Murray", gender_id: male.id } ]
+                      [{ name: "Murray", gender_id: male.id }]
                     ],
                     [
                       { description: "Edible fungus with a stem and a domed cap", language_id: english.id },
-                      [ { name: "Mushroom", gender_id: both.id } ]
+                      [{ name: "Mushroom", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'mouse-killer'" },
-                      [ { name: "Musion" } ]
+                      [{ name: "Musion" }]
                     ],
                     [
                       { description: "Dazed, confused" },
-                      [ { name: "Muzzy" } ]
+                      [{ name: "Muzzy" }]
                     ],
                     [
                       { description: "Meaning 'emerald'", language_id: burmese.id },
-                      [ { name: "Mya", gender_id: female.id } ]
+                      [{ name: "Mya", gender_id: female.id }]
                     ],
                     [
                       { description: "Gum resin used in perfumes, brought to baby Jesus by the three wise men" },
-                      [ { name: "Myrrh" } ]
+                      [{ name: "Myrrh" }]
                     ],
                     [
                       { description: "Matter that remains unexplained", language_id: english.id },
-                      [ { name: "Mystery", gender_id: both.id } ]
+                      [{ name: "Mystery", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'mysterious'" },
-                      [ { name: "Mystique", gender_id: both.id } ]
+                      [{ name: "Mystique", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'hope'", language_id: russian.id },
-                      [ { name: "Nada", gender_id: female.id },
+                      [{ name: "Nada", gender_id: female.id },
                         { name: "Nadia", gender_id: female.id },
-                        { name: "Nadya", gender_id: female.id } ]
+                        { name: "Nadya", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'good cook'" },
-                      [ { name: "Nahla", gender_id: female.id },
+                      [{ name: "Nahla", gender_id: female.id },
                         { name: "Nala", gender_id: female.id },
-                        { name: "Nalla", gender_id: female.id } ]
+                        { name: "Nalla", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'destroyer of nocturnal mice'", language_id: sanskrit.id },
-                      [ { name: "Nakulus" } ]
+                      [{ name: "Nakulus" }]
                     ],
                     [
                       { description: "Meaning 'favoured grace'", language_id: english.id },
-                      [ { name: "Nancy", gender_id: female.id } ]
+                      [{ name: "Nancy", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'bestower of joy'" },
-                      [ { name: "Nandina" } ]
+                      [{ name: "Nandina" }]
                     ],
                     [
                       { description: "Meaning 'grace'" },
-                      [ { name: "Nanna" } ]
+                      [{ name: "Nanna" }]
                     ],
                     [
                       { description: "Meaning 'pleasant'", language_id: hebrew.id },
-                      [ { name: "Naomi", gender_id: female.id } ]
+                      [{ name: "Naomi", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'sons of mist'", language_id: ancient_german.id },
-                      [ { name: "Napoleon", gender_id: male.id } ]
+                      [{ name: "Napoleon", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'orange'", language_id: spanish.id },
-                      [ { name: "Naranja" } ]
+                      [{ name: "Naranja" }]
                     ],
                     [
                       { description: "A wicker basket", language_id: latin.id },
-                      [ { name: "Nassa" } ]
+                      [{ name: "Nassa" }]
                     ],
                     [
                       { description: "Meaning 'the Lord's birthday'", language_id: latin.id },
-                      [ { name: "Natalie", gender_id: female.id },
+                      [{ name: "Natalie", gender_id: female.id },
                         { name: "Natasha", gender_id: female.id },
-                        { name: "Natty", gender_id: both.id } ]
+                        { name: "Natty", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'he has bestowed'", language_id: hebrew.id },
-                      [ { name: "Nathan", gender_id: male.id } ]
+                      [{ name: "Nathan", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'plains'" },
-                      [ { name: "Navarre" } ]
+                      [{ name: "Navarre" }]
                     ],
                     [
                       { description: "Meaning 'champion'", language_id: irish_gaelic.id },
-                      [ { name: "Neal", gender_id: male.id },
+                      [{ name: "Neal", gender_id: male.id },
                         { name: "Neel", gender_id: male.id },
                         { name: "Neil", gender_id: male.id },
                         { name: "Neill", gender_id: male.id },
@@ -5589,72 +5589,72 @@ names_to_create = ([
                         { name: "Nial", gender_id: male.id },
                         { name: "Niel", gender_id: male.id },
                         { name: "Nile", gender_id: male.id },
-                        { name: "Niles", gender_id: male.id } ]
+                        { name: "Niles", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'guardian'" },
-                      [ { name: "Ned", gender_id: male.id } ]
+                      [{ name: "Ned", gender_id: male.id }]
                     ],
                     [
                       { description: "Small pointed pieces of steel used in sewing", language_id: english.id },
-                      [ { name: "Needles", gender_id: both.id } ]
+                      [{ name: "Needles", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'the beautiful one has come'" },
-                      [ { name: "Nefertiti" } ]
+                      [{ name: "Nefertiti" }]
                     ],
                     [
                       { description: "The title of a ruler of Ethiopia" },
-                      [ { name: "Negus" } ]
+                      [{ name: "Negus" }]
                     ],
                     [
                       { description: "Meaning 'cat'", language_id: japanese.id, means_cat: true },
-                      [ { name: "Neko" } ]
+                      [{ name: "Neko" }]
                     ],
                     [
                       { description: "Meaning 'compassion'", language_id: greek.id },
-                      [ { name: "Neli", gender_id: female.id },
+                      [{ name: "Neli", gender_id: female.id },
                         { name: "Nelie", gender_id: female.id },
                         { name: "Nellee", gender_id: female.id },
                         { name: "Nelli", gender_id: female.id },
                         { name: "Nellie", gender_id: female.id },
-                        { name: "Nelly", gender_id: female.id } ]
+                        { name: "Nelly", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'nobody'", language_id: latin.id },
-                      [ { name: "Nemo" } ]
+                      [{ name: "Nemo" }]
                     ],
                     [
                       { description: "Ice cream consisting of three colours and flavours", language_id: english.id },
-                      [ { name: "Neopolitan", gender_id: both.id } ]
+                      [{ name: "Neopolitan", gender_id: both.id }]
                     ],
                     [
                       { description: "Type of spring bulb" },
-                      [ { name: "Nerine", gender_id: female.id } ]
+                      [{ name: "Nerine", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'black'", language_id: italian.id },
-                      [ { name: "Nero", gender_id: male.id } ]
+                      [{ name: "Nero", gender_id: male.id }]
                     ],
                     [
                       { description: "Nuclear particle with no electric charge", language_id: english.id },
-                      [ { name: "Neutron", gender_id: both.id } ]
+                      [{ name: "Neutron", gender_id: both.id }]
                     ],
                     [
                       { description: "US State" },
-                      [ { name: "Nevada" } ]
+                      [{ name: "Nevada" }]
                     ],
                     [
                       { description: "Meaning 'lustrous'", language_id: gaelic.id },
-                      [ { name: "Nia", gender_id: female.id } ]
+                      [{ name: "Nia", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'victorious'", language_id: slavic.id },
-                      [ { name: "Nicholai", gender_id: male.id } ]
+                      [{ name: "Nicholai", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'victorious people'", language_id: greek.id },
-                      [ { name: "Niccola", gender_id: female.id },
+                      [{ name: "Niccola", gender_id: female.id },
                         { name: "Nichol", gender_id: female.id },
                         { name: "Nicholas", gender_id: male.id },
                         { name: "Nichole", gender_id: female.id },
@@ -5671,2916 +5671,2916 @@ names_to_create = ([
                         { name: "Nikkie", gender_id: both.id },
                         { name: "Nikko", gender_id: male.id },
                         { name: "Nikkolette", gender_id: female.id },
-                        { name: "Nikolai", gender_id: male.id } ]
+                        { name: "Nikolai", gender_id: male.id }]
                     ],
                     [
                       { description: "Nickname of Nicholas, meaning 'victorious people'", language_id: greek.id },
-                      [ { name: "Nick", gender_id: male.id } ]
+                      [{ name: "Nick", gender_id: male.id }]
                     ],
                     [
                       { description: "Hard silvery white metal" },
-                      [ { name: "Nickel" } ]
+                      [{ name: "Nickel" }]
                     ],
                     [
                       { description: "Nickname of Nicholas and Nicole, meaning 'victorious people'", language_id: greek.id },
-                      [ { name: "Nickey", gender_id: both.id },
+                      [{ name: "Nickey", gender_id: both.id },
                         { name: "Nickie", gender_id: both.id },
                         { name: "Nicky", gender_id: both.id },
-                        { name: "Nico", gender_id: both.id } ]
+                        { name: "Nico", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'black'", gender_id: latin.id },
-                      [ { name: "Nigel", gender_id: male.id } ]
+                      [{ name: "Nigel", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'victorious'", language_id: greek.id },
-                      [ { name: "Nike", gender_id: female.id } ]
+                      [{ name: "Nike", gender_id: female.id }]
                     ],
                     [
                       { description: "An aura of splendour about any person or thing" },
-                      [ { name: "Nimbus" } ]
+                      [{ name: "Nimbus" }]
                     ],
                     [
                       { description: "Meaning 'little girl'", language_id: spanish.id },
-                      [ { name: "Nina", gender_id: female.id } ]
+                      [{ name: "Nina", gender_id: female.id }]
                     ],
                     [
                       { description: "State of perfect bliss and happiness", language_id: english.id },
-                      [ { name: "Nirvana" } ]
+                      [{ name: "Nirvana" }]
                     ],
                     [
                       { description: "Meaning 'nitrogen gas'" },
-                      [ { name: "Nitro" } ]
+                      [{ name: "Nitro" }]
                     ],
                     [
                       { description: "Meaning 'relief'" },
-                      [ { name: "Noah", gender_id: male.id } ]
+                      [{ name: "Noah", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'Christmas'", language_id: old_french.id },
-                      [ { name: "Noel", gender_id: male.id },
-                        { name: "Noelle", gender_id: female.id } ]
+                      [{ name: "Noel", gender_id: male.id },
+                        { name: "Noelle", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'black'", language_id: french.id },
-                      [ { name: "Noir", gender_id: male.id },
-                        { name: "Noire", gender_id: female.id } ]
+                      [{ name: "Noir", gender_id: male.id },
+                        { name: "Noire", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'hazelnut'", language_id: french.id },
-                      [ { name: "Noisette", gender_id: female.id } ]
+                      [{ name: "Noisette", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'noble'" },
-                      [ { name: "Nola" } ]
+                      [{ name: "Nola" }]
                     ],
                     [
                       { description: "Wanderer", language_id: english.id },
-                      [ { name: "Nomad", gender_id: both.id } ]
+                      [{ name: "Nomad", gender_id: both.id }]
                     ],
                     [
                       { description: "Finnish version of Nora, From Honora, meaning 'honour'", language_id: latin.id },
-                      [ { name: "Noora", gender_id: female.id } ]
+                      [{ name: "Noora", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'the standard or model'", language_id: latin.id },
-                      [ { name: "Norma", gender_id: female.id } ]
+                      [{ name: "Norma", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'northerner'", language_id: ancient_german.id },
-                      [ { name: "Norman", gender_id: both.id } ]
+                      [{ name: "Norman", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning ‘new’", language_id: french.id },
-                      [ { name: "Nouveau", language_id: male.id } ]
+                      [{ name: "Nouveau", language_id: male.id }]
                     ],
                     [
                       { description: "Star that suddenly becomes much brighter for a short time" },
-                      [ { name: "Nova", gender_id: both.id } ]
+                      [{ name: "Nova", gender_id: both.id }]
                     ],
                     [
                       { description: "Rough lump of gold found in the earth", language_id: english.id },
-                      [ { name: "Nugget", gender_id: both.id } ]
+                      [{ name: "Nugget", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'oak-tree clearing'", language_id: old_english.id },
-                      [ { name: "Oakley", gender_id: both.id } ]
+                      [{ name: "Oakley", gender_id: both.id }]
                     ],
                     [
                       { description: "Fertile spot in a desert with a spring or well", language_id: english.id },
-                      [ { name: "Oasis", gender_id: both.id } ]
+                      [{ name: "Oasis", gender_id: both.id }]
                     ],
                     [
                       { description: "Oats crushed into meal or flakes, rolled or ground oats", language_id: english.id },
-                      [ { name: "Oatmeal", gender_id: both.id } ]
+                      [{ name: "Oatmeal", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'royal bear'", language_id: ancient_german.id },
-                      [ { name: "Oberon", gender_id: male.id } ]
+                      [{ name: "Oberon", gender_id: male.id }]
                     ],
                     [
                       { description: "A dark hard glassy volcanic rock", language_id: english.id },
-                      [ { name: "Obsidian" } ]
+                      [{ name: "Obsidian" }]
                     ],
                     [
                       { description: "Meaning 'heart'", language_id: igbo.id },
-                      [ { name: "Oby", gender_id: male.id } ]
+                      [{ name: "Oby", gender_id: male.id }]
                     ],
                     [
                       { description: "A dark yellow colour" },
-                      [ { name: "Ochre", gender_id: both.id } ]
+                      [{ name: "Ochre", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'eighth'" },
-                      [ { name: "Octavia" } ]
+                      [{ name: "Octavia" }]
                     ],
                     [
                       { description: "Meaning 'wealth'", language_id: ancient_german.id },
-                      [ { name: "Odette", gender_id: female.id },
+                      [{ name: "Odette", gender_id: female.id },
                         { name: "Othello", gender_id: male.id },
-                        { name: "Otis", gender_id: male.id } ]
+                        { name: "Otis", gender_id: male.id }]
                     ],
                     [
                       { description: "In Norse mythology, the supreme deity, god of art, culture, war and the dead", language_id: old_norse.id },
-                      [ { name: "Odin", gender_id: male.id } ]
+                      [{ name: "Odin", gender_id: male.id }]
                     ],
                     [
                       { description: "Long adventurous journey" },
-                      [ { name: "Odyssey", gender_id: both.id } ]
+                      [{ name: "Odyssey", gender_id: both.id }]
                     ],
                     [
                       { description: "In Greek legend, the son of Laius and Jocasta, king and queen of Thebes, who, abandoned by his parents at birth because of the prophecy of an oracle, was raised by the king of Corinth", language_id: greek.id },
-                      [ { name: "Oedipus", gender_id: male.id } ]
+                      [{ name: "Oedipus", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'dog'", language_id: choctaw.id, means_dog: true },
-                      [ { name: "Ofi" } ]
+                      [{ name: "Ofi" }]
                     ],
                     [
                       { description: "Abbreviation for orange juice", language_id: english.id },
-                      [ { name: "OJ", gender_id: both.id } ]
+                      [{ name: "OJ", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'eyes'", language_id: spanish.id },
-                      [ { name: "Ojos" } ]
+                      [{ name: "Ojos" }]
                     ],
                     [
                       { description: "Meaning 'holy'", language_id: norse.id },
-                      [ { name: "Olga" } ]
+                      [{ name: "Olga" }]
                     ],
                     [
                       { description: "Meaning 'olive'", language_id: latin.id },
-                      [ { name: "Oliver", gender_id: male.id },
+                      [{ name: "Oliver", gender_id: male.id },
                         { name: "Olivia", gender_id: female.id },
                         { name: "Olli", gender_id: both.id },
-                        { name: "Ollie", gender_id: both.id } ]
+                        { name: "Ollie", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'from Mount Olympus'", language_id: greek.id },
-                      [ { name: "Olympia", gender_id: female.id } ]
+                      [{ name: "Olympia", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'cedar tree'", language_id: hebrew.id },
-                      [ { name: "Oma", gender_id: female.id } ]
+                      [{ name: "Oma", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'speaker'", language_id: hebrew.id },
-                      [ { name: "Omar", gender_id: male.id } ]
+                      [{ name: "Omar", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'the one'", language_id: english.id },
-                      [ { name: "One", gender_id: both.id } ]
+                      [{ name: "One", gender_id: both.id }]
                     ],
                     [
                       { description: "Stone like marble" },
-                      [ { name: "Onyx" } ]
+                      [{ name: "Onyx" }]
                     ],
                     [
                       { description: "Iridescent quartz-like stone", language_id: english.id },
-                      [ { name: "Opal", gender_id: female.id } ]
+                      [{ name: "Opal", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'assistance'", language_id: greek.id },
-                      [ { name: "Ophelia", gender_id: female.id } ]
+                      [{ name: "Ophelia", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'fawn'", language_id: hebrew.id },
-                      [ { name: "Oprah", gender_id: female.id } ]
+                      [{ name: "Oprah", gender_id: female.id }]
                     ],
                     [
                       { description: "Person of great knowledge", language_id: english.id },
-                      [ { name: "Oracle", gender_id: both.id } ]
+                      [{ name: "Oracle", gender_id: both.id }]
                     ],
                     [
                       { description: "Round juicy citrus fruit with reddish-yellow peel", language_id: english.id },
-                      [ { name: "Orange", gender_id: both.id } ]
+                      [{ name: "Orange", gender_id: both.id }]
                     ],
                     [
                       { description: "Showy often irregularly shaped flower", language_id: english.id },
-                      [ { name: "Orchid", gender_id: female.id } ]
+                      [{ name: "Orchid", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'orange'", language_id: welsh.id },
-                      [ { name: "Oren" } ]
+                      [{ name: "Oren" }]
                     ],
                     [
                       { description: "Bird with black and yellow plumage", means_bird: true },
-                      [ { name: "Oriole" } ]
+                      [{ name: "Oriole" }]
                     ],
                     [
                       { description: "Meaning 'famous'" },
-                      [ { name: "Orlando", gender_id: male.id } ]
+                      [{ name: "Orlando", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'spear of the gods'", language_id: old_english.id },
-                      [ { name: "Oscar", gender_id: both.id },
-                        { name: "Oskar", gender_id: male.id } ]
+                      [{ name: "Oscar", gender_id: both.id },
+                        { name: "Oskar", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'God's power'", language_id: ancient_german.id },
-                      [ { name: "Oswald", gender_id: male.id } ]
+                      [{ name: "Oswald", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'youth'", language_id: gaelic.id },
-                      [ { name: "Owain", gender_id: male.id } ]
+                      [{ name: "Owain", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'strength'" , language_id: hebrew.id },
-                      [ { name: "Oz", gender_id: male.id } ]
+                      [{ name: "Oz", gender_id: male.id }]
                     ],
                     [
                       { description: "Nickname of Oscar (meaning 'spear of the gods') and Oswald (meaning 'God's power')" },
-                      [ { name: "Ozzie", gender_id: male.id },
-                        { name: "Ozzy", gender_id: male.id } ]
+                      [{ name: "Ozzie", gender_id: male.id },
+                        { name: "Ozzy", gender_id: male.id }]
                     ],
                     [
                       { description: "Nickname of Francisco, meaning 'A Frenchman'", language_id: ancient_german.id },
-                      [ { name: "Paco", gender_id: male.id } ]
+                      [{ name: "Paco", gender_id: male.id }]
                     ],
                     [
                       { description: "Nickname of Patrick, meaning 'aristocrat'", language_id: latin.id },
-                      [ { name: "Paddy", gender_id: male.id } ]
+                      [{ name: "Paddy", gender_id: male.id }]
                     ],
                     [
                       { description: "A great king, emperor" },
-                      [ { name: "Padishah" } ]
+                      [{ name: "Padishah" }]
                     ],
                     [
                       { description: "Meaning 'young servant'", language_id: old_french.id },
-                      [ { name: "Paige", gender_id: female.id } ]
+                      [{ name: "Paige", gender_id: female.id }]
                     ],
                     [
                       { description: "Colouring matter for applying in liquid form to a surface", language_id: english.id },
-                      [ { name: "Paint", gender_id: both.id } ]
+                      [{ name: "Paint", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'friend'", language_id: english.id },
-                      [ { name: "Pal", gender_id: both.id } ]
+                      [{ name: "Pal", gender_id: both.id }]
                     ],
                     [
                       { description: "A knight, a heroic champion" },
-                      [ { name: "Paladin" } ]
+                      [{ name: "Paladin" }]
                     ],
                     [
                       { description: "Confident stylish manner" },
-                      [ { name: "Panache" } ]
+                      [{ name: "Panache" }]
                     ],
                     [
                       { description: "Breakfast food", language_id: english.id },
-                      [ { name: "Pancake", gender_id: both.id },
-                        { name: "Pancakes", gender_id: both.id } ]
+                      [{ name: "Pancake", gender_id: both.id },
+                        { name: "Pancakes", gender_id: both.id }]
                     ],
                     [
                       { description: "Bear-like black and white animal native to China" },
-                      [ { name: "Panda", gender_id: both.id } ]
+                      [{ name: "Panda", gender_id: both.id }]
                     ],
                     [
                       { description: "Uproar" },
-                      [ { name: "Pandemonium", gender_id: both.id } ]
+                      [{ name: "Pandemonium", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'all gifts'", language_id: greek.id },
-                      [ { name: "Pandora", gender_id: female.id } ]
+                      [{ name: "Pandora", gender_id: female.id }]
                     ],
                     [
                       { description: "View of a wide area", language_id: english.id },
-                      [ { name: "Panorama", gender_id: both.id } ]
+                      [{ name: "Panorama", gender_id: both.id }]
                     ],
                     [
                       { description: "Black leopard", means_cat: true },
-                      [ { name: "Panther", gender_id: male.id } ]
+                      [{ name: "Panther", gender_id: male.id }]
                     ],
                     [
                       { description: "Christmas play based on a fairy tale" },
-                      [ { name: "Pantomime", gender_id: both.id } ]
+                      [{ name: "Pantomime", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'small'", language_id: latin.id },
-                      [ { name: "Paolo", gender_id: male.id },
-                        { name: "Paul", gender_id: male.id } ]
+                      [{ name: "Paolo", gender_id: male.id },
+                        { name: "Paul", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'butterfly'", language_id: french.id },
-                      [ { name: "Papillon" } ]
+                      [{ name: "Papillon" }]
                     ],
                     [
                       { description: "A mild red condiment ground from capsicum" },
-                      [ { name: "Paprika", gender_id: both.id } ]
+                      [{ name: "Paprika", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'brown'", language_id: spanish.id },
-                      [ { name: "Pardo" } ]
+                      [{ name: "Pardo" }]
                     ],
                     [
                       { description: "Meaning 'noble'" },
-                      [ { name: "Park" } ]
+                      [{ name: "Park" }]
                     ],
                     [
                       { description: "Meaning 'princely'" },
-                      [ { name: "Parker" } ]
+                      [{ name: "Parker" }]
                     ],
                     [
                       { description: "Meaning 'Easter child'", language_id: latin.id },
-                      [ { name: "Pascal", gender_id: male.id } ]
+                      [{ name: "Pascal", gender_id: male.id }]
                     ],
                     [
                       { description: "In Turkey, a title of rank or honour placed after the name" },
-                      [ { name: "Pasha" } ]
+                      [{ name: "Pasha" }]
                     ],
                     [
                       { description: "Meaning 'love'", language_id: english.id },
-                      [ { name: "Passion", gender_id: female.id } ]
+                      [{ name: "Passion", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'noble man'" },
-                      [ { name: "Pat" } ]
+                      [{ name: "Pat" }]
                     ],
                     [
                       { description: "Piece put on when mending", language_id: english.id },
-                      [ { name: "Patch", gender_id: both.id },
-                        { name: "Patches", gender_id: both.id } ]
+                      [{ name: "Patch", gender_id: both.id },
+                        { name: "Patches", gender_id: both.id }]
                     ],
                     [
                       { description: "Perfume extracted from the oil of Pogostemon patchouli, a plant of the mint family" },
-                      [ { name: "Patchouli" } ]
+                      [{ name: "Patchouli" }]
                     ],
                     [
                       { description: "Meaning 'aristocrat'", language_id: latin.id },
-                      [ { name: "Patricia", gender_id: both.id },
+                      [{ name: "Patricia", gender_id: both.id },
                         { name: "Patrick", gender_id: both.id },
-                        { name: "Patterson", gender_id: male.id } ]
+                        { name: "Patterson", gender_id: male.id }]
                     ],
                     [
                       { description: "Nickname of Patricia, meaning 'aristocrat'", language_id: latin.id },
-                      [ { name: "Patsey", gender_id: both.id },
-                        { name: "Patsy", gender_id: both.id } ]
+                      [{ name: "Patsey", gender_id: both.id },
+                        { name: "Patsy", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'noble woman'" },
-                      [ { name: "Patti", gender_id: female.id },
-                        { name: "Patty", gender_id: female.id } ]
+                      [{ name: "Patti", gender_id: female.id },
+                        { name: "Patty", gender_id: female.id }]
                     ],
                     [
                       { description: "Small sweet tasting cake", language_id: english.id },
-                      [ { name: "Patticake", gender_id: female.id } ]
+                      [{ name: "Patticake", gender_id: female.id }]
                     ],
                     [
                       { description: "Feet of an animal that has claws", language_id: english.id },
-                      [ { name: "Paw", gender_id: both.id },
-                        { name: "Paws", gender_id: both.id } ]
+                      [{ name: "Paw", gender_id: both.id },
+                        { name: "Paws", gender_id: both.id }]
                     ],
                     [
                       { description: "Short for Puddy Cat", means_cat: true },
-                      [ { name: "PC", gender_id: both.id } ]
+                      [{ name: "PC", gender_id: both.id }]
                     ],
                     [
                       { description: "Calm, quiet", language_id: english.id },
-                      [ { name: "Peace", gender_id: both.id } ]
+                      [{ name: "Peace", gender_id: both.id }]
                     ],
                     [
                       { description: "Round juicy fruit with a rough stone", language_id: english.id },
-                      [ { name: "Peach", gender_id: both.id },
-                        { name: "Peaches", gender_id: both.id } ]
+                      [{ name: "Peach", gender_id: both.id },
+                        { name: "Peaches", gender_id: both.id }]
                     ],
                     [
                       { description: "Having a yellowish pink colour", language_id: english.id },
-                      [ { name: "Peachy", gender_id: both.id } ]
+                      [{ name: "Peachy", gender_id: both.id }]
                     ],
                     [
                       { description: "Plant bearing underground pods with two edible brownish seeds", language_id: english.id },
-                      [ { name: "Peanut", gender_id: both.id } ]
+                      [{ name: "Peanut", gender_id: both.id }]
                     ],
                     [
                       { description: "Rounded fruit tapering towards the stalk", language_id: english.id },
-                      [ { name: "Pear", gender_id: both.id } ]
+                      [{ name: "Pear", gender_id: both.id }]
                     ],
                     [
                       { description: "White gem formed inside the shell of oysters", language_id: english.id },
-                      [ { name: "Pearl", gender_id: female.id },
-                        { name: "Pearle", gender_id: female.id } ]
+                      [{ name: "Pearl", gender_id: female.id },
+                        { name: "Pearle", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'pearly'" },
-                      [ { name: "Pearlina", gender_id: female.id } ]
+                      [{ name: "Pearlina", gender_id: female.id }]
                     ],
                     [
                       { description: "Small smooth round stones", language_id: english.id },
-                      [ { name: "Pebble", gender_id: both.id },
-                        { name: "Pebbles", gender_id: both.id } ]
+                      [{ name: "Pebble", gender_id: both.id },
+                        { name: "Pebbles", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'a pearl'" },
-                      [ { name: "Peggy", gender_id: female.id } ]
+                      [{ name: "Peggy", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'pal', 'friend'" },
-                      [ { name: "Pelle" } ]
+                      [{ name: "Pelle" }]
                     ],
                     [
                       { description: "Small sum of money" },
-                      [ { name: "Pence", gender_id: both.id } ]
+                      [{ name: "Pence", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'weaver'", language_id: greek.id },
-                      [ { name: "Penelope", gender_id: female.id } ]
+                      [{ name: "Penelope", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Penelope, meaning 'weaver'", language_id: greek.id },
-                      [ { name: "Pennee", gender_id: female.id },
+                      [{ name: "Pennee", gender_id: female.id },
                         { name: "Penney", gender_id: female.id },
                         { name: "Penni", gender_id: female.id },
                         { name: "Pennie", gender_id: female.id },
-                        { name: "Penny", gender_id: female.id } ]
+                        { name: "Penny", gender_id: female.id }]
                     ],
                     [
                       { description: "A hairy plant of the mint family, and the oil it yields", language_id: english.id },
-                      [ { name: "Pennyroyal", gender_id: both.id } ]
+                      [{ name: "Pennyroyal", gender_id: both.id }]
                     ],
                     [
                       { description: "A partly lighted area around any area of full shadow" },
-                      [ { name: "Penumbra", gender_id: both.id } ]
+                      [{ name: "Penumbra", gender_id: both.id }]
                     ],
                     [
                       { description: "Hot tasting seasoning powder made from the dried berries of certain plants", language_id: english.id },
-                      [ { name: "Pepa", gender_id: both.id },
+                      [{ name: "Pepa", gender_id: both.id },
                         { name: "Peppa", gender_id: both.id },
-                        { name: "Pepper", gender_id: both.id } ]
+                        { name: "Pepper", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Jose or Joseph, meaning 'addition'", language_id: hebrew.id },
-                      [ { name: "Pepe", gender_id: male.id },
-                        { name: "Pepi", gender_id: male.id } ]
+                      [{ name: "Pepe", gender_id: male.id },
+                        { name: "Pepi", gender_id: male.id }]
                     ],
                     [
                       { description: "Mint with a strong fragrant oil", language_id: english.id },
-                      [ { name: "Peppermint", gender_id: both.id } ]
+                      [{ name: "Peppermint", gender_id: both.id }]
                     ],
                     [
                       { description: "Full of energy, vigorous" },
-                      [ { name: "Peppy", gender_id: both.id } ]
+                      [{ name: "Peppy", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'lost'", language_id: latin.id },
-                      [ { name: "Perdita", gender_id: female.id } ]
+                      [{ name: "Perdita", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'wanderer'", language_id: latin.id },
-                      [ { name: "Peregrin", gender_id: male.id },
+                      [{ name: "Peregrin", gender_id: male.id },
                         { name: "Peregrine", gender_id: male.id },
-                        { name: "Perry", gender_id: both.id } ]
+                        { name: "Perry", gender_id: both.id }]
                     ],
                     [
                       { description: "Trailing plant with blue or white flowers" },
-                      [ { name: "Periwinkle" } ]
+                      [{ name: "Periwinkle" }]
                     ],
                     [
                       { description: "Coloured outer parts of a flower head", language_id: english.id },
-                      [ { name: "Petal", gender_id: female.id },
-                        { name: "Petals", gender_id: female.id } ]
+                      [{ name: "Petal", gender_id: female.id },
+                        { name: "Petals", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'reliable'" },
-                      [ { name: "Pete", gender_id: male.id },
-                        { name: "Peter", gender_id: male.id } ]
+                      [{ name: "Pete", gender_id: male.id },
+                        { name: "Peter", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'small'", language_id: french.id },
-                      [ { name: "Petit", gender_id: male.id },
-                        { name: "Petite", gender_id: female.id } ]
+                      [{ name: "Petit", gender_id: male.id },
+                        { name: "Petite", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'rock'", language_id: greek.id },
-                      [ { name: "Petra", gender_id: female.id } ]
+                      [{ name: "Petra", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'feminine'" },
-                      [ { name: "Petronella", gender_id: female.id } ]
+                      [{ name: "Petronella", gender_id: female.id }]
                     ],
                     [
                       { description: "Garden plant with funnel-shaped flowers" },
-                      [ { name: "Petunia", gender_id: female.id } ]
+                      [{ name: "Petunia", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'bright'", language_id: greek.id },
-                      [ { name: "Phaedra", gender_id: female.id } ]
+                      [{ name: "Phaedra", gender_id: female.id }]
                     ],
                     [
                       { description: "Ghost" },
-                      [ { name: "Phantom", gender_id: both.id } ]
+                      [{ name: "Phantom", gender_id: both.id }]
                     ],
                     [
                       { description: "From the Egyptian for 'great house'" },
-                      [ { name: "Pharaoh" } ]
+                      [{ name: "Pharaoh" }]
                     ],
                     [
                       { description: "Meaning 'bright'", language_id: greek.id },
-                      [ { name: "Phebe", gender_id: female.id },
+                      [{ name: "Phebe", gender_id: female.id },
                         { name: "Pheby", gender_id: female.id },
-                        { name: "Phoebe", gender_id: female.id } ]
+                        { name: "Phoebe", gender_id: female.id }]
                     ],
                     [
                       { description: "Anything that is extremely unusual, extraordinary occurrence", language_id: english.id },
-                      [ { name: "Phenomenon", gender_id: both.id } ]
+                      [{ name: "Phenomenon", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'oracle'", language_id: hebrew.id },
-                      [ { name: "Phinehas", gender_id: male.id } ]
+                      [{ name: "Phinehas", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'greenery'", language_id: greek.id },
-                      [ { name: "Phylis", gender_id: female.id },
+                      [{ name: "Phylis", gender_id: female.id },
                         { name: "Phyliss", gender_id: female.id },
-                        { name: "Phyllis", gender_id: female.id } ]
+                        { name: "Phyllis", gender_id: female.id }]
                     ],
                     [
                       { description: "Mathematical symbol" },
-                      [ { name: "Pi", gender_id: both.id } ]
+                      [{ name: "Pi", gender_id: both.id }]
                     ],
                     [
                       { description: "A magpie", language_id: latin.id, means_bird: true },
-                      [ { name: "Pica" } ]
+                      [{ name: "Pica" }]
                     ],
                     [
                       { description: "Meaning 'small'", language_id: italian.id },
-                      [ { name: "Piccola", gender_id: female.id },
-                        { name: "Piccolo", gender_id: male.id } ]
+                      [{ name: "Piccola", gender_id: female.id },
+                        { name: "Piccolo", gender_id: male.id }]
                     ],
                     [
                       { description: "Plight, mess" },
-                      [ { name: "Pickle", gender_id: both.id },
-                        { name: "Pickles", gender_id: both.id } ]
+                      [{ name: "Pickle", gender_id: both.id },
+                        { name: "Pickles", gender_id: both.id }]
                     ],
                     [
                       { description: "Baked dish of meat, fish or fruit covered with pastry or other crust" },
-                      [ { name: "Pie", gender_id: both.id } ]
+                      [{ name: "Pie", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'rock'", language_id: french.id },
-                      [ { name: "Pierre", gender_id: male.id },
-                        { name: "Pierrette", gender_id: female.id } ]
+                      [{ name: "Pierre", gender_id: male.id },
+                        { name: "Pierrette", gender_id: female.id }]
                     ],
                     [
                       { description: "A small rodent resembling a tailless rabbit" },
-                      [ { name: "Pika", gender_id: both.id } ]
+                      [{ name: "Pika", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'sharp', 'pointed'" },
-                      [ { name: "Pike" } ]
+                      [{ name: "Pike" }]
                     ],
                     [
                       { description: "Short pointed pieces of metal", language_id: english.id },
-                      [ { name: "Pins" } ]
+                      [{ name: "Pins" }]
                     ],
                     [
                       { description: "Marked with spots of two or more colours, mottled" },
-                      [ { name: "Pinto", gender_id: both.id } ]
+                      [{ name: "Pinto", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Philip or Phillip, meaning 'horse lover'", language_id: greek.id },
-                      [ { name: "Pip", gender_id: male.id } ]
+                      [{ name: "Pip", gender_id: male.id }]
                     ],
                     [
                       { description: "A type of shellfish" },
-                      [ { name: "Pipi", gender_id: both.id } ]
+                      [{ name: "Pipi", gender_id: both.id }]
                     ],
                     [
                       { description: "Person on a ship who robs another ship at sea or raids a coast", language_id: english.id },
-                      [ { name: "Pirate", gender_id: both.id } ]
+                      [{ name: "Pirate", gender_id: both.id }]
                     ],
                     [
                       { description: "Cornish name for a 'pixie'", language_id: cornish.id },
-                      [ { name: "Piskie" } ]
+                      [{ name: "Piskie" }]
                     ],
                     [
                       { description: "A rapid succession of beats or taps" },
-                      [ { name: "Pitpat" } ]
+                      [{ name: "Pitpat" }]
                     ],
                     [
                       { description: "A type of fairy" },
-                      [ { name: "Pixie", gender_id: both.id } ]
+                      [{ name: "Pixie", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'calm'" },
-                      [ { name: "Placido" } ]
+                      [{ name: "Placido" }]
                     ],
                     [
                       { description: "Silver white metal that does not tarnish" },
-                      [ { name: "Platinum" } ]
+                      [{ name: "Platinum" }]
                     ],
                     [
                       { description: "Reddish purple fruit with sweet pulp and a pointed stone" },
-                      [ { name: "Plum", gender_id: both.id } ]
+                      [{ name: "Plum", gender_id: both.id }]
                     ],
                     [
                       { description: "From Hocus Pocus, meaning 'trickery'" },
-                      [ { name: "Pocus", gender_id: both.id } ]
+                      [{ name: "Pocus", gender_id: both.id }]
                     ],
                     [
                       { description: "Writer of poems", language_id: english.id },
-                      [ { name: "Poet", gender_id: both.id } ]
+                      [{ name: "Poet", gender_id: both.id }]
                     ],
                     [
                       { description: "From Hokey Pokey, candy made with golden syrup and baking soda", language_id: english.id },
-                      [ { name: "Pokey", gender_id: both.id },
-                        { name: "Pokie", gender_id: both.id } ]
+                      [{ name: "Pokey", gender_id: both.id },
+                        { name: "Pokie", gender_id: both.id }]
                     ],
                     [
                       { description: "Lively dance for couples" },
-                      [ { name: "Polka", gender_id: both.id } ]
+                      [{ name: "Polka", gender_id: both.id }]
                     ],
                     [
                       { description: "Round evenly spaced dots on fabric", language_id: english.id },
-                      [ { name: "Polkadot", gender_id: both.id } ]
+                      [{ name: "Polkadot", gender_id: both.id }]
                     ],
                     [
                       { description: "Combination of Polly, meaning 'bitter' or 'wished-for child' and Anna, meaning 'grace'", language_id: hebrew.id },
-                      [ { name: "Pollyanna", gender_id: female.id } ]
+                      [{ name: "Pollyanna", gender_id: female.id }]
                     ],
                     [
                       { description: "Game like hockey played by teams on horseback", language_id: english.id },
-                      [ { name: "Polo", gender_id: both.id } ]
+                      [{ name: "Polo", gender_id: both.id }]
                     ],
                     [
                       { description: "Come or go quickly", language_id: english.id },
-                      [ { name: "Pop", gender_id: both.id } ]
+                      [{ name: "Pop", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'cat'", language_id: hawaiian.id, means_cat: true },
-                      [ { name: "Popoki" } ]
+                      [{ name: "Popoki" }]
                     ],
                     [
                       { description: "A little person", language_id: english.id },
-                      [ { name: "Poppet" } ]
+                      [{ name: "Poppet" }]
                     ],
                     [
                       { description: "From Mary Poppins" },
-                      [ { name: "Poppins" } ]
+                      [{ name: "Poppins" }]
                     ],
                     [
                       { description: "Plant with showy flowers and milky juice", language_id: english.id },
-                      [ { name: "Poppy", gender_id: female.id } ]
+                      [{ name: "Poppy", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'very smart', 'luxurious'", language_id: english.id },
-                      [ { name: "Posh", gender_id: both.id } ]
+                      [{ name: "Posh", gender_id: both.id }]
                     ],
                     [
                       { description: "Small furry marsupial", language_id: english.id },
-                      [ { name: "Possum", gender_id: both.id } ]
+                      [{ name: "Possum", gender_id: both.id }]
                     ],
                     [
                       { description: "Plant with small brown starchy tubers that are used as food", language_id: english.id },
-                      [ { name: "Potato", gender_id: both.id } ]
+                      [{ name: "Potato", gender_id: both.id }]
                     ],
                     [
                       { description: "Liquid for drinking as a medicine or drug", language_id: english.id },
-                      [ { name: "Potion", gender_id: both.id } ]
+                      [{ name: "Potion", gender_id: both.id }]
                     ],
                     [
                       { description: "Work on trivial tasks in a leisurely way", language_id: english.id },
-                      [ { name: "Potter", gender_id: both.id } ]
+                      [{ name: "Potter", gender_id: both.id }]
                     ],
                     [
                       { description: "One who pounces or perforates", language_id: english.id },
-                      [ { name: "Pouncer", gender_id: both.id } ]
+                      [{ name: "Pouncer", gender_id: both.id }]
                     ],
                     [
                       { description: "Walk or run heavily", language_id: english.id },
-                      [ { name: "Pounder", gender_id: both.id } ]
+                      [{ name: "Pounder", gender_id: both.id }]
                     ],
                     [
                       { description: "Move springily", language_id: english.id },
-                      [ { name: "Prancer", gender_id: both.id } ]
+                      [{ name: "Prancer", gender_id: both.id }]
                     ],
                     [
                       { description: "Of great value", language_id: english.id },
-                      [ { name: "Precious", gender_id: female.id } ]
+                      [{ name: "Precious", gender_id: female.id }]
                     ],
                     [
                       { description: "Instant", language_id: english.id },
-                      [ { name: "Presto", gender_id: both.id } ]
+                      [{ name: "Presto", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning attractive in a delicate way", language_id: english.id },
-                      [ { name: "Pretty", gender_id: female.id } ]
+                      [{ name: "Pretty", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'beloved'" },
-                      [ { name: "Pri" } ]
+                      [{ name: "Pri" }]
                     ],
                     [
                       { description: "Small thorns or spikes", language_id: english.id },
-                      [ { name: "Prickles", gender_id: both.id } ]
+                      [{ name: "Prickles", gender_id: both.id }]
                     ],
                     [
                       { description: "Feeling of pleasure or satisfaction", language_id: english.id },
-                      [ { name: "Pride", gender_id: both.id },
+                      [{ name: "Pride", gender_id: both.id },
                         { name: "Pryd", gender_id: both.id },
-                        { name: "Pryde", gender_id: both.id } ]
+                        { name: "Pryde", gender_id: both.id }]
                     ],
                     [
                       { description: "Most popular time to watch tv", language_id: english.id },
-                      [ { name: "Primetime", gender_id: both.id } ]
+                      [{ name: "Primetime", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'awesome'", language_id: english.id },
-                      [ { name: "Primo", gender_id: both.id } ]
+                      [{ name: "Primo", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'first rose'", language_id: latin.id },
-                      [ { name: "Primrose", gender_id: female.id } ]
+                      [{ name: "Primrose", gender_id: female.id }]
                     ],
                     [
                       { description: "The greatest or best", language_id: english.id },
-                      [ { name: "Prince", gender_id: male.id } ]
+                      [{ name: "Prince", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'noblewoman'", language_id: english.id },
-                      [ { name: "Princess", gender_id: female.id } ]
+                      [{ name: "Princess", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'venerable'", language_id: latin.id },
-                      [ { name: "Priscilla", gender_id: female.id } ]
+                      [{ name: "Priscilla", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'prim, formal and precise'", language_id: english.id },
-                      [ { name: "Prissy", gender_id: female.id } ]
+                      [{ name: "Prissy", gender_id: female.id }]
                     ],
                     [
                       { description: "Award for victory or superiority", language_id: english.id },
-                      [ { name: "Prize", gender_id: both.id } ]
+                      [{ name: "Prize", gender_id: both.id }]
                     ],
                     [
                       { description: "Particle of matter with a positive electric charge", language_id: english.id },
-                      [ { name: "Proton", gender_id: both.id } ]
+                      [{ name: "Proton", gender_id: both.id }]
                     ],
                     [
                       { description: "Original example from which others are developed", language_id: english.id },
-                      [ { name: "Prototype", gender_id: both.id } ]
+                      [{ name: "Prototype", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'cautious'", language_id: latin.id },
-                      [ { name: "Prudence", gender_id: female.id } ]
+                      [{ name: "Prudence", gender_id: female.id }]
                     ],
                     [
                       { description: "Dried plum", language_id: english.id },
-                      [ { name: "Prune", gender_id: both.id } ]
+                      [{ name: "Prune", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'mischievous sprite'", language_id: old_norse.id },
-                      [ { name: "Puck", gender_id: male.id } ]
+                      [{ name: "Puck", gender_id: male.id }]
                     ],
                     [
                       { description: "Short name for pudding", language_id: english.id },
-                      [ { name: "Pud", gender_id: both.id },
-                        { name: "Pudd", gender_id: both.id } ]
+                      [{ name: "Pud", gender_id: both.id },
+                        { name: "Pudd", gender_id: both.id }]
                     ],
                     [
                       { description: "Sweet course of a meal, dessert", language_id: english.id },
-                      [ { name: "Pudding", gender_id: both.id } ]
+                      [{ name: "Pudding", gender_id: both.id }]
                     ],
                     [
                       { description: "Small pools of rainwater or liquid on a surface", language_id: english.id },
-                      [ { name: "Puddles", gender_id: both.id } ]
+                      [{ name: "Puddles", gender_id: both.id }]
                     ],
                     [
                       { description: "Another name for cat", language_id: english.id, means_cat: true },
-                      [ { name: "Puddy", gender_id: both.id },
-                        { name: "Puddy Tat", gender_id: both.id } ]
+                      [{ name: "Puddy", gender_id: both.id },
+                        { name: "Puddy Tat", gender_id: both.id }]
                     ],
                     [
                       { description: "Short sudden gust of wind", language_id: english.id },
-                      [ { name: "Puff", gender_id: both.id } ]
+                      [{ name: "Puff", gender_id: both.id }]
                     ],
                     [
                       { description: "Seabird with a short striped bill", language_id: english.id, means_bird: true },
-                      [ { name: "Puffin", gender_id: both.id } ]
+                      [{ name: "Puffin", gender_id: both.id }]
                     ],
                     [
                       { description: "Squashed in face" },
-                      [ { name: "Pugs", gender_id: both.id } ]
+                      [{ name: "Pugs", gender_id: both.id }]
                     ],
                     [
                       { description: "Large round orange or grey coloured fruit of a vine", language_id: english.id },
-                      [ { name: "Pumpkin", gender_id: both.id } ]
+                      [{ name: "Pumpkin", gender_id: both.id }]
                     ],
                     [
                       { description: "Sound that a cat makes when happy", language_id: english.id },
-                      [ { name: "Purr", gender_id: both.id },
-                        { name: "Purry", gender_id: both.id } ]
+                      [{ name: "Purr", gender_id: both.id },
+                        { name: "Purry", gender_id: both.id }]
                     ],
                     [
                       { description: "Willow with furry catkins", language_id: english.id },
-                      [ { name: "Pussywillow", gender_id: female.id } ]
+                      [{ name: "Pussywillow", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'fruitful'", language_id: xhosa.id },
-                      [ { name: "Qhama", gender_id: both.id } ]
+                      [{ name: "Qhama", gender_id: both.id }]
                     ],
                     [
                       { description: "Theory of physics based on energy", language_id: english.id },
-                      [ { name: "Quantum", gender_id: both.id } ]
+                      [{ name: "Quantum", gender_id: both.id }]
                     ],
                     [
                       { description: "Woman regarded as supreme in some way", language_id: english.id },
-                      [ { name: "Queen", gender_id: female.id } ]
+                      [{ name: "Queen", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname for 'Queen', meaning 'royal'", language_id: english.id },
-                      [ { name: "Queenie", gender_id: female.id } ]
+                      [{ name: "Queenie", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'fifth'", language_id: latin.id },
-                      [ { name: "Quentin", gender_id: male.id },
+                      [{ name: "Quentin", gender_id: male.id },
                         { name: "Quint", gender_id: male.id },
-                        { name: "Quintus", gender_id: male.id } ]
+                        { name: "Quintus", gender_id: male.id }]
                     ],
                     [
                       { description: "A journey in search of adventure or treasure", language_id: english.id },
-                      [ { name: "Quest", gender_id: both.id } ]
+                      [{ name: "Quest", gender_id: both.id }]
                     ],
                     [
                       { description: "An old name for mercury" },
-                      [ { name: "Quicksilver" } ]
+                      [{ name: "Quicksilver" }]
                     ],
                     [
                       { description: "Meaning 'wise'", language_id: irish_gaelic.id },
-                      [ { name: "Quin", gender_id: both.id },
-                        { name: "Quinn", gender_id: both.id } ]
+                      [{ name: "Quin", gender_id: both.id },
+                        { name: "Quinn", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'Quintus' estate'", language_id: norman_french.id },
-                      [ { name: "Quincey", gender_id: male.id },
-                        { name: "Quincy", gender_id: male.id } ]
+                      [{ name: "Quincey", gender_id: male.id },
+                        { name: "Quincy", gender_id: male.id }]
                     ],
                     [
                       { description: "Egyptian sun god" },
-                      [ { name: "Ra" } ]
+                      [{ name: "Ra" }]
                     ],
                     [
                       { description: "Meaning 'ewe'", language_id: hebrew.id },
-                      [ { name: "Rachael", gender_id: female.id },
-                        { name: "Rachel", gender_id: female.id } ]
+                      [{ name: "Rachael", gender_id: female.id },
+                        { name: "Rachel", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'hard-working'", language_id: slavic.id },
-                      [ { name: "Radinka", gender_id: female.id } ]
+                      [{ name: "Radinka", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'red field'", language_id: old_english.id },
-                      [ { name: "Radley", gender_id: male.id } ]
+                      [{ name: "Radley", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'friend'", language_id: arabic.id },
-                      [ { name: "Rafi", gender_id: male.id } ]
+                      [{ name: "Rafi", gender_id: male.id }]
                     ],
                     [
                       { description: "Person in ragged dirty clothes", language_id: english.id },
-                      [ { name: "Ragamuffin", gender_id: both.id } ]
+                      [{ name: "Ragamuffin", gender_id: both.id }]
                     ],
                     [
                       { description: "Old and torn clothes", language_id: english.id },
-                      [ { name: "Rags", gender_id: both.id } ]
+                      [{ name: "Rags", gender_id: both.id }]
                     ],
                     [
                       { description: "Someone who attacks to destroy or seize something", language_id: english.id },
-                      [ { name: "Raider", gender_id: both.id } ]
+                      [{ name: "Raider", gender_id: both.id }]
                     ],
                     [
                       { description: "Atmospheric moisture falling as drops", language_id: english.id },
-                      [ { name: "Rain", gender_id: female.id } ]
+                      [{ name: "Rain", gender_id: female.id }]
                     ],
                     [
                       { description: "Arch of colours formed in rain or spray by the sun’s rays", language_id: english.id },
-                      [ { name: "Rainbow", gender_id: female.id } ]
+                      [{ name: "Rainbow", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'advice'", language_id: ancient_german.id },
-                      [ { name: "Raine", gender_id: both.id } ]
+                      [{ name: "Raine", gender_id: both.id }]
                     ],
                     [
                       { description: "Dried grape", language_id: english.id },
-                      [ { name: "Raisin", gender_id: both.id } ]
+                      [{ name: "Raisin", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'crafty counsellor'", language_id: ancient_german.id },
-                      [ { name: "Ralph", gender_id: male.id },
+                      [{ name: "Ralph", gender_id: male.id },
                         { name: "Ralphie", gender_id: male.id },
-                        { name: "Ralphy", gender_id: male.id } ]
+                        { name: "Ralphy", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'agreeable'", language_id: sanskrit.id },
-                      [ { name: "Rama", gender_id: male.id } ]
+                      [{ name: "Rama", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'branch'", language_id: old_french.id },
-                      [ { name: "Ramos", gender_id: male.id } ]
+                      [{ name: "Ramos", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'garlic island'", language_id: old_english.id },
-                      [ { name: "Ramsey", gender_id: male.id } ]
+                      [{ name: "Ramsey", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'eye catcher'", language_id: arabic.id },
-                      [ { name: "Rana", gender_id: female.id } ]
+                      [{ name: "Rana", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'shield'", language_id: ancient_german.id },
-                      [ { name: "Randy", gender_id: both.id } ]
+                      [{ name: "Randy", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'a forester'" },
-                      [ { name: "Ranger" } ]
+                      [{ name: "Ranger" }]
                     ],
                     [
                       { description: "Meaning 'queen'" },
-                      [ { name: "Rani" } ]
+                      [{ name: "Rani" }]
                     ],
                     [
                       { description: "Dutch and French version of Ralph, meaning 'crafty counselor'" },
-                      [ { name: "Raoul", gender_id: male.id } ]
+                      [{ name: "Raoul", gender_id: male.id }]
                     ],
                     [
                       { description: "Rock music with recited words", language_id: english.id },
-                      [ { name: "Rap", gender_id: both.id } ]
+                      [{ name: "Rap", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'healer of god'" },
-                      [ { name: "Raphael" } ]
+                      [{ name: "Raphael" }]
                     ],
                     [
                       { description: "Meaning 'loving'", language_id: latin.id },
-                      [ { name: "Rastus", gender_id: male.id } ]
+                      [{ name: "Rastus", gender_id: male.id }]
                     ],
                     [
                       { description: "Glossy black", language_id: english.id },
-                      [ { name: "Raven", gender_id: both.id } ]
+                      [{ name: "Raven", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'advisor, protector'", language_id: ancient_german.id },
-                      [ { name: "Ray", gender_id: both.id } ]
+                      [{ name: "Ray", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'gentle'" },
-                      [ { name: "Reay" } ]
+                      [{ name: "Reay" }]
                     ],
                     [
                       { description: "Meaning 'to bind'", language_id: hebrew.id },
-                      [ { name: "Rebbeca", gender_id: female.id },
+                      [{ name: "Rebbeca", gender_id: female.id },
                         { name: "Rebbecca", gender_id: female.id },
                         { name: "Rebbecka", gender_id: female.id },
                         { name: "Rebecca", gender_id: female.id },
                         { name: "Rebeccah", gender_id: female.id },
                         { name: "Rebeccka", gender_id: female.id },
-                        { name: "Rebecha", gender_id: female.id } ]
+                        { name: "Rebecha", gender_id: female.id }]
                     ],
                     [
                       { description: "Person who fights against or refuses allegiance to established conventions", language_id: english.id },
-                      [ { name: "Rebel", gender_id: both.id } ]
+                      [{ name: "Rebel", gender_id: both.id }]
                     ],
                     [
                       { description: "Reddish-brown colour", language_id: english.id },
-                      [ { name: "Red", gender_id: male.id } ]
+                      [{ name: "Red", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'queenly'" },
-                      [ { name: "Reena", gender_id: female.id },
-                        { name: "Reina", gender_id: female.id } ]
+                      [{ name: "Reena", gender_id: female.id },
+                        { name: "Reina", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'enthusiasm'", language_id: welsh.id },
-                      [ { name: "Reese", gender_id: both.id } ]
+                      [{ name: "Reese", gender_id: both.id }]
                     ],
                     [
                       { description: "Image seen in a mirror", language_id: english.id },
-                      [ { name: "Reflection", gender_id: both.id } ]
+                      [{ name: "Reflection", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Reginald, meaning 'ruler's advisor'", language_id: latin.id },
-                      [ { name: "Reggie", gender_id: male.id },
-                        { name: "Reggy", gender_id: male.id } ]
+                      [{ name: "Reggie", gender_id: male.id },
+                        { name: "Reggy", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'king-like'", language_id: latin.id },
-                      [ { name: "Regis", gender_id: both.id } ]
+                      [{ name: "Regis", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'rye clearing'", language_id: old_english.id },
-                      [ { name: "Reilly", gender_id: both.id },
+                      [{ name: "Reilly", gender_id: both.id },
                         { name: "Riley", gender_id: both.id },
                         { name: "Ryelee", gender_id: both.id },
                         { name: "Rylee", gender_id: both.id },
                         { name: "Ryleigh", gender_id: both.id },
-                        { name: "Rylie", gender_id: both.id } ]
+                        { name: "Rylie", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'oarsman'", language_id: latin.id },
-                      [ { name: "Remi", gender_id: male.id } ]
+                      [{ name: "Remi", gender_id: male.id }]
                     ],
                     [
                       { description: "Revival of objects from long ago" },
-                      [ { name: "Renaissance", gender_id: both.id } ]
+                      [{ name: "Renaissance", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'born again'", language_id: latin.id },
-                      [ { name: "Renee", gender_id: female.id } ]
+                      [{ name: "Renee", gender_id: female.id }]
                     ],
                     [
                       { description: "Person who deserts from a group or cause", language_id: english.id },
-                      [ { name: "Renegade", gender_id: both.id } ]
+                      [{ name: "Renegade", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'here's my son'", language_id: hebrew.id },
-                      [ { name: "Reuben", gender_id: male.id },
+                      [{ name: "Reuben", gender_id: male.id },
                         { name: "Ruben", gender_id: male.id },
                         { name: "Rubin", gender_id: male.id },
-                        { name: "Rueben", gender_id: male.id } ]
+                        { name: "Rueben", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'king'", language_id: latin.id },
-                      [ { name: "Rex", gender_id: male.id } ]
+                      [{ name: "Rex", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'strong decision'", language_id: ancient_german.id },
-                      [ { name: "Reynardo", gender_id: male.id } ]
+                      [{ name: "Reynardo", gender_id: male.id }]
                     ],
                     [
                       { description: "Romantic musical composition" },
-                      [ { name: "Rhapsody", gender_id: both.id } ]
+                      [{ name: "Rhapsody", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'great queen', 'goddess'", language_id: welsh.id },
-                      [ { name: "Rhianna", gender_id: female.id },
-                        { name: "Rhiannon", gender_id: female.id } ]
+                      [{ name: "Rhianna", gender_id: female.id },
+                        { name: "Rhiannon", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'good lance'", language_id: welsh.id },
-                      [ { name: "Rhonda", gender_id: female.id },
+                      [{ name: "Rhonda", gender_id: female.id },
                         { name: "Rhondda", gender_id: female.id },
-                        { name: "Ronda", gender_id: female.id } ]
+                        { name: "Ronda", gender_id: female.id }]
                     ],
                     [
                       { description: "Plant with red leaf-stalks that are used like fruit", language_id: english.id },
-                      [ { name: "Rhubarb", gender_id: both.id } ]
+                      [{ name: "Rhubarb", gender_id: both.id }]
                     ],
                     [
                       { description: "Pattern produced by emphasis in music and duration of notes", language_id: english.id },
-                      [ { name: "Rhythm", gender_id: both.id } ]
+                      [{ name: "Rhythm", gender_id: both.id }]
                     ],
                     [
                       { description: "Narrow bands of silky material", language_id: english.id },
-                      [ { name: "Ribbon", gender_id: both.id },
-                        { name: "Ribbons", gender_id: both.id } ]
+                      [{ name: "Ribbon", gender_id: both.id },
+                        { name: "Ribbons", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'splendid', 'costly', 'valuable'", language_id: english.id },
-                      [ { name: "Rich", gender_id: both.id },
-                        { name: "Riche", gender_id: both.id } ]
+                      [{ name: "Rich", gender_id: both.id },
+                        { name: "Riche", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Richard, meaning 'powerful leader'", language_id: ancient_german.id },
-                      [ { name: "Richie", gender_id: male.id },
+                      [{ name: "Richie", gender_id: male.id },
                         { name: "Ricki", gender_id: both.id },
                         { name: "Rickie", gender_id: both.id },
-                        { name: "Rikki", gender_id: both.id } ]
+                        { name: "Rikki", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'complete ruler'", language_id: ancient_german.id },
-                      [ { name: "Ricky", gender_id: both.id } ]
+                      [{ name: "Ricky", gender_id: both.id }]
                     ],
                     [
                       { description: "One who rides", language_id: english.id },
-                      [ { name: "Rider", gender_id: both.id } ]
+                      [{ name: "Rider", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'power'", language_id: japanese.id },
-                      [ { name: "Riki", gender_id: both.id } ]
+                      [{ name: "Riki", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'courageous'" },
-                      [ { name: "Riles" } ]
+                      [{ name: "Riles" }]
                     ],
                     [
                       { description: "Give out a loud clear resonant sound", language_id: english.id },
-                      [ { name: "Ring", gender_id: both.id } ]
+                      [{ name: "Ring", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'ring'" },
-                      [ { name: "Ringo", gender_id: male.id } ]
+                      [{ name: "Ringo", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'river'", language_id: spanish.id },
-                      [ { name: "Rio", gender_id: male.id } ]
+                      [{ name: "Rio", gender_id: male.id }]
                     ],
                     [
                       { description: "Luxurious, fashionable, elegant", language_id: english.id },
-                      [ { name: "Ritz", gender_id: both.id },
-                        { name: "Ritzy", gender_id: both.id } ]
+                      [{ name: "Ritz", gender_id: both.id },
+                        { name: "Ritzy", gender_id: both.id }]
                     ],
                     [
                       { description: "Natural stream of water entering into an ocean, lake, or another river", language_id: english.id },
-                      [ { name: "River", gender_id: male.id } ]
+                      [{ name: "River", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'little red-head'", language_id: irish_gaelic.id },
-                      [ { name: "Roan", gender_id: both.id },
+                      [{ name: "Roan", gender_id: both.id },
                         { name: "Rowan", gender_id: both.id },
-                        { name: "Rowen", gender_id: both.id } ]
+                        { name: "Rowen", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'shining with fame'", language_id: ancient_german.id },
-                      [ { name: "Robbie", gender_id: both.id },
+                      [{ name: "Robbie", gender_id: both.id },
                         { name: "Robby", gender_id: both.id },
-                        { name: "Robert", gender_id: both.id } ]
+                        { name: "Robert", gender_id: both.id }]
                     ],
                     [
                       { description: "Brown red breasted bird", language_id: english.id, means_bird: true },
-                      [ { name: "Robin", gender_id: both.id } ]
+                      [{ name: "Robin", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'rest'", language_id: ancient_german.id },
-                      [ { name: "Rocco", gender_id: male.id },
-                        { name: "Rocko", gender_id: male.id } ]
+                      [{ name: "Rocco", gender_id: male.id },
+                        { name: "Rocko", gender_id: male.id }]
                     ],
                     [
                       { description: "Type of modern music with a strong beat", language_id: english.id },
-                      [ { name: "Rock", gender_id: both.id } ]
+                      [{ name: "Rock", gender_id: both.id }]
                     ],
                     [
                       { description: "To dart ahead swiftly", language_id: english.id },
-                      [ { name: "Rocket", gender_id: both.id } ]
+                      [{ name: "Rocket", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'rest'", language_id: ancient_german.id },
-                      [ { name: "Rocky", gender_id: male.id } ]
+                      [{ name: "Rocky", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'fame'" },
-                      [ { name: "Rodger" },
-                        { name: "Roger" } ]
+                      [{ name: "Rodger" },
+                        { name: "Roger" }]
                     ],
                     [
                       { description: "Meaning 'Roda's island'", language_id: ancient_german.id },
-                      [ { name: "Rodney", gender_id: male.id },
-                        { name: "Rodnie", gender_id: male.id } ]
+                      [{ name: "Rodney", gender_id: male.id },
+                        { name: "Rodnie", gender_id: male.id }]
                     ],
                     [
                       { description: "Italian and Spanish version of Roderick, meaning 'famous power'", language_id: ancient_german.id },
-                      [ { name: "Rodrigo", gender_id: male.id } ]
+                      [{ name: "Rodrigo", gender_id: male.id }]
                     ],
                     [
                       { description: "Mass of fish eggs", language_id: english.id },
-                      [ { name: "Roe", gender_id: both.id } ]
+                      [{ name: "Roe", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'king'", language_id: french.id },
-                      [ { name: "Roi", gender_id: male.id } ]
+                      [{ name: "Roi", gender_id: male.id }]
                     ],
                     [
                       { description: "Nickname of Roko, meaning 'rest'", language_id: ancient_german.id },
-                      [ { name: "Rok", gender_id: male.id } ]
+                      [{ name: "Rok", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'dawn'", language_id: persian.id },
-                      [ { name: "Roksana", gender_id: female.id },
+                      [{ name: "Roksana", gender_id: female.id },
                         { name: "Roxan", gender_id: female.id },
                         { name: "Roxane", gender_id: female.id },
                         { name: "Roxann", gender_id: female.id },
-                        { name: "Roxanne", gender_id: female.id } ]
+                        { name: "Roxanne", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'famed wolf'", language_id: ancient_german.id, means_dog: true },
-                      [ { name: "Rollo", gender_id: male.id },
+                      [{ name: "Rollo", gender_id: male.id },
                         { name: "Rolo", gender_id: male.id },
                         { name: "Rudolf", gender_id: both.id },
-                        { name: "Rudolph", gender_id: both.id } ]
+                        { name: "Rudolph", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'fame'" },
-                      [ { name: "Roma" } ]
+                      [{ name: "Roma" }]
                     ],
                     [
                       { description: "Meaning 'citizen of Rome'", language_id: latin.id },
-                      [ { name: "Roman", gender_id: male.id },
+                      [{ name: "Roman", gender_id: male.id },
                         { name: "Romano", gender_id: male.id },
                         { name: "Romanus", gender_id: male.id },
-                        { name: "Romany", gender_id: female.id } ]
+                        { name: "Romany", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'pilgrim'" },
-                      [ { name: "Romeo" } ]
+                      [{ name: "Romeo" }]
                     ],
                     [
                       { description: "Nickname of Rosemary, meaning 'mist of the sea'", language_id: latin.id },
-                      [ { name: "Romey", gender_id: female.id },
+                      [{ name: "Romey", gender_id: female.id },
                         { name: "Rommy", gender_id: female.id },
-                        { name: "Romy", gender_id: female.id } ]
+                        { name: "Romy", gender_id: female.id }]
                     ],
                     [
                       { description: "Plays about in a lively way", language_id: english.id },
-                      [ { name: "Romper", gender_id: both.id } ]
+                      [{ name: "Romper", gender_id: both.id }]
                     ],
                     [
                       { description: "In Roman mythology, a son of Mars and founder and first king of Rome", language_id: roman.id },
-                      [ { name: "Romulus", gender_id: male.id } ]
+                      [{ name: "Romulus", gender_id: male.id }]
                     ],
                     [
                       { description: "Nickname of Ronald, meaning 'ruler's counsellor'", language_id: old_norse.id },
-                      [ { name: "Ronnie", gender_id: both.id },
-                        { name: "Ronny", gender_id: both.id } ]
+                      [{ name: "Ronnie", gender_id: both.id },
+                        { name: "Ronny", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'rose field'", language_id: dutch.id },
-                      [ { name: "Roosevelt", gender_id: male.id } ]
+                      [{ name: "Roosevelt", gender_id: male.id }]
                     ],
                     [
                       { description: "Portuguese and Spanish form of Rocky, meaning 'rest'", language_id: ancient_german.id },
-                      [ { name: "Roque", gender_id: male.id } ]
+                      [{ name: "Roque", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'red king'", language_id: irish_gaelic.id },
-                      [ { name: "Roree" },
-                        { name: "Rory" } ]
+                      [{ name: "Roree" },
+                        { name: "Rory" }]
                     ],
                     [
                       { description: "Meaning 'rose'", language_id: latin.id },
-                      [ { name: "Ros", gender_id: female.id },
+                      [{ name: "Ros", gender_id: female.id },
                         { name: "Rosa", gender_id: female.id },
-                        { name: "Zena", gender_id: female.id } ]
+                        { name: "Zena", gender_id: female.id }]
                     ],
                     [
                       { description: "Alternate form of Rosa or Rose, meaning 'rose'", language_id: latin.id },
-                      [ { name: "Rosalla", gender_id: female.id },
+                      [{ name: "Rosalla", gender_id: female.id },
                         { name: "Rosela", gender_id: female.id },
                         { name: "Rosella", gender_id: female.id },
-                        { name: "Rosetta", gender_id: female.id } ]
+                        { name: "Rosetta", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'horse protector'", language_id: ancient_german.id },
-                      [ { name: "Rosamund", gender_id: female.id } ]
+                      [{ name: "Rosamund", gender_id: female.id }]
                     ],
                     [
                       { description: "Combination of the names Rose (meaning flower) and Anna or Anne (meaning favoured grace)" },
-                      [ { name: "Rosanna", gender_id: female.id },
+                      [{ name: "Rosanna", gender_id: female.id },
                         { name: "Roseanna", gender_id: female.id },
-                        { name: "Roseanne", gender_id: female.id } ]
+                        { name: "Roseanne", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'deer wood'", language_id: ancient_german.id },
-                      [ { name: "Rosco", gender_id: male.id },
+                      [{ name: "Rosco", gender_id: male.id },
                         { name: "Roscoe", gender_id: male.id },
-                        { name: "Rosko", gender_id: male.id } ]
+                        { name: "Rosko", gender_id: male.id }]
                     ],
                     [
                       { description: "Ornamental fragrant flower", language_id: english.id },
-                      [ { name: "Rose", gender_id: female.id } ]
+                      [{ name: "Rose", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'mist of the sea'", language_id: latin.id },
-                      [ { name: "Rosemary", gender_id: female.id } ]
+                      [{ name: "Rosemary", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'little rose'" },
-                      [ { name: "Rosetti", gender_id: female.id } ]
+                      [{ name: "Rosetti", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Rosa and Rose, meaning 'rose'", language_id: latin.id },
-                      [ { name: "Rosey", gender_id: female.id },
+                      [{ name: "Rosey", gender_id: female.id },
                         { name: "Rosi", gender_id: female.id },
                         { name: "Rosie", gender_id: female.id },
                         { name: "Rosita", gender_id: female.id },
-                        { name: "Rosy", gender_id: female.id } ]
+                        { name: "Rosy", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'blossom'" },
-                      [ { name: "Rosina", gender_id: female.id } ]
+                      [{ name: "Rosina", gender_id: female.id }]
                     ],
                     [
                       { description: "Reddish cosmetic colouring for the cheeks", language_id: english.id },
-                      [ { name: "Rouge" } ]
+                      [{ name: "Rouge" }]
                     ],
                     [
                       { description: "A wanderer", language_id: english.id },
-                      [ { name: "Rover", gender_id: male.id } ]
+                      [{ name: "Rover", gender_id: male.id }]
                     ],
                     [
                       { description: "Rough, disorderly behaviour", language_id: english.id },
-                      [ { name: "Rowdie", gender_id: both.id },
-                        { name: "Rowdy", gender_id: both.id } ]
+                      [{ name: "Rowdie", gender_id: both.id },
+                        { name: "Rowdy", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Roxane, meaning 'dawn'", language_id: persian.id },
-                      [ { name: "Roxi", gender_id: female.id },
+                      [{ name: "Roxi", gender_id: female.id },
                         { name: "Roxie", gender_id: female.id },
-                        { name: "Roxy", gender_id: female.id } ]
+                        { name: "Roxy", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'red'", language_id: irish_gaelic.id },
-                      [ { name: "Roy", gender_id: both.id } ]
+                      [{ name: "Roy", gender_id: both.id }]
                     ],
                     [
                       { description: "Splendid, of great size", language_id: english.id },
-                      [ { name: "Royale", gender_id: both.id } ]
+                      [{ name: "Royale", gender_id: both.id }]
                     ],
                     [
                       { description: "Red jewel", language_id: english.id },
-                      [ { name: "Rubi", gender_id: female.id },
-                        { name: "Ruby", gender_id: female.id } ]
+                      [{ name: "Rubi", gender_id: female.id },
+                        { name: "Ruby", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Rudolf, meaning 'famed wolf'", language_id: ancient_german.id, means_dog: true },
-                      [ { name: "Rudi", gender_id: both.id },
-                        { name: "Rudy", gender_id: both.id } ]
+                      [{ name: "Rudi", gender_id: both.id },
+                        { name: "Rudy", gender_id: both.id }]
                     ],
                     [
                       { description: "Gathered frills", language_id: english.id },
-                      [ { name: "Ruffles", gender_id: both.id } ]
+                      [{ name: "Ruffles", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'red-haired'", language_id: latin.id },
-                      [ { name: "Rufus", gender_id: male.id } ]
+                      [{ name: "Rufus", gender_id: male.id }]
                     ],
                     [
                       { description: "Person or animal that runs", language_id: english.id },
-                      [ { name: "Runner", gender_id: both.id } ]
+                      [{ name: "Runner", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'bright, shining, famous'", language_id: german.id },
-                      [ { name: "Rupert", gender_id: male.id } ]
+                      [{ name: "Rupert", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'red fox'" },
-                      [ { name: "Russell" } ]
+                      [{ name: "Russell" }]
                     ],
                     [
                       { description: "Reddy brown colour", language_id: english.id },
-                      [ { name: "Rust", gender_id: both.id } ]
+                      [{ name: "Rust", gender_id: both.id }]
                     ],
                     [
                       { description: "Covered in rust, rust-coloured", language_id: english.id },
-                      [ { name: "Rusty", gender_id: both.id } ]
+                      [{ name: "Rusty", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'friend'" },
-                      [ { name: "Ruth", gender_id: female.id } ]
+                      [{ name: "Ruth", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'great queen', 'goddess'", language_id: welsh.id },
-                      [ { name: "Ryanna", gender_id: female.id } ]
+                      [{ name: "Ryanna", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'fisherman'" },
-                      [ { name: "Rybolov", gender_id: male.id } ]
+                      [{ name: "Rybolov", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'clearing'", language_id: old_english.id },
-                      [ { name: "Ryder", gender_id: male.id } ]
+                      [{ name: "Ryder", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'morning'", language_id: arabic.id },
-                      [ { name: "Saba", gender_id: female.id } ]
+                      [{ name: "Saba", gender_id: female.id }]
                     ],
                     [
                       { description: "Black colour" },
-                      [ { name: "Sable", gender_id: both.id } ]
+                      [{ name: "Sable", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'to rest'", language_id: hebrew.id },
-                      [ { name: "Sabra" } ]
+                      [{ name: "Sabra" }]
                     ],
                     [
                       { description: "Meaning 'goddess'" },
-                      [ { name: "Sabrina", gender_id: female.id },
-                        { name: "Zabrina", gender_id: female.id } ]
+                      [{ name: "Sabrina", gender_id: female.id },
+                        { name: "Zabrina", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'fortunate'" },
-                      [ { name: "Sacchi" } ]
+                      [{ name: "Sacchi" }]
                     ],
                     [
                       { description: "Nickname of Aleksandr, Alexandre and Alexandra, meaning 'protector of men'", language_id: greek.id },
-                      [ { name: "Sacha", gender_id: both.id } ]
+                      [{ name: "Sacha", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Folasade, meaning 'honour bestores a crown'", language_id: yoruba.id },
-                      [ { name: "Sade", gender_id: female.id } ]
+                      [{ name: "Sade", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'princess'", language_id: hebrew.id },
-                      [ { name: "Sadie", gender_id: female.id },
+                      [{ name: "Sadie", gender_id: female.id },
                         { name: "Salli", gender_id: female.id },
                         { name: "Sally", gender_id: female.id },
                         { name: "Sara", gender_id: female.id },
                         { name: "Sarah", gender_id: female.id },
                         { name: "Sarra", gender_id: female.id },
-                        { name: "Sarrah", gender_id: female.id } ]
+                        { name: "Sarrah", gender_id: female.id }]
                     ],
                     [
                       { description: "Expedition to hunt or observe wild animals", language_id: english.id },
-                      [ { name: "Safari", gender_id: both.id } ]
+                      [{ name: "Safari", gender_id: both.id }]
                     ],
                     [
                       { description: "Orange yellow colour" },
-                      [ { name: "Saffron", gender_id: both.id } ]
+                      [{ name: "Saffron", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'a wise person'", language_id: english.id },
-                      [ { name: "Sage", gender_id: both.id } ]
+                      [{ name: "Sage", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'wilderness'" },
-                      [ { name: "Sahara" } ]
+                      [{ name: "Sahara" }]
                     ],
                     [
                       { description: "Member of a ship’s crew", language_id: english.id },
-                      [ { name: "Sailor", gender_id: both.id } ]
+                      [{ name: "Sailor", gender_id: both.id }]
                     ],
                     [
                       { description: "Very good, patient or unselfish person", language_id: english.id },
-                      [ { name: "Saint", gender_id: both.id } ]
+                      [{ name: "Saint", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'cherry blossom'", language_id: japanese.id },
-                      [ { name: "Sakura", gender_id: female.id } ]
+                      [{ name: "Sakura", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'the moon'", language_id: greek.id },
-                      [ { name: "Saleena", gender_id: female.id },
+                      [{ name: "Saleena", gender_id: female.id },
                         { name: "Salina", gender_id: female.id },
                         { name: "Selene", gender_id: female.id },
-                        { name: "Selina", gender_id: female.id } ]
+                        { name: "Selina", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'sauce'", language_id: spanish.id },
-                      [ { name: "Salsa", gender_id: both.id } ]
+                      [{ name: "Salsa", gender_id: both.id }]
                     ],
                     [
                       { description: "Seasoning for food", language_id: english.id },
-                      [ { name: "Salt", gender_id: both.id } ]
+                      [{ name: "Salt", gender_id: both.id }]
                     ],
                     [
                       { description: "Gesture of respect or greeting", language_id: english.id },
-                      [ { name: "Salute", gender_id: both.id } ]
+                      [{ name: "Salute", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'listener', 'God heard'", language_id: hebrew.id },
-                      [ { name: "Sam", gender_id: both.id },
+                      [{ name: "Sam", gender_id: both.id },
                         { name: "Samantha", gender_id: female.id },
                         { name: "Samual", gender_id: both.id },
-                        { name: "Samuel", gender_id: both.id } ]
+                        { name: "Samuel", gender_id: both.id }]
                     ],
                     [
                       { description: "Ballroom dance of Brazilian origin" },
-                      [ { name: "Samba", gender_id: both.id } ]
+                      [{ name: "Samba", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Samuel and Samantha, meaning 'God heard'", language_id: hebrew.id },
-                      [ { name: "Sami", gender_id: both.id },
+                      [{ name: "Sami", gender_id: both.id },
                         { name: "Samie", gender_id: both.id },
                         { name: "Sammi", gender_id: both.id },
                         { name: "Sammie", gender_id: both.id },
-                        { name: "Sammy", gender_id: both.id } ]
+                        { name: "Sammy", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'sun'", language_id: hebrew.id },
-                      [ { name: "Sampson", gender_id: male.id },
-                        { name: "Samson", gender_id: male.id } ]
+                      [{ name: "Sampson", gender_id: male.id },
+                        { name: "Samson", gender_id: male.id }]
                     ],
                     [
                       { description: "Japanese army officer", language_id: japanese.id },
-                      [ { name: "Samurai", gender_id: male.id } ]
+                      [{ name: "Samurai", gender_id: male.id }]
                     ],
                     [
                       { description: "Two or more slices of bread with a layer of filling between", language_id: english.id },
-                      [ { name: "Sandwich", gender_id: both.id } ]
+                      [{ name: "Sandwich", gender_id: both.id }]
                     ],
                     [
                       { description: "Yellowish red", language_id: english.id },
-                      [ { name: "Sandy", gender_id: both.id } ]
+                      [{ name: "Sandy", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'creative'" },
-                      [ { name: "Sanjarna" } ]
+                      [{ name: "Sanjarna" }]
                     ],
                     [
                       { description: "Meaning 'happiness'" },
-                      [ { name: "Santos" } ]
+                      [{ name: "Santos" }]
                     ],
                     [
                       { description: "Meaning 'like a kitten'", language_id: swahili.id, means_cat: true },
-                      [ { name: "Sanura" } ]
+                      [{ name: "Sanura" }]
                     ],
                     [
                       { description: "Blue precious stone" },
-                      [ { name: "Sapphire", gender_id: female.id } ]
+                      [{ name: "Sapphire", gender_id: female.id }]
                     ],
                     [
                       { description: "Nomadic tribes of Syria" },
-                      [ { name: "Saracen" } ]
+                      [{ name: "Saracen" }]
                     ],
                     [
                       { description: "Meaning 'burning ones'", language_id: hebrew.id },
-                      [ { name: "Sarafina", gender_id: female.id },
+                      [{ name: "Sarafina", gender_id: female.id },
                         { name: "Seraphina", gender_id: female.id },
-                        { name: "Serephina", gender_id: female.id } ]
+                        { name: "Serephina", gender_id: female.id }]
                     ],
                     [
                       { description: "Combination of the names Sarah (meaning 'princess') and Serena (meaning 'calm')" },
-                      [ { name: "Sareena", gender_id: female.id },
-                        { name: "Sarena", gender_id: female.id } ]
+                      [{ name: "Sareena", gender_id: female.id },
+                        { name: "Sarena", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'royal'" },
-                      [ { name: "Sarotti" } ]
+                      [{ name: "Sarotti" }]
                     ],
                     [
                       { description: "Buckwheat" },
-                      [ { name: "Sarrazin" } ]
+                      [{ name: "Sarrazin" }]
                     ],
                     [
                       { description: "Nickname of Alexander and Alexandra, meaning 'protector of men'", language_id: greek.id },
-                      [ { name: "Sascha", gender_id: both.id },
-                        { name: "Sasha", gender_id: both.id } ]
+                      [{ name: "Sascha", gender_id: both.id },
+                        { name: "Sasha", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'protector of the universe'" },
-                      [ { name: "Saskia" } ]
+                      [{ name: "Saskia" }]
                     ],
                     [
                       { description: "Trees of the laurel family with yellow flowers and bluish fruit" },
-                      [ { name: "Sassafras" } ]
+                      [{ name: "Sassafras" }]
                     ],
                     [
                       { description: "Silky material that is glossy on one side", language_id: english.id },
-                      [ { name: "Satin", gender_id: female.id } ]
+                      [{ name: "Satin", gender_id: female.id }]
                     ],
                     [
                       { description: "Small round shallow dish", language_id: english.id },
-                      [ { name: "Saucer", gender_id: both.id } ]
+                      [{ name: "Saucer", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'asked for'", language_id: hebrew.id },
-                      [ { name: "Saul", gender_id: male.id } ]
+                      [{ name: "Saul", gender_id: male.id }]
                     ],
                     [
                       { description: "Grassy plain in hot regions" },
-                      [ { name: "Savanah" },
-                        { name: "Savannah" } ]
+                      [{ name: "Savanah" },
+                        { name: "Savannah" }]
                     ],
                     [
                       { description: "Si-sawat is the Thai name for a Korat", language_id: thai.id, means_cat: true },
-                      [ { name: "Sawat" } ]
+                      [{ name: "Sawat" }]
                     ],
                     [
                       { description: "Run hastily or in play", language_id: english.id },
-                      [ { name: "Scamper", gender_id: both.id } ]
+                      [{ name: "Scamper", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'red'", language_id: old_french.id },
-                      [ { name: "Scarlet", gender_id: female.id },
-                        { name: "Scarlett", gender_id: female.id } ]
+                      [{ name: "Scarlet", gender_id: female.id },
+                        { name: "Scarlett", gender_id: female.id }]
                     ],
                     [
                       { description: "Lightweight motorcycle", language_id: english.id },
-                      [ { name: "Scoota", gender_id: male.id },
-                        { name: "Scooter", gender_id: male.id } ]
+                      [{ name: "Scoota", gender_id: male.id },
+                        { name: "Scooter", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'from Scotland'" },
-                      [ { name: "Scottie" },
-                        { name: "Scotty" } ]
+                      [{ name: "Scottie" },
+                        { name: "Scotty" }]
                     ],
                     [
                       { description: "Person sent to gather information", language_id: english.id },
-                      [ { name: "Scout", language_id: both.id } ]
+                      [{ name: "Scout", language_id: both.id }]
                     ],
                     [
                       { description: "Mythical monster living off the coast of Italy", language_id: italian.id },
-                      [ { name: "Scylla" } ]
+                      [{ name: "Scylla" }]
                     ],
                     [
                       { description: "Person who works or travels on the sea", language_id: english.id },
-                      [ { name: "Seafarer", gender_id: both.id } ]
+                      [{ name: "Seafarer", gender_id: both.id }]
                     ],
                     [
                       { description: "Sea animal with thick fur or bristles", language_id: english.id },
-                      [ { name: "Seal", gender_id: both.id } ]
+                      [{ name: "Seal", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'one who trips up another and takes his place'", language_id: latin.id },
-                      [ { name: "Seamus", gender_id: male.id } ]
+                      [{ name: "Seamus", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'God's grace'", language_id: irish_gaelic.id },
-                      [ { name: "Sean", gender_id: both.id },
+                      [{ name: "Sean", gender_id: both.id },
                         { name: "Seann", gender_id: both.id },
                         { name: "Shaun", gender_id: both.id },
-                        { name: "Shawn", gender_id: both.id } ]
+                        { name: "Shawn", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'revered'", language_id: greek.id },
-                      [ { name: "Sebastian", gender_id: male.id } ]
+                      [{ name: "Sebastian", gender_id: male.id }]
                     ],
                     [
                       { description: "Kept from the knowledge of most people", language_id: english.id },
-                      [ { name: "Secret", gender_id: both.id } ]
+                      [{ name: "Secret", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'God has been gracious'" },
-                      [ { name: "Seena" } ]
+                      [{ name: "Seena" }]
                     ],
                     [
                       { description: "Meaning 'peace'", language_id: arabic.id },
-                      [ { name: "Selima", gender_id: female.id } ]
+                      [{ name: "Selima", gender_id: female.id }]
                     ],
                     [
                       { description: "Member of a senate", language_id: english.id },
-                      [ { name: "Senator", gender_id: both.id } ]
+                      [{ name: "Senator", gender_id: both.id }]
                     ],
                     [
                       { description: "Excited interest", language_id: english.id },
-                      [ { name: "Sensation", gender_id: both.id } ]
+                      [{ name: "Sensation", gender_id: both.id }]
                     ],
                     [
                       { description: "Film or novel continuing the story of an earlier one", language_id: english.id },
-                      [ { name: "Sequel", gender_id: both.id } ]
+                      [{ name: "Sequel", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'calm'", language_id: latin.id },
-                      [ { name: "Serena", gender_id: female.id } ]
+                      [{ name: "Serena", gender_id: female.id }]
                     ],
                     [
                       { description: "Music played by a lover to his lady", language_id: english.id },
-                      [ { name: "Serenade", gender_id: both.id } ]
+                      [{ name: "Serenade", gender_id: both.id }]
                     ],
                     [
                       { description: "Discovering by accident", language_id: english.id },
-                      [ { name: "Serendipity", gender_id: both.id } ]
+                      [{ name: "Serendipity", gender_id: both.id }]
                     ],
                     [
                       { description: "Open grass plain in Africa" },
-                      [ { name: "Serengeti" } ]
+                      [{ name: "Serengeti" }]
                     ],
                     [
                       { description: "Meaning 'appointed'", language_id: hebrew.id },
-                      [ { name: "Seth", gender_id: male.id } ]
+                      [{ name: "Seth", gender_id: male.id }]
                     ],
                     [
                       { description: "A number", language_id: english.id },
-                      [ { name: "Seven", gender_id: both.id },
-                        { name: "Two", gender_id: both.id } ]
+                      [{ name: "Seven", gender_id: both.id },
+                        { name: "Two", gender_id: both.id }]
                     ],
                     [
                       { description: "Old, ragged, threadbare", language_id: english.id },
-                      [ { name: "Shabby", gender_id: both.id } ]
+                      [{ name: "Shabby", gender_id: both.id }]
                     ],
                     [
                       { description: "Place sheltered from the sun", language_id: english.id },
-                      [ { name: "Shade", gender_id: both.id } ]
+                      [{ name: "Shade", gender_id: both.id }]
                     ],
                     [
                       { description: "Inseparable companion, trace", language_id: english.id },
-                      [ { name: "Shado", gender_id: both.id },
+                      [{ name: "Shado", gender_id: both.id },
                         { name: "Shadoe", gender_id: both.id },
-                        { name: "Shadow", gender_id: both.id } ]
+                        { name: "Shadow", gender_id: both.id }]
                     ],
                     [
                       { description: "Having long rough hair", language_id: english.id },
-                      [ { name: "Shaggy", gender_id: both.id } ]
+                      [{ name: "Shaggy", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'beautiful'" },
-                      [ { name: "Shaina" } ]
+                      [{ name: "Shaina" }]
                     ],
                     [
                       { description: "Meaning 'grateful'", language_id: arabic.id },
-                      [ { name: "Shakira", gender_id: female.id } ]
+                      [{ name: "Shakira", gender_id: female.id }]
                     ],
                     [
                       { description: "Four-leaf clover", language_id: english.id },
-                      [ { name: "Shamrock", gender_id: both.id } ]
+                      [{ name: "Shamrock", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Shoshana, meaning 'lily, rose'", language_id: hebrew.id },
-                      [ { name: "Shana", gender_id: female.id } ]
+                      [{ name: "Shana", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'moon'" },
-                      [ { name: "Shandarah" } ]
+                      [{ name: "Shandarah" }]
                     ],
                     [
                       { description: "Meaning 'crimson'", language_id: hebrew.id },
-                      [ { name: "Shani", gender_id: male.id } ]
+                      [{ name: "Shani", gender_id: male.id }]
                     ],
                     [
                       { description: "Alternate form of Shane, meaning 'God's grace'", language_id: irish_gaelic.id },
-                      [ { name: "Shania", gender_id: female.id },
-                        { name: "Shaniah", gender_id: female.id } ]
+                      [{ name: "Shania", gender_id: female.id },
+                        { name: "Shaniah", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'old one'", language_id: gaelic.id },
-                      [ { name: "Shannan", gender_id: both.id },
+                      [{ name: "Shannan", gender_id: both.id },
                         { name: "Shannen", gender_id: both.id },
                         { name: "Shannon", gender_id: both.id },
-                        { name: "Shanon", gender_id: both.id } ]
+                        { name: "Shanon", gender_id: both.id }]
                     ],
                     [
                       { description: "Soft Chinese silk", language_id: chinese.id },
-                      [ { name: "Shantung", gender_id: female.id } ]
+                      [{ name: "Shantung", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'good-looking'", language_id: arabic.id },
-                      [ { name: "Shaquille", gender_id: male.id } ]
+                      [{ name: "Shaquille", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'princess'" },
-                      [ { name: "Shari" } ]
+                      [{ name: "Shari" }]
                     ],
                     [
                       { description: "Meaning 'sheriff'" },
-                      [ { name: "Sharif" } ]
+                      [{ name: "Sharif" }]
                     ],
                     [
                       { description: "Meaning 'scissor man'", language_id: old_english.id },
-                      [ { name: "Sharman", gender_id: male.id },
-                        { name: "Sherman", gender_id: male.id } ]
+                      [{ name: "Sharman", gender_id: male.id },
+                        { name: "Sherman", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'marvel', 'wonder'" },
-                      [ { name: "Sharni" },
-                        { name: "Sharnie" } ]
+                      [{ name: "Sharni" },
+                        { name: "Sharnie" }]
                     ],
                     [
                       { description: "Meaning 'music'" },
-                      [ { name: "Sharon" } ]
+                      [{ name: "Sharon" }]
                     ],
                     [
                       { description: "Name of a mountain" },
-                      [ { name: "Shasta" } ]
+                      [{ name: "Shasta" }]
                     ],
                     [
                       { description: "Meaning 'river'" },
-                      [ { name: "Shayla" } ]
+                      [{ name: "Shayla" }]
                     ],
                     [
                       { description: "Meaning 'promise'", language_id: hebrew.id },
-                      [ { name: "Sheba", gender_id: female.id } ]
+                      [{ name: "Sheba", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'blind'", language_id: irish_gaelic.id },
-                      [ { name: "Shelagh", gender_id: female.id },
+                      [{ name: "Shelagh", gender_id: female.id },
                         { name: "Sheila", gender_id: female.id },
-                        { name: "Sheilah", gender_id: female.id } ]
+                        { name: "Sheilah", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'farmer'" },
-                      [ { name: "Shelby" } ]
+                      [{ name: "Shelby" }]
                     ],
                     [
                       { description: "Nickname of Shelly, meaning 'sloped meadow'", language_id: old_english.id },
-                      [ { name: "Shell", gender_id: female.id },
-                        { name: "Shells", gender_id: female.id } ]
+                      [{ name: "Shell", gender_id: female.id },
+                        { name: "Shells", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'sloped meadow'", language_id: old_english.id },
-                      [ { name: "Shelley", gender_id: female.id },
+                      [{ name: "Shelley", gender_id: female.id },
                         { name: "Shelli", gender_id: female.id },
                         { name: "Shellie", gender_id: female.id },
-                        { name: "Shelly", gender_id: female.id } ]
+                        { name: "Shelly", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'seeker'", language_id: irish_gaelic.id },
-                      [ { name: "Sheridan", gender_id: both.id },
+                      [{ name: "Sheridan", gender_id: both.id },
                         { name: "Sheridon", gender_id: both.id },
-                        { name: "Sherridan", gender_id: both.id } ]
+                        { name: "Sherridan", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'cherished one'" },
-                      [ { name: "Sherie", gender_id: female.id },
+                      [{ name: "Sherie", gender_id: female.id },
                         { name: "Sherri", gender_id: female.id },
                         { name: "Sherrie", gender_id: female.id },
-                        { name: "Sherry", gender_id: female.id } ]
+                        { name: "Sherry", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'sunny glade'", language_id: old_english.id },
-                      [ { name: "Sherlie", gender_id: both.id },
+                      [{ name: "Sherlie", gender_id: both.id },
                         { name: "Shirlee", gender_id: both.id },
                         { name: "Shirley", gender_id: both.id },
-                        { name: "Shirly", gender_id: both.id } ]
+                        { name: "Shirly", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'fair' or 'white-haired'", language_id: old_english.id },
-                      [ { name: "Sherlock" } ]
+                      [{ name: "Sherlock" }]
                     ],
                     [
                       { description: "Member of a Himalayan people of Nepal and Tibet" },
-                      [ { name: "Sherpa", gender_id: male.id } ]
+                      [{ name: "Sherpa", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'the one to whom it belongs'" },
-                      [ { name: "Shilo" },
+                      [{ name: "Shilo" },
                         { name: "Shiloah" },
-                        { name: "Shiloh" } ]
+                        { name: "Shiloh" }]
                     ],
                     [
                       { description: "Meaning 'shine with a soft quivering light'", language_id: english.id },
-                      [ { name: "Shimmer", gender_id: both.id } ]
+                      [{ name: "Shimmer", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'burden'", language_id: english.id },
-                      [ { name: "Shiralee", gender_id: female.id } ]
+                      [{ name: "Shiralee", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'God's grace'", language_id: norman_french.id },
-                      [ { name: "Shivonne", gender_id: female.id },
+                      [{ name: "Shivonne", gender_id: female.id },
                         { name: "Siobhan", gender_id: female.id },
-                        { name: "Siobhon", gender_id: female.id } ]
+                        { name: "Siobhon", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'bypass'", language_id: english.id },
-                      [ { name: "Shortcircuit", gender_id: both.id } ]
+                      [{ name: "Shortcircuit", gender_id: both.id }]
                     ],
                     [
                       { description: "Short for 'Show Business'", language_id: english.id },
-                      [ { name: "Showbiz", gender_id: both.id } ]
+                      [{ name: "Showbiz", gender_id: both.id }]
                     ],
                     [
                       { description: "Small or insignificant person", language_id: english.id },
-                      [ { name: "Shrimp", gender_id: both.id } ]
+                      [{ name: "Shrimp", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'frost eyebrows'" },
-                      [ { name: "Shuang-mei" } ]
+                      [{ name: "Shuang-mei" }]
                     ],
                     [
                       { description: "Sweet crystalline substance obtained from the juices of various plants", language_id: english.id },
-                      [ { name: "Shugar", gender_id: both.id },
-                        { name: "Sugar", gender_id: both.id } ]
+                      [{ name: "Shugar", gender_id: both.id },
+                        { name: "Sugar", gender_id: both.id }]
                     ],
                     [
                       { description: "Former name of Thailand" },
-                      [ { name: "Siam" } ]
+                      [{ name: "Siam" }]
                     ],
                     [
                       { description: "Meaning 'wide meadow'", language_id: old_english.id },
-                      [ { name: "Sid", gender_id: both.id },
+                      [{ name: "Sid", gender_id: both.id },
                         { name: "Sidney", gender_id: both.id },
                         { name: "Syd", gender_id: both.id },
                         { name: "Sydnee", gender_id: both.id },
                         { name: "Sydney", gender_id: female.id },
                         { name: "Sydni", gender_id: both.id },
-                        { name: "Sydnie", gender_id: both.id } ]
+                        { name: "Sydnie", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'from Sidon, a city in Phoenicia'", language_id: latin.id },
-                      [ { name: "Sidonie", gender_id: female.id },
-                        { name: "Sidony", gender_id: female.id } ]
+                      [{ name: "Sidonie", gender_id: female.id },
+                        { name: "Sidony", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'star-lover'" },
-                      [ { name: "Sidrophel" } ]
+                      [{ name: "Sidrophel" }]
                     ],
                     [
                       { description: "Meaning 'peace of victory'", language_id: ancient_german.id },
-                      [ { name: "Siegfried", gender_id: male.id } ]
+                      [{ name: "Siegfried", gender_id: male.id }]
                     ],
                     [
                       { description: "Brownish red colour" },
-                      [ { name: "Siena" },
-                        { name: "Sienna" } ]
+                      [{ name: "Siena" },
+                        { name: "Sienna" }]
                     ],
                     [
                       { description: "Meaning 'saw'", language_id: spanish.id },
-                      [ { name: "Sierra", gender_id: female.id } ]
+                      [{ name: "Sierra", gender_id: female.id }]
                     ],
                     [
                       { description: "Nymph from the woods" },
-                      [ { name: "Silva" } ]
+                      [{ name: "Silva" }]
                     ],
                     [
                       { description: "White precious metal" },
-                      [ { name: "Silver" } ]
+                      [{ name: "Silver" }]
                     ],
                     [
                       { description: "Meaning 'woods'", language_id: latin.id },
-                      [ { name: "Silvester", gender_id: male.id },
+                      [{ name: "Silvester", gender_id: male.id },
                         { name: "Silvia", gender_id: female.id },
                         { name: "Sylvester", gender_id: male.id },
-                        { name: "Sylvia", gender_id: female.id } ]
+                        { name: "Sylvia", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'lion'", language_id: swahili.id, means_cat: true },
-                      [ { name: "Simba", gender_id: male.id },
-                        { name: "Symba", gender_id: male.id } ]
+                      [{ name: "Simba", gender_id: male.id },
+                        { name: "Symba", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'to hear', 'to be heard' or 'reputation'", language_id: hebrew.id },
-                      [ { name: "Simeon", gender_id: male.id },
+                      [{ name: "Simeon", gender_id: male.id },
                         { name: "Simon", gender_id: male.id },
-                        { name: "Simpson", gender_id: male.id } ]
+                        { name: "Simpson", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'obedient'" },
-                      [ { name: "Simone", gender_id: female.id } ]
+                      [{ name: "Simone", gender_id: female.id }]
                     ],
                     [
                       { description: "In India, a native chief or noble, a high military officer or head servant" },
-                      [ { name: "Sirdar", gender_id: male.id } ]
+                      [{ name: "Sirdar", gender_id: male.id }]
                     ],
                     [
                       { description: "The brightest star in the heavens" },
-                      [ { name: "Sirius" } ]
+                      [{ name: "Sirius" }]
                     ],
                     [
                       { description: "Hot wind that reaches Italy from Africa" },
-                      [ { name: "Sirocco" } ]
+                      [{ name: "Sirocco" }]
                     ],
                     [
                       { description: "Meaning 'blind'", language_id: english.id },
-                      [ { name: "Sissy", gender_id: female.id } ]
+                      [{ name: "Sissy", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'ships master'", language_id: english.id },
-                      [ { name: "Skip", gender_id: male.id },
+                      [{ name: "Skip", gender_id: male.id },
                         { name: "Skipper", gender_id: male.id },
-                        { name: "Skippy", gender_id: male.id } ]
+                        { name: "Skippy", gender_id: male.id }]
                     ],
                     [
                       { description: "Region of the clouds or upper air", language_id: english.id },
-                      [ { name: "Sky" },
+                      [{ name: "Sky" },
                         { name: "Skye" },
-                        { name: "Skyy" } ]
+                        { name: "Skyy" }]
                     ],
                     [
                       { description: "Tricky, cleverly deceptive person", language_id: english.id },
-                      [ { name: "Slicker", gender_id: both.id } ]
+                      [{ name: "Slicker", gender_id: both.id }]
                     ],
                     [
                       { description: "Toy spring which can walk downstairs" },
-                      [ { name: "Slinky", gender_id: both.id } ]
+                      [{ name: "Slinky", gender_id: both.id }]
                     ],
                     [
                       { description: "Cunning and secret", language_id: english.id },
-                      [ { name: "Sly", gender_id: both.id } ]
+                      [{ name: "Sly", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'sharp', 'quick'", language_id: english.id },
-                      [ { name: "Smarti", gender_id: both.id },
-                        { name: "Smartie", gender_id: both.id } ]
+                      [{ name: "Smarti", gender_id: both.id },
+                        { name: "Smartie", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'happy'", language_id: english.id },
-                      [ { name: "Smiley", gender_id: both.id } ]
+                      [{ name: "Smiley", gender_id: both.id }]
                     ],
                     [
                       { description: "Person who makes things in metal", language_id: english.id },
-                      [ { name: "Smith", gender_id: male.id } ]
+                      [{ name: "Smith", gender_id: male.id }]
                     ],
                     [
                       { description: "Black, charcoal or grey colour", language_id: english.id },
-                      [ { name: "Smoke" },
+                      [{ name: "Smoke" },
                         { name: "Smokee" },
                         { name: "Smokey" },
                         { name: "Smokie" },
-                        { name: "Smoky" } ]
+                        { name: "Smoky" }]
                     ],
                     [
                       { description: "Dirty or blurred mark", language_id: english.id },
-                      [ { name: "Smudge", gender_id: both.id },
+                      [{ name: "Smudge", gender_id: both.id },
                         { name: "Smudgie", gender_id: both.id },
-                        { name: "Smudgy", gender_id: both.id } ]
+                        { name: "Smudgy", gender_id: both.id }]
                     ],
                     [
                       { description: "Stylish", language_id: english.id },
-                      [ { name: "Snazzy", gender_id: both.id } ]
+                      [{ name: "Snazzy", gender_id: both.id }]
                     ],
                     [
                       { description: "Layer of white snowflakes", language_id: english.id },
-                      [ { name: "Sno", gender_id: both.id },
-                        { name: "Snow", gender_id: both.id } ]
+                      [{ name: "Sno", gender_id: both.id },
+                        { name: "Snow", gender_id: both.id }]
                     ],
                     [
                       { description: "Mass of snow, pressed or rolled together into a ball", language_id: english.id },
-                      [ { name: "Snoball", gender_id: both.id },
-                        { name: "Snowball", gender_id: both.id } ]
+                      [{ name: "Snoball", gender_id: both.id },
+                        { name: "Snowball", gender_id: both.id }]
                     ],
                     [
                       { description: "Plant with bell-shaped white flowers", language_id: english.id },
-                      [ { name: "Snowbell", gender_id: female.id } ]
+                      [{ name: "Snowbell", gender_id: female.id }]
                     ],
                     [
                       { description: "Shaved ice treat", language_id: english.id },
-                      [ { name: "Snowcone", gender_id: both.id } ]
+                      [{ name: "Snowcone", gender_id: both.id }]
                     ],
                     [
                       { description: "Plant with white flowers blooming in spring", language_id: english.id },
-                      [ { name: "Snowdrop", gender_id: female.id } ]
+                      [{ name: "Snowdrop", gender_id: female.id }]
                     ],
                     [
                       { description: "White flakes falling to earth to make a layer of snow", language_id: english.id },
-                      [ { name: "Snowflake", gender_id: both.id } ]
+                      [{ name: "Snowflake", gender_id: both.id }]
                     ],
                     [
                       { description: "Shoes used to walk through snow so you don't sink into it", language_id: english.id },
-                      [ { name: "Snowshoe", gender_id: both.id } ]
+                      [{ name: "Snowshoe", gender_id: both.id }]
                     ],
                     [
                       { description: "Covered with snow", language_id: english.id },
-                      [ { name: "Snowy", gender_id: both.id } ]
+                      [{ name: "Snowy", gender_id: both.id }]
                     ],
                     [
                       { description: "Nestle, cuddle", language_id: english.id },
-                      [ { name: "Snuggles", gender_id: both.id } ]
+                      [{ name: "Snuggles", gender_id: both.id }]
                     ],
                     [
                       { description: "Knitted coverings for the feet", language_id: english.id },
-                      [ { name: "Socks", gender_id: both.id },
-                        { name: "Sox", gender_id: both.id } ]
+                      [{ name: "Socks", gender_id: both.id },
+                        { name: "Sox", gender_id: both.id }]
                     ],
                     [
                       { description: "Water made fizzy by adding carbon dioxide", language_id: american.id },
-                      [ { name: "Soda", gender_id: both.id } ]
+                      [{ name: "Soda", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'wise', 'wisdom'", language_id: greek.id },
-                      [ { name: "Sofia", gender_id: female.id },
+                      [{ name: "Sofia", gender_id: female.id },
                         { name: "Sonia", gender_id: female.id },
                         { name: "Sonja", gender_id: female.id },
                         { name: "Sonya", gender_id: female.id },
                         { name: "Sophee", gender_id: female.id },
                         { name: "Sophia", gender_id: female.id },
-                        { name: "Sophie", gender_id: female.id } ]
+                        { name: "Sophie", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'sun'", language_id: french.id },
-                      [ { name: "Soleil" } ]
+                      [{ name: "Soleil" }]
                     ],
                     [
                       { description: "Card game for one person", language_id: english.id },
-                      [ { name: "Solitair", gender_id: both.id },
-                        { name: "Solitaire", gender_id: both.id } ]
+                      [{ name: "Solitair", gender_id: both.id },
+                        { name: "Solitaire", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'unaccompanied', 'alone'", language_id: english.id },
-                      [ { name: "Solo", gender_id: both.id } ]
+                      [{ name: "Solo", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'peace'", language_id: hebrew.id },
-                      [ { name: "Solomon", gender_id: male.id } ]
+                      [{ name: "Solomon", gender_id: male.id }]
                     ],
                     [
                       { description: "Point when the sun is furthest from the equator", language_id: english.id },
-                      [ { name: "Solstice", gender_id: both.id } ]
+                      [{ name: "Solstice", gender_id: both.id }]
                     ],
                     [
                       { description: "Musical composition for one or two instruments", language_id: english.id },
-                      [ { name: "Sonata", gender_id: female.id } ]
+                      [{ name: "Sonata", gender_id: female.id }]
                     ],
                     [
                       { description: "Poem with 14 lines", language_id: english.id },
-                      [ { name: "Sonet", gender_id: both.id } ]
+                      [{ name: "Sonet", gender_id: both.id }]
                     ],
                     [
                       { description: "Sound waves", language_id: english.id },
-                      [ { name: "Sonic", gender_id: both.id } ]
+                      [{ name: "Sonic", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'sunny'" },
-                      [ { name: "Sonny", gender_id: both.id } ]
+                      [{ name: "Sonny", gender_id: both.id }]
                     ],
                     [
                       { description: "Covered in black powder", language_id: english.id },
-                      [ { name: "Sootie", gender_id: both.id },
-                        { name: "Sooty", gender_id: both.id } ]
+                      [{ name: "Sootie", gender_id: both.id },
+                        { name: "Sooty", gender_id: both.id }]
                     ],
                     [
                       { description: "Highest female singing voice", language_id: english.id },
-                      [ { name: "Soprano", gender_id: female.id } ]
+                      [{ name: "Soprano", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'magician'", language_id: english.id },
-                      [ { name: "Sorceror", gender_id: both.id } ]
+                      [{ name: "Sorceror", gender_id: both.id }]
                     ],
                     [
                       { description: "Playing cards with black figures shaped like an inverted heart", language_id: english.id },
-                      [ { name: "Spades", gender_id: both.id } ]
+                      [{ name: "Spades", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'people from Spald's territory'", language_id: old_english.id },
-                      [ { name: "Spalding", gender_id: both.id } ]
+                      [{ name: "Spalding", gender_id: both.id }]
                     ],
                     [
                       { description: "Small piece of glittering material ornamenting a dress" },
-                      [ { name: "Spangle", gender_id: both.id } ]
+                      [{ name: "Spangle", gender_id: both.id }]
                     ],
                     [
                       { description: "Shine with flashes of light", language_id: english.id },
-                      [ { name: "Sparkle", gender_id: both.id },
-                        { name: "Sparkles", gender_id: both.id } ]
+                      [{ name: "Sparkle", gender_id: both.id },
+                        { name: "Sparkles", gender_id: both.id }]
                     ],
                     [
                       { description: "Handheld sparking firework", language_id: english.id },
-                      [ { name: "Sparkler", gender_id: both.id } ]
+                      [{ name: "Sparkler", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'fiery particle'", language_id: english.id },
-                      [ { name: "Sparky", gender_id: both.id } ]
+                      [{ name: "Sparky", gender_id: both.id }]
                     ],
                     [
                       { description: "Small brownish-grey bird", language_id: english.id, means_bird: true },
-                      [ { name: "Sparrow", gender_id: both.id } ]
+                      [{ name: "Sparrow", gender_id: both.id }]
                     ],
                     [
                       { description: "Spots or flecks of contrasting colour", language_id: english.id },
-                      [ { name: "Speckles", gender_id: both.id } ]
+                      [{ name: "Speckles", gender_id: both.id }]
                     ],
                     [
                       { description: "Move quickly", language_id: english.id },
-                      [ { name: "Speedie", gender_id: both.id },
-                        { name: "Speedy", gender_id: both.id } ]
+                      [{ name: "Speedie", gender_id: both.id },
+                        { name: "Speedy", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'provider'" },
-                      [ { name: "Spencer" } ]
+                      [{ name: "Spencer" }]
                     ],
                     [
                       { description: "Flavouring substance with a strong taste or smell, thing that adds zest", language_id: english.id },
-                      [ { name: "Spice", gender_id: both.id } ]
+                      [{ name: "Spice", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'small change'", language_id: italian.id },
-                      [ { name: "Spicioli" } ]
+                      [{ name: "Spicioli" }]
                     ],
                     [
                       { description: "Small animal with a segmented body and eight legs", language_id: english.id },
-                      [ { name: "Spider", gender_id: both.id } ]
+                      [{ name: "Spider", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'pointed thing'", language_id: english.id },
-                      [ { name: "Spike", gender_id: male.id } ]
+                      [{ name: "Spike", gender_id: male.id }]
                     ],
                     [
                       { description: "Liveliness, boldness", language_id: english.id },
-                      [ { name: "Spirit", gender_id: both.id } ]
+                      [{ name: "Spirit", gender_id: both.id }]
                     ],
                     [
                       { description: "Cause liquid to fly about in drops", language_id: english.id },
-                      [ { name: "Splash", gender_id: both.id } ]
+                      [{ name: "Splash", gender_id: both.id }]
                     ],
                     [
                       { description: "Blotched markings", language_id: english.id },
-                      [ { name: "Splotchie", gender_id: both.id } ]
+                      [{ name: "Splotchie", gender_id: both.id }]
                     ],
                     [
                       { description: "Porous substance which soaks up water", language_id: english.id },
-                      [ { name: "Sponge", gender_id: both.id } ]
+                      [{ name: "Sponge", gender_id: both.id }]
                     ],
                     [
                       { description: "Round mark or stain", language_id: english.id },
-                      [ { name: "Spot", gender_id: both.id },
+                      [{ name: "Spot", gender_id: both.id },
                         { name: "Spots", gender_id: both.id },
-                        { name: "Spotz", gender_id: both.id } ]
+                        { name: "Spotz", gender_id: both.id }]
                     ],
                     [
                       { description: "Light beam directed on a small area to draw attention to it", language_id: english.id },
-                      [ { name: "Spotlight", gender_id: both.id } ]
+                      [{ name: "Spotlight", gender_id: both.id }]
                     ],
                     [
                       { description: "Covered in spots", language_id: english.id },
-                      [ { name: "Spotty", gender_id: both.id } ]
+                      [{ name: "Spotty", gender_id: both.id }]
                     ],
                     [
                       { description: "Scatter or fall in drops or particles", language_id: english.id },
-                      [ { name: "Sprinkles", gender_id: both.id } ]
+                      [{ name: "Sprinkles", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'fairy'" },
-                      [ { name: "Sprite", gender_id: female.id } ]
+                      [{ name: "Sprite", gender_id: female.id }]
                     ],
                     [
                       { description: "Short high pitched cry or sound", language_id: english.id },
-                      [ { name: "Squeak", gender_id: both.id } ]
+                      [{ name: "Squeak", gender_id: both.id }]
                     ],
                     [
                       { description: "Something that makes a sharp high-pitched cry or sound", language_id: english.id },
-                      [ { name: "Squeaker", gender_id: both.id },
-                        { name: "Squeeker", gender_id: both.id } ]
+                      [{ name: "Squeaker", gender_id: both.id },
+                        { name: "Squeeker", gender_id: both.id }]
                     ],
                     [
                       { description: "Short high pitched cries", language_id: english.id },
-                      [ { name: "Squeaks", gender_id: both.id },
-                        { name: "Squeeks", gender_id: both.id } ]
+                      [{ name: "Squeaks", gender_id: both.id },
+                        { name: "Squeeks", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'noisy', 'high-pitched'", language_id: english.id },
-                      [ { name: "Squeaky", gender_id: both.id } ]
+                      [{ name: "Squeaky", gender_id: both.id }]
                     ],
                     [
                       { description: "Country gentleman" },
-                      [ { name: "Squire", gender_id: male.id } ]
+                      [{ name: "Squire", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'stable'" },
-                      [ { name: "Stacey" } ]
+                      [{ name: "Stacey" }]
                     ],
                     [
                       { description: "Meaning 'rocky meadow'" },
-                      [ { name: "Stan", gender_id: male.id },
-                        { name: "Stanley", gender_id: both.id } ]
+                      [{ name: "Stan", gender_id: male.id },
+                        { name: "Stanley", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'tin'", language_id: latin.id },
-                      [ { name: "Stannard" } ]
+                      [{ name: "Stannard" }]
                     ],
                     [
                       { description: "Twinkling light in the night sky", language_id: english.id },
-                      [ { name: "Star", gender_id: both.id },
+                      [{ name: "Star", gender_id: both.id },
                         { name: "Starr", gender_id: both.id },
-                        { name: "Stars", gender_id: both.id } ]
+                        { name: "Stars", gender_id: both.id }]
                     ],
                     [
                       { description: "Glowing dust surrounding stars in the sky", language_id: english.id },
-                      [ { name: "Stardust", gender_id: both.id } ]
+                      [{ name: "Stardust", gender_id: both.id }]
                     ],
                     [
                       { description: "Light coming from the stars", language_id: english.id },
-                      [ { name: "Starlight", gender_id: both.id } ]
+                      [{ name: "Starlight", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'crown or garland'", language_id: greek.id },
-                      [ { name: "Stefanie", gender_id: female.id },
+                      [{ name: "Stefanie", gender_id: female.id },
                         { name: "Stephanie", gender_id: female.id },
                         { name: "Stephen", gender_id: both.id },
-                        { name: "Steven", gender_id: both.id } ]
+                        { name: "Steven", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Stefanie and Stephanie, meaning 'crown or garland'", language_id: greek.id },
-                      [ { name: "Steffi", gender_id: female.id },
+                      [{ name: "Steffi", gender_id: female.id },
                         { name: "Steffie", gender_id: female.id },
-                        { name: "Stephi", gender_id: female.id } ]
+                        { name: "Stephi", gender_id: female.id }]
                     ],
                     [
                       { description: "Alternate form of Stella, meaning 'star'", language_id: latin.id },
-                      [ { name: "Stellina", gender_id: female.id } ]
+                      [{ name: "Stellina", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'excellent', 'high quality'" },
-                      [ { name: "Sterling" },
-                        { name: "Stirling" } ]
+                      [{ name: "Sterling" },
+                        { name: "Stirling" }]
                     ],
                     [
                       { description: "Nickname of Stephen and Steven, meaning 'crown or garland'", language_id: greek.id },
-                      [ { name: "Steve", gender_id: male.id },
-                        { name: "Stevie", gender_id: both.id } ]
+                      [{ name: "Steve", gender_id: male.id },
+                        { name: "Stevie", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'steward'", language_id: old_english.id },
-                      [ { name: "Stewart", gender_id: male.id },
-                        { name: "Stuart", gender_id: male.id } ]
+                      [{ name: "Stewart", gender_id: male.id },
+                        { name: "Stuart", gender_id: male.id }]
                     ],
                     [
                       { description: "Sticking to what is touched", language_id: english.id },
-                      [ { name: "Sticky", gender_id: both.id } ]
+                      [{ name: "Sticky", gender_id: both.id }]
                     ],
                     [
                       { description: "Treads heavily", language_id: english.id },
-                      [ { name: "Stomper", gender_id: both.id } ]
+                      [{ name: "Stomper", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'strong winds, dark clouds and rain'", language_id: english.id },
-                      [ { name: "Storm", gender_id: both.id },
-                        { name: "Stormy", gender_id: both.id } ]
+                      [{ name: "Storm", gender_id: both.id },
+                        { name: "Stormy", gender_id: both.id }]
                     ],
                     [
                       { description: "A type of fruit", language_id: english.id },
-                      [ { name: "Strawberry", gender_id: female.id } ]
+                      [{ name: "Strawberry", gender_id: female.id }]
                     ],
                     [
                       { description: "Come or bring sharply into contact with", language_id: english.id },
-                      [ { name: "Strike", gender_id: both.id } ]
+                      [{ name: "Strike", gender_id: both.id }]
                     ],
                     [
                       { description: "Long narrow band on a surface, differing in colour or texture from its surroundings", language_id: english.id },
-                      [ { name: "Stripe", gender_id: both.id },
-                        { name: "Stripes", gender_id: both.id } ]
+                      [{ name: "Stripe", gender_id: both.id },
+                        { name: "Stripes", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'elegance', 'fashion'", language_id: english.id },
-                      [ { name: "Style", gender_id: both.id } ]
+                      [{ name: "Style", gender_id: both.id }]
                     ],
                     [
                       { description: "Soap bubbles, foam", language_id: english.id },
-                      [ { name: "Suds", gender_id: both.id } ]
+                      [{ name: "Suds", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'trusting'" },
-                      [ { name: "Sue", gender_id: female.id } ]
+                      [{ name: "Sue", gender_id: female.id }]
                     ],
                     [
                       { description: "Leather with a velvety nap on one side", language_id: english.id },
-                      [ { name: "Suede", gender_id: both.id } ]
+                      [{ name: "Suede", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'sweetie'", language_id: english.id },
-                      [ { name: "Sugar Plum", gender_id: female.id } ]
+                      [{ name: "Sugar Plum", gender_id: female.id }]
                     ],
                     [
                       { description: "A lover", language_id: english.id },
-                      [ { name: "Suitor", gender_id: both.id } ]
+                      [{ name: "Suitor", gender_id: both.id }]
                     ],
                     [
                       { description: "Muslim sovereign" },
-                      [ { name: "Sultan" } ]
+                      [{ name: "Sultan" }]
                     ],
                     [
                       { description: "Seedless raisin", language_id: english.id },
-                      [ { name: "Sultana", gender_id: both.id } ]
+                      [{ name: "Sultana", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'child of clarity'", language_id: japanese.id },
-                      [ { name: "Sumiko", gender_id: female.id } ]
+                      [{ name: "Sumiko", gender_id: female.id }]
                     ],
                     [
                       { description: "Warmest season of the year", language_id: english.id },
-                      [ { name: "Summer", gender_id: female.id } ]
+                      [{ name: "Summer", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'light or warmth from the sun'", language_id: english.id },
-                      [ { name: "Sun", gender_id: both.id } ]
+                      [{ name: "Sun", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'ray of sunlight'", language_id: english.id },
-                      [ { name: "Sunbeam", gender_id: both.id } ]
+                      [{ name: "Sunbeam", gender_id: both.id }]
                     ],
                     [
                       { description: "Ice cream delight with flavoured sauce and sprinkles on top", language_id: english.id },
-                      [ { name: "Sundae", gender_id: female.id } ]
+                      [{ name: "Sundae", gender_id: female.id }]
                     ],
                     [
                       { description: "Tall plant with large yellow flowers", language_id: english.id },
-                      [ { name: "Sunflower", gender_id: female.id } ]
+                      [{ name: "Sunflower", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'sunshine'", language_id: english.id },
-                      [ { name: "Sunni", gender_id: both.id },
+                      [{ name: "Sunni", gender_id: both.id },
                         { name: "Sunnie", gender_id: both.id },
-                        { name: "Sunny", gender_id: both.id } ]
+                        { name: "Sunny", gender_id: both.id }]
                     ],
                     [
                       { description: "Rising of the sun", language_id: english.id },
-                      [ { name: "Sunrise", gender_id: both.id } ]
+                      [{ name: "Sunrise", gender_id: both.id }]
                     ],
                     [
                       { description: "Setting of the sun", language_id: english.id },
-                      [ { name: "Sunset", gender_id: both.id } ]
+                      [{ name: "Sunset", gender_id: both.id }]
                     ],
                     [
                       { description: "Direct sunlight", language_id: english.id },
-                      [ { name: "Sunshine", gender_id: both.id } ]
+                      [{ name: "Sunshine", gender_id: both.id }]
                     ],
                     [
                       { description: "Flying at speeds greater than the speed of sound", language_id: english.id },
-                      [ { name: "Supersonic", gender_id: both.id } ]
+                      [{ name: "Supersonic", gender_id: both.id }]
                     ],
                     [
                       { description: "Highest in authority, rank or quality", language_id: english.id },
-                      [ { name: "Supreme", gender_id: both.id } ]
+                      [{ name: "Supreme", gender_id: both.id }]
                     ],
                     [
                       { description: "Foam of breaking waves", language_id: english.id },
-                      [ { name: "Surf", gender_id: both.id } ]
+                      [{ name: "Surf", gender_id: both.id }]
                     ],
                     [
                       { description: "Emotion aroused by something sudden or unexpected", language_id: english.id },
-                      [ { name: "Surprise", gender_id: both.id } ]
+                      [{ name: "Surprise", gender_id: both.id }]
                     ],
                     [
                       { description: "Japanese food consisting of raw fish or chicken rolled in rice and seaweed", language_id: japanese.id },
-                      [ { name: "Sushi", gender_id: both.id } ]
+                      [{ name: "Sushi", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'lily'", language_id: hebrew.id },
-                      [ { name: "Susi", gender_id: female.id },
+                      [{ name: "Susi", gender_id: female.id },
                         { name: "Susie", gender_id: female.id },
                         { name: "Suzi", gender_id: female.id },
                         { name: "Suzie", gender_id: female.id },
-                        { name: "Suzy", gender_id: female.id } ]
+                        { name: "Suzy", gender_id: female.id }]
                     ],
                     [
                       { description: "Bantu language widely used in East Africa" },
-                      [ { name: "Swahili", gender_id: both.id } ]
+                      [{ name: "Swahili", gender_id: both.id }]
                     ],
                     [
                       { description: "Go smoothly and swiftly or majestically", language_id: english.id },
-                      [ { name: "Sweep", gender_id: both.id } ]
+                      [{ name: "Sweep", gender_id: both.id }]
                     ],
                     [
                       { description: "A sweet person or animal", language_id: english.id },
-                      [ { name: "Sweetheart", gender_id: female.id },
+                      [{ name: "Sweetheart", gender_id: female.id },
                         { name: "Sweetie", gender_id: female.id },
-                        { name: "Sweetie Pie", gender_id: female.id } ]
+                        { name: "Sweetie Pie", gender_id: female.id }]
                     ],
                     [
                       { description: "Climbing plant with fragrant flowers", language_id: english.id },
-                      [ { name: "Sweetpea", gender_id: female.id } ]
+                      [{ name: "Sweetpea", gender_id: female.id }]
                     ],
                     [
                       { description: "Whirl, flow with a whirling movement", language_id: english.id },
-                      [ { name: "Swirl", gender_id: both.id } ]
+                      [{ name: "Swirl", gender_id: both.id }]
                     ],
                     [
                       { description: "Long elaborate musical composition for a full orchestra", language: english.id },
-                      [ { name: "Symphony", gender_id: both.id } ]
+                      [{ name: "Symphony", gender_id: both.id }]
                     ],
                     [
                       { description: "Thick sweet liquid", language_id: english.id },
-                      [ { name: "Syrup", gender_id: both.id } ]
+                      [{ name: "Syrup", gender_id: both.id }]
                     ],
                     [
                       { description: "Very hot red sauce made from peppers" },
-                      [ { name: "Tabasco", gender_id: both.id } ]
+                      [{ name: "Tabasco", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'doe'", language_id: aramaic.id },
-                      [ { name: "Tabatha", gender_id: female.id },
+                      [{ name: "Tabatha", gender_id: female.id },
                         { name: "Tabetha", gender_id: female.id },
-                        { name: "Tabitha", gender_id: female.id } ]
+                        { name: "Tabitha", gender_id: female.id }]
                     ],
                     [
                       { description: "Cat with a light coat covered in darker stripes", language_id: english.id },
-                      [ { name: "Tabbie", gender_id: both.id },
-                        { name: "Tabby", gender_id: both.id } ]
+                      [{ name: "Tabbie", gender_id: both.id },
+                        { name: "Tabby", gender_id: both.id }]
                     ],
                     [
                       { description: "Watered fabric of silk and wool" },
-                      [ { name: "Tabbinet", gender_id: female.id },
-                        { name: "Tabinet", gender_id: female.id } ]
+                      [{ name: "Tabbinet", gender_id: female.id },
+                        { name: "Tabinet", gender_id: female.id }]
                     ],
                     [
                       { description: "Ban or prohibition made by religion or social custom", language_id: english.id },
-                      [ { name: "Taboo", gender_id: both.id },
-                        { name: "Tabu", gender_id: both.id } ]
+                      [{ name: "Taboo", gender_id: both.id },
+                        { name: "Tabu", gender_id: both.id }]
                     ],
                     [
                       { description: "Fine shiny silk fabric", language_id: english.id },
-                      [ { name: "Taffeta", gender_id: female.id } ]
+                      [{ name: "Taffeta", gender_id: female.id }]
                     ],
                     [
                       { description: "Sweet chewy candy", language_id: american.id },
-                      [ { name: "Taffy", gender_id: female.id } ]
+                      [{ name: "Taffy", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'lamb'", language_id: arabic.id },
-                      [ { name: "Tahlia", gender_id: female.id },
-                        { name: "Talia", gender_id: female.id } ]
+                      [{ name: "Tahlia", gender_id: female.id },
+                        { name: "Talia", gender_id: female.id }]
                     ],
                     [
                       { description: "Brilliantly coloured edible fish" },
-                      [ { name: "Tai", gender_id: both.id } ]
+                      [{ name: "Tai", gender_id: both.id }]
                     ],
                     [
                       { description: "Make or adapt for a special purpose", language_id: english.id },
-                      [ { name: "Tailor", gender_id: both.id } ]
+                      [{ name: "Tailor", gender_id: both.id }]
                     ],
                     [
                       { description: "Object supposed to bring good luck", language_id: english.id },
-                      [ { name: "Talisman", gender_id: both.id } ]
+                      [{ name: "Talisman", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'jumping water'", language_id: choctaw.id },
-                      [ { name: "Tallula", gender_id: female.id },
+                      [{ name: "Tallula", gender_id: female.id },
                         { name: "Tallulah", gender_id: female.id },
-                        { name: "Talulla", gender_id: female.id } ]
+                        { name: "Talulla", gender_id: female.id }]
                     ],
                     [
                       { description: "Total of a debt or score", language_id: english.id },
-                      [ { name: "Tallie", gender_id: both.id },
-                        { name: "Tally", gender_id: both.id } ]
+                      [{ name: "Tallie", gender_id: both.id },
+                        { name: "Tally", gender_id: both.id }]
                     ],
                     [
                       { description: "Large cape or short cloak" },
-                      [ { name: "Talma" } ]
+                      [{ name: "Talma" }]
                     ],
                     [
                       { description: "Meaning 'date palm'", language_id: hebrew.id },
-                      [ { name: "Tamara", gender_id: female.id } ]
+                      [{ name: "Tamara", gender_id: female.id }]
                     ],
                     [
                       { description: "Small red tropical fruit, also known as a tree tomato", language_id: english.id },
-                      [ { name: "Tamarillo", gender_id: both.id } ]
+                      [{ name: "Tamarillo", gender_id: both.id }]
                     ],
                     [
                       { description: "Tree with yellow flowers and red and brown pods" },
-                      [ { name: "Tamarind" } ]
+                      [{ name: "Tamarind" }]
                     ],
                     [
                       { description: "Plant with feathery clusters of pinkish flowers" },
-                      [ { name: "Tamarisk" },
-                        { name: "Tamariske" } ]
+                      [{ name: "Tamarisk" },
+                        { name: "Tamariske" }]
                     ],
                     [
                       { description: "A drummer" },
-                      [ { name: "Tambourgi" } ]
+                      [{ name: "Tambourgi" }]
                     ],
                     [
                       { description: "Percussion instrument with jingling bells", language_id: english.id },
-                      [ { name: "Tambourine", gender_id: both.id } ]
+                      [{ name: "Tambourine", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Tamara, meaning 'date palm'", language_id: hebrew.id },
-                      [ { name: "Tamie", gender_id: female.id },
+                      [{ name: "Tamie", gender_id: female.id },
                         { name: "Tammi", gender_id: female.id },
                         { name: "Tammie", gender_id: female.id },
                         { name: "Tammy", gender_id: female.id },
-                        { name: "Tamy", gender_id: female.id } ]
+                        { name: "Tamy", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'twin'", language_id: aramaic.id },
-                      [ { name: "Tamsin", gender_id: female.id },
-                        { name: "Tamsyn", gender_id: female.id } ]
+                      [{ name: "Tamsin", gender_id: female.id },
+                        { name: "Tamsyn", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'seed'", language_id: japanese.id },
-                      [ { name: "Tane", gender_id: both.id } ]
+                      [{ name: "Tane", gender_id: both.id }]
                     ],
                     [
                       { description: "From an expression whose meaning has been lost", language_id: hausa.id },
-                      [ { name: "Tanesha", gender_id: female.id } ]
+                      [{ name: "Tanesha", gender_id: female.id }]
                     ],
                     [
                       { description: "Ballroom dance with gliding steps" },
-                      [ { name: "Tango" } ]
+                      [{ name: "Tango" }]
                     ],
                     [
                       { description: "Meaning 'fairy princess'", language_id: russian.id },
-                      [ { name: "Tania", gender_id: female.id },
+                      [{ name: "Tania", gender_id: female.id },
                         { name: "Tanja", gender_id: female.id },
-                        { name: "Tanya", gender_id: female.id } ]
+                        { name: "Tanya", gender_id: female.id }]
                     ],
                     [
                       { description: "Plant with small yellow flowers" },
-                      [ { name: "Tansy" } ]
+                      [{ name: "Tansy" }]
                     ],
                     [
                       { description: "Country in east-central Africa" },
-                      [ { name: "Tanzania" } ]
+                      [{ name: "Tanzania" }]
                     ],
                     [
                       { description: "Meaning 'apple'", language_id: vietnamese.id },
-                      [ { name: "Tao", gender_id: female.id } ]
+                      [{ name: "Tao", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'star'", language_id: sanskrit.id },
-                      [ { name: "Tara", gender_id: both.id } ]
+                      [{ name: "Tara", gender_id: both.id }]
                     ],
                     [
                       { description: "Aromatic herb", language_id: english.id },
-                      [ { name: "Tarragon", gender_id: female.id } ]
+                      [{ name: "Tarragon", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Natasha, meaning 'the Lord's birthday'", language_id: latin.id },
-                      [ { name: "Tarsha", gender_id: female.id },
-                        { name: "Tasha", gender_id: female.id } ]
+                      [{ name: "Tarsha", gender_id: female.id },
+                        { name: "Tasha", gender_id: female.id }]
                     ],
                     [
                       { description: "Pattern with coloured stripes crossing at right angles", language_id: english.id },
-                      [ { name: "Tartan", gender_id: both.id } ]
+                      [{ name: "Tartan", gender_id: both.id }]
                     ],
                     [
                       { description: "Ornamental bunch of hanging threads", language_id: english.id },
-                      [ { name: "Tassel", gender_id: both.id } ]
+                      [{ name: "Tassel", gender_id: both.id }]
                     ],
                     [
                       { description: "A wisp of hay or hair" },
-                      [ { name: "Tate" } ]
+                      [{ name: "Tate" }]
                     ],
                     [
                       { description: "Meaning 'lion'" },
-                      [ { name: "Tau" } ]
+                      [{ name: "Tau" }]
                     ],
                     [
                       { description: "Orange brown colour" },
-                      [ { name: "Tawnee", gender_id: both.id },
+                      [{ name: "Tawnee", gender_id: both.id },
                         { name: "Tawney", gender_id: both.id },
-                        { name: "Tawny", gender_id: both.id } ]
+                        { name: "Tawny", gender_id: both.id }]
                     ],
                     [
                       { description: "Car with a driver that can be hired", language_id: english.id },
-                      [ { name: "Taxi", gender_id: both.id } ]
+                      [{ name: "Taxi", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'to cut'", language_id: norman_french.id },
-                      [ { name: "Taylor", gender_id: both.id } ]
+                      [{ name: "Taylor", gender_id: both.id }]
                     ],
                     [
                       { description: "Initials for 'Top Cat'", means_cat: true },
-                      [ { name: "TC" } ]
+                      [{ name: "TC" }]
                     ],
                     [
                       { description: "Meaning 'wise poet'", language_id: irish_gaelic.id },
-                      [ { name: "Teagan", gender_id: male.id } ]
+                      [{ name: "Teagan", gender_id: male.id }]
                     ],
                     [
                       { description: "Evergreen tree with yellow-brown wood" },
-                      [ { name: "Teak", gender_id: both.id } ]
+                      [{ name: "Teak", gender_id: both.id }]
                     ],
                     [
                       { description: "Hard durable wood" },
-                      [ { name: "Teakwood", gender_id: both.id } ]
+                      [{ name: "Teakwood", gender_id: both.id }]
                     ],
                     [
                       { description: "Drop of liquid that falls from the eye", language_id: english.id },
-                      [ { name: "Teardrop", gender_id: both.id } ]
+                      [{ name: "Teardrop", gender_id: both.id }]
                     ],
                     [
                       { description: "Someone who teases", language_id: english.id },
-                      [ { name: "Teazer", gender_id: both.id } ]
+                      [{ name: "Teazer", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Theodore, meaning 'God's gift'", language_id: greek.id },
-                      [ { name: "Ted" } ]
+                      [{ name: "Ted" }]
                     ],
                     [
                       {description: "Toy bear", language_id: english.id },
-                      [ { name: "Teddie", gender_id: both.id },
+                      [{ name: "Teddie", gender_id: both.id },
                         { name: "Teddy", gender_id: both.id },
-                        { name: "Teddy Bear", gender_id: both.id } ]
+                        { name: "Teddy Bear", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'alive and well'", language_id: arabic.id },
-                      [ { name: "Teisha", gender_id: female.id } ]
+                      [{ name: "Teisha", gender_id: female.id }]
                     ],
                     [
                       { description: "Mexican liquor made from the sap of an agave plant" },
-                      [ { name: "Tequila", gender_id: both.id } ]
+                      [{ name: "Tequila", gender_id: both.id }]
                     ],
                     [
                       { description: "Small insect that is very destructive to timber", language_id: english.id },
-                      [ { name: "Termite", gender_id: both.id } ]
+                      [{ name: "Termite", gender_id: both.id }]
                     ],
                     [
                       { description: "Paved area beside a house", language_id: english.id },
-                      [ { name: "Terrace", gender_id: both.id } ]
+                      [{ name: "Terrace", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'harvester'" },
-                      [ { name: "Tess" },
-                        { name: "Tessa" } ]
+                      [{ name: "Tess" },
+                        { name: "Tessa" }]
                     ],
                     [
                       { description: "A small cube or square used in mosaic work" },
-                      [ { name: "Tessera" } ]
+                      [{ name: "Tessera" }]
                     ],
                     [
                       { description: "After the US state, Texas" },
-                      [ { name: "Tex", gender_id: male.id } ]
+                      [{ name: "Tex", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'flourishing'", language_id: greek.id },
-                      [ { name: "Thalia", gender_id: female.id } ]
+                      [{ name: "Thalia", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Dorothea and Mathea, meaning 'gift of God'", language_id: greek.id },
-                      [ { name: "Thea", gender_id: female.id } ]
+                      [{ name: "Thea", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'God's glory'", language_id: greek.id },
-                      [ { name: "Thecla", gender_id: female.id },
-                        { name: "Thekla", gender_id: female.id } ]
+                      [{ name: "Thecla", gender_id: female.id },
+                        { name: "Thekla", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'volition'", language_id: greek.id },
-                      [ { name: "Thelma", gender_id: female.id } ]
+                      [{ name: "Thelma", gender_id: female.id }]
                     ],
                     [
                       { description: "From the Greek theos, meaning 'god'", language_id: greek.id },
-                      [ { name: "Theo", gender_id: both.id } ]
+                      [{ name: "Theo", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'God's gift'", language_id: greek.id },
-                      [ { name: "Theodore" } ]
+                      [{ name: "Theodore" }]
                     ],
                     [
                       { description: "Prickly plant", language_id: english.id },
-                      [ { name: "Thistle", gender_id: both.id } ]
+                      [{ name: "Thistle", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'twin'", language_id: hebrew.id },
-                      [ { name: "Thomas", gender_id: male.id } ]
+                      [{ name: "Thomas", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'twin'", language_id: english.id },
-                      [ { name: "Thompson", gender_id: male.id } ]
+                      [{ name: "Thompson", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'thunder'", language_id: old_norse.id },
-                      [ { name: "Thor", gender_id: male.id },
-                        { name: "Tor", gender_id: male.id } ]
+                      [{ name: "Thor", gender_id: male.id },
+                        { name: "Tor", gender_id: male.id }]
                     ],
                     [
                       { description: "Loud noise that accompanies lightning", language_id: english.id },
-                      [ { name: "Thunder", gender_id: both.id } ]
+                      [{ name: "Thunder", gender_id: both.id }]
                     ],
                     [
                       { description: "Herb with fragrant leaves", language_id: english.id },
-                      [ { name: "Thyme", gender_id: female.id } ]
+                      [{ name: "Thyme", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'Thor's battle'", language_id: old_english.id },
-                      [ { name: "Thyra", gender_id: female.id },
-                        { name: "Tyra", gender_id: female.id } ]
+                      [{ name: "Thyra", gender_id: female.id },
+                        { name: "Tyra", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'aunt'", language_id: spanish.id },
-                      [ { name: "Tia", gender_id: female.id } ]
+                      [{ name: "Tia", gender_id: female.id }]
                     ],
                     [
                       { description: "Plant with large purple flowers" },
-                      [ { name: "Tibouchina" } ]
+                      [{ name: "Tibouchina" }]
                     ],
                     [
                       { description: "Marked piece of card enabling the holder to a certain right", language_id: english.id },
-                      [ { name: "Ticket", gender_id: both.id } ]
+                      [{ name: "Ticket", gender_id: both.id }]
                     ],
                     [
                       { description: "Sea's regular rise and fall", language_id: english.id },
-                      [ { name: "Tide", gender_id: both.id } ]
+                      [{ name: "Tide", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'princess'" },
-                      [ { name: "Tiffany", gender_id: female.id } ]
+                      [{ name: "Tiffany", gender_id: female.id }]
                     ],
                     [
                       { description: "Large striped animal of the cat family", language_id: english.id, means_cat: true },
-                      [ { name: "Tiger", gender_id: male.id },
+                      [{ name: "Tiger", gender_id: male.id },
                         { name: "Tyger", gender_id: male.id },
-                        { name: "Tygrr", gender_id: male.id } ]
+                        { name: "Tygrr", gender_id: male.id }]
                     ],
                     [
                       { description: "Orange lily with dark spots", language_id: english.id },
-                      [ { name: "Tiger Lillie", gender_id: female.id },
+                      [{ name: "Tiger Lillie", gender_id: female.id },
                         { name: "Tiger Lilly", gender_id: female.id },
-                        { name: "Tiger Lily", gender_id: female.id } ]
+                        { name: "Tiger Lily", gender_id: female.id }]
                     ],
                     [
                       { description: "Short for Tiger, large striped animal of the cat family", language_id: english.id },
-                        [ { name: "Tigg", gender_id: male.id } ]
+                        [{ name: "Tigg", gender_id: male.id }]
                     ],
                     [
                       { description: "Female tiger", language_id: english.id, means_cat: true },
-                      [ { name: "Tigress", gender_id: female.id } ]
+                      [{ name: "Tigress", gender_id: female.id }]
                     ],
                     [
                       { description: "City in Mexico" },
-                      [ { name: "Tijuana", gender_id: both.id } ]
+                      [{ name: "Tijuana", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'little one'", language_id: english.id },
-                      [ { name: "Tike", gender_id: both.id } ]
+                      [{ name: "Tike", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Matilda, meaning 'mighty in battle'", language_id: ancient_german.id },
-                      [ { name: "Tillie", gender_id: female.id },
-                        { name: "Tilly", gender_id: female.id } ]
+                      [{ name: "Tillie", gender_id: female.id },
+                        { name: "Tilly", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Timothy, meaning 'God's honour'", language_id: greek.id },
-                      [ { name: "Tim", gender_id: male.id } ]
+                      [{ name: "Tim", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'God's honour'", language_id: greek.id },
-                      [ { name: "Timmy", gender_id: male.id },
-                        { name: "Timothy", gender_id: male.id } ]
+                      [{ name: "Timmy", gender_id: male.id },
+                        { name: "Timothy", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'small'", language_id: english.id },
-                      [ { name: "Tini", gender_id: both.id },
-                        { name: "Tiny", gender_id: both.id } ]
+                      [{ name: "Tini", gender_id: both.id },
+                        { name: "Tiny", gender_id: both.id }]
                     ],
                     [
                       { description: "Glittering decorative metallic strips or threads", language_id: english.id },
-                      [ { name: "Tinsel", gender_id: both.id } ]
+                      [{ name: "Tinsel", gender_id: both.id }]
                     ],
                     [
                       { description: "Slightly drunk", language_id: english.id },
-                      [ { name: "Tipsy", gender_id: both.id },
-                        { name: "Typsy", gender_id: both.id } ]
+                      [{ name: "Tipsy", gender_id: both.id },
+                        { name: "Typsy", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'encampment'", language_id: hebrew.id },
-                      [ { name: "Tira", gender_id: female.id } ]
+                      [{ name: "Tira", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'great size and power'", language_id: english.id },
-                      [ { name: "Titan" },
-                        { name: "Titanic" } ]
+                      [{ name: "Titan" },
+                        { name: "Titanic" }]
                     ],
                     [
                       { description: "Meaning 'sweet'" },
-                      [ { name: "Titania" } ]
+                      [{ name: "Titania" }]
                     ],
                     [
                       { description: "Meaning 'defender'", language_id: latin.id },
-                      [ { name: "Titus", gender_id: male.id } ]
+                      [{ name: "Titus", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'God is good'", language_id: hebrew.id },
-                      [ { name: "Tobey", gender_id: male.id },
+                      [{ name: "Tobey", gender_id: male.id },
                         { name: "Tobi", gender_id: male.id },
                         { name: "Tobias", gender_id: male.id },
                         { name: "Tobie", gender_id: male.id },
-                        { name: "Toby", gender_id: male.id } ]
+                        { name: "Toby", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'fox'", language_id: middle_english.id },
-                      [ { name: "Todd", gender_id: male.id },
-                        { name: "Toddy", gender_id: male.id } ]
+                      [{ name: "Todd", gender_id: male.id },
+                        { name: "Toddy", gender_id: male.id }]
                     ],
                     [
                       { description: "Part of a shoe or stocking covering the toes", language_id: english.id },
-                      [ { name: "Toes", gender_id: both.id } ]
+                      [{ name: "Toes", gender_id: both.id }]
                     ],
                     [
                       { description: "Sweet made with heated butter and sugar", language_id: english.id },
-                      [ { name: "Toffee", gender_id: both.id } ]
+                      [{ name: "Toffee", gender_id: both.id }]
                     ],
                     [
                       { description: "Pieces of dry bread" },
-                      [ { name: "Tokes", gender_id: both.id } ]
+                      [{ name: "Tokes", gender_id: both.id }]
                     ],
                     [
                       { description: "Male cat", language_id: english.id, means_cat: true },
-                      [ { name: "Tom", gender_id: male.id } ]
+                      [{ name: "Tom", gender_id: male.id }]
                     ],
                     [
                       { description: "Axe used by the North American Indians" },
-                      [ { name: "Tomahawk", gender_id: male.id } ]
+                      [{ name: "Tomahawk", gender_id: male.id }]
                     ],
                     [
                       { description: "Nickname of Thomas, meaning 'twin'", language_id: hebrew.id },
-                      [ { name: "Tommi", gender_id: both.id },
+                      [{ name: "Tommi", gender_id: both.id },
                         { name: "Tommie", gender_id: both.id },
-                        { name: "Tommy", gender_id: both.id } ]
+                        { name: "Tommy", gender_id: both.id }]
                     ],
                     [
                       { description: "Musical or vocal sound", language_id: english.id },
-                      [ { name: "Tone", gender_id: both.id } ]
+                      [{ name: "Tone", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Anthony and Antonia, from an expression whose meaning has been lost", language_id: latin.id },
-                      [ { name: "Toney", gender_id: both.id },
-                        { name: "Tony", gender_id: both.id } ]
+                      [{ name: "Toney", gender_id: both.id },
+                        { name: "Tony", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Antoinette and Antonia, from an expression whose meaning has been lost", language_id: latin.id },
-                      [ { name: "Toni", gender_id: female.id } ]
+                      [{ name: "Toni", gender_id: female.id }]
                     ],
                     [
                       { description: "A paste for brushing the teeth", language_id: english.id },
-                      [ { name: "Toothpaste", gender_id: both.id } ]
+                      [{ name: "Toothpaste", gender_id: both.id }]
                     ],
                     [
                       { description: "US word for 'darling' or 'sweetheart'", language_id: american.id },
-                      [ { name: "Toots", gender_id: both.id },
+                      [{ name: "Toots", gender_id: both.id },
                         { name: "Tootsey", gender_id: both.id },
-                        { name: "Tootsie", gender_id: both.id } ]
+                        { name: "Tootsie", gender_id: both.id }]
                     ],
                     [
                       { description: "Semi precious stone of various colours", language_id: english.id },
-                      [ { name: "Topas", gender_id: both.id },
-                        { name: "Topaz", gender_id: both.id } ]
+                      [{ name: "Topas", gender_id: both.id },
+                        { name: "Topaz", gender_id: both.id }]
                     ],
                     [
                       { description: "The best cat", language_id: english.id, means_cat: true },
-                      [ { name: "Top Cat", gender_id: both.id } ]
+                      [{ name: "Top Cat", gender_id: both.id }]
                     ],
                     [
                       { description: "A top-notch person or thing", language_id: english.id },
-                      [ { name: "Topper", gender_id: both.id } ]
+                      [{ name: "Topper", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Victoria, meaning 'victory'", language_id: latin.id },
-                      [ { name: "Toree", gender_id: female.id },
+                      [{ name: "Toree", gender_id: female.id },
                         { name: "Torei", gender_id: female.id },
                         { name: "Torey", gender_id: female.id },
                         { name: "Tori", gender_id: female.id },
@@ -8589,891 +8589,891 @@ names_to_create = ([
                         { name: "Vicki", gender_id: female.id },
                         { name: "Vickie", gender_id: female.id },
                         { name: "Vicky", gender_id: female.id },
-                        { name: "Vikie", gender_id: female.id } ]
+                        { name: "Vikie", gender_id: female.id }]
                     ],
                     [
                       { description: "Violent swirling wind with a funnel-shaped cloud that destroys everything in its path", language_id: english.id },
-                      [ { name: "Tornado", gender_id: both.id } ]
+                      [{ name: "Tornado", gender_id: both.id }]
                     ],
                     [
                       { description: "Short way of writing Tortoiseshell", language_id: english.id },
-                      [ { name: "Tortie", gender_id: female.id },
-                        { name: "Torty", gender_id: female.id } ]
+                      [{ name: "Tortie", gender_id: female.id },
+                        { name: "Torty", gender_id: female.id }]
                     ],
                     [
                       { description: "From the Latin word for 'twister'", language_id: latin.id },
-                      [ { name: "Tortrix", gender_id: both.id } ]
+                      [{ name: "Tortrix", gender_id: both.id }]
                     ],
                     [
                       { description: "An animal or natural object considered as being related by blood to a given family or clan and taken as its symbol" },
-                      [ { name: "Totem", gender_id: both.id } ]
+                      [{ name: "Totem", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'Etruscan woman'", language_id: latin.id },
-                      [ { name: "Tosca", gender_id: female.id } ]
+                      [{ name: "Tosca", gender_id: female.id }]
                     ],
                     [
                       { description: "Comrade" },
-                      [ { name: "Tovarisch" } ]
+                      [{ name: "Tovarisch" }]
                     ],
                     [
                       { description: "Meaning ‘harvester'", language_id: greek.id },
-                      [ { name: "Tracey", gender_id: both.id } ]
+                      [{ name: "Tracey", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'to cross over'", language_id: old_french.id },
-                      [ { name: "Travis", gender_id: both.id } ]
+                      [{ name: "Travis", gender_id: both.id }]
                     ],
                     [
                       { description: "Thick sticky liquid produced when sugar is refined", language_id: english.id },
-                      [ { name: "Treacle", gender_id: both.id } ]
+                      [{ name: "Treacle", gender_id: both.id }]
                     ],
                     [
                       { description: "Highly valued object", language_id: english.id },
-                      [ { name: "Treasure", gender_id: both.id } ]
+                      [{ name: "Treasure", gender_id: both.id }]
                     ],
                     [
                       { description: "Something special, a reward", language_id: english.id },
-                      [ { name: "Treat", gender_id: both.id } ]
+                      [{ name: "Treat", gender_id: both.id }]
                     ],
                     [
                       { description: "Person who leads the way in fashion", language_id: english.id },
-                      [ { name: "Trendsetter", gender_id: both.id } ]
+                      [{ name: "Trendsetter", gender_id: both.id }]
                     ],
                     [
                       { description: "Following the latest fashion", language_id: english.id },
-                      [ { name: "Trendy", gender_id: both.id } ]
+                      [{ name: "Trendy", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'Trent's town'", language_id: english.id },
-                      [ { name: "Trent", gender_id: male.id } ]
+                      [{ name: "Trent", gender_id: male.id }]
                     ],
                     [
                       { description: "Mischievous act", language_id: english.id },
-                      [ { name: "Trick", gender_id: both.id } ]
+                      [{ name: "Trick", gender_id: both.id }]
                     ],
                     [
                       { description: "Group of three", language_id: english.id },
-                      [ { name: "Trinity" } ]
+                      [{ name: "Trinity" }]
                     ],
                     [
                       { description: "From an expression whose meaning has been lost", language_id: ancient_celtic.id },
-                      [ { name: "Tristan", gender_id: both.id },
-                        { name: "Trystan", gender_id: both.id } ]
+                      [{ name: "Tristan", gender_id: both.id },
+                        { name: "Trystan", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'the noisy one'" },
-                      [ { name: "Tristram" } ]
+                      [{ name: "Tristram" }]
                     ],
                     [
                       { description: "Nickname of Beatrix, meaning 'voyager'", language_id: latin.id },
-                      [ { name: "Trixie", gender_id: female.id },
-                        { name: "Trixy", gender_id: female.id } ]
+                      [{ name: "Trixie", gender_id: female.id },
+                        { name: "Trixy", gender_id: female.id }]
                     ],
                     [
                       { description: "Someone who goes on journeys or excursions for pleasure", language_id: english.id },
-                      [ { name: "Tripper", gender_id: both.id } ]
+                      [{ name: "Tripper", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning energy and determination" },
-                      [ { name: "Trojan" } ]
+                      [{ name: "Trojan" }]
                     ],
                     [
                       { description: "Soldier in an armored suit" },
-                      [ { name: "Trooper" } ]
+                      [{ name: "Trooper" }]
                     ],
                     [
                       { description: "Medieval romantic poet" },
-                      [ { name: "Troubadour" } ]
+                      [{ name: "Troubadour" }]
                     ],
                     [
                       { description: "Difficulty, distress, misfortune", language_id: english.id },
-                      [ { name: "Trouble", gender_id: both.id } ]
+                      [{ name: "Trouble", gender_id: both.id }]
                     ],
                     [
                       { description: "The cause of trouble" },
-                      [ { name: "Troublemaker" } ]
+                      [{ name: "Troublemaker" }]
                     ],
                     [
                       { description: "Member of a troupe" },
-                      [ { name: "Trouper" } ]
+                      [{ name: "Trouper" }]
                     ],
                     [
                       { description: "Meaning 'descendant of the foot soldier'", language_id: irish_gaelic.id },
-                      [ { name: "Troy", gender_id: both.id } ]
+                      [{ name: "Troy", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'strong spear'", language_id: ancient_german.id },
-                      [ { name: "Trudy", gender_id: female.id } ]
+                      [{ name: "Trudy", gender_id: female.id }]
                     ],
                     [
                       { description: "Soft chocolate sweet" },
-                      [ { name: "Truffle", gender_id: both.id },
-                        { name: "Truffles", gender_id: both.id } ]
+                      [{ name: "Truffle", gender_id: both.id },
+                        { name: "Truffles", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'four'", language_id: vietnamese.id },
-                      [ { name: "Tu", gender_id: male.id } ]
+                      [{ name: "Tu", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'cloth maker'" },
-                      [ { name: "Tucker" } ]
+                      [{ name: "Tucker" }]
                     ],
                     [
                       { description: "Meaning 'divine gift'" },
-                      [ { name: "Tudor" } ]
+                      [{ name: "Tudor" }]
                     ],
                     [
                       { description: "Covered in patches of fur", language_id: english.id },
-                      [ { name: "Tufti", gender_id: both.id },
-                        { name: "Tufty", gender_id: both.id } ]
+                      [{ name: "Tufti", gender_id: both.id },
+                        { name: "Tufty", gender_id: both.id }]
                     ],
                     [
                       { description: "Large cup-shaped flower", language_id: english.id },
-                      [ { name: "Tulip" } ]
+                      [{ name: "Tulip" }]
                     ],
                     [
                       { description: "Tree with small greenish flowers and blue or purple fruit" },
-                      [ { name: "Tupelo" } ]
+                      [{ name: "Tupelo" }]
                     ],
                     [
                       { description: "Using a turbine engine", language_id: english.id },
-                      [ { name: "Turbo", gender_id: male.id } ]
+                      [{ name: "Turbo", gender_id: male.id }]
                     ],
                     [
                       { description: "Person who works with a lathe", language_id: english.id },
-                      [ { name: "Turner", gender_id: both.id } ]
+                      [{ name: "Turner", gender_id: both.id }]
                     ],
                     [
                       { description: "A region in western Italy" },
-                      [ { name: "Tuscany" } ]
+                      [{ name: "Tuscany" }]
                     ],
                     [
                       { description: "Meaning 'mixture'" },
-                      [ { name: "Tutti-Fruitee" } ]
+                      [{ name: "Tutti-Fruitee" }]
                     ],
                     [
                       { description: "Short for tuxedo, dinner jacket", language_id: english.id },
-                      [ { name: "Tux", gender_id: both.id } ]
+                      [{ name: "Tux", gender_id: both.id }]
                     ],
                     [
                       { description: "Dinner jacket", language_id: english.id },
-                      [ { name: "Tuxedo", gender_id: both.id } ]
+                      [{ name: "Tuxedo", gender_id: both.id }]
                     ],
                     [
                       { description: "Light from the sky after sunset", language_id: english.id },
-                      [ { name: "Twilight", gender_id: both.id } ]
+                      [{ name: "Twilight", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'glitter', 'sparkly'", language_id: english.id },
-                      [ { name: "Twink", gender_id: both.id },
+                      [{ name: "Twink", gender_id: both.id },
                         { name: "Twinks", gender_id: both.id },
-                        { name: "Twinkles", gender_id: both.id } ]
+                        { name: "Twinkles", gender_id: both.id }]
                     ],
                     [
                       { description: "Tornado or cyclone", language_id: english.id },
-                      [ { name: "Twister", gender_id: both.id } ]
+                      [{ name: "Twister", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Tyler (meaning 'a worker in roof tiles'), Tyrone (meaning 'Owen's county'), Tyson (meaning 'high-spirited')" },
-                      [ { name: "Ty", gender_id: male.id } ]
+                      [{ name: "Ty", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'a worker in roof tiles'", language_id: english.id },
-                      [ { name: "Tyla", gender_id: both.id },
+                      [{ name: "Tyla", gender_id: both.id },
                         { name: "Tylar", gender_id: both.id },
-                        { name: "Tyler", gender_id: both.id } ]
+                        { name: "Tyler", gender_id: both.id }]
                     ],
                     [
                       { description: "Violent storm, hurricane", language_id: english.id },
-                      [ { name: "Typhoon", gender_id: both.id } ]
+                      [{ name: "Typhoon", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'Owen's county'", language_id: gaelic.id },
-                      [ { name: "Tyron", gender_id: male.id },
-                        { name: "Tyrone", gender_id: male.id } ]
+                      [{ name: "Tyron", gender_id: male.id },
+                        { name: "Tyrone", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'joy'", language_id: latin.id },
-                      [ { name: "Tysha", gender_id: female.id } ]
+                      [{ name: "Tysha", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'fiery'" },
-                      [ { name: "Tyson", gender_id: male.id } ]
+                      [{ name: "Tyson", gender_id: male.id }]
                     ],
                     [
                       { description: "An emperor of Russia", language_id: russian.id },
-                      [ { name: "Tzar", gender_id: male.id } ]
+                      [{ name: "Tzar", gender_id: male.id }]
                     ],
                     [
                       { description: "An empress of Russia", language_id: russian.id },
-                      [ { name: "Tzarina", gender_id: female.id } ]
+                      [{ name: "Tzarina", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Ulrika and Ulrike, meaning 'exalted ruler'", language_id: ancient_german.id },
-                      [ { name: "Ulla", gender_id: female.id },
-                        { name: "Ulli", gender_id: female.id } ]
+                      [{ name: "Ulla", gender_id: female.id },
+                        { name: "Ulli", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'exalted ruler'", language_id: ancient_german.id },
-                      [ { name: "Ulrika", gender_id: female.id },
-                        { name: "Ulrike", gender_id: female.id } ]
+                      [{ name: "Ulrika", gender_id: female.id },
+                        { name: "Ulrike", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning a 'hater', 'angry'", language_id: greek.id },
-                      [ { name: "Ulysses", gender_id: male.id } ]
+                      [{ name: "Ulysses", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'flax'", language_id: sanskrit.id },
-                      [ { name: "Uma", gender_id: female.id } ]
+                      [{ name: "Uma", gender_id: female.id }]
                     ],
                     [
                       { description: "Being united", language_id: english.id },
-                      [ { name: "Union", gender_id: both.id } ]
+                      [{ name: "Union", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'little bear'", language_id: latin.id },
-                      [ { name: "Ursula", gender_id: female.id } ]
+                      [{ name: "Ursula", gender_id: female.id }]
                     ],
                     [
                       { description: "Legendary king of Britain, father of King Arthur" },
-                      [ { name: "Uther", gender_id: male.id } ]
+                      [{ name: "Uther", gender_id: male.id }]
                     ],
                     [
                       { description: "Short curtain hanging from the edge of a bed or shelf for decoration", language_id: english.id },
-                      [ { name: "Valance", gender_id: both.id } ]
+                      [{ name: "Valance", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'strong', 'healthy'", language_id: latin.id },
-                      [ { name: "Valentina", gender_id: female.id },
+                      [{ name: "Valentina", gender_id: female.id },
                         { name: "Valentine", gender_id: both.id },
-                        { name: "Valentino", gender_id: male.id } ]
+                        { name: "Valentino", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'vigorous'", language_id: latin.id },
-                      [ { name: "Valarie", gender_id: female.id },
+                      [{ name: "Valarie", gender_id: female.id },
                         { name: "Valeri", gender_id: female.id },
                         { name: "Valerie", gender_id: female.id },
                         { name: "Valleri", gender_id: female.id },
-                        { name: "Vallerie", gender_id: female.id } ]
+                        { name: "Vallerie", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'to be'", language_id: latin.id },
-                      [ { name: "Vanessa", gender_id: female.id } ]
+                      [{ name: "Vanessa", gender_id: female.id }]
                     ],
                     [
                       { description: "Type of flavouring", language_id: english.id },
-                      [ { name: "Vanilla", gender_id: both.id } ]
+                      [{ name: "Vanilla", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'pride', 'self-admiration'", language_id: english.id },
-                      [ { name: "Vanity", gender_id: female.id } ]
+                      [{ name: "Vanity", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'golden'", language_id: khmer.id },
-                      [ { name: "Vanna", gender_id: female.id } ]
+                      [{ name: "Vanna", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'white wave'" },
-                      [ { name: "Vanova" } ]
+                      [{ name: "Vanova" }]
                     ],
                     [
                       { description: "A blue-white star in the constellation Lyra" },
-                      [ { name: "Vega" } ]
+                      [{ name: "Vega" }]
                     ],
                     [
                       { description: "Meaning 'determined protector'", language_id: ancient_german.id },
-                      [ { name: "Velma", gender_id: female.id },
+                      [{ name: "Velma", gender_id: female.id },
                         { name: "William", gender_id: both.id },
                         { name: "Williamina", gender_id: female.id },
                         { name: "Willis", gender_id: male.id },
                         { name: "Wilma", gender_id: female.id },
-                        { name: "Wilson", gender_id: male.id } ]
+                        { name: "Wilson", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'wolf'", language_id: hebrew.id },
-                      [ { name: "Velvel", gender_id: male.id } ]
+                      [{ name: "Velvel", gender_id: male.id }]
                     ],
                     [
                       { description: "Woven fabric with thick short pile on one side", language_id: english.id },
-                      [ { name: "Velvet", gender_id: female.id } ]
+                      [{ name: "Velvet", gender_id: female.id }]
                     ],
                     [
                       { description: "From Venice in Northern Italy" },
-                      [ { name: "Venetia" } ]
+                      [{ name: "Venetia" }]
                     ],
                     [
                       { description: "Roman goddess of love", language_id: roman.id },
-                      [ { name: "Venus", gender_id: female.id } ]
+                      [{ name: "Venus", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'faith'", language_id: slavic.id },
-                      [ { name: "Vera", gender_id: female.id } ]
+                      [{ name: "Vera", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'spring green'", language_id: latin.id },
-                      [ { name: "Verna", gender_id: female.id } ]
+                      [{ name: "Verna", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'alder grove'", language_id: norman_french.id },
-                      [ { name: "Vernon", gender_id: both.id } ]
+                      [{ name: "Vernon", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'bringer of victory'", language_id: greek.id },
-                      [ { name: "Veronica", gender_id: female.id } ]
+                      [{ name: "Veronica", gender_id: female.id }]
                     ],
                     [
                       { description: "Plants of the verbena family with spikes or clusters of red, white or purplish flowers" },
-                      [ { name: "Vervain" } ]
+                      [{ name: "Vervain" }]
                     ],
                     [
                       { description: "Meaning 'wasp'", language_id: latin.id },
-                      [ { name: "Vespa" } ]
+                      [{ name: "Vespa" }]
                     ],
                     [
                       { description: "Grass whose roots yield a fragrant oil used in perfumes" },
-                      [ { name: "Vetiver" } ]
+                      [{ name: "Vetiver" }]
                     ],
                     [
                       { description: "Nickname of Victor, meaning 'champion'", language_id: latin.id },
-                      [ { name: "Vic", gender_id: male.id },
-                        { name: "Vick", gender_id: male.id } ]
+                      [{ name: "Vic", gender_id: male.id },
+                        { name: "Vick", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'champion'", language_id: latin.id },
-                      [ { name: "Victer", gender_id: both.id },
-                        { name: "Victor", gender_id: both.id } ]
+                      [{ name: "Victer", gender_id: both.id },
+                        { name: "Victor", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'victory'", language_id: latin.id },
-                      [ { name: "Vicktoria", gender_id: female.id },
-                        { name: "Victoria", gender_id: female.id } ]
+                      [{ name: "Vicktoria", gender_id: female.id },
+                        { name: "Victoria", gender_id: female.id }]
                     ],
                     [
                       { description: "Member of a self-appointed group trying to prevent crime", language_id: english.id },
-                      [ { name: "Vigilante", gender_id: both.id } ]
+                      [{ name: "Vigilante", gender_id: both.id }]
                     ],
                     [
                       { description: "Ancient Scandinavian trader and pirate" },
-                      [ { name: "Viking" } ]
+                      [{ name: "Viking" }]
                     ],
                     [
                       { description: "Meaning 'prevailing'", language_id: latin.id },
-                      [ { name: "Vincent", gender_id: male.id } ]
+                      [{ name: "Vincent", gender_id: male.id }]
                     ],
                     [
                       { description: "Nickname of Vincent, meaning 'prevailing'", language_id: latin.id },
-                      [ { name: "Vinni", gender_id: both.id },
+                      [{ name: "Vinni", gender_id: both.id },
                         { name: "Vinnie", gender_id: both.id },
-                        { name: "Vinny", gender_id: male.id } ]
+                        { name: "Vinny", gender_id: male.id }]
                     ],
                     [
                       { description: "Date of origin or existence", language_id: english.id },
-                      [ { name: "Vintage", gender_id: both.id } ]
+                      [{ name: "Vintage", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'maiden'", language_id: latin.id },
-                      [ { name: "Virginia", gender_id: female.id } ]
+                      [{ name: "Virginia", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'lively'", language_id: latin.id },
-                      [ { name: "Vivien", gender_id: both.id } ]
+                      [{ name: "Vivien", gender_id: both.id }]
                     ],
                     [
                       { description: "A female fox" },
-                      [ { name: "Vixen", gender_id: female.id } ]
+                      [{ name: "Vixen", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'possess peace'" },
-                      [ { name: "Vladimir" } ]
+                      [{ name: "Vladimir" }]
                     ],
                     [
                       { description: "Current fashion", language_id: english.id },
-                      [ { name: "Vogue", gender_id: female.id } ]
+                      [{ name: "Vogue", gender_id: female.id }]
                     ],
                     [
                       { description: "Play music lightly but rapidly" },
-                      [ { name: "Volante" } ]
+                      [{ name: "Volante" }]
                     ],
                     [
                       { description: "Force expressed in volts", language_id: english.id },
-                      [ { name: "Voltage", gender_id: both.id } ]
+                      [{ name: "Voltage", gender_id: both.id }]
                     ],
                     [
                       { description: "Form of religion based on witchcraft" },
-                      [ { name: "Voodoo", gender_id: both.id } ]
+                      [{ name: "Voodoo", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'voice'", language_id: latin.id },
-                      [ { name: "Vox" } ]
+                      [{ name: "Vox" }]
                     ],
                     [
                       { description: "Thin like a biscuit or cracker", language_id: english.id },
-                      [ { name: "Wafer", gender_id: both.id } ]
+                      [{ name: "Wafer", gender_id: both.id }]
                     ],
                     [
                       { description: "Light crisp battercakes baked in a waffle iron", language_id: english.id },
-                      [ { name: "Waffle", gender_id: both.id },
-                        { name: "Waffles", gender_id: both.id } ]
+                      [{ name: "Waffle", gender_id: both.id },
+                        { name: "Waffles", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'rule'", language_id: ancient_german.id },
-                      [ { name: "Waldo", gender_id: male.id } ]
+                      [{ name: "Waldo", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'Welshman'", language_id: old_french.id },
-                      [ { name: "Wallace", gender_id: male.id } ]
+                      [{ name: "Wallace", gender_id: male.id }]
                     ],
                     [
                       { description: "Nickname of Walter, meaning 'commander of the army'", language_id: old_german.id },
-                      [ { name: "Wally", gender_id: both.id } ]
+                      [{ name: "Wally", gender_id: both.id }]
                     ],
                     [
                       { description: "Nut containing a wrinkled edible kernel", language_id: english.id },
-                      [ { name: "Walnut", gender_id: both.id } ]
+                      [{ name: "Walnut", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'commander of the army'", language_id: old_german.id },
-                      [ { name: "Walter", gender_id: both.id },
-                        { name: "Watson", gender_id: male.id } ]
+                      [{ name: "Walter", gender_id: both.id },
+                        { name: "Watson", gender_id: male.id }]
                     ],
                     [
                       { description: "Outer jacket made of tough, long-wearing fabric" },
-                      [ { name: "Wampus" } ]
+                      [{ name: "Wampus" }]
                     ],
                     [
                       { description: "Meaning 'the tribe of the Vandals'", language_id: slavic.id },
-                      [ { name: "Wanda", gender_id: female.id },
-                        { name: "Wonda", gender_id: female.id } ]
+                      [{ name: "Wanda", gender_id: female.id },
+                        { name: "Wonda", gender_id: female.id }]
                     ],
                     [
                       { description: "Australian shrub with crimson flowers" },
-                      [ { name: "Waratah" } ]
+                      [{ name: "Waratah" }]
                     ],
                     [
                       { description: "Person who fights in a battle", language_id: english.id },
-                      [ { name: "Warrior", gender_id: male.id } ]
+                      [{ name: "Warrior", gender_id: male.id }]
                     ],
                     [
                       { description: "Hot Japanese sauce eaten with fish", language_id: japanese.id },
-                      [ { name: "Wasabi", gender_id: both.id } ]
+                      [{ name: "Wasabi", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'guard'", language_id: english.id },
-                      [ { name: "Watchman", gender_id: male.id } ]
+                      [{ name: "Watchman", gender_id: male.id }]
                     ],
                     [
                       { description: "Plant with broad floating leaves", language_id: english.id },
-                      [ { name: "Water Lily", gender_id: female.id } ]
+                      [{ name: "Water Lily", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'roadside land'", language_id: old_english.id },
-                      [ { name: "Waylon", gender_id: male.id } ]
+                      [{ name: "Waylon", gender_id: male.id }]
                     ],
                     [
                       { description: "Person who weaves", language_id: english.id },
-                      [ { name: "Weaver", gender_id: both.id } ]
+                      [{ name: "Weaver", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'weaver'", language_id: old_english.id },
-                      [ { name: "Webster", gender_id: male.id } ]
+                      [{ name: "Webster", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'brook'", language_id: old_english.id },
-                      [ { name: "Wells", gender_id: male.id } ]
+                      [{ name: "Wells", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'wanderer'", language_id: ancient_german.id },
-                      [ { name: "Wendall", gender_id: male.id },
+                      [{ name: "Wendall", gender_id: male.id },
                         { name: "Wendel", gender_id: male.id },
-                        { name: "Wendell", gender_id: male.id } ]
+                        { name: "Wendell", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'friend'", language_id: english.id },
-                      [ { name: "Wendy", gender_id: female.id } ]
+                      [{ name: "Wendy", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'western meadow'", language_id: old_english.id },
-                      [ { name: "Wesley", gender_id: both.id },
+                      [{ name: "Wesley", gender_id: both.id },
                         { name: "Wesly", gender_id: both.id },
-                        { name: "Wessley", gender_id: both.id } ]
+                        { name: "Wessley", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'town facing west'", language_id: old_english.id },
-                      [ { name: "Westen", gender_id: male.id },
+                      [{ name: "Westen", gender_id: male.id },
                         { name: "Westin", gender_id: male.id },
-                        { name: "Weston", gender_id: male.id } ]
+                        { name: "Weston", gender_id: male.id }]
                     ],
                     [
                       { description: "Long hair like bristles near the mouth of a cat", language_id: english.id },
-                      [ { name: "Whiskers", gender_id: both.id } ]
+                      [{ name: "Whiskers", gender_id: both.id }]
                     ],
                     [
                       { description: "Spirit distilled from malted grain", language_id: english.id },
-                      [ { name: "Whiskey", gender_id: both.id },
+                      [{ name: "Whiskey", gender_id: both.id },
                         { name: "Whiski", gender_id: both.id },
                         { name: "Whisky", gender_id: both.id },
-                        { name: "Wisky", gender_id: both.id } ]
+                        { name: "Wisky", gender_id: both.id }]
                     ],
                     [
                       { description: "Speak or utter softly", language_id: english.id },
-                      [ { name: "Whispa", gender_id: female.id },
+                      [{ name: "Whispa", gender_id: female.id },
                         { name: "Wisper", gender_id: female.id },
-                        { name: "Whisper", gender_id: female.id } ]
+                        { name: "Whisper", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'white'", language_id: english.id },
-                      [ { name: "Whitey", gender_id: both.id } ]
+                      [{ name: "Whitey", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'white'", language_id: old_english.id },
-                      [ { name: "Whitney", gender_id: both.id } ]
+                      [{ name: "Whitney", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'blessed'" },
-                      [ { name: "Wifrid" } ]
+                      [{ name: "Wifrid" }]
                     ],
                     [
                       { description: "Meaning 'desired fortress'", language_id: old_english.id },
-                      [ { name: "Wilber", gender_id: male.id },
-                        { name: "Wilbur", gender_id: male.id } ]
+                      [{ name: "Wilber", gender_id: male.id },
+                        { name: "Wilbur", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'crafty'", language_id: old_english.id },
-                      [ { name: "Wiley", gender_id: male.id } ]
+                      [{ name: "Wiley", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'desiring peace'", language_id: old_english.id },
-                      [ { name: "Wilf", gender_id: male.id } ]
+                      [{ name: "Wilf", gender_id: male.id }]
                     ],
                     [
                       { description: "Nickname of Wilbert, Wilbur, William, Wilson, meaning 'determined protector'", language_id: ancient_german.id },
-                      [ { name: "Will", gender_id: male.id },
+                      [{ name: "Will", gender_id: male.id },
                         { name: "Willey", gender_id: both.id },
                         { name: "Willie", gender_id: both.id },
-                        { name: "Willy", gender_id: both.id } ]
+                        { name: "Willy", gender_id: both.id }]
                     ],
                     [
                       { description: "Tree or shrub with flexible branches", language_id: english.id },
-                      [ { name: "Willo", gender_id: female.id },
-                        { name: "Willow", gender_id: female.id } ]
+                      [{ name: "Willo", gender_id: female.id },
+                        { name: "Willow", gender_id: female.id }]
                     ],
                     [
                       { description: "Chimes that ring in the wind", language_id: english.id },
-                      [ { name: "Windchime", gender_id: both.id } ]
+                      [{ name: "Windchime", gender_id: both.id }]
                     ],
                     [
                       { description: "Ruling family of England" },
-                      [ { name: "Windsor", gender_id: both.id } ]
+                      [{ name: "Windsor", gender_id: both.id }]
                     ],
                     [
                       { description: "Projecting parts which enable a bird to fly", language_id: english.id },
-                      [ { name: "Wings", gender_id: both.id } ]
+                      [{ name: "Wings", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'joy and peace'", language_id: old_english.id },
-                      [ { name: "Winefred", gender_id: female.id },
+                      [{ name: "Winefred", gender_id: female.id },
                         { name: "Winifred", gender_id: female.id },
                         { name: "Winnafred", gender_id: female.id },
-                        { name: "Winnifred", gender_id: female.id } ]
+                        { name: "Winnifred", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'joyful stone'", language_id: old_english.id },
-                      [ { name: "Winston", gender_id: male.id } ]
+                      [{ name: "Winston", gender_id: male.id }]
                     ],
                     [
                       { description: "Coldest season of the year", language_id: english.id },
-                      [ { name: "Winter", gender_id: both.id },
-                        { name: "Wynter", gender_id: both.id } ]
+                      [{ name: "Winter", gender_id: both.id },
+                        { name: "Wynter", gender_id: both.id }]
                     ],
                     [
                       { description: "Destroy completely", language_id: english.id },
-                      [ { name: "Wipeout", gender_id: both.id } ]
+                      [{ name: "Wipeout", gender_id: both.id }]
                     ],
                     [
                       { description: "Desire, request or aspiration", language_id: english.id },
-                      [ { name: "Wish", gender_id: both.id } ]
+                      [{ name: "Wish", gender_id: both.id }]
                     ],
                     [
                       { description: "Small streak of smoke", language_id: english.id },
-                      [ { name: "Wisp", gender_id: both.id } ]
+                      [{ name: "Wisp", gender_id: both.id }]
                     ],
                     [
                       { description: "Magician", language_id: english.id },
-                      [ { name: "Wizard", gender_id: both.id } ]
+                      [{ name: "Wizard", gender_id: both.id }]
                     ],
                     [
                       { description: "Baby wolf", language_id: english.id, means_dog: true },
-                      [ { name: "Wolfcub", gender_id: both.id } ]
+                      [{ name: "Wolfcub", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'fierce' or 'greedy'" },
-                      [ { name: "Wolfie", gender_id: both.id } ]
+                      [{ name: "Wolfie", gender_id: both.id }]
                     ],
                     [
                       { description: "Feeling of surprise and admiration, curiosity or bewilderment", language_id: english.id },
-                      [ { name: "Wonder", gender_id: both.id } ]
+                      [{ name: "Wonder", gender_id: both.id }]
                     ],
                     [
                       { description: "An open field" },
-                      [ { name: "Wong" } ]
+                      [{ name: "Wong" }]
                     ],
                     [
                       { description: "Bird that taps tree trunks to find insects", language_id: english.id, means_bird: true },
-                      [ { name: "Woodpecker", gender_id: both.id } ]
+                      [{ name: "Woodpecker", gender_id: both.id }]
                     ],
                     [
                       { description: "Forest of trees", language_id: english.id },
-                      [ { name: "Woods", gender_id: both.id } ]
+                      [{ name: "Woods", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'houses by the wood'", language_id: english.id },
-                      [ { name: "Woody", gender_id: male.id } ]
+                      [{ name: "Woody", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'war strength'", language_id: old_english.id },
-                      [ { name: "Wyatt", gender_id: male.id } ]
+                      [{ name: "Wyatt", gender_id: male.id }]
                     ],
                     [
                       { description: "Nickname of Alexander, meaning 'protector of men'", language_id: greek.id },
-                      [ { name: "Xander", gender_id: male.id } ]
+                      [{ name: "Xander", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'yellow blonde'", language_id: greek.id },
-                      [ { name: "Xanthe", gender_id: female.id } ]
+                      [{ name: "Xanthe", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'bright'" },
-                      [ { name: "Xavier", gender_id: male.id } ]
+                      [{ name: "Xavier", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'guest, stranger'", language_id: greek.id },
-                      [ { name: "Xena", gender_id: female.id },
-                        { name: "Xenia", gender_id: female.id } ]
+                      [{ name: "Xena", gender_id: female.id },
+                        { name: "Xenia", gender_id: female.id }]
                     ],
                     [
                       { description: "An alternative form of Chun, meaning 'spring', 'love', 'life', 'simple', 'pure' or 'honest', depending on the tone and characters associated with the name", language_id: chinese.id },
-                      [ { name: "Xuan", gender_id: both.id } ]
+                      [{ name: "Xuan", gender_id: both.id }]
                     ],
                     [
                       { description: "Sweet potato", language_id: english.id },
-                      [ { name: "Yam", gender_id: both.id } ]
+                      [{ name: "Yam", gender_id: both.id }]
                     ],
                     [
                       { description: "A Hindu god", language_id: hindi.id },
-                      [ { name: "Yama" } ]
+                      [{ name: "Yama" }]
                     ],
                     [
                       { description: "Can mean 'dark red', 'continue', 'strict', 'beautiful', 'rock', 'study', 'face', 'perform' or 'comfort' depending on the tone and character associated with the name", language_id: chinese.id },
-                      [ { name: "Yan", gender_id: female.id } ]
+                      [{ name: "Yan", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'englishman'", language_id: old_french.id },
-                      [ { name: "Yancy", gender_id: male.id },
-                        { name: "Yansy", gender_id: male.id } ]
+                      [{ name: "Yancy", gender_id: male.id },
+                        { name: "Yansy", gender_id: male.id }]
                     ],
                     [
                       { description: "Can mean 'publish', 'immense', 'respect' or 'sustain' depending on the tone and character associated with the name", language_id: chinese.id },
-                      [ { name: "Yang", gender_id: both.id } ]
+                      [{ name: "Yang", gender_id: both.id }]
                     ],
                     [
                       { description: "Nickname of Yannick, meaning 'God's grace'", language_id: hebrew.id },
-                      [ { name: "Yanni", gender_id: male.id } ]
+                      [{ name: "Yanni", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'the jasmine flower'", language_id: persian.id },
-                      [ { name: "Yaasmin", gender_id: female.id },
+                      [{ name: "Yaasmin", gender_id: female.id },
                         { name: "Yasmeen", gender_id: female.id },
                         { name: "Yasmin", gender_id: female.id },
                         { name: "Yasmine", gender_id: female.id },
                         { name: "Yazmin", gender_id: female.id },
-                        { name: "Yazmine", gender_id: female.id } ]
+                        { name: "Yazmine", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'praise'", language_id: hebrew.id },
-                      [ { name: "Yehudah", gender_id: male.id } ]
+                      [{ name: "Yehudah", gender_id: male.id }]
                     ],
                     [
                       { description: "Bear-like animal said to live in the Himalayas" },
-                      [ { name: "Yeti", gender_id: male.id } ]
+                      [{ name: "Yeti", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'companion'" },
-                      [ { name: "Yhomas", gender_id: male.id } ]
+                      [{ name: "Yhomas", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'one'" },
-                      [ { name: "Yin" } ]
+                      [{ name: "Yin" }]
                     ],
                     [
                       { description: "Can mean 'answer', 'flower, 'warbler', 'cherry', 'welcome', 'profit', 'jade', 'bright' or 'shining' depending on the tone and character associated with the name", language_id: chinese.id },
-                      [ { name: "Ying", gender_id: female.id } ]
+                      [{ name: "Ying", gender_id: female.id }]
                     ],
                     [
                       { description: "Dutch version of George, meaning 'Farmer'" },
-                      [ { name: "Youri", gender_id: male.id }]
+                      [{ name: "Youri", gender_id: male.id }]
                     ],
                     [
                       { description: "Childs toy consisting of string and two discs", language_id: english.id },
-                      [ { name: "Yoyo", gender_id: both.id } ]
+                      [{ name: "Yoyo", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'snow', 'good fortune' or 'heritage' ", language_id: japanese.id },
-                      [ { name: "Yuki", gender_id: female.id } ]
+                      [{ name: "Yuki", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'yew'", language_id: french.id },
-                      [ { name: "Yvette", gender_id: female.id } ]
+                      [{ name: "Yvette", gender_id: female.id }]
                     ],
                     [
                       { description: "Nickname of Zachariah and Zachary, meaning 'Godly'", language_id: hebrew.id },
-                      [ { name: "Zac", gender_id: male.id },
+                      [{ name: "Zac", gender_id: male.id },
                         { name: "Zach", gender_id: male.id },
                         { name: "Zack", gender_id: male.id },
                         { name: "Zackie", gender_id: male.id },
                         { name: "Zacky", gender_id: male.id },
                         { name: "Zak", gender_id: male.id },
-                        { name: "Zakk", gender_id: male.id } ]
+                        { name: "Zakk", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'Godly'", language_id: hebrew.id },
-                      [ { name: "Zachari", gender_id: male.id },
-                        { name: "Zachary", gender_id: male.id } ]
+                      [{ name: "Zachari", gender_id: male.id },
+                        { name: "Zachary", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'remembrance of the Lord'", language_id: hebrew.id },
-                      [ { name: "Zachariah", gender_id: male.id } ]
+                      [{ name: "Zachariah", gender_id: male.id }]
                     ],
                     [
                       { description: "Oxide of cobalt" },
-                      [ { name: "Zaffre" } ]
+                      [{ name: "Zaffre" }]
                     ],
                     [
                       { description: "Meaning 'success'", language_id: arabic.id },
-                      [ { name: "Zafira", gender_id: female.id } ]
+                      [{ name: "Zafira", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'sapphire'", language_id: spanish.id },
-                      [ { name: "Zafiro" } ]
+                      [{ name: "Zafiro" }]
                     ],
                     [
                       { description: "Meaning 'wellborn'", language_id: swahili.id },
-                      [ { name: "Zalika", gender_id: female.id } ]
+                      [{ name: "Zalika", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'warrior's protector'", language_id: italian.id },
-                      [ { name: "Zandra", gender_id: female.id } ]
+                      [{ name: "Zandra", gender_id: female.id }]
                     ],
                     [
                       { description: "The smoke tree" },
-                      [ { name: "Zante" } ]
+                      [{ name: "Zante" }]
                     ],
                     [
                       { description: "Meaning 'radiance'", language_id: arabic.id },
-                      [ { name: "Zara", gender_id: female.id } ]
+                      [{ name: "Zara", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'a treeless plain'", language_id: spanish.id },
-                      [ { name: "Zavana" } ]
+                      [{ name: "Zavana" }]
                     ],
                     [
                       { description: "Enthusiasm, hearty and persistent effort", language_id: english.id },
-                      [ { name: "Zeal", gender_id: both.id } ]
+                      [{ name: "Zeal", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'given by God'", language_id: hebrew.id },
-                      [ { name: "Zeb", gender_id: male.id },
-                        { name: "Zebedee", gender_id: male.id } ]
+                      [{ name: "Zeb", gender_id: male.id },
+                        { name: "Zebedee", gender_id: male.id }]
                     ],
                     [
                       { description: "Black and white striped animal", language_id: english.id },
-                      [ { name: "Zebra", gender_id: both.id } ]
+                      [{ name: "Zebra", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'God strengthens'", language_id: hebrew.id },
-                      [ { name: "Zeke", gender_id: male.id } ]
+                      [{ name: "Zeke", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'dark battle'", language_id: ancient_german.id },
-                      [ { name: "Zelda", gender_id: female.id } ]
+                      [{ name: "Zelda", gender_id: female.id }]
                     ],
                     [
                       { description: "Meditation" },
-                      [ { name: "Zen" } ]
+                      [{ name: "Zen" }]
                     ],
                     [
                       { description: "Meaning 'hidden by God'", language_id: hebrew.id },
-                      [ { name: "Zeph", gender_id: male.id } ]
+                      [{ name: "Zeph", gender_id: male.id }]
                     ],
                     [
                       { description: "Soft gentle wind" },
-                      [ { name: "Zephyr", gender_id: both.id } ]
+                      [{ name: "Zephyr", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'sunrise'" },
-                      [ { name: "Zerah", gender_id: male.id } ]
+                      [{ name: "Zerah", gender_id: male.id }]
                     ],
                     [
                       { description: "Nought", language_id: english.id },
-                      [ { name: "Zero", gender_id: male.id } ]
+                      [{ name: "Zero", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'powerful one'", language_id: greek.id },
-                      [ { name: "Zeus", gender_id: male.id } ]
+                      [{ name: "Zeus", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'zigzag'" },
-                      [ { name: "Ziggy", gender_id: both.id } ]
+                      [{ name: "Ziggy", gender_id: both.id }]
                     ],
                     [
                       { description: "Line turning right and left at sharp angles", language_id: english.id },
-                      [ { name: "Zigzag", gender_id: both.id } ]
+                      [{ name: "Zigzag", gender_id: both.id }]
                     ],
                     [
                       { description: "Meaning 'a flower'", language_id: english.id },
-                      [ { name: "Zinnia", gender_id: female.id } ]
+                      [{ name: "Zinnia", gender_id: female.id }]
                     ],
                     [
                       { description: "Bluish white gem cut from a translucent material" },
-                      [ { name: "Zircon" } ]
+                      [{ name: "Zircon" }]
                     ],
                     [
                       { description: "Luminous white powder" },
-                      [ { name: "Zirconia" } ]
+                      [{ name: "Zirconia" }]
                     ],
                     [
                       { description: "Meaning 'life'", language_id: greek.id },
-                      [ { name: "Zoe", gender_id: both.id },
-                        { name: "Zoey", gender_id: female.id } ]
+                      [{ name: "Zoe", gender_id: both.id },
+                        { name: "Zoey", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'sultan'" },
-                      [ { name: "Zoltan", gender_id: male.id } ]
+                      [{ name: "Zoltan", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'little son'" },
-                      [ { name: "Zon", gender_id: male.id } ]
+                      [{ name: "Zon", gender_id: male.id }]
                     ],
                     [
                       { description: "Meaning 'golden star'", language_id: persian.id },
-                      [ { name: "Zoroaster" } ]
+                      [{ name: "Zoroaster" }]
                     ],
                     [
                       { description: "Meaning 'life-giving'" },
-                      [ { name: "Zoya", gender_id: female.id } ]
+                      [{ name: "Zoya", gender_id: female.id }]
                     ],
                     [
                       { description: "Meaning 'sugar'", language_id: italian.id },
-                      [ { name: "Zucchero" } ]
+                      [{ name: "Zucchero" }]
                     ],
                     [
                       { description: "Meaning 'fair'", language_id: arabic.id },
-                      [ { name: "Zuleica", gender_id: female.id },
-                        { name: "Zuleika", gender_id: female.id } ]
+                      [{ name: "Zuleica", gender_id: female.id },
+                        { name: "Zuleika", gender_id: female.id }]
                     ],
                     [
                       { description: "Member or language of Bantu people of South Africa" },
-                      [ { name: "Zulu" } ]
+                      [{ name: "Zulu" }]
                     ]
                   ])
 
@@ -9489,859 +9489,859 @@ end
 names_to_link = ([
                   [
                     { description: "Nickname of Addison, meaning 'red earth'", language_id: hebrew.id },
-                    [ "Addie", "Addy" ]
+                    ["Addie", "Addy"]
                   ],
                   [
                     { description: "Nickname of Adam, meaning 'red earth'", language_id: hebrew.id },
-                    [ "Addie" ]
+                    ["Addie"]
                   ],
                   [
                     { description: "Meaning 'wise man'", language_id: old_english.id },
-                    [ "Alfred" ]
+                    ["Alfred"]
                   ],
                   [
                     { description: "Meaning 'enjoying God's protection'", language_id: hindi.id },
-                    [ "Alisha" ]
+                    ["Alisha"]
                   ],
                   [
                     { description: "Precious stone" },
-                    [ "Amber", "Ambyr" ]
+                    ["Amber", "Ambyr"]
                   ],
                   [
                     { description: "Orange-yellow colour", language_id: english.id },
-                    [ "Amber" ]
+                    ["Amber"]
                   ],
                   [
                     { description: "Alternative spelling of Amy, meaning 'beloved one'", language_id: old_french.id },
-                    [ "Ami" ]
+                    ["Ami"]
                   ],
                   [
                     { description: "Goddess of love" },
-                    [ "Aphrodite" ]
+                    ["Aphrodite"]
                   ],
                   [
                     { description: "Meaning 'hope'", language_id: hindi.id },
-                    [ "Asha" ]
+                    ["Asha"]
                   ],
                   [
                     { description: "Roman goddess of the dawn" },
-                    [ "Aurora" ]
+                    ["Aurora"]
                   ],
                   [
                     { description: "Meaning 'sky' or 'heaven'", language_id: akposso.id },
-                    [ "Ava" ]
+                    ["Ava"]
                   ],
                   [
                     { description: "Nickname of Barbara (meaning 'foreigner') or Beatrice and Beatrix (meaning 'voyager')" },
-                    [ "Bebe" ]
+                    ["Bebe"]
                   ],
                   [
                     { description: "Meaning 'beautiful'", language_id: old_french.id },
-                    [ "Bella" ]
+                    ["Bella"]
                   ],
                   [
                     { description: "Nickname of Belinda, meaning 'crafty'", language_id: ancient_german.id },
-                    [ "Belle" ]
+                    ["Belle"]
                   ],
                   [
                     { description: "Nickname of Berenice (meaning 'bringer of victory'), Bernadette and Bernadine (meaning 'strong bear')" },
-                    [ "Bernie" ]
+                    ["Bernie"]
                   ],
                   [
                     { description: "From the French beaubelot meaning 'toy'", language_id: french.id },
-                    [ "Bibi" ]
+                    ["Bibi"]
                   ],
                   [
                     { description: "After the character Puss in Boots" },
-                    [ "Boots" ]
+                    ["Boots"]
                   ],
                   [
                     { description: "Rabbit", language_id: english.id },
-                    [ "Bunny" ]
+                    ["Bunny"]
                   ],
                   [
                     { description: "Meaning 'blaze or glow with fire'", language_id: english.id },
-                    [ "Burns" ]
+                    ["Burns"]
                   ],
                   [
                     { description: "Excitement", language_id: english.id },
-                    [ "Buzz" ]
+                    ["Buzz"]
                   ],
                   [
                     { description: "From the Anglo-Saxon carle meaning 'male'" },
-                    [ "Carl" ]
+                    ["Carl"]
                   ],
                   [
                     { description: "Meaning 'money'", language_id: english.id },
-                    [ "Cash" ]
+                    ["Cash"]
                   ],
                   [
                     { description: "Meaning 'hardworking person'", language_id: vietnamese.id },
-                    [ "Cham" ]
+                    ["Cham"]
                   ],
                   [
                     { description: "Unplanned occurrence", language_id: english.id },
-                    [ "Chance" ]
+                    ["Chance"]
                   ],
                   [
                     { description: "Meaning 'a man'" },
-                    [ "Charles" ]
+                    ["Charles"]
                   ],
                   [
                     { description: "Meaning 'charm'", language_id: english.id },
-                    [ "Charmaine", "Charmian" ]
+                    ["Charmaine", "Charmian"]
                   ],
                   [
                     { description: "Combination of Cherry (based on the common English word) and Beryl (name of a precious stone)" },
-                    [ "Cheryl" ]
+                    ["Cheryl"]
                   ],
                   [
                     { description: "Glass-like mineral" },
-                    [ "Chrystal", "Crystal" ]
+                    ["Chrystal", "Crystal"]
                   ],
                   [
                     { description: "Piece of partly burnt coal or wood" },
-                    [ "Cinder", "Cinders" ]
+                    ["Cinder", "Cinders"]
                   ],
                   [
                     { description: "Meaning 'cinders'" },
-                    [ "Cindy" ]
+                    ["Cindy"]
                   ],
                   [
                     { description: "Meaning 'famous'" },
-                    [ "Cleo", "Nelson" ]
+                    ["Cleo", "Nelson"]
                   ],
                   [
                     { description: "Queen of Egypt who bathed in buttermilk" },
-                    [ "Cleopatra" ]
+                    ["Cleopatra"]
                   ],
                   [
                     { description: "Meaning 'triumphant'" },
-                    [ "Cleopatra" ]
+                    ["Cleopatra"]
                   ],
                   [
                     { description: "Alternative spelling for Cocoa" },
-                    [ "Coco", "Koko" ]
+                    ["Coco", "Koko"]
                   ],
                   [
                     { description: "Meaning 'brilliant'" },
-                    [ "Colby" ]
+                    ["Colby"]
                   ],
                   [
                     { description: "Break into small fragments" },
-                    [ "Crumble" ]
+                    ["Crumble"]
                   ],
                   [
                     { description: "Valley" },
-                    [ "Dale" ]
+                    ["Dale"]
                   ],
                   [
                     { description: "Meaning 'black pearl'", language_id: arabic.id },
-                    [ "Dana", "Danna", "Dayna" ]
+                    ["Dana", "Danna", "Dayna"]
                   ],
                   [
                     { description: "A Germanic expression identifying the bearer as a native of Denmark (a Dane)" },
-                    [ "Dana", "Danna" ]
+                    ["Dana", "Danna"]
                   ],
                   [
                     { description: "Nymph who was transformed into a Laurel tree in Greek mythology" },
-                    [ "Daphne" ]
+                    ["Daphne"]
                   ],
                   [
                     { description: "Meaning 'from Arcy'", language_id: french.id },
-                    [ "Darcey", "Darcy" ]
+                    ["Darcey", "Darcy"]
                   ],
                   [
                     { description: "Run rapidly", language_id: english.id },
-                    [ "Dash" ]
+                    ["Dash"]
                   ],
                   [
                     { description: "Meaning 'radiant'" },
-                    [ "Dawn", "Dawne" ]
+                    ["Dawn", "Dawne"]
                   ],
                   [
                     { description: "Meaning 'dark'", language_id: welsh.id },
-                    [ "Dee" ]
+                    ["Dee"]
                   ],
                   [
                     { description: "Roman goddess of the hunt, with an association to the moon", language_id: roman.id },
-                    [ "Diana" ]
+                    ["Diana"]
                   ],
                   [
                     { description: "Small flat piece of wood or plastic, coloured black with white spots" },
-                    [ "Domino" ]
+                    ["Domino"]
                   ],
                   [
                     { description: "Nickname of Dorian (meaning 'one of the early Greeks'), Isidore or Isidora (meaning 'gift from Isis') and Dora (meaning 'gift')" },
-                    [ "Dory" ]
+                    ["Dory"]
                   ],
                   [
                     { description: "Ruler of certain small states" },
-                    [ "Duke" ]
+                    ["Duke"]
                   ],
                   [
                     { description: "Covered in dust" },
-                    [ "Dusty" ]
+                    ["Dusty"]
                   ],
                   [
                     { description: "Close imitation" },
-                    [ "Echo" ]
+                    ["Echo"]
                   ],
                   [
                     { description: "Nickname of Edmund, meaning 'wealthy guard'" },
-                    [ "Ed", "Eddi", "Eddie", "Eddy" ]
+                    ["Ed", "Eddi", "Eddie", "Eddy"]
                   ],
                   [
                     { description: "Nickname of Edward, meaning 'wealth protector'", language_id: old_english.id },
-                    [ "Ed", "Eddi", "Eddie", "Eddy" ]
+                    ["Ed", "Eddi", "Eddie", "Eddy"]
                   ],
                   [
                     { description: "Nickname of Edwin, meaning 'fortunate friend'", language_id: ancient_german.id },
-                    [ "Ed", "Eddi", "Eddie", "Eddy" ]
+                    ["Ed", "Eddi", "Eddie", "Eddy"]
                   ],
                   [
                     { description: "Swirling patch of water or air" },
-                    [ "Eddy" ]
+                    ["Eddy"]
                   ],
                   [
                     { description: "Keenness, sharpness, irritating power", language_id: english.id },
-                    [ "Edge" ]
+                    ["Edge"]
                   ],
                   [
                     { description: "To move gradually", language_id: english.id },
-                    [ "Edge" ]
+                    ["Edge"]
                   ],
                   [
                     { description: "Sharp border", language_id: english.id },
-                    [ "Edge" ]
+                    ["Edge"]
                   ],
                   [
                     { description: "Alternate form of Elisha (meaning 'God is salvation') or Elijah (meaning 'God is Lord')" },
-                    [ "Eliza" ]
+                    ["Eliza"]
                   ],
                   [
                     { description: "Meaning 'entire'", language_id: ancient_german.id },
-                    [ "Ella" ]
+                    ["Ella"]
                   ],
                   [
                     { description: "Meaning 'foreigner'", language_id: norman_french.id },
-                    [ "Ella" ]
+                    ["Ella"]
                   ],
                   [
                     { description: "Meaning 'she'", language_id: french.id },
-                    [ "Elle" ]
+                    ["Elle"]
                   ],
                   [
                     { description: "Meaning 'helmet of God'", language_id: english.id },
-                    [ "Elmo" ]
+                    ["Elmo"]
                   ],
                   [
                     { description: "Ornamental, elaborate", language_id: english.id },
-                    [ "Fancy" ]
+                    ["Fancy"]
                   ],
                   [
                     { description: "Find attractive", language_id: english.id },
-                    [ "Fancy" ]
+                    ["Fancy"]
                   ],
                   [
                     { description: "The hero of several medieval legends" },
-                    [ "Faust" ]
+                    ["Faust"]
                   ],
                   [
                     { description: "Meaning 'one from Finland'", language_id: old_norse.id },
-                    [ "Fin", "Finn", "Fynn" ]
+                    ["Fin", "Finn", "Fynn"]
                   ],
                   [
                     { description: "Bright red colour", language_id: english.id },
-                    [ "Flame" ]
+                    ["Flame"]
                   ],
                   [
                     { description: "From the Old French flosche meaning 'down'", language_id: old_french.id },
-                    [ "Flossie", "Flossy" ]
+                    ["Flossie", "Flossy"]
                   ],
                   [
                     { description: "Covered with frost" },
-                    [ "Frostie", "Frosty" ]
+                    ["Frostie", "Frosty"]
                   ],
                   [
                     { description: "To cherish, to encourage", language_id: english.id },
-                    [ "Foster" ]
+                    ["Foster"]
                   ],
                   [
                     { description: "Meaning the third child" },
-                    [ "Gamma" ]
+                    ["Gamma"]
                   ],
                   [
                     { description: "Origin" },
-                    [ "Genesis" ]
+                    ["Genesis"]
                   ],
                   [
                     { description: "New beginning" },
-                    [ "Genesis" ]
+                    ["Genesis"]
                   ],
                   [
                     { description: "Give or allow as a privilege", language_id: english.id },
-                    [ "Grant" ]
+                    ["Grant"]
                   ],
                   [
                     { description: "Meaning 'staff of the gods'", language_id: ancient_german.id },
-                    [ "Gus" ]
+                    ["Gus"]
                   ],
                   [
                     { description: "Nickname of Angus, meaning 'unique choice'", language_id: gaelic.id },
-                    [ "Gussie", "Gussy" ]
+                    ["Gussie", "Gussy"]
                   ],
                   [
                     { description: "Meaning 'male'", language_id: english.id },
-                    [ "Guy" ]
+                    ["Guy"]
                   ],
                   [
                     { description: "Meaning 'enjoyment'", language_id: arabic.id },
-                    [ "Hana" ]
+                    ["Hana"]
                   ],
                   [
                     { description: "Nickname for Johana, meaning 'God's grace'", language_id: hebrew.id },
-                    [ "Hana" ]
+                    ["Hana"]
                   ],
                   [
                     { description: "Meaning 'athletic'" },
-                    [ "Harleigh", "Harley" ]
+                    ["Harleigh", "Harley"]
                   ],
                   [
                     { description: "Meaning 'brave'" },
-                    [ "Harold" ]
+                    ["Harold"]
                   ],
                   [
                     { description: "Man showing great strength and effort" },
-                    [ "Hercules" ]
+                    ["Hercules"]
                   ],
                   [
                     { description: "Home run", language_id: english.id },
-                    [ "Homer" ]
+                    ["Homer"]
                   ],
                   [
                     { description: "Thick syrup produced by bees from nectar" },
-                    [ "Honey" ]
+                    ["Honey"]
                   ],
                   [
                     { description: "Meaning 'from the Hudson river'" },
-                    [ "Hudson" ]
+                    ["Hudson"]
                   ],
                   [
                     { description: "Meaning 'purple'" },
-                    [ "Hyacinth" ]
+                    ["Hyacinth"]
                   ],
                   [
                     { description: "Meaning 'the country of India'", language_id: spanish.id },
-                    [ "Indiana" ]
+                    ["Indiana"]
                   ],
                   [
                     { description: "Goddess of the rainbow in Greek mythology", language_id: greek.id },
-                    [ "Iris" ]
+                    ["Iris"]
                   ],
                   [
                     { description: "Meaning 'faithful'" },
-                    [ "Ivorie", "Ivory" ]
+                    ["Ivorie", "Ivory"]
                   ],
                   [
                     { description: "Nickname of Isabelle, meaning 'God's promise'", language_id: hebrew.id },
-                    [ "Izy", "Izzi", "Izzie", "Izzy" ]
+                    ["Izy", "Izzi", "Izzie", "Izzy"]
                   ],
                   [
                     { description: "Playing card next below queen" },
-                    [ "Jack" ]
+                    ["Jack"]
                   ],
                   [
                     { description: "Meaning 'son of Jack'" },
-                    [ "Jackson", "Jaxon" ]
+                    ["Jackson", "Jaxon"]
                   ],
                   [
                     { description: "Meaning 'favoured'" },
-                    [ "Jacob" ]
+                    ["Jacob"]
                   ],
                   [
                     { description: "Australian slang for 'all right'" },
-                    [ "Jake" ]
+                    ["Jake"]
                   ],
                   [
                     { description: "Red or reddish-brown semi-precious stone", language_id: english.id },
-                    [ "Jasper" ]
+                    ["Jasper"]
                   ],
                   [
                     { description: "Blue crested bird", means_bird: true },
-                    [ "Jay" ]
+                    ["Jay"]
                   ],
                   [
                     { description: "Precious stone cut or set as an ornament", language_id: english.id },
-                    [ "Jewel" ]
+                    ["Jewel"]
                   ],
                   [
                     { description: "Nickname of Judith, meaning 'Jewish woman'", language_id: hebrew.id },
-                    [ "Jodi", "Jodie", "Jody" ]
+                    ["Jodi", "Jodie", "Jody"]
                   ],
                   [
                     { description: "Emperor" },
-                    [ "Kaiser" ]
+                    ["Kaiser"]
                   ],
                   [
                     { description: "Alternative spelling for Cat", means_cat: true },
-                    [ "Kat" ]
+                    ["Kat"]
                   ],
                   [
                     { description: "Nickname for Kitty Cat", means_cat: true },
-                    [ "KC" ]
+                    ["KC"]
                   ],
                   [
                     { description: "A prince" },
-                    [ "Khan" ]
+                    ["Khan"]
                   ],
                   [
                     { description: "Nickname of Kristina, meaning 'Christ's follower'", language_id: latin.id },
-                    [ "Kia" ]
+                    ["Kia"]
                   ],
                   [
                     { description: "Meaning 'ruler'", language_id: english.id },
-                    [ "King" ]
+                    ["King"]
                   ],
                   [
                     { description: "Church" },
-                    [ "Kirk" ]
+                    ["Kirk"]
                   ],
                   [
                     { description: "Furry brown fruit with green flesh", language_id: english.id },
-                    [ "Kiwi" ]
+                    ["Kiwi"]
                   ],
                   [
                     { description: "Long spear", language_id: english.id },
-                    [ "Lance" ]
+                    ["Lance"]
                   ],
                   [
                     { description: "A sweetheart", language_id: english.id },
-                    [ "Lassie" ]
+                    ["Lassie"]
                   ],
                   [
                     { description: "Meaning 'from Laurentum'", language_id: latin.id },
-                    [ "Lauren" ]
+                    ["Lauren"]
                   ],
                   [
                     { description: "Meaning ‘mother of Helen’", language_id: greek.id },
-                    [ "Leda" ]
+                    ["Leda"]
                   ],
                   [
                     { description: "Meaning 'play'", language_id: sanskrit.id },
-                    [ "Lila", "Lilla" ]
+                    ["Lila", "Lilla"]
                   ],
                   [
                     { description: "Nickname of Linda, meaning 'pretty'", language_id: spanish.id },
-                    [ "Lindy" ]
+                    ["Lindy"]
                   ],
                   [
                     { description: "Meaning 'joy'" },
-                    [ "Lloyd" ]
+                    ["Lloyd"]
                   ],
                   [
                     { description: "Nickname for Luise and Louise, meaning 'famous warrior'", language_id: ancient_german.id },
-                    [ "Loulou", "Lulu" ]
+                    ["Loulou", "Lulu"]
                   ],
                   [
                     { description: "Meaning 'gem'", language_id: swahili.id },
-                    [ "Loulou", "Lulu" ]
+                    ["Loulou", "Lulu"]
                   ],
                   [
                     { description: "Meaning 'warriors son'" },
-                    [ "Maddison", "Madison" ]
+                    ["Maddison", "Madison"]
                   ],
                   [
                     { description: "Nickname of Magdalena, meaning 'person from Magdala'", language_id: hebrew.id },
-                    [ "Maggi", "Maggie", "Maggy" ]
+                    ["Maggi", "Maggie", "Maggy"]
                   ],
                   [
                     { description: "Meaning 'blossom'" },
-                    [ "Magnolia" ]
+                    ["Magnolia"]
                   ],
                   [
                     { description: "Meaning 'great'" },
-                    [ "Magnum" ]
+                    ["Magnum"]
                   ],
                   [
                     { description: "In Greek mythology, the eldest and loveliest of the Pleiades, mother of Hermes by Zeus", language_id: greek.id },
-                    [ "Maia" ]
+                    ["Maia"]
                   ],
                   [
                     { description: "In Roman mythology, an earth goddess", language_id: roman.id },
-                    [ "Maia" ]
+                    ["Maia"]
                   ],
                   [
                     { description: "Meaning 'second-born child'", language_id: west_african.id },
-                    [ "Manu" ]
+                    ["Manu"]
                   ],
                   [
                     { description: "Soft feathers from a type of large stork" },
-                    [ "Marabou" ]
+                    ["Marabou"]
                   ],
                   [
                     { description: "Large daisy" },
-                    [ "Marguerite" ]
+                    ["Marguerite"]
                   ],
                   [
                     { description: "Foreign nobleman ranking between duke and earl" },
-                    [ "Marquis" ]
+                    ["Marquis"]
                   ],
                   [
                     { description: "Meaning sympathy" },
-                    [ "May" ]
+                    ["May"]
                   ],
                   [
                     { description: "Heavy silver liquid metal" },
-                    [ "Mercury" ]
+                    ["Mercury"]
                   ],
                   [
                     { description: "A type of Falcon", means_bird: true },
-                    [ "Merlin" ]
+                    ["Merlin"]
                   ],
                   [
                     { description: "Meaning 'mine'" },
-                    [ "Mia" ]
+                    ["Mia"]
                   ],
                   [
                     { description: "Meaning 'black'" },
-                    [ "Midnight", "Midnite" ]
+                    ["Midnight", "Midnite"]
                   ],
                   [
                     { description: "Meaning 'determined'" },
-                    [ "Mimi" ]
+                    ["Mimi"]
                   ],
                   [
                     { description: "A type of white or grey fur used for trimming garments in medieval times" },
-                    [ "Miniver" ]
+                    ["Miniver"]
                   ],
                   [
                     { description: "Russian version of Melissa, meaning ‘bee’ or ‘honey’", language_id: greek.id },
-                    [ "Misha" ]
+                    ["Misha"]
                   ],
                   [
                     { description: "Meaning 'miss'" },
-                    [ "Missey", "Missy" ]
+                    ["Missey", "Missy"]
                   ],
                   [
                     { description: "Nickname of Maurice (meaning 'dark complexioned') and Morris (meaning 'dark complexioned')" },
-                    [ "Moe" ]
+                    ["Moe"]
                   ],
                   [
                     { description: "Meaning 'lady'", language_id: gaelic.id },
-                    [ "Mollee", "Mollie", "Molly" ]
+                    ["Mollee", "Mollie", "Molly"]
                   ],
                   [
                     { description: "A longhaired lap dog" },
-                    [ "Moppet" ]
+                    ["Moppet"]
                   ],
                   [
                     { description: "Small green plant that grows in velvety clusters on rocks, trees and moist ground", language_id: english.id },
-                    [ "Moss" ]
+                    ["Moss"]
                   ],
                   [
                     { description: "Meaning 'abundant morning dew'", language_id: arabic.id },
-                    [ "Nada" ]
+                    ["Nada"]
                   ],
                   [
                     { description: "A beverage of hot water, wine and lemon juice, sweetened and spiced" },
-                    [ "Negus" ]
+                    ["Negus"]
                   ],
                   [
                     { description: "Meaning 'valiant man'", language_id: latin.id },
-                    [ "Nero" ]
+                    ["Nero"]
                   ],
                   [
                     { description: "Five cent coin" },
-                    [ "Nickel" ]
+                    ["Nickel"]
                   ],
                   [
                     { description: "A bright cloud supposedly surrounding gods or goddesses when they appeared on earth" },
-                    [ "Nimbus" ]
+                    ["Nimbus"]
                   ],
                   [
                     { description: "Meaning 'great-granddaughter'", language_id: hebrew.id },
-                    [ "Nina" ]
+                    ["Nina"]
                   ],
                   [
                     { description: "Meaning 'beautiful eyes'", language_id: hindi.id },
-                    [ "Nina" ]
+                    ["Nina"]
                   ],
                   [
                     { description: "From Leonora, meaning 'compassion'", language_id: greek.id },
-                    [ "Noora" ]
+                    ["Noora"]
                   ],
                   [
                     { description: "Porridge made from oats" },
-                    [ "Oatmeal" ]
+                    ["Oatmeal"]
                   ],
                   [
                     { description: "An earthy clay containing iron ore, usually yellow or reddish-brown in colour" },
-                    [ "Ochre" ]
+                    ["Ochre"]
                   ],
                   [
                     { description: "Meaning 'olive tree'", language_id: french.id },
-                    [ "Oliver" ]
+                    ["Oliver"]
                   ],
                   [
                     { description: "Meaning ‘colour of olive’", language_id: irish.id },
-                    [ "Oma" ]
+                    ["Oma"]
                   ],
                   [
                     { description: "Meaning 'flourishing'", language_id: arabic.id },
-                    [ "Omar" ]
+                    ["Omar"]
                   ],
                   [
                     { description: "Prestigious award for movie actors and actresses" },
-                    [ "Oscar" ]
+                    ["Oscar"]
                   ],
                   [
                     { description: "City in France" },
-                    [ "Paris" ]
+                    ["Paris"]
                   ],
                   [
                     { description: "A high civil or military official" },
-                    [ "Pasha" ]
+                    ["Pasha"]
                   ],
                   [
                     { description: "Tap gently with an open hand", language_id: english.id },
-                    [ "Pat" ]
+                    ["Pat"]
                   ],
                   [
                     { description: "Distinct area", language_id: english.id },
-                    [ "Patch", "Patches" ]
+                    ["Patch", "Patches"]
                   ],
                   [
                     { description: "Small pie or pastry" },
-                    [ "Patty" ]
+                    ["Patty"]
                   ],
                   [
                     { description: "Yellowish pink colour", language_id: english.id },
-                    [ "Peach" ]
+                    ["Peach"]
                   ],
                   [
                     { description: "One cent coin", language_id: american.id },
-                    [ "Penny" ]
+                    ["Penny"]
                   ],
                   [
                     { description: "A person with some extraordinary quality, aptitude, etc, a prodigy", language_id: english.id },
-                    [ "Phenomenon" ]
+                    ["Phenomenon"]
                   ],
                   [
                     { description: "Mythological bird that is reborn from its own ashes", means_bird: true },
-                    [ "Phoenix" ]
+                    ["Phoenix"]
                   ],
                   [
                     { description: "An abnormal craving for unnatural foods" },
-                    [ "Pica" ]
+                    ["Pica"]
                   ],
                   [
                     { description: "Short high pitched sound", language_id: english.id },
-                    [ "Pip" ]
+                    ["Pip"]
                   ],
                   [
                     { description: "Pale yellow spring flower" },
-                    [ "Primrose" ]
+                    ["Primrose"]
                   ],
                   [
                     { description: "Nickname of Puckeridge, from an expression whose meaning has been lost", language_id: english.id },
-                    [ "Puck" ]
+                    ["Puck"]
                   ],
                   [
                     { description: "Shell of soft, light pastry filled with whipped cream", language_id: english.id },
-                    [ "Puff" ]
+                    ["Puff"]
                   ],
                   [
                     { description: "Soft bulging mass of material, full in the middle and gathered in at the edges", language_id: english.id },
-                    [ "Puff" ]
+                    ["Puff"]
                   ],
                   [
                     { description: "Female cat", language_id: english.id, means_cat: true },
-                    [ "Queen" ]
+                    ["Queen"]
                   ],
                   [
                     { description: "Person who looks after national parks", language_id: english.id },
-                    [ "Ranger" ]
+                    ["Ranger"]
                   ],
                   [
                     { description: "Nickname given to red-headed individuals", language_id: english.id },
-                    [ "Red" ]
+                    ["Red"]
                   ],
                   [
                     { description: "Circular shape", language_id: english.id },
-                    [ "Ring" ]
+                    ["Ring"]
                   ],
                   [
                     { description: "Meaning 'right'", language_id: sanskrit.id },
-                    [ "Rita" ]
+                    ["Rita"]
                   ],
                   [
                     { description: "Unsteady", language_id: english.id },
-                    [ "Rocky" ]
+                    ["Rocky"]
                   ],
                   [
                     { description: "Meaning 'red'" },
-                    [ "Rouge" ]
+                    ["Rouge"]
                   ],
                   [
                     { description: "Orange coloured stigmas of a crocus used to colour food" },
-                    [ "Saffron" ]
+                    ["Saffron"]
                   ],
                   [
                     { description: "Covered in sand", language_id: english.id },
-                    [ "Sandy" ]
+                    ["Sandy"]
                   ],
                   [
                     { description: "Bright red colour", language_id: english.id },
-                    [ "Scarlet", "Scarlett" ]
+                    ["Scarlet", "Scarlett"]
                   ],
                   [
                     { description: "Dark brown cat coat colour", language_id: english.id },
-                    [ "Seal" ]
+                    ["Seal"]
                   ],
                   [
                     { description: "Evening music", language_id: english.id },
-                    [ "Serenade" ]
+                    ["Serenade"]
                   ],
                   [
                     { description: "Queen who visited King Solomon to investigate his wisdom and greatness" },
-                    [ "Sheba" ]
+                    ["Sheba"]
                   ],
                   [
                     { description: "Hard outer covering of eggs, nut kernels and turtles", language_id: english.id },
-                    [ "Shell", "Shells" ]
+                    ["Shell", "Shells"]
                   ],
                   [
                     { description: "Covered with shells", language_id: english.id },
-                    [ "Shelly" ]
+                    ["Shelly"]
                   ],
                   [
                     { description: "Small slender, long-tailed crustacean", language_id: english.id },
-                    [ "Shrimp" ]
+                    ["Shrimp"]
                   ],
                   [
                     { description: "Name of the first Siamese cat in the USA" },
-                    [ "Siam" ]
+                    ["Siam"]
                   ],
                   [
                     { description: "Meaning 'mountains'" },
-                    [ "Sierra" ]
+                    ["Sierra"]
                   ],
                   [
                     { description: "Alternative spelling for Silver, white precious metal" },
-                    [ "Silva" ]
+                    ["Silva"]
                   ],
                   [
                     { description: "Meaning 'pure'" },
-                    [ "Silver" ]
+                    ["Silver"]
                   ],
                   [
                     { description: "Black or grey visible vapour given off by a burning substance" },
-                    [ "Smoke" ]
+                    ["Smoke"]
                   ],
                   [
                     { description: "Meaning 'white', 'soft'", language_id: english.id },
-                    [ "Sno", "Snow", "Snowflake", "Snowy" ]
+                    ["Sno", "Snow", "Snowflake", "Snowy"]
                   ],
                   [
                     { description: "Decorate with irregular patches of colour", language_id: english.id },
-                    [ "Splash" ]
+                    ["Splash"]
                   ],
                   [
                     { description: "Cake with a light open texture", language_id: english.id },
-                    [ "Sponge" ]
+                    ["Sponge"]
                   ],
                   [
                     { description: "Cake decorations", language_id: english.id },
-                    [ "Sprinkles" ]
+                    ["Sprinkles"]
                   ],
                   [
                     { description: "Meaning 'clean'", language_id: english.id },
-                    [ "Squeaky" ]
+                    ["Squeaky"]
                   ],
                   [
                     { description: "Famous actor or performer", language_id: english.id },
-                    [ "Star" ]
+                    ["Star"]
                   ],
                   [
                     { description: "Meaning 'hill'", language_id: gaelic.id },
-                    [ "Tara" ]
+                    ["Tara"]
                   ],
                   [
                     { description: "Meaning 'the correct or desirable thing'", language_id: english.id },
-                    [ "Ticket" ]
+                    ["Ticket"]
                   ],
                   [
                     { description: "Shade of colour", language_id: english.id },
-                    [ "Tone" ]
+                    ["Tone"]
                   ],
                   [
                     { description: "A covering", language_id: english.id },
-                    [ "Topper" ]
+                    ["Topper"]
                   ],
                   [
                     { description: "Slang for food, dinner", language_id: english.id },
-                    [ "Tucker" ]
+                    ["Tucker"]
                   ],
                   [
                     { description: "A black and white cat", language_id: english.id },
-                    [ "Tuxedo" ]
+                    ["Tuxedo"]
                   ],
                   [
                     { description: "Person to whom one sends a romantic card on Valentine's Day", language_id: english.id },
-                    [ "Valentine" ]
+                    ["Valentine"]
                   ],
                   [
                     { description: "Meaning 'innocent'", language_id: japanese.id },
-                    [ "Vanessa" ]
+                    ["Vanessa"]
                   ],
                   [
                     { description: "Pale cream colour", language_id: english.id },
-                    [ "Vanilla" ]
+                    ["Vanilla"]
                   ],
                   [
                     { description: "Alternate form of Vanessa, Meaning 'to be'", language_id: latin.id },
-                    [ "Vanna" ]
+                    ["Vanna"]
                   ],
                   [
                     { description: "Nickname of Vanessa, meaning 'to be'", language_id: latin.id },
-                    [ "Vanya" ]
+                    ["Vanya"]
                   ],
                   [
                     { description: "An open plain" },
-                    [ "Vega" ]
+                    ["Vega"]
                   ],
                   [
                     { description: "Flowering herb or shrub", language_id: english.id },
-                    [ "Veronica" ]
+                    ["Veronica"]
                   ],
                   [
                     { description: "Nickname of Lavinia, from an expression whose meaning has been lost", language_id: latin.id },
-                    [ "Vinni", "Vinnie" ]
+                    ["Vinni", "Vinnie"]
                   ],
                   [
                     { description: "Nickname of Wilhelmine, meaning 'determined protector'", language_id: ancient_german.id },
-                    [ "Wally" ]
+                    ["Wally"]
                   ],
                   [
                     { description: "Nickname of Wallace, meaning 'Welshman'", language_id: old_french.id },
-                    [ "Wally" ]
+                    ["Wally"]
                   ],
                   [
                     { description: "Meaning 'son of William'", language_id: english.id },
-                    [ "Wilson" ]
+                    ["Wilson"]
                   ],
                   [
                     { description: "A Chinese measure of weight", language_id: chinese.id },
-                    [ "Yin" ]
+                    ["Yin"]
                   ],
                   [
                     { description: "Blue colour"},
-                    [ "Zaffre" ]
+                    ["Zaffre"]
                   ],
                   [
                     { description: "Type of plant with colourful flowers", language_id: english.id },
-                    [ "Zinnia" ]
+                    ["Zinnia"]
                   ]
                 ])
 
@@ -10356,67 +10356,67 @@ end
 meanings_to_link = ([
                       [
                         { description: "Meaning 'baby'" },
-                        [ "Babe", "Bubba" ]
+                        ["Babe", "Bubba"]
                       ],
                       [
                         { description: "Meaning 'exalted nature'", language_id: old_french.id },
-                        [ "Elisha" ]
+                        ["Elisha"]
                       ],
                       [
                         { description: "Meaning 'free'" },
-                        [ "Frank" ]
+                        ["Frank"]
                       ],
                       [
                         { description: "Meaning 'farmer'", language_id: greek.id },
-                        [ "Giorgia" ]
+                        ["Giorgia"]
                       ],
                       [
                         { description: "Nickname of Jacqueline, meaning 'one who trips up another and takes her place'", language_id: hebrew.id },
-                        [ "Jacki", "Jackie", "Jacky" ]
+                        ["Jacki", "Jackie", "Jacky"]
                       ],
                       [
                         { description: "Nickname for any name beginning with the letter J", language_id: english.id },
-                        [ "Jayjay" ]
+                        ["Jayjay"]
                       ],
                       [
                         { description: "Meaning 'exalted'", language_id: hebrew.id },
-                        [ "Jerri", "Jerry" ]
+                        ["Jerri", "Jerry"]
                       ],
                       [
                         { description: "Another name for cat", language_id: english.id, means_cat: true },
-                        [ "Kittie", "Kitty" ]
+                        ["Kittie", "Kitty"]
                       ],
                       [
                         { description: "Meaning 'light'", language_id: latin.id },
-                        [ "Loulou" ]
+                        ["Loulou"]
                       ],
                       [
                         { description: "Meaning 'small', 'little'" },
-                        [ "Peanut" ]
+                        ["Peanut"]
                       ],
                       [
                         { description: "Type of bird" },
-                        [ "Raven" ]
+                        ["Raven"]
                       ],
                       [
                         { description: "Meaning 'famous'" },
-                        [ "Robin" ]
+                        ["Robin"]
                       ],
                       [
                         { description: "Nickname of Rosemary, meaning 'mist of the sea'", language_id: latin.id },
-                        [ "Rosey", "Rosi", "Rosie", "Rosy" ]
+                        ["Rosey", "Rosi", "Rosie", "Rosy"]
                       ],
                       [
                         { description: "Meaning 'obedient'" },
-                        [ "Simon" ]
+                        ["Simon"]
                       ],
                       [
                         { description: "Nickname of Theodore, meaning 'God's gift'", language_id: greek.id },
-                        [ "Teddie", "Teddy" ]
+                        ["Teddie", "Teddy"]
                       ],
                       [
                         { description: "Meaning 'youth'", language_id: gaelic.id },
-                        [ "Vanna" ]
+                        ["Vanna"]
                       ]
                     ])
 
@@ -10432,43 +10432,43 @@ end
 colours_to_link = ([
                     [
                       { name: "black", description: "Black" },
-                      [ "Asbolos", "Ash", "Ashes", "Ashlee", "Ashleigh", "Ashley", "Blackberry", "Blackie", "Blacky", "Blackjack", "Blake", "Bronsyn", "Brulee", "Carbon", "Ciara", "Cinder", "Cinderella", "Cinderelle", "Cinders", "Cindy", "Coal", "Colby", "Cole", "Dana", "Danna", "Dayna", "Darcy", "Darcey", "Dee", "Donovan", "Donoven", "Dougal", "Douglas", "Duane", "Dwayne", "Duanna", "Duffy", "Dunstan", "Dunston", "Ebonaire", "Ebony", "Eclipse", "Hadrian", "Inky", "Jet", "Jett", "Kala", "Keri", "Kerri", "Kerrie", "Kerry", "Kiara", "Kieran", "Laila", "Layla", "Leila", "Leilah", "Lela", "Lelah", "Leyla", "Lila", "Lilah", "Lilla", "Lyla", "Maurice", "Maurise", "Melanie", "Melinee", "Midnight", "Midnite", "Moe", "Moreno", "Moritz", "Morris", "Nero", "Nigel", "Noir", "Noire", "Obsidian", "Oriole", "Panda", "Panther", "Raven", "Sable", "Shade", "Shado", "Shadoe", "Shadow", "Smoke", "Smokee", "Smokey", "Smokie", "Smoky", "Smudge", "Smudgie", "Smudgy", "Sootie", "Sooty", "Tuxedo", "Wisp", "Zante", "Zebra", "Zelda" ]
+                      ["Asbolos", "Ash", "Ashes", "Ashlee", "Ashleigh", "Ashley", "Blackberry", "Blackie", "Blacky", "Blackjack", "Blake", "Bronsyn", "Brulee", "Carbon", "Ciara", "Cinder", "Cinderella", "Cinderelle", "Cinders", "Cindy", "Coal", "Colby", "Cole", "Dana", "Danna", "Dayna", "Darcy", "Darcey", "Dee", "Donovan", "Donoven", "Dougal", "Douglas", "Duane", "Dwayne", "Duanna", "Duffy", "Dunstan", "Dunston", "Ebonaire", "Ebony", "Eclipse", "Hadrian", "Inky", "Jet", "Jett", "Kala", "Keri", "Kerri", "Kerrie", "Kerry", "Kiara", "Kieran", "Laila", "Layla", "Leila", "Leilah", "Lela", "Lelah", "Leyla", "Lila", "Lilah", "Lilla", "Lyla", "Maurice", "Maurise", "Melanie", "Melinee", "Midnight", "Midnite", "Moe", "Moreno", "Moritz", "Morris", "Nero", "Nigel", "Noir", "Noire", "Obsidian", "Oriole", "Panda", "Panther", "Raven", "Sable", "Shade", "Shado", "Shadoe", "Shadow", "Smoke", "Smokee", "Smokey", "Smokie", "Smoky", "Smudge", "Smudgie", "Smudgy", "Sootie", "Sooty", "Tuxedo", "Wisp", "Zante", "Zebra", "Zelda"]
                     ],
                     [
                       { name: "blue", description: "Blue, Grey and Silver" },
-                      [ "Amber", "Ambyr", "Ava", "Azure", "Azurine", "Bleu", "Blu", "Blue", "Bluebell", "Bluebelle", "Blueberry", "Dillan", "Dillon", "Dylan", "Eben", "Ebenezer", "Floyd", "Floydd", "Frostie", "Frosty", "Halle", "Hallee", "Halley", "Hallie", "Indigo", "Jay", "Kong", "Leucos", "Lloyd", "Marina", "Mariner", "Marissa", "Mercury", "Murdoch", "Murphy", "Nickel", "Periwinkle", "Platinum", "Quicksilver", "Romey", "Rommy", "Romy", "Rosemary", "Rosey", "Rosi", "Rosie", "Rosy", "Sapphire", "Silva", "Silver", "Sky", "Skye", "Skyy", "Smoke", "Smokee", "Smokey", "Smokie", "Smoky", "Storm", "Stormy", "Tupelo", "Vega", "Wisp", "Zaffre", "Zafiro", "Zircon" ]
+                      ["Amber", "Ambyr", "Ava", "Azure", "Azurine", "Bleu", "Blu", "Blue", "Bluebell", "Bluebelle", "Blueberry", "Dillan", "Dillon", "Dylan", "Eben", "Ebenezer", "Floyd", "Floydd", "Frostie", "Frosty", "Halle", "Hallee", "Halley", "Hallie", "Indigo", "Jay", "Kong", "Leucos", "Lloyd", "Marina", "Mariner", "Marissa", "Mercury", "Murdoch", "Murphy", "Nickel", "Periwinkle", "Platinum", "Quicksilver", "Romey", "Rommy", "Romy", "Rosemary", "Rosey", "Rosi", "Rosie", "Rosy", "Sapphire", "Silva", "Silver", "Sky", "Skye", "Skyy", "Smoke", "Smokee", "Smokey", "Smokie", "Smoky", "Storm", "Stormy", "Tupelo", "Vega", "Wisp", "Zaffre", "Zafiro", "Zircon"]
                     ],
                     [
                       { name: "brown", description: "Brown or Chocolate" },
-                      [ "Acorn", "Bruno", "Cappuccino", "Caramel", "Castana", "Choco", "Cinnamon", "Coco", "Cocoa", "Coffee", "Cola", "Duncan", "Dusty", "Hazel", "Java", "Kiwi", "Koko", "Latte", "Maple", "Mocca", "Mocha", "Mochachino", "Molasses", "Mousse", "Mushroom", "Noisette", "Oberon", "Pardo", "Peanut", "Pud", "Pudd", "Pudding", "Seal", "Siena", "Sienna", "Sparrow", "Sultana", "Syrup", "Tamarind", "Tawnee", "Tawney", "Tawny", "Teak", "Teakwood", "Toffee", "Truffle", "Truffles", "Walnut" ]
+                      ["Acorn", "Bruno", "Cappuccino", "Caramel", "Castana", "Choco", "Cinnamon", "Coco", "Cocoa", "Coffee", "Cola", "Duncan", "Dusty", "Hazel", "Java", "Kiwi", "Koko", "Latte", "Maple", "Mocca", "Mocha", "Mochachino", "Molasses", "Mousse", "Mushroom", "Noisette", "Oberon", "Pardo", "Peanut", "Pud", "Pudd", "Pudding", "Seal", "Siena", "Sienna", "Sparrow", "Sultana", "Syrup", "Tamarind", "Tawnee", "Tawney", "Tawny", "Teak", "Teakwood", "Toffee", "Truffle", "Truffles", "Walnut"]
                     ],
                     [
                       { name: "cream", description: "Cream or Golden" },
-                      [ "Amarillo", "Bee", "Bowie", "Boyd", "Bumblebee", "Butter", "Butters", "Buttercup", "Butterscotch", "Camembert", "Cameo", "Champagne", "Cleopatra", "Cous Cous", "Cream", "Creme", "Crumpet", "Elvira", "Estee", "Estelle", "Febe", "Flavia", "Fudge", "Fudgecake", "Goldie", "Goldy", "Honee", "Honey", "Honeydew", "Hunny", "Ivorie", "Ivory", "Jasmin", "Jasmine", "Jazmin", "Jazmine", "Jazzmin", "Jazzmine", "Kameo", "Macaroni", "Melina", "Melissa", "Midas", "Misha", "Missey", "Missy", "Muffin", "Muffins", "Nugget", "Oatmeal", "Ochre", "Pancake", "Pancakes", "Patticake", "Peach", "Peaches", "Peachy", "Pokey", "Pokie", "Primrose", "Puff", "Saffron", "Sandy", "Tansy", "Tate", "Vanilla", "Wafer", "Waffle", "Waffles", "Xanthe", "Zoroaster" ]
+                      ["Amarillo", "Bee", "Bowie", "Boyd", "Bumblebee", "Butter", "Butters", "Buttercup", "Butterscotch", "Camembert", "Cameo", "Champagne", "Cleopatra", "Cous Cous", "Cream", "Creme", "Crumpet", "Elvira", "Estee", "Estelle", "Febe", "Flavia", "Fudge", "Fudgecake", "Goldie", "Goldy", "Honee", "Honey", "Honeydew", "Hunny", "Ivorie", "Ivory", "Jasmin", "Jasmine", "Jazmin", "Jazmine", "Jazzmin", "Jazzmine", "Kameo", "Macaroni", "Melina", "Melissa", "Midas", "Misha", "Missey", "Missy", "Muffin", "Muffins", "Nugget", "Oatmeal", "Ochre", "Pancake", "Pancakes", "Patticake", "Peach", "Peaches", "Peachy", "Pokey", "Pokie", "Primrose", "Puff", "Saffron", "Sandy", "Tansy", "Tate", "Vanilla", "Wafer", "Waffle", "Waffles", "Xanthe", "Zoroaster"]
                     ],
                     [
                       { name: "lilac", description: "Lilac" },
-                      [ "Amethyst", "Azure", "Azurine", "Heather", "Hyacinth", "Ianthe", "Iolanthe", "Lavenda", "Lavender", "Plum", "Tibouchina", "Tupelo", "Violet", "Violetta", "Violette" ]
+                      ["Amethyst", "Azure", "Azurine", "Heather", "Hyacinth", "Ianthe", "Iolanthe", "Lavenda", "Lavender", "Plum", "Tibouchina", "Tupelo", "Violet", "Violetta", "Violette"]
                     ],
                     [
                       { name: "red", description: "Red, Ruby, Apricot or Ginger" },
-                      [ "Adam", "Addie", "Addison", "Addy", "Aedan", "Aidan", "Aiden", "Amber", "Ambyr", "Apollo", "Autumn", "Aydan", "Blaze", "Burns", "Chili", "Chilli", "Clancey", "Clancy", "Copper", "Elaine", "Elane", "Elayne", "Elena", "Ele", "Elle", "Ellen", "Feenix", "Flame", "Flynn", "Foenix", "Gilroy", "Ginge", "Ginger", "Gingi", "Gingie", "Haldi", "Helio", "Jasper", "Keegan", "Keighan", "Ketchup", "Layne", "Leina", "Lena", "Leyna", "Lina", "Mahogany", "Mahogony", "Mandarin", "Naranja", "OJ", "Orange", "Oren", "Paprika", "Phoenix", "Phoenyx", "Pumpkin", "Ra", "Radley", "Red", "Robin", "Roree", "Rory", "Rouge", "Roan", "Rowan", "Rowen", "Roy", "Rubi", "Ruby", "Rufus", "Russell", "Rust", "Rusty", "Saffron", "Salsa", "Sampson", "Samson", "Scarlet", "Scarlett", "Shani", "Siena", "Sienna", "Soleil", "Sonny", "Sparky", "Strawberry", "Sunni", "Sunnie", "Sunny", "Tabasco", "Tamarillo", "Tamarind", "Tiger Lillie", "Tiger Lilly", "Tiger Lily", "Tyson", "Yan" ]
+                      ["Adam", "Addie", "Addison", "Addy", "Aedan", "Aidan", "Aiden", "Amber", "Ambyr", "Apollo", "Autumn", "Aydan", "Blaze", "Burns", "Chili", "Chilli", "Clancey", "Clancy", "Copper", "Elaine", "Elane", "Elayne", "Elena", "Ele", "Elle", "Ellen", "Feenix", "Flame", "Flynn", "Foenix", "Gilroy", "Ginge", "Ginger", "Gingi", "Gingie", "Haldi", "Helio", "Jasper", "Keegan", "Keighan", "Ketchup", "Layne", "Leina", "Lena", "Leyna", "Lina", "Mahogany", "Mahogony", "Mandarin", "Naranja", "OJ", "Orange", "Oren", "Paprika", "Phoenix", "Phoenyx", "Pumpkin", "Ra", "Radley", "Red", "Robin", "Roree", "Rory", "Rouge", "Roan", "Rowan", "Rowen", "Roy", "Rubi", "Ruby", "Rufus", "Russell", "Rust", "Rusty", "Saffron", "Salsa", "Sampson", "Samson", "Scarlet", "Scarlett", "Shani", "Siena", "Sienna", "Soleil", "Sonny", "Sparky", "Strawberry", "Sunni", "Sunnie", "Sunny", "Tabasco", "Tamarillo", "Tamarind", "Tiger Lillie", "Tiger Lilly", "Tiger Lily", "Tyson", "Yan"]
                     ],
                     [
                       { name: "white", description: "White" },
-                      [ "Alban", "Albina", "Albion", "Belo", "Bianca", "Bianco", "Blanca", "Blanche", "Blanco", "Blanka", "Blondie", "Bronwen", "Bronwyn", "Candesse", "Candida", "Candide", "Cloud", "Coconut", "Chrystal", "Crystal", "Diamond", "Fenella", "Frost", "Frostie", "Frosty", "Galatea", "Gaven", "Gavin", "Greta", "Gretchen", "Guinevere", "Guinivere", "Gwendolyn", "Honeysuckle", "Ice", "Ivorie", "Ivory", "Jasmin", "Jasmine", "Jazmin", "Jazmine", "Jazzmin", "Jazzmine", "Jenifur", "Jennifer", "Jennyfur", "Jenee", "Jenni", "Jennie", "Jenny", "Jumana", "Khrystal", "Krystal", "Krystle", "Lace", "Lacey", "Lacie", "Lacy", "Layce", "Laycie", "Lil", "Lill", "Lillian", "Lili", "Lillee", "Lillie", "Lilly", "Lily", "Lylli", "Magali", "Maggi", "Maggie", "Maggy", "Magnolia", "Mai", "Maida", "Maisie", "Mamie", "Marabou", "Margaret", "Margarita", "Margo", "Margot", "Marguerita", "Marguerite", "Marshmallow", "Mayme", "Mazie", "Meg", "Megan", "Meggie", "Milk", "Milky", "Miniver", "Mist", "Misti", "Mistie", "Misty", "Myst", "Mysti", "Mystie", "Napoleon", "Pearl", "Pearle", "Pearlina", "Peggy", "Periwinkle", "Rita", "Sherlock", "Sno", "Snow", "Snoball", "Snowball", "Snowbell", "Snowcone", "Snowdrop", "Snowflake", "Snowshoe", "Snowy", "Vanova", "Whitey", "Whitney", "Winter", "Wynn", "Wynter", "Yuki", "Zirconia" ]
+                      ["Alban", "Albina", "Albion", "Belo", "Bianca", "Bianco", "Blanca", "Blanche", "Blanco", "Blanka", "Blondie", "Bronwen", "Bronwyn", "Candesse", "Candida", "Candide", "Cloud", "Coconut", "Chrystal", "Crystal", "Diamond", "Fenella", "Frost", "Frostie", "Frosty", "Galatea", "Gaven", "Gavin", "Greta", "Gretchen", "Guinevere", "Guinivere", "Gwendolyn", "Honeysuckle", "Ice", "Ivorie", "Ivory", "Jasmin", "Jasmine", "Jazmin", "Jazmine", "Jazzmin", "Jazzmine", "Jenifur", "Jennifer", "Jennyfur", "Jenee", "Jenni", "Jennie", "Jenny", "Jumana", "Khrystal", "Krystal", "Krystle", "Lace", "Lacey", "Lacie", "Lacy", "Layce", "Laycie", "Lil", "Lill", "Lillian", "Lili", "Lillee", "Lillie", "Lilly", "Lily", "Lylli", "Magali", "Maggi", "Maggie", "Maggy", "Magnolia", "Mai", "Maida", "Maisie", "Mamie", "Marabou", "Margaret", "Margarita", "Margo", "Margot", "Marguerita", "Marguerite", "Marshmallow", "Mayme", "Mazie", "Meg", "Megan", "Meggie", "Milk", "Milky", "Miniver", "Mist", "Misti", "Mistie", "Misty", "Myst", "Mysti", "Mystie", "Napoleon", "Pearl", "Pearle", "Pearlina", "Peggy", "Periwinkle", "Rita", "Sherlock", "Sno", "Snow", "Snoball", "Snowball", "Snowbell", "Snowcone", "Snowdrop", "Snowflake", "Snowshoe", "Snowy", "Vanova", "Whitey", "Whitney", "Winter", "Wynn", "Wynter", "Yuki", "Zirconia"]
                     ],
                     [
                       { name: "spotted", description: "Spotted or Patched" },
-                      [ "Bryce", "Button", "Buttons", "Checkers", "Confetti", "Domino", "Dot", "Dots", "Freckles", "Harlequin", "Harlyquin", "Patch", "Patches", "Pinto", "Polkadot", "Speckles", "Splash", "Splotchie", "Spot", "Spots", "Spotty", "Spotz", "Sprinkles", "Tiger Lillie", "Tiger Lilly", "Tiger Lily" ]
+                      ["Bryce", "Button", "Buttons", "Checkers", "Confetti", "Domino", "Dot", "Dots", "Freckles", "Harlequin", "Harlyquin", "Patch", "Patches", "Pinto", "Polkadot", "Speckles", "Splash", "Splotchie", "Spot", "Spots", "Spotty", "Spotz", "Sprinkles", "Tiger Lillie", "Tiger Lilly", "Tiger Lily"]
                     ],
                     [
                       { name: "tabby", description: "Tabby or Striped" },
-                      [ "Bee", "Checkers", "Lynx", "Marble", "Marbles", "Stripe", "Stripes", "Swirl", "Tabbie", "Tabby", "Tartan", "Tiger", "Tigg", "Tigress", "Tyger", "Tygrr", "Zebra" ]
+                      ["Bee", "Checkers", "Lynx", "Marble", "Marbles", "Stripe", "Stripes", "Swirl", "Tabbie", "Tabby", "Tartan", "Tiger", "Tigg", "Tigress", "Tyger", "Tygrr", "Zebra"]
                     ],
                     [
                       { name: "tortoiseshell", description: "Tortoiseshell, Calico or Tricolour" },
-                      [ "Calico", "Checkers", "Chroma", "Confetti", "Farrago", "Graffiti", "Iris", "Isa", "Kallico", "Marble", "Marbles", "Medley", "Melange", "Misto", "Neopolitan", "Patch", "Patches", "Pinto", "Rainbow", "Splash", "Splotchie", "Tai", "Tessera", "Tiger Lillie", "Tiger Lilly", "Tiger Lily", "Tortie", "Torty", "Trinity", "Tufti", "Tufty", "Tutti-Fruitee" ]
+                      ["Calico", "Checkers", "Chroma", "Confetti", "Farrago", "Graffiti", "Iris", "Isa", "Kallico", "Marble", "Marbles", "Medley", "Melange", "Misto", "Neopolitan", "Patch", "Patches", "Pinto", "Rainbow", "Splash", "Splotchie", "Tai", "Tessera", "Tiger Lillie", "Tiger Lilly", "Tiger Lily", "Tortie", "Torty", "Trinity", "Tufti", "Tufty", "Tutti-Fruitee"]
                     ]
                   ])
 

@@ -22,7 +22,7 @@ RSpec.describe MeaningsController, type: :controller do
 
       it "renders details for the meaning and the names associated with it as json" do
         names_array = meaning.names.map do |name|
-          name.as_json(except: [:created_at, :updated_at], include: { gender: { only: :name } } )
+          name.as_json(except: [:created_at, :updated_at], include: { gender: { only: :name } })
         end
 
         expected_data = {
@@ -60,7 +60,7 @@ RSpec.describe MeaningsController, type: :controller do
 
         names_array = meanings.map do |meaning|
           meaning.names.map do |name|
-            name.as_json(except: [:created_at, :updated_at], include: { gender: { only: :name } } )
+            name.as_json(except: [:created_at, :updated_at], include: { gender: { only: :name } })
           end
         end
 
@@ -99,7 +99,7 @@ RSpec.describe MeaningsController, type: :controller do
 
         names_array = meanings.map do |meaning|
           meaning.names.map do |name|
-            name.as_json(except: [:created_at, :updated_at], include: { gender: { only: :name } } )
+            name.as_json(except: [:created_at, :updated_at], include: { gender: { only: :name } })
           end
         end
 
@@ -138,7 +138,7 @@ RSpec.describe MeaningsController, type: :controller do
 
         names_array = meanings.map do |meaning|
           meaning.names.map do |name|
-            name.as_json(except: [:created_at, :updated_at], include: { gender: { only: :name } } )
+            name.as_json(except: [:created_at, :updated_at], include: { gender: { only: :name } })
           end
         end
 

@@ -2,21 +2,13 @@ class MeaningsController < ApplicationController
   def show
     @meaning = Meaning.find(params[:id])
     @language = @meaning.language
-    name_list = @meaning.names
-
-    @names = name_list.map do |name|
-      name.as_json(except: [:created_at, :updated_at], include: { gender: { only: :name } } )
-    end
+    @names = @meaning.names
 
     respond_to do |format|
       format.html
-      format.json {
-        render json:  {
-          meaning: @meaning.as_json(except: [:created_at, :updated_at]),
-          language: @language.as_json(except: [:created_at, :updated_at]),
-          names: @names
-                      }
-      }
+      format.json do
+        render json: JsonFormatter.new.meaning_details(@meaning, @language, @names)
+      end
     end
   end
 
@@ -25,21 +17,19 @@ class MeaningsController < ApplicationController
 
     @names = meanings.map do |meaning|
       meaning.names.map do |name|
-        name.as_json(except: [:created_at, :updated_at], include: { gender: { only: :name } } )
+        name.as_json(except: [:created_at, :updated_at],
+          include: { gender: { only: :name } })
       end
     end
 
     @names.flatten!
-    @names.sort! { | a, b | a["name"] <=> b["name"] }
+    @names.sort! { |a, b| a['name'] <=> b['name'] }
 
     respond_to do |format|
       format.html
-      format.json {
-        render json:  {
-          meaning: 'Cat',
-          names: @names
-        }
-      }
+      format.json do
+        render json: JsonFormatter.new.animal_meanings('Cat', @names)
+      end
     end
   end
 
@@ -48,21 +38,22 @@ class MeaningsController < ApplicationController
 
     @names = meanings.map do |meaning|
       meaning.names.map do |name|
-        name.as_json(except: [:created_at, :updated_at], include: { gender: { only: :name } } )
+        name.as_json(except: [:created_at, :updated_at],
+          include: { gender: { only: :name } })
       end
     end
 
     @names.flatten!
-    @names.sort! { |a, b| a["name"] <=> b["name"] }
+    @names.sort! { |a, b| a['name'] <=> b['name'] }
 
     respond_to do |format|
       format.html
-      format.json {
+      format.json do
         render json:  {
           meaning: 'Dog',
           names: @names
         }
-      }
+      end
     end
   end
 
@@ -71,21 +62,22 @@ class MeaningsController < ApplicationController
 
     @names = meanings.map do |meaning|
       meaning.names.map do |name|
-        name.as_json(except: [:created_at, :updated_at], include: { gender: { only: :name } } )
+        name.as_json(except: [:created_at, :updated_at],
+          include: { gender: { only: :name } })
       end
     end
 
     @names.flatten!
-    @names.sort! { |a, b| a["name"] <=> b["name"] }
+    @names.sort! { |a, b| a['name'] <=> b['name'] }
 
     respond_to do |format|
       format.html
-      format.json {
+      format.json do
         render json:  {
-          meaning: "Bird",
+          meaning: 'Bird',
           names: @names
         }
-      }
+      end
     end
   end
 end

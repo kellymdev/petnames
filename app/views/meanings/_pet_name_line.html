@@ -1,0 +1,8 @@
+<li class="<%= name["gender"]["name"].downcase if name["gender_id"] %>">
+  <i class="fa fa-paw"></i>
+  <a href="/names/<%= name["id"] %>"><%= name["name"] %> </a>
+
+  <% if name["gender_id"] %>
+    (<%= name["gender"]["name"] %>)
+  <% end %>
+</li>

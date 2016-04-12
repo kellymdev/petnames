@@ -6,36 +6,22 @@ class NamesController < ApplicationController
 
   def by_letter
     @letter = params[:letter]
-    @names = Name.where("name LIKE ?", "#{params[:letter]}%").order(:name).as_json(
-      except: [:created_at, :updated_at],
-      include: {
-        gender: {
-          only: :name
-        }
-      }
-    )
+    @names = Name.where("name LIKE ?", "#{params[:letter]}%").order(:name)
 
     respond_to do |format|
       format.html { render :index }
-      format.json { render json: @names }
+      format.json { render json: JsonFormatter.new.name_list(@names) }
     end
   end
 
   def show
     @name = Name.find(params[:id])
-    meaning_array = @name.meanings.map do |meaning|
-      meaning.as_json(except: [:created_at, :updated_at], include: { language: { only: :name } } )
-    end
 
     respond_to do |format|
       format.html
-      format.json {
-        render json:  {
-          name: @name.as_json(except: [:created_at, :updated_at]),
-          gender: @name.gender.as_json(except: [:created_at, :updated_at]),
-          meanings: meaning_array
-                      }
-      }
+      format.json do
+        render json: JsonFormatter.new.name_details(@name)
+      end
     end
   end
 
@@ -58,13 +44,9 @@ class NamesController < ApplicationController
 
     respond_to do |format|
       format.html
-      format.json {
-        render json:  {
-          female: @female_name.as_json(except: [:created_at, :updated_at]),
-          male: @male_name.as_json(except: [:created_at, :updated_at]),
-          both: @both_name.as_json(except: [:created_at, :updated_at])
-        }
-      }
+      format.json do
+        render json: JsonFormatter.new.random_names(@female_name, @male_name, @both_name)
+      end
     end
   end
 end

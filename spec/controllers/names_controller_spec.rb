@@ -57,7 +57,7 @@ RSpec.describe NamesController, type: :controller do
 
         it "renders the details for the name as json" do
           meaning_array = name.meanings.map do |meaning|
-            meaning.as_json(except: [:created_at, :updated_at], include: { language: { only: :name } } )
+            meaning.as_json(except: [:created_at, :updated_at], include: { language: { only: :name } })
           end
 
           expected_data = {
@@ -81,7 +81,7 @@ RSpec.describe NamesController, type: :controller do
 
         it "renders the details for the name as json" do
           meaning_array = name.meanings.map do |meaning|
-            meaning.as_json(except: [:created_at, :updated_at], include: { language: { only: :name } } )
+            meaning.as_json(except: [:created_at, :updated_at], include: { language: { only: :name } })
           end
 
           expected_data = {

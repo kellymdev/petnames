@@ -5,7 +5,7 @@ RSpec.describe PairsController, type: :controller do
 
   describe "get '#index'" do
     context "when json is requested" do
-      before { get :index, format: :json }
+      before { get :index, params: { format: :json } }
 
       it "returns http status 200" do
         expect(response.status).to eq(200)

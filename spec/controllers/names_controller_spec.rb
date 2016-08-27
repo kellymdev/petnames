@@ -25,7 +25,7 @@ RSpec.describe NamesController, type: :controller do
     let!(:bname) { create(:name, name: "Brad") }
 
     context "when json is requested" do
-      before { get :by_letter, letter: "A", format: :json }
+      before { get :by_letter, params: { letter: "A", format: :json } }
 
       it "returns http status 200" do
         expect(response.status).to eq(200)
@@ -37,7 +37,7 @@ RSpec.describe NamesController, type: :controller do
     end
 
     context "when html is requested" do
-      before { get :by_letter, letter: "A" }
+      before { get :by_letter, params: { letter: "A" } }
 
       it { is_expected.to render_template :index }
     end
@@ -48,7 +48,7 @@ RSpec.describe NamesController, type: :controller do
       context "the meaning has a language associated with it" do
         before do
           meaning.names << name
-          get :show, id: name.id, format: :json
+          get :show, params: { id: name.id, format: :json }
         end
 
         it "returns http status 200" do
@@ -72,7 +72,7 @@ RSpec.describe NamesController, type: :controller do
       context "the meaning doesn't have a language associated with it" do
         before do
           meaning_without_language.names << name
-          get :show, id: name.id, format: :json
+          get :show, params: { id: name.id, format: :json }
         end
 
         it "returns http status 200" do
@@ -95,14 +95,14 @@ RSpec.describe NamesController, type: :controller do
     end
 
     context "when html is requested" do
-      before { get :show, id: name.id }
+      before { get :show, params: { id: name.id } }
 
       it { is_expected.to render_template :show }
     end
   end
 
   describe "get 'names#search'" do
-    before { get :search, query: "Jes" }
+    before { get :search, params: { query: "Jes" } }
 
     it "returns http status 200" do
       expect(response.status).to eq(200)
@@ -130,7 +130,7 @@ RSpec.describe NamesController, type: :controller do
     let!(:both_name) { create(:name, gender_id: both.id) }
 
     context "when json is requested" do
-      before { get :random, format: :json }
+      before { get :random, params: { format: :json } }
 
       it "returns http status 200" do
         expect(response.status).to eq(200)

@@ -20,7 +20,7 @@ RSpec.describe CoatColoursController, type: :controller do
 
     context "when json is requested" do
       before do
-        get :show, colour: coat_colour.name, format: :json
+        get :show, params: { colour: coat_colour.name, format: :json }
       end
 
       it "returns http status 200" do
@@ -46,7 +46,7 @@ RSpec.describe CoatColoursController, type: :controller do
   end
 
   context "when html is requested" do
-    before { get :show, colour: coat_colour.name }
+    before { get :show, params: { colour: coat_colour.name } }
 
     it { is_expected.to render_template :show }
   end

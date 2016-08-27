@@ -13,7 +13,7 @@ RSpec.describe MeaningsController, type: :controller do
 
     context "when json is requested" do
       before do
-        get :show, id: meaning.id, format: :json
+        get :show, params: { id: meaning.id, format: :json }
       end
 
       it "returns http status 200" do
@@ -35,7 +35,7 @@ RSpec.describe MeaningsController, type: :controller do
     end
 
     context "when html is requested" do
-      before { get :show, id: meaning.id }
+      before { get :show, params: { id: meaning.id } }
 
       it { is_expected.to render_template :show }
     end
@@ -49,7 +49,7 @@ RSpec.describe MeaningsController, type: :controller do
     end
 
     context "when json is requested" do
-      before { get :cat, format: :json }
+      before { get :cat, params: { format: :json } }
 
       it "returns http status 200" do
         expect(response.status).to eq(200)
@@ -88,7 +88,7 @@ RSpec.describe MeaningsController, type: :controller do
     end
 
     context "when json is requested" do
-      before { get :dog, format: :json }
+      before { get :dog, params: { format: :json } }
 
       it "returns http status 200" do
         expect(response.status).to eq(200)
@@ -127,7 +127,7 @@ RSpec.describe MeaningsController, type: :controller do
     end
 
     context "when json is requested" do
-      before { get :bird, format: :json }
+      before { get :bird, params: { format: :json } }
 
       it "returns http status 200" do
         expect(response.status).to eq(200)

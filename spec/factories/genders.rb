@@ -1,4 +1,4 @@
-FactoryGirl.define do
+FactoryBot.define do
   factory :gender do
     name "Female"
     abbreviation "F"

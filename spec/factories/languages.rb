@@ -1,5 +1,5 @@
 FactoryBot.define do
   factory :language do
-    name "French"
+    name { "French" }
   end
 end

@@ -38,9 +38,9 @@ class NamesController < ApplicationController
   end
 
   def random
-    @female_name = Name.where(gender_id: Gender.where(name: "Female")).order("random()").first
-    @male_name = Name.where(gender_id: Gender.where(name: "Male")).order("random()").first
-    @both_name = Name.where(gender_id: Gender.where(name: "Both")).order("random()").first
+    @female_name = Name.where(gender_id: Gender.where(name: "Female")).order(Arel.sql("random()")).first
+    @male_name = Name.where(gender_id: Gender.where(name: "Male")).order(Arel.sql("random()")).first
+    @both_name = Name.where(gender_id: Gender.where(name: "Both")).order(Arel.sql("random()")).first
 
     respond_to do |format|
       format.html
